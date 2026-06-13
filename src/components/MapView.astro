@@ -1,0 +1,40 @@
+---
+/**
+ * MapView — a self-contained mini map for detail pages. Renders a container + embedded
+ * record data and boots the shared Leaflet engine focused on the given point. For the
+ * full, filterable map see src/pages/map.astro (which uses the same engine directly).
+ */
+import type { IndexRecord } from "../lib/types";
+
+interface Props {
+  records: IndexRecord[];
+  center: [number, number];
+  zoom?: number;
+  cluster?: boolean;
+  heightClass?: string;
+  id?: string;
+}
+const { records, center, zoom = 12, cluster = false, heightClass = "h-72", id = "mini-map" } = Astro.props;
+const cfg = { center, zoom, cluster };
+---
+
+<div
+  id={id}
+  class={`w-full overflow-hidden rounded-2xl border border-line ${heightClass}`}
+  data-map-config={JSON.stringify(cfg)}
+>
+  <script type="application/json" class="rj-map-data" set:html={JSON.stringify(records)} is:inline />
+</div>
+
+<script>
+  import { createMap } from "../scripts/leaflet-map";
+  import type { IndexRecord } from "../lib/types";
+
+  document.querySelectorAll<HTMLElement>("[data-map-config]").forEach((el) => {
+    const cfg = JSON.parse(el.dataset.mapConfig!);
+    const dataEl = el.querySelector(".rj-map-data");
+    const records: IndexRecord[] = dataEl?.textContent ? JSON.parse(dataEl.textContent) : [];
+    const handle = createMap({ el, center: cfg.center, zoom: cfg.zoom, cluster: cfg.cluster });
+    handle.setRecords(records);
+  });
+</script>

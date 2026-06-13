@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🗺️ Browse Roadside Japan
+    url: https://jasonsheinkopf.github.io/roadside_japan/
+    about: Explore the live atlas.
+  - name: 📖 Contributing guide
+    url: https://github.com/jasonsheinkopf/roadside_japan/blob/main/CONTRIBUTING.md
+    about: How submissions become published entries.

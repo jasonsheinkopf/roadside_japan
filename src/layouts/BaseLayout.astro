@@ -1,0 +1,124 @@
+---
+/**
+ * BaseLayout — the single HTML shell every page uses.
+ *
+ * Responsibilities: <head> (SEO, Open Graph, Twitter, canonical, favicons),
+ * PWA wiring (manifest, theme-color, service-worker registration), the no-FOUC
+ * dark-mode bootstrap, responsive viewport (notch-safe), header, footer, and a
+ * skip-link for accessibility. Pages pass title/description/image; everything else
+ * has sane defaults.
+ *
+ * Mobile/desktop: this is a responsive, mobile-first layout. There is no device
+ * sniffing — CSS breakpoints adapt the same markup to phone, tablet, and desktop,
+ * which is more reliable than user-agent detection. The viewport meta + PWA manifest
+ * make it feel app-like when added to a phone home screen.
+ */
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { withBase } from "../lib/url";
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** OG image — absolute URL or site-relative path. Defaults to the brand card. */
+  image?: string;
+  /** Set true to drop the page from search indexing (admin, etc.). */
+  noindex?: boolean;
+  /** Full-bleed pages (the map) hide the footer and remove main padding. */
+  fullBleed?: boolean;
+  /** Optional JSON-LD structured data object. */
+  jsonLd?: Record<string, unknown>;
+  bodyClass?: string;
+}
+
+const {
+  title,
+  description = "Discover the Japan most tourists never see — hidden gems, weird attractions, seasonal events, strange museums, giant statues, scenic drives and roadside stops across all 47 prefectures.",
+  image,
+  noindex = false,
+  fullBleed = false,
+  jsonLd,
+  bodyClass = "",
+} = Astro.props;
+
+const SITE_NAME = "Roadside Japan";
+const fullTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} — Discover the Japan most tourists never see`;
+
+const site = Astro.site ?? new URL("https://example.com");
+const canonical = new URL(Astro.url.pathname, site).href;
+const ogImage = image
+  ? image.startsWith("http")
+    ? image
+    : new URL(withBase(image), site).href
+  : new URL(withBase("/og.png"), site).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+
+    <!-- Icons & PWA -->
+    <link rel="icon" type="image/svg+xml" href={withBase("/icon.svg")} />
+    <link rel="icon" type="image/png" sizes="32x32" href={withBase("/favicon-32.png")} />
+    <link rel="apple-touch-icon" href={withBase("/apple-touch-icon.png")} />
+    <link rel="manifest" href={withBase("/manifest.webmanifest")} />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fbf7ef" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#14161b" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Roadside JP" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <link rel="alternate" type="application/rss+xml" title="Roadside Japan — newest" href={withBase("/rss.xml")} />
+
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+    <!-- No-FOUC theme bootstrap: runs before paint. -->
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          var dark = t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class={bodyClass}>
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:m-2 focus:rounded-lg focus:bg-sun focus:px-3 focus:py-2 focus:text-white">Skip to content</a>
+
+    <Header />
+
+    <main id="main" class={fullBleed ? "" : "mx-auto w-full max-w-6xl px-4 sm:px-6"}>
+      <slot />
+    </main>
+
+    {!fullBleed && <Footer />}
+
+    <!-- Progressive PWA: register the offline-capable service worker. -->
+    <script is:inline define:vars={{ swUrl: withBase("/sw.js"), scope: withBase("/") }}>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register(swUrl, { scope: scope }).catch(function () {});
+        });
+      }
+    </script>
+  </body>
+</html>

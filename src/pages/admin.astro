@@ -1,0 +1,324 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getPendingEntries, getIndexRecords } from "../lib/content";
+import { SITE } from "../data/site";
+
+const { attractions: pendingA, events: pendingE } = await getPendingEntries();
+const pending = [
+  ...pendingA.map((e) => ({ ...e, collection: "attractions" as const })),
+  ...pendingE.map((e) => ({ ...e, collection: "events" as const })),
+];
+const records = await getIndexRecords();
+const stats = {
+  published: records.length,
+  pending: pending.length,
+  prefectures: new Set(records.map((r) => r.prefecture)).size,
+  ai: records.filter((r) => r.keywords.length > 0).length,
+};
+
+const examplePrompts = [
+  "Find unusual festivals in Hokkaido",
+  "Giant statues in Kyushu",
+  "Roadside attractions near Nikko",
+  "Things that peak in October",
+  "Weird museums in Osaka",
+];
+---
+
+<BaseLayout title="Admin & AI tools" noindex>
+  <div class="py-8">
+    <header class="mb-6">
+      <h1 class="font-display text-3xl font-bold sm:text-4xl">Admin & AI tools</h1>
+      <p class="mt-2 max-w-2xl text-ink-soft">
+        The control room. Use the AI research assistant to discover and draft new places,
+        then review the queue. These tools run against a <strong>local agent server</strong>
+        on your machine — see “Run it yourself” below.
+      </p>
+    </header>
+
+    <!-- Stats -->
+    <div class="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      {
+        [
+          { k: "Published", v: stats.published },
+          { k: "In review", v: stats.pending },
+          { k: "Prefectures", v: stats.prefectures },
+          { k: "AI-tagged", v: stats.ai },
+        ].map((s) => (
+          <div class="card p-4 text-center">
+            <div class="font-display text-3xl font-bold text-sun">{s.v}</div>
+            <div class="text-xs uppercase tracking-wide text-ink-soft">{s.k}</div>
+          </div>
+        ))
+      }
+    </div>
+
+    <!-- AI RESEARCH ASSISTANT -->
+    <section class="card p-5">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <h2 class="font-display text-xl font-bold">🤖 AI research assistant</h2>
+        <div class="flex items-center gap-2 text-sm">
+          <span id="agent-status" class="inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-2.5 py-1">
+            <span id="agent-dot" class="h-2 w-2 rounded-full bg-ink-soft"></span>
+            <span id="agent-status-text">Not connected</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="mt-3 flex flex-wrap items-end gap-2">
+        <label class="text-sm">
+          <span class="mb-1 block text-ink-soft">Agent server</span>
+          <input id="agent-endpoint" value="http://localhost:8787" class="w-56 rounded-lg border border-line bg-surface px-3 py-1.5 text-sm outline-none focus:border-sun" />
+        </label>
+        <label class="text-sm">
+          <span class="mb-1 block text-ink-soft">Provider</span>
+          <select id="agent-provider" class="rounded-lg border border-line bg-surface px-3 py-1.5 text-sm outline-none focus:border-sun" disabled></select>
+        </label>
+        <label class="text-sm">
+          <span class="mb-1 block text-ink-soft">Model</span>
+          <select id="agent-model" class="rounded-lg border border-line bg-surface px-3 py-1.5 text-sm outline-none focus:border-sun" disabled></select>
+        </label>
+        <button id="agent-connect" class="btn btn-ghost">Connect</button>
+      </div>
+
+      <div id="agent-offline" class="mt-3 rounded-lg border border-gold/40 bg-gold/10 p-3 text-sm" hidden>
+        Couldn't reach the agent server. Start it locally with <code class="rounded bg-surface-2 px-1">npm run agent:server</code>
+        (see “Run it yourself”). The public site can't reach <code class="rounded bg-surface-2 px-1">localhost</code>; run the
+        site locally with <code class="rounded bg-surface-2 px-1">npm run dev</code> for the full workflow.
+      </div>
+
+      <div class="mt-4 flex flex-wrap gap-1.5">
+        {examplePrompts.map((p) => <button class="chip agent-example" type="button">{p}</button>)}
+      </div>
+
+      <div id="agent-log" class="mt-4 space-y-3"></div>
+
+      <form id="agent-form" class="mt-4 flex items-center gap-2">
+        <input id="agent-input" placeholder="Ask the assistant to find places…" class="flex-1 rounded-full border border-line bg-surface px-4 py-2.5 outline-none focus:border-sun" disabled />
+        <button id="agent-send" type="submit" class="btn btn-primary" disabled>Research</button>
+      </form>
+
+      <div id="agent-results" class="mt-5 grid gap-4"></div>
+    </section>
+
+    <!-- REVIEW QUEUE -->
+    <section class="mt-8">
+      <h2 class="font-display text-xl font-bold">Review queue <span class="text-ink-soft">({pending.length})</span></h2>
+      <p class="mb-3 text-sm text-ink-soft">
+        Items awaiting moderation. To approve, change <code class="rounded bg-surface-2 px-1">approval: pending</code>
+        to <code class="rounded bg-surface-2 px-1">published</code> in the file (or use the agent's save step).
+      </p>
+      {
+        pending.length === 0 ? (
+          <p class="card p-6 text-ink-soft">Queue is empty. 🎉</p>
+        ) : (
+          <ul class="space-y-2">
+            {pending.map((e) => (
+              <li class="card flex flex-wrap items-center justify-between gap-3 p-4">
+                <div>
+                  <p class="font-semibold">{e.data.title}</p>
+                  <p class="text-xs text-ink-soft">
+                    {e.collection} · {e.data.prefecture} · {e.data.source} · {e.data.submittedBy}
+                    {typeof e.data.confidence === "number" && ` · ${Math.round(e.data.confidence * 100)}% conf.`}
+                  </p>
+                </div>
+                <a
+                  href={`${SITE.repo}/edit/main/src/content/${e.collection}/${e.id}.md`}
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-ghost text-sm"
+                >
+                  Review on GitHub →
+                </a>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </section>
+
+    <!-- MODERATION + RUN IT YOURSELF -->
+    <div class="mt-8 grid gap-6 lg:grid-cols-2">
+      <section class="card p-5">
+        <h2 class="font-display text-lg font-bold">Moderation</h2>
+        <ul class="mt-2 space-y-1.5 text-sm">
+          <li><a class="link-underline text-sun" href={`${SITE.repo}/issues?q=is%3Aissue+is%3Aopen+label%3Asubmission`} target="_blank" rel="noopener">📥 Open submissions</a></li>
+          <li><a class="link-underline text-sun" href={`${SITE.repo}/issues?q=is%3Aissue+is%3Aopen+label%3Acomment`} target="_blank" rel="noopener">💬 Pending comments</a></li>
+          <li><a class="link-underline text-sun" href={`${SITE.repo}/pulls`} target="_blank" rel="noopener">🔀 Open pull requests</a></li>
+        </ul>
+        <p class="mt-3 text-xs text-ink-soft">Removing content = delete the file or revert the commit. Everything is version-controlled.</p>
+      </section>
+
+      <section class="card p-5">
+        <h2 class="font-display text-lg font-bold">Run it yourself</h2>
+        <pre class="mt-2 overflow-auto rounded-lg bg-surface-2 p-3 text-xs"><code>cp .env.example .env   # add provider keys (optional)
+npm run agent:server   # start the local agent API (:8787)
+npm run dev            # start the site, then Connect above
+
+# or one-shot from the CLI:
+npm run agent -- research "giant statues in Kyushu"</code></pre>
+        <p class="mt-2 text-xs text-ink-soft">Works with Ollama (local, free), OpenAI, Anthropic, or Gemini. See docs/AI_AGENTS.md.</p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  // ---- AI research assistant client (talks to the local agent server) ----
+  const $ = (id: string) => document.getElementById(id)!;
+  const endpointEl = $("agent-endpoint") as HTMLInputElement;
+  const providerEl = $("agent-provider") as HTMLSelectElement;
+  const modelEl = $("agent-model") as HTMLSelectElement;
+  const statusText = $("agent-status-text");
+  const dot = $("agent-dot");
+  const offline = $("agent-offline") as HTMLElement;
+  const log = $("agent-log");
+  const results = $("agent-results");
+  const input = $("agent-input") as HTMLInputElement;
+  const sendBtn = $("agent-send") as HTMLButtonElement;
+
+  type Provider = { id: string; label: string; models: string[]; available: boolean };
+  let providers: Provider[] = [];
+
+  try {
+    const saved = localStorage.getItem("rj-agent-endpoint");
+    if (saved) endpointEl.value = saved;
+  } catch {}
+
+  function setStatus(state: "on" | "off" | "busy", text: string) {
+    statusText.textContent = text;
+    dot.style.background = state === "on" ? "var(--pine)" : state === "busy" ? "var(--gold)" : "var(--ink-soft)";
+  }
+  function enable(on: boolean) {
+    [providerEl, modelEl, input, sendBtn].forEach((el) => ((el as HTMLInputElement).disabled = !on));
+  }
+  function base() {
+    return endpointEl.value.replace(/\/$/, "");
+  }
+  function fillModels() {
+    const p = providers.find((x) => x.id === providerEl.value);
+    modelEl.innerHTML = (p?.models ?? []).map((m) => `<option>${m}</option>`).join("");
+  }
+
+  async function connect() {
+    setStatus("busy", "Connecting…");
+    offline.hidden = true;
+    try {
+      localStorage.setItem("rj-agent-endpoint", endpointEl.value);
+    } catch {}
+    try {
+      const res = await fetch(`${base()}/api/health`);
+      const data = await res.json();
+      providers = (data.providers ?? []).filter((p: Provider) => p.available);
+      providerEl.innerHTML = providers.map((p) => `<option value="${p.id}">${p.label}</option>`).join("");
+      if (data.default?.provider) providerEl.value = data.default.provider;
+      fillModels();
+      if (data.default?.model) modelEl.value = data.default.model;
+      if (!providers.length) {
+        setStatus("off", "No providers configured");
+        offline.hidden = false;
+        offline.textContent = "Connected, but no AI providers are configured. Add a key to .env or run Ollama locally.";
+        return;
+      }
+      enable(true);
+      setStatus("on", "Connected");
+    } catch {
+      setStatus("off", "Offline");
+      enable(false);
+      offline.hidden = false;
+    }
+  }
+
+  function bubble(role: "you" | "ai", text: string) {
+    const el = document.createElement("div");
+    el.className = role === "you" ? "text-right" : "";
+    el.innerHTML = `<span class="inline-block max-w-[85%] rounded-2xl px-3 py-2 text-sm ${role === "you" ? "bg-sun text-white" : "bg-surface-2"}">${text}</span>`;
+    log.appendChild(el);
+    log.scrollIntoView({ block: "end" });
+  }
+
+  function candidateCard(c: any) {
+    const fm = c.frontmatter ?? {};
+    const conf = typeof c.confidence === "number" ? Math.round(c.confidence * 100) : null;
+    const sources = (c.sources ?? []).map((s: any) => `<a class="link-underline text-sun" target="_blank" rel="noopener" href="${s.url}">${s.title}</a>`).join(" · ");
+    const wrap = document.createElement("div");
+    wrap.className = "card p-4";
+    wrap.innerHTML = `
+      <div class="flex items-start justify-between gap-3">
+        <div>
+          <h3 class="font-display text-lg font-semibold">${fm.title ?? "Untitled"}</h3>
+          <p class="text-xs text-ink-soft">${fm.category ?? "?"} · ${fm.prefecture ?? "?"}${fm.city ? ", " + fm.city : ""}${conf !== null ? " · " + conf + "% confidence" : ""}</p>
+        </div>
+      </div>
+      <p class="mt-2 text-sm">${fm.summary ?? ""}</p>
+      ${c.reasoning ? `<p class="mt-2 text-xs text-ink-soft"><strong>Why:</strong> ${c.reasoning}</p>` : ""}
+      ${sources ? `<p class="mt-2 text-xs">Sources: ${sources}</p>` : ""}
+      <details class="mt-2"><summary class="cursor-pointer text-xs text-ink-soft">Preview entry file</summary><pre class="mt-2 max-h-64 overflow-auto rounded-lg bg-surface-2 p-2 text-xs"><code></code></pre></details>
+      <div class="mt-3 flex items-center gap-2">
+        <button class="btn btn-primary text-sm approve">✓ Approve → queue</button>
+        <button class="btn btn-ghost text-sm dismiss">Dismiss</button>
+        <span class="save-status text-sm text-ink-soft"></span>
+      </div>`;
+    wrap.querySelector("code")!.textContent = c.markdown ?? "";
+    wrap.querySelector(".dismiss")!.addEventListener("click", () => wrap.remove());
+    wrap.querySelector(".approve")!.addEventListener("click", async () => {
+      const ss = wrap.querySelector(".save-status")!;
+      ss.textContent = "Saving…";
+      try {
+        const res = await fetch(`${base()}/api/save`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ candidate: c, approval: "pending" }),
+        });
+        const out = await res.json();
+        ss.textContent = out.ok ? `Saved → ${out.path} (rebuild to see it)` : `Error: ${out.error ?? "failed"}`;
+        (wrap.querySelector(".approve") as HTMLButtonElement).disabled = true;
+      } catch {
+        ss.textContent = "Save failed (is the agent server running?)";
+      }
+    });
+    return wrap;
+  }
+
+  async function research(query: string) {
+    bubble("you", query);
+    bubble("ai", "Researching…");
+    sendBtn.disabled = true;
+    try {
+      const res = await fetch(`${base()}/api/research`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query, provider: providerEl.value, model: modelEl.value }),
+      });
+      const data = await res.json();
+      log.lastElementChild?.remove();
+      const candidates = data.candidates ?? [];
+      bubble("ai", candidates.length ? `Found ${candidates.length} candidate${candidates.length === 1 ? "" : "s"}. Review below.` : "No candidates found — try rephrasing.");
+      results.innerHTML = "";
+      candidates.forEach((c: any) => results.appendChild(candidateCard(c)));
+    } catch (e) {
+      log.lastElementChild?.remove();
+      bubble("ai", "Something went wrong reaching the agent server.");
+    } finally {
+      sendBtn.disabled = false;
+    }
+  }
+
+  $("agent-connect").addEventListener("click", connect);
+  providerEl.addEventListener("change", fillModels);
+  document.querySelectorAll(".agent-example").forEach((b) =>
+    b.addEventListener("click", () => {
+      input.value = (b as HTMLElement).textContent!.trim();
+      if (!input.disabled) input.focus();
+    }),
+  );
+  $("agent-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const q = input.value.trim();
+    if (q) research(q);
+    input.value = "";
+  });
+
+  // Auto-attempt connection on load (silent on failure).
+  connect();
+</script>

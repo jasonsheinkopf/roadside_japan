@@ -1,0 +1,25 @@
+---
+import CollectionPage from "../../components/CollectionPage.astro";
+import { getIndexRecords } from "../../lib/content";
+import { tagMeta } from "../../data/tags";
+import { exploreUrl } from "../../lib/url";
+
+export async function getStaticPaths() {
+  const records = await getIndexRecords();
+  const tags = new Set<string>();
+  for (const r of records) for (const t of r.tags) tags.add(t);
+  return [...tags].map((tag) => ({ params: { tag }, props: { tag } }));
+}
+
+const { tag } = Astro.props;
+const meta = tagMeta(tag);
+const records = (await getIndexRecords()).filter((r) => r.tags.includes(tag));
+---
+
+<CollectionPage
+  title={meta.label}
+  heading={`${meta.icon} ${meta.label}`}
+  description={`Discoveries tagged “${meta.label}” across Japan.`}
+  records={records}
+  exploreHref={exploreUrl()}
+/>

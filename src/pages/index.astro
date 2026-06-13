@@ -1,0 +1,208 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import AttractionCard from "../components/AttractionCard.astro";
+import { getIndexRecords } from "../lib/content";
+import { matchesMonth } from "../lib/filters";
+import { CATEGORY_META } from "../data/categories";
+import { SEASON_LABEL, MONTH_LABEL, seasonForMonth } from "../data/vocab";
+import { SEASON_EMOJI } from "../lib/format";
+import { prefecturesByRegion, REGIONS } from "../data/prefectures";
+import { withBase, exploreUrl, mapUrl } from "../lib/url";
+
+const records = await getIndexRecords();
+
+const month = new Date().getMonth() + 1;
+const season = seasonForMonth(month);
+
+const featured = records.filter((r) => r.featured && r.collection === "attractions");
+const featuredList = (featured.length ? featured : records.filter((r) => r.collection === "attractions")).slice(0, 6);
+
+const events = records.filter((r) => r.collection === "events");
+const eventsList = (events.filter((r) => r.featured).concat(events).filter((v, i, a) => a.indexOf(v) === i)).slice(0, 3);
+
+const newest = [...records].sort((a, b) => +new Date(b.createdAt) - +new Date(a.createdAt)).slice(0, 4);
+
+// Genuinely seasonal items active this month (excludes year-round entries).
+const inSeasonNow = records
+  .filter((r) => (r.months.length > 0 || r.seasons.length > 0) && matchesMonth(r, month))
+  .slice(0, 4);
+
+const stats = {
+  total: records.length,
+  attractions: records.filter((r) => r.collection === "attractions").length,
+  events: events.length,
+  prefectures: new Set(records.map((r) => r.prefecture)).size,
+};
+
+const quickChips = [
+  { label: "Hidden gems", icon: "💎", href: `${exploreUrl()}?f=hidden-gem` },
+  { label: `In season (${SEASON_LABEL[season]})`, icon: SEASON_EMOJI[season], href: `${exploreUrl()}?f=in-season-now` },
+  { label: "Free", icon: "🆓", href: `${exploreUrl()}?f=free` },
+  { label: "Weird", icon: "🛸", href: `${exploreUrl()}?f=oddity` },
+  { label: "Rainy day", icon: "🌧️", href: `${exploreUrl()}?f=rainy-day` },
+];
+
+const regions = prefecturesByRegion();
+const prefCounts = new Map<string, number>();
+for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefecture) ?? 0) + 1);
+---
+
+<BaseLayout>
+  <!-- HERO -->
+  <section class="bg-topo -mx-4 px-4 sm:-mx-6 sm:px-6">
+    <div class="mx-auto max-w-3xl py-14 text-center sm:py-20">
+      <p class="mb-3 inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-ink-soft">
+        🗾 The Roadside America of Japan · {stats.total} discoveries and counting
+      </p>
+      <h1 class="font-display text-4xl font-bold leading-tight sm:text-6xl">
+        Discover the Japan most<br class="hidden sm:block" /> tourists <span class="text-sun">never see</span>.
+      </h1>
+      <p class="mx-auto mt-4 max-w-xl text-lg text-ink-soft">
+        Weird attractions, strange museums, seasonal festivals, giant statues, scenic
+        detours, and roadside oddities — an atlas for the curious.
+      </p>
+
+      <form action={exploreUrl()} method="get" role="search" class="mx-auto mt-7 flex max-w-lg items-center gap-2">
+        <div class="flex flex-1 items-center rounded-full border border-line bg-surface px-4 py-2.5 shadow-sm focus-within:border-sun">
+          <span aria-hidden="true" class="text-ink-soft">🔍</span>
+          <input
+            type="search"
+            name="q"
+            placeholder="Search places, themes, prefectures…"
+            class="w-full bg-transparent px-3 text-base outline-none placeholder:text-ink-soft"
+            aria-label="Search discoveries"
+          />
+          <button type="submit" class="btn btn-primary -mr-2 px-4 py-1.5 text-sm">Go</button>
+        </div>
+      </form>
+
+      <div class="mt-4 flex flex-wrap items-center justify-center gap-2">
+        {quickChips.map((c) => <a href={c.href} class="chip">{c.icon} {c.label}</a>)}
+      </div>
+
+      <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+        <a href={mapUrl()} class="btn btn-primary">🗺️ Open the map</a>
+        <a href={withBase("/random")} class="btn btn-ghost">🎲 Surprise me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- IN SEASON NOW -->
+  {
+    inSeasonNow.length > 0 && (
+      <section class="mt-12">
+        <div class="flex items-end justify-between gap-4">
+          <div>
+            <h2 class="font-display text-2xl font-bold">
+              {SEASON_EMOJI[season]} In season right now
+            </h2>
+            <p class="text-sm text-ink-soft">Worth catching in {MONTH_LABEL[month]} — before the window closes.</p>
+          </div>
+          <a href={`${exploreUrl()}?f=in-season-now`} class="shrink-0 text-sm font-medium link-underline">See all →</a>
+        </div>
+        <div class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {inSeasonNow.map((r) => <AttractionCard record={r} />)}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- FEATURED DISCOVERIES -->
+  <section class="mt-14">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="font-display text-2xl font-bold">✦ Featured discoveries</h2>
+      <a href={exploreUrl()} class="shrink-0 text-sm font-medium link-underline">Explore all →</a>
+    </div>
+    <div class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {featuredList.map((r) => <AttractionCard record={r} />)}
+    </div>
+  </section>
+
+  <!-- BROWSE BY CATEGORY -->
+  <section class="mt-14">
+    <h2 class="font-display text-2xl font-bold">Browse by theme</h2>
+    <div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
+      {
+        Object.entries(CATEGORY_META).map(([id, c]) => (
+          <a
+            href={`${exploreUrl()}?cat=${id}`}
+            class="card group flex flex-col items-center gap-1 px-3 py-5 text-center transition hover:-translate-y-0.5 hover:border-sun"
+          >
+            <span class="text-3xl transition group-hover:scale-110">{c.emoji}</span>
+            <span class="text-sm font-semibold">{c.label}</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- SEASONAL EVENTS -->
+  {
+    eventsList.length > 0 && (
+      <section class="mt-14">
+        <div class="flex items-end justify-between gap-4">
+          <h2 class="font-display text-2xl font-bold">🎏 Featured seasonal events</h2>
+          <a href={withBase("/events")} class="shrink-0 text-sm font-medium link-underline">All events →</a>
+        </div>
+        <div class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {eventsList.map((r) => <AttractionCard record={r} />)}
+        </div>
+      </section>
+    )
+  }
+
+  <!-- NEWEST -->
+  <section class="mt-14">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="font-display text-2xl font-bold">🆕 Newest additions</h2>
+      <a href={`${exploreUrl()}?sort=newest`} class="shrink-0 text-sm font-medium link-underline">More →</a>
+    </div>
+    <div class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      {newest.map((r) => <AttractionCard record={r} />)}
+    </div>
+  </section>
+
+  <!-- BROWSE BY REGION -->
+  <section class="mt-14">
+    <h2 class="font-display text-2xl font-bold">Browse by region</h2>
+    <div class="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        REGIONS.map((region) => {
+          const count = regions[region].reduce((n, p) => n + (prefCounts.get(p.slug) ?? 0), 0);
+          return (
+            <div class="card p-4">
+              <h3 class="font-display text-lg font-semibold">{region}</h3>
+              <p class="mb-2 text-xs text-ink-soft">{count} discoveries</p>
+              <div class="flex flex-wrap gap-1.5">
+                {regions[region].map((p) => (
+                  <a
+                    href={withBase(`/prefectures/${p.slug}`)}
+                    class:list={["rounded-full px-2 py-0.5 text-xs", (prefCounts.get(p.slug) ?? 0) > 0 ? "bg-surface-2 hover:text-sun" : "text-ink-soft/60"]}
+                  >
+                    {p.name}
+                    {(prefCounts.get(p.slug) ?? 0) > 0 && <span class="ml-1 text-sun">{prefCounts.get(p.slug)}</span>}
+                  </a>
+                ))}
+              </div>
+            </div>
+          );
+        })
+      }
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="mt-16">
+    <div class="card bg-topo flex flex-col items-center gap-3 px-6 py-12 text-center">
+      <h2 class="font-display text-2xl font-bold sm:text-3xl">Know a place that belongs here?</h2>
+      <p class="max-w-xl text-ink-soft">
+        Roadside Japan grows through people who notice the odd sign, the tiny museum, the
+        festival nobody wrote about. Add yours — no account needed.
+      </p>
+      <div class="mt-2 flex flex-wrap justify-center gap-3">
+        <a href={withBase("/submit")} class="btn btn-primary">➕ Submit a discovery</a>
+        <a href={withBase("/about")} class="btn btn-ghost">How it works</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

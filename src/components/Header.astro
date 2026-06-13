@@ -1,0 +1,121 @@
+---
+import { withBase, homeUrl, exploreUrl, mapUrl } from "../lib/url";
+
+const nav = [
+  { label: "Explore", href: exploreUrl() },
+  { label: "Map", href: mapUrl() },
+  { label: "Events", href: withBase("/events") },
+  { label: "Submit", href: withBase("/submit") },
+  { label: "About", href: withBase("/about") },
+];
+const here = Astro.url.pathname.replace(/\/$/, "");
+const isActive = (href: string) => here === href.replace(/\/$/, "");
+---
+
+<header class="sticky top-0 z-40 border-b border-line bg-canvas/85 backdrop-blur supports-[backdrop-filter]:bg-canvas/70">
+  <div class="mx-auto flex h-16 max-w-6xl items-center gap-3 px-4 sm:px-6">
+    <!-- Logo -->
+    <a href={homeUrl()} class="flex shrink-0 items-center gap-2" aria-label="Roadside Japan home">
+      <img src={withBase("/icon.svg")} width="36" height="36" class="h-9 w-9" alt="" />
+      <span class="font-display text-xl font-bold leading-none tracking-tight">
+        Roadside <span class="text-sun">Japan</span>
+      </span>
+    </a>
+
+    <!-- Desktop nav -->
+    <nav class="ml-2 hidden items-center gap-1 md:flex" aria-label="Primary">
+      {
+        nav.map((item) => (
+          <a
+            href={item.href}
+            class:list={[
+              "rounded-full px-3 py-1.5 text-sm font-medium transition hover:bg-surface-2",
+              isActive(item.href) && "text-sun",
+            ]}
+            aria-current={isActive(item.href) ? "page" : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="ml-auto flex items-center gap-1.5">
+      <!-- Quick search → routes to /explore?q= (works without JS) -->
+      <form action={exploreUrl()} method="get" role="search" class="hidden items-center sm:flex">
+        <label class="sr-only" for="site-search">Search discoveries</label>
+        <div class="flex items-center rounded-full border border-line bg-surface px-3 py-1.5 focus-within:border-sun">
+          <span aria-hidden="true" class="text-ink-soft">🔍</span>
+          <input
+            id="site-search"
+            type="search"
+            name="q"
+            placeholder="Search…"
+            class="w-28 bg-transparent px-2 text-sm outline-none placeholder:text-ink-soft focus:w-44"
+            autocomplete="off"
+          />
+        </div>
+      </form>
+
+      <a href={withBase("/random")} class="btn btn-ghost px-3 py-2" title="Random discovery" aria-label="Random discovery">
+        🎲
+      </a>
+
+      <button id="theme-toggle" class="btn btn-ghost px-3 py-2" title="Toggle dark mode" aria-label="Toggle dark mode" type="button">
+        <span class="hidden dark:inline">☀️</span><span class="inline dark:hidden">🌙</span>
+      </button>
+
+      <!-- Mobile menu button -->
+      <button
+        id="menu-toggle"
+        class="btn btn-ghost px-3 py-2 md:hidden"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        type="button"
+      >☰</button>
+    </div>
+  </div>
+
+  <!-- Mobile nav -->
+  <nav id="mobile-menu" class="hidden border-t border-line bg-canvas px-4 py-3 md:hidden" aria-label="Mobile">
+    <form action={exploreUrl()} method="get" role="search" class="mb-3">
+      <input
+        type="search"
+        name="q"
+        placeholder="Search discoveries…"
+        class="w-full rounded-full border border-line bg-surface px-4 py-2 text-sm outline-none focus:border-sun"
+        autocomplete="off"
+      />
+    </form>
+    <div class="flex flex-col">
+      {
+        nav.map((item) => (
+          <a href={item.href} class="rounded-lg px-2 py-2.5 text-base font-medium hover:bg-surface-2">
+            {item.label}
+          </a>
+        ))
+      }
+    </div>
+  </nav>
+</header>
+
+<script>
+  // Theme toggle
+  const toggle = document.getElementById("theme-toggle");
+  toggle?.addEventListener("click", () => {
+    const root = document.documentElement;
+    const isDark = root.classList.toggle("dark");
+    try {
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    } catch {}
+  });
+
+  // Mobile menu
+  const menuBtn = document.getElementById("menu-toggle");
+  const menu = document.getElementById("mobile-menu");
+  menuBtn?.addEventListener("click", () => {
+    const open = menu?.classList.toggle("hidden") === false;
+    menuBtn.setAttribute("aria-expanded", String(open));
+  });
+</script>

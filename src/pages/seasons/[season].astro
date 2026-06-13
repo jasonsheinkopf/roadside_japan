@@ -1,0 +1,35 @@
+---
+import CollectionPage from "../../components/CollectionPage.astro";
+import { getIndexRecords } from "../../lib/content";
+import { SEASONS, SEASON_LABEL, seasonForMonth, type Season } from "../../data/vocab";
+import { SEASON_EMOJI } from "../../lib/format";
+import { exploreUrl } from "../../lib/url";
+
+export async function getStaticPaths() {
+  return SEASONS.map((season) => ({ params: { season }, props: { season } }));
+}
+
+const { season } = Astro.props as { season: Season };
+
+// Curated: only items explicitly tied to this season (excludes year-round entries),
+// so the page answers "what's special in <season>?". Use Explore for the broader set.
+const records = (await getIndexRecords())
+  .filter((r) => r.seasons.includes(season) || r.months.some((m) => seasonForMonth(m) === season))
+  .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+
+const blurbs: Record<Season, string> = {
+  spring: "Cherry blossoms, moss phlox, and the country waking up in pink and green.",
+  summer: "Festivals, fireworks, island escapes, and cool mountain air.",
+  autumn: "Blazing maples, harvest light, and crisp clear viewpoints.",
+  winter: "Snow monsters, illuminations, steaming baths, and quiet white landscapes.",
+};
+---
+
+<CollectionPage
+  title={`${SEASON_LABEL[season]} in Japan`}
+  heading={`${SEASON_EMOJI[season]} ${SEASON_LABEL[season]}`}
+  description={`What's worth seeing in ${SEASON_LABEL[season]} across Japan — seasonal blooms, events, and limited-window discoveries.`}
+  intro={blurbs[season]}
+  records={records}
+  exploreHref={`${exploreUrl()}?f=${season}`}
+/>

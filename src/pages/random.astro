@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getIndexRecords } from "../lib/content";
+import { exploreUrl } from "../lib/url";
+
+const records = await getIndexRecords();
+const urls = records.map((r) => r.url);
+---
+
+<BaseLayout title="Random discovery" noindex>
+  <div class="flex min-h-[60vh] flex-col items-center justify-center py-16 text-center">
+    <p class="animate-bounce text-7xl">🎲</p>
+    <h1 class="mt-4 font-display text-2xl font-bold">Finding you something unexpected…</h1>
+    <p class="mt-2 text-ink-soft">If nothing happens, <a href={exploreUrl()} class="link-underline text-sun">explore the atlas</a>.</p>
+  </div>
+
+  <script type="application/json" id="rj-urls" set:html={JSON.stringify(urls)} is:inline />
+  <script is:inline>
+    (function () {
+      try {
+        var urls = JSON.parse(document.getElementById("rj-urls").textContent || "[]");
+        if (urls.length) location.replace(urls[Math.floor(Math.random() * urls.length)]);
+      } catch (e) {}
+    })();
+  </script>
+</BaseLayout>

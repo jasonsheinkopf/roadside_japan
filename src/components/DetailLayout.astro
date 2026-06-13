@@ -1,0 +1,293 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import MapView from "./MapView.astro";
+import Comments from "./Comments.astro";
+import AttractionCard from "./AttractionCard.astro";
+import type { IndexRecord, NearbyResult } from "../lib/types";
+import type { AttractionEntry, CommentEntry } from "../lib/content";
+import { CATEGORY_META } from "../data/categories";
+import { getPrefecture } from "../data/prefectures";
+import { tagMeta } from "../data/tags";
+import { SEASON_LABEL } from "../data/vocab";
+import {
+  COST_LABEL,
+  DIFFICULTY_LABEL,
+  TIME_LABEL,
+  STATUS_LABEL,
+  SEASON_EMOJI,
+  googleMapsLink,
+  priceLabel,
+  monthsLabel,
+  placeholderStyle,
+  formatDateRange,
+} from "../lib/format";
+import { prefectureUrl, tagUrl, withBase, homeUrl } from "../lib/url";
+
+interface Props {
+  record: IndexRecord;
+  data: AttractionEntry["data"];
+  related: IndexRecord[];
+  nearby: NearbyResult[];
+  comments: CommentEntry[];
+  jsonLd?: Record<string, unknown>;
+  event?: { startDate: Date; endDate: Date; recurrence: string };
+}
+const { record, data, related, nearby, comments, jsonLd, event } = Astro.props;
+
+const cat = CATEGORY_META[data.category];
+const pref = getPrefecture(data.prefecture);
+const mapsHref = googleMapsLink(data.lat, data.lng, data.googleMaps);
+const websiteHost = data.website ? new URL(data.website).host.replace(/^www\./, "") : null;
+const updated = new Intl.DateTimeFormat("en-US", { year: "numeric", month: "long", day: "numeric" }).format(
+  data.updatedAt,
+);
+const dogLabel: Record<string, string> = { yes: "Yes", no: "No", limited: "Some areas", nearby: "Nearby", unknown: "Unknown" };
+const wcLabel: Record<string, string> = { yes: "Accessible", partial: "Partially", no: "Not accessible", unknown: "Unknown" };
+const mapRecords = [record, ...nearby.map((n) => n.record)];
+const sourceLabel: Record<string, string> = {
+  editorial: "Editorial",
+  community: "Community submission",
+  "ai-agent": "AI research agent",
+  imported: "Imported",
+};
+---
+
+<BaseLayout title={data.title} description={data.summary} image={record.hero} jsonLd={jsonLd}>
+  <article class="py-6">
+    <!-- Breadcrumb -->
+    <nav class="mb-4 text-sm text-ink-soft" aria-label="Breadcrumb">
+      <a href={homeUrl()} class="hover:text-sun">Home</a>
+      <span aria-hidden="true"> / </span>
+      <a href={prefectureUrl(data.prefecture)} class="hover:text-sun">{pref?.name ?? data.prefecture}</a>
+      <span aria-hidden="true"> / </span>
+      <span>{data.title}</span>
+    </nav>
+
+    <!-- Hero -->
+    <div class="relative overflow-hidden rounded-3xl border border-line">
+      <div class="h-64 w-full sm:h-96">
+        {
+          record.hero ? (
+            <img src={record.hero} alt={data.title} class="h-full w-full object-cover" />
+          ) : (
+            <div class="bg-topo flex h-full w-full items-center justify-center" style={placeholderStyle(record.id)}>
+              <span class="text-7xl opacity-90 sm:text-8xl" aria-hidden="true">{cat.emoji}</span>
+            </div>
+          )
+        }
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+      <div class="absolute bottom-0 left-0 right-0 p-5 text-white sm:p-7">
+        <div class="mb-2 flex flex-wrap items-center gap-2">
+          <span class="chip border-transparent bg-white/90 text-ink">{cat.emoji} {cat.label}</span>
+          {event && <span class="chip border-transparent bg-sun text-white">Seasonal event</span>}
+          {data.status !== "open" && <span class="chip border-transparent bg-gold text-white">{STATUS_LABEL[data.status]}</span>}
+        </div>
+        <h1 class="font-display text-3xl font-bold drop-shadow sm:text-5xl">{data.title}</h1>
+        <p class="mt-1 text-white/90">📍 {pref?.name}{data.city ? `, ${data.city}` : ""}</p>
+      </div>
+    </div>
+
+    <div class="mt-8 grid gap-8 lg:grid-cols-[1fr_320px]">
+      <!-- Main -->
+      <div class="min-w-0">
+        <p class="text-xl leading-relaxed text-ink-soft">{data.summary}</p>
+
+        {
+          data.aiSummary && (
+            <aside class="card mt-5 border-l-4 border-l-sun bg-surface-2 p-4">
+              <p class="mb-1 text-xs font-semibold uppercase tracking-wide text-ink-soft">🤖 AI summary</p>
+              <p class="text-sm">{data.aiSummary}</p>
+            </aside>
+          )
+        }
+
+        <div class="prose prose-lg mt-6 max-w-none">
+          <slot />
+        </div>
+
+        {
+          data.tips.length > 0 && (
+            <aside class="card mt-6 p-5">
+              <h2 class="font-display text-lg font-semibold">💡 Tips</h2>
+              <ul class="mt-2 list-disc space-y-1 pl-5 text-sm marker:text-sun">
+                {data.tips.map((t) => (
+                  <li>{t}</li>
+                ))}
+              </ul>
+            </aside>
+          )
+        }
+
+        {
+          data.photos.length > 0 && (
+            <section class="mt-8">
+              <h2 class="font-display text-xl font-bold">Photos</h2>
+              <div class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
+                {data.photos.map((p) => (
+                  <figure class="overflow-hidden rounded-xl border border-line">
+                    <img src={withBase(p.src)} alt={p.alt} loading="lazy" class="aspect-square w-full object-cover" />
+                    {p.credit && (
+                      <figcaption class="px-2 py-1 text-[11px] text-ink-soft">
+                        {p.creditUrl ? <a href={p.creditUrl} class="link-underline">{p.credit}</a> : p.credit}
+                      </figcaption>
+                    )}
+                  </figure>
+                ))}
+              </div>
+            </section>
+          )
+        }
+
+        {
+          data.tags.length > 0 && (
+            <div class="mt-8 flex flex-wrap gap-2">
+              {data.tags.map((t) => {
+                const m = tagMeta(t);
+                return (
+                  <a href={tagUrl(t)} class="chip">
+                    {m.icon} {m.label}
+                  </a>
+                );
+              })}
+            </div>
+          )
+        }
+      </div>
+
+      <!-- Sidebar: Need to know -->
+      <aside>
+        <div class="card lg:sticky lg:top-20 p-5">
+          <h2 class="font-display text-lg font-semibold">Need to know</h2>
+          <dl class="mt-3 text-sm">
+            {
+              event && (
+                <div class="flex gap-3 border-b border-line py-2">
+                  <dt class="w-28 shrink-0 text-ink-soft">When</dt>
+                  <dd>
+                    🗓 {formatDateRange(event.startDate, event.endDate, event.recurrence)}
+                    {event.recurrence === "annual" && <span class="text-ink-soft"> · yearly</span>}
+                  </dd>
+                </div>
+              )
+            }
+            <div class="flex gap-3 border-b border-line py-2">
+              <dt class="w-28 shrink-0 text-ink-soft">Best time</dt>
+              <dd>
+                {data.seasons.length === 0 && data.months.length === 0 && "Year-round"}
+                {data.seasons.length > 0 && (
+                  <span class="flex flex-wrap gap-1">
+                    {data.seasons.map((s) => (
+                      <span class="rounded-full bg-surface-2 px-2 py-0.5 text-xs">{SEASON_EMOJI[s]} {SEASON_LABEL[s]}</span>
+                    ))}
+                  </span>
+                )}
+                {data.months.length > 0 && <span class="mt-1 block text-ink-soft">Peak: {monthsLabel(data.months)}</span>}
+                {data.seasonNote && <span class="mt-1 block text-ink-soft">{data.seasonNote}</span>}
+              </dd>
+            </div>
+            <div class="flex gap-3 border-b border-line py-2">
+              <dt class="w-28 shrink-0 text-ink-soft">Cost</dt>
+              <dd>{priceLabel(data.cost.type, data.cost.priceJpy, data.cost.note)}</dd>
+            </div>
+            <div class="flex gap-3 border-b border-line py-2">
+              <dt class="w-28 shrink-0 text-ink-soft">Time needed</dt>
+              <dd>{TIME_LABEL[data.timeRequired]}</dd>
+            </div>
+            <div class="flex gap-3 border-b border-line py-2">
+              <dt class="w-28 shrink-0 text-ink-soft">Effort</dt>
+              <dd>{DIFFICULTY_LABEL[data.difficulty]}</dd>
+            </div>
+            <div class="flex gap-3 border-b border-line py-2">
+              <dt class="w-28 shrink-0 text-ink-soft">Parking</dt>
+              <dd>{data.parking.note ?? (data.parking.available === "yes" ? "Available" : data.parking.available)}</dd>
+            </div>
+            {
+              (data.transit.nearestStation || data.transit.note) && (
+                <div class="flex gap-3 border-b border-line py-2">
+                  <dt class="w-28 shrink-0 text-ink-soft">Transit</dt>
+                  <dd>
+                    {data.transit.nearestStation && <span class="block font-medium">🚆 {data.transit.nearestStation}</span>}
+                    {data.transit.note && <span class="text-ink-soft">{data.transit.note}</span>}
+                  </dd>
+                </div>
+              )
+            }
+            <div class="flex gap-3 border-b border-line py-2">
+              <dt class="w-28 shrink-0 text-ink-soft">Accessibility</dt>
+              <dd>
+                ♿ {wcLabel[data.accessibility.wheelchair]}
+                {data.accessibility.note && <span class="block text-ink-soft">{data.accessibility.note}</span>}
+              </dd>
+            </div>
+            <div class="flex gap-3 py-2">
+              <dt class="w-28 shrink-0 text-ink-soft">Dog friendly</dt>
+              <dd>🐕 {dogLabel[data.dogFriendly]}</dd>
+            </div>
+          </dl>
+
+          <div class="mt-4 flex flex-col gap-2">
+            <a href={mapsHref} target="_blank" rel="noopener" class="btn btn-primary">🗺️ Open in Google Maps</a>
+            {data.website && <a href={data.website} target="_blank" rel="noopener" class="btn btn-ghost">🔗 {websiteHost}</a>}
+          </div>
+
+          <!-- Provenance -->
+          <div class="mt-4 border-t border-line pt-3 text-xs text-ink-soft">
+            <p>Source: {sourceLabel[data.source] ?? data.source}{data.submittedBy && data.submittedBy !== "editorial" ? ` · ${data.submittedBy}` : ""}</p>
+            {typeof data.confidence === "number" && <p>AI confidence: {Math.round(data.confidence * 100)}%</p>}
+            <p>Last updated {updated}</p>
+            {
+              data.sources.length > 0 && (
+                <div class="mt-1">
+                  <span>References: </span>
+                  {data.sources.map((s, i) => (
+                    <>
+                      {i > 0 && ", "}
+                      <a href={s.url} target="_blank" rel="noopener" class="link-underline">{s.title}</a>
+                    </>
+                  ))}
+                </div>
+              )
+            }
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Map -->
+    <section class="mt-10">
+      <h2 class="font-display text-xl font-bold">Where it is</h2>
+      <div class="mt-3">
+        <MapView records={mapRecords} center={[data.lat, data.lng]} zoom={12} id={`map-${record.id}`} />
+      </div>
+    </section>
+
+    {
+      related.length > 0 && (
+        <section class="mt-10">
+          <h2 class="font-display text-xl font-bold">You might also like</h2>
+          <div class="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {related.map((r) => (
+              <AttractionCard record={r} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      nearby.length > 0 && (
+        <section class="mt-10">
+          <h2 class="font-display text-xl font-bold">Nearby discoveries</h2>
+          <div class="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {nearby.map((n) => (
+              <AttractionCard record={n.record} distanceKm={n.distanceKm} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <Comments comments={comments} target={record.id} targetType={record.collection === "events" ? "event" : "attraction"} title={data.title} />
+  </article>
+</BaseLayout>

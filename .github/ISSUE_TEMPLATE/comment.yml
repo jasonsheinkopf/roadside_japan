@@ -1,0 +1,25 @@
+name: "💬 Leave a comment"
+description: "Share a tip, a correction, or your experience of a place."
+title: "Comment: "
+labels: ["comment"]
+body:
+  - type: input
+    id: place
+    attributes:
+      label: Which place or event?
+      description: The page title or its URL slug.
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Your name (optional)
+  - type: textarea
+    id: comment
+    attributes:
+      label: Your comment
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Comments are reviewed before they appear on the site. Thanks for keeping it kind and useful!"
