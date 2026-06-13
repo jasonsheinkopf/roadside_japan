@@ -39,6 +39,18 @@ export const SEASON_EMOJI: Record<Season, string> = {
   winter: "❄️",
 };
 
+/**
+ * Fixed seasonal hues for the timeline planner — sakura pink, summer teal, autumn amber,
+ * winter blue. Hard-coded (not theme variables) so a bar always reads as its season and
+ * the year chart shows a recognizable spring→winter gradient in both light and dark mode.
+ */
+export const SEASON_COLOR: Record<Season, string> = {
+  spring: "#e98aa8",
+  summer: "#3fa796",
+  autumn: "#d9772f",
+  winter: "#5b8fce",
+};
+
 export const STATUS_LABEL: Record<Status, string> = {
   open: "Open",
   seasonal: "Seasonal",

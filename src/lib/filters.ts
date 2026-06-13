@@ -15,7 +15,7 @@
  *   - Across groups  → AND (e.g. (Spring OR Summer) AND Free AND Kids)
  */
 import type { IndexRecord } from "./types";
-import { seasonForMonth, type Season } from "../data/vocab";
+import { MONTHS, seasonForMonth, type Season } from "../data/vocab";
 
 export interface FilterOption {
   id: string; // unique across ALL groups; used in URL query (?f=spring,free)
@@ -51,6 +51,52 @@ export function matchesMonth(r: IndexRecord, month: number): boolean {
   return false;
 }
 
+/**
+ * Does this record have a real time window at all? Events are inherently time-bound;
+ * attractions are seasonal only if they declare months or seasons. Everything else is
+ * "year-round" (always worth a visit). Drives the Availability filter and the timeline.
+ */
+export function isSeasonal(r: IndexRecord): boolean {
+  return r.collection === "events" || r.months.length > 0 || r.seasons.length > 0;
+}
+
+/**
+ * The set of months (1-12) a record is active, used by the timeline planner.
+ *   - explicit `months` win,
+ *   - else an event's start/end window is expanded to the months it spans,
+ *   - else `seasons` expand to their months,
+ *   - else [] meaning year-round (active every month).
+ * Returns sorted, de-duplicated month numbers.
+ */
+export function activeMonths(r: IndexRecord): number[] {
+  if (r.months.length) return [...new Set(r.months)].sort((a, b) => a - b);
+
+  if (r.collection === "events" && r.startDate && r.endDate) {
+    const start = new Date(r.startDate);
+    const end = new Date(r.endDate);
+    const out = new Set<number>();
+    let y = start.getUTCFullYear();
+    let m = start.getUTCMonth();
+    // Walk month-by-month from start to end (cap at 13 to stay safe on bad data).
+    for (let i = 0; i < 13; i++) {
+      out.add(m + 1);
+      if (y === end.getUTCFullYear() && m === end.getUTCMonth()) break;
+      m++;
+      if (m > 11) {
+        m = 0;
+        y++;
+      }
+    }
+    return [...out].sort((a, b) => a - b);
+  }
+
+  if (r.seasons.length) {
+    return MONTHS.filter((m) => r.seasons.includes(seasonForMonth(m)));
+  }
+
+  return [];
+}
+
 const hasTag = (r: IndexRecord, t: string) => r.tags.includes(t);
 const isCategory = (r: IndexRecord, c: string) => r.category === c;
 
@@ -70,6 +116,14 @@ export const FILTER_GROUPS: FilterGroup[] = [
         groupId: "season",
         predicate: (r) => matchesMonth(r, new Date().getMonth() + 1),
       },
+    ],
+  },
+  {
+    id: "availability",
+    label: "Availability",
+    options: [
+      { id: "seasonal", label: "Seasonal", icon: "🗓️", groupId: "availability", predicate: (r) => isSeasonal(r) },
+      { id: "year-round", label: "Year-round", icon: "♾️", groupId: "availability", predicate: (r) => !isSeasonal(r) },
     ],
   },
   {

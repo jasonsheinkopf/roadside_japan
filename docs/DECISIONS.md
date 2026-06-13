@@ -82,3 +82,15 @@ reproducible `npm ci` in the deploy workflow.
 **Why:** Astro 5's bundled Vite/esbuild carried (dev-server-only) advisories fixed in Astro 6.
 Done before writing app code to avoid churn. Remaining transitive esbuild advisories affect
 only the dev server, not the static build or deployed site.
+
+### 17. Seasonality as a first-class, derived dimension (Timeline + Availability filter)
+**Why:** A lot of the best entries are time-bound (blooms, illuminations, snow, festivals),
+but seasonality was scattered across `seasons`, `months`, and event `startDate`/`endDate`.
+Rather than add a field, two pure helpers in `lib/filters.ts` *derive* the truth from what's
+already there: `isSeasonal(r)` (is this on a clock at all?) and `activeMonths(r)` (which months
+1–12 is it active — expanding event date windows and season tuples to months). Those feed an
+**Availability** filter group (Seasonal / Year-round, automatic in Explore + Map) and a new
+`/timeline` "When to go" planner — a server-rendered Gantt of the year, enhanced client-side
+with month filtering. **Trade-offs:** `activeMonths` collapses to a Jan→Dec linear axis (a
+winter window shows as Dec + Jan–Feb rather than wrapping); fine for a year planner, and no
+new data to author or keep in sync.

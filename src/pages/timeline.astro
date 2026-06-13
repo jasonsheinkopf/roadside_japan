@@ -1,0 +1,300 @@
+---
+/**
+ * /timeline — the "When to go" year planner.
+ *
+ * A Gantt-style chart of the atlas across a calendar year: every seasonal item is a bar
+ * spanning the months it's active, colored by season. Visitors can click a month to see
+ * only what's worth catching then, hide year-round places to focus on time-limited
+ * experiences, and spot the current month at a glance. Rows are server-rendered (works
+ * without JS, good for SEO); the island below adds month filtering + the toggle.
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getIndexRecords } from "../lib/content";
+import { activeMonths, isSeasonal } from "../lib/filters";
+import { SEASON_COLOR, SEASON_EMOJI, formatDateRange, monthsLabel } from "../lib/format";
+import { CATEGORY_META } from "../data/categories";
+import { exploreUrl } from "../lib/url";
+import { MONTHS, MONTH_LABEL, SEASON_LABEL, SEASONS, seasonForMonth } from "../data/vocab";
+
+const records = await getIndexRecords();
+const nowMonth = new Date().getMonth() + 1;
+
+interface Row {
+  r: (typeof records)[number];
+  months: number[];
+  seasonal: boolean;
+}
+
+const rows: Row[] = records.map((r) => ({ r, months: activeMonths(r), seasonal: isSeasonal(r) }));
+
+// Seasonal items first (sorted by their first active month, then by how short the window
+// is — punchy, time-limited things rise to the top); year-round places after, A–Z.
+rows.sort((a, b) => {
+  if (a.seasonal !== b.seasonal) return a.seasonal ? -1 : 1;
+  if (a.seasonal && b.seasonal) {
+    const am = a.months[0] ?? 13;
+    const bm = b.months[0] ?? 13;
+    if (am !== bm) return am - bm;
+    if (a.months.length !== b.months.length) return a.months.length - b.months.length;
+  }
+  return a.r.title.localeCompare(b.r.title);
+});
+
+const seasonalCount = rows.filter((row) => row.seasonal).length;
+
+// Pre-compute per-month cell state for a row (active / rounded run ends), on a linear
+// Jan→Dec axis so contiguous windows render as one capped bar.
+function cells(months: number[]) {
+  const set = new Set(months);
+  return MONTHS.map((m) => ({
+    m,
+    active: set.has(m),
+    start: set.has(m) && !set.has(m - 1),
+    end: set.has(m) && !set.has(m + 1),
+    color: SEASON_COLOR[seasonForMonth(m)],
+  }));
+}
+---
+
+<BaseLayout
+  title="When to go — timeline"
+  description="Plan by the calendar: a year-long timeline of Japan's seasonal blooms, festivals, illuminations, and limited-time discoveries. Pick a month to see exactly what's worth catching."
+>
+  <div class="py-8">
+    <header class="mb-6 max-w-2xl">
+      <h1 class="font-display text-3xl font-bold sm:text-4xl">When to go</h1>
+      <p class="mt-2 text-ink-soft">
+        Japan's best detours are often on a clock — wisteria tunnels, snow monsters, firefly
+        nights, seas of cloud. Scan the year, pick a month, and find what's actually catchable
+        when you're here.
+      </p>
+    </header>
+
+    <!-- Controls -->
+    <div class="mb-5 space-y-3">
+      <div class="flex flex-wrap items-center gap-1.5">
+        <button type="button" class="chip" data-month="all" aria-pressed="true">All year</button>
+        {
+          MONTHS.map((m) => (
+            <button
+              type="button"
+              class:list={["chip", m === nowMonth && "ring-2 ring-sun ring-offset-1 ring-offset-canvas"]}
+              data-month={m}
+              aria-pressed="false"
+              title={MONTH_LABEL[m]}
+            >
+              <span class="h-2 w-2 rounded-full" style={`background:${SEASON_COLOR[seasonForMonth(m)]}`} aria-hidden="true"></span>
+              {MONTH_LABEL[m].slice(0, 3)}
+              {m === nowMonth && <span class="text-[10px] font-semibold uppercase text-sun">now</span>}
+            </button>
+          ))
+        }
+      </div>
+
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <label class="inline-flex cursor-pointer items-center gap-2 text-sm">
+          <input id="seasonal-only" type="checkbox" checked class="h-4 w-4 accent-[var(--sun)]" />
+          <span>Seasonal only <span class="text-ink-soft">(hide year-round places)</span></span>
+        </label>
+        <div class="flex flex-wrap items-center gap-3 text-xs text-ink-soft">
+          {
+            SEASONS.map((s) => (
+              <span class="inline-flex items-center gap-1.5">
+                <span class="h-2.5 w-2.5 rounded-full" style={`background:${SEASON_COLOR[s]}`} aria-hidden="true"></span>
+                {SEASON_EMOJI[s]} {SEASON_LABEL[s]}
+              </span>
+            ))
+          }
+        </div>
+      </div>
+      <p id="tl-count" class="text-sm text-ink-soft">{seasonalCount} seasonal discoveries across the year</p>
+    </div>
+
+    <!-- Chart -->
+    <div class="card overflow-x-auto">
+      <div class="min-w-[760px]">
+        <!-- Month header -->
+        <div class="tl-row border-b border-line bg-surface">
+          <div class="tl-label text-xs font-semibold uppercase tracking-wide text-ink-soft">Discovery</div>
+          {
+            MONTHS.map((m) => (
+              <div
+                class:list={[
+                  "tl-head px-1 py-2 text-center text-[11px] font-semibold",
+                  m === nowMonth ? "text-sun" : "text-ink-soft",
+                ]}
+                data-month-col={m}
+              >
+                {MONTH_LABEL[m].slice(0, 3)}
+              </div>
+            ))
+          }
+        </div>
+
+        <!-- Rows -->
+        {
+          rows.map(({ r, months, seasonal }) => {
+            const cat = CATEGORY_META[r.category];
+            const isEvent = r.collection === "events";
+            const when =
+              isEvent && r.startDate && r.endDate
+                ? formatDateRange(new Date(r.startDate), new Date(r.endDate))
+                : monthsLabel(months) || "Year-round";
+            return (
+              <a
+                href={r.url}
+                class="tl-row tl-data group items-center border-b border-line/70 transition hover:bg-surface-2/60"
+                data-id={r.id}
+                data-months={months.join(",")}
+                data-seasonal={String(seasonal)}
+              >
+                <div class="tl-label">
+                  <div class="flex items-center gap-2">
+                    <span aria-hidden="true" class="text-base">{cat.emoji}</span>
+                    <span class="min-w-0">
+                      <span class="block truncate text-sm font-semibold leading-tight group-hover:text-sun">{r.title}</span>
+                      <span class="block truncate text-[11px] text-ink-soft">
+                        {r.prefectureName}
+                        {" · "}
+                        {when}
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                {cells(months).map((c) => (
+                  <div class="tl-cell" data-month-col={c.m}>
+                    {c.active ? (
+                      <span
+                        class:list={[
+                          "tl-bar",
+                          c.start && "rounded-l-full",
+                          c.end && "rounded-r-full",
+                        ]}
+                        style={`background:${c.color}`}
+                        title={`${r.title} — ${MONTH_LABEL[c.m]}`}
+                      />
+                    ) : seasonal ? null : (
+                      <span class="tl-bar tl-bar-faint rounded-full" title={`${r.title} — year-round`} />
+                    )}
+                  </div>
+                ))}
+              </a>
+            );
+          })
+        }
+      </div>
+    </div>
+
+    <div id="tl-empty" class="card mt-4 p-10 text-center" hidden>
+      <p class="text-4xl">🗓️</p>
+      <p class="mt-2 font-display text-lg font-semibold">Nothing in that month yet.</p>
+      <p class="text-ink-soft">Try another month, or turn off “Seasonal only”.</p>
+    </div>
+
+    <p class="mt-5 text-sm text-ink-soft">
+      Looking for something specific? Head to
+      <a href={exploreUrl()} class="link-underline text-sun">Explore</a>
+      to combine seasons with themes, cost, and accessibility.
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  .tl-row {
+    display: grid;
+    grid-template-columns: minmax(150px, 1.6fr) repeat(12, minmax(0, 1fr));
+  }
+  .tl-label {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    padding: 0.5rem 0.75rem;
+    background: var(--surface);
+  }
+  .tl-data:hover .tl-label {
+    background: color-mix(in srgb, var(--surface-2) 60%, var(--surface));
+  }
+  .tl-head,
+  .tl-cell {
+    border-left: 1px solid color-mix(in srgb, var(--line) 60%, transparent);
+  }
+  .tl-cell {
+    display: flex;
+    align-items: center;
+    padding: 0.55rem 0;
+    min-height: 2.4rem;
+  }
+  .tl-bar {
+    display: block;
+    height: 0.85rem;
+    width: 100%;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
+  }
+  .tl-bar-faint {
+    height: 0.4rem;
+    background: var(--surface-2);
+    margin: 0 0.15rem;
+  }
+  /* Selected-month column emphasis (toggled by the island). */
+  .tl-head.month-sel {
+    color: var(--sun);
+  }
+  .tl-cell.month-sel {
+    background: color-mix(in srgb, var(--sun) 9%, transparent);
+  }
+</style>
+
+<script>
+  const monthBtns = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-month]"));
+  const dataRows = Array.from(document.querySelectorAll<HTMLElement>(".tl-data"));
+  const seasonalOnly = document.getElementById("seasonal-only") as HTMLInputElement;
+  const countEl = document.getElementById("tl-count")!;
+  const emptyEl = document.getElementById("tl-empty") as HTMLElement;
+  const headCells = Array.from(document.querySelectorAll<HTMLElement>("[data-month-col]"));
+
+  let month: number | null = null; // null = all year
+
+  function highlightColumn() {
+    for (const el of headCells) {
+      el.classList.toggle("month-sel", month !== null && Number(el.dataset.monthCol) === month);
+    }
+  }
+
+  function render() {
+    let shown = 0;
+    for (const row of dataRows) {
+      const seasonal = row.dataset.seasonal === "true";
+      const months = (row.dataset.months || "").split(",").filter(Boolean).map(Number);
+      let visible = true;
+      if (seasonalOnly.checked && !seasonal) visible = false;
+      if (visible && month !== null) {
+        // Year-round rows (no months) count as active every month.
+        visible = months.length === 0 ? !seasonalOnly.checked : months.includes(month);
+      }
+      row.hidden = !visible;
+      if (visible) shown++;
+    }
+    const where = month ? ` in ${monthBtns.find((b) => b.dataset.month === String(month))?.title}` : "";
+    countEl.textContent = `${shown} ${shown === 1 ? "discovery" : "discoveries"}${where}`;
+    emptyEl.hidden = shown !== 0;
+    highlightColumn();
+  }
+
+  for (const btn of monthBtns) {
+    btn.addEventListener("click", () => {
+      month = btn.dataset.month === "all" ? null : Number(btn.dataset.month);
+      for (const b of monthBtns) b.setAttribute("aria-pressed", String(b === btn));
+      render();
+    });
+  }
+  seasonalOnly.addEventListener("change", render);
+
+  // Deep-link support: /timeline?month=6
+  const p = new URLSearchParams(location.search);
+  const qm = Number(p.get("month"));
+  if (qm >= 1 && qm <= 12) {
+    month = qm;
+    for (const b of monthBtns) b.setAttribute("aria-pressed", String(b.dataset.month === String(qm)));
+  }
+  render();
+</script>
