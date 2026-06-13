@@ -51,6 +51,7 @@ For a custom domain, also:
 | Variable                   | Purpose |
 | -------------------------- | ------- |
 | `PUBLIC_COMMENTS_ENDPOINT` | If set, the comment form POSTs here (no-login, in-page) instead of opening a GitHub issue. Must be `PUBLIC_`-prefixed to reach the browser. |
+| `PUBLIC_SUBMIT_ENDPOINT`   | If set, `/submit` and `/add` publish a place directly via the submission Worker (no GitHub login). Empty = prefilled-GitHub-issue fallback. Setup: [`tools/submit-worker/README.md`](../tools/submit-worker/README.md). |
 
 ## Local production check
 

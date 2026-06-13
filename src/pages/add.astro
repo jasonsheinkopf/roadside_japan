@@ -1,0 +1,306 @@
+---
+/**
+ * /add — the one-tap "publish this place" confirmation page.
+ *
+ * This is the robust landing spot for both the ChatGPT flow and the manual /submit form.
+ * Whoever sends a visitor here just passes the place as short query params (?title=&lat=…);
+ * THIS page assembles the real request and POSTs clean JSON to the submission Worker
+ * (PUBLIC_SUBMIT_ENDPOINT). That removes the old fragility — ChatGPT never has to hand-build a
+ * giant URL-encoded GitHub link, and there's no blank issue. Dropdowns guarantee a valid
+ * prefecture/category, and coordinates are required + range-checked, so the Worker only ever
+ * commits a schema-valid, build-safe entry.
+ *
+ * If no endpoint is configured yet, it degrades gracefully to a correctly prefilled GitHub
+ * issue (still no copy-paste, just a login).
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { CATEGORIES, SEASONS, SEASON_LABEL } from "../data/vocab";
+import { CATEGORY_META } from "../data/categories";
+import { PREFECTURES } from "../data/prefectures";
+import { SITE } from "../data/site";
+import { withBase } from "../lib/url";
+
+const endpoint = import.meta.env.PUBLIC_SUBMIT_ENDPOINT ?? "";
+const issueBase = `${SITE.repo}/issues/new`;
+---
+
+<BaseLayout
+  title="Add a place"
+  description="Confirm the details and add a discovery to Roadside Japan in one tap."
+>
+  <div class="mx-auto max-w-xl py-8">
+    <header class="mb-6">
+      <h1 class="font-display text-3xl font-bold sm:text-4xl">Almost there — add your place</h1>
+      <p class="mt-2 text-ink-soft">
+        Check the details (ChatGPT may have filled these in), fix anything that's off, then tap
+        <strong>Add to the map</strong>. It goes live in a minute or two.
+      </p>
+    </header>
+
+    <form
+      id="add-form"
+      class="card space-y-4 p-5"
+      data-endpoint={endpoint}
+      data-issue-base={issueBase}
+    >
+      <div>
+        <label class="mb-1 block text-sm font-medium" for="f-title">Name of the place *</label>
+        <input id="f-title" name="title" required class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" />
+      </div>
+
+      <div>
+        <label class="mb-1 block text-sm font-medium" for="f-summary">Short summary * <span class="font-normal text-ink-soft">(one line, shown on cards)</span></label>
+        <input id="f-summary" name="summary" required maxlength="280" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" />
+      </div>
+
+      <div>
+        <label class="mb-1 block text-sm font-medium" for="f-desc">Why it's worth visiting</label>
+        <textarea id="f-desc" name="description" rows="4" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun"></textarea>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div>
+          <label class="mb-1 block text-sm font-medium" for="f-cat">Category</label>
+          <select id="f-cat" name="category" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun">
+            {CATEGORIES.map((c) => <option value={c}>{CATEGORY_META[c].emoji} {CATEGORY_META[c].label}</option>)}
+          </select>
+        </div>
+        <div>
+          <label class="mb-1 block text-sm font-medium" for="f-pref">Prefecture *</label>
+          <select id="f-pref" name="prefecture" required class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun">
+            <option value="">— choose —</option>
+            {PREFECTURES.map((p) => <option value={p.slug}>{p.name}</option>)}
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <label class="mb-1 block text-sm font-medium" for="f-city">City / town</label>
+        <input id="f-city" name="city" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" />
+      </div>
+
+      <fieldset class="rounded-lg border border-line p-3">
+        <legend class="px-1 text-sm font-medium">Where on the map? *</legend>
+        <label class="mb-1 block text-xs text-ink-soft" for="f-maps">Paste a Google Maps link and we'll grab the coordinates</label>
+        <input id="f-maps" type="text" placeholder="https://maps.google.com/…  or  35.68, 139.76" class="mb-3 w-full rounded-lg border border-line bg-surface px-3 py-2 text-sm outline-none focus:border-sun" />
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="mb-1 block text-xs text-ink-soft" for="f-lat">Latitude</label>
+            <input id="f-lat" name="lat" inputmode="decimal" required class="w-full rounded-lg border border-line bg-surface px-3 py-2 text-sm outline-none focus:border-sun" />
+          </div>
+          <div>
+            <label class="mb-1 block text-xs text-ink-soft" for="f-lng">Longitude</label>
+            <input id="f-lng" name="lng" inputmode="decimal" required class="w-full rounded-lg border border-line bg-surface px-3 py-2 text-sm outline-none focus:border-sun" />
+          </div>
+        </div>
+        <p id="geo-msg" class="mt-2 text-xs text-ink-soft"></p>
+      </fieldset>
+
+      <fieldset>
+        <legend class="mb-1 text-sm font-medium">Best seasons (optional)</legend>
+        <div class="flex flex-wrap gap-3">
+          {SEASONS.map((s) => (
+            <label class="flex items-center gap-1.5 text-sm">
+              <input type="checkbox" name="seasons" value={s} /> {SEASON_LABEL[s]}
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div>
+          <label class="mb-1 block text-sm font-medium" for="f-web">Website (optional)</label>
+          <input id="f-web" name="website" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="https://" />
+        </div>
+        <div>
+          <label class="mb-1 block text-sm font-medium" for="f-by">Credit (optional)</label>
+          <input id="f-by" name="submittedBy" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="Your name / handle" />
+        </div>
+      </div>
+
+      <!-- Honeypot -->
+      <input type="text" name="hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+
+      <input type="hidden" name="months" id="f-months" />
+
+      <div class="flex items-center gap-3 pt-1">
+        <button type="submit" class="btn btn-primary">✅ Add to the map</button>
+        <span id="add-status" class="text-sm text-ink-soft" role="status"></span>
+      </div>
+    </form>
+
+    <!-- Success panel -->
+    <div id="add-done" class="card mt-6 p-6 text-center" hidden>
+      <p class="text-4xl">🎉</p>
+      <p class="mt-2 font-display text-xl font-semibold">Added! It's on its way to the map.</p>
+      <p class="mt-1 text-ink-soft">Your place will appear in a minute or two, once the site rebuilds.</p>
+      <a id="add-link" href="#" class="btn btn-ghost mt-4">View your place →</a>
+      <p class="mt-3 text-sm">
+        <a href={withBase("/add")} class="link-underline text-sun">Add another</a>
+      </p>
+    </div>
+
+    <p class="mt-5 text-center text-sm text-ink-soft">
+      Came here by mistake? Use the full
+      <a href={withBase("/submit")} class="link-underline text-sun">submission form</a>.
+    </p>
+  </div>
+</BaseLayout>
+
+<script>
+  const form = document.getElementById("add-form") as HTMLFormElement;
+  const status = document.getElementById("add-status")!;
+  const done = document.getElementById("add-done") as HTMLElement;
+  const doneLink = document.getElementById("add-link") as HTMLAnchorElement;
+  const geoMsg = document.getElementById("geo-msg")!;
+  const latEl = document.getElementById("f-lat") as HTMLInputElement;
+  const lngEl = document.getElementById("f-lng") as HTMLInputElement;
+  const mapsEl = document.getElementById("f-maps") as HTMLInputElement;
+
+  const setVal = (id: string, v: string | null) => {
+    if (!v) return;
+    const el = document.getElementById(id) as HTMLInputElement | HTMLSelectElement | null;
+    if (el) el.value = v;
+  };
+
+  /** Pull lat,lng out of a Google Maps link or a plain "lat, lng" string. */
+  function parseLatLng(s: string): { lat: number; lng: number } | null {
+    if (!s) return null;
+    const tries = [
+      /@(-?\d+\.\d+),(-?\d+\.\d+)/,
+      /!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/,
+      /[?&](?:q|query|ll|destination|center|sll)=(-?\d+\.\d+),\s*(-?\d+\.\d+)/,
+      /(-?\d{1,2}\.\d{3,})\s*,\s*(-?\d{2,3}\.\d{3,})/,
+    ];
+    for (const re of tries) {
+      const m = s.match(re);
+      if (m) return { lat: +m[1], lng: +m[2] };
+    }
+    return null;
+  }
+
+  function applyLatLng(s: string) {
+    const ll = parseLatLng(s);
+    if (ll) {
+      latEl.value = String(ll.lat);
+      lngEl.value = String(ll.lng);
+      geoMsg.textContent = `📍 Got it: ${ll.lat}, ${ll.lng}`;
+    } else {
+      geoMsg.textContent = "Couldn't read coordinates from that — paste lat, lng directly below.";
+    }
+  }
+
+  mapsEl.addEventListener("input", () => applyLatLng(mapsEl.value));
+
+  // Prefill from query params (sent by ChatGPT or the /submit form).
+  const p = new URLSearchParams(location.search);
+  setVal("f-title", p.get("title"));
+  setVal("f-summary", p.get("summary") || p.get("why")?.slice(0, 280) || p.get("description")?.slice(0, 280) || "");
+  setVal("f-desc", p.get("description") || p.get("why"));
+  setVal("f-city", p.get("city"));
+  setVal("f-web", p.get("website"));
+  setVal("f-by", p.get("by") || p.get("submittedBy"));
+  setVal("f-months", p.get("months"));
+
+  const cat = (p.get("category") || "").toLowerCase();
+  if (cat && document.querySelector(`#f-cat option[value="${cat}"]`)) setVal("f-cat", cat);
+  const pref = (p.get("prefecture") || p.get("pref") || "").toLowerCase();
+  if (pref && document.querySelector(`#f-pref option[value="${pref}"]`)) setVal("f-pref", pref);
+
+  const lat = p.get("lat");
+  const lng = p.get("lng");
+  if (lat && lng) {
+    latEl.value = lat;
+    lngEl.value = lng;
+  } else if (p.get("loc")) {
+    applyLatLng(p.get("loc")!);
+  }
+
+  const seasonParam = (p.get("seasons") || "").toLowerCase();
+  if (seasonParam) {
+    for (const s of seasonParam.split(/[,\s]+/).filter(Boolean)) {
+      const box = document.querySelector<HTMLInputElement>(`input[name="seasons"][value="${s}"]`);
+      if (box) box.checked = true;
+    }
+  }
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if ((new FormData(form).get("hp") as string)?.length) return; // honeypot
+
+    const latN = Number(latEl.value);
+    const lngN = Number(lngEl.value);
+    if (!(latN >= 20 && latN <= 46) || !(lngN >= 122 && lngN <= 154)) {
+      status.textContent = "Please add coordinates inside Japan (paste a Google Maps link above).";
+      geoMsg.textContent = "Latitude 20–46, longitude 122–154.";
+      return;
+    }
+    if (!(document.getElementById("f-pref") as HTMLSelectElement).value) {
+      status.textContent = "Please choose a prefecture.";
+      return;
+    }
+
+    const fd = new FormData(form);
+    const payload: Record<string, unknown> = {
+      title: (fd.get("title") as string)?.trim(),
+      summary: (fd.get("summary") as string)?.trim(),
+      description: (fd.get("description") as string)?.trim(),
+      category: fd.get("category"),
+      prefecture: fd.get("prefecture"),
+      city: (fd.get("city") as string)?.trim(),
+      lat: latN,
+      lng: lngN,
+      seasons: fd.getAll("seasons"),
+      months: (fd.get("months") as string)?.split(",").map((s) => s.trim()).filter(Boolean),
+      website: (fd.get("website") as string)?.trim(),
+      submittedBy: (fd.get("submittedBy") as string)?.trim(),
+    };
+
+    const endpoint = form.dataset.endpoint;
+    if (endpoint) {
+      status.textContent = "Adding…";
+      try {
+        const res = await fetch(endpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.ok) {
+          form.hidden = true;
+          done.hidden = false;
+          if (data.url) doneLink.href = data.url;
+          else doneLink.hidden = true;
+          return;
+        }
+        status.textContent = data.error || "Something went wrong. Please try again.";
+      } catch {
+        status.textContent = "Network error — please try again.";
+      }
+      return;
+    }
+
+    // No endpoint configured yet → correctly prefilled GitHub issue (no copy-paste, just a login).
+    const lines = [
+      `### ${payload.title}`,
+      "",
+      `**Category:** ${payload.category}`,
+      `**Prefecture:** ${payload.prefecture}`,
+      `**City:** ${payload.city || "—"}`,
+      `**Location:** ${latN}, ${lngN}`,
+      `**Best seasons:** ${(payload.seasons as string[]).join(", ") || "—"}`,
+      `**Website:** ${payload.website || "—"}`,
+      `**Submitted by:** ${payload.submittedBy || "anonymous"}`,
+      "",
+      "**Description**",
+      "",
+      (payload.description as string) || (payload.summary as string),
+    ].join("\n");
+    const url = new URL(form.dataset.issueBase!);
+    url.searchParams.set("labels", "submission");
+    url.searchParams.set("title", `[Submission] ${payload.title}`);
+    url.searchParams.set("body", lines);
+    window.open(url.toString(), "_blank", "noopener");
+    status.textContent = "Opening GitHub to finish (no auto-publish endpoint configured yet).";
+  });
+</script>

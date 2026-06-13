@@ -109,12 +109,24 @@ is URL-encoded (`?from=&to=`) so a planned window is shareable/bookmarkable. **T
 attraction matching is month-granular (a peak-in-April bloom matches any April visit), which is
 the right resolution for fuzzy "best months" data; events, which carry exact dates, are precise.
 
-### 19. "Add it with ChatGPT" submission deep-link
-**Why:** The lowest-friction way to submit from a phone, with **no backend, no API keys, and
-no custom GPT** (so it works for anyone with any ChatGPT account, free or paid). `/submit`
-deep-links to `https://chatgpt.com/?q=<prompt>` with a prompt that briefs ChatGPT as a
-submission assistant: it interviews the visitor, then returns a one-tap, prefilled
-`issues/new?labels=submission&...` GitHub link in the **exact** body format the website form
-produces — so AI- and form-sourced submissions land in the same review queue, identically
-shaped. The valid `CATEGORIES` are injected into the prompt so ChatGPT can't pick an invalid
-one. Nothing weakens the publish gate: it still creates a `pending` issue a maintainer reviews.
+### 19. "Add it with ChatGPT" + one-tap auto-publish (`/add` + submission Worker)
+**Why:** The lowest-friction way to submit from a phone. `/submit` deep-links to
+`https://chatgpt.com/?q=<prompt>` (works with any free/paid ChatGPT account, no custom GPT) with
+a prompt that briefs ChatGPT as a submission assistant. **First iteration** had ChatGPT hand-
+build a prefilled `issues/new?body=…` URL — which proved fragile (over-long/mis-encoded URLs
+opened a *blank* issue, and it still needed a GitHub login). **Now** ChatGPT only produces a
+short link to our own **`/add`** page (`?title=&lat=&lng=…`); that page is the robust assembler
+— dropdowns guarantee a valid prefecture/category, coordinates are required + range-checked, and
+it POSTs clean JSON to a **Cloudflare Worker** (`tools/submit-worker/`). The Worker holds a
+GitHub token (a Worker secret — never in the static site, since GitHub Pages can't keep one) and
+commits a schema-valid, **auto-published** Markdown entry; the push triggers the normal Pages
+rebuild, so the place appears in a minute or two — no GitHub, no copy-paste, no review step.
+The same `/add` pipeline backs the manual form (it hands off to `/add`), so there's one path.
+**Wiring:** `PUBLIC_SUBMIT_ENDPOINT` (mirrors the existing `PUBLIC_COMMENTS_ENDPOINT` pattern) —
+empty falls back to a *correctly* prefilled GitHub issue, so nothing breaks before the Worker is
+deployed. **Trade-offs:** (a) auto-publish means a bad entry would fail the build, so the Worker
+re-validates every schema-required field (prefecture/category/Japan-bounded lat-lng) before
+committing; (b) the endpoint is open (CORS `*`, no auth) — acceptable for a solo atlas where
+every change is a revertable commit; hardening (origin lock, shared secret, Turnstile) is noted
+in the Worker README for later. To switch to a review queue, flip `approval` to `pending` in the
+Worker's `buildMarkdown`.

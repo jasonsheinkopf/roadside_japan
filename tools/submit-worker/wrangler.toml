@@ -1,0 +1,8 @@
+name = "roadside-submit"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# The GitHub token is NOT stored here. Set it as a secret (never commit it):
+#   npx wrangler secret put GITHUB_TOKEN
+#
+# See README.md for full setup.

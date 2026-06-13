@@ -9,44 +9,38 @@ import { withBase } from "../lib/url";
 
 /**
  * "Add it with ChatGPT" — the easiest path from a phone, no account on our side and no API
- * keys. We deep-link to ChatGPT (works with any free or paid account) prefilled with a
- * prompt that turns it into a submission assistant: it interviews the visitor, then hands
- * back a one-tap, prefilled GitHub issue in the exact format a maintainer expects. The
- * categories list is injected so ChatGPT only ever picks a valid one.
+ * keys. We deep-link to ChatGPT (works with any free or paid account) prefilled with a prompt
+ * that turns it into a submission assistant: it interviews the visitor, then hands back a
+ * one-tap link to our own /add page (NOT a hand-built GitHub URL — that was fragile). The /add
+ * page assembles the real request and publishes via the submission Worker. Vocab lists are
+ * injected so ChatGPT only ever picks a valid category/prefecture.
  */
+const prefectureSlugs = PREFECTURES.map((p) => p.slug).join(", ");
+const addUrl = new URL(withBase("/add"), Astro.site ?? "https://jasonsheinkopf.github.io").href;
+
 const chatGptPrompt = `You are the Roadside Japan submission assistant. Roadside Japan (${SITE.repo}) is a community atlas of Japan's hidden gems, weird roadside attractions, and seasonal events.
 
 Help me submit one new place. Ask me a couple of short questions at a time until you have:
 1. The name of the place.
-2. Where it is — prefecture, city, and a Google Maps link or "lat,lng" if I have one (offer to help me figure out the prefecture/coordinates from the name).
-3. Why it's worth visiting — what's strange, special, or overlooked about it.
-4. Best time to go (months or seasons) if it's seasonal; otherwise it's year-round.
-5. Optional: a website, photo links, and the name/handle to credit me as.
+2. Where it is — prefecture and city. I may give a Google Maps link or address; if not, look up the coordinates from the name (you MUST end up with a decimal latitude and longitude inside Japan).
+3. A one-line summary, and 2–4 sentences on why it's worth visiting (what's strange, special, or overlooked).
+4. Best time to go (seasons) if it's seasonal; otherwise it's year-round.
+5. Optional: a website and the name/handle to credit me as.
 
-Rules: don't invent facts — only use what I tell you. If I don't know something, put "—". Keep it tight and friendly.
+Rules: don't invent facts about the place — only use what I tell you (you MAY look up its prefecture and coordinates). Keep it tight and friendly.
 
-When you have enough, do BOTH of these:
+When you have everything, give me ONE tap-to-open link that adds it to the map. Build it from this base URL, appending the fields as URL-encoded query parameters (encode each value):
 
-A) Show the submission as a markdown block in EXACTLY this format:
+${addUrl}?title=NAME&summary=ONE_LINE&description=WHY&category=CATEGORY&prefecture=PREF_SLUG&city=CITY&lat=LATITUDE&lng=LONGITUDE&seasons=SEASONS&website=URL&by=CREDIT
 
-### <name>
-**Category:** <pick one: ${CATEGORIES.join(", ")}>
-**Prefecture:** <prefecture>
-**City:** <city or —>
-**Location:** <maps link / lat,lng or —>
-**Best seasons:** <e.g. spring, autumn — or — if year-round>
-**Website:** <url or —>
-**Photos / notes:** <links or notes or —>
-**Submitted by:** <my name or anonymous>
+where:
+- category is exactly one of: ${CATEGORIES.join(", ")}
+- prefecture is exactly one of these lowercase slugs: ${prefectureSlugs}
+- lat and lng are decimal numbers (required — always include them)
+- seasons is a comma-separated subset of: spring, summer, autumn, winter (omit if year-round)
+- omit any optional field you don't have
 
-**Description**
-
-<2–4 sentences on why it's worth visiting>
-
-B) Give me ONE tap-to-open link that pre-fills the GitHub submission with everything above. Build it precisely as:
-${SITE.repo}/issues/new?labels=submission&title=<URL-encode "[Submission] " followed by the name>&body=<URL-encode the entire markdown block from part A>
-
-Then tell me: tap the link, press "Submit new issue" on GitHub to finish, and a maintainer will review it before it goes live.
+Then tell me: tap the link, glance over the details on the page that opens, and tap "Add to the map" — it'll be live in a minute or two.
 
 Start by asking me what the place is.`;
 
@@ -61,9 +55,9 @@ const chatGptUrl = `https://chatgpt.com/?q=${encodeURIComponent(chatGptPrompt)}`
     <header class="mb-6 max-w-2xl">
       <h1 class="font-display text-3xl font-bold sm:text-4xl">Submit a discovery</h1>
       <p class="mt-2 text-ink-soft">
-        Know a place that belongs in Roadside Japan? Tell us about it. Submissions enter a
-        review queue and are checked before publishing. <strong>No account needed</strong> —
-        the final step opens a prefilled GitHub ticket you can post in one click.
+        Know a place that belongs in Roadside Japan? Tell us about it — <strong>no account
+        needed</strong>. The easiest way is to let ChatGPT do it for you; or fill the form and
+        it'll add your place to the map directly.
       </p>
     </header>
 
@@ -82,7 +76,7 @@ const chatGptUrl = `https://chatgpt.com/?q=${encodeURIComponent(chatGptPrompt)}`
         <p class="mt-1 text-sm text-ink-soft">
           Tap here to open ChatGPT (your own account, free or paid) already briefed as a
           Roadside Japan assistant. Just chat about the place — tell it the name and a rough
-          location — and it hands you back a one-tap link that files the submission for review.
+          location — and it hands you back a one-tap link that adds it straight to the map.
           No forms, no typing on a tiny keyboard.
         </p>
       </div>
@@ -157,7 +151,7 @@ const chatGptUrl = `https://chatgpt.com/?q=${encodeURIComponent(chatGptPrompt)}`
         <input type="text" name="hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
 
         <div class="flex items-center gap-3 pt-1">
-          <button type="submit" class="btn btn-primary">➕ Review & submit on GitHub</button>
+          <button type="submit" class="btn btn-primary">➕ Continue</button>
           <span id="submit-status" class="text-sm text-ink-soft" role="status"></span>
         </div>
       </form>
@@ -166,17 +160,17 @@ const chatGptUrl = `https://chatgpt.com/?q=${encodeURIComponent(chatGptPrompt)}`
         <div class="card p-5">
           <h2 class="font-display text-lg font-semibold">How it works</h2>
           <ol class="mt-2 list-decimal space-y-1.5 pl-5 text-sm text-ink-soft">
-            <li>You describe the place here.</li>
-            <li>We open a prefilled ticket on GitHub (one click).</li>
-            <li>A maintainer (or an AI agent) verifies and enriches it.</li>
-            <li>It's published to the map and atlas.</li>
+            <li>You describe the place (here, or via ChatGPT).</li>
+            <li>You confirm the spot on a one-tap page.</li>
+            <li>It's added to the map directly — live in a minute or two.</li>
+            <li>A maintainer can tidy or enrich it later.</li>
           </ol>
         </div>
         <div class="card p-5">
           <h2 class="font-display text-lg font-semibold">🤖 Add it with ChatGPT</h2>
           <p class="mt-2 text-sm text-ink-soft">
             The fastest way from a phone. ChatGPT interviews you, then gives you a one-tap
-            link that files the submission — using your own account.
+            link that adds it to the map — using your own account.
           </p>
           <a href={chatGptUrl} target="_blank" rel="noopener" class="btn btn-primary mt-3 w-full justify-center">
             Open ChatGPT to add a place
@@ -194,50 +188,40 @@ const chatGptUrl = `https://chatgpt.com/?q=${encodeURIComponent(chatGptPrompt)}`
       </aside>
     </div>
   </div>
-
-  <script type="application/json" id="rj-repo" set:html={JSON.stringify(SITE.repo)} is:inline />
 </BaseLayout>
 
 <script>
+  import { withBase } from "../lib/url";
+
   const form = document.getElementById("submit-form") as HTMLFormElement | null;
   const status = document.getElementById("submit-status");
-  const repo = JSON.parse(document.getElementById("rj-repo")!.textContent || '""');
 
+  // Hand off to /add, which confirms coordinates and publishes (the single, robust pipeline
+  // shared with the ChatGPT flow). We pass the free-text location as `loc` so /add can try to
+  // pull lat/lng out of a Google Maps link there.
   form?.addEventListener("submit", (e) => {
     e.preventDefault();
     const fd = new FormData(form);
     if ((fd.get("hp") as string)?.length) return; // honeypot
 
     const get = (k: string) => ((fd.get(k) as string) || "").trim();
-    const seasons = fd.getAll("seasons").join(", ") || "—";
     const title = get("title");
     if (!title || !get("description")) return;
 
-    const body = [
-      `### ${title}`,
-      "",
-      `**Category:** ${get("category")}`,
-      `**Prefecture:** ${get("prefecture")}`,
-      `**City:** ${get("city") || "—"}`,
-      `**Location:** ${get("location") || "—"}`,
-      `**Best seasons:** ${seasons}`,
-      `**Website:** ${get("website") || "—"}`,
-      `**Photos / notes:** ${get("photos") || "—"}`,
-      `**Submitted by:** ${get("submittedBy") || "anonymous"}`,
-      "",
-      "**Description**",
-      "",
-      get("description"),
-      "",
-      "---",
-      "_Submitted via the Roadside Japan website. A maintainer will verify and publish._",
-    ].join("\n");
+    const p = new URLSearchParams();
+    p.set("title", title);
+    p.set("description", get("description"));
+    p.set("summary", get("description").slice(0, 200));
+    if (get("category")) p.set("category", get("category"));
+    if (get("prefecture")) p.set("prefecture", get("prefecture"));
+    if (get("city")) p.set("city", get("city"));
+    if (get("location")) p.set("loc", get("location"));
+    const seasons = fd.getAll("seasons").join(",");
+    if (seasons) p.set("seasons", seasons);
+    if (get("website")) p.set("website", get("website"));
+    if (get("submittedBy")) p.set("by", get("submittedBy"));
 
-    const url = new URL(`${repo}/issues/new`);
-    url.searchParams.set("labels", "submission");
-    url.searchParams.set("title", `[Submission] ${title}`);
-    url.searchParams.set("body", body);
-    window.open(url.toString(), "_blank", "noopener");
-    if (status) status.textContent = "Opening GitHub to finish your submission…";
+    if (status) status.textContent = "Taking you to the final step…";
+    location.href = `${withBase("/add")}?${p.toString()}`;
   });
 </script>

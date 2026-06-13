@@ -62,6 +62,8 @@ src/scripts/     client islands (data.ts loader, leaflet-map.ts)
 src/pages/       routes + endpoints (api/*.json, rss.xml, sitemap.xml, manifest.webmanifest)
 tools/agent/     AI research agent (providers, agents, cli.ts, server.ts)
 tools/build/     gen-assets.ts (logo → icons/OG)
+tools/submit-worker/  Cloudflare Worker: no-login place submissions → auto-published commit
+                      (backs PUBLIC_SUBMIT_ENDPOINT, used by /add and /submit)
 ```
 
 ---
