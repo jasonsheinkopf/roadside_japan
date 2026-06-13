@@ -1,12 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import AttractionCard from "../components/AttractionCard.astro";
+import MapView from "../components/MapView.astro";
 import { getIndexRecords } from "../lib/content";
 import { matchesMonth } from "../lib/filters";
 import { CATEGORY_META } from "../data/categories";
 import { SEASON_LABEL, MONTH_LABEL, seasonForMonth } from "../data/vocab";
 import { SEASON_EMOJI } from "../lib/format";
-import { prefecturesByRegion, REGIONS } from "../data/prefectures";
+import { prefecturesByRegion, REGIONS, JAPAN_CENTER } from "../data/prefectures";
 import { withBase, exploreUrl, mapUrl } from "../lib/url";
 
 const records = await getIndexRecords();
@@ -85,6 +86,25 @@ for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefectu
         <a href={withBase("/random")} class="btn btn-ghost">🎲 Surprise me</a>
       </div>
     </div>
+  </section>
+
+  <!-- LIVE MAP -->
+  <section class="mt-12">
+    <div class="mb-4 flex items-end justify-between gap-4">
+      <div>
+        <h2 class="font-display text-2xl font-bold">🗺️ Roam the map</h2>
+        <p class="text-sm text-ink-soft">Every discovery, pinned. Tap a marker, then dive in.</p>
+      </div>
+      <a href={mapUrl()} class="shrink-0 text-sm font-medium link-underline">Full-screen map →</a>
+    </div>
+    <MapView
+      records={records}
+      center={[JAPAN_CENTER.lat, JAPAN_CENTER.lng]}
+      zoom={JAPAN_CENTER.zoom}
+      cluster={true}
+      heightClass="h-[440px]"
+      id="home-map"
+    />
   </section>
 
   <!-- IN SEASON NOW -->
