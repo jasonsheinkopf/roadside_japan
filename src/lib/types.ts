@@ -10,6 +10,7 @@ import type {
   Category,
   CostType,
   Difficulty,
+  Recurrence,
   Season,
   Status,
   TimeRequired,
@@ -67,6 +68,7 @@ export interface IndexRecord {
   // events only
   startDate?: string; // ISO
   endDate?: string; // ISO
+  recurrence?: Recurrence; // how the event repeats (drives date-range matching)
 }
 
 export interface NearbyResult {

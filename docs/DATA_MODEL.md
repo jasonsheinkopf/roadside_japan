@@ -76,7 +76,7 @@ Visit`, `## Getting There`.
 | ------------ | --------------------------------- | ----- |
 | `startDate`  | date (**required**)               | Start of the window. |
 | `endDate`    | date (**required**)               | End of the window. |
-| `recurrence` | `annual\|one-time\|irregular` = `annual` | Annual events suppress the year in labels. |
+| `recurrence` | `annual\|one-time\|irregular` = `annual` | Annual events suppress the year in labels, and are projected onto a visitor's trip year by month/day for the Map date filter (see `matchesDateRange`); `one-time`/`irregular` events match on their literal dates. |
 | `venue`      | reference(attractions)            | Optionally tie an event to a permanent place. |
 
 ---

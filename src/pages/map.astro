@@ -67,6 +67,24 @@ const records = await getIndexRecords();
       </div>
     </div>
 
+    <!-- "When are you visiting?" date-range bar -->
+    <div class="relative z-10 flex flex-wrap items-center gap-x-3 gap-y-2 border-b border-line bg-surface/60 px-3 py-2 text-sm">
+      <span class="font-medium">📅 When are you visiting?</span>
+      <div class="flex items-center gap-2">
+        <label class="sr-only" for="trip-from">Arriving</label>
+        <input id="trip-from" type="date" class="rounded-lg border border-line bg-surface px-2 py-1 text-sm outline-none focus:border-sun" aria-label="Arriving date" />
+        <span class="text-ink-soft" aria-hidden="true">→</span>
+        <label class="sr-only" for="trip-to">Leaving</label>
+        <input id="trip-to" type="date" class="rounded-lg border border-line bg-surface px-2 py-1 text-sm outline-none focus:border-sun" aria-label="Leaving date" />
+      </div>
+      <label class="inline-flex cursor-pointer items-center gap-1.5" title="Hide places that are worth visiting any time of year">
+        <input id="trip-seasonal" type="checkbox" class="h-4 w-4 accent-[var(--sun)]" />
+        <span>Seasonal only</span>
+      </label>
+      <button id="trip-clear" type="button" class="text-sun link-underline" hidden>Clear dates</button>
+      <span id="trip-hint" class="text-ink-soft" role="status"></span>
+    </div>
+
     <!-- Map -->
     <div id="map" class="min-h-0 flex-1"></div>
   </div>
@@ -76,7 +94,7 @@ const records = await getIndexRecords();
 
 <script>
   import { createMap } from "../scripts/leaflet-map";
-  import { applyFilters, FILTER_OPTIONS } from "../lib/filters";
+  import { applyFilters, matchesDateRange, FILTER_OPTIONS } from "../lib/filters";
   import { createSearch, type SearchProvider } from "../lib/search";
   import { loadRecords } from "../scripts/data";
   import type { IndexRecord } from "../lib/types";
@@ -90,6 +108,11 @@ const records = await getIndexRecords();
   const clearBtn = document.getElementById("map-clear") as HTMLButtonElement;
   const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-filter]"));
   const catChips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-cat]"));
+  const fromInput = document.getElementById("trip-from") as HTMLInputElement;
+  const toInput = document.getElementById("trip-to") as HTMLInputElement;
+  const seasonalBox = document.getElementById("trip-seasonal") as HTMLInputElement;
+  const tripClear = document.getElementById("trip-clear") as HTMLButtonElement;
+  const tripHint = document.getElementById("trip-hint")!;
 
   const handle = createMap({ el, cluster: true });
   let records: IndexRecord[] = [];
@@ -97,17 +120,25 @@ const records = await getIndexRecords();
   const selected = new Set<string>();
   let cat: string | null = null;
   let q = "";
+  let from = ""; // ISO date (YYYY-MM-DD) the visitor arrives
+  let to = ""; //   ISO date the visitor leaves
+
+  const dateRangeActive = () => Boolean(from && to && to >= from);
 
   function readUrl() {
     const p = new URLSearchParams(location.search);
     q = p.get("q") ?? "";
     cat = p.get("cat");
+    from = p.get("from") ?? "";
+    to = p.get("to") ?? "";
     p.get("f")?.split(",").forEach((id) => FILTER_OPTIONS.has(id) && selected.add(id));
   }
   function writeUrl() {
     const p = new URLSearchParams();
     if (q) p.set("q", q);
     if (cat) p.set("cat", cat);
+    if (from) p.set("from", from);
+    if (to) p.set("to", to);
     if (selected.size) p.set("f", [...selected].join(","));
     const qs = p.toString();
     history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
@@ -116,19 +147,27 @@ const records = await getIndexRecords();
   function compute(): IndexRecord[] {
     let working = q ? search.search(q) : records.slice();
     if (cat) working = working.filter((r) => r.category === cat);
-    return applyFilters(working, selected);
+    working = applyFilters(working, selected);
+    if (dateRangeActive()) working = working.filter((r) => matchesDateRange(r, from, to));
+    return working;
   }
 
   function render() {
     const list = compute();
     handle.setRecords(list);
     countEl.textContent = `${list.length} places`;
-    const active = selected.size + (cat ? 1 : 0);
+    const active = selected.size + (cat ? 1 : 0) + (dateRangeActive() ? 1 : 0);
     badge.hidden = active === 0;
     badge.textContent = String(active);
     clearBtn.hidden = !(active || q);
     for (const c of chips) c.setAttribute("aria-pressed", String(selected.has(c.dataset.filter!)));
     for (const c of catChips) c.setAttribute("aria-pressed", String(cat === c.dataset.cat));
+    // Reflect trip-date state.
+    if (fromInput.value !== from) fromInput.value = from;
+    if (toInput.value !== to) toInput.value = to;
+    seasonalBox.checked = selected.has("seasonal");
+    tripClear.hidden = !dateRangeActive();
+    tripHint.textContent = dateRangeActive() ? `${list.length} active during your visit` : "";
     writeUrl();
   }
 
@@ -157,7 +196,30 @@ const records = await getIndexRecords();
     selected.clear();
     cat = null;
     q = "";
+    from = "";
+    to = "";
     searchInput.value = "";
+    render();
+  });
+
+  // Trip-date controls
+  fromInput.addEventListener("change", () => {
+    from = fromInput.value;
+    if (to && from && to < from) to = from; // keep the window sane
+    render();
+  });
+  toInput.addEventListener("change", () => {
+    to = toInput.value;
+    if (from && to && to < from) from = to;
+    render();
+  });
+  seasonalBox.addEventListener("change", () => {
+    seasonalBox.checked ? selected.add("seasonal") : selected.delete("seasonal");
+    render();
+  });
+  tripClear.addEventListener("click", () => {
+    from = "";
+    to = "";
     render();
   });
   toggle.addEventListener("click", () => {
