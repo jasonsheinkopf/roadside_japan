@@ -25,6 +25,12 @@ accessibility:
   wheelchair: partial
   note: "Flat gravel path from the lot to the viewing area."
 dogFriendly: yes
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Biei_Blue-pond.jpg/800px-Biei_Blue-pond.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Biei_Blue-pond.jpg/800px-Biei_Blue-pond.jpg"
+    alt: "Blue Pond in Biei with bright blue water and drowned larch trees"
+    credit: "Wikimedia Commons contributors"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Biei_Blue-pond.jpg"
 tips:
   - "The color shifts with light and weather — midday sun on a clear day is most intense."
   - "Winter brings evening illuminations; the pond rarely fully freezes."
@@ -33,13 +39,18 @@ status: open
 approval: published
 source: editorial
 submittedBy: editorial
+sources:
+  - title: "Blue Pond (Biei) — Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Blue_Pond_(Biei)"
+  - title: "Shirogane Blue Pond media — Wikimedia Commons"
+    url: "https://commons.wikimedia.org/wiki/Category:Shirogane_Blue_Pond"
 featured: false
 aiSummary: "A vividly blue artificial pond near Biei, Hokkaido, with submerged dead larch trees, created as a byproduct of erosion-control works."
 aiKeywords: [aoiike, blue pond, biei, shirogane, hokkaido, larch]
 related:
   - takachiho-gorge
 createdAt: 2025-07-08
-updatedAt: 2025-11-28
+updatedAt: 2026-06-13
 ---
 
 Nobody set out to build one of Hokkaido's most photographed landscapes. The **Blue Pond** (Aoiike) near Biei formed almost by accident, when a dam built to protect the town from volcanic mudflows pooled mineral-laden water among a stand of larch trees.
