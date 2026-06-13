@@ -57,6 +57,7 @@ Visit`, `## Getting There`.
 | `photos`        | `{ src, alt, credit?, creditUrl? }[]` = `[]`| `src` = `/public` path or remote URL. Always include `alt`. |
 | `website`       | url                                         | Official site. |
 | `tips`          | string[] = `[]`                             | Short bullet tips, shown in a dedicated box. |
+| `quotes`        | `{ text, author?, source?, url? }[]` = `[]` | Sourced visitor quotes/reviews (attributed, with links), shown in a "What visitors say" block. **Not** community comments — these are curated pull-quotes from real reviews/articles. |
 | `status`        | `open\|seasonal\|temporarily-closed\|permanently-closed\|unknown` = `open` | Operational status. |
 | `approval`      | `published\|pending\|rejected\|draft` = `draft` | **Only `published` is public.** |
 | `source`        | `editorial\|community\|ai-agent\|imported` = `editorial` | Provenance. |

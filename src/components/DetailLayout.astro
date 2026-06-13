@@ -120,6 +120,33 @@ const sourceLabel: Record<string, string> = {
         }
 
         {
+          data.quotes.length > 0 && (
+            <section class="mt-8">
+              <h2 class="font-display text-xl font-bold">What visitors say</h2>
+              <div class="mt-3 grid gap-3 sm:grid-cols-2">
+                {data.quotes.map((q) => (
+                  <figure class="card border-l-4 border-l-sun p-4">
+                    <blockquote class="text-sm leading-relaxed text-ink">“{q.text}”</blockquote>
+                    {(q.author || q.source) && (
+                      <figcaption class="mt-2 text-xs text-ink-soft">
+                        {q.author && <span class="font-medium text-ink">{q.author}</span>}
+                        {q.author && q.source && " · "}
+                        {q.source &&
+                          (q.url ? (
+                            <a href={q.url} target="_blank" rel="noopener" class="link-underline">{q.source}</a>
+                          ) : (
+                            <span>{q.source}</span>
+                          ))}
+                      </figcaption>
+                    )}
+                  </figure>
+                ))}
+              </div>
+            </section>
+          )
+        }
+
+        {
           data.photos.length > 0 && (
             <section class="mt-8">
               <h2 class="font-display text-xl font-bold">Photos</h2>

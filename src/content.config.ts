@@ -44,6 +44,17 @@ const sourceRef = z.object({
   retrieved: z.coerce.date().optional(),
 });
 
+/** A sourced pull-quote from a real review/article (NOT a community comment). */
+const quote = z.object({
+  text: z.string().min(10),
+  /** Reviewer name/handle, if known. */
+  author: z.string().optional(),
+  /** Where it came from, e.g. "Google reviews", "Atlas Obscura". */
+  source: z.string().optional(),
+  /** Link back to the original. */
+  url: z.string().url().optional(),
+});
+
 /** Fields shared by attractions and events. */
 const commonFields = z.object({
   title: z.string().min(2),
@@ -106,6 +117,8 @@ const commonFields = z.object({
 
   // --- Editorial extras (shown in dedicated UI blocks) ---
   tips: z.array(z.string()).default([]),
+  /** Sourced visitor quotes/reviews (attributed, with links) — not community comments. */
+  quotes: z.array(quote).default([]),
 
   // --- Provenance, moderation, AI ---
   status: z.enum(STATUS).default("open"),
