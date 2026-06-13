@@ -66,6 +66,13 @@ preview), and **Approve → queue** (POST `/api/save`). Because the deployed sit
 `localhost`, the chat is a local-development workflow — the public `/admin` page explains this
 and still shows the live review queue and moderation links.
 
+## Photo and review enrichment
+
+Photo enrichment is handled as a provenance-first pass, not a scrape-and-copy pass. The working
+rules live in [`PHOTO_ENRICHMENT.md`](./PHOTO_ENRICHMENT.md). In short: pick images only when
+there is a clear license or official reuse path, add `heroImage` plus `photos` with credit and
+`creditUrl`, and synthesize visitor tips instead of copying long review text.
+
 ## How a candidate becomes valid data
 
 `tools/agent/agents/research.ts` injects the controlled vocabulary (categories, seasons,
