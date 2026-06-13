@@ -25,9 +25,9 @@ accessibility:
   wheelchair: partial
   note: "Flat gravel path from the lot to the viewing area."
 dogFriendly: yes
-heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Biei_Blue-pond.jpg/800px-Biei_Blue-pond.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Biei_Blue-pond.jpg"
 photos:
-  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Biei_Blue-pond.jpg/800px-Biei_Blue-pond.jpg"
+  - src: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Biei_Blue-pond.jpg"
     alt: "Blue Pond in Biei with bright blue water and drowned larch trees"
     credit: "Wikimedia Commons contributors"
     creditUrl: "https://commons.wikimedia.org/wiki/File:Biei_Blue-pond.jpg"
