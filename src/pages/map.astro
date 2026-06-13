@@ -1,0 +1,178 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getIndexRecords } from "../lib/content";
+import { FILTER_GROUPS } from "../lib/filters";
+import { CATEGORY_META } from "../data/categories";
+
+const records = await getIndexRecords();
+---
+
+<BaseLayout
+  title="Map"
+  description="An interactive map of hidden gems, weird attractions, and seasonal events across Japan."
+  fullBleed
+>
+  <div class="flex flex-col" style="height: calc(100dvh - 4rem)">
+    <!-- Control bar -->
+    <div class="relative z-20 flex items-center gap-2 border-b border-line bg-canvas px-3 py-2">
+      <div class="flex min-w-0 flex-1 items-center rounded-full border border-line bg-surface px-3 py-2 focus-within:border-sun">
+        <span aria-hidden="true" class="text-ink-soft">🔍</span>
+        <input
+          id="map-search"
+          type="search"
+          placeholder="Search the map…"
+          class="w-full bg-transparent px-2 text-sm outline-none placeholder:text-ink-soft"
+          aria-label="Search the map"
+        />
+      </div>
+      <button id="map-filter-toggle" type="button" class="btn btn-ghost shrink-0" aria-expanded="false" aria-controls="map-filters">
+        ⚙️ Filters <span id="map-filter-count" class="ml-1 rounded-full bg-sun px-1.5 text-xs text-white" hidden></span>
+      </button>
+      <span id="map-count" class="hidden shrink-0 text-sm text-ink-soft sm:inline">{records.length} places</span>
+
+      <!-- Filter panel -->
+      <div id="map-filters" class="card absolute right-3 top-full mt-2 hidden max-h-[70vh] w-[min(92vw,340px)] overflow-auto p-4 shadow-xl">
+        <div class="mb-3 flex items-center justify-between">
+          <h2 class="font-display text-lg font-semibold">Filters</h2>
+          <button id="map-clear" type="button" class="text-sm text-sun link-underline" hidden>Clear all</button>
+        </div>
+        <div class="space-y-4">
+          <div>
+            <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-soft">Category</h3>
+            <div class="flex flex-wrap gap-1.5">
+              {
+                Object.entries(CATEGORY_META).map(([id, c]) => (
+                  <button type="button" class="chip" data-cat={id} aria-pressed="false">
+                    <span aria-hidden="true">{c.emoji}</span> {c.label}
+                  </button>
+                ))
+              }
+            </div>
+          </div>
+          {
+            FILTER_GROUPS.map((group) => (
+              <div>
+                <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-soft">{group.label}</h3>
+                <div class="flex flex-wrap gap-1.5">
+                  {group.options.map((opt) => (
+                    <button type="button" class="chip" data-filter={opt.id} aria-pressed="false">
+                      <span aria-hidden="true">{opt.icon}</span> {opt.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div id="map" class="min-h-0 flex-1"></div>
+  </div>
+
+  <script type="application/json" id="rj-data" set:html={JSON.stringify(records)} is:inline />
+</BaseLayout>
+
+<script>
+  import { createMap } from "../scripts/leaflet-map";
+  import { applyFilters, FILTER_OPTIONS } from "../lib/filters";
+  import { createSearch, type SearchProvider } from "../lib/search";
+  import { loadRecords } from "../scripts/data";
+  import type { IndexRecord } from "../lib/types";
+
+  const el = document.getElementById("map")!;
+  const searchInput = document.getElementById("map-search") as HTMLInputElement;
+  const countEl = document.getElementById("map-count")!;
+  const badge = document.getElementById("map-filter-count") as HTMLElement;
+  const toggle = document.getElementById("map-filter-toggle")!;
+  const panel = document.getElementById("map-filters")!;
+  const clearBtn = document.getElementById("map-clear") as HTMLButtonElement;
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-filter]"));
+  const catChips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-cat]"));
+
+  const handle = createMap({ el, cluster: true });
+  let records: IndexRecord[] = [];
+  let search: SearchProvider;
+  const selected = new Set<string>();
+  let cat: string | null = null;
+  let q = "";
+
+  function readUrl() {
+    const p = new URLSearchParams(location.search);
+    q = p.get("q") ?? "";
+    cat = p.get("cat");
+    p.get("f")?.split(",").forEach((id) => FILTER_OPTIONS.has(id) && selected.add(id));
+  }
+  function writeUrl() {
+    const p = new URLSearchParams();
+    if (q) p.set("q", q);
+    if (cat) p.set("cat", cat);
+    if (selected.size) p.set("f", [...selected].join(","));
+    const qs = p.toString();
+    history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  }
+
+  function compute(): IndexRecord[] {
+    let working = q ? search.search(q) : records.slice();
+    if (cat) working = working.filter((r) => r.category === cat);
+    return applyFilters(working, selected);
+  }
+
+  function render() {
+    const list = compute();
+    handle.setRecords(list);
+    countEl.textContent = `${list.length} places`;
+    const active = selected.size + (cat ? 1 : 0);
+    badge.hidden = active === 0;
+    badge.textContent = String(active);
+    clearBtn.hidden = !(active || q);
+    for (const c of chips) c.setAttribute("aria-pressed", String(selected.has(c.dataset.filter!)));
+    for (const c of catChips) c.setAttribute("aria-pressed", String(cat === c.dataset.cat));
+    writeUrl();
+  }
+
+  chips.forEach((c) =>
+    c.addEventListener("click", () => {
+      const id = c.dataset.filter!;
+      selected.has(id) ? selected.delete(id) : selected.add(id);
+      render();
+    }),
+  );
+  catChips.forEach((c) =>
+    c.addEventListener("click", () => {
+      cat = cat === c.dataset.cat ? null : c.dataset.cat!;
+      render();
+    }),
+  );
+  let debounce: ReturnType<typeof setTimeout>;
+  searchInput.addEventListener("input", () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      q = searchInput.value;
+      render();
+    }, 150);
+  });
+  clearBtn.addEventListener("click", () => {
+    selected.clear();
+    cat = null;
+    q = "";
+    searchInput.value = "";
+    render();
+  });
+  toggle.addEventListener("click", () => {
+    const open = panel.classList.toggle("hidden") === false;
+    toggle.setAttribute("aria-expanded", String(open));
+  });
+  document.addEventListener("click", (e) => {
+    if (!panel.contains(e.target as Node) && !toggle.contains(e.target as Node)) panel.classList.add("hidden");
+  });
+
+  (async () => {
+    records = await loadRecords();
+    search = createSearch(records);
+    readUrl();
+    if (q) searchInput.value = q;
+    render();
+  })();
+</script>

@@ -1,0 +1,170 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { CATEGORIES } from "../data/vocab";
+import { CATEGORY_META } from "../data/categories";
+import { PREFECTURES } from "../data/prefectures";
+import { SEASONS, SEASON_LABEL } from "../data/vocab";
+import { SITE } from "../data/site";
+import { withBase } from "../lib/url";
+---
+
+<BaseLayout
+  title="Submit a discovery"
+  description="Add a hidden gem, weird attraction, or seasonal event to Roadside Japan. No account needed."
+>
+  <div class="py-8">
+    <header class="mb-6 max-w-2xl">
+      <h1 class="font-display text-3xl font-bold sm:text-4xl">Submit a discovery</h1>
+      <p class="mt-2 text-ink-soft">
+        Know a place that belongs in Roadside Japan? Tell us about it. Submissions enter a
+        review queue and are checked before publishing. <strong>No account needed</strong> —
+        the final step opens a prefilled GitHub ticket you can post in one click.
+      </p>
+    </header>
+
+    <div class="grid gap-8 lg:grid-cols-[1fr_300px]">
+      <form id="submit-form" class="card space-y-4 p-5">
+        <div>
+          <label class="mb-1 block text-sm font-medium" for="f-title">Name of the place *</label>
+          <input id="f-title" name="title" required class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="e.g. The Moai of Kyushu" />
+        </div>
+
+        <div>
+          <label class="mb-1 block text-sm font-medium" for="f-desc">Why is it worth visiting? *</label>
+          <textarea id="f-desc" name="description" required rows="4" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="What makes it strange, special, or overlooked?"></textarea>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label class="mb-1 block text-sm font-medium" for="f-cat">Category</label>
+            <select id="f-cat" name="category" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun">
+              {CATEGORIES.map((c) => <option value={c}>{CATEGORY_META[c].emoji} {CATEGORY_META[c].label}</option>)}
+            </select>
+          </div>
+          <div>
+            <label class="mb-1 block text-sm font-medium" for="f-pref">Prefecture</label>
+            <select id="f-pref" name="prefecture" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun">
+              {PREFECTURES.map((p) => <option value={p.slug}>{p.name}</option>)}
+            </select>
+          </div>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label class="mb-1 block text-sm font-medium" for="f-city">City / town</label>
+            <input id="f-city" name="city" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" />
+          </div>
+          <div>
+            <label class="mb-1 block text-sm font-medium" for="f-loc">Location (address or map link)</label>
+            <input id="f-loc" name="location" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="Google Maps link or lat,lng" />
+          </div>
+        </div>
+
+        <fieldset>
+          <legend class="mb-1 text-sm font-medium">Best seasons (optional)</legend>
+          <div class="flex flex-wrap gap-3">
+            {SEASONS.map((s) => (
+              <label class="flex items-center gap-1.5 text-sm">
+                <input type="checkbox" name="seasons" value={s} /> {SEASON_LABEL[s]}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label class="mb-1 block text-sm font-medium" for="f-web">Website / link</label>
+            <input id="f-web" name="website" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="https://" />
+          </div>
+          <div>
+            <label class="mb-1 block text-sm font-medium" for="f-photos">Photo links / notes</label>
+            <input id="f-photos" name="photos" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="Links to photos, or any extra notes" />
+          </div>
+        </div>
+
+        <div>
+          <label class="mb-1 block text-sm font-medium" for="f-by">Your name / handle (optional)</label>
+          <input id="f-by" name="submittedBy" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="So we can credit you" />
+        </div>
+
+        <!-- Honeypot -->
+        <input type="text" name="hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+
+        <div class="flex items-center gap-3 pt-1">
+          <button type="submit" class="btn btn-primary">➕ Review & submit on GitHub</button>
+          <span id="submit-status" class="text-sm text-ink-soft" role="status"></span>
+        </div>
+      </form>
+
+      <aside class="space-y-4">
+        <div class="card p-5">
+          <h2 class="font-display text-lg font-semibold">How it works</h2>
+          <ol class="mt-2 list-decimal space-y-1.5 pl-5 text-sm text-ink-soft">
+            <li>You describe the place here.</li>
+            <li>We open a prefilled ticket on GitHub (one click).</li>
+            <li>A maintainer (or an AI agent) verifies and enriches it.</li>
+            <li>It's published to the map and atlas.</li>
+          </ol>
+        </div>
+        <div class="card p-5">
+          <h2 class="font-display text-lg font-semibold">🤖 Even easier</h2>
+          <p class="mt-2 text-sm text-ink-soft">
+            Maintainers can ask the built-in AI research assistant to find and draft
+            candidates automatically — see <a href={withBase("/admin")} class="link-underline text-sun">Admin & AI tools</a>.
+          </p>
+        </div>
+        <div class="card p-5 text-sm text-ink-soft">
+          Prefer to do it yourself? The full
+          <a href={`${SITE.repo}/issues/new?labels=submission`} class="link-underline text-sun">GitHub issue form</a>
+          works too.
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script type="application/json" id="rj-repo" set:html={JSON.stringify(SITE.repo)} is:inline />
+</BaseLayout>
+
+<script>
+  const form = document.getElementById("submit-form") as HTMLFormElement | null;
+  const status = document.getElementById("submit-status");
+  const repo = JSON.parse(document.getElementById("rj-repo")!.textContent || '""');
+
+  form?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    if ((fd.get("hp") as string)?.length) return; // honeypot
+
+    const get = (k: string) => ((fd.get(k) as string) || "").trim();
+    const seasons = fd.getAll("seasons").join(", ") || "—";
+    const title = get("title");
+    if (!title || !get("description")) return;
+
+    const body = [
+      `### ${title}`,
+      "",
+      `**Category:** ${get("category")}`,
+      `**Prefecture:** ${get("prefecture")}`,
+      `**City:** ${get("city") || "—"}`,
+      `**Location:** ${get("location") || "—"}`,
+      `**Best seasons:** ${seasons}`,
+      `**Website:** ${get("website") || "—"}`,
+      `**Photos / notes:** ${get("photos") || "—"}`,
+      `**Submitted by:** ${get("submittedBy") || "anonymous"}`,
+      "",
+      "**Description**",
+      "",
+      get("description"),
+      "",
+      "---",
+      "_Submitted via the Roadside Japan website. A maintainer will verify and publish._",
+    ].join("\n");
+
+    const url = new URL(`${repo}/issues/new`);
+    url.searchParams.set("labels", "submission");
+    url.searchParams.set("title", `[Submission] ${title}`);
+    url.searchParams.set("body", body);
+    window.open(url.toString(), "_blank", "noopener");
+    if (status) status.textContent = "Opening GitHub to finish your submission…";
+  });
+</script>

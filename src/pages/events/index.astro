@@ -1,0 +1,18 @@
+---
+import CollectionPage from "../../components/CollectionPage.astro";
+import { getIndexRecords } from "../../lib/content";
+import { exploreUrl } from "../../lib/url";
+
+const records = (await getIndexRecords())
+  .filter((r) => r.collection === "events")
+  .sort((a, b) => +new Date(a.startDate ?? 0) - +new Date(b.startDate ?? 0));
+---
+
+<CollectionPage
+  title="Seasonal events"
+  heading="🎏 Seasonal events"
+  description="Festivals, illuminations, blooms, and limited-time happenings across Japan."
+  intro="Some of Japan's best experiences last only a few weeks a year. Here's what's worth planning a trip around."
+  records={records}
+  exploreHref={`${exploreUrl()}?f=festival`}
+/>

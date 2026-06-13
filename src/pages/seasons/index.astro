@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getIndexRecords } from "../../lib/content";
+import { SEASONS, SEASON_LABEL, seasonForMonth, type Season } from "../../data/vocab";
+import { SEASON_EMOJI } from "../../lib/format";
+import { withBase } from "../../lib/url";
+
+const records = await getIndexRecords();
+const count = (s: Season) =>
+  records.filter((r) => r.seasons.includes(s) || r.months.some((m) => seasonForMonth(m) === s)).length;
+
+const now = seasonForMonth(new Date().getMonth() + 1);
+const blurbs: Record<Season, string> = {
+  spring: "Blossoms & renewal",
+  summer: "Festivals & escapes",
+  autumn: "Foliage & harvest",
+  winter: "Snow & light",
+};
+---
+
+<BaseLayout title="Seasons" description="Explore Japan by season — the seasonal feature at the heart of Roadside Japan.">
+  <div class="py-8">
+    <header class="mb-6">
+      <h1 class="font-display text-3xl font-bold sm:text-4xl">Explore by season</h1>
+      <p class="mt-2 max-w-2xl text-ink-soft">
+        Japan transforms four times a year. Many of the best discoveries exist only for a
+        short window — this is the heart of Roadside Japan.
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        SEASONS.map((s) => (
+          <a
+            href={withBase(`/seasons/${s}`)}
+            class:list={["card group flex flex-col gap-2 p-6 transition hover:-translate-y-1 hover:border-sun", s === now && "ring-2 ring-sun"]}
+          >
+            <span class="text-5xl transition group-hover:scale-110">{SEASON_EMOJI[s]}</span>
+            <span class="font-display text-xl font-bold">
+              {SEASON_LABEL[s]}
+              {s === now && <span class="ml-2 align-middle text-xs font-normal text-sun">now</span>}
+            </span>
+            <span class="text-sm text-ink-soft">{blurbs[s]}</span>
+            <span class="mt-1 text-xs text-ink-soft">{count(s)} discoveries</span>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>

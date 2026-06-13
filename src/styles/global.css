@@ -1,0 +1,245 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/*
+ * Roadside Japan design system.
+ * ------------------------------------------------------------------
+ * Vibe: a field notebook crossed with Atlas Obscura — warm paper, ink text,
+ * a torii-red accent, and seasonal greens/blues/golds. Clean, friendly,
+ * a little adventurous.
+ *
+ * Theming strategy: semantic CSS variables live in :root and .dark, and the
+ * Tailwind @theme block maps them to utilities (bg-canvas, text-ink, text-sun…).
+ * Flip .dark on <html> and the whole palette adapts — no dark: variants needed
+ * for color. Dark mode is class-based (see src/scripts/theme.ts).
+ */
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --canvas: #fbf7ef; /* warm paper */
+  --surface: #fffdf9;
+  --surface-2: #f3ebdb;
+  --ink: #23201b; /* warm near-black */
+  --ink-soft: #6b6456;
+  --line: #e7ddca;
+  --sun: #e0492f; /* torii red / vermilion — the brand accent */
+  --sun-strong: #c33a22;
+  --pine: #2f6b5e; /* nature green */
+  --sky: #2f6bae; /* water/scenic blue */
+  --gold: #c9892a; /* autumn / seasonal */
+  --shadow: 20 30 60;
+}
+
+.dark {
+  --canvas: #14161b;
+  --surface: #1d2027;
+  --surface-2: #262a33;
+  --ink: #ece6da;
+  --ink-soft: #a59d8c;
+  --line: #2e333d;
+  --sun: #f1664f;
+  --sun-strong: #f47a66;
+  --pine: #54b39c;
+  --sky: #6fa8e2;
+  --gold: #e3ad57;
+  --shadow: 0 0 0;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-sun: var(--sun);
+  --color-sun-strong: var(--sun-strong);
+  --color-pine: var(--pine);
+  --color-sky: var(--sky);
+  --color-gold: var(--gold);
+
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+    Georgia, ui-serif, serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+
+  --radius-card: 1rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--canvas);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  ::selection {
+    background: var(--sun);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid var(--sun);
+    outline-offset: 2px;
+  }
+  a {
+    color: inherit;
+  }
+  /* Ensure [hidden] always wins, even over display:contents wrappers used by the
+     client-side filter (see Explore/Map islands). */
+  [hidden] {
+    display: none !important;
+  }
+}
+
+@layer components {
+  /* Subtle topographic dot texture for hero / section backgrounds. */
+  .bg-topo {
+    background-image: radial-gradient(
+      color-mix(in srgb, var(--ink) 9%, transparent) 1px,
+      transparent 1.4px
+    );
+    background-size: 22px 22px;
+  }
+
+  .card {
+    background-color: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+  }
+
+  /* Filter / category chips. */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--ink);
+    border-radius: 999px;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.85rem;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.12s ease;
+    white-space: nowrap;
+  }
+  .chip:hover {
+    border-color: var(--sun);
+  }
+  .chip[aria-pressed="true"] {
+    background: var(--sun);
+    border-color: var(--sun);
+    color: #fff;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    padding: 0.6rem 1.1rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.12s ease;
+    cursor: pointer;
+  }
+  .btn-primary {
+    background: var(--sun);
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background: var(--sun-strong);
+  }
+  .btn-ghost {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--ink);
+  }
+  .btn-ghost:hover {
+    border-color: var(--sun);
+  }
+
+  .link-underline {
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--sun) 50%, transparent);
+    text-underline-offset: 3px;
+  }
+  .link-underline:hover {
+    text-decoration-color: var(--sun);
+  }
+}
+
+/* Prose (rendered Markdown) tuned to the palette. */
+.prose {
+  --tw-prose-body: var(--ink);
+  --tw-prose-headings: var(--ink);
+  --tw-prose-links: var(--sun);
+  --tw-prose-bold: var(--ink);
+  --tw-prose-quotes: var(--ink-soft);
+  --tw-prose-quote-borders: var(--sun);
+  --tw-prose-bullets: var(--sun);
+  --tw-prose-hr: var(--line);
+  --tw-prose-counters: var(--ink-soft);
+}
+
+/* Leaflet tweaks so the map matches the theme and respects rounded corners. */
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: var(--surface-2);
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 0.75rem;
+  background: var(--surface);
+  color: var(--ink);
+}
+.leaflet-popup-tip {
+  background: var(--surface);
+}
+.rj-pin {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  margin: -17px 0 0 -17px;
+  background: var(--surface);
+  border: 2px solid var(--sun);
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+.rj-pin > span {
+  transform: rotate(45deg);
+  font-size: 16px;
+  line-height: 1;
+}
+.rj-pop {
+  display: block;
+  min-width: 160px;
+}
+.rj-pop strong {
+  color: var(--sun);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

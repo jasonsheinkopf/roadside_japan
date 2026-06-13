@@ -1,0 +1,73 @@
+---
+import { render } from "astro:content";
+import DetailLayout from "../../components/DetailLayout.astro";
+import {
+  getPublishedEvents,
+  getIndexRecords,
+  toIndexRecord,
+  nearest,
+  getApprovedComments,
+} from "../../lib/content";
+import { getPrefecture } from "../../data/prefectures";
+import { withBase } from "../../lib/url";
+
+export async function getStaticPaths() {
+  const entries = await getPublishedEvents();
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const record = toIndexRecord(entry, "events");
+const all = await getIndexRecords();
+const nearby = nearest({ lat: entry.data.lat, lng: entry.data.lng }, all, {
+  excludeId: entry.id,
+  limit: 4,
+});
+const comments = await getApprovedComments(entry.id, "event");
+
+const pref = getPrefecture(entry.data.prefecture);
+const site = Astro.site ?? new URL("https://example.com");
+const image = record.hero
+  ? new URL(record.hero, site).href
+  : new URL(withBase("/og.png"), site).href;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  name: entry.data.title,
+  description: entry.data.summary,
+  startDate: entry.data.startDate.toISOString(),
+  endDate: entry.data.endDate.toISOString(),
+  eventStatus: "https://schema.org/EventScheduled",
+  eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+  image,
+  url: new URL(Astro.url.pathname, site).href,
+  location: {
+    "@type": "Place",
+    name: [entry.data.city, pref?.name].filter(Boolean).join(", "),
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "JP",
+      addressRegion: pref?.name,
+      addressLocality: entry.data.city,
+      streetAddress: entry.data.address,
+    },
+    geo: { "@type": "GeoCoordinates", latitude: entry.data.lat, longitude: entry.data.lng },
+  },
+  isAccessibleForFree: entry.data.cost.type === "free",
+};
+---
+
+<DetailLayout
+  record={record}
+  data={entry.data}
+  related={[]}
+  nearby={nearby}
+  comments={comments}
+  jsonLd={jsonLd}
+  event={{ startDate: entry.data.startDate, endDate: entry.data.endDate, recurrence: entry.data.recurrence }}
+>
+  <Content />
+</DetailLayout>

@@ -1,0 +1,77 @@
+name: "📍 Submit a discovery"
+description: "Suggest a hidden gem, weird attraction, or seasonal event for the atlas."
+title: "[Submission] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for adding to Roadside Japan! No account expertise needed — just tell us what you know. A maintainer (or an AI agent) will verify and enrich it before publishing."
+  - type: input
+    id: name
+    attributes:
+      label: Name of the place / event
+      placeholder: "e.g. The Moai of Kyushu (Sun Messe Nichinan)"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it worth visiting?
+      description: What makes it strange, special, or overlooked?
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Best category
+      options:
+        - nature
+        - scenic
+        - food
+        - museum
+        - roadside
+        - religious
+        - art
+        - history
+        - oddity
+        - abandoned
+        - viewpoint
+        - shop
+        - experience
+        - animal
+        - festival
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: A Google Maps link, an address, or latitude,longitude — whatever you have.
+      placeholder: "https://maps.google.com/…  or  34.31, 132.99"
+    validations:
+      required: true
+  - type: input
+    id: prefecture
+    attributes:
+      label: Prefecture & city
+      placeholder: "Hiroshima, Takehara"
+  - type: dropdown
+    id: seasons
+    attributes:
+      label: Best seasons (if seasonal)
+      multiple: true
+      options: [spring, summer, autumn, winter]
+  - type: input
+    id: website
+    attributes:
+      label: Website / link
+      placeholder: "https://"
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photo links or extra notes
+  - type: input
+    id: credit
+    attributes:
+      label: Your name / handle (optional)
+      description: So we can credit you as the contributor.

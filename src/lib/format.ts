@@ -1,0 +1,128 @@
+/**
+ * format.ts — pure, isomorphic display/formatting helpers (no Astro imports), safe to use
+ * on the server and in the browser.
+ */
+import {
+  MONTH_LABEL,
+  SEASON_LABEL,
+  type CostType,
+  type Difficulty,
+  type Season,
+  type Status,
+  type TimeRequired,
+} from "../data/vocab";
+
+export const COST_LABEL: Record<CostType, string> = {
+  free: "Free",
+  paid: "Paid",
+  donation: "Donation",
+  varies: "Varies",
+};
+
+export const DIFFICULTY_LABEL: Record<Difficulty, string> = {
+  easy: "Easy",
+  moderate: "Moderate",
+  challenging: "Challenging",
+};
+
+export const TIME_LABEL: Record<TimeRequired, string> = {
+  "one-hour": "≈ 1 hour",
+  "half-day": "Half day",
+  "full-day": "Full day",
+  "multi-day": "Multi-day",
+};
+
+export const SEASON_EMOJI: Record<Season, string> = {
+  spring: "🌸",
+  summer: "🌻",
+  autumn: "🍁",
+  winter: "❄️",
+};
+
+export const STATUS_LABEL: Record<Status, string> = {
+  open: "Open",
+  seasonal: "Seasonal",
+  "temporarily-closed": "Temporarily closed",
+  "permanently-closed": "Permanently closed",
+  unknown: "Status unknown",
+};
+
+/** Build a Google Maps link, preferring an explicit one, else generating from coords. */
+export function googleMapsLink(lat: number, lng: number, explicit?: string): string {
+  if (explicit) return explicit;
+  return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+}
+
+/** Compact label for a list of seasons, e.g. ["spring","autumn"] → "Spring · Autumn". */
+export function seasonsLabel(seasons: Season[]): string {
+  if (!seasons.length) return "Year-round";
+  return seasons.map((s) => SEASON_LABEL[s]).join(" · ");
+}
+
+export function monthsLabel(months: number[]): string {
+  if (!months.length) return "";
+  return months
+    .slice()
+    .sort((a, b) => a - b)
+    .map((m) => MONTH_LABEL[m]?.slice(0, 3))
+    .join(", ");
+}
+
+export function priceLabel(type: CostType, priceJpy?: number, note?: string): string {
+  if (note) return note;
+  if (type === "free") return "Free";
+  if (type === "paid" && typeof priceJpy === "number") return `¥${priceJpy.toLocaleString("en-US")}`;
+  return COST_LABEL[type];
+}
+
+/** Great-circle distance in km between two lat/lng points. */
+export function haversineKm(
+  a: { lat: number; lng: number },
+  b: { lat: number; lng: number },
+): number {
+  const R = 6371;
+  const dLat = ((b.lat - a.lat) * Math.PI) / 180;
+  const dLng = ((b.lng - a.lng) * Math.PI) / 180;
+  const lat1 = (a.lat * Math.PI) / 180;
+  const lat2 = (b.lat * Math.PI) / 180;
+  const h =
+    Math.sin(dLat / 2) ** 2 + Math.sin(dLng / 2) ** 2 * Math.cos(lat1) * Math.cos(lat2);
+  return 2 * R * Math.asin(Math.min(1, Math.sqrt(h)));
+}
+
+export function formatKm(km: number): string {
+  if (km < 1) return `${Math.round(km * 1000)} m`;
+  if (km < 10) return `${km.toFixed(1)} km`;
+  return `${Math.round(km)} km`;
+}
+
+const DATE_FMT = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" });
+const DATE_FMT_YEAR = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "numeric",
+  year: "numeric",
+});
+
+/** Format an event window. For annual events the year is suppressed. */
+export function formatDateRange(start: Date, end: Date, recurrence = "annual"): string {
+  const fmt = recurrence === "annual" ? DATE_FMT : DATE_FMT_YEAR;
+  const sameDay = start.toDateString() === end.toDateString();
+  if (sameDay) return fmt.format(start);
+  return `${fmt.format(start)} – ${fmt.format(end)}`;
+}
+
+export function isoDate(d: Date | string): string {
+  return new Date(d).toISOString();
+}
+
+/**
+ * Deterministic pastel gradient + emoji used as an image placeholder when an entry has no
+ * photo. Keeping placeholders generated (not bundled files) keeps the repo light and the
+ * UI never shows a broken image. Returns inline CSS + an emoji glyph.
+ */
+export function placeholderStyle(seed: string): string {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) % 360;
+  const h2 = (h + 40) % 360;
+  return `background: linear-gradient(135deg, hsl(${h} 70% 82%), hsl(${h2} 65% 70%));`;
+}

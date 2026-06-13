@@ -1,0 +1,60 @@
+---
+import { render } from "astro:content";
+import DetailLayout from "../../components/DetailLayout.astro";
+import {
+  getPublishedAttractions,
+  getIndexRecords,
+  toIndexRecord,
+  getRelated,
+  nearest,
+  getApprovedComments,
+} from "../../lib/content";
+import { getPrefecture } from "../../data/prefectures";
+import { withBase } from "../../lib/url";
+
+export async function getStaticPaths() {
+  const entries = await getPublishedAttractions();
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const record = toIndexRecord(entry, "attractions");
+const all = await getIndexRecords();
+const related = await getRelated(entry, 4);
+const relatedIds = new Set(related.map((r) => r.id));
+const nearby = nearest({ lat: entry.data.lat, lng: entry.data.lng }, all, { excludeId: entry.id, limit: 8 })
+  .filter((n) => !relatedIds.has(n.record.id))
+  .slice(0, 4);
+const comments = await getApprovedComments(entry.id, "attraction");
+
+const pref = getPrefecture(entry.data.prefecture);
+const site = Astro.site ?? new URL("https://example.com");
+const image = record.hero
+  ? new URL(record.hero, site).href
+  : new URL(withBase("/og.png"), site).href;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  name: entry.data.title,
+  description: entry.data.summary,
+  image,
+  url: new URL(Astro.url.pathname, site).href,
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "JP",
+    addressRegion: pref?.name,
+    addressLocality: entry.data.city,
+    streetAddress: entry.data.address,
+  },
+  geo: { "@type": "GeoCoordinates", latitude: entry.data.lat, longitude: entry.data.lng },
+  isAccessibleForFree: entry.data.cost.type === "free",
+  ...(entry.data.website ? { sameAs: entry.data.website } : {}),
+};
+---
+
+<DetailLayout record={record} data={entry.data} related={related} nearby={nearby} comments={comments} jsonLd={jsonLd}>
+  <Content />
+</DetailLayout>

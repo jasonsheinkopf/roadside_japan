@@ -1,0 +1,22 @@
+---
+import CollectionPage from "../../components/CollectionPage.astro";
+import { getIndexRecords } from "../../lib/content";
+import { PREFECTURES } from "../../data/prefectures";
+import { exploreUrl } from "../../lib/url";
+
+export async function getStaticPaths() {
+  return PREFECTURES.map((pref) => ({ params: { prefecture: pref.slug }, props: { pref } }));
+}
+
+const { pref } = Astro.props;
+const records = (await getIndexRecords()).filter((r) => r.prefecture === pref.slug);
+---
+
+<CollectionPage
+  title={`${pref.name} (${pref.nameJa})`}
+  heading={`${pref.name} ${pref.nameJa}`}
+  description={`Hidden gems, weird attractions, and seasonal events in ${pref.name}, Japan.`}
+  intro={`${pref.region} region · the offbeat side of ${pref.name}.`}
+  records={records}
+  exploreHref={exploreUrl()}
+/>

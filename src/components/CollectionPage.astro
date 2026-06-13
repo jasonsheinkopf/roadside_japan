@@ -1,0 +1,52 @@
+---
+/** CollectionPage — shared scaffold for any filtered listing (events, prefecture, tag, season). */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import AttractionCard from "./AttractionCard.astro";
+import type { IndexRecord } from "../lib/types";
+
+interface Props {
+  title: string;
+  heading?: string;
+  description?: string;
+  intro?: string;
+  records: IndexRecord[];
+  exploreHref?: string;
+  noindex?: boolean;
+}
+const { title, heading, description, intro, records, exploreHref, noindex } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} noindex={noindex}>
+  <div class="py-8">
+    <header class="mb-6">
+      <h1 class="font-display text-3xl font-bold sm:text-4xl">{heading ?? title}</h1>
+      {intro && <p class="mt-2 max-w-2xl text-ink-soft">{intro}</p>}
+      <p class="mt-2 text-sm text-ink-soft">{records.length} {records.length === 1 ? "discovery" : "discoveries"}</p>
+    </header>
+
+    {
+      records.length > 0 ? (
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {records.map((r) => (
+            <AttractionCard record={r} />
+          ))}
+        </div>
+      ) : (
+        <div class="card p-10 text-center">
+          <p class="text-4xl">🧭</p>
+          <p class="mt-2 font-display text-lg font-semibold">Nothing here yet.</p>
+          <p class="text-ink-soft">This is exactly the kind of gap Roadside Japan exists to fill — know a place? Add it.</p>
+          <a href={exploreHref ?? "/"} class="btn btn-primary mt-4">Explore the atlas</a>
+        </div>
+      )
+    }
+
+    {
+      exploreHref && records.length > 0 && (
+        <div class="mt-8">
+          <a href={exploreHref} class="btn btn-ghost">⚙️ Refine with filters</a>
+        </div>
+      )
+    }
+  </div>
+</BaseLayout>

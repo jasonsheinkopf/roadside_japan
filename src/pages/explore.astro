@@ -1,0 +1,244 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import AttractionCard from "../components/AttractionCard.astro";
+import { getIndexRecords } from "../lib/content";
+import { FILTER_GROUPS } from "../lib/filters";
+import { CATEGORY_META } from "../data/categories";
+
+const records = await getIndexRecords();
+// Initial server-rendered order: featured first, then most recently updated.
+const initial = [...records].sort(
+  (a, b) =>
+    (b.featured ? 1 : 0) - (a.featured ? 1 : 0) ||
+    +new Date(b.updatedAt) - +new Date(a.updatedAt),
+);
+---
+
+<BaseLayout
+  title="Explore"
+  description="Filter and search every discovery in Roadside Japan by season, theme, cost, accessibility, and more."
+>
+  <div class="py-8">
+    <header class="mb-6">
+      <h1 class="font-display text-3xl font-bold sm:text-4xl">Explore the atlas</h1>
+      <p class="mt-1 text-ink-soft">Combine filters and search to find exactly the kind of detour you're after.</p>
+    </header>
+
+    <!-- Search + controls -->
+    <div class="mb-5 flex flex-wrap items-center gap-3">
+      <div class="flex min-w-0 flex-1 items-center rounded-full border border-line bg-surface px-4 py-2.5 focus-within:border-sun">
+        <span aria-hidden="true" class="text-ink-soft">🔍</span>
+        <input
+          id="explore-search"
+          type="search"
+          placeholder="Search places, themes, prefectures…"
+          class="w-full bg-transparent px-3 outline-none placeholder:text-ink-soft"
+          aria-label="Search discoveries"
+        />
+      </div>
+      <label class="flex items-center gap-2 text-sm">
+        <span class="text-ink-soft">Sort</span>
+        <select id="sort" class="rounded-full border border-line bg-surface px-3 py-2 text-sm outline-none focus:border-sun">
+          <option value="featured">Featured</option>
+          <option value="newest">Newest</option>
+          <option value="title">A–Z</option>
+        </select>
+      </label>
+      <button id="filter-toggle" type="button" class="btn btn-ghost lg:hidden" aria-expanded="false" aria-controls="filters">
+        ⚙️ Filters
+      </button>
+    </div>
+
+    <div class="grid gap-8 lg:grid-cols-[260px_1fr]">
+      <!-- Filters -->
+      <aside id="filters" class="hidden lg:block">
+        <div class="lg:sticky lg:top-20 space-y-5">
+          <div class="flex items-center justify-between">
+            <h2 class="font-display text-lg font-semibold">Filters</h2>
+            <button id="clear-filters" type="button" class="text-sm text-sun link-underline" hidden>Clear all</button>
+          </div>
+
+          <div>
+            <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-soft">Category</h3>
+            <div class="flex flex-wrap gap-1.5">
+              {
+                Object.entries(CATEGORY_META).map(([id, c]) => (
+                  <button type="button" class="chip" data-cat={id} aria-pressed="false">
+                    <span aria-hidden="true">{c.emoji}</span> {c.label}
+                  </button>
+                ))
+              }
+            </div>
+          </div>
+
+          {
+            FILTER_GROUPS.map((group) => (
+              <div>
+                <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-soft">{group.label}</h3>
+                <div class="flex flex-wrap gap-1.5">
+                  {group.options.map((opt) => (
+                    <button type="button" class="chip" data-filter={opt.id} aria-pressed="false">
+                      <span aria-hidden="true">{opt.icon}</span> {opt.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </aside>
+
+      <!-- Results -->
+      <div>
+        <p id="result-count" class="mb-4 text-sm text-ink-soft">{records.length} discoveries</p>
+        <div id="results" class="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+          {
+            initial.map((r) => (
+              <div class="contents" data-id={r.id}>
+                <AttractionCard record={r} />
+              </div>
+            ))
+          }
+        </div>
+        <div id="empty" class="card mt-4 p-10 text-center" hidden>
+          <p class="text-4xl">🧭</p>
+          <p class="mt-2 font-display text-lg font-semibold">No discoveries match those filters.</p>
+          <p class="text-ink-soft">Try removing a filter or clearing your search.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="application/json" id="rj-data" set:html={JSON.stringify(records)} is:inline />
+</BaseLayout>
+
+<script>
+  import { applyFilters, FILTER_OPTIONS } from "../lib/filters";
+  import { createSearch, type SearchProvider } from "../lib/search";
+  import { loadRecords } from "../scripts/data";
+  import type { IndexRecord } from "../lib/types";
+
+  const grid = document.getElementById("results")!;
+  const countEl = document.getElementById("result-count")!;
+  const emptyEl = document.getElementById("empty") as HTMLElement;
+  const searchInput = document.getElementById("explore-search") as HTMLInputElement;
+  const sortSelect = document.getElementById("sort") as HTMLSelectElement;
+  const clearBtn = document.getElementById("clear-filters") as HTMLButtonElement;
+  const filterToggle = document.getElementById("filter-toggle");
+  const filters = document.getElementById("filters");
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-filter]"));
+  const catChips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-cat]"));
+
+  let records: IndexRecord[] = [];
+  let search: SearchProvider;
+  const selected = new Set<string>();
+  let cat: string | null = null;
+  let q = "";
+  let sort = "featured";
+
+  const elById = new Map<string, HTMLElement>();
+  for (const el of Array.from(grid.children) as HTMLElement[]) {
+    const id = el.getAttribute("data-id");
+    if (id) elById.set(id, el);
+  }
+
+  function readUrl() {
+    const p = new URLSearchParams(location.search);
+    q = p.get("q") ?? "";
+    cat = p.get("cat");
+    sort = p.get("sort") ?? "featured";
+    p.get("f")?.split(",").forEach((id) => FILTER_OPTIONS.has(id) && selected.add(id));
+  }
+
+  function writeUrl() {
+    const p = new URLSearchParams();
+    if (q) p.set("q", q);
+    if (cat) p.set("cat", cat);
+    if (selected.size) p.set("f", [...selected].join(","));
+    if (sort !== "featured") p.set("sort", sort);
+    const qs = p.toString();
+    history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  }
+
+  function sortRecords(list: IndexRecord[]): IndexRecord[] {
+    if (sort === "newest") return [...list].sort((a, b) => +new Date(b.createdAt) - +new Date(a.createdAt));
+    if (sort === "title") return [...list].sort((a, b) => a.title.localeCompare(b.title));
+    return [...list].sort(
+      (a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || +new Date(b.updatedAt) - +new Date(a.updatedAt),
+    );
+  }
+
+  function compute(): IndexRecord[] {
+    let working = q ? search.search(q) : records.slice();
+    if (cat) working = working.filter((r) => r.category === cat);
+    working = applyFilters(working, selected);
+    return q ? working : sortRecords(working);
+  }
+
+  function render() {
+    const list = compute();
+    const ids = new Set(list.map((r) => r.id));
+    for (const [id, el] of elById) el.hidden = !ids.has(id);
+    for (const r of list) {
+      const el = elById.get(r.id);
+      if (el) grid.appendChild(el);
+    }
+    countEl.textContent = `${list.length} ${list.length === 1 ? "discovery" : "discoveries"}`;
+    emptyEl.hidden = list.length !== 0;
+    sync();
+    writeUrl();
+  }
+
+  function sync() {
+    for (const c of chips) c.setAttribute("aria-pressed", String(selected.has(c.dataset.filter!)));
+    for (const c of catChips) c.setAttribute("aria-pressed", String(cat === c.dataset.cat));
+    if (document.activeElement !== searchInput) searchInput.value = q;
+    sortSelect.value = sort;
+    clearBtn.hidden = !(selected.size || cat || q);
+  }
+
+  chips.forEach((c) =>
+    c.addEventListener("click", () => {
+      const id = c.dataset.filter!;
+      selected.has(id) ? selected.delete(id) : selected.add(id);
+      render();
+    }),
+  );
+  catChips.forEach((c) =>
+    c.addEventListener("click", () => {
+      cat = cat === c.dataset.cat ? null : c.dataset.cat!;
+      render();
+    }),
+  );
+
+  let debounce: ReturnType<typeof setTimeout>;
+  searchInput.addEventListener("input", () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      q = searchInput.value;
+      render();
+    }, 110);
+  });
+  sortSelect.addEventListener("change", () => {
+    sort = sortSelect.value;
+    render();
+  });
+  clearBtn.addEventListener("click", () => {
+    selected.clear();
+    cat = null;
+    q = "";
+    searchInput.value = "";
+    render();
+  });
+  filterToggle?.addEventListener("click", () => {
+    const open = filters?.classList.toggle("hidden") === false;
+    filterToggle.setAttribute("aria-expanded", String(open));
+  });
+
+  (async () => {
+    records = await loadRecords();
+    search = createSearch(records);
+    readUrl();
+    render();
+  })();
+</script>
