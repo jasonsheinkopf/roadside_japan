@@ -97,6 +97,72 @@ export function activeMonths(r: IndexRecord): number[] {
   return [];
 }
 
+/**
+ * The months (1-12) a calendar date window spans, inclusive, year-aware so a window that
+ * crosses New Year (e.g. Dec 28 → Jan 4) yields [1, 12]. Used by the map's "When are you
+ * visiting?" date filter. Returns [] for an empty/invalid/backwards window.
+ */
+export function tripMonths(startISO: string, endISO: string): number[] {
+  const start = new Date(startISO);
+  const end = new Date(endISO);
+  if (Number.isNaN(+start) || Number.isNaN(+end) || end < start) return [];
+  const out = new Set<number>();
+  let y = start.getUTCFullYear();
+  let m = start.getUTCMonth();
+  // Walk month-by-month start→end inclusive (cap at 13 to stay safe on absurd ranges).
+  for (let i = 0; i < 13; i++) {
+    out.add(m + 1);
+    if (y === end.getUTCFullYear() && m === end.getUTCMonth()) break;
+    m++;
+    if (m > 11) {
+      m = 0;
+      y++;
+    }
+  }
+  return [...out].sort((a, b) => a - b);
+}
+
+/**
+ * Would you actually catch this record on a trip between two dates?
+ *   - Year-round places: always (no time constraint — use the Seasonal filter to hide them).
+ *   - Events: precise day-level overlap. Annual events are projected onto the trip's year(s)
+ *     by month/day (so "Aug 3–6 every year" matches any August visit); one-time/irregular
+ *     events use their literal dates.
+ *   - Seasonal attractions: month-level overlap (their peak months touch the trip's months).
+ * A blank/invalid range imposes no constraint (returns true).
+ */
+export function matchesDateRange(r: IndexRecord, startISO: string, endISO: string): boolean {
+  const tStart = new Date(startISO);
+  const tEnd = new Date(endISO);
+  if (Number.isNaN(+tStart) || Number.isNaN(+tEnd) || tEnd < tStart) return true;
+
+  // Year-round places carry no date constraint.
+  if (!isSeasonal(r)) return true;
+
+  // Events have real start/end dates → match by day, not just month.
+  if (r.collection === "events" && r.startDate && r.endDate) {
+    const es = new Date(r.startDate);
+    const ee = new Date(r.endDate);
+    const overlaps = (aStart: number, aEnd: number) => aStart <= tEnd.getTime() && aEnd >= tStart.getTime();
+
+    if (r.recurrence && r.recurrence !== "annual") {
+      return overlaps(es.getTime(), ee.getTime()); // fixed, real-year dates
+    }
+    // Annual: project the month/day window onto each year the trip could touch.
+    const years = new Set([tStart.getUTCFullYear() - 1, tStart.getUTCFullYear(), tEnd.getUTCFullYear()]);
+    for (const y of years) {
+      const occStart = Date.UTC(y, es.getUTCMonth(), es.getUTCDate());
+      let occEnd = Date.UTC(y, ee.getUTCMonth(), ee.getUTCDate());
+      if (occEnd < occStart) occEnd = Date.UTC(y + 1, ee.getUTCMonth(), ee.getUTCDate()); // wraps New Year
+      if (overlaps(occStart, occEnd)) return true;
+    }
+    return false;
+  }
+
+  // Seasonal attractions: do their active months touch the trip's months?
+  return tripMonths(startISO, endISO).some((m) => matchesMonth(r, m));
+}
+
 const hasTag = (r: IndexRecord, t: string) => r.tags.includes(t);
 const isCategory = (r: IndexRecord, c: string) => r.category === c;
 

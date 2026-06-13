@@ -52,7 +52,8 @@ src/lib/         ISOMORPHIC helpers (browser + server)
   url.ts           withBase() and URL builders — ALWAYS use these
   format.ts        labels, Google Maps links, haversine, placeholders
   filters.ts       the declarative filter ENGINE (predicates over IndexRecord); also the
-                   seasonality helpers isSeasonal() + activeMonths() used by /timeline
+                   seasonality helpers isSeasonal() + activeMonths() used by /timeline, and
+                   matchesDateRange() powering the Map "When are you visiting?" date filter
   search.ts        Fuse search behind SearchProvider (vector search = future impl)
   content.ts       SERVER-ONLY: reads collections, enforces publish gate, builds IndexRecords
 src/components/  Astro UI (AttractionCard, MapView, DetailLayout, Comments, CollectionPage…)

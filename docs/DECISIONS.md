@@ -94,3 +94,27 @@ already there: `isSeasonal(r)` (is this on a clock at all?) and `activeMonths(r)
 with month filtering. **Trade-offs:** `activeMonths` collapses to a Jan→Dec linear axis (a
 winter window shows as Dec + Jan–Feb rather than wrapping); fine for a year planner, and no
 new data to author or keep in sync.
+
+### 18. Map "When are you visiting?" trip-date filter
+**Why:** The headline use case is *"I land on these dates — what can I actually catch?"* The
+Map now takes an **arriving / leaving** date range and shows only records active in that
+window, plus a *Seasonal only* toggle (which simply drives the existing `seasonal` Availability
+filter, so there's one source of truth). The logic is one isomorphic helper,
+`matchesDateRange(r, from, to)` in `lib/filters.ts`: year-round places always pass; **events**
+overlap at **day** precision (annual events are projected onto the trip's year(s) by month/day,
+handling New-Year wrap; one-time/irregular use literal dates); **seasonal attractions** overlap
+at **month** precision via the existing `matchesMonth`. This needed `recurrence` on
+`IndexRecord` (populated in `toIndexRecord`) so the client can tell annual from one-time. State
+is URL-encoded (`?from=&to=`) so a planned window is shareable/bookmarkable. **Trade-off:**
+attraction matching is month-granular (a peak-in-April bloom matches any April visit), which is
+the right resolution for fuzzy "best months" data; events, which carry exact dates, are precise.
+
+### 19. "Add it with ChatGPT" submission deep-link
+**Why:** The lowest-friction way to submit from a phone, with **no backend, no API keys, and
+no custom GPT** (so it works for anyone with any ChatGPT account, free or paid). `/submit`
+deep-links to `https://chatgpt.com/?q=<prompt>` with a prompt that briefs ChatGPT as a
+submission assistant: it interviews the visitor, then returns a one-tap, prefilled
+`issues/new?labels=submission&...` GitHub link in the **exact** body format the website form
+produces — so AI- and form-sourced submissions land in the same review queue, identically
+shaped. The valid `CATEGORIES` are injected into the prompt so ChatGPT can't pick an invalid
+one. Nothing weakens the publish gate: it still creates a `pending` issue a maintainer reviews.

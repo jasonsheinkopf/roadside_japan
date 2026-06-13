@@ -90,6 +90,7 @@ export function toIndexRecord(entry: AnyEntry, collection: Collection): IndexRec
     const ed = (entry as EventEntry).data;
     record.startDate = ed.startDate.toISOString();
     record.endDate = ed.endDate.toISOString();
+    record.recurrence = ed.recurrence;
   }
   return record;
 }
