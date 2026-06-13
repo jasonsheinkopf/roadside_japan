@@ -1,9 +1,10 @@
 ---
-import { withBase, homeUrl, exploreUrl, mapUrl } from "../lib/url";
+import { withBase, homeUrl, exploreUrl, mapUrl, timelineUrl } from "../lib/url";
 
 const nav = [
   { label: "Explore", href: exploreUrl() },
   { label: "Map", href: mapUrl() },
+  { label: "Timeline", href: timelineUrl() },
   { label: "Events", href: withBase("/events") },
   { label: "Submit", href: withBase("/submit") },
   { label: "About", href: withBase("/about") },

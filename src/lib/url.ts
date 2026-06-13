@@ -23,6 +23,7 @@ export function withBase(path = "/"): string {
 export const homeUrl = () => withBase("/");
 export const mapUrl = () => withBase("/map");
 export const exploreUrl = () => withBase("/explore");
+export const timelineUrl = () => withBase("/timeline");
 export const attractionUrl = (slug: string) => withBase(`/attractions/${slug}`);
 export const eventUrl = (slug: string) => withBase(`/events/${slug}`);
 export const prefectureUrl = (slug: string) => withBase(`/prefectures/${slug}`);

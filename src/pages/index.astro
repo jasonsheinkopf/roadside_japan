@@ -8,7 +8,7 @@ import { CATEGORY_META } from "../data/categories";
 import { SEASON_LABEL, MONTH_LABEL, seasonForMonth } from "../data/vocab";
 import { SEASON_EMOJI } from "../lib/format";
 import { prefecturesByRegion, REGIONS, JAPAN_CENTER } from "../data/prefectures";
-import { withBase, exploreUrl, mapUrl } from "../lib/url";
+import { withBase, exploreUrl, mapUrl, timelineUrl } from "../lib/url";
 
 const records = await getIndexRecords();
 
@@ -83,6 +83,7 @@ for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefectu
 
       <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
         <a href={mapUrl()} class="btn btn-primary">🗺️ Open the map</a>
+        <a href={timelineUrl()} class="btn btn-ghost">🗓️ When to go</a>
         <a href={withBase("/random")} class="btn btn-ghost">🎲 Surprise me</a>
       </div>
     </div>
@@ -118,7 +119,7 @@ for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefectu
             </h2>
             <p class="text-sm text-ink-soft">Worth catching in {MONTH_LABEL[month]} — before the window closes.</p>
           </div>
-          <a href={`${exploreUrl()}?f=in-season-now`} class="shrink-0 text-sm font-medium link-underline">See all →</a>
+          <a href={`${timelineUrl()}?month=${month}`} class="shrink-0 text-sm font-medium link-underline">See the timeline →</a>
         </div>
         <div class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {inSeasonNow.map((r) => <AttractionCard record={r} />)}
