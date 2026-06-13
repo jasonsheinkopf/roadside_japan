@@ -1,4 +1,4 @@
-# 🗾 Roadside Japan
+# 🗾 Roadside Japan!
 
 > **Discover the Japan most tourists never see.**
 > An open, community- and AI-curated atlas of hidden gems, weird attractions, strange
