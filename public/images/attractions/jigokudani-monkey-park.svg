@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A snow monkey soaking in a steaming hot spring as snow falls">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fb6c9"/><stop offset="1" stop-color="#dde7ee"/></linearGradient>
+    <linearGradient id="pool" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe6ea"/><stop offset="1" stop-color="#7fc3cc"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <!-- snowy cliffs -->
+  <path d="M0 300 L0 120 L180 60 L360 150 L520 70 L700 160 L800 110 L800 300 Z" fill="#cfd9e0"/>
+  <path d="M0 300 L0 140 L180 80 L360 170 L520 95 L700 180 L800 135 L800 300 Z" fill="#e7eef2"/>
+  <!-- snow caps -->
+  <path d="M120 96 l60 -24 60 28 -40 8 -40 -6z" fill="#fff"/>
+  <!-- ground -->
+  <rect y="300" width="800" height="200" fill="#eef3f6"/>
+  <path d="M0 300 Q400 280 800 300 L800 360 L0 360Z" fill="#f6f9fb"/>
+  <!-- rocks rim -->
+  <ellipse cx="400" cy="400" rx="330" ry="90" fill="#8a8f94"/>
+  <ellipse cx="400" cy="392" rx="300" ry="78" fill="#6f757b"/>
+  <ellipse cx="400" cy="392" rx="300" ry="78" fill="url(#pool)" opacity="0.9"/>
+  <ellipse cx="400" cy="388" rx="270" ry="66" fill="url(#pool)"/>
+  <!-- steam -->
+  <g fill="#ffffff" opacity="0.55">
+    <path d="M250 360 q-30 -40 0 -80 q30 -36 0 -76" stroke="#fff" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M540 360 q30 -44 0 -86 q-26 -34 4 -72" stroke="#fff" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- macaque -->
+  <g transform="translate(330,300)">
+    <ellipse cx="70" cy="120" rx="58" ry="34" fill="#7d7a74" opacity="0.5"/>
+    <circle cx="70" cy="70" r="44" fill="#8a857d"/>
+    <ellipse cx="70" cy="76" rx="30" ry="34" fill="#f0c6c0"/>
+    <ellipse cx="58" cy="70" rx="6" ry="8" fill="#fff"/><ellipse cx="82" cy="70" rx="6" ry="8" fill="#fff"/>
+    <circle cx="58" cy="71" r="3" fill="#2a2422"/><circle cx="82" cy="71" r="3" fill="#2a2422"/>
+    <path d="M62 90 q8 6 16 0" stroke="#a85b54" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="70" cy="82" rx="5" ry="3.5" fill="#d99089"/>
+    <!-- snow on head -->
+    <path d="M40 44 q30 -22 60 0 q-30 -8 -60 0z" fill="#ffffff"/>
+    <!-- arms resting on rim -->
+    <path d="M30 118 q-20 -2 -34 6" stroke="#8a857d" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- falling snow -->
+  <g fill="#ffffff"><circle cx="120" cy="120" r="4"/><circle cx="220" cy="200" r="3"/><circle cx="560" cy="120" r="4"/><circle cx="680" cy="220" r="3"/><circle cx="400" cy="90" r="3"/><circle cx="300" cy="150" r="3"/><circle cx="640" cy="300" r="3"/><circle cx="90" cy="260" r="3"/></g>
+</svg>

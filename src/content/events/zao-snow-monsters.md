@@ -29,6 +29,7 @@ accessibility:
   wheelchair: no
   note: "Deep snow, cold, and ropeway transfers make this unsuitable for limited mobility."
 dogFriendly: no
+heroImage: "/images/events/zao-snow-monsters.svg"
 website: "https://zaoropeway.co.jp/"
 tips:
   - "Dress for serious cold and wind — the summit can be brutal; rentals are available."

@@ -26,6 +26,7 @@ accessibility:
   wheelchair: partial
   note: "Ferry and main paths are flat; some museum/trail sections are not."
 dogFriendly: no
+heroImage: "/images/attractions/okunoshima-rabbit-island.svg"
 tips:
   - "Buy rabbit pellets BEFORE the ferry — there's nowhere to buy food on the island."
   - "Don't bring dogs or chase the rabbits; let them come to you."

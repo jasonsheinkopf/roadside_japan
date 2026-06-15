@@ -23,6 +23,7 @@ transit:
 accessibility:
   wheelchair: partial
 dogFriendly: limited
+heroImage: "/images/attractions/sun-messe-nichinan-moai.svg"
 website: "https://www.sun-messe.co.jp/"
 tips:
   - "Touching specific Moai is said to grant luck in love, money, or study — signs explain which."

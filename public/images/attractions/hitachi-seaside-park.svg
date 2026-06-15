@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A hillside washed blue with nemophila flowers under a bright sky">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6db8e6"/><stop offset="1" stop-color="#cfeaf7"/></linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fc7ef"/><stop offset="1" stop-color="#5a93d6"/></linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff6d0"/><stop offset="1" stop-color="#ffe48a"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="120" cy="100" r="50" fill="url(#sun)"/>
+  <g fill="#ffffff" opacity="0.9"><ellipse cx="600" cy="90" rx="64" ry="22"/><ellipse cx="660" cy="78" rx="46" ry="18"/><ellipse cx="540" cy="100" rx="40" ry="15"/></g>
+  <!-- blue flower hill -->
+  <path d="M0 500 L0 300 Q400 180 800 280 L800 500 Z" fill="url(#hill)"/>
+  <!-- winding path -->
+  <path d="M380 500 Q360 400 430 330 Q470 290 540 270" stroke="#e9e2cf" stroke-width="26" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <!-- flower texture (tiny blossoms) -->
+  <g>
+    <g fill="#ffffff" opacity="0.95">
+      <circle cx="90" cy="360" r="5"/><circle cx="160" cy="410" r="5"/><circle cx="240" cy="350" r="5"/><circle cx="120" cy="450" r="5"/>
+      <circle cx="300" cy="430" r="5"/><circle cx="600" cy="340" r="5"/><circle cx="680" cy="400" r="5"/><circle cx="720" cy="320" r="5"/>
+      <circle cx="560" cy="420" r="5"/><circle cx="640" cy="460" r="5"/><circle cx="200" cy="470" r="5"/><circle cx="460" cy="450" r="5"/>
+    </g>
+    <g fill="#3f6fb0">
+      <circle cx="90" cy="360" r="2"/><circle cx="160" cy="410" r="2"/><circle cx="240" cy="350" r="2"/><circle cx="120" cy="450" r="2"/>
+      <circle cx="300" cy="430" r="2"/><circle cx="600" cy="340" r="2"/><circle cx="680" cy="400" r="2"/><circle cx="720" cy="320" r="2"/>
+      <circle cx="560" cy="420" r="2"/><circle cx="640" cy="460" r="2"/><circle cx="200" cy="470" r="2"/><circle cx="460" cy="450" r="2"/>
+    </g>
+  </g>
+  <!-- a few red kochia on the right ridge for autumn nod -->
+  <g fill="#d8552f"><circle cx="744" cy="276" r="12"/><circle cx="770" cy="290" r="10"/><circle cx="724" cy="294" r="9"/></g>
+  <!-- visitors silhouettes -->
+  <g fill="#39507a"><circle cx="470" cy="300" r="7"/><rect x="466" y="306" width="8" height="20" rx="3"/>
+    <circle cx="494" cy="296" r="6"/><rect x="490" y="301" width="8" height="18" rx="3"/></g>
+</svg>

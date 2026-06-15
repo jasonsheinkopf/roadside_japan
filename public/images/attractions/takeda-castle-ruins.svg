@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Stone castle ruins floating on a dawn sea of clouds">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6b27a"/><stop offset="0.5" stop-color="#f7d39a"/><stop offset="1" stop-color="#fbe9c4"/></linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a8378"/><stop offset="1" stop-color="#6a6358"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#dawn)"/>
+  <!-- rising sun -->
+  <circle cx="600" cy="140" r="56" fill="#ffe7a8"/><circle cx="600" cy="140" r="56" fill="#ffcf6e" opacity="0.5"/>
+  <!-- distant peaks poking through cloud -->
+  <path d="M40 270 L140 200 L240 270 Z" fill="#9aa0a8" opacity="0.7"/>
+  <path d="M620 280 L720 210 L800 280 Z" fill="#9aa0a8" opacity="0.6"/>
+  <!-- the floating ridge with ramparts -->
+  <g transform="translate(0,250)">
+    <path d="M180 60 Q400 10 620 60 L600 110 Q400 80 200 110 Z" fill="url(#ridge)"/>
+    <!-- stone walls following the spine -->
+    <g fill="#9a9388" stroke="#6a6358" stroke-width="1.5">
+      <path d="M230 64 l40 -14 0 26 -40 10z"/>
+      <path d="M300 50 l60 -8 0 24 -60 10z"/>
+      <path d="M390 44 l70 0 0 24 -70 6z"/>
+      <path d="M480 46 l60 8 0 24 -60 -8z"/>
+      <path d="M560 56 l40 12 0 24 -40 -12z"/>
+    </g>
+    <!-- crenellation blocks -->
+    <g fill="#b0a99d"><rect x="312" y="38" width="14" height="10"/><rect x="338" y="36" width="14" height="10"/><rect x="402" y="40" width="14" height="9"/><rect x="430" y="40" width="14" height="9"/><rect x="492" y="44" width="14" height="9"/></g>
+    <!-- pine on the ridge -->
+    <g transform="translate(410,18)"><rect x="-2" y="0" width="4" height="20" fill="#5a4a36"/><path d="M0 -18 l-12 22 24 0z" fill="#3f6b3a"/><path d="M0 -6 l-14 18 28 0z" fill="#4f7d45"/></g>
+  </g>
+  <!-- sea of clouds -->
+  <g fill="#fdf6ea">
+    <ellipse cx="120" cy="400" rx="180" ry="60"/><ellipse cx="380" cy="430" rx="220" ry="70"/>
+    <ellipse cx="660" cy="410" rx="200" ry="64"/><ellipse cx="500" cy="380" rx="140" ry="44"/>
+    <ellipse cx="240" cy="370" rx="120" ry="38"/>
+  </g>
+  <g fill="#fff" opacity="0.7"><ellipse cx="300" cy="350" rx="100" ry="26"/><ellipse cx="620" cy="360" rx="110" ry="28"/></g>
+</svg>

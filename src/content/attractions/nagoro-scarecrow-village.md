@@ -23,6 +23,7 @@ accessibility:
   wheelchair: no
   note: "Uneven mountain roads and unpaved paths."
 dogFriendly: yes
+heroImage: "/images/attractions/nagoro-scarecrow-village.svg"
 tips:
   - "Combine with the Iya Valley vine bridges (Kazurabashi) and the Oboke Gorge boat ride."
   - "Bring everything you need — there are no shops or vending machines for miles."

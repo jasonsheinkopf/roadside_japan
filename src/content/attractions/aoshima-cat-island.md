@@ -26,6 +26,7 @@ accessibility:
   wheelchair: no
   note: "Small boat, a working harbor, and uneven village paths — not wheelchair friendly."
 dogFriendly: no
+heroImage: "/images/attractions/aoshima-cat-island.svg"
 website: "https://en.wikipedia.org/wiki/Aoshima,_Ehime"
 tips:
   - "Bring everything you need — there are no shops, no vending machines, and no toilets to count on. Pack water and snacks."

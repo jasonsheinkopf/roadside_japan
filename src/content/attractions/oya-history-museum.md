@@ -25,6 +25,7 @@ accessibility:
   wheelchair: no
   note: "Long, steep staircases lead down into the quarry; not accessible."
 dogFriendly: no
+heroImage: "/images/attractions/oya-history-museum.svg"
 website: "https://www.oya909.co.jp/"
 tips:
   - "It's about 8°C underground even in midsummer — bring a layer."

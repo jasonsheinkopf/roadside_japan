@@ -26,6 +26,7 @@ accessibility:
   wheelchair: partial
   note: "Grounds and elevator are accessible; some garden paths are gravel."
 dogFriendly: limited
+heroImage: "/images/attractions/ushiku-daibutsu.svg"
 website: "https://daibutu.net/"
 tips:
   - "Go up inside — the chest-height observation windows are a surreal way to see the countryside."

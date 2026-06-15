@@ -26,6 +26,7 @@ accessibility:
   wheelchair: partial
   note: "Staff assist; the beach itself is soft sand."
 dogFriendly: no
+heroImage: "/images/attractions/ibusuki-sand-bath.svg"
 website: "https://sa-raku.sakura.ne.jp/"
 tips:
   - "Stay buried 10–15 minutes — it's hotter and heavier than you expect."

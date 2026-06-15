@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Carpets of pink moss phlox in bloom beneath a snow-capped Mt. Fuji">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc0ec"/><stop offset="1" stop-color="#d6eefa"/></linearGradient>
+    <linearGradient id="fuji" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa6c4"/><stop offset="1" stop-color="#5f7ea6"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="140" cy="100" r="42" fill="#fff5d2"/>
+  <g fill="#fff" opacity="0.85"><ellipse cx="600" cy="100" rx="64" ry="20"/><ellipse cx="660" cy="88" rx="44" ry="16"/></g>
+  <!-- Mt Fuji -->
+  <path d="M210 290 Q360 90 410 90 Q460 90 590 290 Z" fill="url(#fuji)"/>
+  <!-- snow cap -->
+  <path d="M318 170 Q360 92 410 92 Q455 92 492 170 Q470 152 452 168 Q436 150 416 166 Q398 150 380 168 Q360 152 340 168 Q330 160 318 170 Z" fill="#fbfdff"/>
+  <!-- snow streaks -->
+  <g fill="#fbfdff" opacity="0.8"><path d="M360 200 l6 30 -10 -2z"/><path d="M430 200 l8 34 -12 -2z"/><path d="M400 190 l4 40 -8 -2z"/></g>
+  <!-- mid green base -->
+  <path d="M0 300 Q400 270 800 300 L800 330 L0 330Z" fill="#6fae5a"/>
+  <!-- pink shibazakura carpets in ribbons -->
+  <g>
+    <path d="M0 330 Q400 312 800 330 L800 372 L0 372Z" fill="#f06fa0"/>
+    <path d="M0 372 Q400 356 800 372 L800 410 L0 410Z" fill="#ffffff"/>
+    <path d="M0 410 Q400 394 800 410 L800 452 L0 452Z" fill="#e84f8c"/>
+    <path d="M0 452 Q400 436 800 452 L800 500 L0 500Z" fill="#f48fb6"/>
+  </g>
+  <!-- raised viewing path -->
+  <path d="M360 500 Q380 420 480 360" stroke="#cdb892" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <!-- blossom speckles -->
+  <g fill="#ffffff" opacity="0.7"><circle cx="120" cy="350" r="3"/><circle cx="300" cy="420" r="3"/><circle cx="560" cy="390" r="3"/><circle cx="700" cy="440" r="3"/><circle cx="200" cy="470" r="3"/><circle cx="640" cy="350" r="3"/></g>
+  <!-- a couple of visitors -->
+  <g fill="#33405a"><circle cx="470" cy="392" r="6"/><rect x="466" y="398" width="8" height="16" rx="3"/><circle cx="492" cy="386" r="5"/><rect x="488" y="391" width="8" height="14" rx="3"/></g>
+</svg>

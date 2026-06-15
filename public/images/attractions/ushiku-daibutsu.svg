@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A colossal bronze Buddha towering over rice fields with tiny people for scale">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fc8ea"/><stop offset="1" stop-color="#d8eef8"/></linearGradient>
+    <linearGradient id="bronze" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3f5a52"/><stop offset="0.5" stop-color="#6f8c7e"/><stop offset="1" stop-color="#33493f"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <g fill="#fff" opacity="0.85"><ellipse cx="140" cy="90" rx="56" ry="18"/><ellipse cx="190" cy="80" rx="40" ry="14"/><ellipse cx="640" cy="110" rx="50" ry="16"/></g>
+  <!-- rice fields -->
+  <rect y="380" width="800" height="120" fill="#8fbf5a"/>
+  <path d="M0 380 Q400 360 800 380 L800 430 L0 430Z" fill="#a3cf6e"/>
+  <g stroke="#7aa648" stroke-width="2" opacity="0.6"><line x1="0" y1="450" x2="800" y2="450"/><line x1="0" y1="475" x2="800" y2="475"/></g>
+  <!-- the Great Buddha -->
+  <g transform="translate(400,40)">
+    <!-- lotus base -->
+    <path d="M-90 340 q90 -40 180 0 l-10 30 -160 0z" fill="#7a8a82"/>
+    <g fill="#8c9a92"><path d="M-80 342 q20 -16 40 0z"/><path d="M-40 338 q22 -18 44 0z"/><path d="M4 336 q22 -18 44 0z"/><path d="M48 340 q20 -16 40 0z"/></g>
+    <!-- body / robe -->
+    <path d="M-58 340 L-44 150 Q-44 96 0 96 Q44 96 44 150 L58 340 Z" fill="url(#bronze)"/>
+    <!-- robe folds -->
+    <g stroke="#2f463d" stroke-width="3" fill="none" opacity="0.6"><path d="M-30 180 q30 20 60 0"/><path d="M-34 230 q34 24 68 0"/><path d="M-40 280 q40 26 80 0"/></g>
+    <!-- hands in front (gassho-ish) -->
+    <ellipse cx="0" cy="210" rx="20" ry="14" fill="#5f7c6f"/>
+    <!-- head -->
+    <ellipse cx="0" cy="74" rx="34" ry="40" fill="#6f8c7e"/>
+    <!-- ushnisha curls -->
+    <path d="M-34 60 q34 -52 68 0 q-34 -26 -68 0z" fill="#5f7c6f"/>
+    <g fill="#4f6a5e"><circle cx="-20" cy="46" r="4"/><circle cx="-8" cy="40" r="4"/><circle cx="6" cy="40" r="4"/><circle cx="18" cy="46" r="4"/><circle cx="0" cy="24" r="5"/></g>
+    <!-- serene face -->
+    <path d="M-16 72 q6 -6 14 0M2 72 q6 -6 14 0" stroke="#3f5a52" stroke-width="2.5" fill="none"/>
+    <path d="M-8 94 q8 6 16 0" stroke="#3f5a52" stroke-width="2.5" fill="none"/>
+    <circle cx="0" cy="84" r="2" fill="#3f5a52"/>
+    <!-- chest observation windows -->
+    <g fill="#cfe0d8" opacity="0.7"><rect x="-12" y="150" width="8" height="6"/><rect x="4" y="150" width="8" height="6"/></g>
+  </g>
+  <!-- tiny people for scale -->
+  <g fill="#39507a"><circle cx="250" cy="400" r="6"/><rect x="246" y="406" width="8" height="16" rx="3"/>
+    <circle cx="540" cy="404" r="6"/><rect x="536" y="410" width="8" height="16" rx="3"/>
+    <circle cx="575" cy="406" r="5"/><rect x="571" y="411" width="8" height="14" rx="3"/></g>
+</svg>

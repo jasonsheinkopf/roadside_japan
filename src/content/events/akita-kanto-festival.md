@@ -29,6 +29,7 @@ accessibility:
   wheelchair: partial
   note: "Street viewing is flat; crowds are dense — arrive early for a spot."
 dogFriendly: no
+heroImage: "/images/events/akita-kanto-festival.svg"
 website: "https://www.kantou.gr.jp/"
 tips:
   - "After the main performance you can often try balancing a kanto pole yourself."

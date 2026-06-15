@@ -25,6 +25,7 @@ accessibility:
   wheelchair: partial
   note: "Elevator between the two exhibition floors."
 dogFriendly: no
+heroImage: "/images/attractions/meguro-parasitological-museum.svg"
 website: "https://www.kiseichu.org/"
 tips:
   - "The 8.8m tapeworm — with a ribbon beside it so you can walk its full length — is the headline exhibit."

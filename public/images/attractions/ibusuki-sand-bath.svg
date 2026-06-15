@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A blissful bather buried up to the neck in steaming black sand by the sea">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd9a0"/><stop offset="1" stop-color="#ffeccb"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f93b8"/><stop offset="1" stop-color="#2c7396"/></linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4540"/><stop offset="1" stop-color="#2c2926"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="650" cy="110" r="48" fill="#fff0c0"/>
+  <!-- volcano Kaimondake -->
+  <path d="M40 270 L150 150 L260 270 Z" fill="#7d96a3"/><path d="M118 192 l32 -42 32 42 -32 10z" fill="#cfe0e8"/>
+  <rect y="250" width="800" height="70" fill="url(#sea)"/>
+  <g fill="#ffffff" opacity="0.4"><ellipse cx="200" cy="300" rx="50" ry="5"/><ellipse cx="500" cy="290" rx="60" ry="5"/></g>
+  <!-- black sand beach -->
+  <rect y="300" width="800" height="200" fill="url(#sand)"/>
+  <!-- buried bather -->
+  <g transform="translate(300,300)">
+    <!-- steam -->
+    <g opacity="0.5"><path d="M60 30 q-20 -30 0 -56 q18 -22 0 -46" stroke="#fff" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M120 36 q22 -28 2 -58 q-16 -22 2 -42" stroke="#fff" stroke-width="9" fill="none" stroke-linecap="round"/></g>
+    <!-- sand mound over body -->
+    <ellipse cx="120" cy="120" rx="150" ry="46" fill="#3a352f"/>
+    <ellipse cx="120" cy="116" rx="150" ry="40" fill="#4a443d"/>
+    <!-- head sticking out -->
+    <circle cx="90" cy="86" r="30" fill="#f2c79c"/>
+    <path d="M62 78 q28 -34 56 0 q-12 -16 -28 -16 q-16 0 -28 16z" fill="#3a2e26"/>
+    <path d="M76 96 q14 12 28 0" stroke="#9a5b3a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="80" cy="84" r="2.6" fill="#2c2420"/><circle cx="100" cy="84" r="2.6" fill="#2c2420"/>
+    <path d="M77 78 q4 -4 8 0M95 78 q4 -4 8 0" stroke="#5a4030" stroke-width="2" fill="none"/>
+    <ellipse cx="70" cy="92" rx="5" ry="3" fill="#f3a98a"/><ellipse cx="110" cy="92" rx="5" ry="3" fill="#f3a98a"/>
+    <!-- folded towel under head -->
+    <rect x="64" y="108" width="54" height="14" rx="4" fill="#e8eef2"/>
+  </g>
+  <!-- attendant with conical hat and shovel -->
+  <g transform="translate(600,300)">
+    <path d="M-2 -14 L30 -14 L14 -46 Z" fill="#caa863"/><ellipse cx="14" cy="-14" rx="20" ry="5" fill="#b8935028"/>
+    <circle cx="14" cy="2" r="12" fill="#e6b48a"/>
+    <rect x="2" y="14" width="24" height="40" rx="6" fill="#4f6d7a"/>
+    <rect x="-2" y="16" width="10" height="34" rx="4" fill="#4f6d7a"/>
+    <!-- shovel -->
+    <rect x="40" y="-40" width="6" height="90" rx="3" fill="#8a6a3a" transform="rotate(18 43 5)"/>
+    <path d="M58 50 l22 0 -2 22 -18 0z" fill="#9aa0a4" transform="rotate(18 70 60)"/>
+  </g>
+</svg>

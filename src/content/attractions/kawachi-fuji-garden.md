@@ -25,6 +25,7 @@ accessibility:
   wheelchair: partial
   note: "The famous tunnels are walkable, but the wider garden has slopes and steps."
 dogFriendly: no
+heroImage: "/images/attractions/kawachi-fuji-garden.svg"
 website: "https://kawachi-fujien.com/"
 tips:
   - "Bloom timing shifts every year with the weather — check the garden's bloom report before committing to a date."

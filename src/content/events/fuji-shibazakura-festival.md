@@ -29,6 +29,7 @@ accessibility:
   wheelchair: yes
   note: "Mostly flat, paved viewing paths."
 dogFriendly: yes
+heroImage: "/images/events/fuji-shibazakura-festival.svg"
 website: "https://www.shibazakura.jp/"
 tips:
   - "Go early on a clear morning for the best odds of seeing Fuji cloud-free."
