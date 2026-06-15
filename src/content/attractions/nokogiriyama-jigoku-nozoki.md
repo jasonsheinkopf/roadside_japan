@@ -27,6 +27,7 @@ accessibility:
   wheelchair: no
   note: "Hundreds of uneven stone steps; not accessible."
 dogFriendly: limited
+heroImage: "/images/attractions/nokogiriyama-jigoku-nozoki.svg"
 website: "https://www.nihonji.jp/"
 tips:
   - "Take the ropeway up and walk down to save your knees for the stairs."

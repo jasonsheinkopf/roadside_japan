@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A vast hand-carved underground stone quarry lit by a single shaft of light">
+  <defs>
+    <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2c33"/><stop offset="1" stop-color="#14161b"/></linearGradient>
+    <linearGradient id="stoneL" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5a5650"/><stop offset="1" stop-color="#403c37"/></linearGradient>
+    <linearGradient id="stoneR" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#403c37"/><stop offset="1" stop-color="#5a5650"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#deep)"/>
+  <!-- shaft of light from above -->
+  <path d="M340 0 L460 0 L540 380 L260 380 Z" fill="#cfe0d8" opacity="0.10"/>
+  <ellipse cx="400" cy="380" rx="150" ry="30" fill="#cfe0d8" opacity="0.10"/>
+  <!-- left carved wall -->
+  <path d="M0 500 L0 60 L300 140 L300 500 Z" fill="url(#stoneL)"/>
+  <!-- right carved wall -->
+  <path d="M800 500 L800 60 L500 140 L500 500 Z" fill="url(#stoneR)"/>
+  <!-- chisel-mark grid -->
+  <g stroke="#2c2925" stroke-width="2" opacity="0.6">
+    <line x1="60" y1="150" x2="60" y2="500"/><line x1="130" y1="168" x2="130" y2="500"/><line x1="210" y1="188" x2="210" y2="500"/>
+    <line x1="740" y1="150" x2="740" y2="500"/><line x1="670" y1="168" x2="670" y2="500"/><line x1="590" y1="188" x2="590" y2="500"/>
+    <line x1="0" y1="240" x2="300" y2="312"/><line x1="0" y1="340" x2="300" y2="392"/><line x1="0" y1="440" x2="300" y2="468"/>
+    <line x1="800" y1="240" x2="500" y2="312"/><line x1="800" y1="340" x2="500" y2="392"/><line x1="800" y1="440" x2="500" y2="468"/>
+  </g>
+  <!-- horizontal chisel texture -->
+  <g stroke="#6a655d" stroke-width="1" opacity="0.4">
+    <line x1="10" y1="200" x2="290" y2="266"/><line x1="10" y1="300" x2="290" y2="354"/>
+    <line x1="790" y1="200" x2="510" y2="266"/><line x1="790" y1="300" x2="510" y2="354"/>
+  </g>
+  <!-- floor -->
+  <rect y="440" width="800" height="60" fill="#1c1e22"/>
+  <!-- tiny figure for scale -->
+  <g transform="translate(392,392)" fill="#0d0e10">
+    <circle cx="8" cy="-22" r="7"/><rect x="0" y="-14" width="16" height="28" rx="6"/>
+  </g>
+  <!-- dripping water glints -->
+  <g fill="#cfe0d8" opacity="0.5"><circle cx="400" cy="120" r="3"/><circle cx="430" cy="200" r="2"/><circle cx="380" cy="260" r="2"/></g>
+</svg>

@@ -27,6 +27,7 @@ accessibility:
   wheelchair: yes
   note: "Wide paved paths; rentable wheelchairs and a road train."
 dogFriendly: yes
+heroImage: "/images/attractions/hitachi-seaside-park.svg"
 website: "https://hitachikaihin.jp/"
 tips:
   - "Arrive at opening on peak-bloom weekends — the famous Miharashi Hill gets very crowded."

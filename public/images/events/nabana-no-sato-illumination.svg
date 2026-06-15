@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A glowing tunnel of LED lights receding into the distance at a winter illumination">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1230"/><stop offset="1" stop-color="#2a1f44"/></linearGradient>
+    <radialGradient id="end" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff3c4"/><stop offset="1" stop-color="#f0b24c" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#night)"/>
+  <!-- bright vanishing point -->
+  <ellipse cx="400" cy="250" rx="120" ry="100" fill="url(#end)"/>
+  <!-- tunnel arches receding (warm gold) -->
+  <g fill="none">
+    <path d="M40 500 Q400 -40 760 500" stroke="#f6c64a" stroke-width="10" opacity="0.9"/>
+    <path d="M110 500 Q400 40 690 500" stroke="#f9d56a" stroke-width="9" opacity="0.85"/>
+    <path d="M175 500 Q400 110 625 500" stroke="#ffe08a" stroke-width="8" opacity="0.8"/>
+    <path d="M235 500 Q400 170 565 500" stroke="#ffe9a8" stroke-width="7" opacity="0.75"/>
+    <path d="M290 500 Q400 220 510 500" stroke="#fff0c4" stroke-width="6" opacity="0.7"/>
+    <path d="M335 500 Q400 265 465 500" stroke="#fff6dc" stroke-width="5" opacity="0.65"/>
+  </g>
+  <!-- LED dots scattered on arches -->
+  <g fill="#fff6cf">
+    <circle cx="120" cy="300" r="3"/><circle cx="160" cy="240" r="3"/><circle cx="210" cy="200" r="2.6"/><circle cx="280" cy="170" r="2.4"/>
+    <circle cx="680" cy="300" r="3"/><circle cx="640" cy="240" r="3"/><circle cx="590" cy="200" r="2.6"/><circle cx="520" cy="170" r="2.4"/>
+    <circle cx="360" cy="150" r="2.2"/><circle cx="440" cy="150" r="2.2"/><circle cx="400" cy="140" r="2.4"/>
+    <circle cx="250" cy="350" r="3"/><circle cx="550" cy="350" r="3"/><circle cx="320" cy="260" r="2.4"/><circle cx="480" cy="260" r="2.4"/>
+  </g>
+  <!-- walkway with reflections -->
+  <path d="M300 500 L500 500 L440 250 L360 250 Z" fill="#3a2c58"/>
+  <g fill="#ffe9a8" opacity="0.5"><rect x="350" y="300" width="100" height="4"/><rect x="360" y="350" width="80" height="5"/><rect x="372" y="410" width="56" height="6"/></g>
+  <!-- two visitor silhouettes -->
+  <g fill="#0e0a1c"><circle cx="390" cy="380" r="10"/><rect x="381" y="388" width="18" height="34" rx="6"/>
+    <circle cx="420" cy="384" r="9"/><rect x="412" y="391" width="16" height="30" rx="6"/></g>
+</svg>

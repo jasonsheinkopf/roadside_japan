@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Fireflies glowing over a dark riverside park on a summer night">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10243a"/><stop offset="0.6" stop-color="#1c3a4a"/><stop offset="1" stop-color="#22433f"/></linearGradient>
+    <radialGradient id="fly" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f4ffb0"/><stop offset="0.5" stop-color="#bfff6a" stop-opacity="0.6"/><stop offset="1" stop-color="#bfff6a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#night)"/>
+  <!-- moon + stars -->
+  <circle cx="120" cy="90" r="28" fill="#eef3d8" opacity="0.7"/>
+  <g fill="#cfe0c8" opacity="0.6"><circle cx="300" cy="70" r="2"/><circle cx="500" cy="50" r="2"/><circle cx="650" cy="110" r="2"/><circle cx="420" cy="100" r="1.6"/><circle cx="720" cy="60" r="1.6"/></g>
+  <!-- tree silhouettes -->
+  <g fill="#0c1c20">
+    <ellipse cx="80" cy="300" rx="90" ry="120"/><ellipse cx="730" cy="290" rx="100" ry="130"/>
+    <rect x="70" y="360" width="16" height="80"/><rect x="722" y="360" width="16" height="80"/>
+  </g>
+  <!-- ground -->
+  <path d="M0 420 Q400 400 800 420 L800 500 L0 500Z" fill="#0e2622"/>
+  <!-- river reflecting -->
+  <path d="M0 440 Q400 422 800 440 L800 500 L0 500Z" fill="#16384a"/>
+  <g stroke="#3a6a7a" stroke-width="2" opacity="0.5" fill="none"><path d="M120 470 q120 -8 240 0"/><path d="M440 480 q120 -8 240 0"/></g>
+  <!-- fireflies (glow + core) -->
+  <g>
+    <g>
+      <circle cx="250" cy="200" r="14" fill="url(#fly)"/><circle cx="250" cy="200" r="2.4" fill="#f6ffc0"/>
+      <circle cx="330" cy="260" r="12" fill="url(#fly)"/><circle cx="330" cy="260" r="2.2" fill="#f6ffc0"/>
+      <circle cx="410" cy="180" r="16" fill="url(#fly)"/><circle cx="410" cy="180" r="2.6" fill="#f6ffc0"/>
+      <circle cx="480" cy="300" r="13" fill="url(#fly)"/><circle cx="480" cy="300" r="2.4" fill="#f6ffc0"/>
+      <circle cx="560" cy="220" r="11" fill="url(#fly)"/><circle cx="560" cy="220" r="2.2" fill="#f6ffc0"/>
+      <circle cx="360" cy="340" r="10" fill="url(#fly)"/><circle cx="360" cy="340" r="2" fill="#f6ffc0"/>
+      <circle cx="300" cy="150" r="9" fill="url(#fly)"/><circle cx="300" cy="150" r="1.8" fill="#f6ffc0"/>
+      <circle cx="520" cy="150" r="12" fill="url(#fly)"/><circle cx="520" cy="150" r="2.2" fill="#f6ffc0"/>
+      <circle cx="600" cy="320" r="14" fill="url(#fly)"/><circle cx="600" cy="320" r="2.4" fill="#f6ffc0"/>
+      <circle cx="200" cy="320" r="11" fill="url(#fly)"/><circle cx="200" cy="320" r="2.2" fill="#f6ffc0"/>
+      <circle cx="440" cy="240" r="9" fill="url(#fly)"/><circle cx="440" cy="240" r="1.8" fill="#f6ffc0"/>
+    </g>
+    <!-- reflections in river -->
+    <g opacity="0.4"><circle cx="360" cy="460" r="8" fill="url(#fly)"/><circle cx="520" cy="470" r="8" fill="url(#fly)"/><circle cx="240" cy="466" r="7" fill="url(#fly)"/></g>
+  </g>
+</svg>

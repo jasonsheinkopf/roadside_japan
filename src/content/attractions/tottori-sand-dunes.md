@@ -26,6 +26,7 @@ accessibility:
   wheelchair: partial
   note: "There's a viewing area and a lift near the entrance, but the dunes themselves are soft, steep sand."
 dogFriendly: yes
+heroImage: "/images/attractions/tottori-sand-dunes.svg"
 website: "https://www.tottori-tour.jp/en/"
 tips:
   - "Climb the big ridge for the payoff: the dune dropping straight into the Sea of Japan."

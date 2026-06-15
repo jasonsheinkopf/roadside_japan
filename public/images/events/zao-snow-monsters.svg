@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Frozen snow-covered fir trees forming ghostly snow monsters with a ropeway above">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a5a86"/><stop offset="1" stop-color="#a7c6e0"/></linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d6e4ef"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <!-- subtle low sun glow -->
+  <circle cx="640" cy="120" r="60" fill="#ffe9c0" opacity="0.4"/>
+  <!-- distant ridge -->
+  <path d="M0 250 Q200 200 400 240 Q600 280 800 230 L800 320 L0 320Z" fill="#bcd0e2"/>
+  <!-- snow slope -->
+  <path d="M0 320 Q400 280 800 330 L800 500 L0 500Z" fill="url(#snow)"/>
+  <!-- ropeway cable + cabin -->
+  <line x1="-10" y1="130" x2="810" y2="90" stroke="#5a6a7a" stroke-width="2"/>
+  <g transform="translate(430,104) rotate(-3)">
+    <rect x="-2" y="-14" width="4" height="14" fill="#5a6a7a"/>
+    <rect x="-26" y="0" width="52" height="30" rx="6" fill="#d24b4b"/>
+    <rect x="-20" y="6" width="40" height="14" rx="3" fill="#bfe0ef"/>
+  </g>
+  <!-- snow monsters: lumpy white tree shapes -->
+  <g fill="url(#snow)" stroke="#c4d6e6" stroke-width="2">
+    <path d="M120 430 q-26 -4 -22 -34 q-22 -6 -10 -34 q-18 -10 4 -34 q-8 -28 22 -30 q30 -10 36 18 q26 0 18 30 q20 14 -2 34 q12 26 -16 34 q-2 26 -28 16 z" transform="translate(-20,0)"/>
+    <path d="M120 430 q-26 -4 -22 -34 q-22 -6 -10 -34 q-18 -10 4 -34 q-8 -28 22 -30 q30 -10 36 18 q26 0 18 30 q20 14 -2 34 q12 26 -16 34 q-2 26 -28 16 z" transform="translate(220,30) scale(1.15)"/>
+    <path d="M120 430 q-26 -4 -22 -34 q-22 -6 -10 -34 q-18 -10 4 -34 q-8 -28 22 -30 q30 -10 36 18 q26 0 18 30 q20 14 -2 34 q12 26 -16 34 q-2 26 -28 16 z" transform="translate(470,10) scale(0.95)"/>
+    <path d="M120 430 q-26 -4 -22 -34 q-22 -6 -10 -34 q-18 -10 4 -34 q-8 -28 22 -30 q30 -10 36 18 q26 0 18 30 q20 14 -2 34 q12 26 -16 34 q-2 26 -28 16 z" transform="translate(640,40) scale(0.85)"/>
+  </g>
+  <!-- smaller background monsters -->
+  <g fill="#eaf2f8" stroke="#cfdcea" stroke-width="1.5">
+    <ellipse cx="60" cy="300" rx="22" ry="40"/><ellipse cx="360" cy="290" rx="20" ry="36"/><ellipse cx="560" cy="295" rx="18" ry="34"/><ellipse cx="760" cy="300" rx="20" ry="38"/>
+  </g>
+  <!-- falling snow -->
+  <g fill="#ffffff"><circle cx="200" cy="120" r="3"/><circle cx="500" cy="160" r="3"/><circle cx="300" cy="200" r="2.4"/><circle cx="700" cy="180" r="2.4"/><circle cx="120" cy="200" r="2.4"/><circle cx="600" cy="240" r="2.4"/></g>
+</svg>

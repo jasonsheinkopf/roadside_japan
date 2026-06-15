@@ -30,6 +30,7 @@ accessibility:
   wheelchair: yes
   note: "Wide, flat, paved routes throughout."
 dogFriendly: no
+heroImage: "/images/events/nabana-no-sato-illumination.svg"
 website: "https://www.nagashima-onsen.co.jp/nabana/"
 tips:
   - "Arrive before dusk to enjoy the gardens, then stay as the lights switch on."

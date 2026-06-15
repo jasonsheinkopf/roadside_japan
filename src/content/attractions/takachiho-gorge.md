@@ -25,6 +25,7 @@ accessibility:
   wheelchair: partial
   note: "Upper viewpoint paths are partly accessible; the boats and lower path are not."
 dogFriendly: limited
+heroImage: "/images/attractions/takachiho-gorge.svg"
 website: "https://takachiho-kanko.info/"
 tips:
   - "Book the rowboat slot online in advance — peak-season waits can run hours."

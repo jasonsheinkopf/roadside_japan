@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Seven Moai statues standing on a green hillside above the Pacific">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5bb6e6"/><stop offset="1" stop-color="#bfe6f5"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f86b8"/><stop offset="1" stop-color="#2470a0"/></linearGradient>
+    <linearGradient id="moai" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8c8780"/><stop offset="0.5" stop-color="#a8a39a"/><stop offset="1" stop-color="#76726b"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="120" cy="100" r="44" fill="#fff3c6"/>
+  <g fill="#fff" opacity="0.9"><ellipse cx="560" cy="80" rx="60" ry="20"/><ellipse cx="620" cy="70" rx="42" ry="16"/></g>
+  <!-- ocean -->
+  <rect y="210" width="800" height="80" fill="url(#sea)"/>
+  <g fill="#fff" opacity="0.35"><ellipse cx="250" cy="250" rx="50" ry="5"/><ellipse cx="600" cy="240" rx="60" ry="5"/></g>
+  <!-- grassy hill -->
+  <path d="M0 500 L0 280 Q400 230 800 280 L800 500 Z" fill="#7cc05f"/>
+  <path d="M0 500 L0 360 Q400 330 800 360 L800 500 Z" fill="#69ad4d"/>
+  <!-- seven moai in a row -->
+  <g>
+    <g fill="url(#moai)" stroke="#5f5b54" stroke-width="2">
+      <!-- reusable shape drawn 7x at varying scale -->
+      <g transform="translate(70,300) scale(0.8)"><path d="M0 0 q-6 -70 24 -70 q30 0 24 70 l-6 100 -36 0z"/><rect x="-4" y="98" width="56" height="20" rx="3"/></g>
+      <g transform="translate(170,290) scale(0.9)"><path d="M0 0 q-6 -70 24 -70 q30 0 24 70 l-6 100 -36 0z"/><rect x="-4" y="98" width="56" height="20" rx="3"/></g>
+      <g transform="translate(290,282)"><path d="M0 0 q-6 -70 24 -70 q30 0 24 70 l-6 100 -36 0z"/><rect x="-4" y="98" width="56" height="20" rx="3"/></g>
+      <g transform="translate(400,278) scale(1.05)"><path d="M0 0 q-6 -70 24 -70 q30 0 24 70 l-6 100 -36 0z"/><rect x="-4" y="98" width="56" height="20" rx="3"/></g>
+      <g transform="translate(520,282)"><path d="M0 0 q-6 -70 24 -70 q30 0 24 70 l-6 100 -36 0z"/><rect x="-4" y="98" width="56" height="20" rx="3"/></g>
+      <g transform="translate(630,290) scale(0.9)"><path d="M0 0 q-6 -70 24 -70 q30 0 24 70 l-6 100 -36 0z"/><rect x="-4" y="98" width="56" height="20" rx="3"/></g>
+      <g transform="translate(720,300) scale(0.8)"><path d="M0 0 q-6 -70 24 -70 q30 0 24 70 l-6 100 -36 0z"/><rect x="-4" y="98" width="56" height="20" rx="3"/></g>
+    </g>
+    <!-- faces (brows, nose, eyes) on the front-row tallest few -->
+    <g fill="#5f5b54">
+      <g transform="translate(290,282)"><path d="M6 18 q18 -10 36 0" stroke="#5f5b54" stroke-width="4" fill="none"/><rect x="20" y="26" width="8" height="34" rx="3"/><circle cx="12" cy="40" r="4"/><circle cx="36" cy="40" r="4"/></g>
+      <g transform="translate(400,278) scale(1.05)"><path d="M6 18 q18 -10 36 0" stroke="#5f5b54" stroke-width="4" fill="none"/><rect x="20" y="26" width="8" height="34" rx="3"/><circle cx="12" cy="40" r="4"/><circle cx="36" cy="40" r="4"/></g>
+      <g transform="translate(520,282)"><path d="M6 18 q18 -10 36 0" stroke="#5f5b54" stroke-width="4" fill="none"/><rect x="20" y="26" width="8" height="34" rx="3"/><circle cx="12" cy="40" r="4"/><circle cx="36" cy="40" r="4"/></g>
+    </g>
+  </g>
+</svg>

@@ -27,6 +27,7 @@ accessibility:
   wheelchair: no
   note: "A steep mountain trail to exposed stone ruins — not accessible, and footing is uneven."
 dogFriendly: limited
+heroImage: "/images/attractions/takeda-castle-ruins.svg"
 website: "https://www.city.asago.hyogo.jp/"
 tips:
   - "For the floating-castle photo you must be up before sunrise — and you watch from Ritsuunkyo viewpoint on the facing mountain, not from the ruins themselves."
