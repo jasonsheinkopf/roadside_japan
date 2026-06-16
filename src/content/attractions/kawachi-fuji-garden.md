@@ -26,6 +26,13 @@ accessibility:
   note: "The famous tunnels are walkable, but the wider garden has slopes and steps."
 dogFriendly: no
 heroImage: "/images/attractions/kawachi-fuji-garden.svg"
+photos:
+  - src: "/images/attractions/kawachi-fuji-garden-1.svg"
+    alt: "Looking straight up into the domed ceiling of hanging wisteria"
+  - src: "/images/attractions/kawachi-fuji-garden-2.svg"
+    alt: "A hand reaching to cup a long violet wisteria cluster"
+  - src: "/images/attractions/kawachi-fuji-garden-3.svg"
+    alt: "The garden's quieter autumn alter-ego: rows of red maples"
 website: "https://kawachi-fujien.com/"
 tips:
   - "Bloom timing shifts every year with the weather — check the garden's bloom report before committing to a date."

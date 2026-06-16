@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Close-up of a Japanese snow monkey with eyes blissfully closed, snow piled on its head, steam around it in a hot spring">
+  <defs>
+    <linearGradient id="jg1bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8d4e0"/>
+      <stop offset="1" stop-color="#7fa8bc"/>
+    </linearGradient>
+    <radialGradient id="jg1steam" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#jg1bg)"/>
+  <!-- hot spring water -->
+  <rect y="290" width="400" height="110" fill="#5f93b0"/>
+  <g stroke="#8fbfd6" stroke-width="3" opacity="0.6" fill="none">
+    <path d="M0 320 q60 -8 120 0 t160 0 t160 0"/>
+    <path d="M0 360 q60 -8 120 0 t160 0 t160 0"/>
+  </g>
+  <!-- steam -->
+  <g fill="url(#jg1steam)">
+    <ellipse cx="90" cy="120" rx="44" ry="26"/><ellipse cx="300" cy="100" rx="50" ry="30"/>
+    <ellipse cx="200" cy="80" rx="56" ry="28"/>
+  </g>
+  <!-- monkey head close-up -->
+  <g>
+    <ellipse cx="200" cy="240" rx="100" ry="90" fill="#7a6f64"/>
+    <!-- face -->
+    <ellipse cx="200" cy="248" rx="74" ry="72" fill="#e07a6a"/>
+    <ellipse cx="200" cy="252" rx="60" ry="60" fill="#ed8f7e"/>
+    <!-- blissful closed eyes -->
+    <path d="M150 244 q16 -12 32 0" fill="none" stroke="#5a2a22" stroke-width="5" stroke-linecap="round"/>
+    <path d="M218 244 q16 -12 32 0" fill="none" stroke="#5a2a22" stroke-width="5" stroke-linecap="round"/>
+    <!-- nostrils -->
+    <ellipse cx="190" cy="276" rx="4" ry="6" fill="#a04a3a"/>
+    <ellipse cx="210" cy="276" rx="4" ry="6" fill="#a04a3a"/>
+    <!-- content mouth -->
+    <path d="M176 296 q24 14 48 0" fill="none" stroke="#a04a3a" stroke-width="4" stroke-linecap="round"/>
+    <!-- snow piled on head -->
+    <path d="M132 180 q68 -52 136 0 q-22 -22 -68 -22 q-46 0 -68 22 Z" fill="#fbfdff"/>
+    <circle cx="160" cy="168" r="14" fill="#fbfdff"/>
+    <circle cx="200" cy="158" r="17" fill="#fbfdff"/>
+    <circle cx="240" cy="168" r="14" fill="#fbfdff"/>
+  </g>
+  <!-- snowflakes -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="70" cy="220" r="3"/><circle cx="340" cy="210" r="3"/><circle cx="50" cy="290" r="3"/><circle cx="360" cy="300" r="3"/>
+  </g>
+</svg>

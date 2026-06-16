@@ -30,6 +30,13 @@ accessibility:
   note: "Expect a local park and waterside viewing area; paths and crowding may vary during the festival."
 dogFriendly: unknown
 heroImage: "/images/events/fussa-firefly-festival.svg"
+photos:
+  - src: "/images/events/fussa-firefly-festival-1.svg"
+    alt: "A cupped pair of hands glowing softly around a single firefly"
+  - src: "/images/events/fussa-firefly-festival-2.svg"
+    alt: "A dark riverside crowd watching, phone screens dimmed to a hush"
+  - src: "/images/events/fussa-firefly-festival-3.svg"
+    alt: "A 'lights off, please' sign with a firefly perched cheekily on top"
 website: "https://en.japantravel.com/tokyo/fussa-firefly-festival/72567"
 tips:
   - "Arrive before dusk, then wait for the light to drop; fireflies are easiest to see once the surroundings are properly dark."

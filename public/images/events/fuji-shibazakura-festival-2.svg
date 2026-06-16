@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Snow-capped Mt. Fuji mirrored in a still pond above a foreground of pink flowers">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9fd0ee"/>
+      <stop offset="100%" stop-color="#e8f4fb"/>
+    </linearGradient>
+    <linearGradient id="pond5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfe9f6"/>
+      <stop offset="100%" stop-color="#8ec3e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky5)"/>
+  <!-- Fuji -->
+  <polygon points="200,55 320,210 80,210" fill="#5d7fa6"/>
+  <polygon points="200,55 250,120 230,118 215,135 200,122 185,138 170,120 150,128" fill="#fff"/>
+  <!-- water line -->
+  <rect x="0" y="210" width="400" height="6" fill="#fff" opacity="0.6"/>
+  <rect x="0" y="216" width="400" height="100" fill="url(#pond5)"/>
+  <!-- reflection -->
+  <polygon points="200,371 320,216 80,216" fill="#6f8eaf" opacity="0.55"/>
+  <polygon points="200,371 250,306 230,308 215,291 200,304 185,288 170,306 150,298" fill="#fff" opacity="0.5"/>
+  <g stroke="#fff" stroke-width="2" opacity="0.4"><line x1="60" y1="250" x2="120" y2="250"/><line x1="280" y1="270" x2="340" y2="270"/></g>
+  <!-- pink flower foreground -->
+  <rect x="0" y="316" width="400" height="84" fill="#e85a8e"/>
+  <g fill="#f8c3da">
+    <circle cx="40" cy="330" r="14"/><circle cx="110" cy="345" r="16"/><circle cx="190" cy="330" r="15"/><circle cx="270" cy="348" r="17"/><circle cx="350" cy="332" r="15"/>
+    <circle cx="75" cy="380" r="16"/><circle cx="230" cy="382" r="16"/><circle cx="320" cy="385" r="16"/>
+  </g>
+</svg>

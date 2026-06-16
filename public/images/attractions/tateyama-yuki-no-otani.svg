@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A bus driving through a towering corridor carved in deep spring snow">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f8fd6"/><stop offset="1" stop-color="#9fd0f0"/></linearGradient>
+    <linearGradient id="snowL" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#dfeaf2"/><stop offset="1" stop-color="#bcd2e2"/></linearGradient>
+    <linearGradient id="snowR" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#bcd2e2"/><stop offset="1" stop-color="#dfeaf2"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="400" cy="120" r="40" fill="#fffbe6" opacity="0.7"/>
+  <!-- snow walls converging -->
+  <path d="M0 500 L0 60 L320 230 L300 500 Z" fill="url(#snowL)"/>
+  <path d="M800 500 L800 60 L480 230 L500 500 Z" fill="url(#snowR)"/>
+  <!-- wall shadows/strata -->
+  <g stroke="#a8c0d2" stroke-width="3" opacity="0.6" fill="none">
+    <path d="M0 160 L300 280"/><path d="M0 260 L296 360"/><path d="M0 360 L300 440"/>
+    <path d="M800 160 L500 280"/><path d="M800 260 L504 360"/><path d="M800 360 L500 440"/>
+  </g>
+  <!-- snowy top edges -->
+  <path d="M0 60 L320 230 L320 250 L0 90Z" fill="#ffffff"/>
+  <path d="M800 60 L480 230 L480 250 L800 90Z" fill="#ffffff"/>
+  <!-- road -->
+  <path d="M300 500 L500 500 L470 232 L330 232 Z" fill="#5a5e62"/>
+  <g stroke="#e8c64a" stroke-width="5" stroke-dasharray="18 16"><line x1="400" y1="500" x2="400" y2="240"/></g>
+  <!-- red route bus -->
+  <g transform="translate(330,320)">
+    <rect x="0" y="0" width="140" height="86" rx="14" fill="#d23c3c"/>
+    <rect x="0" y="6" width="140" height="20" rx="10" fill="#b62f2f"/>
+    <g fill="#bfe0ef"><rect x="12" y="32" width="30" height="28" rx="4"/><rect x="50" y="32" width="30" height="28" rx="4"/><rect x="88" y="32" width="30" height="28" rx="4"/></g>
+    <rect x="120" y="30" width="14" height="32" rx="3" fill="#bfe0ef"/>
+    <circle cx="34" cy="92" r="14" fill="#2a2a2a"/><circle cx="110" cy="92" r="14" fill="#2a2a2a"/>
+    <circle cx="34" cy="92" r="5" fill="#888"/><circle cx="110" cy="92" r="5" fill="#888"/>
+    <rect x="128" y="64" width="8" height="8" rx="2" fill="#ffe08a"/>
+  </g>
+  <!-- tiny person in t-shirt for scale -->
+  <g transform="translate(250,440)"><circle cx="0" cy="-22" r="8" fill="#f0c49a"/><rect x="-8" y="-14" width="16" height="24" rx="5" fill="#39507a"/><path d="M-4 -34 q4 -6 8 0" stroke="#39507a" stroke-width="2" fill="none"/></g>
+  <!-- height marker -->
+  <g transform="translate(560,250)"><line x1="0" y1="0" x2="0" y2="190" stroke="#2a2a2a" stroke-width="2" stroke-dasharray="4 4"/><text x="6" y="14" font-family="sans-serif" font-size="16" fill="#1f3a52" font-weight="bold">20 m</text></g>
+</svg>

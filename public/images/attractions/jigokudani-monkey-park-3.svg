@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A cheeky snow monkey photobombing the camera with a huge curious face filling the frame">
+  <defs>
+    <linearGradient id="jg3bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8cad8"/>
+      <stop offset="1" stop-color="#6f97ac"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#jg3bg)"/>
+  <!-- distant tiny snowy hill to imply scene behind -->
+  <path d="M0 330 q120 -30 240 -6 q100 -18 160 4 V400 H0 Z" fill="#dfeaf0" opacity="0.7"/>
+  <g fill="#ffffff" opacity="0.8"><circle cx="40" cy="60" r="3"/><circle cx="360" cy="80" r="3"/><circle cx="30" cy="200" r="3"/><circle cx="370" cy="220" r="3"/></g>
+  <!-- huge photobombing face filling the frame -->
+  <g>
+    <ellipse cx="200" cy="230" rx="170" ry="180" fill="#857a6e"/>
+    <!-- big ears -->
+    <circle cx="48" cy="200" r="36" fill="#857a6e"/><circle cx="352" cy="200" r="36" fill="#857a6e"/>
+    <circle cx="48" cy="200" r="18" fill="#e6968a"/><circle cx="352" cy="200" r="18" fill="#e6968a"/>
+    <!-- pink face -->
+    <ellipse cx="200" cy="240" rx="130" ry="140" fill="#e6968a"/>
+    <ellipse cx="200" cy="248" rx="108" ry="120" fill="#f0a89a"/>
+    <!-- huge curious eyes -->
+    <ellipse cx="150" cy="210" rx="34" ry="40" fill="#ffffff"/>
+    <ellipse cx="250" cy="210" rx="34" ry="40" fill="#ffffff"/>
+    <circle cx="156" cy="216" r="20" fill="#5a3a20"/>
+    <circle cx="244" cy="216" r="20" fill="#5a3a20"/>
+    <circle cx="156" cy="216" r="9" fill="#1a1008"/>
+    <circle cx="244" cy="216" r="9" fill="#1a1008"/>
+    <circle cx="163" cy="209" r="4" fill="#ffffff"/>
+    <circle cx="251" cy="209" r="4" fill="#ffffff"/>
+    <!-- brow raised cheeky -->
+    <path d="M118 168 q32 -20 64 -4" fill="none" stroke="#7a4a3a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M218 164 q32 -16 64 4" fill="none" stroke="#7a4a3a" stroke-width="5" stroke-linecap="round"/>
+    <!-- nose -->
+    <ellipse cx="184" cy="300" rx="6" ry="9" fill="#a04a3a"/>
+    <ellipse cx="216" cy="300" rx="6" ry="9" fill="#a04a3a"/>
+    <!-- cheeky grin -->
+    <path d="M150 330 q50 44 100 0 q-50 18 -100 0 Z" fill="#fff" stroke="#a04a3a" stroke-width="3"/>
+  </g>
+</svg>

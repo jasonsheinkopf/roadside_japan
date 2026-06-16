@@ -27,6 +27,13 @@ accessibility:
   note: "There's a viewing area and a lift near the entrance, but the dunes themselves are soft, steep sand."
 dogFriendly: yes
 heroImage: "/images/attractions/tottori-sand-dunes.svg"
+photos:
+  - src: "/images/attractions/tottori-sand-dunes-1.svg"
+    alt: "A saddled camel giving the camera a haughty side-eye"
+  - src: "/images/attractions/tottori-sand-dunes-2.svg"
+    alt: "A sandboarder zooming down the steep face of a dune"
+  - src: "/images/attractions/tottori-sand-dunes-3.svg"
+    alt: "An intricate sculpture carved entirely from sand at the Sand Museum"
 website: "https://www.tottori-tour.jp/en/"
 tips:
   - "Climb the big ridge for the payoff: the dune dropping straight into the Sea of Japan."

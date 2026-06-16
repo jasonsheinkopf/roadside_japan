@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A funny quirky modern company memorial shaped like a rocket ship among traditional gray tombstones">
+  <defs>
+    <linearGradient id="ok2bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c8f74"/>
+      <stop offset="1" stop-color="#aeb9a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ok2bg)"/>
+  <!-- mossy ground -->
+  <rect x="0" y="320" width="400" height="80" fill="#5e7150"/>
+  <!-- tall cedar hints -->
+  <rect x="20" y="0" width="22" height="340" fill="#4a5a3c" opacity="0.5"/>
+  <rect x="358" y="0" width="22" height="340" fill="#4a5a3c" opacity="0.5"/>
+  <!-- traditional gray tombstones -->
+  <g fill="#bcbcb6" stroke="#9a9a93" stroke-width="2">
+    <rect x="60" y="230" width="34" height="100" rx="3"/>
+    <rect x="64" y="218" width="26" height="16" rx="3"/>
+    <rect x="300" y="240" width="34" height="90" rx="3"/>
+    <rect x="304" y="228" width="26" height="16" rx="3"/>
+    <rect x="120" y="260" width="26" height="70" rx="3"/>
+    <rect x="250" y="258" width="26" height="72" rx="3"/>
+  </g>
+  <!-- the rocket memorial, center, charming -->
+  <g>
+    <!-- launch pad base -->
+    <rect x="160" y="312" width="80" height="20" rx="3" fill="#9a9a93"/>
+    <!-- rocket body -->
+    <path d="M170 312 L170 180 Q200 110 230 180 L230 312 Z" fill="#d9d9d4" stroke="#a8a8a0" stroke-width="3"/>
+    <!-- nose tip -->
+    <path d="M200 118 Q188 150 200 150 Q212 150 200 118z" fill="#c23b3b"/>
+    <!-- window -->
+    <circle cx="200" cy="210" r="18" fill="#8fb9d6" stroke="#7a7a72" stroke-width="3"/>
+    <circle cx="194" cy="204" r="5" fill="#dff0fa"/>
+    <!-- fins -->
+    <polygon points="170,300 170,260 144,312" fill="#b0524a"/>
+    <polygon points="230,300 230,260 256,312" fill="#b0524a"/>
+    <!-- engraved company stripe -->
+    <rect x="178" y="250" width="44" height="12" rx="2" fill="#a8a8a0"/>
+    <!-- little exhaust flames as a joke -->
+    <path d="M186 332 q4 18 14 24 q10 -6 14 -24 q-14 8 -28 0z" fill="#f5a623"/>
+    <path d="M194 336 q3 12 6 16 q3 -4 6 -16z" fill="#e2453f"/>
+  </g>
+  <!-- soft fog -->
+  <ellipse cx="200" cy="330" rx="200" ry="26" fill="#cdd6c2" opacity="0.4"/>
+</svg>

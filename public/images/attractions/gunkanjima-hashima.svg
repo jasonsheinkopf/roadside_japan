@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="The abandoned battleship-shaped island of crumbling concrete towers rising from the sea">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f7a86"/><stop offset="1" stop-color="#b6bcc2"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a6b76"/><stop offset="1" stop-color="#3f4e58"/></linearGradient>
+    <linearGradient id="bldg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a8e92"/><stop offset="1" stop-color="#5f6468"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <!-- moody clouds -->
+  <g fill="#7c8590" opacity="0.6"><ellipse cx="180" cy="90" rx="120" ry="28"/><ellipse cx="560" cy="70" rx="140" ry="30"/></g>
+  <!-- a few gulls -->
+  <g stroke="#3a4048" stroke-width="2" fill="none"><path d="M120 140 q8 -8 16 0 q8 -8 16 0"/><path d="M650 120 q6 -6 12 0 q6 -6 12 0"/></g>
+  <!-- island mass -->
+  <path d="M70 330 Q90 300 200 300 L620 300 Q720 300 740 340 L740 360 L70 360Z" fill="#4f555a"/>
+  <!-- sea wall -->
+  <path d="M60 350 L745 350 L760 410 L45 410 Z" fill="#3f454a"/>
+  <!-- crumbling towers (battleship silhouette: low front, tall back) -->
+  <g fill="url(#bldg)">
+    <rect x="120" y="250" width="44" height="100"/><rect x="172" y="220" width="50" height="130"/>
+    <rect x="230" y="190" width="60" height="160"/><rect x="298" y="160" width="70" height="190"/>
+    <rect x="376" y="150" width="74" height="200"/><rect x="458" y="180" width="60" height="170"/>
+    <rect x="526" y="210" width="54" height="140"/><rect x="588" y="240" width="46" height="110"/>
+    <rect x="642" y="270" width="40" height="80"/>
+  </g>
+  <!-- broken windows grid -->
+  <g fill="#33383c">
+    <g><rect x="306" y="172" width="10" height="12"/><rect x="324" y="172" width="10" height="12"/><rect x="342" y="172" width="10" height="12"/>
+       <rect x="306" y="196" width="10" height="12"/><rect x="324" y="196" width="10" height="12"/><rect x="342" y="196" width="10" height="12"/>
+       <rect x="306" y="220" width="10" height="12"/><rect x="342" y="220" width="10" height="12"/>
+       <rect x="306" y="244" width="10" height="12"/><rect x="324" y="244" width="10" height="12"/></g>
+    <g><rect x="386" y="164" width="10" height="12"/><rect x="404" y="164" width="10" height="12"/><rect x="422" y="164" width="10" height="12"/>
+       <rect x="386" y="188" width="10" height="12"/><rect x="422" y="188" width="10" height="12"/>
+       <rect x="386" y="212" width="10" height="12"/><rect x="404" y="212" width="10" height="12"/><rect x="422" y="212" width="10" height="12"/>
+       <rect x="404" y="236" width="10" height="12"/></g>
+    <g opacity="0.8"><rect x="240" y="206" width="9" height="11"/><rect x="256" y="206" width="9" height="11"/><rect x="240" y="228" width="9" height="11"/>
+       <rect x="468" y="198" width="9" height="11"/><rect x="484" y="198" width="9" height="11"/><rect x="468" y="220" width="9" height="11"/></g>
+  </g>
+  <!-- rubble cracks -->
+  <g stroke="#33383c" stroke-width="2" opacity="0.6"><path d="M250 250 l12 30 -8 20"/><path d="M540 240 l-10 40"/></g>
+  <!-- sea -->
+  <rect y="400" width="800" height="100" fill="url(#sea)"/>
+  <g fill="#6f7e88" opacity="0.5"><ellipse cx="200" cy="440" rx="70" ry="6"/><ellipse cx="560" cy="460" rx="90" ry="7"/></g>
+  <!-- tiny tour boat -->
+  <g transform="translate(120,420)"><path d="M0 16 l70 0 -10 18 -50 0z" fill="#d8d2c4"/><rect x="14" y="2" width="36" height="16" rx="3" fill="#c0463a"/></g>
+</svg>

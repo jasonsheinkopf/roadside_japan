@@ -31,6 +31,13 @@ accessibility:
   note: "Wide, flat, paved routes throughout."
 dogFriendly: no
 heroImage: "/images/events/nabana-no-sato-illumination.svg"
+photos:
+  - src: "/images/events/nabana-no-sato-illumination-1.svg"
+    alt: "The glowing golden tunnel of lights seen from inside"
+  - src: "/images/events/nabana-no-sato-illumination-2.svg"
+    alt: "The stadium-sized Mt-Fuji light panorama wall"
+  - src: "/images/events/nabana-no-sato-illumination-3.svg"
+    alt: "A couple silhouetted hand-in-hand beneath the lights"
 website: "https://www.nagashima-onsen.co.jp/nabana/"
 tips:
   - "Arrive before dusk to enjoy the gardens, then stay as the lights switch on."

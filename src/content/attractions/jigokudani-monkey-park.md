@@ -28,6 +28,13 @@ accessibility:
   note: "A snowy, sometimes icy uphill forest trail — proper footwear is essential in winter."
 dogFriendly: no
 heroImage: "/images/attractions/jigokudani-monkey-park.svg"
+photos:
+  - src: "/images/attractions/jigokudani-monkey-park-1.svg"
+    alt: "A snow monkey sighing with eyes closed as snow piles on its head"
+  - src: "/images/attractions/jigokudani-monkey-park-2.svg"
+    alt: "A baby macaque clinging to its mother at the edge of the steaming pool"
+  - src: "/images/attractions/jigokudani-monkey-park-3.svg"
+    alt: "A cheeky monkey photobombing the camera with a giant curious face"
 website: "https://en.jigokudani-yaenkoen.co.jp/"
 tips:
   - "Go on a cold, snowy day — that's when the monkeys pile into the warm water and the scene is at its best."

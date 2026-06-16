@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A snowy forest clearing full of fluffy red and white foxes">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cdddea"/><stop offset="1" stop-color="#eef5fa"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <!-- snowy conifers -->
+  <g>
+    <g transform="translate(80,120)"><path d="M0 0 l-34 70 68 0z" fill="#4f6f54"/><path d="M0 30 l-40 80 80 0z" fill="#5f8064"/><rect x="-7" y="108" width="14" height="30" fill="#5a4a36"/><path d="M0 0 l-20 40 40 0z" fill="#fff" opacity="0.8"/></g>
+    <g transform="translate(680,110) scale(1.1)"><path d="M0 0 l-34 70 68 0z" fill="#4f6f54"/><path d="M0 30 l-40 80 80 0z" fill="#5f8064"/><rect x="-7" y="108" width="14" height="30" fill="#5a4a36"/><path d="M0 0 l-20 40 40 0z" fill="#fff" opacity="0.8"/></g>
+    <g transform="translate(400,90) scale(0.8)"><path d="M0 0 l-34 70 68 0z" fill="#4f6f54"/><path d="M0 30 l-40 80 80 0z" fill="#5f8064"/><rect x="-7" y="108" width="14" height="30" fill="#5a4a36"/></g>
+  </g>
+  <!-- snowy ground -->
+  <path d="M0 300 Q400 270 800 300 L800 500 L0 500Z" fill="#f4f8fb"/>
+  <path d="M0 360 Q400 340 800 360" fill="none" stroke="#dde7ee" stroke-width="6"/>
+  <!-- foxes: reusable -->
+  <g>
+    <!-- red fox standing -->
+    <g transform="translate(140,330)">
+      <ellipse cx="40" cy="76" rx="48" ry="16" fill="#000" opacity="0.08"/>
+      <path d="M70 60 q34 -6 44 18 q-10 6 -22 2z" fill="#e08a3a"/>
+      <ellipse cx="40" cy="58" rx="40" ry="26" fill="#e08a3a"/>
+      <ellipse cx="40" cy="70" rx="34" ry="14" fill="#f4ece0"/>
+      <circle cx="6" cy="42" r="18" fill="#e08a3a"/>
+      <path d="M-8 30 l2 -18 14 12z M8 28 l8 -16 8 16z" fill="#e08a3a"/>
+      <path d="M-6 30 l4 -10 6 6z M12 28 l4 -10 6 8z" fill="#3a3128"/>
+      <path d="M-10 46 q-12 2 -16 10" stroke="#f4ece0" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <circle cx="2" cy="42" r="2.6" fill="#2a2018"/><circle cx="14" cy="42" r="2.6" fill="#2a2018"/>
+      <path d="M-14 48 l-6 2" stroke="#2a2018" stroke-width="2"/>
+      <g stroke="#c87024" stroke-width="6" stroke-linecap="round"><line x1="26" y1="74" x2="24" y2="92"/><line x1="54" y1="74" x2="56" y2="92"/></g>
+    </g>
+    <!-- white arctic fox curled -->
+    <g transform="translate(560,350)">
+      <ellipse cx="40" cy="40" rx="52" ry="30" fill="#f0f4f7"/>
+      <path d="M84 36 q30 -2 26 26 q-18 4 -28 -8z" fill="#e6edf2"/>
+      <circle cx="14" cy="30" r="20" fill="#f6f9fb"/>
+      <path d="M0 16 l2 -16 14 12z M18 14 l8 -14 8 16z" fill="#f0f4f7"/>
+      <circle cx="9" cy="30" r="2.6" fill="#5a6a72"/><circle cx="21" cy="30" r="2.6" fill="#5a6a72"/>
+      <path d="M2 36 l-8 2" stroke="#9aa6ae" stroke-width="2"/>
+    </g>
+    <!-- small red fox sitting -->
+    <g transform="translate(360,380) scale(0.8)">
+      <path d="M40 50 q22 18 6 40 q-10 -2 -14 -12z" fill="#e08a3a"/>
+      <ellipse cx="18" cy="56" rx="26" ry="22" fill="#e08a3a"/>
+      <ellipse cx="18" cy="64" rx="18" ry="12" fill="#f4ece0"/>
+      <circle cx="18" cy="26" r="18" fill="#e08a3a"/>
+      <path d="M4 14 l2 -16 12 12z M18 12 l8 -14 8 16z" fill="#e08a3a"/>
+      <circle cx="13" cy="26" r="2.6" fill="#2a2018"/><circle cx="23" cy="26" r="2.6" fill="#2a2018"/>
+      <path d="M13 33 l5 4 5 -4" stroke="#2a2018" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  <!-- falling snow -->
+  <g fill="#fff"><circle cx="200" cy="120" r="3"/><circle cx="500" cy="160" r="3"/><circle cx="300" cy="200" r="2.4"/><circle cx="700" cy="220" r="2.4"/><circle cx="120" cy="240" r="2.4"/></g>
+</svg>

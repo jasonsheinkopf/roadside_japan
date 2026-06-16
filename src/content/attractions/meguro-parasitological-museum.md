@@ -26,6 +26,13 @@ accessibility:
   note: "Elevator between the two exhibition floors."
 dogFriendly: no
 heroImage: "/images/attractions/meguro-parasitological-museum.svg"
+photos:
+  - src: "/images/attractions/meguro-parasitological-museum-1.svg"
+    alt: "The famous parasite-suspended-in-resin keychain souvenir"
+  - src: "/images/attractions/meguro-parasitological-museum-2.svg"
+    alt: "A wide-eyed visitor measuring themselves against the 8.8-metre tapeworm ribbon"
+  - src: "/images/attractions/meguro-parasitological-museum-3.svg"
+    alt: "A cartoon cross-section of a cheerful tapeworm waving hello"
 website: "https://www.kiseichu.org/"
 tips:
   - "The 8.8m tapeworm — with a ribbon beside it so you can walk its full length — is the headline exhibit."

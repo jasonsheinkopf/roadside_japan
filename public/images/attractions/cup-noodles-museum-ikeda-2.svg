@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A happy kid decorating their own blank white Cup Noodle cup with colorful felt-tip markers">
+  <defs>
+    <linearGradient id="cn2bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff1d2"/>
+      <stop offset="1" stop-color="#ffd98a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#cn2bg)"/>
+  <rect x="0" y="300" width="400" height="100" fill="#e8b86a"/>
+  <!-- big white cup being decorated -->
+  <g>
+    <path d="M130 150 L270 150 L256 330 L144 330 Z" fill="#ffffff" stroke="#d8d8d8" stroke-width="3"/>
+    <ellipse cx="200" cy="150" rx="70" ry="16" fill="#f4f4f4" stroke="#d8d8d8" stroke-width="3"/>
+    <!-- kid's crayon drawing on cup -->
+    <circle cx="175" cy="200" r="12" fill="#ffd62e"/>
+    <path d="M163 200 l-12 -6 m12 12 l-12 4 m12 -16 l-10 -10" stroke="#ffd62e" stroke-width="3" stroke-linecap="round"/>
+    <path d="M210 190 q12 -16 24 0 q12 16 -12 26 q-24 -10 -12 -26z" fill="#e2453f"/>
+    <path d="M155 250 q45 22 90 0" fill="none" stroke="#4aa3d6" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="180" cy="290" r="8" fill="#6fbf6b"/>
+    <circle cx="220" cy="290" r="8" fill="#9b6fd6"/>
+  </g>
+  <!-- happy kid head -->
+  <g>
+    <circle cx="80" cy="120" r="40" fill="#f3cda3"/>
+    <path d="M42 116 q38 -52 76 0 q-4 -36 -38 -36 q-34 0 -38 36z" fill="#5a3c28"/>
+    <circle cx="68" cy="118" r="5" fill="#222"/>
+    <circle cx="94" cy="118" r="5" fill="#222"/>
+    <path d="M66 134 q14 16 28 0" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="58" cy="132" r="6" fill="#ff9c9c" opacity="0.6"/>
+    <circle cx="104" cy="132" r="6" fill="#ff9c9c" opacity="0.6"/>
+  </g>
+  <!-- markers scattered -->
+  <g>
+    <rect x="290" y="240" width="60" height="16" rx="6" fill="#e2453f"/>
+    <polygon points="290,248 278,248 290,240 290,256" fill="#b22"/>
+    <rect x="300" y="280" width="60" height="16" rx="6" fill="#4aa3d6"/>
+    <polygon points="300,288 288,288 300,280 300,296" fill="#2a7ab0"/>
+    <rect x="285" y="320" width="60" height="16" rx="6" fill="#6fbf6b"/>
+    <polygon points="285,328 273,328 285,320 285,336" fill="#3f8f3f"/>
+  </g>
+  <!-- marker in hand drawing on cup -->
+  <rect x="240" y="210" width="56" height="14" rx="6" fill="#9b6fd6" transform="rotate(35 268 217)"/>
+</svg>

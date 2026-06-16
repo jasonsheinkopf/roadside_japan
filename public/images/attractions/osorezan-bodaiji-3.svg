@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A pale milky-turquoise lake of paradise with a small red arched bridge crossing to the far shore">
+  <defs>
+    <linearGradient id="sky6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/>
+      <stop offset="1" stop-color="#e7f0ea"/>
+    </linearGradient>
+    <linearGradient id="lake6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8e6df"/>
+      <stop offset="1" stop-color="#8fd4cb"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky6)"/>
+  <ellipse cx="200" cy="70" rx="60" ry="60" fill="#fce9c8" opacity="0.8"/>
+  <rect x="0" y="180" width="400" height="120" fill="url(#lake6)"/>
+  <rect x="0" y="290" width="400" height="110" fill="#cdbf9a"/>
+  <ellipse cx="80" cy="300" rx="80" ry="22" fill="#bdae86"/>
+  <ellipse cx="330" cy="300" rx="90" ry="24" fill="#bdae86"/>
+  <g stroke="#d6f0ec" stroke-width="3" opacity="0.7" stroke-linecap="round">
+    <line x1="40" y1="210" x2="120" y2="210"/>
+    <line x1="260" y1="240" x2="360" y2="240"/>
+    <line x1="150" y1="265" x2="230" y2="265"/>
+  </g>
+  <!-- red arched bridge -->
+  <g>
+    <path d="M120 250 q80 -70 160 0" fill="none" stroke="#c43027" stroke-width="14"/>
+    <path d="M130 254 q70 -58 140 0" fill="none" stroke="#e2554a" stroke-width="6"/>
+    <line x1="120" y1="250" x2="120" y2="285" stroke="#a32820" stroke-width="8"/>
+    <line x1="280" y1="250" x2="280" y2="285" stroke="#a32820" stroke-width="8"/>
+    <g stroke="#c43027" stroke-width="4">
+      <line x1="160" y1="222" x2="160" y2="246"/>
+      <line x1="200" y1="214" x2="200" y2="240"/>
+      <line x1="240" y1="222" x2="240" y2="246"/>
+    </g>
+  </g>
+</svg>

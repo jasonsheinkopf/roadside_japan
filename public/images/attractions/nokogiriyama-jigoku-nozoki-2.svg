@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Rows of small moss-covered stone arhat (rakan) statues, some missing their heads">
+  <defs>
+    <linearGradient id="bg11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfe0c4"/>
+      <stop offset="100%" stop-color="#9fb88e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg11)"/>
+  <rect x="0" y="300" width="400" height="100" fill="#8a9a72"/>
+  <!-- back row (smaller) -->
+  <g>
+    <g transform="translate(80,160) scale(0.7)">
+      <path d="M-26 130 q-4 -70 26 -78 q30 8 26 78 Z" fill="#8a9a78"/>
+      <circle cx="0" cy="40" r="26" fill="#94a482"/>
+      <ellipse cx="0" cy="14" rx="20" ry="8" fill="#6f8a5e"/>
+    </g>
+    <g transform="translate(200,150) scale(0.72)">
+      <path d="M-26 130 q-4 -70 26 -78 q30 8 26 78 Z" fill="#8a9a78"/>
+      <!-- headless: flat top with moss -->
+      <ellipse cx="0" cy="50" rx="24" ry="9" fill="#7a8a64"/>
+      <ellipse cx="-6" cy="46" rx="8" ry="4" fill="#6f8a5e"/>
+    </g>
+    <g transform="translate(320,160) scale(0.7)">
+      <path d="M-26 130 q-4 -70 26 -78 q30 8 26 78 Z" fill="#8a9a78"/>
+      <circle cx="0" cy="40" r="26" fill="#94a482"/>
+      <ellipse cx="8" cy="20" rx="9" ry="5" fill="#6f8a5e"/>
+    </g>
+  </g>
+  <!-- front row (larger) -->
+  <g>
+    <g transform="translate(70,250)">
+      <path d="M-30 150 q-4 -84 30 -92 q34 8 30 92 Z" fill="#9aaa84"/>
+      <circle cx="0" cy="46" r="30" fill="#a6b690"/>
+      <circle cx="-10" cy="44" r="3" fill="#5a6a48"/><circle cx="10" cy="44" r="3" fill="#5a6a48"/>
+      <path d="M-10 58 q10 6 20 0" stroke="#5a6a48" stroke-width="2.5" fill="none"/>
+      <ellipse cx="10" cy="26" rx="9" ry="5" fill="#6f8a5e"/>
+    </g>
+    <g transform="translate(200,260)">
+      <path d="M-30 150 q-4 -84 30 -92 q34 8 30 92 Z" fill="#9aaa84"/>
+      <!-- headless -->
+      <ellipse cx="0" cy="58" rx="28" ry="11" fill="#7a8a64"/>
+      <ellipse cx="-8" cy="52" rx="10" ry="5" fill="#6f8a5e"/>
+      <ellipse cx="10" cy="56" rx="7" ry="4" fill="#6f8a5e"/>
+    </g>
+    <g transform="translate(330,250)">
+      <path d="M-30 150 q-4 -84 30 -92 q34 8 30 92 Z" fill="#9aaa84"/>
+      <circle cx="0" cy="46" r="30" fill="#a6b690"/>
+      <circle cx="-10" cy="44" r="3" fill="#5a6a48"/><circle cx="10" cy="44" r="3" fill="#5a6a48"/>
+      <path d="M-9 58 q9 4 18 0" stroke="#5a6a48" stroke-width="2.5" fill="none"/>
+      <ellipse cx="-8" cy="28" rx="9" ry="5" fill="#6f8a5e"/>
+    </g>
+  </g>
+</svg>

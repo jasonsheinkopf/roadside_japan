@@ -28,6 +28,13 @@ accessibility:
   note: "Hundreds of uneven stone steps; not accessible."
 dogFriendly: limited
 heroImage: "/images/attractions/nokogiriyama-jigoku-nozoki.svg"
+photos:
+  - src: "/images/attractions/nokogiriyama-jigoku-nozoki-1.svg"
+    alt: "The giant seated stone Daibutsu among the forest trees"
+  - src: "/images/attractions/nokogiriyama-jigoku-nozoki-2.svg"
+    alt: "Rows of small moss-covered rakan statues, some missing their heads"
+  - src: "/images/attractions/nokogiriyama-jigoku-nozoki-3.svg"
+    alt: "A pair of knees-knocking legs standing on the Hell Peek ledge over the drop"
 website: "https://www.nihonji.jp/"
 tips:
   - "Take the ropeway up and walk down to save your knees for the stairs."

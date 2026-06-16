@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A funny stampede of cats running down a pier toward an arriving ferry">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe8f2"/>
+      <stop offset="1" stop-color="#7fc6dd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky2)"/>
+  <rect y="230" width="400" height="170" fill="#4f9fc0"/>
+  <!-- ferry -->
+  <g>
+    <rect x="270" y="150" width="120" height="60" rx="6" fill="#e8503a"/>
+    <rect x="285" y="120" width="80" height="40" rx="4" fill="#f5f0e6"/>
+    <rect x="295" y="130" width="14" height="14" fill="#7fc6dd"/>
+    <rect x="320" y="130" width="14" height="14" fill="#7fc6dd"/>
+    <rect x="345" y="130" width="14" height="14" fill="#7fc6dd"/>
+    <rect x="330" y="95" width="14" height="30" fill="#f5c542"/>
+  </g>
+  <!-- pier -->
+  <polygon points="20,400 180,250 250,250 200,400" fill="#caa46a"/>
+  <polygon points="40,400 185,255 200,255 90,400" fill="#b8925a"/>
+  <line x1="180" y1="270" x2="60" y2="400" stroke="#9c7a44" stroke-width="3"/>
+  <line x1="210" y1="270" x2="140" y2="400" stroke="#9c7a44" stroke-width="3"/>
+  <!-- stampede of cats -->
+  <g fill="#3a3a3a">
+    <ellipse cx="150" cy="350" rx="34" ry="18"/>
+    <circle cx="180" cy="340" r="14"/>
+    <polygon points="172,330 178,340 166,338"/><polygon points="190,330 184,340 196,338"/>
+    <path d="M118 348 q-22 -2 -26 -18" stroke="#3a3a3a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#e8923f">
+    <ellipse cx="120" cy="320" rx="28" ry="15"/>
+    <circle cx="145" cy="312" r="12"/>
+    <polygon points="138,304 143,312 132,310"/><polygon points="153,304 148,312 159,310"/>
+    <path d="M94 318 q-18 -2 -22 -14" stroke="#e8923f" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#f5f0e6">
+    <ellipse cx="100" cy="296" rx="24" ry="13"/>
+    <circle cx="122" cy="289" r="10"/>
+    <polygon points="116,283 120,290 110,288"/><polygon points="129,283 125,290 135,288"/>
+    <path d="M78 295 q-16 -2 -18 -12" stroke="#f5f0e6" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#6a6a6a">
+    <ellipse cx="88" cy="278" rx="20" ry="11"/>
+    <circle cx="106" cy="272" r="9"/>
+    <polygon points="101,266 105,273 96,271"/><polygon points="112,266 108,273 118,271"/>
+  </g>
+  <!-- dust puffs -->
+  <circle cx="200" cy="360" r="10" fill="#f0e6d2" opacity="0.7"/>
+  <circle cx="215" cy="350" r="8" fill="#f0e6d2" opacity="0.7"/>
+</svg>

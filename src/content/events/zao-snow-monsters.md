@@ -30,6 +30,13 @@ accessibility:
   note: "Deep snow, cold, and ropeway transfers make this unsuitable for limited mobility."
 dogFriendly: no
 heroImage: "/images/events/zao-snow-monsters.svg"
+photos:
+  - src: "/images/events/zao-snow-monsters-1.svg"
+    alt: "A single towering frozen snow-monster tree seen up close"
+  - src: "/images/events/zao-snow-monsters-2.svg"
+    alt: "A ropeway cabin gliding among the white frozen trees"
+  - src: "/images/events/zao-snow-monsters-3.svg"
+    alt: "The night illumination washing the snow monsters in pink and blue"
 website: "https://zaoropeway.co.jp/"
 tips:
   - "Dress for serious cold and wind — the summit can be brutal; rentals are available."

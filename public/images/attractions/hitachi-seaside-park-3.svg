@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A person lying among blue flowers doing a swimming pose, pretending the flowers are a sea">
+  <defs>
+    <linearGradient id="hs3sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#86c4ee"/>
+      <stop offset="1" stop-color="#c4e6f8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#hs3sky)"/>
+  <circle cx="340" cy="56" r="30" fill="#fff8e0" opacity="0.9"/>
+  <!-- sea of blue flowers -->
+  <rect y="150" width="400" height="250" fill="#9ec6ee"/>
+  <path d="M0 150 q100 -20 200 0 t200 0 v20 H0 Z" fill="#b0d4f2"/>
+  <!-- texture flower dots -->
+  <g fill="#cfe6fb">
+    <circle cx="40" cy="200" r="8"/><circle cx="120" cy="180" r="8"/><circle cx="300" cy="190" r="8"/>
+    <circle cx="370" cy="220" r="8"/><circle cx="60" cy="300" r="9"/><circle cx="340" cy="320" r="9"/>
+    <circle cx="160" cy="350" r="9"/><circle cx="260" cy="360" r="9"/><circle cx="30" cy="370" r="8"/>
+  </g>
+  <g fill="#5a8fc8">
+    <circle cx="40" cy="200" r="2.5"/><circle cx="120" cy="180" r="2.5"/><circle cx="300" cy="190" r="2.5"/>
+    <circle cx="60" cy="300" r="2.5"/><circle cx="340" cy="320" r="2.5"/><circle cx="160" cy="350" r="2.5"/>
+  </g>
+  <!-- swimmer pretending to swim -->
+  <g>
+    <!-- torso submerged -->
+    <ellipse cx="200" cy="270" rx="80" ry="34" fill="#e8503a"/>
+    <!-- head -->
+    <circle cx="160" cy="230" r="28" fill="#f4c79a"/>
+    <path d="M134 224 q26 -34 52 0 q-8 -14 -26 -14 q-18 0 -26 14 Z" fill="#5a3a22"/>
+    <circle cx="170" cy="228" r="3.5" fill="#2a2a2a"/>
+    <path d="M152 218 q6 -4 12 0" fill="none" stroke="#5a3a22" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M158 244 q8 7 18 2" fill="none" stroke="#c0603a" stroke-width="3" stroke-linecap="round"/>
+    <!-- one arm reaching forward (freestyle) -->
+    <path d="M186 250 q40 -50 70 -56" fill="none" stroke="#f4c79a" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="258" cy="192" r="11" fill="#f4c79a"/>
+    <!-- splashes -->
+    <g fill="#ffffff" opacity="0.85">
+      <circle cx="270" cy="180" r="7"/><circle cx="284" cy="190" r="5"/><circle cx="262" cy="170" r="4"/>
+      <circle cx="130" cy="300" r="6"/><circle cx="150" cy="312" r="5"/>
+    </g>
+  </g>
+</svg>

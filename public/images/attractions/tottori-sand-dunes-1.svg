@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A close-up of a saddled camel giving the camera a haughty side-eye in the desert dunes">
+  <defs>
+    <linearGradient id="td1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe6a8"/>
+      <stop offset="1" stop-color="#ffd27a"/>
+    </linearGradient>
+    <linearGradient id="td1sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c878"/>
+      <stop offset="1" stop-color="#e0ad58"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#td1sky)"/>
+  <path d="M0 300q120 -50 200 -20t200 -10v130H0z" fill="url(#td1sand)"/>
+  <path d="M0 360q150 -40 400 0v40H0z" fill="#d49b48"/>
+  <!-- camel head close-up -->
+  <path d="M150 400V200q0 -40 40 -50l30 -6q30 -4 30 26v230z" fill="#c79a5e"/>
+  <!-- snout -->
+  <path d="M150 230q-50 6 -56 60 -4 40 30 44 30 4 36 -30z" fill="#b78a4e"/>
+  <ellipse cx="104" cy="270" rx="8" ry="6" fill="#5a4226"/>
+  <path d="M120 300q14 8 28 0" stroke="#7a5a30" stroke-width="4" fill="none"/>
+  <!-- haughty side-eye -->
+  <ellipse cx="196" cy="200" rx="22" ry="16" fill="#fff"/>
+  <ellipse cx="186" cy="202" rx="9" ry="11" fill="#3a2a16"/>
+  <path d="M174 186q22 -10 44 4" stroke="#6a4a26" stroke-width="6" fill="none"/>
+  <!-- ear -->
+  <path d="M214 152q18 -16 30 4 -6 18 -24 14z" fill="#b78a4e"/>
+  <!-- saddle -->
+  <path d="M230 250h60v40h-60z" fill="#c0392b"/>
+  <rect x="230" y="258" width="60" height="6" fill="#f0c020"/>
+  <rect x="230" y="278" width="60" height="6" fill="#f0c020"/>
+  <g stroke="#7a5a30" stroke-width="3" fill="none">
+    <path d="M150 240q-10 -10 -4 -22"/>
+  </g>
+</svg>

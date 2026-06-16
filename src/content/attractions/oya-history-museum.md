@@ -26,6 +26,13 @@ accessibility:
   note: "Long, steep staircases lead down into the quarry; not accessible."
 dogFriendly: no
 heroImage: "/images/attractions/oya-history-museum.svg"
+photos:
+  - src: "/images/attractions/oya-history-museum-1.svg"
+    alt: "A single beam of light falling into the cathedral-like underground chamber"
+  - src: "/images/attractions/oya-history-museum-2.svg"
+    alt: "A concert stage set up on the floor of the vast stone cavern"
+  - src: "/images/attractions/oya-history-museum-3.svg"
+    alt: "A shivering visitor with foggy breath beside an 8°C thermometer"
 website: "https://www.oya909.co.jp/"
 tips:
   - "It's about 8°C underground even in midsummer — bring a layer."

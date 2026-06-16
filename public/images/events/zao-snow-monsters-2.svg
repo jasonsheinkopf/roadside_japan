@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A ropeway gondola cabin gliding among a field of white frozen snow-monster trees">
+  <defs>
+    <linearGradient id="sky14" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a9bdc"/>
+      <stop offset="100%" stop-color="#cfe7f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky14)"/>
+  <rect x="0" y="300" width="400" height="100" fill="#eef6fc"/>
+  <!-- snow monster field -->
+  <g fill="#f4faff" stroke="#d3e6f2" stroke-width="2">
+    <path d="M40 320 Q30 270 50 260 Q40 230 60 225 Q55 200 70 200 Q85 200 80 225 Q100 230 90 260 Q110 270 100 320 Z"/>
+    <path d="M120 330 Q108 280 128 268 Q118 240 138 235 Q132 210 150 210 Q166 210 160 235 Q180 240 170 268 Q190 280 178 330 Z"/>
+    <path d="M300 325 Q290 275 310 264 Q300 236 320 231 Q314 208 330 208 Q346 208 340 231 Q360 236 350 264 Q370 275 360 325 Z"/>
+    <path d="M225 335 Q214 285 234 273 Q224 246 244 241 Q238 218 256 218 Q272 218 266 241 Q286 246 276 273 Q296 285 285 335 Z"/>
+  </g>
+  <!-- ropeway cable -->
+  <line x1="0" y1="90" x2="400" y2="150" stroke="#3a4a5a" stroke-width="3"/>
+  <!-- gondola -->
+  <g transform="translate(200 165)">
+    <line x1="0" y1="-50" x2="0" y2="-22" stroke="#3a4a5a" stroke-width="4"/>
+    <rect x="-12" y="-55" width="24" height="10" rx="3" fill="#5a6a7a"/>
+    <rect x="-38" y="-22" width="76" height="58" rx="12" fill="#e8584c"/>
+    <rect x="-30" y="-12" width="60" height="26" rx="6" fill="#bfe2f5"/>
+    <line x1="0" y1="-12" x2="0" y2="14" stroke="#fff" stroke-width="3"/>
+    <rect x="-38" y="6" width="76" height="8" fill="#c0392b"/>
+  </g>
+</svg>

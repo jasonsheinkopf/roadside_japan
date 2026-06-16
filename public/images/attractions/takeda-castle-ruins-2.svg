@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A funny sleepy photographer at 4am holding coffee beside a tripod, waiting in the dark for clouds">
+  <defs>
+    <linearGradient id="tc2bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2f52"/>
+      <stop offset="1" stop-color="#4a4068"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#tc2bg)"/>
+  <circle cx="320" cy="70" r="30" fill="#f5f0d8"/>
+  <circle cx="332" cy="64" r="26" fill="#2a2f52"/>
+  <g fill="#fff" opacity="0.85">
+    <circle cx="70" cy="60" r="2"/><circle cx="120" cy="40" r="2"/>
+    <circle cx="180" cy="70" r="2"/><circle cx="240" cy="50" r="2"/>
+    <circle cx="50" cy="120" r="2"/><circle cx="150" cy="110" r="2"/>
+  </g>
+  <rect x="0" y="320" width="400" height="80" fill="#1c1f38"/>
+  <!-- tripod -->
+  <line x1="290" y1="200" x2="260" y2="340" stroke="#777" stroke-width="6"/>
+  <line x1="290" y1="200" x2="320" y2="340" stroke="#777" stroke-width="6"/>
+  <line x1="290" y1="200" x2="295" y2="340" stroke="#666" stroke-width="6"/>
+  <rect x="270" y="178" width="44" height="28" rx="4" fill="#222"/>
+  <circle cx="292" cy="192" r="10" fill="#3a6a9a"/>
+  <!-- photographer -->
+  <ellipse cx="150" cy="368" rx="70" ry="14" fill="#141627"/>
+  <rect x="116" y="240" width="68" height="110" rx="22" fill="#3a5a7a"/>
+  <circle cx="150" cy="210" r="34" fill="#f2c9a0"/>
+  <path d="M116 206a34 34 0 0 1 68 0z" fill="#4a3a2a"/>
+  <!-- sleepy eyes -->
+  <path d="M133 212q6 4 12 0" stroke="#2a2a2a" stroke-width="3" fill="none"/>
+  <path d="M155 212q6 4 12 0" stroke="#2a2a2a" stroke-width="3" fill="none"/>
+  <ellipse cx="150" cy="228" rx="5" ry="7" fill="#d98aa0" opacity="0.6"/>
+  <!-- coffee -->
+  <path d="M180 280q26 4 32 -30" stroke="#3a5a7a" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <rect x="200" y="232" width="26" height="26" rx="3" fill="#fff"/>
+  <rect x="200" y="232" width="26" height="8" fill="#c0392b"/>
+  <g stroke="#cfd8e8" stroke-width="3" opacity="0.7" fill="none">
+    <path d="M206 226q-4 -8 2 -14"/>
+    <path d="M218 226q-4 -8 2 -14"/>
+  </g>
+  <text x="40" y="60" font-family="sans-serif" font-size="26" font-weight="bold" fill="#cfd8e8">4:00</text>
+</svg>

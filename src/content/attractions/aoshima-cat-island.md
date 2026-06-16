@@ -27,6 +27,13 @@ accessibility:
   note: "Small boat, a working harbor, and uneven village paths — not wheelchair friendly."
 dogFriendly: no
 heroImage: "/images/attractions/aoshima-cat-island.svg"
+photos:
+  - src: "/images/attractions/aoshima-cat-island-1.svg"
+    alt: "A contented cat sprawled asleep on an overturned fishing boat"
+  - src: "/images/attractions/aoshima-cat-island-2.svg"
+    alt: "A swarm of cats stampeding down the pier toward the arriving ferry"
+  - src: "/images/attractions/aoshima-cat-island-3.svg"
+    alt: "A single dignified cat sitting atop the harbor wall like the island's mayor"
 website: "https://en.wikipedia.org/wiki/Aoshima,_Ehime"
 tips:
   - "Bring everything you need — there are no shops, no vending machines, and no toilets to count on. Pack water and snacks."

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A crumbling abandoned concrete apartment interior with peeling walls and a single green weed growing through the floor">
+  <defs>
+    <linearGradient id="wall8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b7ad9c"/>
+      <stop offset="1" stop-color="#9a8f7d"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#wall8)"/>
+  <rect x="0" y="300" width="400" height="100" fill="#7d7464"/>
+  <line x1="0" y1="300" x2="400" y2="300" stroke="#5f5849" stroke-width="3"/>
+  <!-- window with sea view -->
+  <rect x="240" y="70" width="120" height="130" fill="#6f8497"/>
+  <rect x="240" y="70" width="120" height="130" fill="none" stroke="#5a5346" stroke-width="10"/>
+  <line x1="300" y1="70" x2="300" y2="200" stroke="#5a5346" stroke-width="6"/>
+  <line x1="240" y1="135" x2="360" y2="135" stroke="#5a5346" stroke-width="6"/>
+  <rect x="248" y="150" width="104" height="42" fill="#4f6373"/>
+  <!-- peeling wall patches -->
+  <g fill="#8a7f6c" opacity="0.85">
+    <path d="M40 90 q30 -10 50 6 q-6 40 -30 60 q-30 -10 -20 -66 z"/>
+    <path d="M150 60 q24 4 30 24 q-20 26 -44 20 q-4 -30 14 -44 z"/>
+  </g>
+  <g fill="#6e644f" opacity="0.7">
+    <circle cx="70" cy="200" r="14"/>
+    <circle cx="180" cy="240" r="10"/>
+    <circle cx="120" cy="160" r="8"/>
+  </g>
+  <!-- cracks -->
+  <g stroke="#5f5849" stroke-width="2" fill="none">
+    <path d="M30 0 l8 50 l-6 40 l10 60"/>
+    <path d="M200 0 l-6 40 l8 60"/>
+  </g>
+  <!-- single green weed through floor -->
+  <g transform="translate(120,300)">
+    <path d="M0 0 q-2 -40 -10 -56" stroke="#4c9a3a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 q4 -30 12 -44" stroke="#4c9a3a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-12" cy="-58" rx="12" ry="6" fill="#5fb84a" transform="rotate(-30 -12 -58)"/>
+    <ellipse cx="14" cy="-46" rx="11" ry="6" fill="#5fb84a" transform="rotate(30 14 -46)"/>
+    <ellipse cx="2" cy="-66" rx="9" ry="5" fill="#6cc857"/>
+  </g>
+  <path d="M114 300 q6 4 12 0" stroke="#3a3326" stroke-width="3" fill="none"/>
+</svg>

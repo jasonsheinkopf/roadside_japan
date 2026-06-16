@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A close-up of a gorge's geometric hexagonal basalt rock columns beside emerald water">
+  <defs>
+    <linearGradient id="tg2w" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2fb39a"/>
+      <stop offset="1" stop-color="#0e7a68"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#3a4a40"/>
+  <!-- basalt columns left -->
+  <g>
+    <rect x="0" y="0" width="60" height="400" fill="#54665a"/>
+    <rect x="60" y="0" width="56" height="400" fill="#475a4d"/>
+    <rect x="116" y="0" width="58" height="400" fill="#5b6d61"/>
+    <rect x="174" y="0" width="54" height="400" fill="#42554a"/>
+  </g>
+  <!-- hexagon tops -->
+  <g fill="#6b7d70" stroke="#34433a" stroke-width="3">
+    <polygon points="30,40 50,52 50,76 30,88 10,76 10,52"/>
+    <polygon points="88,70 108,82 108,106 88,118 68,106 68,82"/>
+    <polygon points="145,30 165,42 165,66 145,78 125,66 125,42"/>
+    <polygon points="201,90 221,102 221,126 201,138 181,126 181,102"/>
+    <polygon points="30,140 50,152 50,176 30,188 10,176 10,152"/>
+    <polygon points="88,170 108,182 108,206 88,218 68,206 68,182"/>
+  </g>
+  <g fill="#7d8f82" stroke="#34433a" stroke-width="2" opacity="0.7">
+    <polygon points="145,130 165,142 165,166 145,178 125,166 125,142"/>
+    <polygon points="30,240 50,252 50,276 30,288 10,276 10,252"/>
+  </g>
+  <!-- emerald water -->
+  <rect x="228" y="0" width="172" height="400" fill="url(#tg2w)"/>
+  <g stroke="#bff0e3" stroke-width="4" opacity="0.5" fill="none">
+    <path d="M250 80q40 -14 80 0"/>
+    <path d="M260 200q40 -14 80 0"/>
+    <path d="M250 320q40 -14 80 0"/>
+  </g>
+  <ellipse cx="240" cy="0" rx="20" ry="400" fill="#0e7a68" opacity="0.5"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A giant yellow polka-dot pumpkin sculpture on a concrete pier by the sea">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc3ec"/><stop offset="1" stop-color="#cfecf9"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f9ac4"/><stop offset="1" stop-color="#2c7aa6"/></linearGradient>
+    <radialGradient id="pump" cx="0.4" cy="0.35" r="0.7"><stop offset="0" stop-color="#ffdf3e"/><stop offset="1" stop-color="#f4b81f"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <g fill="#fff" opacity="0.85"><ellipse cx="160" cy="90" rx="60" ry="20"/><ellipse cx="640" cy="80" rx="54" ry="18"/></g>
+  <!-- distant island hills -->
+  <path d="M0 250 Q150 210 320 248 L320 270 L0 270Z" fill="#7fa886" opacity="0.8"/>
+  <path d="M520 250 Q680 210 800 250 L800 270 L520 270Z" fill="#7fa886" opacity="0.8"/>
+  <!-- sea -->
+  <rect y="250" width="800" height="150" fill="url(#sea)"/>
+  <g fill="#fff" opacity="0.3"><ellipse cx="200" cy="320" rx="60" ry="6"/><ellipse cx="620" cy="350" rx="70" ry="6"/></g>
+  <!-- concrete pier -->
+  <rect y="360" width="800" height="140" fill="#b9b3a8"/>
+  <rect y="360" width="800" height="12" fill="#a59f93"/>
+  <g stroke="#a59f93" stroke-width="2" opacity="0.6"><line x1="0" y1="420" x2="800" y2="420"/><line x1="260" y1="372" x2="260" y2="500"/><line x1="540" y1="372" x2="540" y2="500"/></g>
+  <!-- pumpkin -->
+  <g transform="translate(400,360)">
+    <ellipse cx="0" cy="6" rx="130" ry="26" fill="#000" opacity="0.12"/>
+    <g>
+      <ellipse cx="0" cy="-70" rx="135" ry="92" fill="url(#pump)"/>
+      <!-- ribs -->
+      <g fill="none" stroke="#e0a516" stroke-width="3" opacity="0.5"><path d="M-90 -120 q-10 50 0 100"/><path d="M-45 -150 q-8 80 0 150"/><path d="M45 -150 q8 80 0 150"/><path d="M90 -120 q10 50 0 100"/></g>
+      <!-- stem -->
+      <path d="M-14 -158 q14 -16 28 0 q-6 16 -28 4z" fill="#4f7d45"/>
+      <!-- polka dots -->
+      <g fill="#1a1a1a">
+        <circle cx="-80" cy="-90" r="8"/><circle cx="-50" cy="-120" r="10"/><circle cx="-30" cy="-70" r="11"/><circle cx="-60" cy="-50" r="8"/>
+        <circle cx="0" cy="-110" r="11"/><circle cx="10" cy="-60" r="12"/><circle cx="-10" cy="-30" r="9"/><circle cx="40" cy="-95" r="10"/>
+        <circle cx="60" cy="-55" r="11"/><circle cx="80" cy="-95" r="8"/><circle cx="30" cy="-130" r="8"/><circle cx="-90" cy="-40" r="7"/>
+        <circle cx="50" cy="-20" r="8"/><circle cx="-35" cy="-145" r="6"/>
+      </g>
+    </g>
+  </g>
+</svg>

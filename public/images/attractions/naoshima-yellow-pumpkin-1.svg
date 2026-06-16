@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A close-up of a glossy yellow pumpkin sculpture surface covered in black polka dots">
+  <defs>
+    <radialGradient id="np1bg" cx="0.5" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#bfe6ef"/>
+      <stop offset="1" stop-color="#7fc3d6"/>
+    </radialGradient>
+    <radialGradient id="np1p" cx="0.4" cy="0.35" r="0.85">
+      <stop offset="0" stop-color="#ffe14d"/>
+      <stop offset="0.7" stop-color="#fcc81f"/>
+      <stop offset="1" stop-color="#e6a800"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#np1bg)"/>
+  <!-- giant pumpkin filling frame -->
+  <ellipse cx="200" cy="220" rx="230" ry="200" fill="url(#np1p)"/>
+  <!-- shine -->
+  <ellipse cx="120" cy="120" rx="60" ry="40" fill="#fff6c4" opacity="0.6"/>
+  <!-- polka dots, varied sizes -->
+  <g fill="#1a1a1a">
+    <ellipse cx="90" cy="110" rx="16" ry="14"/>
+    <ellipse cx="180" cy="80" rx="20" ry="17"/>
+    <ellipse cx="290" cy="110" rx="22" ry="19"/>
+    <ellipse cx="350" cy="190" rx="20" ry="18"/>
+    <ellipse cx="60" cy="210" rx="18" ry="16"/>
+    <ellipse cx="150" cy="180" rx="24" ry="21"/>
+    <ellipse cx="250" cy="200" rx="26" ry="23"/>
+    <ellipse cx="330" cy="290" rx="22" ry="19"/>
+    <ellipse cx="100" cy="310" rx="22" ry="19"/>
+    <ellipse cx="200" cy="300" rx="28" ry="24"/>
+    <ellipse cx="70" cy="380" rx="16" ry="14"/>
+    <ellipse cx="280" cy="370" rx="20" ry="17"/>
+    <ellipse cx="180" cy="390" rx="18" ry="15"/>
+    <ellipse cx="20" cy="120" rx="12" ry="11"/>
+    <ellipse cx="380" cy="120" rx="14" ry="12"/>
+  </g>
+</svg>

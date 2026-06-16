@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Frozen snow-monster trees at night washed in colorful pink and blue illumination light">
+  <defs>
+    <linearGradient id="sky15" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1040"/>
+      <stop offset="100%" stop-color="#3a1a55"/>
+    </linearGradient>
+    <linearGradient id="mon15" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff7ec8"/>
+      <stop offset="100%" stop-color="#5a9bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky15)"/>
+  <!-- stars -->
+  <g fill="#fff" opacity="0.7"><circle cx="50" cy="40" r="2"/><circle cx="150" cy="30" r="1.5"/><circle cx="280" cy="50" r="2"/><circle cx="350" cy="35" r="1.5"/><circle cx="200" cy="60" r="1.5"/></g>
+  <!-- colored glow on snow -->
+  <rect x="0" y="300" width="400" height="100" fill="#2a1a55"/>
+  <ellipse cx="120" cy="360" rx="120" ry="40" fill="#ff5fa8" opacity="0.3"/>
+  <ellipse cx="300" cy="360" rx="120" ry="40" fill="#5a9bff" opacity="0.3"/>
+  <!-- snow monsters lit -->
+  <g fill="url(#mon15)" stroke="#a05ad0" stroke-width="2">
+    <path d="M60 330 Q48 270 70 258 Q58 226 80 220 Q72 192 92 192 Q112 192 104 220 Q126 226 114 258 Q136 270 124 330 Z"/>
+    <path d="M170 340 Q156 275 178 262 Q166 230 188 224 Q180 195 202 195 Q224 195 216 224 Q238 230 226 262 Q248 275 234 340 Z"/>
+    <path d="M290 332 Q278 270 300 258 Q288 226 310 220 Q302 192 322 192 Q342 192 334 220 Q356 226 344 258 Q366 270 354 332 Z"/>
+  </g>
+  <!-- frosty highlights -->
+  <g fill="#ffd0ec" opacity="0.7"><circle cx="92" cy="220" r="6"/><circle cx="202" cy="225" r="6"/><circle cx="322" cy="220" r="6"/></g>
+  <g fill="#bfe0ff" opacity="0.6"><circle cx="80" cy="280" r="7"/><circle cx="190" cy="290" r="7"/><circle cx="310" cy="282" r="7"/></g>
+</svg>

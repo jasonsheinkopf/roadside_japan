@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A lantern hall glowing with thousands of small golden hanging lanterns in the dark">
+  <defs>
+    <radialGradient id="ok1bg" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#4a3a20"/>
+      <stop offset="1" stop-color="#150f06"/>
+    </radialGradient>
+    <radialGradient id="ok1l" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset="1" stop-color="#e0a52e"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ok1bg)"/>
+  <!-- ceiling beams -->
+  <rect x="0" y="0" width="400" height="40" fill="#241a0c"/>
+  <rect x="60" y="0" width="14" height="400" fill="#2a1f10" opacity="0.5"/>
+  <rect x="326" y="0" width="14" height="400" fill="#2a1f10" opacity="0.5"/>
+  <!-- rows of hanging lanterns -->
+  <g>
+    <!-- each lantern: string + glow + body -->
+    <g>
+      <!-- row 1 (far/small) -->
+      <g>
+        <line x1="60" y1="40" x2="60" y2="70" stroke="#6b5326" stroke-width="2"/>
+        <circle cx="60" cy="80" r="14" fill="url(#ok1l)"/>
+        <circle cx="60" cy="80" r="22" fill="#ffd86a" opacity="0.18"/>
+      </g>
+      <g>
+        <line x1="130" y1="40" x2="130" y2="64" stroke="#6b5326" stroke-width="2"/>
+        <circle cx="130" cy="74" r="14" fill="url(#ok1l)"/>
+        <circle cx="130" cy="74" r="22" fill="#ffd86a" opacity="0.18"/>
+      </g>
+      <g>
+        <line x1="200" y1="40" x2="200" y2="60" stroke="#6b5326" stroke-width="2"/>
+        <circle cx="200" cy="70" r="14" fill="url(#ok1l)"/>
+        <circle cx="200" cy="70" r="22" fill="#ffd86a" opacity="0.18"/>
+      </g>
+      <g>
+        <line x1="270" y1="40" x2="270" y2="64" stroke="#6b5326" stroke-width="2"/>
+        <circle cx="270" cy="74" r="14" fill="url(#ok1l)"/>
+        <circle cx="270" cy="74" r="22" fill="#ffd86a" opacity="0.18"/>
+      </g>
+      <g>
+        <line x1="340" y1="40" x2="340" y2="70" stroke="#6b5326" stroke-width="2"/>
+        <circle cx="340" cy="80" r="14" fill="url(#ok1l)"/>
+        <circle cx="340" cy="80" r="22" fill="#ffd86a" opacity="0.18"/>
+      </g>
+      <!-- row 2 -->
+      <g>
+        <circle cx="95" cy="150" r="17" fill="url(#ok1l)"/>
+        <circle cx="95" cy="150" r="27" fill="#ffd86a" opacity="0.18"/>
+        <circle cx="165" cy="145" r="17" fill="url(#ok1l)"/>
+        <circle cx="165" cy="145" r="27" fill="#ffd86a" opacity="0.18"/>
+        <circle cx="235" cy="145" r="17" fill="url(#ok1l)"/>
+        <circle cx="235" cy="145" r="27" fill="#ffd86a" opacity="0.18"/>
+        <circle cx="305" cy="150" r="17" fill="url(#ok1l)"/>
+        <circle cx="305" cy="150" r="27" fill="#ffd86a" opacity="0.18"/>
+      </g>
+      <!-- row 3 (near/big) -->
+      <g>
+        <circle cx="70" cy="250" r="22" fill="url(#ok1l)"/>
+        <circle cx="70" cy="250" r="34" fill="#ffd86a" opacity="0.16"/>
+        <circle cx="160" cy="255" r="22" fill="url(#ok1l)"/>
+        <circle cx="160" cy="255" r="34" fill="#ffd86a" opacity="0.16"/>
+        <circle cx="250" cy="255" r="22" fill="url(#ok1l)"/>
+        <circle cx="250" cy="255" r="34" fill="#ffd86a" opacity="0.16"/>
+        <circle cx="335" cy="250" r="22" fill="url(#ok1l)"/>
+        <circle cx="335" cy="250" r="34" fill="#ffd86a" opacity="0.16"/>
+      </g>
+    </g>
+  </g>
+  <!-- lantern body lines -->
+  <g stroke="#b8862c" stroke-width="1.5" opacity="0.6">
+    <line x1="55" y1="80" x2="65" y2="80"/>
+    <line x1="86" y1="150" x2="104" y2="150"/>
+    <line x1="61" y1="250" x2="79" y2="250"/>
+  </g>
+  <!-- floor glow -->
+  <ellipse cx="200" cy="380" rx="220" ry="40" fill="#7a5a22" opacity="0.4"/>
+</svg>

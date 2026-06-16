@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A happy tourist touching a Moai statue for luck in love, little pink hearts floating around">
+  <defs>
+    <linearGradient id="m2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd6e8"/>
+      <stop offset="1" stop-color="#bfe9f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#m2sky)"/>
+  <rect x="0" y="300" width="400" height="100" fill="#7cc36a"/>
+  <!-- moai -->
+  <path d="M120 360V150q0-46 34-46t34 46v210z" fill="#8c8f93"/>
+  <rect x="124" y="170" width="60" height="16" fill="#6f7276"/>
+  <circle cx="140" cy="196" r="6" fill="#5c5f63"/>
+  <circle cx="168" cy="196" r="6" fill="#5c5f63"/>
+  <rect x="138" y="230" width="32" height="8" fill="#6f7276"/>
+  <!-- tourist -->
+  <ellipse cx="270" cy="372" rx="60" ry="16" fill="#5fa84f"/>
+  <rect x="240" y="250" width="60" height="100" rx="20" fill="#f29c4b"/>
+  <circle cx="270" cy="220" r="32" fill="#f2c9a0"/>
+  <path d="M238 218a32 32 0 0 1 64 0z" fill="#5a3b28"/>
+  <circle cx="260" cy="220" r="4" fill="#2a2a2a"/>
+  <circle cx="280" cy="220" r="4" fill="#2a2a2a"/>
+  <path d="M258 232q12 10 24 0" stroke="#b5615a" stroke-width="4" fill="none"/>
+  <path d="M242 270q-30 0-50 -78" stroke="#f29c4b" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <circle cx="190" cy="196" r="10" fill="#f2c9a0"/>
+  <!-- hearts -->
+  <g fill="#ff7aa8">
+    <path d="M150 90c-6-12-26-6-26 8 0 12 26 26 26 26s26-14 26-26c0-14-20-20-26-8z"/>
+    <path d="M210 60c-4-8-18-4-18 6 0 8 18 18 18 18s18-10 18-18c0-10-14-14-18-6z" opacity="0.9"/>
+    <path d="M100 140c-3-6-14-3-14 4 0 6 14 14 14 14s14-8 14-14c0-7-11-10-14-4z" opacity="0.8"/>
+  </g>
+</svg>

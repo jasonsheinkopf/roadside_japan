@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A close-up of a glowing grid of lit paper lanterns on a pole, shaped like ears of rice, against a dark sky">
+  <defs>
+    <radialGradient id="sky2" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#1b2647"/>
+      <stop offset="100%" stop-color="#080b1d"/>
+    </radialGradient>
+    <radialGradient id="lant2" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="100%" stop-color="#f5b62e"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky2)"/>
+  <rect x="194" y="0" width="12" height="400" fill="#8a6a30"/>
+  <g stroke="#6b4f22" stroke-width="6">
+    <line x1="40" y1="55" x2="360" y2="55"/>
+    <line x1="55" y1="135" x2="345" y2="135"/>
+    <line x1="70" y1="215" x2="330" y2="215"/>
+    <line x1="85" y1="295" x2="315" y2="295"/>
+    <line x1="100" y1="370" x2="300" y2="370"/>
+  </g>
+  <g fill="url(#lant2)" stroke="#cf8e1c" stroke-width="2">
+    <ellipse cx="70" cy="55" rx="22" ry="30"/><ellipse cx="135" cy="55" rx="22" ry="30"/><ellipse cx="200" cy="55" rx="22" ry="30"/><ellipse cx="265" cy="55" rx="22" ry="30"/><ellipse cx="330" cy="55" rx="22" ry="30"/>
+    <ellipse cx="85" cy="135" rx="22" ry="30"/><ellipse cx="142" cy="135" rx="22" ry="30"/><ellipse cx="200" cy="135" rx="22" ry="30"/><ellipse cx="258" cy="135" rx="22" ry="30"/><ellipse cx="315" cy="135" rx="22" ry="30"/>
+    <ellipse cx="100" cy="215" rx="22" ry="30"/><ellipse cx="150" cy="215" rx="22" ry="30"/><ellipse cx="200" cy="215" rx="22" ry="30"/><ellipse cx="250" cy="215" rx="22" ry="30"/><ellipse cx="300" cy="215" rx="22" ry="30"/>
+    <ellipse cx="115" cy="295" rx="22" ry="30"/><ellipse cx="157" cy="295" rx="22" ry="30"/><ellipse cx="200" cy="295" rx="22" ry="30"/><ellipse cx="243" cy="295" rx="22" ry="30"/><ellipse cx="285" cy="295" rx="22" ry="30"/>
+  </g>
+  <g fill="#cf8e1c" opacity="0.5">
+    <rect x="64" y="35" width="12" height="4"/><rect x="129" y="35" width="12" height="4"/><rect x="194" y="35" width="12" height="4"/><rect x="259" y="35" width="12" height="4"/><rect x="324" y="35" width="12" height="4"/>
+  </g>
+</svg>

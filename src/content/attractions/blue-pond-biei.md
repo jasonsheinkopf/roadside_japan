@@ -31,6 +31,12 @@ photos:
     alt: "Blue Pond in Biei with bright blue water and drowned larch trees"
     credit: "Wikimedia Commons contributors"
     creditUrl: "https://commons.wikimedia.org/wiki/File:Biei_Blue-pond.jpg"
+  - src: "/images/attractions/blue-pond-biei-1.svg"
+    alt: "An illustrated take on the cobalt water with bleached, drowned larch trees"
+  - src: "/images/attractions/blue-pond-biei-2.svg"
+    alt: "The winter evening illumination glowing electric blue against the snow"
+  - src: "/images/attractions/blue-pond-biei-3.svg"
+    alt: "A playful nod to the Apple desktop wallpaper, the pond framed in a computer window"
 tips:
   - "The color shifts with light and weather — midday sun on a clear day is most intense."
   - "Winter brings evening illuminations; the pond rarely fully freezes."

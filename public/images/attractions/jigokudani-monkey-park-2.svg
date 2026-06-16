@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A baby macaque clinging to its mother at the steaming pool edge in the snow">
+  <defs>
+    <linearGradient id="jg2bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe0e8"/>
+      <stop offset="1" stop-color="#9bbccc"/>
+    </linearGradient>
+    <radialGradient id="jg2steam" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#jg2bg)"/>
+  <!-- snowy rocks -->
+  <path d="M0 250 q60 -30 140 -10 q80 -28 160 -6 q60 -14 100 6 V400 H0 Z" fill="#eef4f8"/>
+  <!-- steaming pool -->
+  <ellipse cx="200" cy="340" rx="180" ry="50" fill="#5f93b0"/>
+  <ellipse cx="200" cy="334" rx="160" ry="38" fill="#6fa3c0"/>
+  <g fill="url(#jg2steam)"><ellipse cx="120" cy="120" rx="40" ry="24"/><ellipse cx="290" cy="110" rx="44" ry="26"/></g>
+  <!-- mother monkey -->
+  <g>
+    <ellipse cx="200" cy="250" rx="74" ry="84" fill="#857a6e"/>
+    <circle cx="200" cy="180" r="50" fill="#857a6e"/>
+    <ellipse cx="200" cy="186" rx="36" ry="40" fill="#e6968a"/>
+    <path d="M168 180 q4 -4 8 0 M224 180 q4 -4 8 0" fill="none" stroke="#5a2a22" stroke-width="3.5" stroke-linecap="round"/>
+    <ellipse cx="193" cy="200" rx="3" ry="4" fill="#a04a3a"/><ellipse cx="207" cy="200" rx="3" ry="4" fill="#a04a3a"/>
+    <path d="M184 212 q16 8 32 0" fill="none" stroke="#a04a3a" stroke-width="3" stroke-linecap="round"/>
+    <!-- arm around baby -->
+    <path d="M150 250 q-30 30 -10 70" fill="none" stroke="#857a6e" stroke-width="22" stroke-linecap="round"/>
+  </g>
+  <!-- baby macaque clinging -->
+  <g>
+    <ellipse cx="150" cy="300" rx="34" ry="40" fill="#9c8f80"/>
+    <circle cx="150" cy="270" r="26" fill="#9c8f80"/>
+    <ellipse cx="150" cy="274" rx="18" ry="20" fill="#eda898"/>
+    <circle cx="142" cy="270" r="3" fill="#3a2018"/><circle cx="158" cy="270" r="3" fill="#3a2018"/>
+    <path d="M142 284 q8 6 16 0" fill="none" stroke="#a04a3a" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- tiny clinging arms -->
+    <path d="M134 300 q-16 14 -8 34" fill="none" stroke="#9c8f80" stroke-width="10" stroke-linecap="round"/>
+    <path d="M166 300 q18 6 24 28" fill="none" stroke="#9c8f80" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <!-- snow -->
+  <g fill="#ffffff" opacity="0.9"><circle cx="80" cy="150" r="3"/><circle cx="330" cy="170" r="3"/><circle cx="300" cy="240" r="3"/><circle cx="60" cy="260" r="3"/></g>
+</svg>

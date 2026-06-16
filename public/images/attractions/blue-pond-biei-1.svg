@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Stylized cobalt-blue pond water with bare bleached drowned larch tree trunks rising from it">
+  <defs>
+    <linearGradient id="bp1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe6d8"/>
+      <stop offset="1" stop-color="#9fcabf"/>
+    </linearGradient>
+    <linearGradient id="bp1water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e7fbf"/>
+      <stop offset="1" stop-color="#1a5fa0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bp1sky)"/>
+  <path d="M0 130 q100 -20 200 0 t200 0 v40 H0 Z" fill="#7fae9c"/>
+  <rect y="150" width="400" height="250" fill="url(#bp1water)"/>
+  <!-- water ripple lines -->
+  <g stroke="#5aa3d8" stroke-width="3" opacity="0.5" fill="none">
+    <path d="M0 220 q60 -8 120 0 t120 0 t160 0"/>
+    <path d="M0 270 q60 -8 120 0 t120 0 t160 0"/>
+    <path d="M0 320 q60 -8 120 0 t120 0 t160 0"/>
+    <path d="M0 370 q60 -8 120 0 t120 0 t160 0"/>
+  </g>
+  <!-- bleached drowned larch trunks -->
+  <g stroke="#efe7d6" stroke-linecap="round" fill="none">
+    <path d="M80 150 L72 360" stroke-width="9"/>
+    <path d="M78 220 l-18 -14 M76 270 l16 -10" stroke-width="5"/>
+    <path d="M150 150 L156 380" stroke-width="11"/>
+    <path d="M153 200 l20 -16 M154 260 l-16 -12 M155 320 l18 -10" stroke-width="6"/>
+    <path d="M230 150 L222 360" stroke-width="8"/>
+    <path d="M226 230 l-16 -12 M224 290 l16 -10" stroke-width="5"/>
+    <path d="M300 150 L308 385" stroke-width="12"/>
+    <path d="M305 210 l18 -14 M304 280 l-18 -12 M306 340 l16 -10" stroke-width="6"/>
+    <path d="M360 150 L356 350" stroke-width="7"/>
+  </g>
+  <!-- reflections -->
+  <g stroke="#bcd9ee" stroke-width="3" opacity="0.4" stroke-linecap="round">
+    <line x1="72" y1="360" x2="72" y2="390"/>
+    <line x1="156" y1="380" x2="156" y2="398"/>
+    <line x1="308" y1="385" x2="308" y2="400"/>
+  </g>
+</svg>
