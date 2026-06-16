@@ -1,37 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A close-up of a gorge's geometric hexagonal basalt rock columns beside emerald water">
-  <defs>
-    <linearGradient id="tg2w" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2fb39a"/>
-      <stop offset="1" stop-color="#0e7a68"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="400" fill="#3a4a40"/>
-  <!-- basalt columns left -->
-  <g>
-    <rect x="0" y="0" width="60" height="400" fill="#54665a"/>
-    <rect x="60" y="0" width="56" height="400" fill="#475a4d"/>
-    <rect x="116" y="0" width="58" height="400" fill="#5b6d61"/>
-    <rect x="174" y="0" width="54" height="400" fill="#42554a"/>
-  </g>
-  <!-- hexagon tops -->
-  <g fill="#6b7d70" stroke="#34433a" stroke-width="3">
-    <polygon points="30,40 50,52 50,76 30,88 10,76 10,52"/>
-    <polygon points="88,70 108,82 108,106 88,118 68,106 68,82"/>
-    <polygon points="145,30 165,42 165,66 145,78 125,66 125,42"/>
-    <polygon points="201,90 221,102 221,126 201,138 181,126 181,102"/>
-    <polygon points="30,140 50,152 50,176 30,188 10,176 10,152"/>
-    <polygon points="88,170 108,182 108,206 88,218 68,206 68,182"/>
-  </g>
-  <g fill="#7d8f82" stroke="#34433a" stroke-width="2" opacity="0.7">
-    <polygon points="145,130 165,142 165,166 145,178 125,166 125,142"/>
-    <polygon points="30,240 50,252 50,276 30,288 10,276 10,252"/>
-  </g>
-  <!-- emerald water -->
-  <rect x="228" y="0" width="172" height="400" fill="url(#tg2w)"/>
-  <g stroke="#bff0e3" stroke-width="4" opacity="0.5" fill="none">
-    <path d="M250 80q40 -14 80 0"/>
-    <path d="M260 200q40 -14 80 0"/>
-    <path d="M250 320q40 -14 80 0"/>
-  </g>
-  <ellipse cx="240" cy="0" rx="20" ry="400" fill="#0e7a68" opacity="0.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan riding in a little rowboat near a gorge waterfall">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient><linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2fb39a"/><stop offset="1" stop-color="#0e7a68"/></linearGradient></defs>
+<rect width="400" height="400" fill="#3a4a40"/>
+<!-- basalt gorge walls -->
+<rect x="0" y="0" width="120" height="400" fill="#54665a"/>
+<rect x="280" y="0" width="120" height="400" fill="#475a4d"/>
+<g fill="#5b6d61"><rect x="0" y="0" width="40" height="400"/><rect x="80" y="0" width="40" height="400"/><rect x="320" y="0" width="40" height="400"/></g>
+<g fill="#6b7d70" stroke="#34433a" stroke-width="2"><polygon points="30,40 50,52 50,76 30,88 10,76 10,52"/><polygon points="90,90 110,102 110,126 90,138 70,126 70,102"/><polygon points="350,60 370,72 370,96 350,108 330,96 330,72"/></g>
+<!-- waterfall -->
+<rect x="130" y="0" width="40" height="200" fill="#dff4ee" opacity="0.85"/>
+<g stroke="#fff" stroke-width="2" opacity="0.7"><line x1="138" y1="0" x2="138" y2="190"/><line x1="150" y1="0" x2="150" y2="190"/><line x1="162" y1="0" x2="162" y2="190"/></g>
+<ellipse cx="150" cy="200" rx="34" ry="12" fill="#eafaf5" opacity="0.8"/>
+<!-- emerald water -->
+<rect x="120" y="200" width="160" height="200" fill="url(#water)"/>
+<g stroke="#bff0e3" stroke-width="3" opacity="0.5" fill="none"><path d="M130 320 q40 -10 80 0"/><path d="M150 360 q40 -10 80 0"/></g>
+<!-- rowboat -->
+<path d="M120 330 q80 30 160 0 l-14 34 q-66 22 -132 0z" fill="#9c6a3a"/>
+<path d="M120 330 q80 26 160 0 l-6 12 q-74 24 -148 0z" fill="#b8854a"/>
+<line x1="250" y1="318" x2="300" y2="280" stroke="#7a5230" stroke-width="5"/>
+<ellipse cx="305" cy="276" rx="10" ry="5" fill="#8a6a3a"/>
+<!-- Mon-chan in boat -->
+<g transform="translate(190,300) scale(0.78)">
+<path d="M-42 60 q-14 -70 42 -78 q56 8 42 78 z" fill="url(#fur)"/>
+<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#faf1e0"/>
+<g transform="translate(46,-28) rotate(20)"><ellipse cx="0" cy="6" rx="10" ry="11" fill="#faf1e0"/><rect x="-7" y="-14" width="5" height="16" rx="2.5" fill="#faf1e0"/><rect x="2" y="-14" width="5" height="16" rx="2.5" fill="#faf1e0"/></g>
+<path d="M-32 0 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/><path d="M0 0 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="-20" cy="-12" r="2" fill="#fff"/><circle cx="14" cy="-12" r="2" fill="#fff"/>
+<path d="M-50 -86 l-10 -40 38 22z" fill="url(#fur)"/><path d="M50 -86 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M-47 -94 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M47 -94 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="0" cy="-66" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="-20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="-18" cy="-69" r="2.2" fill="#fff"/><circle cx="22" cy="-69" r="2.2" fill="#fff"/>
+<path d="M-6 -50 h12 l-6 7z" fill="#3a3330"/>
+<path d="M-6 -40 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+</g>
 </svg>

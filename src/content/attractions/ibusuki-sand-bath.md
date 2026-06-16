@@ -29,11 +29,11 @@ dogFriendly: no
 heroImage: "/images/attractions/ibusuki-sand-bath.svg"
 photos:
   - src: "/images/attractions/ibusuki-sand-bath-1.svg"
-    alt: "A blissful face poking out of the black sand wearing a folded-towel turban"
+    alt: "A blissful face poking out of black sand with a towel turban"
+    caption: "Buried in warm volcanic sand. Ten out of ten, would nap again."
   - src: "/images/attractions/ibusuki-sand-bath-2.svg"
-    alt: "A grinning attendant in a conical hat shoveling steaming volcanic sand"
-  - src: "/images/attractions/ibusuki-sand-bath-3.svg"
-    alt: "A neat row of just-heads sticking out of the sand, all gazing at the sea"
+    alt: "Mon-chan buried up to his neck in black sand, only head and ears out"
+    caption: "I asked for a beach day. This is technically a beach day. 😅"
 website: "https://sa-raku.sakura.ne.jp/"
 tips:
   - "Stay buried 10–15 minutes — it's hotter and heavier than you expect."

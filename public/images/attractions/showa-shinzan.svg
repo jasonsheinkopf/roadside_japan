@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A steaming reddish-brown lava dome rising from flat ground, Japan's youngest mountain, smoking vents">
+  <defs>
+    <linearGradient id="ssky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ec9e8"/>
+      <stop offset="1" stop-color="#e8f3fa"/>
+    </linearGradient>
+    <linearGradient id="dome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3552f"/>
+      <stop offset="1" stop-color="#7e3a20"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ssky)"/>
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="400" cy="110" rx="60" ry="26"/>
+    <ellipse cx="450" cy="95" rx="50" ry="22"/>
+    <ellipse cx="350" cy="95" rx="45" ry="20"/>
+  </g>
+  <g fill="#cfd6dc" opacity="0.7">
+    <ellipse cx="410" cy="60" rx="34" ry="18"/>
+    <ellipse cx="385" cy="40" rx="26" ry="14"/>
+  </g>
+  <rect x="0" y="380" width="800" height="120" fill="#8a9a6b"/>
+  <path d="M0 390 Q400 360 800 390 L800 410 Q400 380 0 410 Z" fill="#9bab7c"/>
+  <path d="M250 390 Q330 200 400 150 Q470 200 560 390 Z" fill="url(#dome)"/>
+  <path d="M400 150 Q470 200 560 390 L460 390 Q420 230 400 150 Z" fill="#6e3019"/>
+  <g fill="#5a2814">
+    <path d="M340 250 L360 270 L345 285 L325 268 Z"/>
+    <path d="M440 280 L462 300 L448 318 L426 298 Z"/>
+    <path d="M380 330 L398 348 L384 362 L366 344 Z"/>
+  </g>
+  <g fill="#e9eef1" opacity="0.8">
+    <ellipse cx="395" cy="160" rx="14" ry="22"/>
+    <ellipse cx="388" cy="125" rx="18" ry="20"/>
+    <ellipse cx="400" cy="95" rx="22" ry="20"/>
+    <ellipse cx="450" cy="285" rx="9" ry="16"/>
+    <ellipse cx="445" cy="260" rx="11" ry="14"/>
+  </g>
+  <text x="40" y="60" font-family="sans-serif" font-size="32" font-weight="bold" fill="#7e3a20">Showa-shinzan</text>
+</svg>

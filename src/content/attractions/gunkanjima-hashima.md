@@ -29,11 +29,11 @@ dogFriendly: no
 heroImage: "/images/attractions/gunkanjima-hashima.svg"
 photos:
   - src: "/images/attractions/gunkanjima-hashima-1.svg"
-    alt: "A small tour boat approaching the gray battleship-shaped island under a moody sky"
+    alt: "A tour boat approaching the battleship-shaped abandoned island"
+    caption: "An entire city, left to the sea. I kept my voice down."
   - src: "/images/attractions/gunkanjima-hashima-2.svg"
-    alt: "A crumbling abandoned apartment interior with a single weed growing through the floor"
-  - src: "/images/attractions/gunkanjima-hashima-3.svg"
-    alt: "A side-by-side gag comparing the island's silhouette to an actual battleship"
+    alt: "A crumbling abandoned apartment interior with a weed through the floor"
+    caption: "Nature is slowly taking it back. A quiet, heavy place."
 website: "https://en.wikipedia.org/wiki/Hashima_Island"
 tips:
   - "You can only land via a licensed tour — book ahead, and know that rough seas cancel landings often."

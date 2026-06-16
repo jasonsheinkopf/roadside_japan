@@ -1,30 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A close-up of a glowing grid of lit paper lanterns on a pole, shaped like ears of rice, against a dark sky">
-  <defs>
-    <radialGradient id="sky2" cx="50%" cy="40%" r="80%">
-      <stop offset="0%" stop-color="#1b2647"/>
-      <stop offset="100%" stop-color="#080b1d"/>
-    </radialGradient>
-    <radialGradient id="lant2" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#fff3c4"/>
-      <stop offset="100%" stop-color="#f5b62e"/>
-    </radialGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#sky2)"/>
-  <rect x="194" y="0" width="12" height="400" fill="#8a6a30"/>
-  <g stroke="#6b4f22" stroke-width="6">
-    <line x1="40" y1="55" x2="360" y2="55"/>
-    <line x1="55" y1="135" x2="345" y2="135"/>
-    <line x1="70" y1="215" x2="330" y2="215"/>
-    <line x1="85" y1="295" x2="315" y2="295"/>
-    <line x1="100" y1="370" x2="300" y2="370"/>
-  </g>
-  <g fill="url(#lant2)" stroke="#cf8e1c" stroke-width="2">
-    <ellipse cx="70" cy="55" rx="22" ry="30"/><ellipse cx="135" cy="55" rx="22" ry="30"/><ellipse cx="200" cy="55" rx="22" ry="30"/><ellipse cx="265" cy="55" rx="22" ry="30"/><ellipse cx="330" cy="55" rx="22" ry="30"/>
-    <ellipse cx="85" cy="135" rx="22" ry="30"/><ellipse cx="142" cy="135" rx="22" ry="30"/><ellipse cx="200" cy="135" rx="22" ry="30"/><ellipse cx="258" cy="135" rx="22" ry="30"/><ellipse cx="315" cy="135" rx="22" ry="30"/>
-    <ellipse cx="100" cy="215" rx="22" ry="30"/><ellipse cx="150" cy="215" rx="22" ry="30"/><ellipse cx="200" cy="215" rx="22" ry="30"/><ellipse cx="250" cy="215" rx="22" ry="30"/><ellipse cx="300" cy="215" rx="22" ry="30"/>
-    <ellipse cx="115" cy="295" rx="22" ry="30"/><ellipse cx="157" cy="295" rx="22" ry="30"/><ellipse cx="200" cy="295" rx="22" ry="30"/><ellipse cx="243" cy="295" rx="22" ry="30"/><ellipse cx="285" cy="295" rx="22" ry="30"/>
-  </g>
-  <g fill="#cf8e1c" opacity="0.5">
-    <rect x="64" y="35" width="12" height="4"/><rect x="129" y="35" width="12" height="4"/><rect x="194" y="35" width="12" height="4"/><rect x="259" y="35" width="12" height="4"/><rect x="324" y="35" width="12" height="4"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan at night watching tall glowing lantern poles at a festival">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient>
+<radialGradient id="sky" cx="50%" cy="40%" r="80%"><stop offset="0" stop-color="#1b2647"/><stop offset="1" stop-color="#080b1d"/></radialGradient>
+<radialGradient id="lant" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#fff3c4"/><stop offset="1" stop-color="#f5b62e"/></radialGradient></defs>
+<rect width="400" height="400" fill="url(#sky)"/>
+<g stroke="#6b4f22" stroke-width="5"><rect x="96" y="0" width="8" height="300" fill="#8a6a30"/><rect x="296" y="0" width="8" height="300" fill="#8a6a30"/>
+<line x1="60" y1="50" x2="140" y2="50"/><line x1="55" y1="120" x2="145" y2="120"/><line x1="50" y1="190" x2="150" y2="190"/>
+<line x1="260" y1="50" x2="340" y2="50"/><line x1="255" y1="120" x2="345" y2="120"/><line x1="250" y1="190" x2="350" y2="190"/></g>
+<g fill="url(#lant)" stroke="#cf8e1c" stroke-width="2">
+<ellipse cx="70" cy="50" rx="15" ry="22"/><ellipse cx="130" cy="50" rx="15" ry="22"/><ellipse cx="60" cy="120" rx="15" ry="22"/><ellipse cx="140" cy="120" rx="15" ry="22"/><ellipse cx="55" cy="190" rx="15" ry="22"/><ellipse cx="145" cy="190" rx="15" ry="22"/>
+<ellipse cx="270" cy="50" rx="15" ry="22"/><ellipse cx="330" cy="50" rx="15" ry="22"/><ellipse cx="260" cy="120" rx="15" ry="22"/><ellipse cx="340" cy="120" rx="15" ry="22"/><ellipse cx="250" cy="190" rx="15" ry="22"/><ellipse cx="350" cy="190" rx="15" ry="22"/></g>
+<g transform="translate(120,210) scale(0.85)">
+<ellipse cx="120" cy="218" rx="70" ry="11" fill="#000" opacity="0.25"/>
+<path d="M70 205 q-14 -75 50 -83 q64 8 50 83 z" fill="url(#fur)"/>
+<path d="M96 205 q-14 -62 24 -68 q38 6 24 68 z" fill="#faf1e0"/>
+<ellipse cx="80" cy="208" rx="22" ry="13" fill="#faf1e0"/><ellipse cx="160" cy="208" rx="22" ry="13" fill="#faf1e0"/>
+<path d="M150 150 q34 -30 40 -70" fill="none" stroke="#faf1e0" stroke-width="20" stroke-linecap="round"/>
+<g transform="translate(190,76)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+<path d="M88 150 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/>
+<path d="M120 150 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<path d="M70 64 l-10 -40 38 22z" fill="url(#fur)"/><path d="M170 64 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
+<path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+</g>
 </svg>

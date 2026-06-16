@@ -33,10 +33,10 @@ heroImage: "/images/events/zao-snow-monsters.svg"
 photos:
   - src: "/images/events/zao-snow-monsters-1.svg"
     alt: "A single towering frozen snow-monster tree seen up close"
+    caption: "Trees frozen into monsters by the wind. Spooky and very cool."
   - src: "/images/events/zao-snow-monsters-2.svg"
-    alt: "A ropeway cabin gliding among the white frozen trees"
-  - src: "/images/events/zao-snow-monsters-3.svg"
-    alt: "The night illumination washing the snow monsters in pink and blue"
+    alt: "Mon-chan in a tiny scarf posing among the frozen snow-monster trees"
+    caption: "Surrounded by snow monsters. I am the only fluffy one. ❄️"
 website: "https://zaoropeway.co.jp/"
 tips:
   - "Dress for serious cold and wind — the summit can be brutal; rentals are available."

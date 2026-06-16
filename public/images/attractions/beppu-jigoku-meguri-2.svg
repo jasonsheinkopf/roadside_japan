@@ -1,32 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A blood-red steaming hot-spring pond with a nervous cartoon egg on a spoon about to be boiled in it">
-  <defs>
-    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f6e2cf"/>
-      <stop offset="1" stop-color="#e6b89a"/>
-    </linearGradient>
-    <radialGradient id="pond2" cx="0.5" cy="0.5" r="0.6">
-      <stop offset="0" stop-color="#e23b2e"/>
-      <stop offset="1" stop-color="#8a160f"/>
-    </radialGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#sky2)"/>
-  <ellipse cx="200" cy="340" rx="240" ry="80" fill="#5a3a2a"/>
-  <ellipse cx="200" cy="300" rx="180" ry="95" fill="#3a241a"/>
-  <ellipse cx="200" cy="295" rx="160" ry="78" fill="url(#pond2)"/>
-  <ellipse cx="170" cy="288" rx="30" ry="10" fill="#ff7a66" opacity="0.6"/>
-  <g fill="#ffffff" opacity="0.7">
-    <path d="M120 250 q-22 -35 4 -62 q-26 -22 2 -48 q16 26 0 48 q24 27 -6 62 z"/>
-    <path d="M280 250 q-22 -35 4 -62 q-26 -22 2 -48 q16 26 0 48 q24 27 -6 62 z"/>
-  </g>
-  <line x1="200" y1="60" x2="200" y2="190" stroke="#9aa3ad" stroke-width="10" stroke-linecap="round"/>
-  <ellipse cx="200" cy="200" rx="46" ry="26" fill="#c8ccd2"/>
-  <ellipse cx="200" cy="185" rx="32" ry="40" fill="#fff6e8"/>
-  <ellipse cx="190" cy="178" rx="6" ry="8" fill="#222"/>
-  <ellipse cx="212" cy="178" rx="6" ry="8" fill="#222"/>
-  <circle cx="188" cy="176" r="2" fill="#fff"/>
-  <circle cx="210" cy="176" r="2" fill="#fff"/>
-  <path d="M188 198 q12 8 24 0" stroke="#b5663a" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <ellipse cx="178" cy="190" rx="6" ry="4" fill="#ffb3a0" opacity="0.7"/>
-  <ellipse cx="222" cy="190" rx="6" ry="4" fill="#ffb3a0" opacity="0.7"/>
-  <path d="M165 165 q-10 -8 -4 -18" stroke="#bfe6fb" stroke-width="3" fill="none" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan posing by a steaming blood-red hell pond with a basket of onsen eggs">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6e2cf"/><stop offset="1" stop-color="#e6b89a"/></linearGradient>
+<radialGradient id="pond" cx="0.5" cy="0.5" r="0.6"><stop offset="0" stop-color="#e23b2e"/><stop offset="1" stop-color="#8a160f"/></radialGradient></defs>
+<rect width="400" height="400" fill="url(#sky)"/>
+<ellipse cx="200" cy="170" rx="190" ry="70" fill="#3a241a"/>
+<ellipse cx="200" cy="165" rx="165" ry="56" fill="url(#pond)"/>
+<ellipse cx="160" cy="158" rx="34" ry="11" fill="#ff7a66" opacity="0.6"/>
+<g fill="#fff" opacity="0.7"><path d="M110 130 q-22 -35 4 -62 q-26 -22 2 -48 q16 26 0 48 q24 27 -6 62 z"/><path d="M290 130 q-22 -35 4 -62 q-26 -22 2 -48 q16 26 0 48 q24 27 -6 62 z"/></g>
+<rect y="220" width="400" height="180" fill="#5a3a2a"/>
+<g transform="translate(40,205) scale(0.85)">
+<ellipse cx="120" cy="218" rx="70" ry="11" fill="#000" opacity="0.10"/>
+<path d="M70 205 q-14 -75 50 -83 q64 8 50 83 z" fill="url(#fur)"/>
+<path d="M96 205 q-14 -62 24 -68 q38 6 24 68 z" fill="#faf1e0"/>
+<ellipse cx="80" cy="208" rx="22" ry="13" fill="#faf1e0"/><ellipse cx="160" cy="208" rx="22" ry="13" fill="#faf1e0"/>
+<path d="M150 150 q34 -30 40 -70" fill="none" stroke="#faf1e0" stroke-width="20" stroke-linecap="round"/>
+<g transform="translate(190,76)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+<path d="M88 150 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/>
+<path d="M120 150 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<path d="M70 64 l-10 -40 38 22z" fill="url(#fur)"/><path d="M170 64 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
+<path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+</g>
+<g transform="translate(245,280)">
+<path d="M0 30 h90 l-10 60 h-70z" fill="#b5793f"/>
+<path d="M-6 30 h102 v-10 h-102z" fill="#8a5a2c"/>
+<g stroke="#8a5a2c" stroke-width="2" opacity="0.5"><line x1="20" y1="36" x2="14" y2="86"/><line x1="45" y1="36" x2="45" y2="88"/><line x1="70" y1="36" x2="76" y2="86"/></g>
+<ellipse cx="25" cy="22" rx="15" ry="13" fill="#3a3330"/><ellipse cx="55" cy="18" rx="15" ry="13" fill="#3a3330"/><ellipse cx="80" cy="24" rx="14" ry="12" fill="#3a3330"/>
+<ellipse cx="22" cy="18" rx="5" ry="4" fill="#7a6a5a"/>
+</g>
 </svg>

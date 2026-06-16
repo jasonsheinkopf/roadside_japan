@@ -54,7 +54,7 @@ Visit`, `## Getting There`.
 | `accessibility` | `{ wheelchair, note? }` = `{wheelchair:unknown}` | `wheelchair`: `yes\|partial\|no\|unknown`. |
 | `dogFriendly`   | `yes\|no\|limited\|nearby\|unknown` = `unknown` | |
 | `heroImage`     | string                                      | Optional hero; else first photo; else a generated gradient. |
-| `photos`        | `{ src, alt, credit?, creditUrl? }[]` = `[]`| `src` = `/public` path or remote URL. Always include `alt`. |
+| `photos`        | `{ src, alt, caption?, credit?, creditUrl? }[]` = `[]`| `src` = `/public` path or remote URL. Always include `alt`. `caption` is a short, personality-filled line (often in Mon-chan's voice) shown under the photo. |
 | `website`       | url                                         | Official site. |
 | `tips`          | string[] = `[]`                             | Short bullet tips, shown in a dedicated box. |
 | `status`        | `open\|seasonal\|temporarily-closed\|permanently-closed\|unknown` = `open` | Operational status. |

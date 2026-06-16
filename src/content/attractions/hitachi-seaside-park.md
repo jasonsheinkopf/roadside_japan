@@ -30,11 +30,11 @@ dogFriendly: yes
 heroImage: "/images/attractions/hitachi-seaside-park.svg"
 photos:
   - src: "/images/attractions/hitachi-seaside-park-1.svg"
-    alt: "A close-up of baby-blue-eyes nemophila flowers carpeting the hill"
+    alt: "Close-up of pale baby-blue nemophila flowers on a green hill"
+    caption: "Four million flowers. I counted two before getting distracted."
   - src: "/images/attractions/hitachi-seaside-park-2.svg"
-    alt: "Round crimson kochia bushes in autumn lined up like fuzzy red buns"
-  - src: "/images/attractions/hitachi-seaside-park-3.svg"
-    alt: "A visitor lying in the blue flowers pretending to swim in a sea of blossoms"
+    alt: "Mon-chan sitting among the blue nemophila flowers giving a peace sign"
+    caption: "Blended right in. Can you spot the dog? ✌️"
 website: "https://hitachikaihin.jp/"
 tips:
   - "Arrive at opening on peak-bloom weekends — the famous Miharashi Hill gets very crowded."

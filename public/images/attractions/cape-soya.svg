@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A stark triangular northernmost-point monument on a windswept gray coast by a cold sea">
+  <defs>
+    <linearGradient id="csky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a9bab"/>
+      <stop offset="1" stop-color="#c4cfd8"/>
+    </linearGradient>
+    <linearGradient id="csea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d7689"/>
+      <stop offset="1" stop-color="#41576a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#csky)"/>
+  <g fill="#9fadb9" opacity="0.7">
+    <ellipse cx="200" cy="120" rx="90" ry="24"/>
+    <ellipse cx="560" cy="90" rx="100" ry="26"/>
+  </g>
+  <rect x="0" y="300" width="800" height="90" fill="url(#csea)"/>
+  <path d="M0 300 Q400 320 800 300 L800 330 Q400 312 0 330 Z" fill="#6c8497" opacity="0.6"/>
+  <rect x="0" y="388" width="800" height="112" fill="#7d8893"/>
+  <path d="M0 405 Q400 380 800 405 L800 440 Q400 415 0 440 Z" fill="#6c7782"/>
+  <g>
+    <polygon points="400,120 340,390 460,390" fill="#d9dee2"/>
+    <polygon points="400,120 400,390 460,390" fill="#aeb6bd"/>
+    <polygon points="400,120 372,255 428,255" fill="#f0f2f4"/>
+  </g>
+  <g stroke="#cdd4da" stroke-width="3" opacity="0.5" stroke-linecap="round">
+    <line x1="540" y1="180" x2="640" y2="178"/>
+    <line x1="560" y1="210" x2="660" y2="208"/>
+    <line x1="120" y1="200" x2="220" y2="198"/>
+  </g>
+  <text x="40" y="60" font-family="sans-serif" font-size="32" font-weight="bold" fill="#ffffff">Cape Soya</text>
+</svg>

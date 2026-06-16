@@ -26,11 +26,11 @@ dogFriendly: yes
 heroImage: "/images/attractions/nagoro-scarecrow-village.svg"
 photos:
   - src: "/images/attractions/nagoro-scarecrow-village-1.svg"
-    alt: "A schoolroom full of stitched scarecrow students at their desks"
+    alt: "A schoolroom full of life-size handmade scarecrow students"
+    caption: "Sat in on a class. Quietest students I have ever met."
   - src: "/images/attractions/nagoro-scarecrow-village-2.svg"
-    alt: "A button-eyed scarecrow farmer grinning out in the field"
-  - src: "/images/attractions/nagoro-scarecrow-village-3.svg"
-    alt: "Two scarecrows waiting at a bus stop for a bus that never comes"
+    alt: "Mon-chan sitting beside two handmade scarecrows at a rural bus stop"
+    caption: "Waited for the bus with the locals. It never came. 🚏"
 tips:
   - "Combine with the Iya Valley vine bridges (Kazurabashi) and the Oboke Gorge boat ride."
   - "Bring everything you need — there are no shops or vending machines for miles."

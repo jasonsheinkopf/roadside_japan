@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan standing proudly on top of a conical grass hill in a sculpture park, peace sign">
+<rect width="400" height="400" fill="#bfe2f2"/>
+<rect width="400" height="180" fill="#aedaef"/>
+<g fill="#d7ecf6" opacity="0.8"><circle cx="300" cy="50" r="16"/><circle cx="324" cy="50" r="20"/><circle cx="346" cy="52" r="15"/></g>
+<g transform="translate(60,90)" fill="#c9cdd4" stroke="#aab0b8" stroke-width="2">
+<path d="M0 90 L20 30 L40 90Z"/>
+</g>
+<g transform="translate(310,110)"><rect x="0" y="20" width="50" height="50" fill="#dfe3e8" stroke="#bcc2c8" stroke-width="2"/><path d="M0 20 L25 -4 L50 20Z" fill="#cfd4da" stroke="#bcc2c8" stroke-width="2"/></g>
+<path d="M0 270 q200 -160 400 0 L400 400 L0 400Z" fill="#7bb45e"/>
+<path d="M70 290 Q200 70 330 290 Z" fill="#6aa84f"/>
+<path d="M70 290 Q200 70 330 290 Z" fill="none" stroke="#5c9344" stroke-width="2" opacity="0.6"/>
+<g stroke="#5c9344" stroke-width="1.5" opacity="0.5"><path d="M120 290 Q200 110 200 100"/><path d="M280 290 Q200 110 200 100"/><path d="M200 290 L200 100"/></g>
+<g transform="translate(120,40)">
+<path d="M70 200 q-14 -70 50 -78 q64 8 50 78 z" fill="#e7ad63"/>
+<path d="M96 200 q-14 -58 24 -64 q38 6 24 64 z" fill="#faf1e0"/>
+<ellipse cx="84" cy="202" rx="20" ry="12" fill="#faf1e0"/>
+<ellipse cx="156" cy="202" rx="20" ry="12" fill="#faf1e0"/>
+<path d="M150 168 q26 -16 26 -50" fill="none" stroke="#faf1e0" stroke-width="20" stroke-linecap="round"/>
+<g transform="translate(176,112)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+<path d="M70 64 l-10 -40 38 22z" fill="#e7ad63"/>
+<path d="M170 64 l10 -40 -38 22z" fill="#e7ad63"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/>
+<path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="84" rx="52" ry="46" fill="#e7ad63"/>
+<path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
+<path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+<path d="M88 150 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/>
+<path d="M120 150 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="104" cy="140" r="1.6" fill="#fff"/><circle cx="136" cy="140" r="1.6" fill="#fff"/>
+</g>
+</svg>

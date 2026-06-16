@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Close-up of fuzzy round green marimo algae balls resting underwater">
+  <defs>
+    <radialGradient id="water" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#2a9d8f"/>
+      <stop offset="100%" stop-color="#13443f"/>
+    </radialGradient>
+    <radialGradient id="ball" cx="38%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#8fc44a"/>
+      <stop offset="100%" stop-color="#3f7a1e"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#water)"/>
+  <ellipse cx="80" cy="60" rx="22" ry="10" fill="#ffffff" opacity="0.18"/>
+  <ellipse cx="320" cy="100" rx="16" ry="8" fill="#ffffff" opacity="0.14"/>
+  <ellipse cx="200" cy="375" rx="160" ry="30" fill="#0d322e"/>
+  <g>
+    <circle cx="130" cy="270" r="62" fill="url(#ball)"/>
+    <circle cx="290" cy="290" r="78" fill="url(#ball)"/>
+    <circle cx="220" cy="170" r="92" fill="url(#ball)"/>
+  </g>
+  <g stroke="#2c5c14" stroke-width="2.5" stroke-linecap="round" opacity="0.55">
+    <line x1="220" y1="90" x2="222" y2="78"/>
+    <line x1="180" y1="105" x2="172" y2="95"/>
+    <line x1="260" y1="105" x2="270" y2="96"/>
+    <line x1="150" y1="140" x2="140" y2="135"/>
+    <line x1="290" y1="140" x2="300" y2="135"/>
+    <line x1="200" y1="80" x2="200" y2="68"/>
+    <line x1="130" y1="212" x2="124" y2="204"/>
+    <line x1="290" y1="214" x2="296" y2="206"/>
+  </g>
+  <circle cx="190" cy="140" r="16" fill="#aedb6e" opacity="0.5"/>
+  <circle cx="110" cy="246" r="11" fill="#aedb6e" opacity="0.4"/>
+  <circle cx="270" cy="262" r="13" fill="#aedb6e" opacity="0.4"/>
+  <circle cx="340" cy="200" r="6" fill="#bff" opacity="0.5"/>
+  <circle cx="60" cy="180" r="5" fill="#bff" opacity="0.5"/>
+</svg>

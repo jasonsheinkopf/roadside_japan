@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A line of king penguins waddling through the snow past visitors at a winter zoo">
+  <defs>
+    <linearGradient id="wsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd9ef"/>
+      <stop offset="1" stop-color="#eef7fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#wsky)"/>
+  <circle cx="120" cy="90" r="38" fill="#fdf6d8"/>
+  <path d="M0 300 Q200 270 400 295 T800 300 L800 500 L0 500 Z" fill="#ffffff"/>
+  <path d="M0 360 Q400 335 800 360 L800 500 L0 500 Z" fill="#f0f6fb"/>
+  <g fill="#5b7a99" opacity="0.6">
+    <rect x="40" y="220" width="20" height="80"/>
+    <rect x="80" y="210" width="20" height="90"/>
+    <rect x="120" y="225" width="20" height="75"/>
+    <rect x="700" y="215" width="20" height="85"/>
+    <rect x="740" y="225" width="20" height="75"/>
+  </g>
+  <g>
+    <g transform="translate(300,330)">
+      <ellipse cx="0" cy="0" rx="34" ry="55" fill="#2c2c34"/>
+      <ellipse cx="0" cy="12" rx="24" ry="40" fill="#ffffff"/>
+      <path d="M-22 -35 Q0 -55 22 -35 Q14 -20 0 -22 Q-14 -20 -22 -35 Z" fill="#f6b73c"/>
+      <circle cx="-8" cy="-30" r="3" fill="#111"/>
+      <circle cx="8" cy="-30" r="3" fill="#111"/>
+      <path d="M0 -18 L8 -8 L-4 -6 Z" fill="#f6b73c"/>
+    </g>
+    <g transform="translate(420,355)">
+      <ellipse cx="0" cy="0" rx="32" ry="52" fill="#2c2c34"/>
+      <ellipse cx="0" cy="12" rx="22" ry="38" fill="#ffffff"/>
+      <path d="M-20 -33 Q0 -52 20 -33 Q13 -19 0 -21 Q-13 -19 -20 -33 Z" fill="#f6b73c"/>
+      <circle cx="-7" cy="-28" r="3" fill="#111"/>
+      <circle cx="7" cy="-28" r="3" fill="#111"/>
+      <path d="M0 -17 L7 -7 L-4 -5 Z" fill="#f6b73c"/>
+    </g>
+    <g transform="translate(540,380)">
+      <ellipse cx="0" cy="0" rx="30" ry="48" fill="#2c2c34"/>
+      <ellipse cx="0" cy="12" rx="20" ry="34" fill="#ffffff"/>
+      <path d="M-18 -30 Q0 -48 18 -30 Q12 -18 0 -20 Q-12 -18 -18 -30 Z" fill="#f6b73c"/>
+      <circle cx="-6" cy="-26" r="2.5" fill="#111"/>
+      <circle cx="6" cy="-26" r="2.5" fill="#111"/>
+    </g>
+  </g>
+  <text x="40" y="470" font-family="sans-serif" font-size="32" font-weight="bold" fill="#34536e">Penguin Walk</text>
+</svg>

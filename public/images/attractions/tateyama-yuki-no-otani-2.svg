@@ -1,44 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A red route bus squeezing through a narrow corridor with tall white snow walls on both sides">
-  <defs>
-    <linearGradient id="sky14" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7ec0ec"/>
-      <stop offset="1" stop-color="#cfeaf8"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#sky14)"/>
-  <rect x="0" y="330" width="400" height="70" fill="#9aa6ae"/>
-  <!-- left snow wall -->
-  <polygon points="0,40 130,120 130,400 0,400" fill="#ffffff"/>
-  <polygon points="0,40 130,120 130,400 0,400" fill="#dceaf2" opacity="0.5"/>
-  <g stroke="#c4dae8" stroke-width="3" opacity="0.7">
-    <line x1="10" y1="120" x2="120" y2="170"/>
-    <line x1="10" y1="220" x2="120" y2="260"/>
-    <line x1="10" y1="320" x2="120" y2="345"/>
-  </g>
-  <!-- right snow wall -->
-  <polygon points="400,40 270,120 270,400 400,400" fill="#ffffff"/>
-  <polygon points="400,40 270,120 270,400 400,400" fill="#dceaf2" opacity="0.5"/>
-  <g stroke="#c4dae8" stroke-width="3" opacity="0.7">
-    <line x1="390" y1="120" x2="280" y2="170"/>
-    <line x1="390" y1="220" x2="280" y2="260"/>
-    <line x1="390" y1="320" x2="280" y2="345"/>
-  </g>
-  <!-- road -->
-  <polygon points="135,400 200,150 265,400" fill="#5e6a72"/>
-  <g stroke="#f2e24a" stroke-width="5" stroke-dasharray="14 14">
-    <line x1="200" y1="160" x2="200" y2="400"/>
-  </g>
-  <!-- red bus squeezing through -->
-  <g transform="translate(200,250)">
-    <rect x="-52" y="-50" width="104" height="100" rx="12" fill="#d24b3a"/>
-    <rect x="-52" y="-50" width="104" height="22" rx="10" fill="#b53a2a"/>
-    <rect x="-44" y="-22" width="88" height="34" rx="5" fill="#bfe0ef"/>
-    <line x1="0" y1="-22" x2="0" y2="12" stroke="#d24b3a" stroke-width="4"/>
-    <rect x="-30" y="-15" width="24" height="22" fill="#8fc2d8"/>
-    <rect x="6" y="-15" width="24" height="22" fill="#8fc2d8"/>
-    <circle cx="-30" cy="52" r="11" fill="#2a2a2a"/>
-    <circle cx="30" cy="52" r="11" fill="#2a2a2a"/>
-    <circle cx="-40" cy="36" r="5" fill="#fff2a0"/>
-    <circle cx="40" cy="36" r="5" fill="#fff2a0"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan in a tiny scarf in a towering snow corridor, giving a peace sign">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7ec0ec"/><stop offset="1" stop-color="#cfeaf8"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#sky)"/>
+<polygon points="0,30 150,110 150,400 0,400" fill="#ffffff"/>
+<polygon points="0,30 150,110 150,400 0,400" fill="#dceaf2" opacity="0.5"/>
+<polygon points="400,30 250,110 250,400 400,400" fill="#ffffff"/>
+<polygon points="400,30 250,110 250,400 400,400" fill="#dceaf2" opacity="0.5"/>
+<g stroke="#c4dae8" stroke-width="3" opacity="0.7"><line x1="10" y1="120" x2="140" y2="170"/><line x1="10" y1="240" x2="140" y2="280"/><line x1="390" y1="120" x2="260" y2="170"/><line x1="390" y1="240" x2="260" y2="280"/></g>
+<polygon points="150,400 200,140 250,400" fill="#cfe2ee"/>
+<g transform="translate(80,200) scale(0.85)">
+<ellipse cx="120" cy="218" rx="70" ry="11" fill="#000" opacity="0.10"/>
+<path d="M70 205 q-14 -75 50 -83 q64 8 50 83 z" fill="url(#fur)"/>
+<path d="M96 205 q-14 -62 24 -68 q38 6 24 68 z" fill="#faf1e0"/>
+<ellipse cx="80" cy="208" rx="22" ry="13" fill="#faf1e0"/><ellipse cx="160" cy="208" rx="22" ry="13" fill="#faf1e0"/>
+<path d="M150 150 q34 -30 40 -70" fill="none" stroke="#faf1e0" stroke-width="20" stroke-linecap="round"/>
+<g transform="translate(190,76)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+<path d="M70 64 l-10 -40 38 22z" fill="url(#fur)"/><path d="M170 64 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
+<path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+<path d="M84 138 q36 22 72 0 l-4 16 q-32 16 -64 0z" fill="#d6483b"/>
+<path d="M150 150 l18 26 -2 -14 12 -6 -20 -14z" fill="#b93a2f"/>
+<circle cx="104" cy="142" r="2" fill="#fff"/><circle cx="136" cy="144" r="2" fill="#fff"/>
+</g>
 </svg>

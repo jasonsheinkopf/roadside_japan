@@ -28,11 +28,11 @@ dogFriendly: no
 heroImage: "/images/attractions/oya-history-museum.svg"
 photos:
   - src: "/images/attractions/oya-history-museum-1.svg"
-    alt: "A single beam of light falling into the cathedral-like underground chamber"
+    alt: "A beam of light falling into the vast underground stone quarry"
+    caption: "An underground cathedral of stone. My bark echoed forever."
   - src: "/images/attractions/oya-history-museum-2.svg"
-    alt: "A concert stage set up on the floor of the vast stone cavern"
-  - src: "/images/attractions/oya-history-museum-3.svg"
-    alt: "A shivering visitor with foggy breath beside an 8°C thermometer"
+    alt: "Mon-chan shivering in the cold underground quarry with foggy breath"
+    caption: "It is 8°C down here. Should have packed a bigger bandana. 🥶"
 website: "https://www.oya909.co.jp/"
 tips:
   - "It's about 8°C underground even in midsummer — bring a layer."

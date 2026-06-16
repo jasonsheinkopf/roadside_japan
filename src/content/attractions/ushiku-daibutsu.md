@@ -29,11 +29,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/ushiku-daibutsu.svg"
 photos:
   - src: "/images/attractions/ushiku-daibutsu-1.svg"
-    alt: "Tiny faces peeking out from the observation windows in the Buddha's chest"
+    alt: "Tiny faces peeking from observation windows in the Buddha's chest"
+    caption: "There is an elevator inside. Inside the Buddha. INSIDE."
   - src: "/images/attractions/ushiku-daibutsu-2.svg"
-    alt: "A scale gag: the giant Buddha towering beside a tiny Statue of Liberty"
-  - src: "/images/attractions/ushiku-daibutsu-3.svg"
-    alt: "The little flower gardens and petting zoo at the Buddha's feet"
+    alt: "Mon-chan looking way, way up at the enormous bronze Buddha"
+    caption: "120 metres tall. I came up to about the big toe. 🙏"
 website: "https://daibutu.net/"
 tips:
   - "Go up inside — the chest-height observation windows are a surreal way to see the countryside."

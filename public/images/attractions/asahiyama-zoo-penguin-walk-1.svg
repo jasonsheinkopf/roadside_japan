@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A single king penguin waddling closeup through the snow">
+  <rect width="400" height="400" fill="#cfeaf5"/>
+  <path d="M0 300 Q200 260 400 300 L400 400 L0 400 Z" fill="#ffffff"/>
+  <ellipse cx="200" cy="380" rx="120" ry="22" fill="#dbeef7"/>
+  <ellipse cx="200" cy="220" rx="86" ry="120" fill="#2d3436"/>
+  <ellipse cx="200" cy="235" rx="58" ry="98" fill="#ffffff"/>
+  <path d="M140 150 Q200 70 260 150 Q255 200 200 205 Q145 200 140 150 Z" fill="#2d3436"/>
+  <path d="M158 165 Q200 130 242 165 Q238 190 200 192 Q162 190 158 165 Z" fill="#ffffff"/>
+  <path d="M150 175 Q120 165 130 195 Q160 215 175 185 Z" fill="#f6a623"/>
+  <path d="M250 175 Q280 165 270 195 Q240 215 225 185 Z" fill="#f6a623"/>
+  <circle cx="178" cy="150" r="7" fill="#2d3436"/>
+  <circle cx="222" cy="150" r="7" fill="#2d3436"/>
+  <circle cx="180" cy="148" r="2.5" fill="#ffffff"/>
+  <circle cx="224" cy="148" r="2.5" fill="#ffffff"/>
+  <polygon points="200,160 188,178 212,178" fill="#f6a623"/>
+  <ellipse cx="124" cy="210" rx="20" ry="60" fill="#2d3436" transform="rotate(18 124 210)"/>
+  <polygon points="170,330 145,355 195,355" fill="#f6a623"/>
+  <polygon points="230,330 205,355 255,355" fill="#f6a623"/>
+</svg>

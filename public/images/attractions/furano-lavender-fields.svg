@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Striped hillsides of purple lavender and rainbow flower rows under a blue sky at a Hokkaido flower farm">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ec8f0"/>
+      <stop offset="1" stop-color="#cfeefb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="660" cy="90" r="45" fill="#fff3b0"/>
+  <ellipse cx="180" cy="110" rx="70" ry="28" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="240" cy="125" rx="50" ry="22" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="520" cy="80" rx="55" ry="22" fill="#ffffff" opacity="0.85"/>
+  <path d="M0 250 Q400 200 800 250 L800 500 L0 500 Z" fill="#8e6fc4"/>
+  <path d="M0 280 Q400 235 800 285 L800 320 Q400 270 0 315 Z" fill="#7a59b3"/>
+  <path d="M0 320 Q400 275 800 325 L800 360 Q400 310 0 355 Z" fill="#9d7fd6"/>
+  <path d="M0 360 Q400 318 800 363 L800 398 Q400 350 0 393 Z" fill="#e85b8a"/>
+  <path d="M0 398 Q400 352 800 400 L800 432 Q400 388 0 430 Z" fill="#f4c542"/>
+  <path d="M0 432 Q400 390 800 435 L800 465 Q400 425 0 463 Z" fill="#ef8b3c"/>
+  <path d="M0 465 Q400 425 800 467 L800 500 L0 500 Z" fill="#6a3fa0"/>
+  <g fill="#3f7d3a">
+    <rect x="560" y="200" width="14" height="55" rx="6"/>
+    <ellipse cx="567" cy="195" rx="34" ry="28"/>
+  </g>
+  <text x="40" y="470" font-family="sans-serif" font-size="34" font-weight="bold" fill="#ffffff">Furano</text>
+</svg>

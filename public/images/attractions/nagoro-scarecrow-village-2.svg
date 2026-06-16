@@ -1,46 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A button-eyed handmade scarecrow farmer in work clothes grinning out in a green field">
-  <defs>
-    <linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#bfe3f7"/>
-      <stop offset="100%" stop-color="#e8f3d8"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#sky8)"/>
-  <rect x="0" y="250" width="400" height="150" fill="#8cc05a"/>
-  <g stroke="#6fa648" stroke-width="3">
-    <line x1="40" y1="300" x2="0" y2="340"/>
-    <line x1="120" y1="300" x2="70" y2="350"/>
-    <line x1="300" y1="300" x2="350" y2="350"/>
-    <line x1="370" y1="290" x2="400" y2="330"/>
-  </g>
-  <circle cx="330" cy="70" r="34" fill="#ffd86a"/>
-  <!-- farmer scarecrow -->
-  <g transform="translate(200,160)">
-    <!-- support pole -->
-    <rect x="-6" y="120" width="12" height="120" fill="#8a6a3a"/>
-    <!-- straw hat -->
-    <ellipse cx="0" cy="-58" rx="52" ry="14" fill="#d9b75e"/>
-    <path d="M-30 -58 q30 -40 60 0" fill="#e8cb7a"/>
-    <!-- head -->
-    <ellipse cx="0" cy="-22" rx="34" ry="36" fill="#ecd9b2"/>
-    <!-- stitch seam -->
-    <line x1="0" y1="-56" x2="0" y2="14" stroke="#c9b288" stroke-width="2" stroke-dasharray="4 4"/>
-    <!-- button eyes -->
-    <circle cx="-13" cy="-26" r="9" fill="#fff" stroke="#444" stroke-width="2"/>
-    <circle cx="13" cy="-26" r="9" fill="#fff" stroke="#444" stroke-width="2"/>
-    <g fill="#333"><circle cx="-15" cy="-28" r="1.5"/><circle cx="-11" cy="-28" r="1.5"/><circle cx="-15" cy="-24" r="1.5"/><circle cx="-11" cy="-24" r="1.5"/>
-    <circle cx="11" cy="-28" r="1.5"/><circle cx="15" cy="-28" r="1.5"/><circle cx="11" cy="-24" r="1.5"/><circle cx="15" cy="-24" r="1.5"/></g>
-    <!-- grin -->
-    <path d="M-16 -4 q16 18 32 0" fill="none" stroke="#a85a3a" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="-22" cy="-8" r="6" fill="#f0a0a0" opacity="0.7"/>
-    <circle cx="22" cy="-8" r="6" fill="#f0a0a0" opacity="0.7"/>
-    <!-- body / work clothes -->
-    <rect x="-38" y="14" width="76" height="86" rx="12" fill="#4a7a8a"/>
-    <rect x="-38" y="60" width="76" height="40" fill="#6a9aa8"/>
-    <!-- arms outstretched -->
-    <rect x="-86" y="24" width="52" height="20" rx="10" fill="#4a7a8a" transform="rotate(-18 -38 34)"/>
-    <rect x="34" y="24" width="52" height="20" rx="10" fill="#4a7a8a" transform="rotate(18 38 34)"/>
-    <!-- straw hands -->
-    <g stroke="#d9b75e" stroke-width="3"><line x1="-82" y1="14" x2="-92" y2="6"/><line x1="-82" y1="18" x2="-94" y2="16"/><line x1="82" y1="14" x2="92" y2="6"/><line x1="82" y1="18" x2="94" y2="16"/></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan sitting between two handmade scarecrows at a rural bus stop">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe3f7"/><stop offset="1" stop-color="#e8f3d8"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#sky)"/>
+<rect y="300" width="400" height="100" fill="#8cc05a"/>
+<circle cx="60" cy="60" r="28" fill="#ffd86a"/>
+<!-- bus stop sign + bench -->
+<rect x="30" y="170" width="8" height="150" fill="#888"/>
+<rect x="14" y="160" width="40" height="26" rx="4" fill="#3a7fb0"/>
+<rect x="40" y="320" width="320" height="14" rx="4" fill="#9c7a44"/>
+<rect x="56" y="334" width="10" height="40" fill="#7a5e34"/><rect x="334" y="334" width="10" height="40" fill="#7a5e34"/>
+<!-- left scarecrow -->
+<g transform="translate(90,210)">
+<ellipse cx="0" cy="-44" rx="34" ry="10" fill="#d9b75e"/><path d="M-20 -44 q20 -30 40 0" fill="#e8cb7a"/>
+<ellipse cx="0" cy="-14" rx="24" ry="26" fill="#ecd9b2"/>
+<circle cx="-9" cy="-18" r="6" fill="#fff" stroke="#444" stroke-width="2"/><circle cx="9" cy="-18" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<circle cx="-9" cy="-18" r="2" fill="#333"/><circle cx="9" cy="-18" r="2" fill="#333"/>
+<path d="M-10 -2 q10 10 20 0" fill="none" stroke="#a85a3a" stroke-width="3"/>
+<rect x="-26" y="10" width="52" height="100" rx="8" fill="#c25a4a"/>
+</g>
+<!-- right scarecrow -->
+<g transform="translate(310,210)">
+<ellipse cx="0" cy="-44" rx="34" ry="10" fill="#cfa6cf"/><path d="M-20 -44 q20 -28 40 0" fill="#e0c4e0"/>
+<ellipse cx="0" cy="-14" rx="24" ry="26" fill="#ecd9b2"/>
+<circle cx="-9" cy="-18" r="6" fill="#fff" stroke="#444" stroke-width="2"/><circle cx="9" cy="-18" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<circle cx="-9" cy="-18" r="2" fill="#333"/><circle cx="9" cy="-18" r="2" fill="#333"/>
+<path d="M-10 -2 q10 10 20 0" fill="none" stroke="#a85a3a" stroke-width="3"/>
+<rect x="-26" y="10" width="52" height="100" rx="8" fill="#4a7a8a"/>
+</g>
+<!-- Mon-chan center sitting -->
+<g transform="translate(200,250) scale(0.95)">
+<path d="M-42 60 q-14 -70 42 -78 q56 8 42 78 z" fill="url(#fur)"/>
+<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#faf1e0"/>
+<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#faf1e0"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#faf1e0"/>
+<g transform="translate(44,-26) rotate(20)"><ellipse cx="0" cy="6" rx="10" ry="11" fill="#faf1e0"/><rect x="-7" y="-14" width="5" height="16" rx="2.5" fill="#faf1e0"/><rect x="2" y="-14" width="5" height="16" rx="2.5" fill="#faf1e0"/></g>
+<path d="M-32 0 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/><path d="M0 0 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="-20" cy="-12" r="2" fill="#fff"/><circle cx="14" cy="-12" r="2" fill="#fff"/>
+<path d="M-50 -86 l-10 -40 38 22z" fill="url(#fur)"/><path d="M50 -86 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M-47 -94 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M47 -94 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="0" cy="-66" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="-20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="-18" cy="-69" r="2.2" fill="#fff"/><circle cx="22" cy="-69" r="2.2" fill="#fff"/>
+<path d="M-6 -50 h12 l-6 7z" fill="#3a3330"/>
+<path d="M-6 -40 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+</g>
 </svg>

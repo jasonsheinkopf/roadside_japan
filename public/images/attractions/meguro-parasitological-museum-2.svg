@@ -1,37 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A wide-eyed visitor standing next to a very long coiled tapeworm specimen ribbon labeled 8.8 m">
-  <defs>
-    <linearGradient id="bg5" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#eef1f6"/>
-      <stop offset="100%" stop-color="#c3cad8"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#bg5)"/>
-  <rect x="0" y="350" width="400" height="50" fill="#9aa3b5"/>
-  <!-- display case -->
-  <rect x="40" y="40" width="180" height="320" rx="10" fill="#ffffff" opacity="0.55" stroke="#aeb6c6" stroke-width="3"/>
-  <!-- coiled tapeworm ribbon -->
-  <g fill="none" stroke="#f0e0c0" stroke-width="14" stroke-linecap="round">
-    <path d="M70 70 q90 0 90 28 q0 28 -90 28 q-90 0 -90 28 q0 28 90 28 q90 0 90 28 q0 28 -90 28 q-90 0 -90 28 q0 28 90 28 q90 0 90 28"/>
-  </g>
-  <g stroke="#d8c49a" stroke-width="1.5">
-    <line x1="40" y1="84" x2="200" y2="84"/>
-    <line x1="40" y1="140" x2="200" y2="140"/>
-    <line x1="40" y1="196" x2="200" y2="196"/>
-    <line x1="40" y1="252" x2="200" y2="252"/>
-    <line x1="40" y1="308" x2="200" y2="308"/>
-  </g>
-  <rect x="118" y="316" width="84" height="30" rx="6" fill="#ffe08a" stroke="#c9a04a" stroke-width="2"/>
-  <text x="160" y="338" font-family="sans-serif" font-size="20" fill="#7a5a1a" text-anchor="middle" font-weight="bold">8.8 m</text>
-  <!-- wide-eyed visitor -->
-  <g transform="translate(310,210)">
-    <ellipse cx="0" cy="135" rx="40" ry="18" fill="#7a8296" opacity="0.4"/>
-    <rect x="-30" y="40" width="60" height="100" rx="22" fill="#e07a4a"/>
-    <circle cx="0" cy="0" r="40" fill="#f4c89c"/>
-    <path d="M-40 -8 q40 -44 80 0 q-8 -34 -40 -34 q-32 0 -40 34" fill="#5a4030"/>
-    <circle cx="-15" cy="2" r="13" fill="#fff"/>
-    <circle cx="15" cy="2" r="13" fill="#fff"/>
-    <circle cx="-13" cy="4" r="6" fill="#2a2018"/>
-    <circle cx="17" cy="4" r="6" fill="#2a2018"/>
-    <ellipse cx="0" cy="28" rx="7" ry="10" fill="#c98060"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan looking nervously up at a giant 8.8-metre tapeworm specimen">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1f6"/><stop offset="1" stop-color="#c3cad8"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<rect y="350" width="400" height="50" fill="#9aa3b5"/>
+<!-- display case -->
+<rect x="40" y="30" width="170" height="330" rx="10" fill="#fff" opacity="0.55" stroke="#aeb6c6" stroke-width="3"/>
+<g fill="none" stroke="#f0e0c0" stroke-width="13" stroke-linecap="round"><path d="M68 56 q86 0 86 26 q0 26 -86 26 q-86 0 -86 26 q0 26 86 26 q86 0 86 26 q0 26 -86 26 q-86 0 -86 26 q0 26 86 26 q86 0 86 26 q0 26 -86 26"/></g>
+<g stroke="#d8c49a" stroke-width="1.5"><line x1="40" y1="82" x2="195" y2="82"/><line x1="40" y1="134" x2="195" y2="134"/><line x1="40" y1="186" x2="195" y2="186"/><line x1="40" y1="238" x2="195" y2="238"/><line x1="40" y1="290" x2="195" y2="290"/></g>
+<rect x="110" y="316" width="80" height="28" rx="6" fill="#ffe08a" stroke="#c9a04a" stroke-width="2"/>
+<text x="150" y="336" font-family="sans-serif" font-size="18" fill="#7a5a1a" text-anchor="middle" font-weight="bold">8.8 m</text>
+<!-- Mon-chan nervous, looking up, right -->
+<g transform="translate(300,250) scale(1.0)">
+<path d="M-42 60 q-14 -70 42 -78 q56 8 42 78 z" fill="url(#fur)"/>
+<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#faf1e0"/>
+<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#faf1e0"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#faf1e0"/>
+<path d="M-32 0 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/><path d="M0 0 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="-20" cy="-12" r="2" fill="#fff"/><circle cx="14" cy="-12" r="2" fill="#fff"/>
+<path d="M-50 -86 l-10 -40 38 22z" fill="url(#fur)"/><path d="M50 -86 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M-47 -94 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M47 -94 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="0" cy="-66" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="-22" cy="-72" rx="7" ry="9" fill="#2e2824"/><ellipse cx="18" cy="-72" rx="7" ry="9" fill="#2e2824"/>
+<circle cx="-20" cy="-76" r="2.4" fill="#fff"/><circle cx="20" cy="-76" r="2.4" fill="#fff"/>
+<path d="M-6 -50 h12 l-6 7z" fill="#3a3330"/>
+<ellipse cx="0" cy="-38" rx="6" ry="7" fill="#f08a86"/>
+<path d="M40 -86 q8 -10 2 -20" stroke="#7fb4d8" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+</g>
 </svg>

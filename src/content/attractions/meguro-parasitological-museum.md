@@ -28,11 +28,11 @@ dogFriendly: no
 heroImage: "/images/attractions/meguro-parasitological-museum.svg"
 photos:
   - src: "/images/attractions/meguro-parasitological-museum-1.svg"
-    alt: "The famous parasite-suspended-in-resin keychain souvenir"
+    alt: "A parasite suspended in resin as a souvenir keychain"
+    caption: "They sell these as souvenirs. I love this strange little world."
   - src: "/images/attractions/meguro-parasitological-museum-2.svg"
-    alt: "A wide-eyed visitor measuring themselves against the 8.8-metre tapeworm ribbon"
-  - src: "/images/attractions/meguro-parasitological-museum-3.svg"
-    alt: "A cartoon cross-section of a cheerful tapeworm waving hello"
+    alt: "Mon-chan looking nervously up at the giant 8.8-metre tapeworm display"
+    caption: "It is 8.8 metres. I am 0.4 metres. I have questions. 😬"
 website: "https://www.kiseichu.org/"
 tips:
   - "The 8.8m tapeworm — with a ribbon beside it so you can walk its full length — is the headline exhibit."

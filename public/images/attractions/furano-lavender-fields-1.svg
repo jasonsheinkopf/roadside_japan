@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Striped rows of purple lavender and rainbow flowers running up a hill to a red-roofed farm">
+  <rect width="400" height="400" fill="#bfe3f2"/>
+  <circle cx="330" cy="70" r="34" fill="#ffe066"/>
+  <ellipse cx="120" cy="80" rx="46" ry="20" fill="#ffffff"/>
+  <ellipse cx="160" cy="70" rx="34" ry="16" fill="#ffffff"/>
+  <path d="M0 150 Q200 90 400 150 L400 400 L0 400 Z" fill="#7cc36a"/>
+  <path d="M0 200 Q200 150 400 200 L400 400 L0 400 Z" fill="#9b6fd6"/>
+  <rect x="0" y="210" width="400" height="22" transform="skewY(-6)" fill="#7a4fc0"/>
+  <rect x="0" y="245" width="400" height="20" transform="skewY(-6)" fill="#e84393"/>
+  <rect x="0" y="278" width="400" height="20" transform="skewY(-6)" fill="#ffeb3b"/>
+  <rect x="0" y="311" width="400" height="22" transform="skewY(-6)" fill="#7a4fc0"/>
+  <rect x="0" y="346" width="400" height="22" transform="skewY(-6)" fill="#e84393"/>
+  <rect x="0" y="381" width="400" height="40" fill="#9b6fd6"/>
+  <g>
+    <rect x="250" y="120" width="70" height="44" fill="#f4e9d8"/>
+    <polygon points="245,120 285,92 325,120" fill="#d63031"/>
+    <rect x="266" y="138" width="16" height="26" fill="#8b5a2b"/>
+    <rect x="298" y="130" width="12" height="12" fill="#bfe3f2"/>
+  </g>
+</svg>

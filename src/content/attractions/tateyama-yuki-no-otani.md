@@ -29,11 +29,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/tateyama-yuki-no-otani.svg"
 photos:
   - src: "/images/attractions/tateyama-yuki-no-otani-1.svg"
-    alt: "A tiny person dwarfed beside a towering snow wall marked twenty metres tall"
+    alt: "A red bus driving through a towering 20-metre snow corridor"
+    caption: "Snow walls taller than ten of me, stacked up. In spring!"
   - src: "/images/attractions/tateyama-yuki-no-otani-2.svg"
-    alt: "A red route bus squeezing through the narrow white snow corridor"
-  - src: "/images/attractions/tateyama-yuki-no-otani-3.svg"
-    alt: "A visitor in a t-shirt shivering between snow walls under a bright blue spring sky"
+    alt: "Mon-chan in the snow corridor wearing a tiny scarf, giving a peace sign"
+    caption: "It is May and I can see my breath. Iconic. ✌️❄️"
 website: "https://www.alpen-route.com/en/"
 tips:
   - "Go in April–May for the tallest walls; by June they've melted down considerably."

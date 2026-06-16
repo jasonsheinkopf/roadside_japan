@@ -27,16 +27,12 @@ accessibility:
 dogFriendly: yes
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Biei_Blue-pond.jpg"
 photos:
-  - src: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Biei_Blue-pond.jpg"
-    alt: "Blue Pond in Biei with bright blue water and drowned larch trees"
-    credit: "Wikimedia Commons contributors"
-    creditUrl: "https://commons.wikimedia.org/wiki/File:Biei_Blue-pond.jpg"
   - src: "/images/attractions/blue-pond-biei-1.svg"
-    alt: "An illustrated take on the cobalt water with bleached, drowned larch trees"
+    alt: "Stylized cobalt-blue water with bleached drowned larch trees"
+    caption: "Nature painted this blue. I just sniffed it and approved."
   - src: "/images/attractions/blue-pond-biei-2.svg"
-    alt: "The winter evening illumination glowing electric blue against the snow"
-  - src: "/images/attractions/blue-pond-biei-3.svg"
-    alt: "A playful nod to the Apple desktop wallpaper, the pond framed in a computer window"
+    alt: "Mon-chan posing beside the glowing blue pond at dusk"
+    caption: "Bluest water I have ever NOT drunk from. 💙"
 tips:
   - "The color shifts with light and weather — midday sun on a clear day is most intense."
   - "Winter brings evening illuminations; the pond rarely fully freezes."

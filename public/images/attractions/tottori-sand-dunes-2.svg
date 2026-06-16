@@ -1,31 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A sandboarder mid-action zooming down the steep face of a tall sand dune">
-  <defs>
-    <linearGradient id="td2sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#9fd8f0"/>
-      <stop offset="1" stop-color="#e6f2ef"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#td2sky)"/>
-  <circle cx="320" cy="70" r="34" fill="#fff3b0"/>
-  <!-- steep dune -->
-  <path d="M0 60q160 40 400 280V400H0z" fill="#f0c878"/>
-  <path d="M0 120q160 40 400 260V400H0z" fill="#e0ad58"/>
-  <path d="M0 60q160 40 400 280" stroke="#fff" stroke-width="3" opacity="0.5" fill="none"/>
-  <!-- sandboarder -->
-  <g transform="rotate(38 200 200)">
-    <ellipse cx="200" cy="240" rx="46" ry="9" fill="#c79a4e"/>
-    <rect x="160" y="232" width="80" height="12" rx="6" fill="#d94c4c"/>
-    <rect x="190" y="180" width="22" height="56" rx="10" fill="#2e7d6e"/>
-    <circle cx="200" cy="160" r="18" fill="#f2c9a0"/>
-    <rect x="184" y="146" width="34" height="12" rx="6" fill="#1c1c2a"/>
-    <rect x="160" y="186" width="40" height="12" rx="6" fill="#2e7d6e"/>
-    <rect x="210" y="186" width="40" height="12" rx="6" fill="#2e7d6e"/>
-    <rect x="184" y="220" width="14" height="24" rx="6" fill="#2a2a3a"/>
-    <rect x="206" y="220" width="14" height="24" rx="6" fill="#2a2a3a"/>
-  </g>
-  <!-- spray of sand -->
-  <g fill="#fff" opacity="0.7">
-    <circle cx="120" cy="280" r="10"/><circle cx="100" cy="296" r="8"/>
-    <circle cx="140" cy="300" r="7"/><circle cx="84" cy="276" r="6"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan sitting atop a giant sand dune giving a peace sign, sea behind">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#aee0f0"/><stop offset="1" stop-color="#e7f6fb"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#sky)"/>
+<circle cx="320" cy="70" r="34" fill="#fff3c4"/>
+<rect y="150" width="400" height="60" fill="#3aa6c8"/><path d="M0 165 q40 8 80 0 t80 0 t80 0 t80 0 t80 0 v20 H0z" fill="#5cc0db" opacity="0.6"/>
+<path d="M0 225 Q120 175 240 215 T400 205 V400 H0z" fill="#f1cf8e"/>
+<path d="M0 300 Q160 250 400 290 V400 H0z" fill="#e6bd6f"/>
+<g transform="translate(118,150) scale(0.9)">
+<ellipse cx="120" cy="218" rx="70" ry="11" fill="#000" opacity="0.10"/>
+<path d="M70 205 q-14 -75 50 -83 q64 8 50 83 z" fill="url(#fur)"/>
+<path d="M96 205 q-14 -62 24 -68 q38 6 24 68 z" fill="#faf1e0"/>
+<ellipse cx="80" cy="208" rx="22" ry="13" fill="#faf1e0"/><ellipse cx="160" cy="208" rx="22" ry="13" fill="#faf1e0"/>
+<path d="M150 150 q34 -30 40 -70" fill="none" stroke="#faf1e0" stroke-width="20" stroke-linecap="round"/>
+<g transform="translate(190,76)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+<path d="M88 150 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/>
+<path d="M120 150 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="104" cy="138" r="2" fill="#fff"/><circle cx="138" cy="140" r="2" fill="#fff"/>
+<path d="M70 64 l-10 -40 38 22z" fill="url(#fur)"/><path d="M170 64 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
+<path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+</g>
 </svg>

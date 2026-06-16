@@ -1,53 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Rows of small moss-covered stone arhat (rakan) statues, some missing their heads">
-  <defs>
-    <linearGradient id="bg11" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#cfe0c4"/>
-      <stop offset="100%" stop-color="#9fb88e"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#bg11)"/>
-  <rect x="0" y="300" width="400" height="100" fill="#8a9a72"/>
-  <!-- back row (smaller) -->
-  <g>
-    <g transform="translate(80,160) scale(0.7)">
-      <path d="M-26 130 q-4 -70 26 -78 q30 8 26 78 Z" fill="#8a9a78"/>
-      <circle cx="0" cy="40" r="26" fill="#94a482"/>
-      <ellipse cx="0" cy="14" rx="20" ry="8" fill="#6f8a5e"/>
-    </g>
-    <g transform="translate(200,150) scale(0.72)">
-      <path d="M-26 130 q-4 -70 26 -78 q30 8 26 78 Z" fill="#8a9a78"/>
-      <!-- headless: flat top with moss -->
-      <ellipse cx="0" cy="50" rx="24" ry="9" fill="#7a8a64"/>
-      <ellipse cx="-6" cy="46" rx="8" ry="4" fill="#6f8a5e"/>
-    </g>
-    <g transform="translate(320,160) scale(0.7)">
-      <path d="M-26 130 q-4 -70 26 -78 q30 8 26 78 Z" fill="#8a9a78"/>
-      <circle cx="0" cy="40" r="26" fill="#94a482"/>
-      <ellipse cx="8" cy="20" rx="9" ry="5" fill="#6f8a5e"/>
-    </g>
-  </g>
-  <!-- front row (larger) -->
-  <g>
-    <g transform="translate(70,250)">
-      <path d="M-30 150 q-4 -84 30 -92 q34 8 30 92 Z" fill="#9aaa84"/>
-      <circle cx="0" cy="46" r="30" fill="#a6b690"/>
-      <circle cx="-10" cy="44" r="3" fill="#5a6a48"/><circle cx="10" cy="44" r="3" fill="#5a6a48"/>
-      <path d="M-10 58 q10 6 20 0" stroke="#5a6a48" stroke-width="2.5" fill="none"/>
-      <ellipse cx="10" cy="26" rx="9" ry="5" fill="#6f8a5e"/>
-    </g>
-    <g transform="translate(200,260)">
-      <path d="M-30 150 q-4 -84 30 -92 q34 8 30 92 Z" fill="#9aaa84"/>
-      <!-- headless -->
-      <ellipse cx="0" cy="58" rx="28" ry="11" fill="#7a8a64"/>
-      <ellipse cx="-8" cy="52" rx="10" ry="5" fill="#6f8a5e"/>
-      <ellipse cx="10" cy="56" rx="7" ry="4" fill="#6f8a5e"/>
-    </g>
-    <g transform="translate(330,250)">
-      <path d="M-30 150 q-4 -84 30 -92 q34 8 30 92 Z" fill="#9aaa84"/>
-      <circle cx="0" cy="46" r="30" fill="#a6b690"/>
-      <circle cx="-10" cy="44" r="3" fill="#5a6a48"/><circle cx="10" cy="44" r="3" fill="#5a6a48"/>
-      <path d="M-9 58 q9 4 18 0" stroke="#5a6a48" stroke-width="2.5" fill="none"/>
-      <ellipse cx="-8" cy="28" rx="9" ry="5" fill="#6f8a5e"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan peeking nervously over a railed cliff ledge above a sheer drop">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#aed8ef"/><stop offset="1" stop-color="#dceefb"/></linearGradient><linearGradient id="depth" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f8a70"/><stop offset="1" stop-color="#3a5240"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#sky)"/>
+<!-- far valley below -->
+<path d="M0 130 q200 -20 400 0 V400 H0z" fill="url(#depth)"/>
+<g fill="#557a5c" opacity="0.7"><polygon points="40,260 90,160 140,260"/><polygon points="260,270 320,150 380,270"/></g>
+<g fill="#9ec0a0" opacity="0.5"><circle cx="90" cy="200" r="4"/><circle cx="320" cy="210" r="4"/></g>
+<!-- cliff ledge -->
+<path d="M0 300 q200 16 400 0 V400 H0z" fill="#7a6a52"/>
+<path d="M0 300 q200 16 400 0 v14 q-200 16 -400 0z" fill="#8a7a60"/>
+<!-- railing -->
+<rect x="30" y="250" width="8" height="56" fill="#a04a3a"/><rect x="362" y="250" width="8" height="56" fill="#a04a3a"/>
+<rect x="30" y="256" width="340" height="7" fill="#b85a48"/>
+<rect x="30" y="282" width="340" height="6" fill="#b85a48"/>
+<!-- Mon-chan peeking over, paws on rail -->
+<g transform="translate(200,300) scale(1.0)">
+<path d="M-42 60 q-14 -70 42 -78 q56 8 42 78 z" fill="url(#fur)"/>
+<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#faf1e0"/>
+<path d="M-32 0 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/><path d="M0 0 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="-20" cy="-12" r="2" fill="#fff"/><circle cx="14" cy="-12" r="2" fill="#fff"/>
+<path d="M-50 -86 l-10 -40 38 22z" fill="url(#fur)"/><path d="M50 -86 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M-47 -94 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M47 -94 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="0" cy="-66" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="-20" cy="-64" rx="7" ry="9" fill="#2e2824"/><ellipse cx="20" cy="-64" rx="7" ry="9" fill="#2e2824"/>
+<circle cx="-18" cy="-68" r="2.4" fill="#fff"/><circle cx="22" cy="-68" r="2.4" fill="#fff"/>
+<path d="M-6 -50 h12 l-6 7z" fill="#3a3330"/>
+<ellipse cx="0" cy="-38" rx="6" ry="7" fill="#f08a86"/>
+</g>
+<!-- front paws gripping rail -->
+<ellipse cx="170" cy="258" rx="12" ry="9" fill="#faf1e0"/><ellipse cx="230" cy="258" rx="12" ry="9" fill="#faf1e0"/>
 </svg>

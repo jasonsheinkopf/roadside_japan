@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="The stark triangular northernmost-point monument against a gray windy sea">
+  <rect width="400" height="400" fill="#9fb2bd"/>
+  <rect y="0" width="400" height="230" fill="#b3c4ce"/>
+  <g stroke="#8ea0ab" stroke-width="6" stroke-linecap="round" opacity="0.7">
+    <line x1="20" y1="60" x2="120" y2="50"/>
+    <line x1="240" y1="80" x2="360" y2="66"/>
+    <line x1="60" y1="110" x2="150" y2="104"/>
+  </g>
+  <path d="M0 230 Q200 210 400 230 L400 270 L0 270 Z" fill="#5d7682"/>
+  <path d="M0 250 Q120 268 220 252 T400 256 L400 290 L0 290 Z" fill="#46606c"/>
+  <path d="M0 280 Q200 264 400 282 L400 400 L0 400 Z" fill="#3a525d"/>
+  <g stroke="#c7d4db" stroke-width="3" opacity="0.5">
+    <line x1="40" y1="248" x2="90" y2="246"/>
+    <line x1="280" y1="252" x2="340" y2="250"/>
+  </g>
+  <path d="M150 380 L200 110 L250 380 Z" fill="#e9eef1"/>
+  <path d="M200 110 L250 380 L200 380 Z" fill="#cdd6db"/>
+  <path d="M178 250 L200 110 L222 250 L200 270 Z" fill="#f7fafb"/>
+  <circle cx="200" cy="380" r="34" fill="#dfe6ea"/>
+  <circle cx="200" cy="380" r="20" fill="#b3c4ce"/>
+</svg>

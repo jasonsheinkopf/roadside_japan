@@ -29,11 +29,11 @@ dogFriendly: no
 heroImage: "/images/attractions/cup-noodles-museum-ikeda.svg"
 photos:
   - src: "/images/attractions/cup-noodles-museum-ikeda-1.svg"
-    alt: "A tunnel wall covered in hundreds of colorful instant-noodle package designs"
+    alt: "A tunnel wall covered in hundreds of colorful noodle-cup designs"
+    caption: "A whole wall of instant noodles. I have found my museum."
   - src: "/images/attractions/cup-noodles-museum-ikeda-2.svg"
-    alt: "A kid decorating their own blank Cup Noodle cup with felt-tip markers"
-  - src: "/images/attractions/cup-noodles-museum-ikeda-3.svg"
-    alt: "A heroic statue of inventor Momofuku Ando holding a cup of noodles aloft like a torch"
+    alt: "Mon-chan proudly holding up his own decorated Cup Noodle cup"
+    caption: "Designed my own flavour: chicken, beef, and more chicken. 🍜"
 website: "https://www.cupnoodles-museum.jp/en/osaka_ikeda/"
 tips:
   - "Do the My Cup Noodle Factory: design the cup, pick your broth and four toppings, and take it home."
