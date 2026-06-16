@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A funny Moai statue wearing sunglasses, gazing coolly out over the blue Pacific">
+  <defs>
+    <linearGradient id="m3sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fdcf5"/>
+      <stop offset="1" stop-color="#dff4fb"/>
+    </linearGradient>
+    <linearGradient id="m3sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f8fd0"/>
+      <stop offset="1" stop-color="#1c6aa8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#m3sky)"/>
+  <rect x="0" y="250" width="400" height="150" fill="url(#m3sea)"/>
+  <circle cx="320" cy="80" r="34" fill="#fff3b0"/>
+  <g stroke="#cfe8f5" stroke-width="4" opacity="0.7">
+    <line x1="0" y1="290" x2="400" y2="290"/>
+    <line x1="0" y1="330" x2="400" y2="330"/>
+  </g>
+  <!-- moai -->
+  <path d="M110 400V150q0-60 50-60t50 60v250z" fill="#8c8f93"/>
+  <rect x="116" y="178" width="88" height="22" fill="#6f7276"/>
+  <!-- sunglasses -->
+  <rect x="118" y="200" width="84" height="34" rx="8" fill="#1c1c22"/>
+  <rect x="124" y="206" width="32" height="22" rx="6" fill="#3a3a4a"/>
+  <rect x="164" y="206" width="32" height="22" rx="6" fill="#3a3a4a"/>
+  <polygon points="128,210 144,210 130,224" fill="#7a9ab5" opacity="0.6"/>
+  <polygon points="168,210 184,210 170,224" fill="#7a9ab5" opacity="0.6"/>
+  <path d="M138 270q22 12 44 0" stroke="#6f7276" stroke-width="6" fill="none"/>
+</svg>

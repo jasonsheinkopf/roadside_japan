@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A 'Do Not Touch' sign beside a cheeky fox brazenly stealing a visitor's dropped glove">
+  <defs>
+    <linearGradient id="z3bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4e7f0"/>
+      <stop offset="1" stop-color="#eef6f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#z3bg)"/>
+  <ellipse cx="200" cy="350" rx="290" ry="120" fill="#ffffff"/>
+  <!-- sign post -->
+  <rect x="86" y="120" width="12" height="220" fill="#8a6a4a"/>
+  <rect x="40" y="120" width="104" height="76" rx="8" fill="#f3f3f0" stroke="#c23b3b" stroke-width="6"/>
+  <circle cx="92" cy="150" r="16" fill="none" stroke="#c23b3b" stroke-width="6"/>
+  <line x1="81" y1="139" x2="103" y2="161" stroke="#c23b3b" stroke-width="6"/>
+  <text x="92" y="186" font-family="sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">NO TOUCH</text>
+  <!-- cheeky fox -->
+  <g>
+    <path d="M200 320 q30 -70 110 -56 q40 8 50 36 q-6 26 -44 30 q-80 8 -110 -10z" fill="#e2603a"/>
+    <path d="M300 300 q60 6 78 -50 q-40 -16 -78 16z" fill="#d9542f"/>
+    <path d="M348 262 q16 -10 20 -28 q-20 0 -28 22z" fill="#fff5ef"/>
+    <polygon points="196,278 188,252 214,272" fill="#e2603a"/>
+    <polygon points="232,276 242,250 250,280" fill="#e2603a"/>
+    <ellipse cx="220" cy="298" rx="38" ry="30" fill="#e87a4f"/>
+    <path d="M184 296 q36 32 74 0 q-10 24 -38 26 q-30 -2 -36 -26z" fill="#fff5ef"/>
+    <circle cx="206" cy="288" r="4.5" fill="#3a2218"/>
+    <circle cx="234" cy="288" r="4.5" fill="#3a2218"/>
+    <ellipse cx="220" cy="306" rx="5" ry="4" fill="#3a2218"/>
+    <path d="M210 314 q10 5 20 0" fill="none" stroke="#3a2218" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- glove in mouth -->
+  <g>
+    <path d="M150 312 q-30 4 -44 26 q-8 14 6 18 q12 4 16 -10 q4 -16 26 -16z" fill="#3b6fb0"/>
+    <path d="M118 332 l-10 -2 m12 8 l-12 2 m14 -16 l-12 -6" stroke="#2b528a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <circle cx="60" cy="70" r="4" fill="#ffffff"/>
+  <circle cx="340" cy="80" r="5" fill="#ffffff"/>
+  <circle cx="300" cy="50" r="3" fill="#ffffff"/>
+</svg>

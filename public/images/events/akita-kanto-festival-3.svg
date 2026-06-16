@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A funny tense moment as a tall lantern pole leans and wobbles while the crowd below gasps">
+  <defs>
+    <radialGradient id="sky3" cx="50%" cy="30%" r="85%">
+      <stop offset="0%" stop-color="#2a2150"/>
+      <stop offset="100%" stop-color="#0d0a22"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky3)"/>
+  <!-- motion lines -->
+  <g stroke="#ffd24a" stroke-width="3" opacity="0.5" fill="none">
+    <path d="M150 60 Q140 90 150 120"/><path d="M120 90 Q108 120 120 150"/>
+  </g>
+  <!-- leaning pole -->
+  <g transform="rotate(-22 200 300)">
+    <rect x="196" y="40" width="8" height="260" fill="#9a7b3c"/>
+    <g fill="#ffd24a" stroke="#c98a18" stroke-width="2">
+      <rect x="140" y="55" width="120" height="5" fill="#7c5a22"/>
+      <rect x="148" y="95" width="104" height="5" fill="#7c5a22"/>
+      <ellipse cx="160" cy="72" rx="12" ry="16"/><ellipse cx="185" cy="72" rx="12" ry="16"/><ellipse cx="215" cy="72" rx="12" ry="16"/><ellipse cx="240" cy="72" rx="12" ry="16"/>
+      <ellipse cx="170" cy="112" rx="12" ry="16"/><ellipse cx="200" cy="112" rx="12" ry="16"/><ellipse cx="230" cy="112" rx="12" ry="16"/>
+    </g>
+  </g>
+  <!-- sweat drop on pole holder -->
+  <circle cx="300" cy="300" r="6" fill="#8fd0ff" opacity="0.8"/>
+  <!-- crowd -->
+  <g>
+    <rect x="0" y="350" width="400" height="50" fill="#1a1838"/>
+    <g fill="#3a3666">
+      <circle cx="40" cy="360" r="22"/><circle cx="90" cy="365" r="22"/><circle cx="140" cy="360" r="22"/><circle cx="200" cy="366" r="22"/><circle cx="260" cy="360" r="22"/><circle cx="320" cy="365" r="22"/><circle cx="370" cy="360" r="22"/>
+    </g>
+    <!-- gasping faces -->
+    <g fill="#f0c08a"><circle cx="140" cy="358" r="9"/><circle cx="260" cy="358" r="9"/></g>
+    <g fill="#1a1838"><ellipse cx="140" cy="361" rx="3" ry="5"/><ellipse cx="260" cy="361" rx="3" ry="5"/></g>
+  </g>
+</svg>
