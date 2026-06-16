@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A towering white Kannon goddess statue standing on a green hill">
+  <rect width="400" height="400" fill="#a9dcf0"/>
+  <circle cx="320" cy="70" r="34" fill="#fff3b0"/>
+  <!-- clouds -->
+  <ellipse cx="80" cy="90" rx="40" ry="16" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="120" cy="100" rx="34" ry="14" fill="#ffffff" opacity="0.8"/>
+  <!-- hill -->
+  <path d="M0 320 Q200 240 400 320 L400 400 L0 400 Z" fill="#6fbf52"/>
+  <path d="M0 360 Q200 320 400 360 L400 400 L0 400 Z" fill="#549a3c"/>
+  <ellipse cx="80" cy="340" rx="22" ry="20" fill="#3f7d33"/>
+  <ellipse cx="330" cy="345" rx="24" ry="22" fill="#3f7d33"/>
+  <!-- kannon statue -->
+  <g>
+    <path d="M200 90 Q160 130 165 320 L235 320 Q240 130 200 90 Z" fill="#f4f1ea"/>
+    <path d="M200 90 Q200 130 200 320 L235 320 Q240 130 200 90 Z" fill="#e3ddd0"/>
+    <!-- head -->
+    <ellipse cx="200" cy="100" rx="26" ry="32" fill="#f7f4ee"/>
+    <path d="M174 90 Q200 60 226 90 Q220 70 200 66 Q180 70 174 90 Z" fill="#e8e2d4"/>
+    <circle cx="200" cy="60" r="6" fill="#e8e2d4"/>
+    <!-- face hint -->
+    <circle cx="192" cy="100" r="2" fill="#a89a82"/>
+    <circle cx="208" cy="100" r="2" fill="#a89a82"/>
+    <!-- arms / robe folds -->
+    <path d="M168 150 L165 250" stroke="#d8d0c0" stroke-width="3" fill="none"/>
+    <path d="M232 150 L235 250" stroke="#d8d0c0" stroke-width="3" fill="none"/>
+    <ellipse cx="200" cy="170" rx="10" ry="16" fill="#e3ddd0"/>
+  </g>
+  <text x="200" y="392" font-family="sans-serif" font-size="20" fill="#1d4d33" text-anchor="middle" font-weight="bold">KANNON</text>
+</svg>

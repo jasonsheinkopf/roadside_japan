@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A rustic pottery town with a climbing kiln on a hillside and shelves of earthy ceramic bowls">
+  <defs>
+    <linearGradient id="msky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3dcb0"/>
+      <stop offset="1" stop-color="#f7ecd6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#msky)"/>
+  <circle cx="120" cy="100" r="44" fill="#f0b860" opacity="0.7"/>
+  <path d="M0 240 Q300 150 800 270 V500 H0 Z" fill="#9bb070"/>
+  <path d="M0 300 Q400 230 800 320 V500 H0 Z" fill="#86a05e"/>
+  <g transform="translate(440,150)">
+    <polygon points="0,140 60,30 120,30 70,140" fill="#8a5a3a"/>
+    <polygon points="60,140 110,40 170,40 130,140" fill="#9c6a44"/>
+    <polygon points="120,140 160,50 220,50 190,140" fill="#8a5a3a"/>
+    <polygon points="180,140 210,60 270,60 250,140" fill="#9c6a44"/>
+    <polygon points="40,30 80,30 70,10 50,10" fill="#6e4630"/>
+    <rect x="60" y="6" width="20" height="20" fill="#5a382a"/>
+    <ellipse cx="68" cy="0" rx="14" ry="8" fill="#888" opacity="0.6"/>
+    <ellipse cx="60" cy="-10" rx="10" ry="6" fill="#aaa" opacity="0.5"/>
+    <rect x="22" y="110" width="20" height="24" rx="3" fill="#3a2a1a"/>
+    <rect x="92" y="115" width="20" height="22" rx="3" fill="#3a2a1a"/>
+    <rect x="152" y="120" width="20" height="20" rx="3" fill="#3a2a1a"/>
+  </g>
+  <g>
+    <rect x="40" y="300" width="280" height="160" fill="#caa06a"/>
+    <rect x="40" y="295" width="280" height="10" fill="#a8845a"/>
+    <line x1="40" y1="355" x2="320" y2="355" stroke="#a8845a" stroke-width="6"/>
+    <line x1="40" y1="410" x2="320" y2="410" stroke="#a8845a" stroke-width="6"/>
+    <g>
+      <path d="M60 350 a26 14 0 0 0 52 0 z" fill="#b5703a"/>
+      <path d="M130 348 a24 16 0 0 0 48 0 z" fill="#6e8c5a"/>
+      <path d="M196 350 a28 14 0 0 0 56 0 z" fill="#8a5a3a"/>
+      <path d="M266 348 a22 14 0 0 0 44 0 z" fill="#9c9c6a"/>
+    </g>
+    <g>
+      <path d="M60 405 a26 14 0 0 0 52 0 z" fill="#7a9c6a"/>
+      <path d="M130 403 a24 16 0 0 0 48 0 z" fill="#b5703a"/>
+      <path d="M196 405 a28 14 0 0 0 56 0 z" fill="#9c9c6a"/>
+      <path d="M266 403 a22 14 0 0 0 44 0 z" fill="#6e5a3a"/>
+    </g>
+    <g>
+      <ellipse cx="90" cy="455" rx="26" ry="14" fill="#8a5a3a"/>
+      <ellipse cx="160" cy="455" rx="24" ry="14" fill="#a07c4a"/>
+      <ellipse cx="230" cy="455" rx="28" ry="15" fill="#7a9c6a"/>
+    </g>
+  </g>
+  <g transform="translate(620,400)">
+    <ellipse cx="0" cy="40" rx="44" ry="14" fill="#a07c4a"/>
+    <path d="M-40 40 Q-30 -10 0 -14 Q30 -10 40 40 Z" fill="#b5854f"/>
+    <ellipse cx="0" cy="-14" rx="40" ry="12" fill="#8a6438"/>
+    <ellipse cx="0" cy="-16" rx="32" ry="8" fill="#6e4e2c"/>
+  </g>
+</svg>

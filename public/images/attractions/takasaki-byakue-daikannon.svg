@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A towering white Kannon goddess statue standing on a green forested hill above a town">
+  <defs>
+    <linearGradient id="sky7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd4ee"/>
+      <stop offset="1" stop-color="#e4f4fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky7)"/>
+  <circle cx="660" cy="110" r="42" fill="#fff0b0"/>
+  <path d="M0 360 Q200 290 400 340 Q600 390 800 330 L800 500 L0 500 Z" fill="#5a9a4c"/>
+  <path d="M0 420 Q250 380 500 420 Q650 440 800 410 L800 500 L0 500 Z" fill="#47803c"/>
+  <!-- town -->
+  <rect x="60" y="430" width="30" height="40" fill="#c9c2b8"/>
+  <rect x="100" y="440" width="26" height="30" fill="#d9d2c8"/>
+  <rect x="690" y="438" width="28" height="34" fill="#cdc6bc"/>
+  <rect x="730" y="445" width="22" height="26" fill="#d9d2c8"/>
+  <!-- Kannon statue -->
+  <g>
+    <ellipse cx="400" cy="350" rx="70" ry="16" fill="#3c6f34"/>
+    <path d="M360 350 L440 350 L432 200 Q400 170 368 200 Z" fill="#f4f1ea"/>
+    <path d="M368 200 Q400 175 432 200 L424 150 Q400 130 376 150 Z" fill="#eae6dd"/>
+    <circle cx="400" cy="120" r="30" fill="#f4f1ea"/>
+    <path d="M372 110 Q400 80 428 110 L428 130 L372 130 Z" fill="#eae6dd"/>
+    <circle cx="400" cy="118" r="22" fill="#f8f5ef"/>
+    <circle cx="392" cy="116" r="3" fill="#9a9488"/>
+    <circle cx="408" cy="116" r="3" fill="#9a9488"/>
+    <path d="M390 128 Q400 134 410 128" fill="none" stroke="#9a9488" stroke-width="2"/>
+    <rect x="394" y="150" width="12" height="60" fill="#f8f5ef"/>
+    <path d="M368 230 L356 300 L370 300 L380 240 Z" fill="#f8f5ef"/>
+  </g>
+</svg>

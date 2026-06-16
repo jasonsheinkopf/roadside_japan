@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Rustic earthy Mashiko-ware pottery bowls and cups displayed at a kiln town shop">
+  <rect width="400" height="400" fill="#e3d2b4"/>
+  <rect x="0" y="250" width="400" height="150" fill="#b89a6e"/>
+  <rect x="0" y="244" width="400" height="10" fill="#8a6e44"/>
+  <rect x="40" y="120" width="320" height="12" fill="#8a6e44"/>
+  <g>
+    <path d="M70 120 v60" stroke="#9c7e54" stroke-width="0"/>
+    <path d="M55 130 q35 50 70 0 Z" fill="#8a5a3a"/>
+    <path d="M55 130 q35 14 70 0 Z" fill="#6e4530"/>
+    <ellipse cx="90" cy="130" rx="35" ry="7" fill="#a06a44"/>
+  </g>
+  <g>
+    <path d="M150 126 q40 60 80 0 Z" fill="#5a6e4a"/>
+    <path d="M150 126 q40 16 80 0 Z" fill="#445539"/>
+    <ellipse cx="190" cy="126" rx="40" ry="8" fill="#6e845a"/>
+  </g>
+  <g>
+    <path d="M270 130 q30 44 60 0 Z" fill="#3a4a5a"/>
+    <path d="M270 130 q30 12 60 0 Z" fill="#2a3744"/>
+    <ellipse cx="300" cy="130" rx="30" ry="6" fill="#4a5e72"/>
+  </g>
+  <g>
+    <path d="M80 260 q24 70 48 0 Z" fill="#9c5a3a"/>
+    <ellipse cx="104" cy="260" rx="24" ry="6" fill="#b87a52"/>
+    <path d="M104 270 v40" stroke="#d8b88a" stroke-width="3" opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="180" y="262" width="46" height="52" rx="4" fill="#c98a52"/>
+    <ellipse cx="203" cy="262" rx="23" ry="6" fill="#d8a06a"/>
+    <path d="M226 274 q22 4 0 26" stroke="#c98a52" stroke-width="8" fill="none"/>
+  </g>
+  <g>
+    <path d="M280 264 q28 60 56 0 Z" fill="#4a5e44"/>
+    <ellipse cx="308" cy="264" rx="28" ry="7" fill="#5e7456"/>
+    <ellipse cx="308" cy="264" rx="18" ry="4" fill="#3a4a36"/>
+  </g>
+  <ellipse cx="200" cy="372" rx="170" ry="14" fill="#9c7e54" opacity="0.4"/>
+</svg>

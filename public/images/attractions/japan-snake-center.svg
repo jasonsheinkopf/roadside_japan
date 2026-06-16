@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A retro snake park with exhibit houses and a large coiled green snake behind glass">
+  <defs>
+    <linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c98e"/>
+      <stop offset="1" stop-color="#fbe6c6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky8)"/>
+  <circle cx="120" cy="110" r="46" fill="#ffd98a"/>
+  <rect y="380" width="800" height="120" fill="#8f9a6e"/>
+  <!-- exhibit houses -->
+  <g>
+    <rect x="40" y="250" width="150" height="130" fill="#d98c4a"/>
+    <polygon points="20,250 115,200 210,250" fill="#9a5e2e"/>
+    <rect x="70" y="300" width="40" height="80" fill="#6b4424"/>
+    <rect x="130" y="290" width="34" height="34" fill="#bfe3ef"/>
+    <text x="115" y="235" font-family="sans-serif" font-size="16" fill="#fff" text-anchor="middle">SNAKES</text>
+  </g>
+  <g>
+    <rect x="610" y="270" width="150" height="110" fill="#c97a3e"/>
+    <polygon points="592,270 685,222 778,270" fill="#8a5226"/>
+    <rect x="640" y="310" width="34" height="70" fill="#6b4424"/>
+  </g>
+  <!-- glass exhibit with coiled snake -->
+  <rect x="250" y="220" width="300" height="180" rx="8" fill="#cfeef2" opacity="0.85"/>
+  <rect x="250" y="220" width="300" height="180" rx="8" fill="none" stroke="#7aa6ac" stroke-width="6"/>
+  <line x1="400" y1="220" x2="400" y2="400" stroke="#7aa6ac" stroke-width="4" opacity="0.6"/>
+  <rect x="260" y="380" width="280" height="20" fill="#a98a5a"/>
+  <g>
+    <ellipse cx="400" cy="350" rx="120" ry="40" fill="#4f9c3e"/>
+    <ellipse cx="400" cy="320" rx="90" ry="32" fill="#5cb04a"/>
+    <ellipse cx="400" cy="295" rx="60" ry="24" fill="#4f9c3e"/>
+    <path d="M440 290 Q500 270 470 230 Q450 205 420 220" fill="none" stroke="#5cb04a" stroke-width="26" stroke-linecap="round"/>
+    <path d="M420 220 Q400 210 415 195" fill="none" stroke="#5cb04a" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="416" cy="200" r="13" fill="#5cb04a"/>
+    <circle cx="412" cy="196" r="3" fill="#222"/>
+    <circle cx="422" cy="196" r="3" fill="#222"/>
+    <path d="M405 205 L388 210 M405 208 L390 215" stroke="#e23b3b" stroke-width="2"/>
+    <circle cx="400" cy="320" r="6" fill="#3a7a2e"/>
+    <circle cx="370" cy="345" r="6" fill="#3a7a2e"/>
+    <circle cx="430" cy="345" r="6" fill="#3a7a2e"/>
+  </g>
+</svg>

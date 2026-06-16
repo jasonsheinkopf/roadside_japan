@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A recreated Edo-period Japanese town with wooden shops, a samurai, and ninjas on the rooftops">
+  <defs>
+    <linearGradient id="esky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d9a8"/>
+      <stop offset="1" stop-color="#f9ecd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#esky)"/>
+  <circle cx="650" cy="120" r="50" fill="#f4b860" opacity="0.85"/>
+  <rect x="0" y="380" width="800" height="120" fill="#caa978"/>
+  <rect x="0" y="375" width="800" height="8" fill="#a98a5c"/>
+  <g>
+    <rect x="40" y="240" width="260" height="150" fill="#caa06a"/>
+    <polygon points="20,240 320,240 290,180 50,180" fill="#5a4030"/>
+    <polygon points="20,240 320,240 320,232 20,232" fill="#3e2c20"/>
+    <rect x="70" y="300" width="60" height="90" fill="#7a5a3a"/>
+    <rect x="160" y="300" width="60" height="90" fill="#7a5a3a"/>
+    <rect x="240" y="280" width="44" height="50" fill="#e8e0d0"/>
+    <rect x="120" y="250" width="100" height="40" fill="#e0d4be"/>
+    <line x1="150" y1="250" x2="150" y2="290" stroke="#7a5a3a" stroke-width="3"/>
+    <line x1="190" y1="250" x2="190" y2="290" stroke="#7a5a3a" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="500" y="260" width="260" height="130" fill="#bf9760"/>
+    <polygon points="480,260 780,260 750,200 510,200" fill="#4f382a"/>
+    <rect x="540" y="310" width="60" height="80" fill="#6f5234"/>
+    <rect x="640" y="310" width="60" height="80" fill="#6f5234"/>
+    <rect x="560" y="270" width="160" height="30" fill="#e0d4be"/>
+  </g>
+  <g>
+    <rect x="392" y="180" width="16" height="200" fill="#8a3b2a"/>
+    <rect x="370" y="170" width="60" height="20" fill="#b04a35"/>
+    <circle cx="400" cy="155" r="16" fill="#e8e0d0"/>
+    <text x="400" y="162" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#8a3b2a">&#26085;</text>
+  </g>
+  <g>
+    <ellipse cx="360" cy="455" rx="40" ry="10" fill="#000" opacity="0.15"/>
+    <rect x="338" y="370" width="44" height="70" rx="6" fill="#3a4a8a"/>
+    <polygon points="334,378 386,378 360,348" fill="#2c3a6e"/>
+    <circle cx="360" cy="332" r="20" fill="#f2c9a0"/>
+    <path d="M338 326 a22 22 0 0 1 44 0 z" fill="#2a2a2a"/>
+    <circle cx="353" cy="332" r="2.5" fill="#3a2a1a"/>
+    <circle cx="367" cy="332" r="2.5" fill="#3a2a1a"/>
+    <line x1="392" y1="360" x2="392" y2="450" stroke="#c0c0c0" stroke-width="5"/>
+    <rect x="386" y="356" width="12" height="10" fill="#8a5a30"/>
+  </g>
+  <g fill="#222">
+    <g transform="translate(150,168)">
+      <circle cx="0" cy="-14" r="10"/><rect x="-8" y="-6" width="16" height="20" rx="4"/>
+      <rect x="-6" y="-16" width="12" height="6" rx="3" fill="#222"/>
+      <rect x="-7" y="-15" width="14" height="3" fill="#888"/>
+    </g>
+    <g transform="translate(620,188)">
+      <circle cx="0" cy="-14" r="10"/><rect x="-8" y="-6" width="16" height="20" rx="4"/>
+      <rect x="-7" y="-15" width="14" height="3" fill="#888"/>
+    </g>
+  </g>
+</svg>

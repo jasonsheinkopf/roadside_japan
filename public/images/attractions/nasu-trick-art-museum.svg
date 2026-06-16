@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A playful optical-illusion gallery where a painting appears 3D and a visitor poses as if inside it">
+  <defs>
+    <linearGradient id="gfloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8e2d6"/>
+      <stop offset="1" stop-color="#cfc6b4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#efeae0"/>
+  <rect x="0" y="330" width="800" height="170" fill="url(#gfloor)"/>
+  <line x1="0" y1="330" x2="800" y2="330" stroke="#b8ad97" stroke-width="3"/>
+  <g stroke="#d8cfbc" stroke-width="2">
+    <line x1="120" y1="330" x2="40" y2="500"/>
+    <line x1="320" y1="330" x2="280" y2="500"/>
+    <line x1="520" y1="330" x2="560" y2="500"/>
+    <line x1="700" y1="330" x2="780" y2="500"/>
+  </g>
+  <rect x="120" y="60" width="380" height="320" rx="6" fill="#5a4632"/>
+  <rect x="138" y="78" width="344" height="284" fill="#bfe4ef"/>
+  <path d="M138 250 L482 200 L482 362 L138 362 Z" fill="#6db3c9"/>
+  <path d="M138 250 L482 200 L482 280 L138 320 Z" fill="#8fcdde"/>
+  <polygon points="300,90 360,250 240,250" fill="#e8a14a"/>
+  <polygon points="300,130 340,250 260,250" fill="#f4c069"/>
+  <ellipse cx="300" cy="362" rx="90" ry="14" fill="#3a5d68" opacity="0.5"/>
+  <g>
+    <ellipse cx="560" cy="450" rx="60" ry="16" fill="#000" opacity="0.12"/>
+    <rect x="540" y="300" width="40" height="120" rx="18" fill="#3b6ea5"/>
+    <circle cx="560" cy="280" r="26" fill="#f2c9a0"/>
+    <path d="M536 272 a24 24 0 0 1 48 0 z" fill="#5a3b22"/>
+    <circle cx="551" cy="280" r="3" fill="#3a2a1a"/>
+    <circle cx="569" cy="280" r="3" fill="#3a2a1a"/>
+    <path d="M552 290 q8 6 16 0" stroke="#3a2a1a" stroke-width="2.5" fill="none"/>
+    <rect x="500" y="318" width="46" height="16" rx="8" fill="#f2c9a0" transform="rotate(-30 523 326)"/>
+    <rect x="574" y="318" width="46" height="16" rx="8" fill="#f2c9a0" transform="rotate(30 597 326)"/>
+  </g>
+  <text x="400" y="40" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#5a4632" font-weight="bold">Trick Art</text>
+</svg>

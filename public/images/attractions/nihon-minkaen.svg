@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Old thatched-roof Japanese farmhouses on a green wooded hillside, an open-air folk museum">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6f2"/>
+      <stop offset="1" stop-color="#e9f8ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky3)"/>
+  <path d="M0 220 Q200 150 400 200 Q600 250 800 190 L800 500 L0 500 Z" fill="#7fb96a"/>
+  <path d="M0 320 Q250 270 500 320 Q650 350 800 310 L800 500 L0 500 Z" fill="#5fa052"/>
+  <!-- trees -->
+  <circle cx="90" cy="180" r="40" fill="#4f8a45"/>
+  <circle cx="720" cy="160" r="46" fill="#4f8a45"/>
+  <circle cx="660" cy="190" r="34" fill="#5c9a50"/>
+  <!-- farmhouse 1 -->
+  <g>
+    <rect x="180" y="320" width="160" height="90" fill="#caa982"/>
+    <polygon points="150,320 260,230 370,320" fill="#9a7a52"/>
+    <polygon points="160,320 260,242 360,320" fill="#b89066"/>
+    <rect x="240" y="360" width="40" height="50" fill="#6b5436"/>
+    <rect x="200" y="350" width="26" height="26" fill="#7a6244"/>
+    <rect x="294" y="350" width="26" height="26" fill="#7a6244"/>
+  </g>
+  <!-- farmhouse 2 smaller -->
+  <g>
+    <rect x="460" y="350" width="120" height="70" fill="#caa982"/>
+    <polygon points="436,350 520,278 604,350" fill="#9a7a52"/>
+    <polygon points="444,350 520,290 596,350" fill="#b89066"/>
+    <rect x="505" y="384" width="30" height="36" fill="#6b5436"/>
+  </g>
+  <rect y="410" width="800" height="90" fill="#4a8540"/>
+  <path d="M0 430 Q200 410 400 430 Q600 450 800 425" fill="none" stroke="#3c6f34" stroke-width="6"/>
+</svg>

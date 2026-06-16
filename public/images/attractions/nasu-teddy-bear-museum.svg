@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A cozy English-cottage museum filled with rows of vintage teddy bears">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5e3c8"/>
+      <stop offset="1" stop-color="#e6cfa8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#wall)"/>
+  <polygon points="0,150 400,40 800,150 800,170 0,170" fill="#8a4b3a"/>
+  <polygon points="0,150 400,40 800,150" fill="#a85d49"/>
+  <rect x="0" y="170" width="800" height="20" fill="#c79b6b"/>
+  <rect x="0" y="430" width="800" height="70" fill="#7a5230"/>
+  <rect x="0" y="425" width="800" height="10" fill="#5e3e22"/>
+  <g>
+    <rect x="60" y="240" width="680" height="20" rx="4" fill="#9c6b3c"/>
+    <rect x="60" y="350" width="680" height="20" rx="4" fill="#9c6b3c"/>
+  </g>
+  <g fill="#caa06a">
+    <g transform="translate(120,200)">
+      <circle cx="0" cy="0" r="22"/><circle cx="-14" cy="-18" r="9"/><circle cx="14" cy="-18" r="9"/>
+      <circle cx="0" cy="28" r="20"/><circle cx="-7" cy="-3" r="3" fill="#3a2a1a"/><circle cx="7" cy="-3" r="3" fill="#3a2a1a"/>
+      <ellipse cx="0" cy="6" rx="5" ry="4" fill="#3a2a1a"/>
+    </g>
+    <g transform="translate(280,200)">
+      <circle cx="0" cy="0" r="22"/><circle cx="-14" cy="-18" r="9"/><circle cx="14" cy="-18" r="9"/>
+      <circle cx="0" cy="28" r="20"/><circle cx="-7" cy="-3" r="3" fill="#3a2a1a"/><circle cx="7" cy="-3" r="3" fill="#3a2a1a"/>
+      <ellipse cx="0" cy="6" rx="5" ry="4" fill="#3a2a1a"/>
+    </g>
+    <g transform="translate(440,200)">
+      <circle cx="0" cy="0" r="22"/><circle cx="-14" cy="-18" r="9"/><circle cx="14" cy="-18" r="9"/>
+      <circle cx="0" cy="28" r="20"/><circle cx="-7" cy="-3" r="3" fill="#3a2a1a"/><circle cx="7" cy="-3" r="3" fill="#3a2a1a"/>
+      <ellipse cx="0" cy="6" rx="5" ry="4" fill="#3a2a1a"/>
+    </g>
+    <g transform="translate(600,200)">
+      <circle cx="0" cy="0" r="22"/><circle cx="-14" cy="-18" r="9"/><circle cx="14" cy="-18" r="9"/>
+      <circle cx="0" cy="28" r="20"/><circle cx="-7" cy="-3" r="3" fill="#3a2a1a"/><circle cx="7" cy="-3" r="3" fill="#3a2a1a"/>
+      <ellipse cx="0" cy="6" rx="5" ry="4" fill="#3a2a1a"/>
+    </g>
+  </g>
+  <g fill="#b98a55">
+    <g transform="translate(200,310) scale(1.2)">
+      <circle cx="0" cy="0" r="22"/><circle cx="-14" cy="-18" r="9"/><circle cx="14" cy="-18" r="9"/>
+      <circle cx="0" cy="28" r="20"/><circle cx="-7" cy="-3" r="3" fill="#3a2a1a"/><circle cx="7" cy="-3" r="3" fill="#3a2a1a"/>
+      <ellipse cx="0" cy="6" rx="5" ry="4" fill="#3a2a1a"/>
+    </g>
+    <g transform="translate(400,310) scale(1.2)">
+      <circle cx="0" cy="0" r="22"/><circle cx="-14" cy="-18" r="9"/><circle cx="14" cy="-18" r="9"/>
+      <circle cx="0" cy="28" r="20"/><circle cx="-7" cy="-3" r="3" fill="#3a2a1a"/><circle cx="7" cy="-3" r="3" fill="#3a2a1a"/>
+      <ellipse cx="0" cy="6" rx="5" ry="4" fill="#3a2a1a"/>
+    </g>
+    <g transform="translate(600,310) scale(1.2)">
+      <circle cx="0" cy="0" r="22"/><circle cx="-14" cy="-18" r="9"/><circle cx="14" cy="-18" r="9"/>
+      <circle cx="0" cy="28" r="20"/><circle cx="-7" cy="-3" r="3" fill="#3a2a1a"/><circle cx="7" cy="-3" r="3" fill="#3a2a1a"/>
+      <ellipse cx="0" cy="6" rx="5" ry="4" fill="#3a2a1a"/>
+    </g>
+  </g>
+  <text x="400" y="475" text-anchor="middle" font-family="sans-serif" font-size="30" fill="#f5e3c8" font-weight="bold">Teddy Bear Museum</text>
+</svg>

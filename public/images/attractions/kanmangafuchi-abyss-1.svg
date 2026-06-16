@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A row of mossy red-bibbed stone Jizo statues along a forested river gorge">
+  <rect width="400" height="400" fill="#5a7a4a"/>
+  <path d="M0 0 H400 V120 Q300 90 200 120 T0 120 Z" fill="#3e5e34"/>
+  <path d="M0 290 Q120 260 200 290 T400 290 V400 H0 Z" fill="#4a7090"/>
+  <path d="M0 300 Q120 275 200 300 T400 300 V400 H0 Z" fill="#6a98b8" opacity="0.6"/>
+  <g>
+    <ellipse cx="70" cy="70" rx="40" ry="50" fill="#3e5e34"/>
+    <ellipse cx="330" cy="60" rx="44" ry="54" fill="#456a3a"/>
+    <rect x="64" y="100" width="12" height="60" fill="#5a4128"/>
+    <rect x="324" y="90" width="12" height="80" fill="#5a4128"/>
+  </g>
+  <g>
+    <g transform="translate(70,235)">
+      <path d="M-26 30 Q-26 -26 0 -30 Q26 -26 26 30 Z" fill="#8a9a82"/>
+      <ellipse cx="0" cy="-22" rx="20" ry="18" fill="#9aa892"/>
+      <path d="M-20 8 Q0 -6 20 8 L18 30 H-18 Z" fill="#c0392b"/>
+      <ellipse cx="-7" cy="-22" rx="2.2" ry="3" fill="#3a3a3a"/>
+      <ellipse cx="7" cy="-22" rx="2.2" ry="3" fill="#3a3a3a"/>
+      <path d="M-6 -14 q6 4 12 0" stroke="#3a3a3a" stroke-width="1.6" fill="none"/>
+      <ellipse cx="-14" cy="-4" rx="6" ry="9" fill="#6a8a5a"/>
+    </g>
+    <g transform="translate(160,250)">
+      <path d="M-26 28 Q-26 -26 0 -30 Q26 -26 26 28 Z" fill="#9aa892"/>
+      <ellipse cx="0" cy="-22" rx="20" ry="18" fill="#a8b59f"/>
+      <path d="M-20 8 Q0 -6 20 8 L18 28 H-18 Z" fill="#b8332a"/>
+      <ellipse cx="-7" cy="-22" rx="2.2" ry="3" fill="#3a3a3a"/>
+      <ellipse cx="7" cy="-22" rx="2.2" ry="3" fill="#3a3a3a"/>
+      <path d="M-6 -14 q6 4 12 0" stroke="#3a3a3a" stroke-width="1.6" fill="none"/>
+      <ellipse cx="16" cy="-2" rx="5" ry="8" fill="#6a8a5a"/>
+    </g>
+    <g transform="translate(255,248)">
+      <path d="M-26 30 Q-26 -26 0 -30 Q26 -26 26 30 Z" fill="#8a9a82"/>
+      <ellipse cx="0" cy="-22" rx="20" ry="18" fill="#9aa892"/>
+      <path d="M-20 8 Q0 -6 20 8 L18 30 H-18 Z" fill="#c0392b"/>
+      <ellipse cx="-7" cy="-22" rx="2.2" ry="3" fill="#3a3a3a"/>
+      <ellipse cx="7" cy="-22" rx="2.2" ry="3" fill="#3a3a3a"/>
+      <path d="M-6 -14 q6 4 12 0" stroke="#3a3a3a" stroke-width="1.6" fill="none"/>
+    </g>
+    <g transform="translate(340,238)">
+      <path d="M-24 28 Q-24 -24 0 -28 Q24 -24 24 28 Z" fill="#9aa892"/>
+      <ellipse cx="0" cy="-20" rx="18" ry="17" fill="#a8b59f"/>
+      <path d="M-18 8 Q0 -4 18 8 L16 28 H-16 Z" fill="#b8332a"/>
+      <ellipse cx="-6" cy="-20" rx="2" ry="2.8" fill="#3a3a3a"/>
+      <ellipse cx="6" cy="-20" rx="2" ry="2.8" fill="#3a3a3a"/>
+    </g>
+  </g>
+</svg>

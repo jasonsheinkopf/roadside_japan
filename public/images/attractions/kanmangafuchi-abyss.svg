@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A forested river gorge lined with a row of mossy red-bibbed stone Jizo statues, autumn maples">
+  <defs>
+    <linearGradient id="ksky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe8d6"/>
+      <stop offset="1" stop-color="#eef6ea"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fb6c4"/>
+      <stop offset="1" stop-color="#a8d4dd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ksky)"/>
+  <path d="M0 0 H800 V200 Q600 240 400 210 Q200 180 0 220 Z" fill="#3f7a4a"/>
+  <g fill="#e07a32">
+    <circle cx="90" cy="90" r="55"/><circle cx="200" cy="60" r="48"/>
+    <circle cx="620" cy="70" r="52"/><circle cx="720" cy="110" r="48"/>
+  </g>
+  <g fill="#f4a544">
+    <circle cx="140" cy="110" r="40"/><circle cx="680" cy="100" r="42"/>
+    <circle cx="400" cy="80" r="46"/>
+  </g>
+  <path d="M0 230 Q400 270 800 230 V330 Q400 370 0 330 Z" fill="url(#river)"/>
+  <g stroke="#cfeaf0" stroke-width="3" fill="none" opacity="0.7">
+    <path d="M80 280 q40 -10 80 0"/><path d="M300 300 q40 -10 80 0"/>
+    <path d="M540 285 q40 -10 80 0"/>
+  </g>
+  <path d="M0 330 Q400 370 800 330 V500 H0 Z" fill="#6e9a55"/>
+  <g>
+    <g transform="translate(110,360)">
+      <ellipse cx="0" cy="60" rx="32" ry="10" fill="#000" opacity="0.12"/>
+      <rect x="-26" y="0" width="52" height="62" rx="20" fill="#9aa39a"/>
+      <circle cx="0" cy="-4" r="26" fill="#aab3aa"/>
+      <path d="M-26 30 Q0 50 26 30 L22 60 Q0 70 -22 60 Z" fill="#c0392b"/>
+      <ellipse cx="-9" cy="-6" rx="3" ry="5" fill="#5a625a"/>
+      <ellipse cx="9" cy="-6" rx="3" ry="5" fill="#5a625a"/>
+      <path d="M-20 -22 q20 -10 40 0" fill="#6e8c5a"/>
+    </g>
+    <g transform="translate(290,375) scale(0.9)">
+      <ellipse cx="0" cy="60" rx="32" ry="10" fill="#000" opacity="0.12"/>
+      <rect x="-26" y="0" width="52" height="62" rx="20" fill="#9aa39a"/>
+      <circle cx="0" cy="-4" r="26" fill="#aab3aa"/>
+      <path d="M-26 30 Q0 50 26 30 L22 60 Q0 70 -22 60 Z" fill="#c0392b"/>
+      <ellipse cx="-9" cy="-6" rx="3" ry="5" fill="#5a625a"/>
+      <ellipse cx="9" cy="-6" rx="3" ry="5" fill="#5a625a"/>
+      <path d="M-20 -22 q20 -10 40 0" fill="#6e8c5a"/>
+    </g>
+    <g transform="translate(470,380) scale(0.85)">
+      <ellipse cx="0" cy="60" rx="32" ry="10" fill="#000" opacity="0.12"/>
+      <rect x="-26" y="0" width="52" height="62" rx="20" fill="#9aa39a"/>
+      <circle cx="0" cy="-4" r="26" fill="#aab3aa"/>
+      <path d="M-26 30 Q0 50 26 30 L22 60 Q0 70 -22 60 Z" fill="#c0392b"/>
+      <ellipse cx="-9" cy="-6" rx="3" ry="5" fill="#5a625a"/>
+      <ellipse cx="9" cy="-6" rx="3" ry="5" fill="#5a625a"/>
+    </g>
+    <g transform="translate(630,378) scale(0.8)">
+      <ellipse cx="0" cy="60" rx="32" ry="10" fill="#000" opacity="0.12"/>
+      <rect x="-26" y="0" width="52" height="62" rx="20" fill="#9aa39a"/>
+      <circle cx="0" cy="-4" r="26" fill="#aab3aa"/>
+      <path d="M-26 30 Q0 50 26 30 L22 60 Q0 70 -22 60 Z" fill="#c0392b"/>
+      <ellipse cx="-9" cy="-6" rx="3" ry="5" fill="#5a625a"/>
+      <ellipse cx="9" cy="-6" rx="3" ry="5" fill="#5a625a"/>
+    </g>
+  </g>
+</svg>

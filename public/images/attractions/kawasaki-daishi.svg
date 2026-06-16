@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A grand Japanese temple with a five-story pagoda, main hall, and drifting incense smoke">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fcd9a8"/>
+      <stop offset="1" stop-color="#fdeedb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky2)"/>
+  <circle cx="640" cy="110" r="55" fill="#ffe39a"/>
+  <rect y="380" width="800" height="120" fill="#caa46f"/>
+  <rect y="380" width="800" height="14" fill="#b08e5e"/>
+  <!-- pagoda -->
+  <g>
+    <rect x="120" y="360" width="120" height="40" fill="#b33b2b"/>
+    <polygon points="100,360 180,330 260,360" fill="#7a2a1f"/>
+    <rect x="135" y="300" width="90" height="40" fill="#c8442f"/>
+    <polygon points="115,300 180,272 245,300" fill="#7a2a1f"/>
+    <rect x="148" y="245" width="64" height="36" fill="#c8442f"/>
+    <polygon points="128,245 180,218 232,245" fill="#7a2a1f"/>
+    <rect x="158" y="195" width="44" height="32" fill="#c8442f"/>
+    <polygon points="140,195 180,170 220,195" fill="#7a2a1f"/>
+    <polygon points="155,170 180,120 205,170" fill="#7a2a1f"/>
+    <rect x="176" y="100" width="8" height="30" fill="#e0b24a"/>
+  </g>
+  <!-- main hall -->
+  <rect x="400" y="290" width="320" height="100" fill="#d2543d"/>
+  <polygon points="370,290 560,230 750,290" fill="#6f261c"/>
+  <polygon points="370,290 560,255 750,290" fill="#8a3326"/>
+  <rect x="440" y="320" width="40" height="70" fill="#7a2a1f"/>
+  <rect x="540" y="320" width="40" height="70" fill="#7a2a1f"/>
+  <rect x="640" y="320" width="40" height="70" fill="#7a2a1f"/>
+  <rect x="540" y="300" width="40" height="6" fill="#e0b24a"/>
+  <!-- incense burner with smoke -->
+  <rect x="300" y="360" width="60" height="30" fill="#5a5a5a"/>
+  <ellipse cx="330" cy="360" rx="32" ry="9" fill="#777"/>
+  <path d="M325 358 Q300 320 330 290 Q360 260 330 230" fill="none" stroke="#e8e8e8" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+  <path d="M340 358 Q360 318 335 286 Q315 256 345 224" fill="none" stroke="#dddddd" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+</svg>

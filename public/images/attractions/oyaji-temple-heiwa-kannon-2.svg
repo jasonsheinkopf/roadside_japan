@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan bowing respectfully before a giant cliff-carved Kannon statue, peace sign">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient></defs>
+<rect width="400" height="400" fill="#cdbfa6"/>
+<rect y="320" width="400" height="80" fill="#8a7a5a"/>
+<g fill="#a8987a"><path d="M0 0 h160 v400 h-160z"/><path d="M150 0 l30 50 -30 60 30 80 -20 60 20 100 -30 50z" fill="#b8a888"/></g>
+<g fill="#9a8a6a" opacity="0.5"><path d="M40 30 l60 0 -50 40z"/><path d="M20 200 l50 30 -60 20z"/></g>
+<g transform="translate(70,40)">
+<ellipse cx="40" cy="320" rx="60" ry="16" fill="#9a8a6a"/>
+<path d="M40 60 q-46 0 -46 60 l0 180 q0 30 46 30 q46 0 46 -30 l0 -180 q0 -60 -46 -60z" fill="#d6c9ad"/>
+<ellipse cx="40" cy="50" rx="30" ry="34" fill="#d6c9ad"/>
+<path d="M40 16 q-30 0 -30 30 q0 -12 30 -12 q30 0 30 12 q0 -30 -30 -30z" fill="#c4b694"/>
+<ellipse cx="32" cy="50" rx="3" ry="5" fill="#8a7a5a"/><ellipse cx="48" cy="50" rx="3" ry="5" fill="#8a7a5a"/>
+<path d="M30 64 q10 6 20 0" fill="none" stroke="#8a7a5a" stroke-width="2"/>
+<path d="M10 130 q30 -16 60 0" fill="none" stroke="#bca984" stroke-width="3"/>
+<path d="M14 200 q26 -12 52 0" fill="none" stroke="#bca984" stroke-width="3"/>
+<rect x="36" y="86" width="8" height="40" rx="4" fill="#c4b694"/>
+</g>
+<g transform="translate(220,210) scale(1.05)">
+<path d="M178 150 q40 -6 38 -40 q-2 -26 -24 -24 q18 8 12 28 q-8 24 -34 18z" fill="url(#fur)"/>
+<path d="M70 200 q-14 -70 50 -78 q64 8 50 78 z" fill="url(#fur)"/>
+<path d="M96 200 q-14 -58 24 -64 q38 6 24 64 z" fill="#faf1e0"/>
+<ellipse cx="84" cy="202" rx="20" ry="12" fill="#faf1e0"/><ellipse cx="156" cy="202" rx="20" ry="12" fill="#faf1e0"/>
+<rect x="98" y="160" width="20" height="44" rx="10" fill="#faf1e0"/>
+<path d="M150 168 q22 -8 30 -34" fill="none" stroke="#faf1e0" stroke-width="20" stroke-linecap="round"/>
+<g transform="translate(182,128)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+<path d="M88 150 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/>
+<path d="M120 150 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<path d="M70 64 l-10 -40 38 22z" fill="url(#fur)"/><path d="M170 64 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="92" rx="52" ry="42" fill="url(#fur)"/>
+<path d="M120 80 q-44 0 -44 28 q0 24 44 24 q44 0 44 -24 q0 -28 -44 -28z" fill="#faf1e0"/>
+<ellipse cx="84" cy="106" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="106" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<path d="M92 96 q8 6 16 0" fill="none" stroke="#2e2824" stroke-width="3" stroke-linecap="round"/>
+<path d="M132 96 q8 6 16 0" fill="none" stroke="#2e2824" stroke-width="3" stroke-linecap="round"/>
+<path d="M114 108 h12 l-6 7z" fill="#3a3330"/>
+<path d="M114 118 q6 10 14 0z" fill="#f08a86"/>
+</g>
+</svg>
