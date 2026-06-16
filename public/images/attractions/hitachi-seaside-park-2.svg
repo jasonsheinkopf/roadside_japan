@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Rows of round crimson kochia bushes in autumn, like fuzzy red buns on a hill">
+  <defs>
+    <linearGradient id="hs2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9a0"/>
+      <stop offset="1" stop-color="#ffeccf"/>
+    </linearGradient>
+    <radialGradient id="hs2bun" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#f06a4a"/>
+      <stop offset="1" stop-color="#c0301f"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#hs2sky)"/>
+  <circle cx="330" cy="64" r="34" fill="#fff3d6" opacity="0.9"/>
+  <!-- green hill -->
+  <path d="M0 160 q200 -40 400 0 V400 H0 Z" fill="#a7c25a"/>
+  <path d="M0 200 q200 -30 400 0 V400 H0 Z" fill="#94b04a"/>
+  <!-- rows of fuzzy red kochia buns -->
+  <g>
+    <!-- back row small -->
+    <g fill="url(#hs2bun)">
+      <ellipse cx="60" cy="180" rx="22" ry="18"/><ellipse cx="130" cy="174" rx="22" ry="18"/>
+      <ellipse cx="200" cy="172" rx="22" ry="18"/><ellipse cx="270" cy="174" rx="22" ry="18"/>
+      <ellipse cx="340" cy="180" rx="22" ry="18"/>
+    </g>
+    <!-- middle row -->
+    <g fill="url(#hs2bun)">
+      <ellipse cx="40" cy="240" rx="30" ry="25"/><ellipse cx="130" cy="234" rx="30" ry="25"/>
+      <ellipse cx="220" cy="234" rx="30" ry="25"/><ellipse cx="320" cy="240" rx="30" ry="25"/>
+    </g>
+    <!-- front row big -->
+    <g fill="url(#hs2bun)">
+      <ellipse cx="70" cy="330" rx="42" ry="36"/><ellipse cx="200" cy="340" rx="46" ry="40"/>
+      <ellipse cx="330" cy="330" rx="42" ry="36"/>
+    </g>
+  </g>
+  <!-- fuzzy texture dots -->
+  <g fill="#e87a5a" opacity="0.5">
+    <circle cx="60" cy="330" r="3"/><circle cx="82" cy="340" r="3"/><circle cx="190" cy="335" r="3"/>
+    <circle cx="214" cy="348" r="3"/><circle cx="320" cy="328" r="3"/><circle cx="342" cy="340" r="3"/>
+  </g>
+</svg>

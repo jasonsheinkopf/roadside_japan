@@ -27,6 +27,13 @@ accessibility:
   note: "Grounds and elevator are accessible; some garden paths are gravel."
 dogFriendly: limited
 heroImage: "/images/attractions/ushiku-daibutsu.svg"
+photos:
+  - src: "/images/attractions/ushiku-daibutsu-1.svg"
+    alt: "Tiny faces peeking out from the observation windows in the Buddha's chest"
+  - src: "/images/attractions/ushiku-daibutsu-2.svg"
+    alt: "A scale gag: the giant Buddha towering beside a tiny Statue of Liberty"
+  - src: "/images/attractions/ushiku-daibutsu-3.svg"
+    alt: "The little flower gardens and petting zoo at the Buddha's feet"
 website: "https://daibutu.net/"
 tips:
   - "Go up inside — the chest-height observation windows are a surreal way to see the countryside."

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A cupped pair of hands glowing softly around a single yellow-green firefly in the dark">
+  <defs>
+    <radialGradient id="dark7" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#13241c"/>
+      <stop offset="100%" stop-color="#050a08"/>
+    </radialGradient>
+    <radialGradient id="fly7" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#eaffa0"/>
+      <stop offset="40%" stop-color="#b8e85a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#b8e85a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#dark7)"/>
+  <!-- big soft glow -->
+  <circle cx="200" cy="200" r="150" fill="url(#fly7)" opacity="0.7"/>
+  <!-- cupped hands -->
+  <g fill="#3a2a1c">
+    <path d="M70 260 Q60 200 110 190 Q150 185 200 188 Q250 185 290 190 Q340 200 330 260 Q300 320 200 325 Q100 320 70 260 Z" fill="#6b4a30"/>
+    <path d="M85 258 Q78 215 120 208 Q200 200 280 208 Q322 215 315 258 Q288 305 200 310 Q112 305 85 258 Z" fill="#7d5638"/>
+  </g>
+  <!-- fingers -->
+  <g stroke="#5a3d28" stroke-width="3" opacity="0.6">
+    <line x1="120" y1="215" x2="125" y2="195"/><line x1="160" y1="208" x2="162" y2="190"/>
+    <line x1="200" y1="206" x2="200" y2="188"/><line x1="240" y1="208" x2="238" y2="190"/><line x1="280" y1="215" x2="275" y2="196"/>
+  </g>
+  <!-- firefly -->
+  <circle cx="200" cy="240" r="18" fill="url(#fly7)"/>
+  <ellipse cx="200" cy="240" rx="6" ry="9" fill="#d7ff7a"/>
+  <ellipse cx="200" cy="246" rx="4" ry="6" fill="#fff8c0"/>
+</svg>

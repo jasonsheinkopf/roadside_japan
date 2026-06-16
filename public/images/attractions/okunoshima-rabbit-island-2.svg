@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A single cute rabbit standing up on its hind legs begging for a food pellet">
+  <defs>
+    <linearGradient id="bg14" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8eef6"/>
+      <stop offset="100%" stop-color="#a8d8b0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg14)"/>
+  <ellipse cx="200" cy="360" rx="120" ry="30" fill="#8cc080"/>
+  <!-- begging rabbit -->
+  <g transform="translate(200,130)">
+    <!-- ears -->
+    <ellipse cx="-22" cy="-50" rx="14" ry="48" fill="#efe7da"/>
+    <ellipse cx="22" cy="-50" rx="14" ry="48" fill="#efe7da"/>
+    <ellipse cx="-22" cy="-46" rx="6" ry="36" fill="#f4c8c8"/>
+    <ellipse cx="22" cy="-46" rx="6" ry="36" fill="#f4c8c8"/>
+    <!-- head -->
+    <circle cx="0" cy="10" r="44" fill="#efe7da"/>
+    <!-- cheeks -->
+    <circle cx="-26" cy="20" r="14" fill="#fff" opacity="0.6"/>
+    <circle cx="26" cy="20" r="14" fill="#fff" opacity="0.6"/>
+    <!-- eyes -->
+    <circle cx="-16" cy="6" r="9" fill="#3a2a2a"/>
+    <circle cx="16" cy="6" r="9" fill="#3a2a2a"/>
+    <circle cx="-13" cy="2" r="3" fill="#fff"/>
+    <circle cx="19" cy="2" r="3" fill="#fff"/>
+    <!-- nose + mouth -->
+    <ellipse cx="0" cy="24" rx="6" ry="4" fill="#d27a7a"/>
+    <path d="M0 28 v6 M0 32 q-8 4 -14 1 M0 32 q8 4 14 1" stroke="#b86060" stroke-width="2.5" fill="none"/>
+    <!-- body -->
+    <ellipse cx="0" cy="150" rx="50" ry="72" fill="#efe7da"/>
+    <ellipse cx="0" cy="170" rx="34" ry="46" fill="#fff" opacity="0.5"/>
+    <!-- begging front paws -->
+    <ellipse cx="-18" cy="92" rx="10" ry="24" fill="#efe7da" transform="rotate(-12 -18 92)"/>
+    <ellipse cx="18" cy="92" rx="10" ry="24" fill="#efe7da" transform="rotate(12 18 92)"/>
+    <!-- hind feet -->
+    <ellipse cx="-34" cy="216" rx="20" ry="11" fill="#fff"/>
+    <ellipse cx="34" cy="216" rx="20" ry="11" fill="#fff"/>
+  </g>
+  <!-- floating food pellet -->
+  <circle cx="200" cy="60" r="11" fill="#9a6a3a"/>
+  <circle cx="196" cy="56" r="3" fill="#c2935a"/>
+  <g stroke="#c2a05a" stroke-width="2.5" stroke-linecap="round">
+    <line x1="180" y1="48" x2="174" y2="42"/><line x1="220" y1="48" x2="226" y2="42"/><line x1="200" y1="42" x2="200" y2="34"/>
+  </g>
+</svg>

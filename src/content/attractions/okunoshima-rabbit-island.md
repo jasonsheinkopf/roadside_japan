@@ -27,6 +27,13 @@ accessibility:
   note: "Ferry and main paths are flat; some museum/trail sections are not."
 dogFriendly: no
 heroImage: "/images/attractions/okunoshima-rabbit-island.svg"
+photos:
+  - src: "/images/attractions/okunoshima-rabbit-island-1.svg"
+    alt: "An avalanche of rabbits hopping eagerly toward a visitor"
+  - src: "/images/attractions/okunoshima-rabbit-island-2.svg"
+    alt: "A single rabbit standing on its hind legs to beg for a pellet"
+  - src: "/images/attractions/okunoshima-rabbit-island-3.svg"
+    alt: "The somber concrete ruins of the old poison-gas factory with a rabbit peeking out"
 tips:
   - "Buy rabbit pellets BEFORE the ferry — there's nowhere to buy food on the island."
   - "Don't bring dogs or chase the rabbits; let them come to you."

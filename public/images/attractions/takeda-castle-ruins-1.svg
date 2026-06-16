@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Low stone castle ramparts on a ridge wrapped in a dawn sea of clouds, glowing sunrise">
+  <defs>
+    <linearGradient id="tc1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffcaa0"/>
+      <stop offset="0.5" stop-color="#ffb27a"/>
+      <stop offset="1" stop-color="#ffe3c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#tc1sky)"/>
+  <circle cx="200" cy="150" r="50" fill="#fff2cf"/>
+  <circle cx="200" cy="150" r="80" fill="#ffe5a8" opacity="0.4"/>
+  <!-- distant ridges -->
+  <path d="M0 210q120 -26 200 0t200 0v40H0z" fill="#caa6c2" opacity="0.6"/>
+  <!-- ramparts ridge -->
+  <path d="M0 240q100 -40 200 -36t200 36v30H0z" fill="#7a6a5a"/>
+  <g fill="#8c7c6a">
+    <rect x="60" y="210" width="50" height="24"/>
+    <rect x="120" y="202" width="60" height="26"/>
+    <rect x="190" y="198" width="64" height="26"/>
+    <rect x="262" y="204" width="56" height="24"/>
+  </g>
+  <g fill="#6a5a4a">
+    <rect x="62" y="222" width="46" height="3"/>
+    <rect x="122" y="214" width="56" height="3"/>
+    <rect x="192" y="210" width="60" height="3"/>
+    <rect x="264" y="216" width="52" height="3"/>
+  </g>
+  <!-- sea of clouds -->
+  <g fill="#fff8ef">
+    <ellipse cx="60" cy="300" rx="90" ry="40"/>
+    <ellipse cx="180" cy="320" rx="110" ry="46"/>
+    <ellipse cx="320" cy="300" rx="100" ry="42"/>
+    <ellipse cx="200" cy="360" rx="220" ry="60"/>
+  </g>
+  <g fill="#ffe9d0" opacity="0.7">
+    <ellipse cx="120" cy="290" rx="60" ry="22"/>
+    <ellipse cx="280" cy="290" rx="60" ry="22"/>
+  </g>
+</svg>

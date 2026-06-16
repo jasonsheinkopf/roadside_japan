@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="An aerial view of a green double-caldera volcanic island ringed by ocean">
+  <defs>
+    <radialGradient id="sea" cx="0.5" cy="0.5" r="0.7"><stop offset="0" stop-color="#3f93c4"/><stop offset="1" stop-color="#235e88"/></radialGradient>
+    <linearGradient id="outer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fa85a"/><stop offset="1" stop-color="#4f8a44"/></linearGradient>
+    <linearGradient id="inner" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a8a48"/><stop offset="1" stop-color="#3f6f36"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sea)"/>
+  <!-- ocean swell highlights -->
+  <g fill="#5aa6d0" opacity="0.4"><ellipse cx="120" cy="120" rx="80" ry="10"/><ellipse cx="660" cy="160" rx="90" ry="10"/><ellipse cx="180" cy="420" rx="90" ry="10"/><ellipse cx="640" cy="430" rx="80" ry="10"/></g>
+  <!-- island outer caldera ring -->
+  <g transform="translate(400,260)">
+    <ellipse cx="0" cy="0" rx="300" ry="200" fill="url(#outer)"/>
+    <!-- cliff rim shading -->
+    <ellipse cx="0" cy="0" rx="300" ry="200" fill="none" stroke="#3a6630" stroke-width="10" opacity="0.5"/>
+    <!-- crater floor -->
+    <ellipse cx="0" cy="10" rx="210" ry="135" fill="#6f9e58"/>
+    <ellipse cx="0" cy="10" rx="210" ry="135" fill="none" stroke="#4f7d42" stroke-width="6" opacity="0.6"/>
+    <!-- inner volcano Maruyama -->
+    <ellipse cx="20" cy="40" rx="120" ry="78" fill="url(#inner)"/>
+    <ellipse cx="20" cy="40" rx="120" ry="78" fill="none" stroke="#34602c" stroke-width="5" opacity="0.6"/>
+    <ellipse cx="20" cy="32" rx="46" ry="28" fill="#7a5a3a"/>
+    <ellipse cx="20" cy="32" rx="46" ry="28" fill="none" stroke="#5a4028" stroke-width="3"/>
+    <!-- steam from inner cone -->
+    <g opacity="0.5" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"><path d="M20 8 q-14 -24 2 -44"/><path d="M40 12 q14 -20 -2 -40"/></g>
+    <!-- field patches + tiny buildings -->
+    <g fill="#8fbf6a" opacity="0.7"><ellipse cx="-150" cy="-30" rx="40" ry="20"/><ellipse cx="-120" cy="20" rx="34" ry="16"/></g>
+    <g fill="#e8e2d0"><rect x="-160" y="-36" width="8" height="6"/><rect x="-148" y="-30" width="7" height="5"/><rect x="-130" y="18" width="8" height="6"/></g>
+    <!-- winding road -->
+    <path d="M-260 -20 q60 -40 120 0 q40 28 100 30" fill="none" stroke="#d8cfa8" stroke-width="4" opacity="0.7"/>
+  </g>
+  <!-- foam ring where waves meet cliffs -->
+  <ellipse cx="400" cy="262" rx="306" ry="206" fill="none" stroke="#cfe6f0" stroke-width="5" opacity="0.5"/>
+  <!-- tiny helicopter approaching -->
+  <g transform="translate(120,80)"><ellipse cx="0" cy="0" rx="18" ry="9" fill="#d23c3c"/><rect x="14" y="-3" width="22" height="5" rx="2" fill="#d23c3c"/><line x1="-20" y1="-12" x2="20" y2="-12" stroke="#444" stroke-width="3"/><line x1="0" y1="-12" x2="0" y2="-9" stroke="#444" stroke-width="2"/><line x1="36" y1="-8" x2="36" y2="2" stroke="#444" stroke-width="2"/></g>
+</svg>

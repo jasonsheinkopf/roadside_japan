@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A sulfurous volcanic plain with pinwheels, stone Jizo statues and a pale blue lake of paradise">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9c2cc"/><stop offset="1" stop-color="#e4e0d2"/></linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe6e2"/><stop offset="1" stop-color="#8fcfd0"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <!-- distant temple + mountains -->
+  <path d="M0 210 L120 150 L240 210 Z" fill="#9aa6ad"/><path d="M560 210 L680 150 L800 210 Z" fill="#9aa6ad"/>
+  <g transform="translate(360,150)"><rect x="0" y="20" width="80" height="40" fill="#7a5c44"/><path d="M-12 22 L40 -4 L92 22z" fill="#4a4f55"/><rect x="34" y="-18" width="12" height="14" fill="#caa24a"/></g>
+  <!-- pale lake of paradise -->
+  <path d="M0 250 Q400 230 800 250 L800 300 L0 300Z" fill="url(#lake)"/>
+  <!-- little red bridge -->
+  <g transform="translate(360,236)"><path d="M0 18 q40 -28 80 0" fill="none" stroke="#c0392b" stroke-width="7"/><path d="M0 18 q40 -28 80 0" fill="none" stroke="#e2604f" stroke-width="2"/></g>
+  <!-- sulfur ground -->
+  <rect y="290" width="800" height="210" fill="#d9cf8a"/>
+  <path d="M0 290 Q400 274 800 290 L800 340 L0 340Z" fill="#cfc06a"/>
+  <!-- yellow sulfur stains + vents -->
+  <g fill="#bfae4a" opacity="0.7"><ellipse cx="140" cy="420" rx="80" ry="26"/><ellipse cx="560" cy="450" rx="120" ry="30"/><ellipse cx="700" cy="380" rx="70" ry="20"/></g>
+  <g opacity="0.5" stroke="#f3eccb" stroke-width="9" fill="none" stroke-linecap="round"><path d="M150 410 q-16 -30 2 -56"/><path d="M580 440 q18 -30 -2 -56"/></g>
+  <!-- stacked stone cairns -->
+  <g fill="#9a948a"><ellipse cx="90" cy="470" rx="20" ry="8"/><ellipse cx="90" cy="458" rx="15" ry="7"/><ellipse cx="90" cy="448" rx="10" ry="6"/></g>
+  <!-- Jizo statues with red bibs -->
+  <g>
+    <g transform="translate(230,400)"><ellipse cx="0" cy="64" rx="20" ry="6" fill="#000" opacity="0.1"/><path d="M-16 64 q-2 -54 16 -54 q18 0 16 54z" fill="#b8b2a6"/><circle cx="0" cy="14" r="15" fill="#c6c0b4"/><path d="M-14 30 q14 10 28 0 l0 14 -28 0z" fill="#c0392b"/></g>
+    <g transform="translate(300,420) scale(0.8)"><path d="M-16 64 q-2 -54 16 -54 q18 0 16 54z" fill="#b8b2a6"/><circle cx="0" cy="14" r="15" fill="#c6c0b4"/><path d="M-14 30 q14 10 28 0 l0 14 -28 0z" fill="#c0392b"/></g>
+  </g>
+  <!-- pinwheels -->
+  <g>
+    <g transform="translate(420,360)"><line x1="0" y1="0" x2="0" y2="60" stroke="#8a7d5a" stroke-width="3"/>
+      <path d="M0 0 l18 -10 -8 18z" fill="#e23b46"/><path d="M0 0 l18 10 -18 8z" fill="#3a8fd0"/><path d="M0 0 l-18 10 8 -18z" fill="#f2c23c"/><path d="M0 0 l-18 -10 18 -8z" fill="#52b06a"/><circle r="4" fill="#fff"/></g>
+    <g transform="translate(640,340) scale(0.9)"><line x1="0" y1="0" x2="0" y2="70" stroke="#8a7d5a" stroke-width="3"/>
+      <path d="M0 0 l18 -10 -8 18z" fill="#3a8fd0"/><path d="M0 0 l18 10 -18 8z" fill="#f2c23c"/><path d="M0 0 l-18 10 8 -18z" fill="#e23b46"/><path d="M0 0 l-18 -10 18 -8z" fill="#9a5bd0"/><circle r="4" fill="#fff"/></g>
+    <g transform="translate(520,390) scale(0.8)"><line x1="0" y1="0" x2="0" y2="60" stroke="#8a7d5a" stroke-width="3"/>
+      <path d="M0 0 l18 -10 -8 18z" fill="#52b06a"/><path d="M0 0 l18 10 -18 8z" fill="#e23b46"/><path d="M0 0 l-18 10 8 -18z" fill="#3a8fd0"/><path d="M0 0 l-18 -10 18 -8z" fill="#f2c23c"/><circle r="4" fill="#fff"/></g>
+  </g>
+</svg>

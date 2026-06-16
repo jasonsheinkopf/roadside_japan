@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A cute festival food stall selling Mt-Fuji-shaped melon bread and snacks">
+  <defs>
+    <linearGradient id="sky6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cdeaf6"/>
+      <stop offset="100%" stop-color="#f3e0c0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky6)"/>
+  <!-- stall roof -->
+  <polygon points="40,140 360,140 330,90 70,90" fill="#e8584c"/>
+  <g fill="#fff">
+    <rect x="60" y="120" width="40" height="20"/><rect x="140" y="120" width="40" height="20"/><rect x="220" y="120" width="40" height="20"/><rect x="300" y="120" width="40" height="20"/>
+  </g>
+  <!-- posts -->
+  <rect x="50" y="140" width="12" height="180" fill="#a9774a"/>
+  <rect x="338" y="140" width="12" height="180" fill="#a9774a"/>
+  <!-- counter -->
+  <rect x="40" y="300" width="320" height="60" fill="#c89a64"/>
+  <rect x="40" y="300" width="320" height="12" fill="#e0bd8e"/>
+  <!-- melon bread fuji shaped -->
+  <g>
+    <polygon points="120,300 160,240 200,300" fill="#d9c27a"/>
+    <polygon points="160,240 175,262 167,260 160,270 153,260 145,262" fill="#fff"/>
+    <path d="M138 282 h44 M132 292 h56" stroke="#b89a4a" stroke-width="2"/>
+    <polygon points="210,300 250,240 290,300" fill="#d9c27a"/>
+    <polygon points="250,240 265,262 257,260 250,270 243,260 235,262" fill="#fff"/>
+    <path d="M228 282 h44 M222 292 h56" stroke="#b89a4a" stroke-width="2"/>
+  </g>
+  <!-- price tag -->
+  <rect x="285" y="315" width="55" height="30" rx="5" fill="#fff" stroke="#e8584c" stroke-width="2"/>
+  <text x="312" y="336" font-family="sans-serif" font-size="16" fill="#e8584c" text-anchor="middle">¥350</text>
+</svg>

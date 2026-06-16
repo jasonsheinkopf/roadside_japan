@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A grinning attendant wearing a conical straw hat, shoveling steaming black sand">
+  <defs>
+    <linearGradient id="ib2bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe0b0"/>
+      <stop offset="1" stop-color="#f5b878"/>
+    </linearGradient>
+    <radialGradient id="ib2steam" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ib2bg)"/>
+  <!-- black sand ground -->
+  <path d="M0 300 q200 -24 400 0 V400 H0 Z" fill="#2a2622"/>
+  <g fill="#4a443c"><circle cx="60" cy="350" r="4"/><circle cx="300" cy="360" r="5"/><circle cx="200" cy="380" r="4"/></g>
+  <!-- attendant -->
+  <g>
+    <!-- conical straw hat -->
+    <polygon points="200,60 138,150 262,150" fill="#e0b860"/>
+    <polygon points="200,60 138,150 200,150" fill="#ecc878"/>
+    <g stroke="#c79a44" stroke-width="2"><line x1="200" y1="60" x2="160" y2="150"/><line x1="200" y1="60" x2="200" y2="150"/><line x1="200" y1="60" x2="240" y2="150"/></g>
+    <ellipse cx="200" cy="150" rx="64" ry="12" fill="#d8aa50"/>
+    <!-- face -->
+    <circle cx="200" cy="178" r="34" fill="#f0c28a"/>
+    <path d="M184 172 q4 -4 8 0 M208 172 q4 -4 8 0" fill="none" stroke="#4a3020" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="178" cy="190" r="8" fill="#f0a0a0" opacity="0.55"/>
+    <circle cx="222" cy="190" r="8" fill="#f0a0a0" opacity="0.55"/>
+    <!-- big grin -->
+    <path d="M180 190 q20 24 40 0 q-20 8 -40 0 Z" fill="#fff" stroke="#4a3020" stroke-width="2"/>
+    <!-- body -->
+    <path d="M168 214 q32 -10 64 0 l14 86 H154 Z" fill="#3a7fb0"/>
+    <!-- arms holding shovel -->
+    <path d="M176 230 q-30 14 -36 50" fill="none" stroke="#f0c28a" stroke-width="14" stroke-linecap="round"/>
+    <path d="M226 226 q34 6 52 40" fill="none" stroke="#f0c28a" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <!-- shovel -->
+  <line x1="140" y1="282" x2="282" y2="266" stroke="#a06a3a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M120 300 q-18 -8 -8 -34 q22 6 28 24 Z" fill="#9c9c9c"/>
+  <!-- steaming sand on shovel -->
+  <ellipse cx="118" cy="290" rx="16" ry="8" fill="#2a2622"/>
+  <ellipse cx="112" cy="250" rx="30" ry="18" fill="url(#ib2steam)"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A close-up of a rust-red steaming volcanic vent ringed by red autumn maple leaves">
+  <defs>
+    <radialGradient id="vent11" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#e57a3a"/>
+      <stop offset="1" stop-color="#8a3418"/>
+    </radialGradient>
+    <linearGradient id="bg11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#caa276"/>
+      <stop offset="1" stop-color="#9a6e48"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg11)"/>
+  <ellipse cx="200" cy="210" rx="150" ry="130" fill="#7a4828"/>
+  <ellipse cx="200" cy="210" rx="120" ry="100" fill="#6a3a1e"/>
+  <ellipse cx="200" cy="210" rx="90" ry="74" fill="url(#vent11)"/>
+  <ellipse cx="185" cy="195" rx="34" ry="24" fill="#f0a050" opacity="0.6"/>
+  <g fill="#fff" opacity="0.65">
+    <path d="M200 150 q-22 -34 4 -60 q-26 -22 2 -46 q16 26 0 46 q24 26 -6 60 z"/>
+    <path d="M160 165 q-16 -26 4 -46 q-20 -16 2 -36 q12 20 0 36 q18 20 -6 46 z"/>
+    <path d="M240 165 q16 -26 -4 -46 q20 -16 -2 -36 q-12 20 0 36 q-18 20 6 46 z"/>
+  </g>
+  <!-- maple leaves ring -->
+  <g fill="#cc3a2a">
+    <g transform="translate(60,90) rotate(-30) scale(0.9)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#cc3a2a"/></g>
+    <g transform="translate(340,100) rotate(40) scale(1)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#d94e2a"/></g>
+    <g transform="translate(330,320) rotate(15) scale(1.1)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#c43020"/></g>
+    <g transform="translate(70,330) rotate(-50) scale(0.95)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#e05a30"/></g>
+    <g transform="translate(200,360) rotate(0) scale(1)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#cc3a2a"/></g>
+  </g>
+</svg>

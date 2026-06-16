@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A small wooden rowboat with a person drifting directly beneath a tall thin waterfall in a narrow gorge">
+  <defs>
+    <linearGradient id="tg1bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe9d6"/>
+      <stop offset="1" stop-color="#7fb98c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#tg1bg)"/>
+  <!-- gorge walls -->
+  <path d="M0 0h140q-30 120 -10 400H0z" fill="#3e5e44"/>
+  <path d="M400 0H260q30 120 10 400h130z" fill="#365440"/>
+  <path d="M0 0h110q-26 110 -10 400H0z" fill="#4a6b50"/>
+  <path d="M400 0H290q26 110 10 400h110z" fill="#41624c"/>
+  <!-- waterfall -->
+  <rect x="186" y="0" width="28" height="300" fill="#eaf6f0"/>
+  <rect x="190" y="0" width="8" height="300" fill="#fff" opacity="0.8"/>
+  <rect x="204" y="0" width="6" height="300" fill="#cfe6dd" opacity="0.8"/>
+  <!-- water -->
+  <rect x="0" y="290" width="400" height="110" fill="#2f8f8a"/>
+  <ellipse cx="200" cy="300" rx="46" ry="14" fill="#bfeae3" opacity="0.7"/>
+  <g stroke="#bfeae3" stroke-width="3" opacity="0.6" fill="none">
+    <path d="M60 330q30 -8 60 0"/>
+    <path d="M280 345q30 -8 60 0"/>
+  </g>
+  <!-- boat -->
+  <path d="M150 320q50 30 100 0l-12 26h-76z" fill="#9a6a3a"/>
+  <path d="M156 322q44 22 88 0l-8 18h-72z" fill="#b98a52"/>
+  <rect x="194" y="290" width="12" height="36" rx="6" fill="#e0b87a"/>
+  <circle cx="200" cy="282" r="12" fill="#f2c9a0"/>
+  <rect x="186" y="270" width="28" height="8" rx="4" fill="#d94c4c"/>
+  <line x1="214" y1="300" x2="252" y2="330" stroke="#7a5230" stroke-width="5"/>
+</svg>

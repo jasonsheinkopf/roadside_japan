@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A cozy cute pile of fluffy red and white foxes napping together in the snow">
+  <defs>
+    <linearGradient id="zsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe6f2"/>
+      <stop offset="1" stop-color="#eef7fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#zsky)"/>
+  <ellipse cx="200" cy="330" rx="260" ry="120" fill="#ffffff"/>
+  <ellipse cx="90" cy="250" rx="40" ry="14" fill="#e3eef4"/>
+  <ellipse cx="320" cy="270" rx="50" ry="16" fill="#e3eef4"/>
+  <!-- fox pile -->
+  <g>
+    <ellipse cx="200" cy="270" rx="130" ry="70" fill="#e2603a"/>
+    <!-- back fox curl -->
+    <path d="M90 250 q-40 30 0 60 q30 20 60 0 q-30 -10 -20 -40 q10 -30 -40 -20z" fill="#d9542f"/>
+    <ellipse cx="120" cy="240" rx="34" ry="28" fill="#e2603a"/>
+    <polygon points="98,222 108,200 122,224" fill="#e2603a"/>
+    <polygon points="142,222 152,200 132,224" fill="#e2603a"/>
+    <ellipse cx="120" cy="248" rx="22" ry="16" fill="#fff5ef"/>
+    <circle cx="111" cy="240" r="4" fill="#3a2218"/>
+    <circle cx="129" cy="240" r="4" fill="#3a2218"/>
+    <circle cx="120" cy="252" r="4" fill="#3a2218"/>
+    <!-- front fox tail -->
+    <path d="M250 290 q60 -10 70 -60 q-50 -10 -80 30z" fill="#d9542f"/>
+    <path d="M290 240 q20 -6 26 -22 q-18 -4 -30 14z" fill="#fff5ef"/>
+    <!-- right fox head -->
+    <ellipse cx="270" cy="250" rx="36" ry="30" fill="#e87a4f"/>
+    <polygon points="246,232 256,208 270,234" fill="#e87a4f"/>
+    <polygon points="294,232 304,208 282,234" fill="#e87a4f"/>
+    <ellipse cx="270" cy="258" rx="24" ry="18" fill="#fff5ef"/>
+    <path d="M258 256 q12 -8 24 0" fill="none" stroke="#3a2218" stroke-width="3" stroke-linecap="round"/>
+    <path d="M252 250 q4 -6 10 0" fill="none" stroke="#3a2218" stroke-width="3" stroke-linecap="round"/>
+    <path d="M288 250 q-4 -6 -10 0" fill="none" stroke="#3a2218" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="270" cy="266" rx="4" ry="3" fill="#3a2218"/>
+  </g>
+  <!-- snowflakes -->
+  <circle cx="60" cy="70" r="4" fill="#ffffff"/>
+  <circle cx="330" cy="60" r="5" fill="#ffffff"/>
+  <circle cx="360" cy="140" r="3" fill="#ffffff"/>
+  <circle cx="40" cy="160" r="3" fill="#ffffff"/>
+  <circle cx="200" cy="50" r="4" fill="#ffffff"/>
+</svg>

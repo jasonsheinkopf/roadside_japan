@@ -30,6 +30,13 @@ accessibility:
   note: "Street viewing is flat; crowds are dense — arrive early for a spot."
 dogFriendly: no
 heroImage: "/images/events/akita-kanto-festival.svg"
+photos:
+  - src: "/images/events/akita-kanto-festival-1.svg"
+    alt: "A performer balancing a tall lantern pole on their forehead"
+  - src: "/images/events/akita-kanto-festival-2.svg"
+    alt: "A close-up of the glowing lantern grid shaped like ears of rice"
+  - src: "/images/events/akita-kanto-festival-3.svg"
+    alt: "A wobble moment as a pole leans and the crowd gasps"
 website: "https://www.kantou.gr.jp/"
 tips:
   - "After the main performance you can often try balancing a kanto pole yourself."

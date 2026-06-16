@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="An aerial view of a green double-caldera island with a smaller volcano cone nested inside the crater">
+  <defs>
+    <radialGradient id="ag1sea" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#2f7fb0"/>
+      <stop offset="1" stop-color="#1c5a86"/>
+    </radialGradient>
+    <radialGradient id="ag1land" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#6fb04e"/>
+      <stop offset="1" stop-color="#3f7a32"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ag1sea)"/>
+  <!-- surf ring -->
+  <ellipse cx="200" cy="205" rx="178" ry="160" fill="#9fd0e6" opacity="0.5"/>
+  <ellipse cx="200" cy="205" rx="165" ry="148" fill="#bfe6f0" opacity="0.5"/>
+  <!-- outer island rim -->
+  <ellipse cx="200" cy="205" rx="160" ry="142" fill="url(#ag1land)"/>
+  <!-- cliff shading -->
+  <ellipse cx="200" cy="205" rx="160" ry="142" fill="none" stroke="#2e5e24" stroke-width="8"/>
+  <!-- inner caldera basin -->
+  <ellipse cx="200" cy="215" rx="100" ry="86" fill="#5a9442"/>
+  <ellipse cx="200" cy="215" rx="100" ry="86" fill="none" stroke="#3a6e2c" stroke-width="6"/>
+  <!-- caldera floor (lighter, farmland) -->
+  <ellipse cx="200" cy="218" rx="80" ry="68" fill="#7fb85a"/>
+  <!-- nested inner volcano cone (Maruyama) -->
+  <ellipse cx="210" cy="235" rx="44" ry="36" fill="#4f7e3a"/>
+  <path d="M178 248 Q210 188 242 248 Z" fill="#3f6e2e"/>
+  <ellipse cx="210" cy="206" rx="14" ry="6" fill="#2e5422"/>
+  <ellipse cx="210" cy="206" rx="7" ry="3" fill="#1f3c17"/>
+  <!-- little forest texture dots -->
+  <g fill="#3a6e2c" opacity="0.6">
+    <circle cx="150" cy="180" r="6"/>
+    <circle cx="250" cy="170" r="5"/>
+    <circle cx="270" cy="240" r="6"/>
+    <circle cx="140" cy="250" r="5"/>
+  </g>
+  <!-- a tiny house cluster (169 people!) -->
+  <rect x="155" y="250" width="8" height="7" fill="#d4d0c4"/>
+  <polygon points="154,250 159,244 164,250" fill="#b04a3a"/>
+  <rect x="168" y="256" width="8" height="7" fill="#d4d0c4"/>
+  <polygon points="167,256 172,250 177,256" fill="#b04a3a"/>
+</svg>

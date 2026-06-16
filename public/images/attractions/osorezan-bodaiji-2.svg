@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Bubbling bright-yellow sulfur vents with stink lines, and a visitor pinching their nose against the smell">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe9d4"/>
+      <stop offset="1" stop-color="#d8cdb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky5)"/>
+  <rect x="0" y="260" width="400" height="140" fill="#c9b98c"/>
+  <ellipse cx="130" cy="320" rx="95" ry="45" fill="#b3a06a"/>
+  <ellipse cx="130" cy="315" rx="78" ry="34" fill="#e8d24a"/>
+  <ellipse cx="130" cy="310" rx="55" ry="22" fill="#f5e878"/>
+  <circle cx="110" cy="308" r="8" fill="#fff7c0"/>
+  <circle cx="148" cy="316" r="6" fill="#fff7c0"/>
+  <circle cx="130" cy="300" r="5" fill="#fff7c0"/>
+  <!-- stink lines -->
+  <g stroke="#8a9a3a" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M100 270 q-8 -18 6 -34 q-12 -16 4 -34"/>
+    <path d="M130 262 q-8 -18 6 -34 q-12 -16 4 -34"/>
+    <path d="M160 270 q-8 -18 6 -34 q-12 -16 4 -34"/>
+  </g>
+  <!-- visitor pinching nose -->
+  <g transform="translate(305,250)">
+    <ellipse cx="0" cy="90" rx="34" ry="14" fill="#a89570"/>
+    <rect x="-22" y="20" width="44" height="68" rx="14" fill="#3b7ea8"/>
+    <circle cx="0" cy="-2" r="26" fill="#f4cda3"/>
+    <path d="M-26 -8 q26 -34 52 0 q-26 -14 -52 0 z" fill="#3b2a1c"/>
+    <circle cx="-9" cy="-2" r="2.5" fill="#2a2018"/>
+    <path d="M5 -2 a4 4 0 1 0 0.1 0" fill="none" stroke="#2a2018" stroke-width="2"/>
+    <path d="M-8 12 q8 -6 14 2" stroke="#a86a4a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M-30 30 q-14 -6 -8 6 q4 8 14 2" fill="#f4cda3"/>
+    <circle cx="6" cy="10" r="4" fill="#f4cda3"/>
+  </g>
+</svg>

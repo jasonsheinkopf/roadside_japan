@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A cute funny cartoon cross-section diagram of a smiling tapeworm character waving hello">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff4e8"/>
+      <stop offset="100%" stop-color="#ffd9b3"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg6)"/>
+  <!-- diagram frame -->
+  <rect x="24" y="24" width="352" height="352" rx="16" fill="none" stroke="#e3a06a" stroke-width="3" stroke-dasharray="10 8"/>
+  <!-- segmented body curving -->
+  <g>
+    <path d="M120 300 q-30 -60 30 -90 q60 -30 30 -90" fill="none" stroke="#f6b88a" stroke-width="56" stroke-linecap="round"/>
+    <path d="M120 300 q-30 -60 30 -90 q60 -30 30 -90" fill="none" stroke="#f6c99e" stroke-width="44" stroke-linecap="round"/>
+  </g>
+  <!-- segment lines -->
+  <g stroke="#d98f5a" stroke-width="3" fill="none">
+    <line x1="96" y1="276" x2="148" y2="290"/>
+    <line x1="100" y1="232" x2="150" y2="240"/>
+    <line x1="128" y1="196" x2="172" y2="216"/>
+    <line x1="168" y1="172" x2="200" y2="206"/>
+  </g>
+  <!-- head -->
+  <circle cx="200" cy="110" r="46" fill="#f6b88a"/>
+  <circle cx="186" cy="102" r="9" fill="#fff"/>
+  <circle cx="214" cy="102" r="9" fill="#fff"/>
+  <circle cx="188" cy="104" r="4" fill="#3a2410"/>
+  <circle cx="216" cy="104" r="4" fill="#3a2410"/>
+  <path d="M182 124 q18 18 36 0" fill="none" stroke="#a05a2a" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="170" cy="120" r="7" fill="#f29bb0" opacity="0.7"/>
+  <circle cx="230" cy="120" r="7" fill="#f29bb0" opacity="0.7"/>
+  <!-- suckers (tapeworm scolex hooks) as little dots crown -->
+  <g fill="#e8a06a">
+    <circle cx="176" cy="72" r="6"/><circle cx="200" cy="66" r="6"/><circle cx="224" cy="72" r="6"/>
+  </g>
+  <!-- waving arm -->
+  <path d="M244 116 q34 -8 40 -40" fill="none" stroke="#f6b88a" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="286" cy="74" r="13" fill="#f6c99e"/>
+  <text x="200" y="356" font-family="sans-serif" font-size="18" fill="#a0531e" text-anchor="middle" font-weight="bold">Hello!</text>
+</svg>

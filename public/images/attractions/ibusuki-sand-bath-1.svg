@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Close-up of a blissful relaxed face poking out of black volcanic sand, a folded white towel like a turban on the head">
+  <defs>
+    <linearGradient id="ib1bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9a0"/>
+      <stop offset="1" stop-color="#f0a868"/>
+    </linearGradient>
+    <radialGradient id="ib1steam" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ib1bg)"/>
+  <!-- steam -->
+  <g fill="url(#ib1steam)">
+    <ellipse cx="120" cy="90" rx="40" ry="24"/><ellipse cx="280" cy="80" rx="46" ry="28"/>
+    <ellipse cx="200" cy="60" rx="50" ry="26"/>
+  </g>
+  <!-- black volcanic sand bed -->
+  <path d="M0 250 q200 -30 400 0 V400 H0 Z" fill="#2a2622"/>
+  <path d="M0 250 q200 -30 400 0 v18 q-200 -20 -400 0 Z" fill="#3a352e"/>
+  <!-- sand texture -->
+  <g fill="#4a443c">
+    <circle cx="50" cy="300" r="4"/><circle cx="120" cy="340" r="5"/><circle cx="300" cy="320" r="4"/>
+    <circle cx="360" cy="360" r="5"/><circle cx="70" cy="370" r="4"/><circle cx="330" cy="380" r="4"/>
+  </g>
+  <!-- face -->
+  <ellipse cx="200" cy="210" rx="68" ry="64" fill="#f0c28a"/>
+  <!-- white towel turban -->
+  <path d="M132 178 q68 -78 136 0 q-12 -22 -68 -22 q-56 0 -68 22 Z" fill="#fbfbf7"/>
+  <path d="M132 178 q68 -40 136 0" fill="none" stroke="#dcdcd2" stroke-width="3"/>
+  <line x1="160" y1="160" x2="172" y2="148" stroke="#dcdcd2" stroke-width="3"/>
+  <line x1="200" y1="152" x2="200" y2="138" stroke="#dcdcd2" stroke-width="3"/>
+  <line x1="240" y1="160" x2="228" y2="148" stroke="#dcdcd2" stroke-width="3"/>
+  <!-- blissful closed eyes -->
+  <path d="M158 206 q14 -10 28 0" fill="none" stroke="#5a4030" stroke-width="4" stroke-linecap="round"/>
+  <path d="M214 206 q14 -10 28 0" fill="none" stroke="#5a4030" stroke-width="4" stroke-linecap="round"/>
+  <!-- rosy cheeks -->
+  <circle cx="160" cy="232" r="12" fill="#f0a0a0" opacity="0.6"/>
+  <circle cx="240" cy="232" r="12" fill="#f0a0a0" opacity="0.6"/>
+  <!-- content smile -->
+  <path d="M174 244 q26 24 52 0" fill="none" stroke="#5a4030" stroke-width="4" stroke-linecap="round"/>
+  <!-- nose -->
+  <path d="M200 214 q-5 12 0 16" fill="none" stroke="#d8a070" stroke-width="3" stroke-linecap="round"/>
+</svg>

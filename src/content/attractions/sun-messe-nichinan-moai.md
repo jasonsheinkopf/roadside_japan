@@ -24,6 +24,13 @@ accessibility:
   wheelchair: partial
 dogFriendly: limited
 heroImage: "/images/attractions/sun-messe-nichinan-moai.svg"
+photos:
+  - src: "/images/attractions/sun-messe-nichinan-moai-1.svg"
+    alt: "The seven Moai statues lined up and viewed head-on"
+  - src: "/images/attractions/sun-messe-nichinan-moai-2.svg"
+    alt: "A tourist touching a 'luck in love' Moai surrounded by little hearts"
+  - src: "/images/attractions/sun-messe-nichinan-moai-3.svg"
+    alt: "A Moai wearing sunglasses gazing out over the Pacific"
 website: "https://www.sun-messe.co.jp/"
 tips:
   - "Touching specific Moai is said to grant luck in love, money, or study — signs explain which."

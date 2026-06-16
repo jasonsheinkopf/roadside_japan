@@ -26,6 +26,13 @@ accessibility:
   note: "Upper viewpoint paths are partly accessible; the boats and lower path are not."
 dogFriendly: limited
 heroImage: "/images/attractions/takachiho-gorge.svg"
+photos:
+  - src: "/images/attractions/takachiho-gorge-1.svg"
+    alt: "A rowboat drifting directly beneath the plunging Manai Falls"
+  - src: "/images/attractions/takachiho-gorge-2.svg"
+    alt: "A close-up of the gorge's geometric basalt rock columns"
+  - src: "/images/attractions/takachiho-gorge-3.svg"
+    alt: "A masked kagura dancer performing by lantern light at night"
 website: "https://takachiho-kanko.info/"
 tips:
   - "Book the rowboat slot online in advance — peak-season waits can run hours."

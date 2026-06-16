@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A funny close-up of tiny tourist faces peeking out from small observation windows in a giant bronze Buddha's chest">
+  <defs>
+    <linearGradient id="ud1bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a9a6a"/>
+      <stop offset="1" stop-color="#5a7a4a"/>
+    </linearGradient>
+    <linearGradient id="ud1br" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7fae8c"/>
+      <stop offset="1" stop-color="#4f7a62"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ud1bg)"/>
+  <!-- bronze chest close-up -->
+  <rect x="0" y="0" width="400" height="400" fill="url(#ud1br)"/>
+  <path d="M0 0q200 60 400 0v400H0z" fill="#5c8a72"/>
+  <!-- robe folds -->
+  <g stroke="#3f6650" stroke-width="6" opacity="0.6" fill="none">
+    <path d="M40 60q60 120 0 340"/>
+    <path d="M360 60q-60 120 0 340"/>
+    <path d="M200 120v280"/>
+  </g>
+  <!-- row of observation windows -->
+  <g>
+    <rect x="80" y="180" width="60" height="48" rx="6" fill="#1c2630"/>
+    <rect x="170" y="180" width="60" height="48" rx="6" fill="#1c2630"/>
+    <rect x="260" y="180" width="60" height="48" rx="6" fill="#1c2630"/>
+  </g>
+  <!-- tiny tourist faces -->
+  <g>
+    <circle cx="110" cy="206" r="14" fill="#f2c9a0"/>
+    <circle cx="104" cy="204" r="2.5" fill="#222"/><circle cx="116" cy="204" r="2.5" fill="#222"/>
+    <path d="M104 212q6 5 12 0" stroke="#a33" stroke-width="2" fill="none"/>
+    <circle cx="200" cy="206" r="14" fill="#e8b58a"/>
+    <circle cx="194" cy="204" r="2.5" fill="#222"/><circle cx="206" cy="204" r="2.5" fill="#222"/>
+    <ellipse cx="200" cy="212" rx="4" ry="5" fill="#a33"/>
+    <circle cx="290" cy="206" r="14" fill="#f2c9a0"/>
+    <circle cx="284" cy="204" r="2.5" fill="#222"/><circle cx="296" cy="204" r="2.5" fill="#222"/>
+    <path d="M284 213q6 4 12 0" stroke="#a33" stroke-width="2" fill="none"/>
+  </g>
+  <!-- waving little hand -->
+  <circle cx="318" cy="196" r="6" fill="#f2c9a0"/>
+</svg>

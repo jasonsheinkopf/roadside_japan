@@ -27,6 +27,13 @@ accessibility:
   note: "Staff assist; the beach itself is soft sand."
 dogFriendly: no
 heroImage: "/images/attractions/ibusuki-sand-bath.svg"
+photos:
+  - src: "/images/attractions/ibusuki-sand-bath-1.svg"
+    alt: "A blissful face poking out of the black sand wearing a folded-towel turban"
+  - src: "/images/attractions/ibusuki-sand-bath-2.svg"
+    alt: "A grinning attendant in a conical hat shoveling steaming volcanic sand"
+  - src: "/images/attractions/ibusuki-sand-bath-3.svg"
+    alt: "A neat row of just-heads sticking out of the sand, all gazing at the sea"
 website: "https://sa-raku.sakura.ne.jp/"
 tips:
   - "Stay buried 10–15 minutes — it's hotter and heavier than you expect."

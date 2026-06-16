@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A sandboarder mid-action zooming down the steep face of a tall sand dune">
+  <defs>
+    <linearGradient id="td2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd8f0"/>
+      <stop offset="1" stop-color="#e6f2ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#td2sky)"/>
+  <circle cx="320" cy="70" r="34" fill="#fff3b0"/>
+  <!-- steep dune -->
+  <path d="M0 60q160 40 400 280V400H0z" fill="#f0c878"/>
+  <path d="M0 120q160 40 400 260V400H0z" fill="#e0ad58"/>
+  <path d="M0 60q160 40 400 280" stroke="#fff" stroke-width="3" opacity="0.5" fill="none"/>
+  <!-- sandboarder -->
+  <g transform="rotate(38 200 200)">
+    <ellipse cx="200" cy="240" rx="46" ry="9" fill="#c79a4e"/>
+    <rect x="160" y="232" width="80" height="12" rx="6" fill="#d94c4c"/>
+    <rect x="190" y="180" width="22" height="56" rx="10" fill="#2e7d6e"/>
+    <circle cx="200" cy="160" r="18" fill="#f2c9a0"/>
+    <rect x="184" y="146" width="34" height="12" rx="6" fill="#1c1c2a"/>
+    <rect x="160" y="186" width="40" height="12" rx="6" fill="#2e7d6e"/>
+    <rect x="210" y="186" width="40" height="12" rx="6" fill="#2e7d6e"/>
+    <rect x="184" y="220" width="14" height="24" rx="6" fill="#2a2a3a"/>
+    <rect x="206" y="220" width="14" height="24" rx="6" fill="#2a2a3a"/>
+  </g>
+  <!-- spray of sand -->
+  <g fill="#fff" opacity="0.7">
+    <circle cx="120" cy="280" r="10"/><circle cx="100" cy="296" r="8"/>
+    <circle cx="140" cy="300" r="7"/><circle cx="84" cy="276" r="6"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="The somber gray concrete ruins of an old poison-gas factory with a small rabbit peeking out of a hole, bittersweet">
+  <defs>
+    <linearGradient id="bg15" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9aa3a8"/>
+      <stop offset="100%" stop-color="#c4c0b2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg15)"/>
+  <!-- overgrown ground -->
+  <rect x="0" y="330" width="400" height="70" fill="#7a8a64"/>
+  <!-- concrete ruin building -->
+  <rect x="50" y="90" width="300" height="250" fill="#8e8d86"/>
+  <rect x="50" y="90" width="300" height="250" fill="none" stroke="#6e6d66" stroke-width="4"/>
+  <!-- crumbled top edge -->
+  <polygon points="50,90 80,72 110,92 150,70 190,90 230,74 270,92 310,72 350,90" fill="#a3a298"/>
+  <!-- weathering streaks -->
+  <g stroke="#75746d" stroke-width="3" opacity="0.6">
+    <line x1="120" y1="100" x2="120" y2="200"/>
+    <line x1="240" y1="100" x2="240" y2="180"/>
+    <line x1="300" y1="110" x2="300" y2="240"/>
+  </g>
+  <!-- dark window openings -->
+  <rect x="80" y="130" width="50" height="64" fill="#3a3a36"/>
+  <rect x="270" y="130" width="50" height="64" fill="#3a3a36"/>
+  <!-- cracks -->
+  <path d="M175 90 l8 60 l-10 50 l12 80" fill="none" stroke="#5e5d56" stroke-width="3"/>
+  <!-- vines -->
+  <g stroke="#5a7a44" stroke-width="4" fill="none">
+    <path d="M50 200 q20 30 0 60 q-15 30 5 70"/>
+    <path d="M350 160 q-20 40 0 80 q15 40 -5 80"/>
+  </g>
+  <g fill="#6f9a52"><circle cx="48" cy="240" r="6"/><circle cx="58" cy="290" r="6"/><circle cx="352" cy="220" r="6"/><circle cx="346" cy="300" r="6"/></g>
+  <!-- doorway hole at base with rabbit peeking -->
+  <path d="M170 340 v-70 a30 30 0 0 1 60 0 v70 Z" fill="#2e2e2a"/>
+  <g transform="translate(200,300)">
+    <ellipse cx="-9" cy="-14" rx="5" ry="18" fill="#efe7da"/>
+    <ellipse cx="9" cy="-14" rx="5" ry="18" fill="#efe7da"/>
+    <circle cx="0" cy="6" r="22" fill="#efe7da"/>
+    <circle cx="-8" cy="2" r="4.5" fill="#2a2020"/>
+    <circle cx="8" cy="2" r="4.5" fill="#2a2020"/>
+    <ellipse cx="0" cy="14" rx="4" ry="3" fill="#d27a7a"/>
+  </g>
+</svg>

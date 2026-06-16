@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A colorful instant-noodle museum hall with a wall of cup designs and a giant cup of noodles">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe3a8"/><stop offset="1" stop-color="#ffd27a"/></linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f1ea"/><stop offset="1" stop-color="#e2dccf"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#wall)"/>
+  <rect y="420" width="800" height="80" fill="#c98f3a"/>
+  <!-- wall of ramen packages (grid of colorful cups) -->
+  <g>
+    <g id="row">
+    </g>
+  </g>
+  <g>
+    <!-- generate a grid of little cups -->
+    <g>
+      <g fill="#e0463a"><rect x="40" y="70" width="44" height="54" rx="6"/></g>
+      <g fill="#3a86c8"><rect x="96" y="70" width="44" height="54" rx="6"/></g>
+      <g fill="#e8a93a"><rect x="152" y="70" width="44" height="54" rx="6"/></g>
+      <g fill="#54a85a"><rect x="208" y="70" width="44" height="54" rx="6"/></g>
+      <g fill="#c45a9a"><rect x="264" y="70" width="44" height="54" rx="6"/></g>
+      <g fill="#e0463a"><rect x="492" y="70" width="44" height="54" rx="6"/></g>
+      <g fill="#3a86c8"><rect x="548" y="70" width="44" height="54" rx="6"/></g>
+      <g fill="#e8a93a"><rect x="604" y="70" width="44" height="54" rx="6"/></g>
+      <g fill="#54a85a"><rect x="660" y="70" width="44" height="54" rx="6"/></g>
+      <g fill="#c45a9a"><rect x="716" y="70" width="44" height="54" rx="6"/></g>
+
+      <g fill="#3a86c8"><rect x="40" y="140" width="44" height="54" rx="6"/></g>
+      <g fill="#e8a93a"><rect x="96" y="140" width="44" height="54" rx="6"/></g>
+      <g fill="#e0463a"><rect x="152" y="140" width="44" height="54" rx="6"/></g>
+      <g fill="#c45a9a"><rect x="208" y="140" width="44" height="54" rx="6"/></g>
+      <g fill="#54a85a"><rect x="264" y="140" width="44" height="54" rx="6"/></g>
+      <g fill="#54a85a"><rect x="492" y="140" width="44" height="54" rx="6"/></g>
+      <g fill="#e0463a"><rect x="548" y="140" width="44" height="54" rx="6"/></g>
+      <g fill="#3a86c8"><rect x="604" y="140" width="44" height="54" rx="6"/></g>
+      <g fill="#e8a93a"><rect x="660" y="140" width="44" height="54" rx="6"/></g>
+      <g fill="#e0463a"><rect x="716" y="140" width="44" height="54" rx="6"/></g>
+
+      <g fill="#e8a93a"><rect x="40" y="210" width="44" height="54" rx="6"/></g>
+      <g fill="#c45a9a"><rect x="96" y="210" width="44" height="54" rx="6"/></g>
+      <g fill="#54a85a"><rect x="152" y="210" width="44" height="54" rx="6"/></g>
+      <g fill="#3a86c8"><rect x="208" y="210" width="44" height="54" rx="6"/></g>
+      <g fill="#e0463a"><rect x="264" y="210" width="44" height="54" rx="6"/></g>
+      <g fill="#3a86c8"><rect x="492" y="210" width="44" height="54" rx="6"/></g>
+      <g fill="#e8a93a"><rect x="548" y="210" width="44" height="54" rx="6"/></g>
+      <g fill="#e0463a"><rect x="604" y="210" width="44" height="54" rx="6"/></g>
+      <g fill="#c45a9a"><rect x="660" y="210" width="44" height="54" rx="6"/></g>
+      <g fill="#54a85a"><rect x="716" y="210" width="44" height="54" rx="6"/></g>
+    </g>
+    <!-- lids -->
+    <g fill="#ffffff" opacity="0.85"><rect x="40" y="64" width="44" height="10" rx="4"/><rect x="96" y="64" width="44" height="10" rx="4"/><rect x="152" y="64" width="44" height="10" rx="4"/><rect x="208" y="64" width="44" height="10" rx="4"/><rect x="264" y="64" width="44" height="10" rx="4"/><rect x="492" y="64" width="44" height="10" rx="4"/><rect x="548" y="64" width="44" height="10" rx="4"/><rect x="604" y="64" width="44" height="10" rx="4"/><rect x="660" y="64" width="44" height="10" rx="4"/><rect x="716" y="64" width="44" height="10" rx="4"/></g>
+  </g>
+  <!-- giant cup noodle center -->
+  <g transform="translate(330,250)">
+    <ellipse cx="70" cy="230" rx="90" ry="18" fill="#000" opacity="0.12"/>
+    <path d="M0 0 L140 0 L122 210 L18 210 Z" fill="url(#cup)"/>
+    <rect x="0" y="0" width="140" height="40" rx="6" fill="#e0463a"/>
+    <rect x="0" y="46" width="140" height="14" fill="#3a86c8"/>
+    <text x="70" y="120" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#b23a2f">NOODLES</text>
+    <!-- steam + noodles + chopsticks -->
+    <g opacity="0.6" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"><path d="M50 -6 q-12 -26 4 -46"/><path d="M90 -6 q12 -26 -4 -46"/></g>
+    <path d="M30 -10 q40 -24 80 0" fill="none" stroke="#f2c94c" stroke-width="6"/>
+    <g stroke="#9a6a3a" stroke-width="5"><line x1="96" y1="-44" x2="150" y2="20"/><line x1="108" y1="-44" x2="162" y2="20"/></g>
+  </g>
+  <!-- Momofuku Ando heroic statue with cup torch -->
+  <g transform="translate(610,300)">
+    <ellipse cx="30" cy="150" rx="44" ry="12" fill="#000" opacity="0.12"/>
+    <rect x="6" y="70" width="48" height="80" rx="10" fill="#b58a4a"/>
+    <circle cx="30" cy="50" r="22" fill="#caa06a"/>
+    <path d="M12 44 q18 -22 36 0 q-8 -8 -18 -8 q-10 0 -18 8z" fill="#e8e2d4"/>
+    <circle cx="23" cy="50" r="2.4" fill="#2a2018"/><circle cx="37" cy="50" r="2.4" fill="#2a2018"/>
+    <path d="M22 60 q8 5 16 0" stroke="#7a5a3a" stroke-width="2" fill="none"/>
+    <!-- raised arm holding cup aloft like a torch -->
+    <path d="M50 80 q26 -16 30 -50" stroke="#b58a4a" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <g transform="translate(72,18)"><path d="M0 0 L34 0 L29 40 L5 40Z" fill="#f4f1ea"/><rect x="0" y="0" width="34" height="11" rx="3" fill="#e0463a"/>
+      <g opacity="0.7" stroke="#ffd24a" stroke-width="4" fill="none" stroke-linecap="round"><path d="M10 -2 q-6 -14 2 -24"/><path d="M24 -2 q6 -14 -2 -24"/><path d="M17 -4 v-22"/></g></g>
+  </g>
+</svg>

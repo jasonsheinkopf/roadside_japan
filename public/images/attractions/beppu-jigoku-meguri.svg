@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Steaming technicolor hot-spring 'hells' with a grinning red demon mascot">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe3ee"/><stop offset="1" stop-color="#eef6f9"/></linearGradient>
+    <radialGradient id="blue" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#6fd0e6"/><stop offset="1" stop-color="#2b8fc4"/></radialGradient>
+    <radialGradient id="red" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#e8654a"/><stop offset="1" stop-color="#b32b22"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <!-- distant green hills -->
+  <path d="M0 230 Q200 180 400 220 Q600 256 800 210 L800 300 L0 300Z" fill="#8aab84"/>
+  <!-- ground -->
+  <rect y="280" width="800" height="220" fill="#c9b79a"/>
+  <path d="M0 280 Q400 262 800 280 L800 320 L0 320Z" fill="#b3a079"/>
+  <!-- steam columns -->
+  <g opacity="0.6" stroke="#ffffff" stroke-width="14" fill="none" stroke-linecap="round">
+    <path d="M180 280 q-26 -50 4 -96 q24 -38 -2 -78"/>
+    <path d="M470 280 q28 -56 -2 -104 q-24 -40 4 -76"/>
+    <path d="M640 280 q-22 -44 4 -84"/>
+  </g>
+  <!-- blue hell -->
+  <ellipse cx="180" cy="320" rx="150" ry="50" fill="#7a6f5e"/>
+  <ellipse cx="180" cy="312" rx="132" ry="42" fill="url(#blue)"/>
+  <ellipse cx="160" cy="304" rx="50" ry="14" fill="#bfeaf2" opacity="0.6"/>
+  <!-- red hell -->
+  <ellipse cx="470" cy="340" rx="160" ry="52" fill="#7a6f5e"/>
+  <ellipse cx="470" cy="332" rx="142" ry="44" fill="url(#red)"/>
+  <ellipse cx="450" cy="324" rx="54" ry="14" fill="#f0a18f" opacity="0.5"/>
+  <!-- red oni demon lounging with egg basket -->
+  <g transform="translate(610,300)">
+    <ellipse cx="60" cy="150" rx="80" ry="18" fill="#000" opacity="0.12"/>
+    <ellipse cx="60" cy="96" rx="56" ry="50" fill="#e0473a"/>
+    <circle cx="36" cy="60" r="44" fill="#e0473a"/>
+    <path d="M8 30 l-6 -22 20 12z M64 30 l6 -22 -20 12z" fill="#f2e9c0"/>
+    <circle cx="24" cy="56" r="6" fill="#fff"/><circle cx="50" cy="56" r="6" fill="#fff"/>
+    <circle cx="25" cy="57" r="3" fill="#2a1a14"/><circle cx="51" cy="57" r="3" fill="#2a1a14"/>
+    <path d="M14 50 l16 6M60 50 l-16 6" stroke="#7a1f17" stroke-width="3"/>
+    <path d="M18 74 q18 14 36 0 q-18 22 -36 0z" fill="#7a1f17"/>
+    <rect x="20" y="74" width="6" height="8" fill="#fff"/><rect x="44" y="74" width="6" height="8" fill="#fff"/>
+    <!-- arm + basket of eggs -->
+    <path d="M96 96 q34 6 40 40" stroke="#e0473a" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M118 128 h52 l-8 30 -36 0z" fill="#b9863f"/>
+    <g fill="#fbf3df"><ellipse cx="130" cy="134" rx="9" ry="11"/><ellipse cx="148" cy="132" rx="9" ry="11"/><ellipse cx="160" cy="138" rx="8" ry="10"/></g>
+  </g>
+  <!-- little plume birds -->
+  <g stroke="#3a3a3a" stroke-width="2" fill="none"><path d="M120 110 q8 -8 16 0 q8 -8 16 0"/></g>
+</svg>

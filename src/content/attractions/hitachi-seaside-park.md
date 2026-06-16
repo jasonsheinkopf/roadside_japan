@@ -28,6 +28,13 @@ accessibility:
   note: "Wide paved paths; rentable wheelchairs and a road train."
 dogFriendly: yes
 heroImage: "/images/attractions/hitachi-seaside-park.svg"
+photos:
+  - src: "/images/attractions/hitachi-seaside-park-1.svg"
+    alt: "A close-up of baby-blue-eyes nemophila flowers carpeting the hill"
+  - src: "/images/attractions/hitachi-seaside-park-2.svg"
+    alt: "Round crimson kochia bushes in autumn lined up like fuzzy red buns"
+  - src: "/images/attractions/hitachi-seaside-park-3.svg"
+    alt: "A visitor lying in the blue flowers pretending to swim in a sea of blossoms"
 website: "https://hitachikaihin.jp/"
 tips:
   - "Arrive at opening on peak-bloom weekends — the famous Miharashi Hill gets very crowded."

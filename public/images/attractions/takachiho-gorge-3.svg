@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A masked traditional kagura dancer performing by warm lantern light at night">
+  <defs>
+    <radialGradient id="kg3bg" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#5a3a2a"/>
+      <stop offset="1" stop-color="#1c120e"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#kg3bg)"/>
+  <!-- lanterns -->
+  <g>
+    <rect x="46" y="60" width="40" height="56" rx="20" fill="#e0584f"/>
+    <rect x="46" y="80" width="40" height="6" fill="#fff" opacity="0.5"/>
+    <circle cx="66" cy="88" r="26" fill="#ffb04a" opacity="0.35"/>
+    <rect x="314" y="60" width="40" height="56" rx="20" fill="#e0584f"/>
+    <rect x="314" y="80" width="40" height="6" fill="#fff" opacity="0.5"/>
+    <circle cx="334" cy="88" r="26" fill="#ffb04a" opacity="0.35"/>
+  </g>
+  <!-- dancer -->
+  <ellipse cx="200" cy="382" rx="90" ry="16" fill="#100b08"/>
+  <path d="M150 380l16 -150h68l16 150z" fill="#c0392b"/>
+  <path d="M166 230l-30 90 30 10z" fill="#e0b020"/>
+  <path d="M234 230l30 90 -30 10z" fill="#e0b020"/>
+  <rect x="172" y="200" width="56" height="60" fill="#1f6f8b"/>
+  <!-- mask -->
+  <ellipse cx="200" cy="170" rx="40" ry="48" fill="#f0d9b5"/>
+  <path d="M160 150q40 -34 80 0z" fill="#c0392b"/>
+  <path d="M160 150q40 -34 80 0" fill="none"/>
+  <ellipse cx="184" cy="172" rx="6" ry="10" fill="#2a1a12"/>
+  <ellipse cx="216" cy="172" rx="6" ry="10" fill="#2a1a12"/>
+  <path d="M178 198q22 14 44 0" stroke="#a33" stroke-width="4" fill="none"/>
+  <path d="M170 196q30 16 60 0l-6 14h-48z" fill="#7a1c14"/>
+  <!-- topknot -->
+  <rect x="190" y="118" width="20" height="14" rx="6" fill="#2a1a12"/>
+</svg>

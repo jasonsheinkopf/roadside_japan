@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A small tour boat approaching a gray battleship-shaped abandoned island of crumbling towers under a moody sky">
+  <defs>
+    <linearGradient id="sky7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8d97a4"/>
+      <stop offset="1" stop-color="#bcc4ce"/>
+    </linearGradient>
+    <linearGradient id="sea7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b7488"/>
+      <stop offset="1" stop-color="#3f5566"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky7)"/>
+  <ellipse cx="120" cy="80" rx="90" ry="40" fill="#aeb6c0" opacity="0.6"/>
+  <ellipse cx="300" cy="110" rx="80" ry="34" fill="#9ba3ad" opacity="0.5"/>
+  <rect x="0" y="250" width="400" height="150" fill="url(#sea7)"/>
+  <!-- island silhouette -->
+  <path d="M60 250 q140 -30 280 0 z" fill="#4a4f56"/>
+  <rect x="70" y="160" width="260" height="95" fill="#5a5f66"/>
+  <g fill="#42464c">
+    <rect x="80" y="120" width="34" height="135"/>
+    <rect x="125" y="100" width="40" height="155"/>
+    <rect x="175" y="135" width="32" height="120"/>
+    <rect x="215" y="90" width="44" height="165"/>
+    <rect x="270" y="125" width="36" height="130"/>
+  </g>
+  <g fill="#6e747c" opacity="0.8">
+    <rect x="130" y="110" width="6" height="8"/><rect x="145" y="110" width="6" height="8"/>
+    <rect x="130" y="130" width="6" height="8"/><rect x="145" y="130" width="6" height="8"/>
+    <rect x="222" y="100" width="6" height="8"/><rect x="240" y="100" width="6" height="8"/>
+    <rect x="222" y="125" width="6" height="8"/><rect x="240" y="125" width="6" height="8"/>
+    <rect x="86" y="135" width="6" height="8"/><rect x="280" y="140" width="6" height="8"/>
+  </g>
+  <!-- tour boat -->
+  <g transform="translate(90,320)">
+    <path d="M-40 0 q-10 18 8 20 l64 0 q18 -2 8 -20 z" fill="#d24b3a"/>
+    <rect x="-26" y="-18" width="52" height="20" rx="3" fill="#f0eee8"/>
+    <rect x="-18" y="-14" width="12" height="10" fill="#88b6cc"/>
+    <rect x="2" y="-14" width="12" height="10" fill="#88b6cc"/>
+  </g>
+  <g stroke="#7a90a2" stroke-width="3" opacity="0.6" stroke-linecap="round">
+    <line x1="180" y1="300" x2="260" y2="300"/>
+    <line x1="220" y1="330" x2="320" y2="330"/>
+  </g>
+</svg>

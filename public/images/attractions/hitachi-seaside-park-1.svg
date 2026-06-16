@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Close-up of pale baby-blue nemophila flowers carpeting a green hill under blue sky">
+  <defs>
+    <linearGradient id="hs1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fc3ee"/>
+      <stop offset="1" stop-color="#bfe4f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#hs1sky)"/>
+  <circle cx="60" cy="60" r="36" fill="#fff8e0" opacity="0.9"/>
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="300" cy="70" rx="40" ry="18"/>
+    <ellipse cx="330" cy="62" rx="28" ry="16"/>
+  </g>
+  <!-- green hill carpeted with baby-blue flowers -->
+  <path d="M0 150 q200 -50 400 0 V400 H0 Z" fill="#9ec6e8"/>
+  <path d="M0 170 q200 -40 400 0 V400 H0 Z" fill="#aed3ee"/>
+  <!-- many small nemophila blossoms -->
+  <g>
+    <g fill="#bcdcf5" stroke="#7fb8e6" stroke-width="1">
+      <g id="hf"><circle cx="0" cy="-7" r="6"/><circle cx="6.6" cy="-2.2" r="6"/><circle cx="4.1" cy="5.6" r="6"/><circle cx="-4.1" cy="5.6" r="6"/><circle cx="-6.6" cy="-2.2" r="6"/></g>
+    </g>
+  </g>
+  <g fill="#cfe8fb" stroke="#86bce8" stroke-width="1.2">
+    <use href="#hf" x="50" y="210"/><use href="#hf" x="120" y="200"/><use href="#hf" x="200" y="215"/>
+    <use href="#hf" x="280" y="205"/><use href="#hf" x="350" y="220"/>
+    <use href="#hf" x="80" y="270"/><use href="#hf" x="160" y="280"/><use href="#hf" x="240" y="270"/>
+    <use href="#hf" x="320" y="285"/><use href="#hf" x="30" y="300"/>
+    <use href="#hf" x="110" y="340"/><use href="#hf" x="200" y="350"/><use href="#hf" x="290" y="345"/>
+    <use href="#hf" x="360" y="360"/><use href="#hf" x="60" y="370"/>
+  </g>
+  <g fill="#2e5e98">
+    <circle cx="50" cy="210" r="2"/><circle cx="120" cy="200" r="2"/><circle cx="200" cy="215" r="2"/>
+    <circle cx="280" cy="205" r="2"/><circle cx="350" cy="220" r="2"/>
+    <circle cx="80" cy="270" r="2"/><circle cx="160" cy="280" r="2"/><circle cx="240" cy="270" r="2"/>
+    <circle cx="320" cy="285" r="2"/><circle cx="30" cy="300" r="2"/>
+    <circle cx="110" cy="340" r="2"/><circle cx="200" cy="350" r="2"/><circle cx="290" cy="345" r="2"/>
+    <circle cx="360" cy="360" r="2"/><circle cx="60" cy="370" r="2"/>
+  </g>
+</svg>

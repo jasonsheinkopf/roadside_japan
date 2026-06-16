@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A close-up of a pink moss-phlox (shibazakura) carpet planted in neat colorful ribbons">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe3f5"/>
+      <stop offset="100%" stop-color="#e6f5fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky4)"/>
+  <rect x="0" y="60" width="400" height="40" fill="#f6a8c8"/>
+  <!-- perspective ribbons -->
+  <g>
+    <polygon points="0,100 400,100 400,150 0,160" fill="#e85a8e"/>
+    <polygon points="0,160 400,150 400,210 0,235" fill="#f8c3da"/>
+    <polygon points="0,235 400,210 400,290 0,330" fill="#d84684"/>
+    <polygon points="0,330 400,290 400,380 0,400" fill="#f29ac0"/>
+    <polygon points="0,290 400,260 400,300 0,360" fill="#fff" opacity="0.5"/>
+  </g>
+  <!-- scattered blossoms -->
+  <g fill="#fff" opacity="0.85">
+    <circle cx="60" cy="180" r="4"/><circle cx="160" cy="200" r="5"/><circle cx="280" cy="175" r="4"/>
+    <circle cx="340" cy="250" r="6"/><circle cx="100" cy="300" r="6"/><circle cx="220" cy="330" r="7"/>
+    <circle cx="40" cy="360" r="7"/><circle cx="320" cy="350" r="7"/>
+  </g>
+  <g fill="#c23a72">
+    <circle cx="60" cy="180" r="1.5"/><circle cx="160" cy="200" r="1.5"/><circle cx="100" cy="300" r="2"/><circle cx="220" cy="330" r="2"/><circle cx="40" cy="360" r="2"/><circle cx="320" cy="350" r="2"/>
+  </g>
+</svg>
