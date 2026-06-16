@@ -34,6 +34,8 @@ import { PREFECTURE_SLUGS } from "./data/prefectures";
 const photo = z.object({
   src: z.string(), // URL, or path under /public (e.g. "/images/foo.jpg"), or remote https URL
   alt: z.string(),
+  /** Short, personality-filled caption (often in Mon-chan's voice) shown under the photo. */
+  caption: z.string().optional(),
   credit: z.string().optional(),
   creditUrl: z.string().url().optional(),
 });

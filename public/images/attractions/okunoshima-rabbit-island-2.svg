@@ -1,46 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A single cute rabbit standing up on its hind legs begging for a food pellet">
-  <defs>
-    <linearGradient id="bg14" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#d8eef6"/>
-      <stop offset="100%" stop-color="#a8d8b0"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#bg14)"/>
-  <ellipse cx="200" cy="360" rx="120" ry="30" fill="#8cc080"/>
-  <!-- begging rabbit -->
-  <g transform="translate(200,130)">
-    <!-- ears -->
-    <ellipse cx="-22" cy="-50" rx="14" ry="48" fill="#efe7da"/>
-    <ellipse cx="22" cy="-50" rx="14" ry="48" fill="#efe7da"/>
-    <ellipse cx="-22" cy="-46" rx="6" ry="36" fill="#f4c8c8"/>
-    <ellipse cx="22" cy="-46" rx="6" ry="36" fill="#f4c8c8"/>
-    <!-- head -->
-    <circle cx="0" cy="10" r="44" fill="#efe7da"/>
-    <!-- cheeks -->
-    <circle cx="-26" cy="20" r="14" fill="#fff" opacity="0.6"/>
-    <circle cx="26" cy="20" r="14" fill="#fff" opacity="0.6"/>
-    <!-- eyes -->
-    <circle cx="-16" cy="6" r="9" fill="#3a2a2a"/>
-    <circle cx="16" cy="6" r="9" fill="#3a2a2a"/>
-    <circle cx="-13" cy="2" r="3" fill="#fff"/>
-    <circle cx="19" cy="2" r="3" fill="#fff"/>
-    <!-- nose + mouth -->
-    <ellipse cx="0" cy="24" rx="6" ry="4" fill="#d27a7a"/>
-    <path d="M0 28 v6 M0 32 q-8 4 -14 1 M0 32 q8 4 14 1" stroke="#b86060" stroke-width="2.5" fill="none"/>
-    <!-- body -->
-    <ellipse cx="0" cy="150" rx="50" ry="72" fill="#efe7da"/>
-    <ellipse cx="0" cy="170" rx="34" ry="46" fill="#fff" opacity="0.5"/>
-    <!-- begging front paws -->
-    <ellipse cx="-18" cy="92" rx="10" ry="24" fill="#efe7da" transform="rotate(-12 -18 92)"/>
-    <ellipse cx="18" cy="92" rx="10" ry="24" fill="#efe7da" transform="rotate(12 18 92)"/>
-    <!-- hind feet -->
-    <ellipse cx="-34" cy="216" rx="20" ry="11" fill="#fff"/>
-    <ellipse cx="34" cy="216" rx="20" ry="11" fill="#fff"/>
-  </g>
-  <!-- floating food pellet -->
-  <circle cx="200" cy="60" r="11" fill="#9a6a3a"/>
-  <circle cx="196" cy="56" r="3" fill="#c2935a"/>
-  <g stroke="#c2a05a" stroke-width="2.5" stroke-linecap="round">
-    <line x1="180" y1="48" x2="174" y2="42"/><line x1="220" y1="48" x2="226" y2="42"/><line x1="200" y1="42" x2="200" y2="34"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan surrounded by friendly rabbits, giving a peace sign">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8eef6"/><stop offset="1" stop-color="#a8d8b0"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<ellipse cx="200" cy="370" rx="180" ry="34" fill="#8cc080"/>
+<rect y="280" width="400" height="40" fill="#9fd49a" opacity="0.6"/>
+<!-- rabbits around -->
+<g transform="translate(55,310)"><ellipse cx="-10" cy="-40" rx="6" ry="20" fill="#efe7da"/><ellipse cx="6" cy="-40" rx="6" ry="20" fill="#efe7da"/><circle cx="-2" cy="-12" r="20" fill="#efe7da"/><circle cx="-9" cy="-14" r="3" fill="#3a2a2a"/><circle cx="4" cy="-14" r="3" fill="#3a2a2a"/><ellipse cx="-2" cy="-4" rx="3" ry="2" fill="#d27a7a"/><ellipse cx="-2" cy="22" rx="24" ry="20" fill="#efe7da"/></g>
+<g transform="translate(345,315)"><ellipse cx="-10" cy="-40" rx="6" ry="20" fill="#cabba0"/><ellipse cx="6" cy="-40" rx="6" ry="20" fill="#cabba0"/><circle cx="-2" cy="-12" r="20" fill="#cabba0"/><circle cx="-9" cy="-14" r="3" fill="#3a2a2a"/><circle cx="4" cy="-14" r="3" fill="#3a2a2a"/><ellipse cx="-2" cy="-4" rx="3" ry="2" fill="#d27a7a"/><ellipse cx="-2" cy="22" rx="24" ry="20" fill="#cabba0"/></g>
+<g transform="translate(110,375)"><ellipse cx="-8" cy="-30" rx="5" ry="15" fill="#efe7da"/><ellipse cx="6" cy="-30" rx="5" ry="15" fill="#efe7da"/><circle cx="-1" cy="-8" r="15" fill="#efe7da"/><circle cx="-6" cy="-9" r="2.5" fill="#3a2a2a"/><circle cx="4" cy="-9" r="2.5" fill="#3a2a2a"/></g>
+<g transform="translate(290,378)"><ellipse cx="-8" cy="-30" rx="5" ry="15" fill="#d6c8b0"/><ellipse cx="6" cy="-30" rx="5" ry="15" fill="#d6c8b0"/><circle cx="-1" cy="-8" r="15" fill="#d6c8b0"/><circle cx="-6" cy="-9" r="2.5" fill="#3a2a2a"/><circle cx="4" cy="-9" r="2.5" fill="#3a2a2a"/></g>
+<!-- Mon-chan center peace -->
+<g transform="translate(200,250) scale(1.0)">
+<path d="M-42 60 q-14 -70 42 -78 q56 8 42 78 z" fill="url(#fur)"/>
+<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#faf1e0"/>
+<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#faf1e0"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#faf1e0"/>
+<g transform="translate(46,-30) rotate(18)"><ellipse cx="0" cy="6" rx="10" ry="11" fill="#faf1e0"/><rect x="-7" y="-14" width="5" height="16" rx="2.5" fill="#faf1e0"/><rect x="2" y="-14" width="5" height="16" rx="2.5" fill="#faf1e0"/></g>
+<path d="M-32 0 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/><path d="M0 0 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="-20" cy="-12" r="2" fill="#fff"/><circle cx="14" cy="-12" r="2" fill="#fff"/>
+<path d="M-50 -86 l-10 -40 38 22z" fill="url(#fur)"/><path d="M50 -86 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M-47 -94 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M47 -94 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="0" cy="-66" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="-20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="-18" cy="-69" r="2.2" fill="#fff"/><circle cx="22" cy="-69" r="2.2" fill="#fff"/>
+<path d="M-6 -50 h12 l-6 7z" fill="#3a3330"/>
+<path d="M-6 -40 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+</g>
 </svg>

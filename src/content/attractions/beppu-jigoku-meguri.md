@@ -30,11 +30,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/beppu-jigoku-meguri.svg"
 photos:
   - src: "/images/attractions/beppu-jigoku-meguri-1.svg"
-    alt: "The cobalt-blue Umi Jigoku 'sea hell' pond billowing white steam"
+    alt: "A cobalt-blue boiling 'sea hell' pond billowing white steam"
+    caption: "Looks like a bath. Is 98°C. I did NOT get in."
   - src: "/images/attractions/beppu-jigoku-meguri-2.svg"
-    alt: "The blood-red Chinoike Jigoku pond with a nervous egg about to be boiled in it"
-  - src: "/images/attractions/beppu-jigoku-meguri-3.svg"
-    alt: "A smug red oni demon lounging beside a steaming pond with a basket of onsen-boiled eggs"
+    alt: "Mon-chan posing by a steaming red hell pond with a basket of onsen eggs"
+    caption: "Can't bathe, but you can boil eggs. Snack tour! 🥚"
 website: "https://www.beppu-jigoku.com/"
 tips:
   - "Buy the combined ticket — it covers all seven and you'll want to see the cobalt 'sea hell' and the red 'blood pond.'"

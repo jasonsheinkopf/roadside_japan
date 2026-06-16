@@ -30,11 +30,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/takeda-castle-ruins.svg"
 photos:
   - src: "/images/attractions/takeda-castle-ruins-1.svg"
-    alt: "The stone ramparts wrapped in a dawn sea of clouds"
+    alt: "Stone ramparts wrapped in a dawn sea of clouds"
+    caption: "The castle floats on clouds at dawn. Worth the 4am alarm."
   - src: "/images/attractions/takeda-castle-ruins-2.svg"
-    alt: "A sleepy 4 a.m. photographer with coffee and tripod waiting for the clouds"
-  - src: "/images/attractions/takeda-castle-ruins-3.svg"
-    alt: "The mountaintop stone walls framed by red autumn maples"
+    alt: "Mon-chan yawning at sunrise beside the cloud-wrapped castle ruins"
+    caption: "Up before the sun for this. The sun owes me. 😴"
 website: "https://www.city.asago.hyogo.jp/"
 tips:
   - "For the floating-castle photo you must be up before sunrise — and you watch from Ritsuunkyo viewpoint on the facing mountain, not from the ruins themselves."

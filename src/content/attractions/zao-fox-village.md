@@ -30,11 +30,11 @@ dogFriendly: no
 heroImage: "/images/attractions/zao-fox-village.svg"
 photos:
   - src: "/images/attractions/zao-fox-village-1.svg"
-    alt: "A cozy pile of fluffy foxes napping together in the snow"
+    alt: "A cozy pile of fluffy red and white foxes napping in the snow"
+    caption: "A hundred foxes, all napping. I respect the commitment."
   - src: "/images/attractions/zao-fox-village-2.svg"
-    alt: "A sly fox eyeing a tossed food pellet frozen in mid-air"
-  - src: "/images/attractions/zao-fox-village-3.svg"
-    alt: "A 'do not touch' sign beside a fox brazenly stealing a visitor's glove"
+    alt: "Mon-chan meeting a curious fox nose-to-nose in the snow"
+    caption: "Distant cousins, maybe? We agreed not to discuss tails. 🦊"
 website: "https://zao-fox-village.com/"
 tips:
   - "Feed only from the designated spot by tossing pellets — no hand-feeding, and don't crouch with food."

@@ -1,28 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A ropeway gondola cabin gliding among a field of white frozen snow-monster trees">
-  <defs>
-    <linearGradient id="sky14" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#5a9bdc"/>
-      <stop offset="100%" stop-color="#cfe7f7"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#sky14)"/>
-  <rect x="0" y="300" width="400" height="100" fill="#eef6fc"/>
-  <!-- snow monster field -->
-  <g fill="#f4faff" stroke="#d3e6f2" stroke-width="2">
-    <path d="M40 320 Q30 270 50 260 Q40 230 60 225 Q55 200 70 200 Q85 200 80 225 Q100 230 90 260 Q110 270 100 320 Z"/>
-    <path d="M120 330 Q108 280 128 268 Q118 240 138 235 Q132 210 150 210 Q166 210 160 235 Q180 240 170 268 Q190 280 178 330 Z"/>
-    <path d="M300 325 Q290 275 310 264 Q300 236 320 231 Q314 208 330 208 Q346 208 340 231 Q360 236 350 264 Q370 275 360 325 Z"/>
-    <path d="M225 335 Q214 285 234 273 Q224 246 244 241 Q238 218 256 218 Q272 218 266 241 Q286 246 276 273 Q296 285 285 335 Z"/>
-  </g>
-  <!-- ropeway cable -->
-  <line x1="0" y1="90" x2="400" y2="150" stroke="#3a4a5a" stroke-width="3"/>
-  <!-- gondola -->
-  <g transform="translate(200 165)">
-    <line x1="0" y1="-50" x2="0" y2="-22" stroke="#3a4a5a" stroke-width="4"/>
-    <rect x="-12" y="-55" width="24" height="10" rx="3" fill="#5a6a7a"/>
-    <rect x="-38" y="-22" width="76" height="58" rx="12" fill="#e8584c"/>
-    <rect x="-30" y="-12" width="60" height="26" rx="6" fill="#bfe2f5"/>
-    <line x1="0" y1="-12" x2="0" y2="14" stroke="#fff" stroke-width="3"/>
-    <rect x="-38" y="6" width="76" height="8" fill="#c0392b"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan in a tiny scarf among towering frozen snow-monster trees">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a9bdc"/><stop offset="1" stop-color="#cfe7f7"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#sky)"/>
+<rect y="300" width="400" height="100" fill="#eef6fc"/>
+<g fill="#f4faff" stroke="#d3e6f2" stroke-width="2">
+<path d="M40 320 Q30 270 50 260 Q40 230 60 225 Q55 200 70 200 Q85 200 80 225 Q100 230 90 260 Q110 270 100 320 Z"/>
+<path d="M120 330 Q108 280 128 268 Q118 240 138 235 Q132 210 150 210 Q166 210 160 235 Q180 240 170 268 Q190 280 178 330 Z"/>
+<path d="M300 325 Q290 275 310 264 Q300 236 320 231 Q314 208 330 208 Q346 208 340 231 Q360 236 350 264 Q370 275 360 325 Z"/>
+<path d="M225 335 Q214 285 234 273 Q224 246 244 241 Q238 218 256 218 Q272 218 266 241 Q286 246 276 273 Q296 285 285 335 Z"/></g>
+<g transform="translate(125,210) scale(0.82)">
+<ellipse cx="120" cy="218" rx="70" ry="11" fill="#000" opacity="0.10"/>
+<path d="M70 205 q-14 -75 50 -83 q64 8 50 83 z" fill="url(#fur)"/>
+<path d="M96 205 q-14 -62 24 -68 q38 6 24 68 z" fill="#faf1e0"/>
+<ellipse cx="80" cy="208" rx="22" ry="13" fill="#faf1e0"/><ellipse cx="160" cy="208" rx="22" ry="13" fill="#faf1e0"/>
+<path d="M150 150 q34 -30 40 -70" fill="none" stroke="#faf1e0" stroke-width="20" stroke-linecap="round"/>
+<g transform="translate(190,76)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+<path d="M70 64 l-10 -40 38 22z" fill="url(#fur)"/><path d="M170 64 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
+<path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+<path d="M84 138 q36 22 72 0 l-4 16 q-32 16 -64 0z" fill="#3a78b8"/>
+<path d="M150 150 l18 26 -2 -14 12 -6 -20 -14z" fill="#2a5e96"/>
+<circle cx="104" cy="142" r="2" fill="#fff"/><circle cx="136" cy="144" r="2" fill="#fff"/>
+</g>
 </svg>

@@ -29,11 +29,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/noboribetsu-jigokudani.svg"
 photos:
   - src: "/images/attractions/noboribetsu-jigokudani-1.svg"
-    alt: "A friendly blue oni demon mascot with a club waving beside the steaming valley"
+    alt: "A rust-red steaming volcanic vent ringed by red autumn maples"
+    caption: "Hell Valley, they call it. Smells like eggs. I felt at home."
   - src: "/images/attractions/noboribetsu-jigokudani-2.svg"
-    alt: "A close-up of a rust-red steaming volcanic vent ringed by autumn maples"
-  - src: "/images/attractions/noboribetsu-jigokudani-3.svg"
-    alt: "A wooden boardwalk leading into the steam with a tiny tourist coughing on the fumes"
+    alt: "Mon-chan posing beside a friendly blue oni demon statue"
+    caption: "Made friends with the local demon. He is a big softie. 👹✌️"
 website: "https://noboribetsu-spa.jp/"
 tips:
   - "Walk the boardwalk to Oyunuma, a steaming hot lake, then dip your feet in the natural footbath downstream."

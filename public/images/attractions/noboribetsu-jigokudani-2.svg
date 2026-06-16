@@ -1,30 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A close-up of a rust-red steaming volcanic vent ringed by red autumn maple leaves">
-  <defs>
-    <radialGradient id="vent11" cx="0.5" cy="0.5" r="0.6">
-      <stop offset="0" stop-color="#e57a3a"/>
-      <stop offset="1" stop-color="#8a3418"/>
-    </radialGradient>
-    <linearGradient id="bg11" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#caa276"/>
-      <stop offset="1" stop-color="#9a6e48"/>
-    </linearGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#bg11)"/>
-  <ellipse cx="200" cy="210" rx="150" ry="130" fill="#7a4828"/>
-  <ellipse cx="200" cy="210" rx="120" ry="100" fill="#6a3a1e"/>
-  <ellipse cx="200" cy="210" rx="90" ry="74" fill="url(#vent11)"/>
-  <ellipse cx="185" cy="195" rx="34" ry="24" fill="#f0a050" opacity="0.6"/>
-  <g fill="#fff" opacity="0.65">
-    <path d="M200 150 q-22 -34 4 -60 q-26 -22 2 -46 q16 26 0 46 q24 26 -6 60 z"/>
-    <path d="M160 165 q-16 -26 4 -46 q-20 -16 2 -36 q12 20 0 36 q18 20 -6 46 z"/>
-    <path d="M240 165 q16 -26 -4 -46 q20 -16 -2 -36 q-12 20 0 36 q-18 20 6 46 z"/>
-  </g>
-  <!-- maple leaves ring -->
-  <g fill="#cc3a2a">
-    <g transform="translate(60,90) rotate(-30) scale(0.9)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#cc3a2a"/></g>
-    <g transform="translate(340,100) rotate(40) scale(1)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#d94e2a"/></g>
-    <g transform="translate(330,320) rotate(15) scale(1.1)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#c43020"/></g>
-    <g transform="translate(70,330) rotate(-50) scale(0.95)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#e05a30"/></g>
-    <g transform="translate(200,360) rotate(0) scale(1)"><path d="M0 -14 l4 -8 l3 8 l9 -4 l-5 9 l9 1 l-8 6 l4 9 l-9 -4 l-1 9 l-3 -8 l-6 7 l0 -10 l-9 2 l6 -8 l-9 -4 l9 -2 z" fill="#cc3a2a"/></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan posing beside a friendly blue oni demon statue in a steaming valley">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#caa276"/><stop offset="1" stop-color="#9a6e48"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<ellipse cx="200" cy="300" rx="220" ry="90" fill="#7a4828"/>
+<g fill="#fff" opacity="0.55"><path d="M310 200 q-22 -34 4 -60 q-26 -22 2 -46 q16 26 0 46 q24 26 -6 60 z"/><path d="M70 210 q-16 -26 4 -46 q-20 -16 2 -36 q12 20 0 36 q18 20 -6 46 z"/></g>
+<g transform="translate(228,150)">
+<ellipse cx="40" cy="200" rx="55" ry="18" fill="#4a3020"/>
+<path d="M0 120 q40 -20 80 0 v90 h-80z" fill="#3f6fb0"/>
+<circle cx="40" cy="95" r="42" fill="#4f86c8"/>
+<path d="M18 62 l-8 -22 22 14z" fill="#f0e6c0"/><path d="M62 62 l8 -22 -22 14z" fill="#f0e6c0"/>
+<ellipse cx="40" cy="60" rx="34" ry="12" fill="#2a2018"/>
+<circle cx="28" cy="92" r="6" fill="#fff"/><circle cx="52" cy="92" r="6" fill="#fff"/>
+<circle cx="28" cy="93" r="3" fill="#2a2018"/><circle cx="52" cy="93" r="3" fill="#2a2018"/>
+<path d="M24 112 q16 14 32 0 l-4 -8 h-24z" fill="#2a2018"/>
+<rect x="26" y="108" width="5" height="7" fill="#fff"/><rect x="49" y="108" width="5" height="7" fill="#fff"/>
+</g>
+<g transform="translate(50,215) scale(0.8)">
+<ellipse cx="120" cy="218" rx="70" ry="11" fill="#000" opacity="0.10"/>
+<path d="M70 205 q-14 -75 50 -83 q64 8 50 83 z" fill="url(#fur)"/>
+<path d="M96 205 q-14 -62 24 -68 q38 6 24 68 z" fill="#faf1e0"/>
+<ellipse cx="80" cy="208" rx="22" ry="13" fill="#faf1e0"/><ellipse cx="160" cy="208" rx="22" ry="13" fill="#faf1e0"/>
+<path d="M150 150 q34 -30 40 -70" fill="none" stroke="#faf1e0" stroke-width="20" stroke-linecap="round"/>
+<g transform="translate(190,76)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+<path d="M88 150 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/>
+<path d="M120 150 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<path d="M70 64 l-10 -40 38 22z" fill="url(#fur)"/><path d="M170 64 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
+<path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+</g>
 </svg>

@@ -1,26 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A small concert stage with lights set up on the floor of a huge dark stone cavern">
-  <defs>
-    <radialGradient id="oya2glow" cx="0.5" cy="0.7" r="0.6">
-      <stop offset="0" stop-color="#3a3550"/>
-      <stop offset="1" stop-color="#14121c"/>
-    </radialGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#oya2glow)"/>
-  <rect x="0" y="0" width="80" height="400" fill="#1e1b2a"/>
-  <rect x="320" y="0" width="80" height="400" fill="#1e1b2a"/>
-  <rect x="60" y="0" width="40" height="400" fill="#26223400" />
-  <polygon points="200,90 120,260 280,260" fill="#ff5ca8" opacity="0.18"/>
-  <polygon points="200,90 90,250 200,250" fill="#5cc8ff" opacity="0.18"/>
-  <polygon points="200,90 200,250 320,250" fill="#ffd35c" opacity="0.18"/>
-  <rect x="110" y="250" width="180" height="60" rx="4" fill="#2c2438"/>
-  <rect x="110" y="250" width="180" height="10" fill="#473a5a"/>
-  <rect x="150" y="200" width="14" height="55" fill="#1a1622"/>
-  <circle cx="157" cy="195" r="10" fill="#ffe27a"/>
-  <rect x="200" y="195" width="14" height="60" fill="#1a1622"/>
-  <circle cx="207" cy="190" r="10" fill="#ffb27a"/>
-  <rect x="250" y="200" width="14" height="55" fill="#1a1622"/>
-  <circle cx="257" cy="195" r="10" fill="#7affd0"/>
-  <circle cx="180" cy="285" r="8" fill="#ffd35c"/>
-  <circle cx="220" cy="285" r="8" fill="#5cc8ff"/>
-  <rect x="0" y="310" width="400" height="90" fill="#100e16"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan shivering with foggy breath in a cold underground stone quarry">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient><radialGradient id="cav" cx="0.5" cy="0.4" r="0.7"><stop offset="0" stop-color="#3a4458"/><stop offset="1" stop-color="#171c28"/></radialGradient><radialGradient id="breath" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#dfeefa" stop-opacity="0.85"/><stop offset="1" stop-color="#dfeefa" stop-opacity="0"/></radialGradient></defs>
+<rect width="400" height="400" fill="url(#cav)"/>
+<!-- carved stone walls -->
+<rect x="0" y="0" width="70" height="400" fill="#3a4250"/>
+<rect x="330" y="0" width="70" height="400" fill="#343b48"/>
+<g stroke="#262c38" stroke-width="3"><line x1="0" y1="90" x2="70" y2="90"/><line x1="0" y1="180" x2="70" y2="180"/><line x1="0" y1="270" x2="70" y2="270"/><line x1="330" y1="120" x2="400" y2="120"/><line x1="330" y1="230" x2="400" y2="230"/></g>
+<!-- back wall blocks -->
+<g stroke="#2a3140" stroke-width="2" fill="#2f3644"><rect x="120" y="60" width="80" height="50"/><rect x="200" y="60" width="80" height="50"/><rect x="120" y="110" width="80" height="50"/><rect x="200" y="110" width="80" height="50"/></g>
+<rect y="320" width="400" height="80" fill="#1c2230"/>
+<!-- foggy breath -->
+<ellipse cx="282" cy="200" rx="44" ry="26" fill="url(#breath)"/>
+<!-- Mon-chan shivering -->
+<g transform="translate(200,250) scale(1.0)">
+<path d="M-42 60 q-14 -70 42 -78 q56 8 42 78 z" fill="url(#fur)"/>
+<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#faf1e0"/>
+<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#faf1e0"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#faf1e0"/>
+<path d="M-32 0 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/><path d="M0 0 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="-20" cy="-12" r="2" fill="#fff"/><circle cx="14" cy="-12" r="2" fill="#fff"/>
+<path d="M-50 -86 l-10 -40 38 22z" fill="url(#fur)"/><path d="M50 -86 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M-47 -94 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M47 -94 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="0" cy="-66" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#9bbcd8" opacity="0.7"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#9bbcd8" opacity="0.7"/>
+<path d="M-26 -66 q6 -5 12 0" stroke="#2e2824" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M14 -66 q6 -5 12 0" stroke="#2e2824" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M-6 -50 h12 l-6 7z" fill="#3a3330"/>
+<path d="M-8 -40 q8 6 16 0 q-2 6 -8 6 q-6 0 -8 -6z" fill="#f08a86"/>
+</g>
+<!-- shiver marks -->
+<g stroke="#9bbcd8" stroke-width="3" fill="none" opacity="0.7"><path d="M138 170 q-8 6 0 12"/><path d="M262 170 q8 6 0 12"/></g>
 </svg>

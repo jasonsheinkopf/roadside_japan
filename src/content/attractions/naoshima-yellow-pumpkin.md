@@ -29,11 +29,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/naoshima-yellow-pumpkin.svg"
 photos:
   - src: "/images/attractions/naoshima-yellow-pumpkin-1.svg"
-    alt: "A close-up of the yellow pumpkin's glossy surface covered in black polka dots"
+    alt: "A close-up of the yellow polka-dot pumpkin sculpture"
+    caption: "Famous polka-dot pumpkin. I sniffed it. Not edible. Sad."
   - src: "/images/attractions/naoshima-yellow-pumpkin-2.svg"
-    alt: "The pumpkin now fitted with a little hook and leash so it won't float away again"
-  - src: "/images/attractions/naoshima-yellow-pumpkin-3.svg"
-    alt: "A visitor crouching into a round pumpkin shape to pose beside the sculpture"
+    alt: "Mon-chan posing beside the giant yellow Kusama pumpkin, peace sign"
+    caption: "Me and the most famous gourd in Japan. ✌️🎃"
 website: "https://benesse-artsite.jp/en/"
 tips:
   - "Go early or late — the single most photographed spot on the island gets a steady queue."

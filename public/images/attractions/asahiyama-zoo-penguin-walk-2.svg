@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan waddling at the back of a line of penguins in the snow, trying to blend in">
+<rect width="400" height="400" fill="#d8ecf7"/>
+<rect y="0" width="400" height="200" fill="#cfe6f4"/>
+<path d="M0 180 q100 -40 200 -10 q100 30 200 0 L400 400 L0 400Z" fill="#fff"/>
+<path d="M0 240 q120 -20 200 0 q120 20 200 0 L400 400 L0 400Z" fill="#eef6fc"/>
+<g>
+<g transform="translate(60,180)">
+<ellipse cx="0" cy="40" rx="22" ry="34" fill="#2e2824"/>
+<ellipse cx="0" cy="46" rx="14" ry="26" fill="#fff"/>
+<circle cx="0" cy="6" r="16" fill="#2e2824"/>
+<path d="M-14 12 q14 10 28 0 q-14 6 -28 0z" fill="#fff"/>
+<path d="M-2 14 l-8 6 8 2z" fill="#f4a93c"/>
+<circle cx="-6" cy="4" r="2.4" fill="#fff"/><circle cx="6" cy="4" r="2.4" fill="#fff"/>
+<rect x="-8" y="72" width="6" height="8" fill="#f4a93c"/><rect x="4" y="72" width="6" height="8" fill="#f4a93c"/>
+</g>
+<g transform="translate(130,195)">
+<ellipse cx="0" cy="40" rx="22" ry="34" fill="#2e2824"/>
+<ellipse cx="0" cy="46" rx="14" ry="26" fill="#fff"/>
+<circle cx="0" cy="6" r="16" fill="#2e2824"/>
+<path d="M-14 12 q14 10 28 0 q-14 6 -28 0z" fill="#fff"/>
+<path d="M-2 14 l-8 6 8 2z" fill="#f4a93c"/>
+<circle cx="-6" cy="4" r="2.4" fill="#fff"/><circle cx="6" cy="4" r="2.4" fill="#fff"/>
+<rect x="-8" y="72" width="6" height="8" fill="#f4a93c"/><rect x="4" y="72" width="6" height="8" fill="#f4a93c"/>
+</g>
+<g transform="translate(205,210)">
+<ellipse cx="0" cy="40" rx="22" ry="34" fill="#2e2824"/>
+<ellipse cx="0" cy="46" rx="14" ry="26" fill="#fff"/>
+<circle cx="0" cy="6" r="16" fill="#2e2824"/>
+<path d="M-14 12 q14 10 28 0 q-14 6 -28 0z" fill="#fff"/>
+<path d="M-2 14 l-8 6 8 2z" fill="#f4a93c"/>
+<circle cx="-6" cy="4" r="2.4" fill="#fff"/><circle cx="6" cy="4" r="2.4" fill="#fff"/>
+<rect x="-8" y="72" width="6" height="8" fill="#f4a93c"/><rect x="4" y="72" width="6" height="8" fill="#f4a93c"/>
+</g>
+</g>
+<g transform="translate(255,210)">
+<path d="M40 130 q-14 -70 50 -78 q64 8 50 78 z" fill="#e7ad63"/>
+<path d="M66 130 q-14 -58 24 -64 q38 6 24 64 z" fill="#faf1e0"/>
+<ellipse cx="54" cy="132" rx="18" ry="11" fill="#faf1e0"/>
+<ellipse cx="126" cy="132" rx="18" ry="11" fill="#faf1e0"/>
+<path d="M40 -6 l-10 -40 38 22z" fill="#e7ad63"/>
+<path d="M140 -6 l10 -40 -38 22z" fill="#e7ad63"/>
+<path d="M43 -14 l-4 -22 18 12z" fill="#f3a6a0"/>
+<path d="M137 -14 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="90" cy="14" rx="52" ry="46" fill="#e7ad63"/>
+<path d="M90 0 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="54" cy="30" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="126" cy="30" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="70" cy="14" rx="6.5" ry="8.5" fill="#2e2824"/>
+<ellipse cx="110" cy="14" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="72" cy="11" r="2.2" fill="#fff"/><circle cx="112" cy="11" r="2.2" fill="#fff"/>
+<path d="M84 30 h12 l-6 7z" fill="#3a3330"/>
+<path d="M84 40 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+<path d="M58 80 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/>
+<path d="M90 80 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+</g>
+<g fill="#fff"><circle cx="40" cy="60" r="3"/><circle cx="340" cy="40" r="3"/><circle cx="200" cy="90" r="2.5"/><circle cx="120" cy="120" r="2.5"/></g>
+</svg>

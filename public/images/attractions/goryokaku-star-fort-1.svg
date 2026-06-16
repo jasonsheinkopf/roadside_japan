@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="An aerial view of a star-shaped moat ringed with pink cherry blossoms">
+  <rect width="400" height="400" fill="#7cb87a"/>
+  <g fill="#f4a6c0">
+    <circle cx="60" cy="60" r="30"/><circle cx="200" cy="40" r="34"/><circle cx="340" cy="60" r="30"/>
+    <circle cx="370" cy="200" r="32"/><circle cx="340" cy="340" r="30"/><circle cx="200" cy="365" r="34"/>
+    <circle cx="60" cy="340" r="30"/><circle cx="30" cy="200" r="32"/>
+    <circle cx="120" cy="120" r="26"/><circle cx="280" cy="120" r="26"/>
+    <circle cx="280" cy="280" r="26"/><circle cx="120" cy="280" r="26"/>
+  </g>
+  <g fill="#f8c6d8" opacity="0.8">
+    <circle cx="90" cy="90" r="14"/><circle cx="310" cy="90" r="14"/>
+    <circle cx="310" cy="310" r="14"/><circle cx="90" cy="310" r="14"/>
+    <circle cx="200" cy="80" r="14"/><circle cx="200" cy="330" r="14"/>
+  </g>
+  <polygon points="200,90 230,160 305,160 250,210 270,285 200,245 130,285 150,210 95,160 170,160" fill="#4a90c4"/>
+  <polygon points="200,120 222,168 275,170 235,205 248,260 200,232 152,260 165,205 125,170 178,168" fill="#6aab5a"/>
+  <polygon points="200,150 215,185 250,186 224,209 232,244 200,226 168,244 176,209 150,186 185,185" fill="#3f7c33"/>
+</svg>

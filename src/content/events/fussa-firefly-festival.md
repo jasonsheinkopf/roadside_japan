@@ -32,11 +32,11 @@ dogFriendly: unknown
 heroImage: "/images/events/fussa-firefly-festival.svg"
 photos:
   - src: "/images/events/fussa-firefly-festival-1.svg"
-    alt: "A cupped pair of hands glowing softly around a single firefly"
+    alt: "A cupped pair of hands glowing around a single firefly"
+    caption: "Tokyo has fireflies, if you know where to sniff. Pure magic."
   - src: "/images/events/fussa-firefly-festival-2.svg"
-    alt: "A dark riverside crowd watching, phone screens dimmed to a hush"
-  - src: "/images/events/fussa-firefly-festival-3.svg"
-    alt: "A 'lights off, please' sign with a firefly perched cheekily on top"
+    alt: "Mon-chan in the dark watching fireflies glow, eyes wide"
+    caption: "Tried to catch one. Did not. We are friends now anyway. ✨"
 website: "https://en.japantravel.com/tokyo/fussa-firefly-festival/72567"
 tips:
   - "Arrive before dusk, then wait for the light to drop; fireflies are easiest to see once the surroundings are properly dark."

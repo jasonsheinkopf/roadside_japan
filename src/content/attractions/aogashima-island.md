@@ -28,11 +28,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/aogashima-island.svg"
 photos:
   - src: "/images/attractions/aogashima-island-1.svg"
-    alt: "An aerial view of the green double caldera with the smaller cone of Mt. Maruyama inside"
+    alt: "An aerial view of the green double-caldera volcanic island"
+    caption: "A volcano inside a volcano, with a whole village inside that."
   - src: "/images/attractions/aogashima-island-2.svg"
-    alt: "A brilliant starry night sky arching over the dark silhouette of the island"
-  - src: "/images/attractions/aogashima-island-3.svg"
-    alt: "A 'Population 169' sign with one extra confused tourist nudging the count to 170"
+    alt: "Mon-chan beside a 'Population 169' sign, nudging it up to 170"
+    caption: "Population 169... 170 if you count a visiting dog. ✌️"
 website: "https://www.gotokyo.org/en/destinations/izu-and-ogasawara-islands/aogashima-island/index.html"
 tips:
   - "Build in spare days — the ferry is frequently cancelled by swell, and you may be stuck (or stranded) for a day or two."

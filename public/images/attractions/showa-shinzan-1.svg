@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A steaming reddish-brown lava dome with smoking vents">
+  <rect width="400" height="400" fill="#dce6ec"/>
+  <rect y="0" width="400" height="200" fill="#c4d6e0"/>
+  <g fill="#cfd8dc" opacity="0.85">
+    <ellipse cx="150" cy="70" rx="60" ry="26"/>
+    <ellipse cx="300" cy="120" rx="44" ry="20"/>
+    <ellipse cx="220" cy="40" rx="50" ry="22" opacity="0.6"/>
+  </g>
+  <path d="M0 320 Q200 290 400 320 L400 400 L0 400 Z" fill="#5a7d3c"/>
+  <path d="M60 330 Q200 110 340 330 Z" fill="#8b3a1f"/>
+  <path d="M120 330 Q200 180 280 330 Z" fill="#a14a26"/>
+  <path d="M90 330 Q140 240 180 330 Z" fill="#6e2c14"/>
+  <path d="M210 330 Q260 230 320 330 Z" fill="#6e2c14"/>
+  <g fill="#aa7766" opacity="0.85">
+    <ellipse cx="180" cy="200" rx="20" ry="34"/>
+    <ellipse cx="180" cy="160" rx="16" ry="26"/>
+    <ellipse cx="180" cy="128" rx="12" ry="20"/>
+  </g>
+  <g fill="#c79a8c" opacity="0.75">
+    <ellipse cx="250" cy="210" rx="14" ry="24"/>
+    <ellipse cx="252" cy="178" rx="11" ry="18"/>
+  </g>
+  <circle cx="178" cy="206" r="6" fill="#ff7043"/>
+  <circle cx="200" cy="240" r="5" fill="#ff8a50"/>
+</svg>

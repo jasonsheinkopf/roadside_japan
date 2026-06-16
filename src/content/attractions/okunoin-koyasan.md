@@ -29,11 +29,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/okunoin-koyasan.svg"
 photos:
   - src: "/images/attractions/okunoin-koyasan-1.svg"
-    alt: "The lantern hall glowing with thousands of small hanging lanterns in the dark"
+    alt: "A hall glowing with thousands of golden hanging lanterns"
+    caption: "Ten thousand lanterns, some lit for 900 years. I just watched."
   - src: "/images/attractions/okunoin-koyasan-2.svg"
-    alt: "A quirky company memorial shaped like a rocket among the traditional tombstones"
-  - src: "/images/attractions/okunoin-koyasan-3.svg"
-    alt: "Mossy stone Jizo statues in red bibs beneath towering cedar trees"
+    alt: "A quirky company memorial shaped like a rocket among traditional tombstones"
+    caption: "Some graves here are shaped like rockets and coffee cups. Wonderful."
 website: "https://eng.shukubo.net/"
 tips:
   - "Walk it at dawn or after dark — the lantern-lit path is hushed and otherworldly, and far less busy."

@@ -30,11 +30,11 @@ dogFriendly: no
 heroImage: "/images/attractions/osorezan-bodaiji.svg"
 photos:
   - src: "/images/attractions/osorezan-bodaiji-1.svg"
-    alt: "Rows of small stone Jizo statues in red bibs beside colorful spinning pinwheels"
+    alt: "Stone Jizo statues in red bibs beside colorful spinning pinwheels"
+    caption: "Pinwheels left for the souls of children. I walked softly here."
   - src: "/images/attractions/osorezan-bodaiji-2.svg"
-    alt: "Bubbling yellow sulfur vents with a visitor pinching their nose against the smell"
-  - src: "/images/attractions/osorezan-bodaiji-3.svg"
-    alt: "The milky turquoise 'lake of paradise' with a small red bridge said to cross to the afterlife"
+    alt: "A pale turquoise lake of paradise with a small red bridge"
+    caption: "They call this shore paradise. It was very, very still."
 tips:
   - "The smell of sulfur is intense — that's part of the underworld atmosphere, not a malfunction."
   - "Visitors leave pinwheels and stack stones for departed children; walk the paths respectfully."

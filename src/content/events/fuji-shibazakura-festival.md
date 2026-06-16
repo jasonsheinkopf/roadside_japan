@@ -32,11 +32,11 @@ dogFriendly: yes
 heroImage: "/images/events/fuji-shibazakura-festival.svg"
 photos:
   - src: "/images/events/fuji-shibazakura-festival-1.svg"
-    alt: "A close-up of the pink moss-phlox carpet in neat ribbons"
+    alt: "A close-up of pink moss-phlox carpets planted in ribbons"
+    caption: "Half a million pink flowers under Mt. Fuji. Showoff mountain."
   - src: "/images/events/fuji-shibazakura-festival-2.svg"
-    alt: "Mt. Fuji mirrored in a pond above a foreground of pink flowers"
-  - src: "/images/events/fuji-shibazakura-festival-3.svg"
-    alt: "A festival food stall selling Fuji-shaped melon bread"
+    alt: "Mon-chan posing in the pink flower fields with Mt. Fuji behind"
+    caption: "Pink flowers, big mountain, good boy. Postcard complete. ✌️🗻"
 website: "https://www.shibazakura.jp/"
 tips:
   - "Go early on a clear morning for the best odds of seeing Fuji cloud-free."

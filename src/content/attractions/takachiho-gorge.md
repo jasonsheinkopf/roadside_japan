@@ -28,11 +28,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/takachiho-gorge.svg"
 photos:
   - src: "/images/attractions/takachiho-gorge-1.svg"
-    alt: "A rowboat drifting directly beneath the plunging Manai Falls"
+    alt: "A rowboat drifting beneath the Manai Falls in a basalt gorge"
+    caption: "Rented a boat. Mostly supervised. Waterfall: approved."
   - src: "/images/attractions/takachiho-gorge-2.svg"
-    alt: "A close-up of the gorge's geometric basalt rock columns"
-  - src: "/images/attractions/takachiho-gorge-3.svg"
-    alt: "A masked kagura dancer performing by lantern light at night"
+    alt: "Mon-chan riding in a little rowboat near the gorge waterfall"
+    caption: "First mate Mon-chan, reporting for paddle duty. 🚣"
 website: "https://takachiho-kanko.info/"
 tips:
   - "Book the rowboat slot online in advance — peak-season waits can run hours."

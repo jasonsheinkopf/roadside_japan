@@ -33,11 +33,11 @@ dogFriendly: no
 heroImage: "/images/events/nabana-no-sato-illumination.svg"
 photos:
   - src: "/images/events/nabana-no-sato-illumination-1.svg"
-    alt: "The glowing golden tunnel of lights seen from inside"
+    alt: "The inside of a glowing golden tunnel made of LED lights"
+    caption: "Millions of lights. My eyes have never been so wide."
   - src: "/images/events/nabana-no-sato-illumination-2.svg"
-    alt: "The stadium-sized Mt-Fuji light panorama wall"
-  - src: "/images/events/nabana-no-sato-illumination-3.svg"
-    alt: "A couple silhouetted hand-in-hand beneath the lights"
+    alt: "Mon-chan silhouetted in the glowing light tunnel giving a peace sign"
+    caption: "Walked through a tunnel made of stars. ✌️💡"
 website: "https://www.nagashima-onsen.co.jp/nabana/"
 tips:
   - "Arrive before dusk to enjoy the gardens, then stay as the lights switch on."

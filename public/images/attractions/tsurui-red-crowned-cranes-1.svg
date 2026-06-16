@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Two red-crowned cranes mid-dance with wings spread in the snow">
+  <rect width="400" height="400" fill="#d7ebf3"/>
+  <path d="M0 300 Q200 270 400 300 L400 400 L0 400 Z" fill="#ffffff"/>
+  <ellipse cx="200" cy="375" rx="150" ry="24" fill="#e6f1f7"/>
+  <g>
+    <ellipse cx="130" cy="240" rx="40" ry="58" fill="#ffffff"/>
+    <path d="M120 240 Q40 200 30 250 Q70 270 120 260 Z" fill="#ffffff" stroke="#cdd9e0" stroke-width="2"/>
+    <path d="M40 240 L20 258 M55 248 L38 266 M70 254 L55 272" stroke="#2d3436" stroke-width="5" stroke-linecap="round"/>
+    <path d="M130 200 Q150 120 162 100" stroke="#ffffff" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <circle cx="166" cy="96" r="16" fill="#ffffff"/>
+    <path d="M158 84 Q166 74 174 84 Q170 92 162 92 Z" fill="#d63031"/>
+    <circle cx="172" cy="96" r="3" fill="#2d3436"/>
+    <polygon points="180,96 210,90 180,102" fill="#f6c344"/>
+    <path d="M120 290 L116 330 M140 290 L144 330" stroke="#2d3436" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g>
+    <ellipse cx="280" cy="250" rx="40" ry="56" fill="#ffffff"/>
+    <path d="M290 250 Q370 210 382 260 Q340 280 290 268 Z" fill="#ffffff" stroke="#cdd9e0" stroke-width="2"/>
+    <path d="M370 250 L388 268 M355 258 L372 276 M340 264 L355 282" stroke="#2d3436" stroke-width="5" stroke-linecap="round"/>
+    <path d="M280 212 Q258 130 246 108" stroke="#ffffff" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <circle cx="242" cy="104" r="16" fill="#ffffff"/>
+    <path d="M234 92 Q242 82 250 92 Q246 100 238 100 Z" fill="#d63031"/>
+    <circle cx="238" cy="104" r="3" fill="#2d3436"/>
+    <polygon points="228,104 198,98 228,110" fill="#f6c344"/>
+    <path d="M270 300 L266 340 M290 300 L294 340" stroke="#2d3436" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

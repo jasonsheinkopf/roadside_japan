@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A geometric land-art park with a glass pyramid, a conical grass hill, and a fountain">
+  <defs>
+    <linearGradient id="msky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fbef0"/>
+      <stop offset="1" stop-color="#d3edfb"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6f5"/>
+      <stop offset="1" stop-color="#7fb8d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#msky)"/>
+  <circle cx="120" cy="100" r="42" fill="#fff4c4"/>
+  <ellipse cx="600" cy="110" rx="70" ry="26" fill="#ffffff" opacity="0.85"/>
+  <rect x="0" y="330" width="800" height="170" fill="#7bbf55"/>
+  <path d="M0 350 Q400 320 800 350 L800 390 Q400 360 0 390 Z" fill="#8fcf66"/>
+  <path d="M120 330 L210 150 L300 330 Z" fill="#5fa040"/>
+  <path d="M210 150 L300 330 L255 330 Z" fill="#4d8a33"/>
+  <g>
+    <polygon points="560,330 660,160 760,330" fill="url(#glass)"/>
+    <polygon points="660,160 760,330 660,330" fill="#9ccfe6"/>
+    <line x1="660" y1="160" x2="660" y2="330" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+    <line x1="610" y1="245" x2="710" y2="245" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+  </g>
+  <g>
+    <ellipse cx="420" cy="400" rx="80" ry="20" fill="#5aa8c9"/>
+    <path d="M420 400 Q412 340 420 320 Q428 340 420 400" fill="#bfe6f5"/>
+    <path d="M420 400 Q400 350 388 340 M420 400 Q440 350 452 340" stroke="#cdeefb" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="40" y="470" font-family="sans-serif" font-size="32" font-weight="bold" fill="#ffffff">Moerenuma Park</text>
+</svg>

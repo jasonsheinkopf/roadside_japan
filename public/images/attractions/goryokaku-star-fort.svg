@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="An aerial view of a five-pointed star-shaped fort moat ringed with pink cherry blossoms, with a tower">
+  <defs>
+    <radialGradient id="gbg" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#bfe0a8"/>
+      <stop offset="1" stop-color="#7fb86a"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#gbg)"/>
+  <g fill="#f7b5cf">
+    <circle cx="400" cy="60" r="40"/>
+    <circle cx="270" cy="120" r="44"/>
+    <circle cx="530" cy="120" r="44"/>
+    <circle cx="150" cy="250" r="46"/>
+    <circle cx="650" cy="250" r="46"/>
+    <circle cx="220" cy="400" r="44"/>
+    <circle cx="580" cy="400" r="44"/>
+    <circle cx="400" cy="460" r="42"/>
+    <circle cx="80" cy="160" r="36"/>
+    <circle cx="720" cy="160" r="36"/>
+    <circle cx="80" cy="360" r="36"/>
+    <circle cx="720" cy="360" r="36"/>
+  </g>
+  <g fill="#fcd4e4" opacity="0.7">
+    <circle cx="400" cy="60" r="22"/>
+    <circle cx="150" cy="250" r="24"/>
+    <circle cx="650" cy="250" r="24"/>
+    <circle cx="220" cy="400" r="22"/>
+    <circle cx="580" cy="400" r="22"/>
+  </g>
+  <polygon points="400,110 445,235 575,235 470,315 510,440 400,360 290,440 330,315 225,235 355,235" fill="#3a7ea4"/>
+  <polygon points="400,150 435,245 535,245 455,308 485,405 400,345 315,405 345,308 265,245 365,245" fill="#7fb86a"/>
+  <g fill="#5a8f44">
+    <circle cx="350" cy="290" r="10"/>
+    <circle cx="450" cy="290" r="10"/>
+    <circle cx="400" cy="320" r="10"/>
+  </g>
+  <g>
+    <rect x="388" y="270" width="24" height="50" fill="#6e4a2f"/>
+    <polygon points="400,250 384,272 416,272" fill="#3a3a3a"/>
+  </g>
+  <text x="40" y="475" font-family="sans-serif" font-size="32" font-weight="bold" fill="#2f5d7a">Goryokaku</text>
+</svg>

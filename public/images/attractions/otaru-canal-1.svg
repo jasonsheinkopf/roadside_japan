@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A gas-lamp-lit canal with old stone warehouses reflected, snow falling at dusk">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a6e"/>
+      <stop offset="100%" stop-color="#6b5a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#dusk)"/>
+  <rect y="120" width="400" height="120" fill="#5a4a6e"/>
+  <g fill="#473a5c">
+    <rect x="20" y="120" width="110" height="120"/>
+    <rect x="145" y="100" width="100" height="140"/>
+    <rect x="260" y="125" width="120" height="115"/>
+  </g>
+  <g fill="#ffd27f">
+    <rect x="40" y="150" width="16" height="20"/><rect x="70" y="150" width="16" height="20"/><rect x="100" y="150" width="16" height="20"/>
+    <rect x="165" y="130" width="16" height="22"/><rect x="200" y="130" width="16" height="22"/><rect x="225" y="170" width="14" height="18"/>
+    <rect x="285" y="155" width="16" height="20"/><rect x="320" y="155" width="16" height="20"/><rect x="350" y="155" width="16" height="20"/>
+  </g>
+  <rect y="240" width="400" height="160" fill="#2c2c52"/>
+  <g fill="#473a5c" opacity="0.6">
+    <rect x="20" y="240" width="110" height="60"/><rect x="145" y="240" width="100" height="75"/><rect x="260" y="240" width="120" height="58"/>
+  </g>
+  <g fill="#caa75f" opacity="0.55">
+    <rect x="40" y="250" width="16" height="40"/><rect x="200" y="250" width="16" height="46"/><rect x="320" y="250" width="16" height="40"/>
+  </g>
+  <g>
+    <rect x="48" y="200" width="6" height="60" fill="#2d2d2d"/>
+    <circle cx="51" cy="196" r="12" fill="#ffe08a"/>
+    <circle cx="51" cy="196" r="20" fill="#ffe08a" opacity="0.25"/>
+    <rect x="346" y="200" width="6" height="60" fill="#2d2d2d"/>
+    <circle cx="349" cy="196" r="12" fill="#ffe08a"/>
+    <circle cx="349" cy="196" r="20" fill="#ffe08a" opacity="0.25"/>
+  </g>
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="60" cy="70" r="4"/><circle cx="140" cy="40" r="3"/><circle cx="230" cy="90" r="4"/><circle cx="320" cy="55" r="3"/>
+    <circle cx="100" cy="110" r="3"/><circle cx="280" cy="120" r="4"/><circle cx="190" cy="160" r="3"/><circle cx="360" cy="100" r="4"/>
+    <circle cx="30" cy="150" r="3"/><circle cx="250" cy="200" r="3"/><circle cx="150" cy="300" r="4"/><circle cx="330" cy="320" r="3"/>
+  </g>
+</svg>

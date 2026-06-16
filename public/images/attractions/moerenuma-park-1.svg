@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A large glass-and-steel pyramid building beside a geometric grass hill">
+  <rect width="400" height="400" fill="#aee0f4"/>
+  <rect y="0" width="400" height="180" fill="#c7ecfb"/>
+  <circle cx="70" cy="70" r="30" fill="#fff3b0"/>
+  <path d="M0 280 L400 230 L400 400 L0 400 Z" fill="#7cbf4f"/>
+  <polygon points="320,280 200,140 80,280" fill="#dfe6ea"/>
+  <polygon points="320,280 200,140 200,280" fill="#b6c2c9"/>
+  <g stroke="#8a9aa3" stroke-width="2.5">
+    <line x1="200" y1="140" x2="140" y2="280"/>
+    <line x1="200" y1="140" x2="260" y2="280"/>
+    <line x1="110" y1="245" x2="290" y2="245"/>
+    <line x1="160" y1="210" x2="240" y2="210"/>
+    <line x1="125" y1="280" x2="180" y2="175"/>
+    <line x1="275" y1="280" x2="220" y2="175"/>
+  </g>
+  <polygon points="320,280 200,140 80,280" fill="#bfe6f5" opacity="0.35"/>
+  <polygon points="60,400 160,300 260,400" fill="#5ea53a"/>
+  <polygon points="160,300 260,400 360,300 460,400" fill="#6fb846"/>
+  <polygon points="160,300 260,400 160,400" fill="#4d8f30"/>
+</svg>

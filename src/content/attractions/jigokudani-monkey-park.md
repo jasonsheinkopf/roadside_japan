@@ -30,11 +30,11 @@ dogFriendly: no
 heroImage: "/images/attractions/jigokudani-monkey-park.svg"
 photos:
   - src: "/images/attractions/jigokudani-monkey-park-1.svg"
-    alt: "A snow monkey sighing with eyes closed as snow piles on its head"
+    alt: "A snow monkey with eyes closed, snow on its head, in a hot spring"
+    caption: "This monkey has figured out winter. I am taking notes."
   - src: "/images/attractions/jigokudani-monkey-park-2.svg"
-    alt: "A baby macaque clinging to its mother at the edge of the steaming pool"
-  - src: "/images/attractions/jigokudani-monkey-park-3.svg"
-    alt: "A cheeky monkey photobombing the camera with a giant curious face"
+    alt: "Mon-chan watching the snow monkeys from the snowy forest trail"
+    caption: "Kept a polite distance. Wild monkeys, very good boy. 🐒"
 website: "https://en.jigokudani-yaenkoen.co.jp/"
 tips:
   - "Go on a cold, snowy day — that's when the monkeys pile into the warm water and the scene is at its best."

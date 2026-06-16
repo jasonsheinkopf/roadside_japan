@@ -28,11 +28,11 @@ dogFriendly: no
 heroImage: "/images/attractions/kawachi-fuji-garden.svg"
 photos:
   - src: "/images/attractions/kawachi-fuji-garden-1.svg"
-    alt: "Looking straight up into the domed ceiling of hanging wisteria"
+    alt: "Looking up into a domed ceiling of hanging violet wisteria"
+    caption: "A ceiling made entirely of flowers. My tail would not stop."
   - src: "/images/attractions/kawachi-fuji-garden-2.svg"
-    alt: "A hand reaching to cup a long violet wisteria cluster"
-  - src: "/images/attractions/kawachi-fuji-garden-3.svg"
-    alt: "The garden's quieter autumn alter-ego: rows of red maples"
+    alt: "Mon-chan under the wisteria tunnel giving a peace sign"
+    caption: "Purple really is my colour, don't you think? ✌️"
 website: "https://kawachi-fujien.com/"
 tips:
   - "Bloom timing shifts every year with the weather — check the garden's bloom report before committing to a date."

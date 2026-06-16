@@ -26,11 +26,11 @@ dogFriendly: limited
 heroImage: "/images/attractions/sun-messe-nichinan-moai.svg"
 photos:
   - src: "/images/attractions/sun-messe-nichinan-moai-1.svg"
-    alt: "The seven Moai statues lined up and viewed head-on"
+    alt: "Seven gray Moai statues lined up in a row on green grass"
+    caption: "The only officially sanctioned Moai replicas on Earth. Big stone pals."
   - src: "/images/attractions/sun-messe-nichinan-moai-2.svg"
-    alt: "A tourist touching a 'luck in love' Moai surrounded by little hearts"
-  - src: "/images/attractions/sun-messe-nichinan-moai-3.svg"
-    alt: "A Moai wearing sunglasses gazing out over the Pacific"
+    alt: "Mon-chan posing in front of the Moai wearing tiny sunglasses"
+    caption: "Tried to look as stoic as them. Lasted four seconds. 😎"
 website: "https://www.sun-messe.co.jp/"
 tips:
   - "Touching specific Moai is said to grant luck in love, money, or study — signs explain which."

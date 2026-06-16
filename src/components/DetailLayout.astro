@@ -122,14 +122,20 @@ const sourceLabel: Record<string, string> = {
         {
           data.photos.length > 0 && (
             <section class="mt-8">
-              <h2 class="font-display text-xl font-bold">Photos</h2>
+              <h2 class="font-display text-xl font-bold">📸 Mon-chan's camera roll</h2>
+              <p class="mt-1 text-sm text-ink-soft">Snapshots from our very good boy on the road.</p>
               <div class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
                 {data.photos.map((p) => (
-                  <figure class="overflow-hidden rounded-xl border border-line">
+                  <figure class="overflow-hidden rounded-xl border border-line bg-surface">
                     <img src={withBase(p.src)} alt={p.alt} loading="lazy" class="aspect-square w-full object-cover" />
-                    {p.credit && (
-                      <figcaption class="px-2 py-1 text-[11px] text-ink-soft">
-                        {p.creditUrl ? <a href={p.creditUrl} class="link-underline">{p.credit}</a> : p.credit}
+                    {(p.caption || p.credit) && (
+                      <figcaption class="px-2.5 py-1.5 text-xs text-ink-soft">
+                        {p.caption && <span class="block leading-snug">{p.caption}</span>}
+                        {p.credit && (
+                          <span class="mt-0.5 block text-[11px] opacity-70">
+                            {p.creditUrl ? <a href={p.creditUrl} class="link-underline">{p.credit}</a> : p.credit}
+                          </span>
+                        )}
                       </figcaption>
                     )}
                   </figure>
