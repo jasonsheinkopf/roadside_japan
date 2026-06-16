@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A ropeway gondola rising over a rugged, steaming volcanic peak">
+  <rect width="400" height="400" fill="#bcd9ea"/>
+  <rect width="400" height="200" fill="#9cc4dc"/>
+  <!-- volcanic peak -->
+  <polygon points="0,400 140,140 220,260 300,180 400,400" fill="#8a7d72"/>
+  <polygon points="140,140 200,228 90,228" fill="#a59488"/>
+  <polygon points="300,180 350,260 250,260" fill="#9a8a7e"/>
+  <!-- snow / rock highlights -->
+  <polygon points="140,140 165,180 120,180" fill="#e8e2da"/>
+  <!-- steam from peak -->
+  <path d="M150 150 Q140 110 156 86 Q168 66 158 44" stroke="#fff" stroke-width="8" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <path d="M180 160 Q174 128 188 108" stroke="#fff" stroke-width="6" fill="none" opacity="0.45" stroke-linecap="round"/>
+  <!-- ropeway cable -->
+  <line x1="20" y1="320" x2="380" y2="120" stroke="#33414d" stroke-width="4"/>
+  <!-- towers -->
+  <line x1="60" y1="305" x2="60" y2="370" stroke="#444" stroke-width="6"/>
+  <line x1="340" y1="135" x2="340" y2="190" stroke="#444" stroke-width="6"/>
+  <!-- gondola -->
+  <g>
+    <line x1="205" y1="232" x2="205" y2="210" stroke="#333" stroke-width="4"/>
+    <rect x="160" y="232" width="90" height="60" rx="12" fill="#e8552e"/>
+    <rect x="170" y="244" width="70" height="28" rx="6" fill="#bfe3f0"/>
+    <rect x="160" y="282" width="90" height="10" rx="4" fill="#c43e1c"/>
+    <line x1="195" y1="244" x2="195" y2="272" stroke="#e8552e" stroke-width="3"/>
+    <line x1="215" y1="244" x2="215" y2="272" stroke="#e8552e" stroke-width="3"/>
+  </g>
+  <text x="200" y="390" font-family="sans-serif" font-size="20" fill="#26323c" text-anchor="middle" font-weight="bold">ROPEWAY</text>
+</svg>

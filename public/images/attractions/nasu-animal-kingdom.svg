@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A green highland animal park with capybaras relaxing in a steaming hot bath, alpacas, and a soaring hawk">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8e0f5"/>
+      <stop offset="1" stop-color="#e6f7ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <ellipse cx="160" cy="110" rx="60" ry="28" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="620" cy="90" rx="70" ry="30" fill="#ffffff" opacity="0.8"/>
+  <path d="M0 300 Q200 220 420 280 T800 250 V500 H0 Z" fill="#7cc46a"/>
+  <path d="M0 360 Q250 300 500 350 T800 330 V500 H0 Z" fill="#5fae52"/>
+  <circle cx="640" cy="120" r="34" fill="#f6c659"/>
+  <path d="M560 160 l28 -18 -6 32 28 8 -30 16 8 30 -28 -18 -22 24 4 -34 z" fill="#5a4632"/>
+  <path d="M566 160 l40 0 -20 16 z" fill="#3e3022"/>
+  <ellipse cx="300" cy="430" rx="240" ry="55" fill="#8fd8e6"/>
+  <ellipse cx="300" cy="420" rx="240" ry="45" fill="#bdeef5"/>
+  <ellipse cx="200" cy="390" rx="20" ry="8" fill="#ffffff" opacity="0.6"/>
+  <ellipse cx="380" cy="405" rx="24" ry="9" fill="#ffffff" opacity="0.6"/>
+  <g>
+    <ellipse cx="250" cy="405" rx="40" ry="26" fill="#a9794f"/>
+    <circle cx="295" cy="395" r="22" fill="#a9794f"/>
+    <circle cx="305" cy="388" r="4" fill="#3a2a1a"/>
+    <ellipse cx="312" cy="398" rx="6" ry="4" fill="#3a2a1a"/>
+  </g>
+  <g>
+    <ellipse cx="360" cy="408" rx="36" ry="22" fill="#c08a5c"/>
+    <circle cx="398" cy="400" r="19" fill="#c08a5c"/>
+    <circle cx="406" cy="394" r="3.5" fill="#3a2a1a"/>
+  </g>
+  <g>
+    <ellipse cx="650" cy="400" rx="34" ry="50" fill="#efe6d6"/>
+    <rect x="636" y="320" width="28" height="60" rx="14" fill="#efe6d6"/>
+    <circle cx="650" cy="312" r="20" fill="#efe6d6"/>
+    <path d="M640 296 l-4 -22 12 16 z" fill="#efe6d6"/>
+    <path d="M660 296 l4 -22 -12 16 z" fill="#efe6d6"/>
+    <circle cx="644" cy="310" r="3" fill="#3a2a1a"/>
+    <circle cx="656" cy="310" r="3" fill="#3a2a1a"/>
+    <ellipse cx="650" cy="320" rx="5" ry="3" fill="#caa"/>
+    <rect x="630" y="380" width="10" height="40" fill="#efe6d6"/>
+    <rect x="660" y="380" width="10" height="40" fill="#efe6d6"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A giant Kannon goddess figure carved into a stone cliff face beside a temple">
+  <rect width="400" height="400" fill="#cdbfa6"/>
+  <path d="M0 0 H400 V400 H230 Q220 200 230 0 Z" fill="#a89878"/>
+  <path d="M0 0 H230 Q244 200 230 400 H0 Z" fill="#bcae90"/>
+  <path d="M230 60 q-30 -10 -40 30 q-20 0 -22 36 q-16 10 -10 40 l72 0 Z" fill="#9a8a6a"/>
+  <g>
+    <path d="M150 360 Q150 180 200 150 Q250 180 250 360 Z" fill="#d8cdb6"/>
+    <path d="M150 360 Q150 180 200 150 Q220 168 222 360 Z" fill="#c4b89c"/>
+    <ellipse cx="200" cy="135" rx="30" ry="38" fill="#dcd2bc"/>
+    <path d="M170 120 q30 -34 60 0 q-10 -30 -30 -32 q-20 2 -30 32 Z" fill="#c4b89c"/>
+    <ellipse cx="200" cy="118" rx="6" ry="8" fill="#b0a486"/>
+    <path d="M190 135 q10 8 20 0" stroke="#a89878" stroke-width="2" fill="none"/>
+    <ellipse cx="192" cy="132" rx="2" ry="3" fill="#8a7a5a"/>
+    <ellipse cx="208" cy="132" rx="2" ry="3" fill="#8a7a5a"/>
+    <path d="M165 230 q-12 26 -6 56" stroke="#c4b89c" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <ellipse cx="172" cy="232" rx="10" ry="20" fill="#d8cdb6"/>
+    <rect x="196" y="170" width="8" height="60" rx="3" fill="#cabd9f"/>
+    <path d="M200 175 l-7 -12 h14 Z" fill="#dcd2bc"/>
+  </g>
+  <g>
+    <rect x="30" y="280" width="130" height="80" fill="#8a4a3a"/>
+    <path d="M18 280 h154 l-22 -34 H40 Z" fill="#5a3528"/>
+    <rect x="48" y="310" width="22" height="50" fill="#6e3528"/>
+    <rect x="120" y="310" width="22" height="50" fill="#6e3528"/>
+    <rect x="84" y="316" width="22" height="44" fill="#e8d9b0"/>
+  </g>
+  <ellipse cx="200" cy="385" rx="120" ry="12" fill="#9a8a6a" opacity="0.5"/>
+</svg>

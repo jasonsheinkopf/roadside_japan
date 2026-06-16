@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A serene display of meticulously shaped miniature bonsai trees on wooden stands in a garden">
+  <defs>
+    <linearGradient id="sky6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8ecdc"/>
+      <stop offset="1" stop-color="#f1f7ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky6)"/>
+  <rect y="330" width="800" height="170" fill="#cdb487"/>
+  <rect y="330" width="800" height="16" fill="#b89c6e"/>
+  <rect x="40" y="120" width="720" height="120" rx="8" fill="#e7d9bb" opacity="0.5"/>
+  <!-- bonsai 1 -->
+  <g>
+    <rect x="100" y="360" width="120" height="60" fill="#8a6a44"/>
+    <rect x="100" y="360" width="120" height="10" fill="#6b5234"/>
+    <rect x="130" y="320" width="60" height="46" rx="6" fill="#4a6e3a"/>
+    <rect x="150" y="250" width="14" height="80" fill="#7a5a3a"/>
+    <path d="M157 270 Q120 250 110 270" fill="none" stroke="#7a5a3a" stroke-width="8"/>
+    <ellipse cx="160" cy="220" rx="70" ry="34" fill="#5a8c46"/>
+    <ellipse cx="110" cy="240" rx="40" ry="22" fill="#4f8040"/>
+    <ellipse cx="210" cy="235" rx="44" ry="22" fill="#4f8040"/>
+  </g>
+  <!-- bonsai 2 taller -->
+  <g>
+    <rect x="340" y="370" width="120" height="55" fill="#8a6a44"/>
+    <rect x="340" y="370" width="120" height="10" fill="#6b5234"/>
+    <rect x="370" y="332" width="60" height="42" rx="6" fill="#4a6e3a"/>
+    <rect x="393" y="220" width="14" height="116" fill="#7a5a3a"/>
+    <path d="M400 280 Q440 260 460 280" fill="none" stroke="#7a5a3a" stroke-width="7"/>
+    <ellipse cx="400" cy="195" rx="60" ry="30" fill="#5a8c46"/>
+    <ellipse cx="460" cy="270" rx="36" ry="18" fill="#4f8040"/>
+    <ellipse cx="360" cy="210" rx="34" ry="18" fill="#4f8040"/>
+  </g>
+  <!-- bonsai 3 -->
+  <g>
+    <rect x="580" y="360" width="130" height="62" fill="#8a6a44"/>
+    <rect x="580" y="360" width="130" height="10" fill="#6b5234"/>
+    <rect x="610" y="318" width="70" height="48" rx="6" fill="#4a6e3a"/>
+    <rect x="638" y="240" width="14" height="90" fill="#7a5a3a"/>
+    <ellipse cx="645" cy="225" rx="64" ry="32" fill="#5a8c46"/>
+    <ellipse cx="600" cy="240" rx="36" ry="18" fill="#4f8040"/>
+    <ellipse cx="695" cy="240" rx="36" ry="18" fill="#4f8040"/>
+  </g>
+</svg>

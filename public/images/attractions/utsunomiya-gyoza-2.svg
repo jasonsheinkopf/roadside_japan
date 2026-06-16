@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan drooling happily over a giant plate of gyoza dumplings, peace sign">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient></defs>
+<rect width="400" height="400" fill="#f0e3cf"/>
+<rect y="310" width="400" height="90" fill="#c4a878"/>
+<rect y="310" width="400" height="10" fill="#b3976a"/>
+<g fill="#e9d6b8"><rect x="20" y="80" width="360" height="150" rx="8" opacity="0.6"/></g>
+<g transform="translate(110,150) scale(1.3)">
+<path d="M70 64 l-10 -40 38 22z" fill="url(#fur)"/><path d="M170 64 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
+<path d="M108 110 q12 18 24 0 q-2 14 -12 14 q-10 0 -12 -14z" fill="#f08a86"/>
+<path d="M132 122 q4 12 0 22 q-6 -6 -2 -22z" fill="#a8d8f0" opacity="0.8"/>
+<g transform="translate(150,40)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+</g>
+<g transform="translate(200,330)">
+<ellipse cx="0" cy="0" rx="150" ry="38" fill="#fff"/>
+<ellipse cx="0" cy="-6" rx="150" ry="34" fill="#eef0f2"/>
+<ellipse cx="0" cy="-6" rx="120" ry="24" fill="#e2c89a"/>
+<g fill="#e0bd84" stroke="#c69a5a" stroke-width="2">
+<path d="M-100 -10 q24 -28 48 0 q-24 10 -48 0z"/>
+<path d="M-40 -16 q24 -28 48 0 q-24 10 -48 0z"/>
+<path d="M20 -12 q24 -28 48 0 q-24 10 -48 0z"/>
+<path d="M-70 4 q24 -24 48 0 q-24 9 -48 0z"/>
+<path d="M-8 6 q24 -24 48 0 q-24 9 -48 0z"/>
+<path d="M52 0 q22 -24 44 0 q-22 9 -44 0z"/>
+</g>
+<g stroke="#c69a5a" stroke-width="1.5" fill="none">
+<path d="M-92 -18 l4 6 m6 -8 l4 6 m6 -8 l4 6 m6 -8 l4 6 m6 -8 l4 6"/>
+<path d="M-32 -24 l4 6 m6 -8 l4 6 m6 -8 l4 6 m6 -8 l4 6 m6 -8 l4 6"/>
+<path d="M28 -20 l4 6 m6 -8 l4 6 m6 -8 l4 6 m6 -8 l4 6 m6 -8 l4 6"/>
+</g>
+</g>
+<path d="M148 263 q52 22 104 0 l-6 -20 q-44 14 -92 0z" fill="#d6483b"/>
+<path d="M200 263 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="172" cy="256" r="2" fill="#fff"/><circle cx="226" cy="258" r="2" fill="#fff"/>
+</svg>

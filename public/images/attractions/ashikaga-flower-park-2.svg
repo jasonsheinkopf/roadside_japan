@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan under a giant glowing violet wisteria canopy at night, peace sign">
+<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.3" r="0.7"><stop offset="0" stop-color="#3a2a5a"/><stop offset="1" stop-color="#181028"/></radialGradient></defs>
+<rect width="400" height="400" fill="url(#glow)"/>
+<rect y="330" width="400" height="70" fill="#241838"/>
+<g fill="#6a4a9a"><rect x="40" y="40" width="320" height="14" rx="6"/></g>
+<g fill="#8c7ab8" opacity="0.95">
+<path d="M70 54 q-8 70 -20 120 q14 -18 26 -120z"/><path d="M120 54 q-6 90 -16 150 q12 -22 22 -150z"/>
+<path d="M180 54 q-8 100 -18 170 q14 -24 26 -170z"/><path d="M250 54 q-6 88 -14 145 q12 -22 20 -145z"/>
+<path d="M320 54 q-8 76 -18 130 q14 -20 26 -130z"/><path d="M220 54 q-4 60 -10 100 q10 -16 16 -100z"/>
+</g>
+<g fill="#c9b6f0">
+<circle cx="64" cy="120" r="5"/><circle cx="72" cy="150" r="5"/><circle cx="108" cy="160" r="5"/><circle cx="116" cy="190" r="5"/>
+<circle cx="168" cy="180" r="5"/><circle cx="176" cy="215" r="5"/><circle cx="240" cy="160" r="5"/><circle cx="248" cy="190" r="5"/>
+<circle cx="308" cy="140" r="5"/><circle cx="316" cy="172" r="5"/><circle cx="212" cy="120" r="4"/><circle cx="220" cy="150" r="4"/>
+</g>
+<g fill="#e8c8ff" opacity="0.5"><circle cx="64" cy="120" r="11"/><circle cx="176" cy="215" r="11"/><circle cx="316" cy="172" r="11"/><circle cx="248" cy="190" r="10"/></g>
+<g transform="translate(110,180) scale(1.35)">
+<path d="M70 64 l-10 -40 38 22z" fill="url(#fur)"/><path d="M170 64 l10 -40 -38 22z" fill="url(#fur)"/>
+<path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
+<ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/>
+<path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
+<path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+<g transform="translate(150,40)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/><rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0"/></g>
+</g>
+<path d="M148 305 q52 22 104 0 l-6 -20 q-44 14 -92 0z" fill="#d6483b"/>
+<path d="M200 305 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
+<circle cx="172" cy="298" r="2" fill="#fff"/><circle cx="226" cy="300" r="2" fill="#fff"/>
+</svg>

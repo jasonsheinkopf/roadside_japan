@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A cozy museum room full of vintage teddy bears arranged on display">
+  <rect width="400" height="400" fill="#e9c89a"/>
+  <rect width="400" height="250" fill="#f2dcb8"/>
+  <rect x="0" y="250" width="400" height="150" fill="#c79a64"/>
+  <rect x="40" y="60" width="320" height="60" fill="#b9824f"/>
+  <rect x="40" y="180" width="320" height="60" fill="#b9824f"/>
+  <rect x="36" y="118" width="328" height="10" fill="#8a5d32"/>
+  <rect x="36" y="238" width="328" height="10" fill="#8a5d32"/>
+  <g>
+    <g transform="translate(90,72)">
+      <circle cx="0" cy="22" r="20" fill="#c98a4f"/>
+      <circle cx="-13" cy="6" r="8" fill="#c98a4f"/>
+      <circle cx="13" cy="6" r="8" fill="#c98a4f"/>
+      <circle cx="0" cy="20" r="13" fill="#e3b27e"/>
+      <circle cx="-6" cy="18" r="2.5" fill="#3a2412"/>
+      <circle cx="6" cy="18" r="2.5" fill="#3a2412"/>
+      <circle cx="0" cy="24" r="3" fill="#3a2412"/>
+    </g>
+    <g transform="translate(200,72)">
+      <circle cx="0" cy="22" r="20" fill="#a8693a"/>
+      <circle cx="-13" cy="6" r="8" fill="#a8693a"/>
+      <circle cx="13" cy="6" r="8" fill="#a8693a"/>
+      <circle cx="0" cy="20" r="13" fill="#cf9663"/>
+      <circle cx="-6" cy="18" r="2.5" fill="#3a2412"/>
+      <circle cx="6" cy="18" r="2.5" fill="#3a2412"/>
+      <circle cx="0" cy="24" r="3" fill="#3a2412"/>
+    </g>
+    <g transform="translate(310,72)">
+      <circle cx="0" cy="22" r="20" fill="#d8a86f"/>
+      <circle cx="-13" cy="6" r="8" fill="#d8a86f"/>
+      <circle cx="13" cy="6" r="8" fill="#d8a86f"/>
+      <circle cx="0" cy="20" r="13" fill="#eccaa0"/>
+      <circle cx="-6" cy="18" r="2.5" fill="#3a2412"/>
+      <circle cx="6" cy="18" r="2.5" fill="#3a2412"/>
+      <circle cx="0" cy="24" r="3" fill="#3a2412"/>
+    </g>
+  </g>
+  <g>
+    <g transform="translate(110,192)">
+      <circle cx="0" cy="22" r="22" fill="#b5763f"/>
+      <circle cx="-15" cy="5" r="9" fill="#b5763f"/>
+      <circle cx="15" cy="5" r="9" fill="#b5763f"/>
+      <circle cx="0" cy="20" r="14" fill="#daa86f"/>
+      <circle cx="-7" cy="18" r="2.8" fill="#3a2412"/>
+      <circle cx="7" cy="18" r="2.8" fill="#3a2412"/>
+      <circle cx="0" cy="25" r="3.5" fill="#3a2412"/>
+      <rect x="-22" y="34" width="44" height="8" rx="4" fill="#c0392b"/>
+    </g>
+    <g transform="translate(250,192)">
+      <circle cx="0" cy="22" r="22" fill="#caa074"/>
+      <circle cx="-15" cy="5" r="9" fill="#caa074"/>
+      <circle cx="15" cy="5" r="9" fill="#caa074"/>
+      <circle cx="0" cy="20" r="14" fill="#e6c79c"/>
+      <circle cx="-7" cy="18" r="2.8" fill="#3a2412"/>
+      <circle cx="7" cy="18" r="2.8" fill="#3a2412"/>
+      <circle cx="0" cy="25" r="3.5" fill="#3a2412"/>
+      <rect x="-22" y="34" width="44" height="8" rx="4" fill="#2e7d6b"/>
+    </g>
+  </g>
+  <rect x="150" y="300" width="100" height="60" rx="6" fill="#8a5d32"/>
+  <text x="200" y="338" font-family="sans-serif" font-size="26" font-weight="bold" fill="#f2dcb8" text-anchor="middle">BEARS</text>
+</svg>

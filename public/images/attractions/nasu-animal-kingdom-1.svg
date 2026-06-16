@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A grassy animal park with capybaras lounging in a hot bath and alpacas grazing">
+  <rect width="400" height="400" fill="#bfe3a0"/>
+  <rect y="0" width="400" height="170" fill="#aedcf0"/>
+  <circle cx="320" cy="55" r="34" fill="#ffe08a"/>
+  <path d="M0 150 q100 -40 200 0 t200 0 v40 H0 Z" fill="#9ed089"/>
+  <ellipse cx="115" cy="300" rx="95" ry="62" fill="#6fa8dc"/>
+  <ellipse cx="115" cy="282" rx="95" ry="44" fill="#aacdee"/>
+  <g>
+    <ellipse cx="80" cy="265" rx="34" ry="24" fill="#a06a3f"/>
+    <circle cx="50" cy="258" r="17" fill="#a06a3f"/>
+    <ellipse cx="44" cy="248" rx="4" ry="6" fill="#7a4d2b"/>
+    <ellipse cx="56" cy="248" rx="4" ry="6" fill="#7a4d2b"/>
+    <circle cx="46" cy="260" r="2.5" fill="#2b1a0d"/>
+    <circle cx="54" cy="260" r="2.5" fill="#2b1a0d"/>
+    <ellipse cx="50" cy="266" rx="6" ry="4" fill="#7a4d2b"/>
+  </g>
+  <g>
+    <ellipse cx="150" cy="272" rx="30" ry="21" fill="#b27a4a"/>
+    <circle cx="178" cy="266" r="15" fill="#b27a4a"/>
+    <ellipse cx="173" cy="257" rx="4" ry="5" fill="#8a5a32"/>
+    <ellipse cx="184" cy="257" rx="4" ry="5" fill="#8a5a32"/>
+    <circle cx="175" cy="267" r="2.2" fill="#2b1a0d"/>
+    <circle cx="182" cy="267" r="2.2" fill="#2b1a0d"/>
+  </g>
+  <path d="M30 235 q5 -18 12 0" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M188 240 q5 -18 12 0" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <g>
+    <ellipse cx="300" cy="300" rx="30" ry="42" fill="#f2e3c8"/>
+    <rect x="284" y="318" width="9" height="40" fill="#e8d6b4"/>
+    <rect x="308" y="318" width="9" height="40" fill="#e8d6b4"/>
+    <ellipse cx="300" cy="240" rx="16" ry="22" fill="#f7eed8"/>
+    <ellipse cx="288" cy="222" rx="6" ry="13" fill="#f2e3c8"/>
+    <ellipse cx="312" cy="222" rx="6" ry="13" fill="#f2e3c8"/>
+    <circle cx="295" cy="240" r="2.5" fill="#2b1a0d"/>
+    <circle cx="306" cy="240" r="2.5" fill="#2b1a0d"/>
+    <ellipse cx="300" cy="250" rx="4" ry="3" fill="#c9a878"/>
+  </g>
+  <ellipse cx="245" cy="350" rx="22" ry="6" fill="#86b86a"/>
+  <ellipse cx="355" cy="358" rx="26" ry="7" fill="#86b86a"/>
+</svg>

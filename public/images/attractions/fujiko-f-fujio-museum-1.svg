@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A whimsical museum lawn with a big friendly blue robot cat statue and cartoon characters">
+  <rect width="400" height="400" fill="#bfe3f0"/>
+  <circle cx="330" cy="70" r="36" fill="#fff3b0"/>
+  <rect y="250" width="400" height="150" fill="#8fd07a"/>
+  <ellipse cx="200" cy="250" rx="240" ry="40" fill="#7cc466"/>
+  <!-- museum building -->
+  <rect x="40" y="150" width="320" height="110" fill="#f4ede0"/>
+  <rect x="40" y="135" width="320" height="22" fill="#e07a5f"/>
+  <rect x="70" y="175" width="40" height="60" fill="#9ad0e8"/>
+  <rect x="290" y="175" width="40" height="60" fill="#9ad0e8"/>
+  <!-- robot cat -->
+  <ellipse cx="200" cy="345" rx="70" ry="14" fill="#5fa84a"/>
+  <circle cx="200" cy="270" r="64" fill="#3aa6df"/>
+  <circle cx="200" cy="290" r="48" fill="#ffffff"/>
+  <circle cx="183" cy="252" r="17" fill="#ffffff"/>
+  <circle cx="217" cy="252" r="17" fill="#ffffff"/>
+  <circle cx="187" cy="255" r="6" fill="#222"/>
+  <circle cx="213" cy="255" r="6" fill="#222"/>
+  <circle cx="200" cy="272" r="9" fill="#e63946"/>
+  <line x1="200" y1="281" x2="200" y2="320" stroke="#222" stroke-width="3"/>
+  <path d="M200 295 Q200 320 175 318" stroke="#222" stroke-width="3" fill="none"/>
+  <path d="M200 295 Q200 320 225 318" stroke="#222" stroke-width="3" fill="none"/>
+  <line x1="150" y1="278" x2="178" y2="272" stroke="#222" stroke-width="2"/>
+  <line x1="150" y1="288" x2="178" y2="284" stroke="#222" stroke-width="2"/>
+  <line x1="250" y1="278" x2="222" y2="272" stroke="#222" stroke-width="2"/>
+  <line x1="250" y1="288" x2="222" y2="284" stroke="#222" stroke-width="2"/>
+  <circle cx="200" cy="312" r="9" fill="#e63946"/>
+  <text x="200" y="392" font-family="sans-serif" font-size="22" fill="#1d3557" text-anchor="middle" font-weight="bold">MUSEUM</text>
+</svg>

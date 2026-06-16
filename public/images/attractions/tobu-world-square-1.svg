@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Miniature models of world landmarks like the Eiffel Tower and pyramids on display">
+  <rect width="400" height="400" fill="#bfe0ef"/>
+  <rect x="0" y="270" width="400" height="130" fill="#8fc06a"/>
+  <ellipse cx="320" cy="60" r="0" fill="#fff"/>
+  <circle cx="80" cy="70" r="26" fill="#ffffff" opacity="0.8"/>
+  <circle cx="110" cy="70" r="20" fill="#ffffff" opacity="0.8"/>
+  <g>
+    <path d="M170 280 L185 110 L215 110 L230 280 Z" fill="#d98c3f"/>
+    <path d="M180 220 h40" stroke="#8a5320" stroke-width="6"/>
+    <path d="M188 170 h24" stroke="#8a5320" stroke-width="5"/>
+    <rect x="193" y="100" width="14" height="14" fill="#d98c3f"/>
+    <path d="M174 280 q26 -34 52 0 Z" fill="#b96f28"/>
+  </g>
+  <g>
+    <path d="M40 280 L95 180 L150 280 Z" fill="#e3c07a"/>
+    <path d="M95 180 L150 280 L122 280 Z" fill="#c9a25c"/>
+  </g>
+  <g>
+    <rect x="270" y="180" width="90" height="100" fill="#cf6f5a"/>
+    <path d="M268 180 h94 l-8 -22 h-78 Z" fill="#9c4a3a"/>
+    <rect x="282" y="205" width="16" height="22" rx="3" fill="#7a3528"/>
+    <rect x="307" y="205" width="16" height="22" rx="3" fill="#7a3528"/>
+    <rect x="332" y="205" width="16" height="22" rx="3" fill="#7a3528"/>
+    <rect x="282" y="240" width="16" height="40" rx="3" fill="#7a3528"/>
+    <rect x="332" y="240" width="16" height="40" rx="3" fill="#7a3528"/>
+    <path d="M315 158 l-30 22 h60 Z" fill="#b85a48"/>
+  </g>
+  <g transform="translate(200,300)">
+    <ellipse cx="0" cy="0" rx="170" ry="22" fill="#7aab57"/>
+  </g>
+  <g>
+    <circle cx="70" cy="330" r="3" fill="#6fa050"/>
+    <circle cx="160" cy="345" r="3" fill="#6fa050"/>
+    <circle cx="300" cy="335" r="3" fill="#6fa050"/>
+  </g>
+  <g fill="#3a5fa0">
+    <rect x="22" y="320" width="6" height="14"/>
+    <circle cx="25" cy="316" r="5" fill="#f2c79c"/>
+  </g>
+  <g fill="#a03a4a">
+    <rect x="375" y="318" width="6" height="14"/>
+    <circle cx="378" cy="314" r="5" fill="#f2c79c"/>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A steaming plate of crispy pan-fried gyoza dumplings with a quirky stone gyoza statue behind">
+  <defs>
+    <linearGradient id="ggsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe2c0"/>
+      <stop offset="1" stop-color="#fff2dd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ggsky)"/>
+  <rect x="0" y="330" width="800" height="170" fill="#d9b98c"/>
+  <rect x="0" y="324" width="800" height="10" fill="#c2a276"/>
+  <g transform="translate(560,150)">
+    <ellipse cx="0" cy="200" rx="120" ry="24" fill="#000" opacity="0.1"/>
+    <rect x="-60" y="120" width="120" height="80" rx="10" fill="#b8ad97"/>
+    <path d="M-90 120 Q-90 30 0 30 Q90 30 90 120 Q60 105 0 105 Q-60 105 -90 120 Z" fill="#cfc4ad"/>
+    <g stroke="#a89c84" stroke-width="3" fill="none">
+      <path d="M-70 100 q10 -10 20 0"/><path d="M-40 92 q10 -10 20 0"/>
+      <path d="M-10 88 q10 -10 20 0"/><path d="M20 90 q10 -10 20 0"/>
+      <path d="M50 96 q10 -10 20 0"/>
+    </g>
+    <circle cx="-20" cy="80" r="6" fill="#a89c84"/>
+    <circle cx="20" cy="80" r="6" fill="#a89c84"/>
+    <path d="M-14 100 q14 12 28 0" stroke="#a89c84" stroke-width="4" fill="none"/>
+  </g>
+  <g stroke="#fff" stroke-width="5" fill="none" opacity="0.55" stroke-linecap="round">
+    <path d="M300 300 q-20 -30 0 -60 q20 -30 0 -60"/>
+    <path d="M380 300 q20 -30 0 -60 q-20 -30 0 -60"/>
+    <path d="M460 300 q-20 -30 0 -60 q20 -30 0 -60"/>
+  </g>
+  <ellipse cx="400" cy="400" rx="240" ry="70" fill="#f0ece2"/>
+  <ellipse cx="400" cy="392" rx="240" ry="62" fill="#ffffff"/>
+  <ellipse cx="400" cy="388" rx="200" ry="48" fill="#fbe9d0"/>
+  <g>
+    <g transform="translate(280,380)">
+      <path d="M-58 14 Q0 -36 58 14 Q0 30 -58 14 Z" fill="#e8c188"/>
+      <path d="M-58 14 Q0 -36 58 14" fill="none" stroke="#c99a55" stroke-width="3"/>
+      <path d="M-46 8 q8 -10 12 2 M-30 2 q8 -10 12 2 M-14 -2 q8 -10 12 2 M2 -2 q8 -10 12 2 M18 2 q8 -10 12 2 M34 8 q8 -10 12 2" fill="none" stroke="#caa05a" stroke-width="3"/>
+      <ellipse cx="0" cy="20" rx="56" ry="8" fill="#b5793a"/>
+    </g>
+    <g transform="translate(400,372)">
+      <path d="M-58 14 Q0 -36 58 14 Q0 30 -58 14 Z" fill="#f0cd96"/>
+      <path d="M-58 14 Q0 -36 58 14" fill="none" stroke="#c99a55" stroke-width="3"/>
+      <path d="M-46 8 q8 -10 12 2 M-30 2 q8 -10 12 2 M-14 -2 q8 -10 12 2 M2 -2 q8 -10 12 2 M18 2 q8 -10 12 2 M34 8 q8 -10 12 2" fill="none" stroke="#caa05a" stroke-width="3"/>
+      <ellipse cx="0" cy="20" rx="56" ry="8" fill="#b5793a"/>
+    </g>
+    <g transform="translate(520,380)">
+      <path d="M-58 14 Q0 -36 58 14 Q0 30 -58 14 Z" fill="#e8c188"/>
+      <path d="M-58 14 Q0 -36 58 14" fill="none" stroke="#c99a55" stroke-width="3"/>
+      <path d="M-46 8 q8 -10 12 2 M-30 2 q8 -10 12 2 M-14 -2 q8 -10 12 2 M2 -2 q8 -10 12 2 M18 2 q8 -10 12 2 M34 8 q8 -10 12 2" fill="none" stroke="#caa05a" stroke-width="3"/>
+      <ellipse cx="0" cy="20" rx="56" ry="8" fill="#b5793a"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A vast museum hall full of historic Japanese trains including a bullet-train nose and a steam locomotive">
+  <defs>
+    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4a66"/>
+      <stop offset="1" stop-color="#566584"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#hall)"/>
+  <!-- roof girders -->
+  <polygon points="0,0 800,0 800,70 0,110" fill="#2a3650"/>
+  <line x1="120" y1="70" x2="120" y2="0" stroke="#46587a" stroke-width="6"/>
+  <line x1="320" y1="60" x2="320" y2="0" stroke="#46587a" stroke-width="6"/>
+  <line x1="520" y1="60" x2="520" y2="0" stroke="#46587a" stroke-width="6"/>
+  <line x1="700" y1="70" x2="700" y2="0" stroke="#46587a" stroke-width="6"/>
+  <rect y="380" width="800" height="120" fill="#7a8294"/>
+  <rect y="380" width="800" height="10" fill="#5e6678"/>
+  <!-- steam locomotive (left) -->
+  <g>
+    <rect x="40" y="250" width="230" height="90" rx="10" fill="#222426"/>
+    <circle cx="60" cy="280" r="22" fill="#3a3c3e"/>
+    <rect x="40" y="220" width="60" height="40" rx="8" fill="#222426"/>
+    <circle cx="55" cy="218" r="14" fill="#444648"/>
+    <rect x="180" y="200" width="90" height="60" fill="#2c2e30"/>
+    <circle cx="90" cy="350" r="26" fill="#3a3c3e"/>
+    <circle cx="90" cy="350" r="10" fill="#b33b2b"/>
+    <circle cx="160" cy="350" r="26" fill="#3a3c3e"/>
+    <circle cx="160" cy="350" r="10" fill="#b33b2b"/>
+    <circle cx="230" cy="350" r="20" fill="#3a3c3e"/>
+    <polygon points="40,250 20,250 30,300 40,300" fill="#b33b2b"/>
+  </g>
+  <!-- bullet train nose (right) -->
+  <g>
+    <path d="M780 250 L520 250 Q400 250 360 300 L780 300 Z" fill="#eef2f5"/>
+    <rect x="520" y="250" width="260" height="50" fill="#eef2f5"/>
+    <rect x="360" y="300" width="420" height="14" fill="#1e6fb0"/>
+    <path d="M360 300 Q400 252 520 252 L520 280 Q420 280 400 300 Z" fill="#9fd0ec"/>
+    <circle cx="430" cy="282" r="9" fill="#2b2b2b"/>
+    <circle cx="650" cy="350" r="22" fill="#3a3c3e"/>
+    <circle cx="740" cy="350" r="22" fill="#3a3c3e"/>
+  </g>
+  <text x="400" y="55" font-family="sans-serif" font-size="26" fill="#cdd6e2" text-anchor="middle">RAILWAY MUSEUM</text>
+</svg>

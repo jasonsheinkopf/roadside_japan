@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A grand temple gate and main hall with incense smoke and a five-story pagoda">
+  <rect width="400" height="400" fill="#f6d9b0"/>
+  <rect y="260" width="400" height="140" fill="#c9b08a"/>
+  <circle cx="320" cy="70" r="40" fill="#ffe08a" opacity="0.8"/>
+  <!-- pagoda right -->
+  <g fill="#b23a2e">
+    <rect x="300" y="120" width="60" height="140" fill="#e8e0d2"/>
+    <polygon points="285,125 375,125 330,100"/>
+    <rect x="296" y="158" width="68" height="10"/>
+    <polygon points="288,158 372,158 330,140"/>
+    <rect x="296" y="196" width="68" height="10"/>
+    <polygon points="288,196 372,196 330,178"/>
+    <polygon points="320,100 340,100 333,70 327,70"/>
+  </g>
+  <!-- main hall -->
+  <rect x="60" y="180" width="220" height="80" fill="#efe6d6"/>
+  <rect x="48" y="155" width="244" height="34" fill="#b23a2e"/>
+  <polygon points="40,155 300,155 170,110" fill="#9c2f25"/>
+  <rect x="100" y="200" width="30" height="60" fill="#7a4a2a"/>
+  <rect x="210" y="200" width="30" height="60" fill="#7a4a2a"/>
+  <!-- gate / torii style -->
+  <rect x="155" y="210" width="30" height="50" fill="#8a1f1f"/>
+  <!-- incense smoke -->
+  <path d="M340 260 Q330 230 345 210 Q360 190 348 165" stroke="#fff" stroke-width="6" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <path d="M170 280 Q160 250 175 228 Q188 208 178 185" stroke="#fff" stroke-width="6" fill="none" opacity="0.55" stroke-linecap="round"/>
+  <text x="170" y="392" font-family="sans-serif" font-size="22" fill="#5a2a18" text-anchor="middle" font-weight="bold">TEMPLE</text>
+</svg>

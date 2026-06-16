@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A vast 160-year-old wisteria tree dripping violet blossoms over a wide trellis, reflected in a pond">
+  <defs>
+    <linearGradient id="asky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe6c2"/>
+      <stop offset="1" stop-color="#ffd0e0"/>
+    </linearGradient>
+    <linearGradient id="pond" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a6c4e0"/>
+      <stop offset="1" stop-color="#cfe0ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#asky)"/>
+  <circle cx="400" cy="130" r="70" fill="#ffe8b0" opacity="0.7"/>
+  <rect x="0" y="380" width="800" height="120" fill="url(#pond)"/>
+  <line x1="0" y1="380" x2="800" y2="380" stroke="#8fb0cf" stroke-width="2"/>
+  <g>
+    <rect x="60" y="200" width="680" height="14" rx="6" fill="#6e4a2e"/>
+    <rect x="120" y="214" width="14" height="170" fill="#6e4a2e"/>
+    <rect x="666" y="214" width="14" height="170" fill="#6e4a2e"/>
+    <rect x="390" y="214" width="20" height="170" fill="#5a3a22"/>
+  </g>
+  <g fill="#9b6fd6">
+    <path d="M100 210 q-14 60 -6 120" stroke="#9b6fd6" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M180 210 q14 70 4 130" stroke="#a87fe0" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M260 210 q-10 70 -2 140" stroke="#9b6fd6" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M340 210 q16 60 6 120" stroke="#b58fe6" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M460 210 q-12 70 -4 140" stroke="#9b6fd6" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M540 210 q14 60 4 120" stroke="#a87fe0" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M620 210 q-12 70 -2 130" stroke="#b58fe6" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M700 210 q14 60 4 120" stroke="#9b6fd6" stroke-width="20" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#c4a3ec" opacity="0.9">
+    <ellipse cx="180" cy="240" rx="70" ry="30"/><ellipse cx="380" cy="245" rx="80" ry="32"/>
+    <ellipse cx="580" cy="240" rx="75" ry="30"/>
+  </g>
+  <g fill="#8a5fc8" opacity="0.5">
+    <ellipse cx="140" cy="430" rx="60" ry="20"/><ellipse cx="360" cy="440" rx="70" ry="22"/>
+    <ellipse cx="600" cy="430" rx="65" ry="20"/>
+  </g>
+  <g stroke="#cfe0ee" stroke-width="2" opacity="0.6">
+    <line x1="100" y1="410" x2="200" y2="410"/><line x1="320" y1="430" x2="440" y2="430"/>
+    <line x1="540" y1="415" x2="660" y2="415"/>
+  </g>
+</svg>

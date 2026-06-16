@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A miniature theme park with tiny models of world landmarks: Eiffel Tower, pyramids, and a pagoda">
+  <defs>
+    <linearGradient id="tsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6f7"/>
+      <stop offset="1" stop-color="#eaf7ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#tsky)"/>
+  <ellipse cx="150" cy="100" rx="55" ry="24" fill="#fff" opacity="0.85"/>
+  <ellipse cx="650" cy="80" rx="65" ry="26" fill="#fff" opacity="0.8"/>
+  <rect x="0" y="350" width="800" height="150" fill="#8cc97a"/>
+  <path d="M0 350 Q400 320 800 350 V500 H0 Z" fill="#79bd66"/>
+  <path d="M40 350 Q400 300 760 350" fill="none" stroke="#cdeac0" stroke-width="40"/>
+  <g>
+    <polygon points="300,360 240,360 270,180" fill="#9aa3ad"/>
+    <polygon points="270,180 264,210 276,210" fill="#7d8893"/>
+    <rect x="252" y="300" width="36" height="6" fill="#7d8893"/>
+    <rect x="258" y="250" width="24" height="6" fill="#7d8893"/>
+    <line x1="270" y1="180" x2="240" y2="360" stroke="#7d8893" stroke-width="3"/>
+    <line x1="270" y1="180" x2="300" y2="360" stroke="#7d8893" stroke-width="3"/>
+  </g>
+  <g>
+    <polygon points="430,360 560,360 495,250" fill="#e3c07a"/>
+    <polygon points="495,250 560,360 510,360" fill="#cda85e"/>
+    <polygon points="380,360 470,360 425,290" fill="#e3c07a"/>
+    <polygon points="425,290 470,360 430,360" fill="#cda85e"/>
+  </g>
+  <g transform="translate(640,200)">
+    <polygon points="-50,40 50,40 30,55 -30,55" fill="#c0392b"/>
+    <polygon points="0,0 -55,40 55,40" fill="#e05a48"/>
+    <rect x="-34" y="55" width="68" height="40" fill="#f0d9b0"/>
+    <polygon points="-44,95 44,95 26,108 -26,108" fill="#c0392b"/>
+    <polygon points="0,55 -49,95 49,95" fill="#e05a48"/>
+    <rect x="-26" y="108" width="52" height="50" fill="#f0d9b0"/>
+    <polygon points="-34,158 34,158 18,170 -18,170" fill="#c0392b"/>
+    <rect x="-3" y="-18" width="6" height="18" fill="#caa44a"/>
+  </g>
+  <g>
+    <rect x="100" y="320" width="50" height="40" fill="#f0d9b0"/>
+    <polygon points="95,320 155,320 125,295" fill="#c0392b"/>
+    <rect x="115" y="335" width="20" height="25" fill="#8a5a30"/>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="sans-serif" font-size="30" fill="#3a5a30" font-weight="bold">World Square</text>
+</svg>

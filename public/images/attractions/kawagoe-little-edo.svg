@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A street of black clay-walled Edo-era warehouses with a tall wooden bell tower">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7cf9a"/>
+      <stop offset="1" stop-color="#fbe9cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky4)"/>
+  <circle cx="120" cy="100" r="48" fill="#ffe09a"/>
+  <rect y="400" width="800" height="100" fill="#9b9088"/>
+  <polygon points="0,400 800,400 800,420 0,440" fill="#857a72"/>
+  <!-- warehouses (kurazukuri) -->
+  <g>
+    <rect x="40" y="250" width="180" height="160" fill="#2f2c2b"/>
+    <polygon points="20,250 130,200 240,250" fill="#1a1817"/>
+    <rect x="40" y="300" width="180" height="14" fill="#4a4644"/>
+    <rect x="70" y="330" width="50" height="80" fill="#6b6360"/>
+    <rect x="150" y="330" width="40" height="40" fill="#8a817c"/>
+  </g>
+  <g>
+    <rect x="250" y="270" width="170" height="140" fill="#3a3634"/>
+    <polygon points="232,270 335,224 438,270" fill="#211f1e"/>
+    <rect x="250" y="316" width="170" height="12" fill="#54504d"/>
+    <rect x="290" y="345" width="44" height="65" fill="#6b6360"/>
+  </g>
+  <!-- bell tower (Toki no Kane) -->
+  <g>
+    <rect x="540" y="170" width="80" height="230" fill="#8a6a44"/>
+    <rect x="540" y="170" width="80" height="14" fill="#6b5234"/>
+    <polygon points="520,170 580,120 640,170" fill="#5a4a2e"/>
+    <polygon points="520,265 580,245 640,265" fill="#5a4a2e"/>
+    <rect x="540" y="265" width="80" height="10" fill="#6b5234"/>
+    <rect x="565" y="195" width="30" height="55" fill="#3a2e1e"/>
+    <circle cx="580" cy="222" r="9" fill="#d8b24a"/>
+    <polygon points="572,110 588,110 580,90" fill="#d8b24a"/>
+  </g>
+  <rect x="660" y="290" width="120" height="120" fill="#3a3634"/>
+  <polygon points="642,290 720,250 798,290" fill="#211f1e"/>
+</svg>

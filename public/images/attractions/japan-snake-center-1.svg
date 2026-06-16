@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A large coiled green snake behind glass in a snake exhibit house">
+  <rect width="400" height="400" fill="#3a4a3f"/>
+  <!-- exhibit interior -->
+  <rect x="30" y="30" width="340" height="340" rx="10" fill="#cdb98c"/>
+  <rect x="30" y="260" width="340" height="110" rx="6" fill="#7a6a45"/>
+  <ellipse cx="120" cy="300" rx="50" ry="20" fill="#5f5236"/>
+  <ellipse cx="300" cy="290" rx="40" ry="16" fill="#6b5d3e"/>
+  <!-- coiled snake -->
+  <g>
+    <ellipse cx="200" cy="270" rx="120" ry="50" fill="#3f8f4a"/>
+    <ellipse cx="200" cy="270" rx="120" ry="50" fill="none" stroke="#2f6e38" stroke-width="6"/>
+    <ellipse cx="200" cy="220" rx="90" ry="42" fill="#4fa05a"/>
+    <ellipse cx="200" cy="220" rx="90" ry="42" fill="none" stroke="#357b40" stroke-width="6"/>
+    <ellipse cx="200" cy="178" rx="60" ry="34" fill="#5fb069"/>
+    <!-- scale dots -->
+    <circle cx="160" cy="270" r="5" fill="#2f6e38"/>
+    <circle cx="240" cy="265" r="5" fill="#2f6e38"/>
+    <circle cx="190" cy="295" r="5" fill="#2f6e38"/>
+    <!-- head -->
+    <path d="M200 150 Q170 145 165 165 Q160 185 195 188 Q235 185 232 162 Q228 144 200 150 Z" fill="#6fc079"/>
+    <circle cx="183" cy="162" r="6" fill="#f4d03f"/>
+    <circle cx="183" cy="162" r="3" fill="#222"/>
+    <circle cx="217" cy="162" r="6" fill="#f4d03f"/>
+    <circle cx="217" cy="162" r="3" fill="#222"/>
+    <path d="M200 188 L195 205 L188 200 M195 205 L202 200" stroke="#e63946" stroke-width="2.5" fill="none"/>
+  </g>
+  <!-- glass glare -->
+  <polygon points="60,40 110,40 70,360 30,360 30,300" fill="#ffffff" opacity="0.12"/>
+  <rect x="30" y="30" width="340" height="340" rx="10" fill="none" stroke="#222" stroke-width="8"/>
+  <text x="200" y="58" font-family="sans-serif" font-size="20" fill="#2f4030" text-anchor="middle" font-weight="bold">SNAKE</text>
+</svg>

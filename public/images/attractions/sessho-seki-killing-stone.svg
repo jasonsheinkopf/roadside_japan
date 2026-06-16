@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A barren steaming yellow sulfur field in the mountains with a large split volcanic rock and a ghostly nine-tailed fox spirit">
+  <defs>
+    <linearGradient id="sky9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8a9c9"/>
+      <stop offset="1" stop-color="#e4dcc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky9)"/>
+  <!-- distant mountains -->
+  <polygon points="0,230 180,130 360,230" fill="#8a7e92"/>
+  <polygon points="300,240 520,120 740,240" fill="#9a8e9e"/>
+  <polygon points="600,235 760,150 800,200 800,240" fill="#867a8a"/>
+  <!-- sulfur field -->
+  <rect y="280" width="800" height="220" fill="#d9c24a"/>
+  <path d="M0 280 Q200 260 400 290 Q600 320 800 285 L800 500 L0 500 Z" fill="#cdb63e"/>
+  <ellipse cx="180" cy="420" rx="90" ry="24" fill="#e3d066"/>
+  <ellipse cx="600" cy="440" rx="110" ry="26" fill="#e3d066"/>
+  <!-- steam vents -->
+  <path d="M150 400 Q130 360 150 330 Q170 300 150 270" fill="none" stroke="#f2ecd8" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+  <path d="M640 410 Q660 372 640 340 Q620 312 642 282" fill="none" stroke="#f2ecd8" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+  <!-- split volcanic rock -->
+  <g>
+    <polygon points="330,400 350,290 430,280 470,400" fill="#4a4448"/>
+    <polygon points="470,400 460,300 540,295 560,400" fill="#564f54"/>
+    <polygon points="430,280 446,400 460,400 460,290" fill="#2c282b"/>
+    <polygon points="350,290 360,330 380,320 372,295" fill="#5e5860"/>
+  </g>
+  <!-- ghostly nine-tailed fox -->
+  <g opacity="0.7">
+    <ellipse cx="240" cy="250" rx="46" ry="30" fill="#ffffff"/>
+    <circle cx="200" cy="230" r="20" fill="#ffffff"/>
+    <polygon points="186,214 196,196 204,216" fill="#ffffff"/>
+    <polygon points="204,212 214,194 220,214" fill="#ffffff"/>
+    <circle cx="194" cy="228" r="3" fill="#c98aa8"/>
+    <circle cx="206" cy="230" r="3" fill="#c98aa8"/>
+    <path d="M280 250 Q330 220 350 250 M280 258 Q335 240 360 270 M280 266 Q330 270 350 300" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+    <path d="M278 244 Q320 210 330 230 M280 272 Q325 290 320 320" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A vast 160-year-old wisteria tree dripping violet blossoms over a wide trellis">
+  <rect width="400" height="400" fill="#2a2a4a"/>
+  <rect x="0" y="0" width="400" height="150" fill="#3a3a66"/>
+  <circle cx="60" cy="50" r="2" fill="#fff"/>
+  <circle cx="340" cy="40" r="2" fill="#fff"/>
+  <circle cx="200" cy="30" r="2" fill="#fff"/>
+  <rect x="0" y="320" width="400" height="80" fill="#3a3050"/>
+  <g stroke="#5a4a32" stroke-width="10" stroke-linecap="round">
+    <line x1="40" y1="150" x2="40" y2="330"/>
+    <line x1="360" y1="150" x2="360" y2="330"/>
+    <line x1="30" y1="150" x2="370" y2="150"/>
+  </g>
+  <g stroke="#6e5a3e" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M200 150 Q160 130 110 150"/>
+    <path d="M200 150 Q240 130 300 150"/>
+  </g>
+  <g fill="#7a4fa0">
+    <ellipse cx="55" cy="160" rx="22" ry="14"/>
+    <ellipse cx="120" cy="158" rx="24" ry="15"/>
+    <ellipse cx="200" cy="156" rx="30" ry="17"/>
+    <ellipse cx="285" cy="158" rx="24" ry="15"/>
+    <ellipse cx="350" cy="160" rx="22" ry="14"/>
+  </g>
+  <g fill="#9a6fc8">
+    <ellipse cx="55" cy="155" rx="18" ry="11"/>
+    <ellipse cx="120" cy="153" rx="20" ry="12"/>
+    <ellipse cx="200" cy="150" rx="26" ry="14"/>
+    <ellipse cx="285" cy="153" rx="20" ry="12"/>
+    <ellipse cx="350" cy="155" rx="18" ry="11"/>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(0,0)">
+      <path d="M55 168 v90" stroke="#8a5fb8" stroke-width="14"/>
+      <path d="M120 168 v120" stroke="#9a6fc8" stroke-width="15"/>
+      <path d="M200 168 v150" stroke="#a87fd8" stroke-width="18"/>
+      <path d="M285 168 v118" stroke="#9a6fc8" stroke-width="15"/>
+      <path d="M350 168 v92" stroke="#8a5fb8" stroke-width="14"/>
+      <path d="M88 162 v70" stroke="#8a5fb8" stroke-width="12"/>
+      <path d="M160 160 v110" stroke="#a87fd8" stroke-width="14"/>
+      <path d="M242 160 v108" stroke="#a87fd8" stroke-width="14"/>
+      <path d="M318 162 v68" stroke="#8a5fb8" stroke-width="12"/>
+    </g>
+  </g>
+  <g fill="#c8a8e8" opacity="0.85">
+    <circle cx="200" cy="320" r="6"/>
+    <circle cx="120" cy="290" r="5"/>
+    <circle cx="160" cy="272" r="5"/>
+    <circle cx="285" cy="288" r="5"/>
+  </g>
+  <ellipse cx="200" cy="345" rx="180" ry="24" fill="#7a4fa0" opacity="0.5"/>
+</svg>
