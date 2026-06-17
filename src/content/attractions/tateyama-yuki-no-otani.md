@@ -32,8 +32,8 @@ photos:
     alt: "A red bus driving through a towering 20-metre snow corridor"
     caption: "Snow walls taller than ten of me, stacked up. In spring!"
   - src: "/images/attractions/tateyama-yuki-no-otani-2.svg"
-    alt: "Mon-chan in the snow corridor wearing a tiny scarf, giving a peace sign"
-    caption: "It is May and I can see my breath. Iconic. ✌️❄️"
+    alt: "Mon-chan and Cinnamon the squirrel in tiny scarves in the towering snow corridor"
+    caption: "Walls of snow taller than ten of me. Cold as my metal mother. Cinnamon: 'YEAH!' ❄️"
 website: "https://www.alpen-route.com/en/"
 tips:
   - "Go in April–May for the tallest walls; by June they've melted down considerably."

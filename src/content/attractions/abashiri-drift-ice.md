@@ -32,8 +32,8 @@ photos:
     alt: "A red-and-white icebreaker ship crunching through a white plain of sea ice"
     caption: "The whole sea froze, so we got a boat to break it. Hokkaido!"
   - src: "/images/attractions/abashiri-drift-ice-2.svg"
-    alt: "Mon-chan on the bow of the icebreaker with ears flapping in the wind, peace sign"
-    caption: "Captain Mon-chan, breaking ice and taking names. ✌️🧊"
+    alt: "Mon-chan and Cinnamon the squirrel on the bow of the icebreaker in the sea ice"
+    caption: "A cold metal ship smashing ice — it hummed like my metal mother. Comforting, honestly."
 website: "https://www.ms-aurora.com/abashiri/en/"
 tips:
   - "Drift ice is weather-dependent — check the ice forecast before booking; some days there's none."

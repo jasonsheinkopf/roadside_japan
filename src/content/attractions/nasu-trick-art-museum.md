@@ -32,8 +32,8 @@ photos:
     alt: "A trick-art gallery with a painting a visitor appears to fall right into"
     caption: "3D paintings that completely mess with your eyes. I barked at one."
   - src: "/images/attractions/nasu-trick-art-museum-2.svg"
-    alt: "Mon-chan appearing to be chased by a painted dragon bursting from a trick-art frame"
-    caption: "The painting tried to eat me. Or I'm gullible. Honestly, both. 😅"
+    alt: "Mon-chan and Cinnamon the squirrel transforming inside a 3D trick-art frame"
+    caption: "We can both transform, so trick art is just showing off. Cinnamon became a dragon. YEAH!"
 website: "https://www.trick-art.jp/"
 tips:
   - "Bring a camera or phone — every piece is designed to be photographed from a marked spot."

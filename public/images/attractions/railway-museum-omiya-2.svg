@@ -1,1 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan in a conductor's hat peeking out of a bullet-train window, peace sign"><defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient></defs><rect width="400" height="400" fill="#cfe7f2"/><rect y="320" width="400" height="80" fill="#9aa3aa"/><rect y="314" width="400" height="8" fill="#6f7880"/><g><path d="M-20 120 q140 -50 440 0 v200 h-460 z" fill="#eef3f6"/><path d="M-20 120 q140 -50 440 0 v40 h-460 z" fill="#1d63b0"/><rect x="-20" y="166" width="460" height="14" fill="#2f8fe0"/><path d="M-20 230 h460 v20 h-460 z" fill="#1d63b0"/></g><g transform="translate(120,150)"><rect x="0" y="0" width="160" height="120" rx="20" fill="#cfe0ec"/><rect x="12" y="12" width="136" height="96" rx="12" fill="#bfeaff"/></g><g transform="translate(40,150)"><path d="M70 200 q-14 -70 50 -78 q64 8 50 78 z" fill="url(#fur)"/><g transform="translate(186,118) rotate(18)"><ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0"/><rect x="-8" y="-18" width="6" height="20" rx="3" fill="#faf1e0"/><rect x="2" y="-18" width="6" height="20" rx="3" fill="#faf1e0"/></g><path d="M88 150 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/><circle cx="108" cy="146" r="2" fill="#fff"/><circle cx="132" cy="146" r="2" fill="#fff"/><path d="M120 150 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/><ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/><path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/><path d="M62 56 q58 -34 116 0 z" fill="#23528f"/><rect x="58" y="50" width="124" height="14" rx="6" fill="#1b3f6e"/><rect x="108" y="40" width="24" height="14" rx="4" fill="#e8c64a"/><ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/><circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/><path d="M114 100 h12 l-6 7z" fill="#3a3330"/><path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan in a conductor hat and Cinnamon the squirrel peeking from a train window">
+<defs>
+<linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3a85c"/><stop offset="1" stop-color="#cf9038"/></linearGradient>
+<linearGradient id="sq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9c7c55"/><stop offset="1" stop-color="#7d6242"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a6c49"/><stop offset="1" stop-color="#6b5236"/></linearGradient>
+</defs>
+<rect width="400" height="400" fill="#cfe7f2"/>
+<rect y="320" width="400" height="80" fill="#9aa3aa"/>
+<rect y="314" width="400" height="8" fill="#6f7880"/>
+<path d="M-20 100 q140 -50 440 0 v220 h-460 z" fill="#eef3f6"/>
+<path d="M-20 100 q140 -50 440 0 v40 h-460 z" fill="#1d63b0"/>
+<rect x="-20" y="146" width="460" height="14" fill="#2f8fe0"/>
+<path d="M-20 230 h460 v20 h-460 z" fill="#1d63b0"/>
+<g transform="translate(210,150)">
+<rect x="0" y="0" width="170" height="130" rx="20" fill="#cfe0ec"/>
+<rect x="12" y="12" width="146" height="106" rx="12" fill="#bfeaff"/>
+</g>
+<g transform="translate(218,165) scale(0.5)">
+<path d="M82 205 q-12 -78 42 -82 q54 4 42 82 z" fill="url(#sq)"/>
+<path d="M104 205 q-12 -60 20 -64 q32 4 20 64 z" fill="#e9d8bd"/>
+<path d="M92 56 q-6 -28 12 -24 q8 4 6 22z" fill="#7d6242"/><path d="M152 56 q6 -28 -12 -24 q-8 4 -6 22z" fill="#7d6242"/>
+<ellipse cx="122" cy="86" rx="42" ry="40" fill="url(#sq)"/>
+<path d="M122 72 q-30 0 -30 24 q0 20 30 20 q30 0 30 -20 q0 -24 -30 -24z" fill="#e9d8bd"/>
+<ellipse cx="108" cy="84" rx="6" ry="7.5" fill="#241c16"/><ellipse cx="136" cy="84" rx="6" ry="7.5" fill="#241c16"/>
+<circle cx="110" cy="81" r="2" fill="#fff"/><circle cx="138" cy="81" r="2" fill="#fff"/>
+<path d="M117 96 h10 l-5 6z" fill="#3a2c24"/>
+<ellipse cx="122" cy="150" rx="11" ry="13" fill="#e7c489"/>
+<path d="M111 146 q11 -10 22 0 q-2 -8 -11 -8 q-9 0 -11 8z" fill="#7a5a34"/>
+</g>
+<g transform="translate(0,150) scale(0.78)">
+<path d="M70 201 q-15 -72 50 -80 q65 8 50 80 z" fill="url(#fur)"/>
+<path d="M95 201 q-15 -60 25 -66 q40 6 25 66 z" fill="#f4ebda"/>
+<ellipse cx="84" cy="203" rx="20" ry="12" fill="#f4ebda"/><ellipse cx="156" cy="203" rx="20" ry="12" fill="#f4ebda"/>
+<path d="M86 149 q34 24 68 0 l8 18 q-42 28 -84 0z" fill="#76823f"/>
+<path d="M120 150 l-14 30 11 -5 9 9 8 -32z" fill="#6a7637"/>
+<g fill="none" stroke="#f2efe2" stroke-width="2.4"><path d="M100 160 q7 -1 7 6 q0 6 -6 5"/><path d="M134 160 q7 -1 7 6 q0 6 -6 5"/></g>
+<ellipse cx="120" cy="84" rx="53" ry="47" fill="url(#fur)"/>
+<path d="M120 44 q-10 22 -2 34 q-44 0 -44 30 q0 27 46 27 q46 0 46 -27 q0 -30 -44 -30 q8 -12 -2 -34z" fill="#f4ebda"/>
+<path d="M62 56 q58 -34 116 0 z" fill="#23528f"/>
+<rect x="58" y="50" width="124" height="14" rx="6" fill="#1b3f6e"/>
+<rect x="108" y="40" width="24" height="14" rx="4" fill="#e8c64a"/>
+<ellipse cx="84" cy="100" rx="9" ry="6" fill="#f0b0a6"/><ellipse cx="156" cy="100" rx="9" ry="6" fill="#f0b0a6"/>
+<ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2b2420"/><ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2b2420"/>
+<circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+<path d="M113 99 h14 l-7 8z" fill="#2f2925"/>
+<path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#ef8a86"/>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Terraced rice paddies stepping down a green hillside, reflecting the sky">
+  <defs>
+    <linearGradient id="osky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd6a5"/>
+      <stop offset="1" stop-color="#bfe3ef"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe0b0"/>
+      <stop offset="1" stop-color="#9ec9d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#osky)"/>
+  <circle cx="200" cy="120" r="46" fill="#fff0cf"/>
+  <g fill="#9ec27a">
+    <circle cx="600" cy="140" r="50"/><circle cx="680" cy="155" r="42"/><circle cx="540" cy="160" r="38"/>
+  </g>
+  <!-- Hillside terraces -->
+  <path d="M0 200 Q400 170 800 210 V500 H0 Z" fill="#7cb95f"/>
+  <g stroke="#5a8f42" stroke-width="3">
+    <path d="M40 250 Q400 225 760 260 L760 285 Q400 250 40 275 Z" fill="url(#water)"/>
+    <path d="M20 300 Q400 275 780 312 L780 340 Q400 302 20 328 Z" fill="url(#water)"/>
+    <path d="M0 358 Q400 330 800 368 L800 400 Q400 360 0 388 Z" fill="url(#water)"/>
+    <path d="M0 420 Q400 392 800 432 L800 470 Q400 426 0 452 Z" fill="url(#water)"/>
+  </g>
+  <g fill="#6aa84f">
+    <path d="M40 275 Q400 250 760 285 L760 300 Q400 275 40 300 Z"/>
+    <path d="M20 328 Q400 302 780 340 L780 358 Q400 330 20 358 Z"/>
+    <path d="M0 388 Q400 360 800 400 L800 420 Q400 392 0 420 Z"/>
+  </g>
+  <g fill="#9ec27a" opacity="0.5">
+    <ellipse cx="150" cy="262" rx="30" ry="6"/>
+    <ellipse cx="500" cy="320" rx="40" ry="7"/>
+    <ellipse cx="300" cy="378" rx="35" ry="7"/>
+  </g>
+</svg>

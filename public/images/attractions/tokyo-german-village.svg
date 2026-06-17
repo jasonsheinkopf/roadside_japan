@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A flower park with a windmill blanketed in a vast colorful winter light illumination at night">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10173a"/>
+      <stop offset="1" stop-color="#2a1a4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#night)"/>
+  <g fill="#fff">
+    <circle cx="100" cy="60" r="2"/><circle cx="220" cy="40" r="1.5"/><circle cx="380" cy="70" r="2"/>
+    <circle cx="540" cy="45" r="1.5"/><circle cx="700" cy="65" r="2"/><circle cx="760" cy="120" r="1.5"/>
+  </g>
+  <rect y="330" width="800" height="170" fill="#1a1240"/>
+  <g stroke="#5a4a2a" stroke-width="8">
+    <line x1="400" y1="330" x2="400" y2="160"/>
+  </g>
+  <rect x="375" y="150" width="50" height="180" rx="8" fill="#3a2a55"/>
+  <polygon points="400,90 360,160 440,160" fill="#4a2f66"/>
+  <g stroke="#ffd86b" stroke-width="6" stroke-linecap="round">
+    <line x1="400" y1="160" x2="320" y2="100"/>
+    <line x1="400" y1="160" x2="480" y2="100"/>
+    <line x1="400" y1="160" x2="340" y2="240"/>
+    <line x1="400" y1="160" x2="460" y2="240"/>
+  </g>
+  <g fill="#ffe98a">
+    <rect x="385" y="200" width="14" height="14" rx="3"/>
+    <rect x="385" y="240" width="14" height="14" rx="3"/>
+    <rect x="402" y="220" width="14" height="14" rx="3"/>
+  </g>
+  <g opacity="0.95">
+    <circle cx="60" cy="380" r="6" fill="#ff5d8f"/><circle cx="110" cy="360" r="6" fill="#5dd0ff"/>
+    <circle cx="160" cy="385" r="6" fill="#ffd24a"/><circle cx="210" cy="365" r="6" fill="#7dff9e"/>
+    <circle cx="260" cy="390" r="6" fill="#ff5d8f"/><circle cx="540" cy="365" r="6" fill="#5dd0ff"/>
+    <circle cx="590" cy="385" r="6" fill="#ffd24a"/><circle cx="640" cy="360" r="6" fill="#ff5d8f"/>
+    <circle cx="690" cy="388" r="6" fill="#7dff9e"/><circle cx="740" cy="368" r="6" fill="#5dd0ff"/>
+    <circle cx="90" cy="440" r="6" fill="#ffd24a"/><circle cx="180" cy="450" r="6" fill="#ff5d8f"/>
+    <circle cx="300" cy="445" r="6" fill="#5dd0ff"/><circle cx="500" cy="450" r="6" fill="#7dff9e"/>
+    <circle cx="620" cy="440" r="6" fill="#ffd24a"/><circle cx="710" cy="448" r="6" fill="#ff5d8f"/>
+  </g>
+  <g stroke="#ffd24a" stroke-width="3" opacity="0.85">
+    <line x1="40" y1="410" x2="280" y2="410"/>
+    <line x1="520" y1="410" x2="770" y2="410"/>
+  </g>
+</svg>

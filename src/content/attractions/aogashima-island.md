@@ -31,8 +31,8 @@ photos:
     alt: "An aerial view of the green double-caldera volcanic island"
     caption: "A volcano inside a volcano, with a whole village inside that."
   - src: "/images/attractions/aogashima-island-2.svg"
-    alt: "Mon-chan beside a 'Population 169' sign, nudging it up to 170"
-    caption: "Population 169... 170 if you count a visiting dog. ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel by the 'Population 169' sign"
+    caption: "169... 171 with a dog and a squirrel. Cinnamon transformed into a '2'. Helpful."
 website: "https://www.gotokyo.org/en/destinations/izu-and-ogasawara-islands/aogashima-island/index.html"
 tips:
   - "Build in spare days — the ferry is frequently cancelled by swell, and you may be stuck (or stranded) for a day or two."

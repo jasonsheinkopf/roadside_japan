@@ -33,8 +33,8 @@ photos:
     alt: "A large coiled snake behind glass in a snake exhibit house"
     caption: "Hundreds of snakes. No legs, all attitude. Genuinely fascinating."
   - src: "/images/attractions/japan-snake-center-2.svg"
-    alt: "Mon-chan eyeing a friendly cartoon snake from a cautious, polite distance"
-    caption: "Made a long, legless friend. Kept exactly one paw of distance. 🐍"
+    alt: "Mon-chan and Cinnamon the squirrel eyeing a friendly snake from a polite distance"
+    caption: "Long, but no legs and not fuzzy, so I outrank it. Cinnamon kept his tail close."
 website: "https://snake-center.com/"
 tips:
   - "Time your visit to a feeding or handling session — they're the highlight."

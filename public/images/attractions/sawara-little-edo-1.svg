@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A willow-lined canal with old Edo-era merchant houses and a wooden boat">
+  <defs>
+    <linearGradient id="ssky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6ecf2"/>
+      <stop offset="1" stop-color="#eef3df"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ssky)"/>
+  <!-- houses -->
+  <g transform="translate(0,90)">
+    <rect x="20" y="40" width="120" height="120" fill="#e8e0d0"/>
+    <polygon points="10,40 150,40 130,8 30,8" fill="#5a5550"/>
+    <rect x="40" y="70" width="24" height="34" fill="#3a3a3a"/>
+    <rect x="80" y="70" width="24" height="34" fill="#3a3a3a"/>
+    <rect x="20" y="118" width="120" height="42" fill="#8a6a48"/>
+    <rect x="170" y="60" width="110" height="100" fill="#d8cdb8"/>
+    <polygon points="160,60 290,60 272,30 178,30" fill="#4a4540"/>
+    <rect x="190" y="90" width="22" height="30" fill="#3a3a3a"/>
+    <rect x="226" y="90" width="22" height="30" fill="#3a3a3a"/>
+    <rect x="300" y="50" width="90" height="110" fill="#e8e0d0"/>
+    <polygon points="294,50 396,50 378,22 312,22" fill="#5a5550"/>
+    <rect x="318" y="80" width="24" height="34" fill="#3a3a3a"/>
+  </g>
+  <!-- canal -->
+  <rect y="250" width="400" height="150" fill="#5e93a8"/>
+  <g fill="#ffffff" opacity="0.25">
+    <rect x="40" y="270" width="320" height="120"/>
+  </g>
+  <g fill="#4a7d90" opacity="0.6">
+    <rect x="20" y="280" width="120" height="100"/>
+    <rect x="170" y="285" width="110" height="95"/>
+    <rect x="300" y="278" width="90" height="100"/>
+  </g>
+  <!-- boat -->
+  <g transform="translate(150,320)">
+    <path d="M0 20 Q60 40 120 20 L110 34 Q60 50 10 34 Z" fill="#8a5a36"/>
+    <rect x="40" y="6" width="40" height="14" rx="3" fill="#6b4528"/>
+  </g>
+  <!-- willow -->
+  <g transform="translate(370,230)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#6b5236" stroke-width="6"/>
+    <g stroke="#7cb06a" stroke-width="3">
+      <path d="M0 0 q-30 10 -36 50"/><path d="M0 0 q-14 10 -18 60"/>
+      <path d="M0 0 q-44 8 -54 40"/><path d="M0 0 q-2 12 -4 64"/>
+    </g>
+    <circle cx="-10" cy="-6" r="24" fill="#7cb06a"/>
+  </g>
+</svg>

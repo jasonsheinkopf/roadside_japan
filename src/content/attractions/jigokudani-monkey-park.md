@@ -33,8 +33,8 @@ photos:
     alt: "A snow monkey with eyes closed, snow on its head, in a hot spring"
     caption: "This monkey has figured out winter. I am taking notes."
   - src: "/images/attractions/jigokudani-monkey-park-2.svg"
-    alt: "Mon-chan watching the snow monkeys from the snowy forest trail"
-    caption: "Kept a polite distance. Wild monkeys, very good boy. 🐒"
+    alt: "Mon-chan and Cinnamon the squirrel watching a snow monkey in the hot spring"
+    caption: "That monkey is fuzzier than me. I don't like him."
 website: "https://en.jigokudani-yaenkoen.co.jp/"
 tips:
   - "Go on a cold, snowy day — that's when the monkeys pile into the warm water and the scene is at its best."

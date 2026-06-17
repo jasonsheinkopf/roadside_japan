@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="An orca leaping high in a seaside aquarium show pool by the ocean">
+  <defs>
+    <linearGradient id="ksky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aee0f2"/>
+      <stop offset="1" stop-color="#dff3f7"/>
+    </linearGradient>
+    <linearGradient id="pool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fa9d6"/>
+      <stop offset="1" stop-color="#2b86b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ksky)"/>
+  <circle cx="120" cy="100" r="38" fill="#fff3c9"/>
+  <!-- Ocean behind -->
+  <rect y="230" width="800" height="50" fill="#5fb6d9"/>
+  <path d="M0 230 Q200 215 400 230 T800 230 V250 H0 Z" fill="#7fc8e4" opacity="0.6"/>
+  <!-- Pool -->
+  <rect y="280" width="800" height="220" fill="url(#pool)"/>
+  <rect y="280" width="800" height="16" fill="#e8edf0"/>
+  <!-- Splash -->
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="400" cy="300" rx="90" ry="22"/>
+    <circle cx="330" cy="285" r="10"/><circle cx="470" cy="288" r="12"/>
+    <circle cx="360" cy="270" r="7"/><circle cx="445" cy="272" r="8"/>
+  </g>
+  <!-- Orca -->
+  <g>
+    <path d="M380 320 Q330 240 360 150 Q380 110 410 130 Q420 180 440 240 Q470 300 440 340 Z" fill="#1a1f26"/>
+    <path d="M408 200 Q420 195 432 215 Q425 250 415 270 Q405 250 405 220 Z" fill="#f2f2f2"/>
+    <polygon points="360,150 350,90 380,140" fill="#1a1f26"/>
+    <ellipse cx="392" cy="160" rx="8" ry="5" fill="#f2f2f2"/>
+    <circle cx="380" cy="158" r="4" fill="#fff"/>
+  </g>
+  <!-- Water lines -->
+  <g stroke="#7fc8e4" stroke-width="3" opacity="0.5">
+    <line x1="60" y1="360" x2="260" y2="360"/>
+    <line x1="540" y1="380" x2="740" y2="380"/>
+  </g>
+</svg>

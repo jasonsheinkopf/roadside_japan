@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A ship-shaped highway rest stop on an artificial island in the middle of Tokyo Bay at sunset">
+  <defs>
+    <linearGradient id="usky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffcaa0"/>
+      <stop offset="0.55" stop-color="#ff9e8a"/>
+      <stop offset="1" stop-color="#f47e7a"/>
+    </linearGradient>
+    <linearGradient id="ubay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5e7fa8"/>
+      <stop offset="1" stop-color="#3f5e86"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#usky)"/>
+  <circle cx="560" cy="180" r="58" fill="#ffe6b0"/>
+  <circle cx="560" cy="180" r="86" fill="#ffd9a0" opacity="0.35"/>
+  <rect y="300" width="800" height="200" fill="url(#ubay)"/>
+  <g stroke="#ffd9a0" stroke-width="3" opacity="0.5">
+    <line x1="480" y1="340" x2="660" y2="340"/>
+    <line x1="500" y1="380" x2="640" y2="380"/>
+  </g>
+  <!-- Bridge approach -->
+  <g stroke="#3a4a5e" stroke-width="6">
+    <line x1="0" y1="320" x2="200" y2="305"/>
+  </g>
+  <rect x="0" y="305" width="200" height="10" fill="#4a5a6e"/>
+  <!-- Ship-shaped rest stop -->
+  <g>
+    <path d="M210 305 L640 305 L600 350 L250 350 Z" fill="#7a8a98"/>
+    <rect x="250" y="245" width="320" height="62" rx="8" fill="#e6ecef"/>
+    <g fill="#7fb4d4">
+      <rect x="266" y="262" width="22" height="30" rx="3"/>
+      <rect x="300" y="262" width="22" height="30" rx="3"/>
+      <rect x="334" y="262" width="22" height="30" rx="3"/>
+      <rect x="368" y="262" width="22" height="30" rx="3"/>
+      <rect x="402" y="262" width="22" height="30" rx="3"/>
+      <rect x="436" y="262" width="22" height="30" rx="3"/>
+      <rect x="470" y="262" width="22" height="30" rx="3"/>
+      <rect x="504" y="262" width="22" height="30" rx="3"/>
+    </g>
+    <rect x="360" y="190" width="100" height="56" rx="6" fill="#cfd8dc"/>
+    <rect x="375" y="205" width="70" height="26" fill="#8fc1de"/>
+    <!-- funnel / tower -->
+    <rect x="480" y="150" width="26" height="46" rx="4" fill="#d9534f"/>
+    <line x1="420" y1="190" x2="420" y2="150" stroke="#8a9aa8" stroke-width="4"/>
+    <polygon points="420,150 420,165 445,158" fill="#f0c041"/>
+  </g>
+</svg>

@@ -29,8 +29,8 @@ photos:
     alt: "Seven gray Moai statues lined up in a row on green grass"
     caption: "The only officially sanctioned Moai replicas on Earth. Big stone pals."
   - src: "/images/attractions/sun-messe-nichinan-moai-2.svg"
-    alt: "Mon-chan posing in front of the Moai wearing tiny sunglasses"
-    caption: "Tried to look as stoic as them. Lasted four seconds. 😎"
+    alt: "Mon-chan in sunglasses and Cinnamon the squirrel posing with the Moai"
+    caption: "Big stone heads — taller than me, but not fuzzier. We're fine. 😎"
 website: "https://www.sun-messe.co.jp/"
 tips:
   - "Touching specific Moai is said to grant luck in love, money, or study — signs explain which."

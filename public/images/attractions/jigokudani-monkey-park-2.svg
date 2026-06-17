@@ -1,32 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan watching snow monkeys in a hot spring from the snowy trail">
-<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe0e8"/><stop offset="1" stop-color="#9bbccc"/></linearGradient><radialGradient id="steam" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff" stop-opacity="0.7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan and Cinnamon the squirrel watching a snow monkey in the hot spring">
+<defs>
+<linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3a85c"/><stop offset="1" stop-color="#cf9038"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe0e8"/><stop offset="1" stop-color="#9bbccc"/></linearGradient>
+<radialGradient id="steam" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff" stop-opacity="0.7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<linearGradient id="sq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9c7c55"/><stop offset="1" stop-color="#7d6242"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a6c49"/><stop offset="1" stop-color="#6b5236"/></linearGradient>
+</defs>
 <rect width="400" height="400" fill="url(#bg)"/>
 <path d="M0 160 q120 -50 200 -10 q90 -40 200 0 V260 H0z" fill="#eef4f8"/>
-<!-- hot spring -->
 <ellipse cx="270" cy="220" rx="130" ry="44" fill="#5f93b0"/>
 <ellipse cx="270" cy="214" rx="116" ry="34" fill="#6fa3c0"/>
 <g fill="url(#steam)"><ellipse cx="240" cy="120" rx="36" ry="22"/><ellipse cx="340" cy="110" rx="34" ry="20"/></g>
-<!-- snow monkeys in spring -->
-<g><circle cx="220" cy="200" r="20" fill="#857a6e"/><ellipse cx="220" cy="204" rx="14" ry="16" fill="#e6968a"/><circle cx="214" cy="200" r="2.5" fill="#3a2018"/><circle cx="226" cy="200" r="2.5" fill="#3a2018"/></g>
-<g><circle cx="310" cy="208" r="18" fill="#9c8f80"/><ellipse cx="310" cy="211" rx="12" ry="14" fill="#eda898"/><circle cx="305" cy="208" r="2.2" fill="#3a2018"/><circle cx="315" cy="208" r="2.2" fill="#3a2018"/></g>
-<!-- snowy trail foreground -->
+<g><circle cx="270" cy="200" r="22" fill="#857a6e"/><ellipse cx="270" cy="205" rx="15" ry="17" fill="#e6968a"/><circle cx="263" cy="200" r="2.8" fill="#3a2018"/><circle cx="277" cy="200" r="2.8" fill="#3a2018"/></g>
 <path d="M0 300 q200 -20 400 0 V400 H0z" fill="#f4f8fb"/>
 <g fill="#ffffff" opacity="0.9"><circle cx="80" cy="100" r="3"/><circle cx="330" cy="70" r="3"/><circle cx="60" cy="200" r="3"/><circle cx="160" cy="60" r="3"/></g>
-<!-- Mon-chan on trail, left foreground -->
-<g transform="translate(110,300) scale(0.92)">
+<!-- MON-CHAN -->
+<g transform="translate(115,300) scale(0.92)">
 <path d="M-42 60 q-14 -70 42 -78 q56 8 42 78 z" fill="url(#fur)"/>
-<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#faf1e0"/>
-<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#faf1e0"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#faf1e0"/>
-<path d="M-32 0 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/><path d="M0 0 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
-<circle cx="-20" cy="-12" r="2" fill="#fff"/><circle cx="14" cy="-12" r="2" fill="#fff"/>
+<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#f4ebda"/>
+<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#f4ebda"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#f4ebda"/>
+<path d="M-32 0 q32 22 64 0 l8 18 q-42 28 -84 0z" fill="#76823f"/>
+<g fill="#f2efe2"><circle cx="-20" cy="6" r="2.6"/><circle cx="0" cy="12" r="2.6"/><circle cx="20" cy="6" r="2.6"/></g>
 <path d="M-50 -86 l-10 -40 38 22z" fill="url(#fur)"/><path d="M50 -86 l10 -40 -38 22z" fill="url(#fur)"/>
-<path d="M-47 -94 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M47 -94 l4 -22 -18 12z" fill="#f3a6a0"/>
+<path d="M-47 -94 l-4 -22 18 12z" fill="#f0b0a6"/><path d="M47 -94 l4 -22 -18 12z" fill="#f0b0a6"/>
 <ellipse cx="0" cy="-66" rx="52" ry="46" fill="url(#fur)"/>
-<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
-<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
-<ellipse cx="-20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/>
+<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#f4ebda"/>
+<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f0b0a6"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f0b0a6"/>
+<ellipse cx="-20" cy="-66" rx="6.5" ry="8.5" fill="#2b2420"/><ellipse cx="20" cy="-66" rx="6.5" ry="8.5" fill="#2b2420"/>
 <circle cx="-18" cy="-69" r="2.2" fill="#fff"/><circle cx="22" cy="-69" r="2.2" fill="#fff"/>
-<path d="M-6 -50 h12 l-6 7z" fill="#3a3330"/>
-<path d="M-6 -40 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+<path d="M-6 -50 h12 l-6 7z" fill="#2f2925"/>
+<path d="M-6 -40 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#ef8a86"/>
+</g>
+<!-- CINNAMON -->
+<g transform="translate(180,278) scale(0.6)">
+<path d="M150 205 q70 -10 60 -90 q-8 -56 -54 -52 q34 6 38 50 q6 56 -52 70z" fill="url(#tl)"/>
+<path d="M82 205 q-12 -78 42 -82 q54 4 42 82 z" fill="url(#sq)"/>
+<path d="M104 205 q-12 -60 20 -64 q32 4 20 64 z" fill="#e9d8bd"/>
+<path d="M92 56 q-6 -28 12 -24 q8 4 6 22z" fill="#7d6242"/><path d="M152 56 q6 -28 -12 -24 q-8 4 -6 22z" fill="#7d6242"/>
+<ellipse cx="122" cy="86" rx="42" ry="40" fill="url(#sq)"/>
+<path d="M122 72 q-30 0 -30 24 q0 20 30 20 q30 0 30 -20 q0 -24 -30 -24z" fill="#e9d8bd"/>
+<ellipse cx="108" cy="84" rx="6" ry="7.5" fill="#241c16"/><ellipse cx="136" cy="84" rx="6" ry="7.5" fill="#241c16"/>
+<circle cx="110" cy="81" r="2" fill="#fff"/><circle cx="138" cy="81" r="2" fill="#fff"/>
+<path d="M117 96 h10 l-5 6z" fill="#3a2c24"/>
+<ellipse cx="122" cy="150" rx="11" ry="13" fill="#e7c489"/><path d="M111 146 q11 -10 22 0 q-2 -8 -11 -8 q-9 0 -11 8z" fill="#7a5a34"/>
 </g>
 </svg>

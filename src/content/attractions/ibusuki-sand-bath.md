@@ -32,8 +32,8 @@ photos:
     alt: "A blissful face poking out of black sand with a towel turban"
     caption: "Buried in warm volcanic sand. Ten out of ten, would nap again."
   - src: "/images/attractions/ibusuki-sand-bath-2.svg"
-    alt: "Mon-chan buried up to his neck in black sand, only head and ears out"
-    caption: "I asked for a beach day. This is technically a beach day. 😅"
+    alt: "Mon-chan buried in black sand while Cinnamon the squirrel perches on his head"
+    caption: "Buried to the neck. Cinnamon used my head as a lookout post. Rude."
 website: "https://sa-raku.sakura.ne.jp/"
 tips:
   - "Stay buried 10–15 minutes — it's hotter and heavier than you expect."

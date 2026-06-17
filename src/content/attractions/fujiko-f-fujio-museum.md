@@ -32,8 +32,8 @@ photos:
     alt: "A whimsical museum lawn with a big friendly blue robot cat statue and cartoon characters"
     caption: "A whole museum for the man who drew Japan's favourite robot cat."
   - src: "/images/attractions/fujiko-f-fujio-museum-2.svg"
-    alt: "Mon-chan posing beside a big blue robot-cat statue in the museum garden, peace sign"
-    caption: "Met a cat from the future. We're both round and beloved. ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel posing with the big blue robot-cat statue"
+    caption: "A robot cat — built by a machine, like me! We're practically siblings. 🤖"
 website: "https://fujiko-museum.com/"
 tips:
   - "Tickets are date- and time-specific and sold in advance at convenience stores — never at the door."

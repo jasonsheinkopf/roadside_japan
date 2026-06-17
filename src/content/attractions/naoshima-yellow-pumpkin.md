@@ -32,8 +32,8 @@ photos:
     alt: "A close-up of the yellow polka-dot pumpkin sculpture"
     caption: "Famous polka-dot pumpkin. I sniffed it. Not edible. Sad."
   - src: "/images/attractions/naoshima-yellow-pumpkin-2.svg"
-    alt: "Mon-chan posing beside the giant yellow Kusama pumpkin, peace sign"
-    caption: "Me and the most famous gourd in Japan. ✌️🎃"
+    alt: "Mon-chan and Cinnamon the squirrel posing with the giant yellow polka-dot pumpkin"
+    caption: "Cinnamon thought it was the world's biggest nut and yelled 'YEAH!' Disappointment followed."
 website: "https://benesse-artsite.jp/en/"
 tips:
   - "Go early or late — the single most photographed spot on the island gets a steady queue."

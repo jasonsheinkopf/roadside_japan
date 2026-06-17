@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Terraced rice paddies stepping down a green hillside, reflecting the sky">
+  <defs>
+    <linearGradient id="psky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9dcff"/>
+      <stop offset="1" stop-color="#e7f6e2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#psky)"/>
+  <circle cx="320" cy="65" r="30" fill="#fff2c4"/>
+  <ellipse cx="100" cy="60" rx="36" ry="16" fill="#ffffff" opacity="0.8"/>
+  <g fill="#79b85e">
+    <circle cx="50" cy="120" r="30"/><circle cx="120" cy="110" r="36"/><circle cx="200" cy="120" r="30"/>
+  </g>
+  <!-- terraces -->
+  <path d="M0 150 Q200 120 400 150 V185 Q200 160 0 195 Z" fill="#bfe3a0"/>
+  <path d="M0 185 Q200 160 400 185 V200 Q200 178 0 210 Z" fill="#cfeedd"/>
+  <path d="M0 200 Q200 178 400 200 V245 Q200 218 0 255 Z" fill="#a9d986"/>
+  <path d="M0 245 Q200 218 400 245 V262 Q200 240 0 272 Z" fill="#d6f0e6"/>
+  <path d="M0 262 Q200 240 400 262 V310 Q200 282 0 320 Z" fill="#93cc74"/>
+  <path d="M0 310 Q200 282 400 310 V328 Q200 305 0 338 Z" fill="#d6f0e6"/>
+  <path d="M0 328 Q200 305 400 328 V400 H0 Z" fill="#7cbf5f"/>
+  <!-- sky reflections in flooded paddies -->
+  <path d="M0 185 Q200 160 400 185 V200 Q200 178 0 210 Z" fill="#bfe6ff" opacity="0.5"/>
+  <path d="M0 245 Q200 218 400 245 V262 Q200 240 0 272 Z" fill="#bfe6ff" opacity="0.5"/>
+  <path d="M0 310 Q200 282 400 310 V328 Q200 305 0 338 Z" fill="#bfe6ff" opacity="0.5"/>
+</svg>

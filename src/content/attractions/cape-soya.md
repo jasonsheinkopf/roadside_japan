@@ -32,8 +32,8 @@ photos:
     alt: "The stark triangular northernmost-point monument against a gray windy sea"
     caption: "The actual top of Japan. There is nowhere further to walk north."
   - src: "/images/attractions/cape-soya-2.svg"
-    alt: "Mon-chan at the northernmost point monument with fur blown by the wind, peace sign"
-    caption: "Top of Japan, bottom of the thermometer. Hold my bandana. ✌️🥶"
+    alt: "Mon-chan and Cinnamon the squirrel at the windy northernmost-point monument"
+    caption: "Top of Japan, freezing wind. My cold metal mother would feel right at home. ✌️"
 website: "https://www.welcome.wakkanai.hokkaido.jp/"
 tips:
   - "On a clear day you can see Sakhalin (Russia) about 43 km across the strait."

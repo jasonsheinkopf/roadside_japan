@@ -14,26 +14,39 @@ import { withBase, exploreUrl, mapUrl } from "../lib/url";
         <em>Atlas Obscura</em>, pointed squarely at Japan.
       </p>
 
-      <h2>Your host: Mon-chan 🐕</h2>
+      <h2>Your hosts: Mon-chan &amp; Cinnamon 🐕🐿️</h2>
       <div class="not-prose my-6 flex flex-col items-center gap-5 rounded-2xl border border-line bg-surface p-5 sm:flex-row sm:p-6">
-        <img
-          src={withBase("/images/mon-chan.svg")}
-          alt="Mon-chan, the Shiba Inu mascot of Roadside Japan, giving a peace sign and wearing a red bandana"
-          width="160"
-          height="160"
-          class="h-36 w-36 shrink-0"
-        />
+        <div class="flex shrink-0 items-end">
+          <img
+            src={withBase("/images/mon-chan.svg")}
+            alt="Mon-chan, the tan Shiba Inu mascot of Roadside Japan in his olive paisley bandana"
+            width="150"
+            height="150"
+            class="h-32 w-32"
+          />
+          <img
+            src={withBase("/images/cinnamon.svg")}
+            alt="Cinnamon, the squirrel sidekick of Roadside Japan, holding an acorn"
+            width="104"
+            height="104"
+            class="-ml-3 h-20 w-20"
+          />
+        </div>
         <div class="text-sm text-ink-soft">
           <p>
-            Every atlas needs a guide, and ours is <strong class="text-ink">Mon-chan</strong> — an
-            imaginary but extremely good Shiba Inu in a red bandana. Picture a small dog with an
-            insatiable nose for the odd and the overlooked, forever riding shotgun on a road trip
-            across Japan.
+            Every atlas needs guides, and ours are <strong class="text-ink">Mon-chan</strong>, a tan
+            Shiba Inu in an olive paisley bandana, and his best friend <strong class="text-ink">Cinnamon</strong>,
+            a squirrel who never lets go of his acorn. They travel Japan together, photographing every odd
+            corner they can sniff out.
           </p>
           <p class="mt-2">
-            Mon-chan is the one "taking" the photos you see on each page (and occasionally
-            photobombing them with a peace sign). The camera roll, the captions, the cheerful
-            curiosity — that's all Mon-chan. Follow the paw prints. ✌️
+            <strong class="text-ink">Mon-chan is the leader</strong> — and a little obsessed with it. He's
+            the biggest and fuzziest, so anything bigger or fuzzier (teddy bears, snow monsters, a giant
+            Buddha) makes him insecure: "I don't like him." He was built by a machine and occasionally
+            misses his "big cold metal mother." <strong class="text-ink">Cinnamon is the sub-leader</strong>:
+            he loves nuts, chatters ("chk-chk!"), yells "YEAH!", and bounces up and down when he's excited.
+            Both of them can transform into things, which they do at the worst moments. The camera roll and
+            captions you see across the site? All theirs. ✌️
           </p>
         </div>
       </div>

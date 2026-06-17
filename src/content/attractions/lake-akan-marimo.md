@@ -32,8 +32,8 @@ photos:
     alt: "Close-up of fuzzy round green marimo algae balls resting underwater"
     caption: "They're balls. Of algae. That roll around. I am obsessed."
   - src: "/images/attractions/lake-akan-marimo-2.svg"
-    alt: "Mon-chan gently cradling a fuzzy green marimo ball like a tiny pet, peace sign"
-    caption: "Met a living green pompom. We bonded instantly. ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel cradling a fuzzy green marimo ball"
+    caption: "A fuzzy green ball, smaller than me, so I allowed it. Cinnamon: chk-chk!"
 website: "https://en.kushiro-lakeakan.com/"
 tips:
   - "See real marimo at the Marimo Exhibition Center on Churui Island, reached by sightseeing boat."

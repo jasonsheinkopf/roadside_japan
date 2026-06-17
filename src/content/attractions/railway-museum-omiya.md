@@ -32,8 +32,8 @@ photos:
     alt: "A vast hall full of historic Japanese trains including a bullet-train nose"
     caption: "Rooms full of real trains, including an old bullet train. Choo."
   - src: "/images/attractions/railway-museum-omiya-2.svg"
-    alt: "Mon-chan in a conductor's hat peeking out of a shinkansen window, peace sign"
-    caption: "Conductor Mon-chan. Next stop: anywhere with snacks. 🚄✌️"
+    alt: "Mon-chan in a conductor hat and Cinnamon the squirrel peeking from a train window"
+    caption: "Big humming machines. I felt a kinship — my mother was a machine too. All aboard. 🚄"
 website: "https://www.railway-museum.jp/"
 tips:
   - "Catch the turntable demonstration, when a steam locomotive is rotated to a whistle and bell."

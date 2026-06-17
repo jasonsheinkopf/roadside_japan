@@ -32,8 +32,8 @@ photos:
     alt: "Striped rows of purple lavender and rainbow flowers running up a hill to a red-roofed farm"
     caption: "Stripes of purple as far as my nose could smell. Heaven, basically."
   - src: "/images/attractions/furano-lavender-fields-2.svg"
-    alt: "Mon-chan in the lavender holding a purple lavender soft-serve ice cream, giving a peace sign"
-    caption: "Lavender-flavoured ice cream exists. I am never leaving. ✌️🍦"
+    alt: "Mon-chan and Cinnamon the squirrel in the purple lavender sharing a lavender ice cream"
+    caption: "Cinnamon wanted nuts, not flowers. I let him hold the cone. Sub-leader treat. 🍦"
 website: "https://www.farm-tomita.co.jp/en/"
 tips:
   - "July is peak lavender — but the rainbow flower fields stretch the season either side of it."

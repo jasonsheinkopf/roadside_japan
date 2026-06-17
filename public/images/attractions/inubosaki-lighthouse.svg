@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A tall white lighthouse on a rugged cliff above the Pacific at sunrise">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9a0"/>
+      <stop offset="0.5" stop-color="#ffb38a"/>
+      <stop offset="1" stop-color="#ff9a76"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f7fa6"/>
+      <stop offset="1" stop-color="#2c6486"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#dawn)"/>
+  <circle cx="560" cy="170" r="55" fill="#fff2cf"/>
+  <circle cx="560" cy="170" r="80" fill="#ffe6b0" opacity="0.4"/>
+  <rect y="300" width="800" height="200" fill="url(#sea)"/>
+  <g stroke="#ffd9a0" stroke-width="3" opacity="0.6">
+    <line x1="450" y1="330" x2="670" y2="330"/>
+    <line x1="480" y1="360" x2="640" y2="360"/>
+  </g>
+  <path d="M0 300 Q120 250 260 300 L260 500 L0 500 Z" fill="#6b5a4a"/>
+  <path d="M0 320 Q100 290 220 330 L220 500 L0 500 Z" fill="#4f4236"/>
+  <g>
+    <rect x="100" y="120" width="44" height="200" fill="#fafafa"/>
+    <polygon points="100,120 144,120 138,180 106,180" fill="#f0f0f0"/>
+    <rect x="98" y="100" width="48" height="24" rx="4" fill="#ffffff"/>
+    <rect x="104" y="78" width="36" height="24" fill="#3a7d8c"/>
+    <rect x="110" y="80" width="24" height="20" fill="#ffe98a"/>
+    <polygon points="98,78 148,78 122,56" fill="#d9534f"/>
+    <rect x="116" y="200" width="12" height="20" fill="#7aa9c4"/>
+    <rect x="116" y="250" width="12" height="20" fill="#7aa9c4"/>
+  </g>
+  <g stroke="#ffe98a" stroke-width="4" opacity="0.7">
+    <line x1="122" y1="88" x2="240" y2="60"/>
+    <line x1="122" y1="92" x2="240" y2="130"/>
+  </g>
+</svg>

@@ -32,8 +32,8 @@ photos:
     alt: "An aerial view of the star-shaped moat ringed with pink cherry blossoms"
     caption: "It's a fort shaped like a star. From above it's just showing off."
   - src: "/images/attractions/goryokaku-star-fort-2.svg"
-    alt: "Mon-chan on the tower observation deck looking down at the star shape, peace sign"
-    caption: "Had to go up a tower just to see the whole shape. Worth it. ✌️⭐"
+    alt: "Mon-chan and Cinnamon the squirrel on the tower deck above the pink star-shaped fort"
+    caption: "A fort shaped like a star! Cinnamon tried to transform into one. Mixed results."
 website: "https://www.goryokaku-tower.co.jp/"
 tips:
   - "You can only appreciate the star shape from the air — go up the Goryokaku Tower."

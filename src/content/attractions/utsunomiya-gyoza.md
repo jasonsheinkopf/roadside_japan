@@ -31,8 +31,8 @@ photos:
     alt: "A plate of crispy pan-fried gyoza dumplings beside a stone gyoza-wrapped statue"
     caption: "Japan's gyoza capital. There's an actual STATUE of a dumpling. I'm home."
   - src: "/images/attractions/utsunomiya-gyoza-2.svg"
-    alt: "Mon-chan drooling happily over a giant plate of gyoza dumplings, peace sign"
-    caption: "Gyoza capital of Japan. I ate my own body weight. No regrets. ✌️🥟"
+    alt: "Mon-chan and Cinnamon the squirrel drooling over a giant plate of gyoza"
+    caption: "Gyoza capital! Cinnamon checked every one for nuts. Found none. Ate eleven anyway. 🥟"
 website: "https://www.gyozakai.com/"
 tips:
   - "Find the Gyoza Statue near the station's west exit — a figure wrapped in a dumpling skin."

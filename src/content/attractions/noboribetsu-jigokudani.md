@@ -32,8 +32,8 @@ photos:
     alt: "A rust-red steaming volcanic vent ringed by red autumn maples"
     caption: "Hell Valley, they call it. Smells like eggs. I felt at home."
   - src: "/images/attractions/noboribetsu-jigokudani-2.svg"
-    alt: "Mon-chan posing beside a friendly blue oni demon statue"
-    caption: "Made friends with the local demon. He is a big softie. 👹✌️"
+    alt: "Mon-chan and Cinnamon the squirrel beside the friendly blue oni demon statue"
+    caption: "The demon's big and blue but not fuzzy, so I allow him. Cinnamon yelled 'YEAH!' 👹"
 website: "https://noboribetsu-spa.jp/"
 tips:
   - "Walk the boardwalk to Oyunuma, a steaming hot lake, then dip your feet in the natural footbath downstream."

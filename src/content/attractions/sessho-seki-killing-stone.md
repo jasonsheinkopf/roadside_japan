@@ -32,8 +32,8 @@ photos:
     alt: "A large volcanic rock split in two on a steaming sulfur field, a nine-tailed fox spirit looming"
     caption: "The legendary 'killing stone' — it actually cracked open back in 2022. Spooky."
   - src: "/images/attractions/sessho-seki-killing-stone-2.svg"
-    alt: "Mon-chan nervously sniffing the split killing stone as a ghostly nine-tailed fox looms behind"
-    caption: "They say a fox demon escaped this rock. I did not investigate further. 😨"
+    alt: "Mon-chan and Cinnamon the squirrel near the split killing stone with a ghostly fox"
+    caption: "A fox demon escaped this rock. Foxes are fuzzy. I REALLY don't like him. 😨"
 website: "https://www.nasukogen.org/"
 tips:
   - "The volcanic gas is real — stay on the boardwalk and don't linger in hollows."

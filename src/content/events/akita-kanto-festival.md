@@ -35,8 +35,8 @@ photos:
     alt: "A performer balancing a tall glowing lantern pole on their forehead"
     caption: "A 12-metre pole balanced on a forehead. I clapped with both paws."
   - src: "/images/events/akita-kanto-festival-2.svg"
-    alt: "Mon-chan watching the glowing lantern poles at the night festival"
-    caption: "Stayed up way past my bedtime for this. Worth every yawn. 🏮"
+    alt: "Mon-chan and Cinnamon the squirrel watching the glowing lantern poles at night"
+    caption: "Cinnamon screamed 'YEAH!' and jumped at every pole. I clapped, leaderly."
 website: "https://www.kantou.gr.jp/"
 tips:
   - "After the main performance you can often try balancing a kanto pole yourself."

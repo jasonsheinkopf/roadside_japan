@@ -32,8 +32,8 @@ photos:
     alt: "A large glass-and-steel pyramid building beside a geometric grass hill"
     caption: "A whole park designed like one giant sculpture. Very fancy."
   - src: "/images/attractions/moerenuma-park-2.svg"
-    alt: "Mon-chan standing proudly on top of the conical grass hill, giving a peace sign"
-    caption: "Climbed the pointy grass mountain. King of the hill. ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel on top of the conical grass hill"
+    caption: "I claimed the summit as leader. Cinnamon claimed it 0.3 seconds later. Rivalry."
 website: "https://moerenumapark.jp/"
 tips:
   - "Rent a bicycle at the gate — the park is enormous and built for roaming."

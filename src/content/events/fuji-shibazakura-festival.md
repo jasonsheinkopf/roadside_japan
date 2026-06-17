@@ -35,8 +35,8 @@ photos:
     alt: "A close-up of pink moss-phlox carpets planted in ribbons"
     caption: "Half a million pink flowers under Mt. Fuji. Showoff mountain."
   - src: "/images/events/fuji-shibazakura-festival-2.svg"
-    alt: "Mon-chan posing in the pink flower fields with Mt. Fuji behind"
-    caption: "Pink flowers, big mountain, good boy. Postcard complete. ✌️🗻"
+    alt: "Mon-chan and Cinnamon the squirrel in the pink flower fields with Mt. Fuji"
+    caption: "Fuji's bigger than me, but it's a mountain, so it doesn't count. Cinnamon: 'YEAH!'"
 website: "https://www.shibazakura.jp/"
 tips:
   - "Go early on a clear morning for the best odds of seeing Fuji cloud-free."

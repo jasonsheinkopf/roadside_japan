@@ -32,8 +32,8 @@ photos:
     alt: "A street of black clay-walled Edo-era warehouses and a wooden bell tower"
     caption: "Stepped back into old Edo. That bell tower still rings four times a day."
   - src: "/images/attractions/kawagoe-little-edo-2.svg"
-    alt: "Mon-chan happily eating a sweet-potato treat on a retro Edo-style street, peace sign"
-    caption: "Kawagoe runs on sweet potato. I am fully on board. 🍠✌️"
+    alt: "Mon-chan and Cinnamon the squirrel sharing a sweet-potato treat on the Edo street"
+    caption: "Cinnamon wanted nuts but settled for sweet potato. Yelled 'YEAH!' regardless. 🍠"
 website: "https://www.koedo.or.jp/"
 tips:
   - "Find Toki no Kane, the wooden bell tower — it still chimes four times a day."

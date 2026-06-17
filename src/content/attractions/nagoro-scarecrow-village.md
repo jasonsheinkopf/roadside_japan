@@ -29,8 +29,8 @@ photos:
     alt: "A schoolroom full of life-size handmade scarecrow students"
     caption: "Sat in on a class. Quietest students I have ever met."
   - src: "/images/attractions/nagoro-scarecrow-village-2.svg"
-    alt: "Mon-chan sitting beside two handmade scarecrows at a rural bus stop"
-    caption: "Waited for the bus with the locals. It never came. 🚏"
+    alt: "Mon-chan and Cinnamon the squirrel sitting with the scarecrows at the bus stop"
+    caption: "Quiet stuffed neighbours. Takes a stuffed dog to know them, I suppose."
 tips:
   - "Combine with the Iya Valley vine bridges (Kazurabashi) and the Oboke Gorge boat ride."
   - "Bring everything you need — there are no shops or vending machines for miles."

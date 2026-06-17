@@ -32,8 +32,8 @@ photos:
     alt: "A recreated Edo-period town with wooden shops, samurai, and ninjas on the rooftops"
     caption: "A whole town playing samurai dress-up. There were ninjas on the roof!"
   - src: "/images/attractions/edo-wonderland-nikko-2.svg"
-    alt: "Mon-chan wearing a tiny ninja headband on an Edo-period street, peace sign"
-    caption: "Trained as a ninja. Still can't sneak past the treat jar. 🥷✌️"
+    alt: "Mon-chan and Cinnamon the squirrel dressed as tiny ninjas on an Edo street"
+    caption: "Ninja training! Cinnamon transformed into a shuriken. I transformed into a nap. 🥷"
 website: "https://edowonderland.net/"
 tips:
   - "Rent a costume — samurai, ninja, townsperson, or even oiran — and wear it all day."

@@ -33,8 +33,8 @@ photos:
     alt: "Stone ramparts wrapped in a dawn sea of clouds"
     caption: "The castle floats on clouds at dawn. Worth the 4am alarm."
   - src: "/images/attractions/takeda-castle-ruins-2.svg"
-    alt: "Mon-chan yawning at sunrise beside the cloud-wrapped castle ruins"
-    caption: "Up before the sun for this. The sun owes me. 😴"
+    alt: "Mon-chan yawning at dawn while Cinnamon the squirrel naps on his back, sea of clouds behind"
+    caption: "Up at 4am. Cinnamon slept on my back the whole climb. Sub-leader perks."
 website: "https://www.city.asago.hyogo.jp/"
 tips:
   - "For the floating-castle photo you must be up before sunrise — and you watch from Ritsuunkyo viewpoint on the facing mountain, not from the ruins themselves."

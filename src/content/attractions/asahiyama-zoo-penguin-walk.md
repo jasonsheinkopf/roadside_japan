@@ -33,8 +33,8 @@ photos:
     alt: "A line of king penguins waddling through the snow past watching visitors"
     caption: "They march. They waddle. They do not care that you're filming."
   - src: "/images/attractions/asahiyama-zoo-penguin-walk-2.svg"
-    alt: "Mon-chan waddling at the back of the penguin parade trying to blend in"
-    caption: "Joined the parade. Pretty sure nobody noticed I'm a dog. 🐧"
+    alt: "Mon-chan and Cinnamon the squirrel waddling at the back of the penguin parade"
+    caption: "We joined the march. Cinnamon transformed into a penguin. Show-off."
 website: "https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/"
 tips:
   - "The penguin walk happens about twice a day in winter — check the day's schedule at the gate."
