@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A long suspension bridge over a deep forested river gorge in red autumn colors">
+  <defs>
+    <linearGradient id="sky9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9a8"/>
+      <stop offset="1" stop-color="#f6ead0"/>
+    </linearGradient>
+    <linearGradient id="gorge9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3a2a"/>
+      <stop offset="1" stop-color="#1f1a14"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky9)"/>
+  <g fill="#d4582a">
+    <circle cx="90" cy="180" r="90"/>
+    <circle cx="710" cy="170" r="100"/>
+  </g>
+  <g fill="#e88a3a">
+    <circle cx="180" cy="220" r="70"/>
+    <circle cx="630" cy="210" r="75"/>
+  </g>
+  <g fill="#c43a2a">
+    <circle cx="40" cy="300" r="80"/>
+    <circle cx="760" cy="300" r="90"/>
+  </g>
+  <path d="M0 320 L120 320 L200 500 L0 500 Z" fill="url(#gorge9)"/>
+  <path d="M800 320 L680 320 L600 500 L800 500 Z" fill="url(#gorge9)"/>
+  <path d="M180 420 Q400 470 620 420 L580 500 L240 500 Z" fill="#6aa8c8"/>
+  <path d="M180 420 Q400 470 620 420" fill="none" stroke="#bfe0ee" stroke-width="4" opacity="0.6"/>
+  <g>
+    <path d="M110 300 Q400 380 690 300" fill="none" stroke="#3a2a1a" stroke-width="6"/>
+    <path d="M110 270 Q400 340 690 270" fill="none" stroke="#5a4530" stroke-width="4"/>
+    <g stroke="#7a5a3a" stroke-width="2">
+      <line x1="180" y1="332" x2="180" y2="354"/>
+      <line x1="260" y1="350" x2="260" y2="372"/>
+      <line x1="340" y1="360" x2="340" y2="382"/>
+      <line x1="420" y1="362" x2="420" y2="384"/>
+      <line x1="500" y1="358" x2="500" y2="380"/>
+      <line x1="580" y1="348" x2="580" y2="370"/>
+      <line x1="660" y1="330" x2="660" y2="352"/>
+    </g>
+    <path d="M110 322 Q400 392 690 322" fill="none" stroke="#8a6a44" stroke-width="3"/>
+    <rect x="92" y="250" width="14" height="90" fill="#5a4028"/>
+    <rect x="694" y="250" width="14" height="90" fill="#5a4028"/>
+  </g>
+</svg>

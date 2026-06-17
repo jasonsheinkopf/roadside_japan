@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A green dairy farm with cows, a hot-air balloon, and a soft-serve cone">
+  <defs>
+    <linearGradient id="dsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6f5"/>
+      <stop offset="1" stop-color="#e8f7e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#dsky)"/>
+  <ellipse cx="300" cy="80" rx="40" ry="18" fill="#fff"/>
+  <ellipse cx="270" cy="90" rx="30" ry="14" fill="#fff"/>
+  <path d="M0 250 Q200 210 400 250 V400 H0 Z" fill="#7cc356"/>
+  <path d="M0 320 Q200 295 400 320 V400 H0 Z" fill="#5fa83f"/>
+  <g>
+    <path d="M100 60 a44 44 0 1 1 88 0 q0 30 -44 70 q-44 -40 -44 -70 Z" fill="#ef476f"/>
+    <path d="M122 110 q22 26 44 0 Z" fill="#f4a261" opacity="0.6"/>
+    <line x1="130" y1="118" x2="138" y2="150" stroke="#555" stroke-width="2"/>
+    <line x1="158" y1="118" x2="150" y2="150" stroke="#555" stroke-width="2"/>
+    <rect x="134" y="150" width="20" height="14" rx="2" fill="#9c7a55"/>
+  </g>
+  <g>
+    <ellipse cx="120" cy="300" rx="50" ry="30" fill="#f4ece0"/>
+    <ellipse cx="105" cy="295" rx="16" ry="12" fill="#3a3a3a"/>
+    <ellipse cx="140" cy="310" rx="14" ry="10" fill="#3a3a3a"/>
+    <circle cx="80" cy="290" r="20" fill="#f4ece0"/>
+    <circle cx="74" cy="286" r="3" fill="#222"/>
+    <ellipse cx="70" cy="296" rx="6" ry="4" fill="#d99"/>
+    <rect x="95" y="326" width="8" height="24" fill="#d8cdbb"/>
+    <rect x="140" y="326" width="8" height="24" fill="#d8cdbb"/>
+  </g>
+  <g>
+    <ellipse cx="240" cy="320" rx="40" ry="24" fill="#f4ece0"/>
+    <ellipse cx="255" cy="318" rx="13" ry="10" fill="#3a3a3a"/>
+    <circle cx="285" cy="312" r="17" fill="#f4ece0"/>
+    <circle cx="291" cy="308" r="3" fill="#222"/>
+  </g>
+  <g>
+    <path d="M330 250 L350 340 L370 250 Z" fill="#e0a96d"/>
+    <path d="M322 252 q28 -50 56 0 q-28 18 -56 0 Z" fill="#fff7ef"/>
+    <path d="M328 246 q22 -34 44 0 q-22 12 -44 0 Z" fill="#fdfcfa"/>
+    <circle cx="350" cy="230" r="10" fill="#fff"/>
+  </g>
+</svg>

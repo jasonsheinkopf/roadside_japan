@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A green dairy farm with cows, a rising hot-air balloon, and a soft-serve cone">
+  <defs>
+    <linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8dcf0"/>
+      <stop offset="1" stop-color="#e6f5e0"/>
+    </linearGradient>
+    <linearGradient id="grass8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc85a"/>
+      <stop offset="1" stop-color="#5fa53a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky8)"/>
+  <circle cx="120" cy="100" r="44" fill="#fff" opacity="0.85"/>
+  <circle cx="170" cy="110" r="34" fill="#fff" opacity="0.85"/>
+  <path d="M0 320 Q200 280 400 310 T800 300 V500 H0 Z" fill="url(#grass8)"/>
+  <path d="M0 380 Q300 350 600 375 T800 365 V500 H0 Z" fill="#4f9430"/>
+  <g>
+    <path d="M580 80 a55 55 0 1 1 110 0 q0 50 -55 80 q-55 -30 -55 -80 Z" fill="#e8493c"/>
+    <path d="M580 80 a55 55 0 0 1 36 -52 v140 Z" fill="#f2c14e"/>
+    <path d="M656 28 a55 55 0 0 1 34 52 q0 50 -55 80 V20 Z" fill="#3a8ad0"/>
+    <line x1="615" y1="158" x2="620" y2="180" stroke="#7a5a3a" stroke-width="2"/>
+    <line x1="655" y1="158" x2="650" y2="180" stroke="#7a5a3a" stroke-width="2"/>
+    <rect x="618" y="180" width="34" height="22" rx="4" fill="#8a5a2a"/>
+  </g>
+  <g>
+    <ellipse cx="220" cy="390" rx="80" ry="44" fill="#f4f0ea"/>
+    <circle cx="148" cy="378" r="36" fill="#f4f0ea"/>
+    <ellipse cx="135" cy="382" rx="12" ry="9" fill="#3a3a3a"/>
+    <ellipse cx="250" cy="375" rx="22" ry="16" fill="#3a3a3a"/>
+    <ellipse cx="180" cy="400" rx="18" ry="13" fill="#3a3a3a"/>
+    <circle cx="143" cy="372" r="3" fill="#2a2a2a"/>
+    <rect x="170" y="425" width="9" height="30" fill="#d8d0c4"/>
+    <rect x="260" y="425" width="9" height="30" fill="#d8d0c4"/>
+  </g>
+  <g>
+    <polygon points="420,470 405,370 435,370" fill="#e0a85a"/>
+    <g stroke="#b8843c" stroke-width="2">
+      <line x1="410" y1="400" x2="430" y2="380"/>
+      <line x1="414" y1="430" x2="430" y2="414"/>
+    </g>
+    <path d="M400 372 q5 -40 20 -40 q15 0 20 40 q-12 -14 -20 0 q-8 -14 -20 0 Z" fill="#fdfdfb"/>
+    <circle cx="420" cy="330" r="8" fill="#fdfdfb"/>
+  </g>
+</svg>

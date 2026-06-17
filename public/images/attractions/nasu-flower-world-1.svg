@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Terraced flower fields of tulips and poppies with Mount Nasu rising behind">
+  <defs>
+    <linearGradient id="flsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a7d8f0"/>
+      <stop offset="1" stop-color="#e6f4ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#flsky)"/>
+  <circle cx="70" cy="70" r="32" fill="#fff3c4"/>
+  <path d="M120 170 L230 60 L340 170 Z" fill="#8a9aa8"/>
+  <path d="M230 60 L260 95 L240 105 L270 130 L250 140 L290 170 L170 170 L210 130 L195 120 L225 95 Z" fill="#e8eef2" opacity="0.85"/>
+  <g fill="#7d8b98"><path d="M40 170 L110 100 L180 170 Z"/></g>
+  <path d="M0 170 H400 V210 H0 Z" fill="#4a7c3f"/>
+  <path d="M0 210 Q200 235 400 210 V250 H0 Z" fill="#e63946"/>
+  <g fill="#fff" opacity="0.5"><circle cx="60" cy="228" r="4"/><circle cx="160" cy="232" r="4"/><circle cx="280" cy="228" r="4"/><circle cx="360" cy="232" r="4"/></g>
+  <path d="M0 250 Q200 278 400 250 V295 H0 Z" fill="#f4a261"/>
+  <path d="M0 295 Q200 322 400 295 V345 H0 Z" fill="#e9c46a"/>
+  <path d="M0 345 Q200 372 400 345 V400 H0 Z" fill="#9c5fb5"/>
+  <g>
+    <circle cx="70" cy="270" r="9" fill="#fff"/><circle cx="70" cy="270" r="4" fill="#e76f51"/>
+    <circle cx="180" cy="272" r="9" fill="#fff"/><circle cx="180" cy="272" r="4" fill="#e76f51"/>
+    <circle cx="300" cy="270" r="9" fill="#fff"/><circle cx="300" cy="270" r="4" fill="#e76f51"/>
+    <circle cx="120" cy="320" r="9" fill="#fff"/><circle cx="120" cy="320" r="4" fill="#ef476f"/>
+    <circle cx="260" cy="320" r="9" fill="#fff"/><circle cx="260" cy="320" r="4" fill="#ef476f"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A wooden boardwalk through a lush green forest leading to a tall waterfall">
+  <defs>
+    <linearGradient id="sky7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6c0"/>
+      <stop offset="1" stop-color="#eaf6e2"/>
+    </linearGradient>
+    <linearGradient id="fall7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f6ff"/>
+      <stop offset="1" stop-color="#a8d4ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky7)"/>
+  <g fill="#3f7f42">
+    <circle cx="120" cy="200" r="110"/>
+    <circle cx="680" cy="190" r="120"/>
+    <circle cx="260" cy="150" r="80"/>
+    <circle cx="540" cy="140" r="90"/>
+  </g>
+  <g fill="#2f6534">
+    <circle cx="180" cy="300" r="120"/>
+    <circle cx="640" cy="320" r="140"/>
+  </g>
+  <rect x="360" y="120" width="80" height="240" fill="url(#fall7)"/>
+  <g fill="#fff" opacity="0.6">
+    <rect x="370" y="120" width="6" height="240"/>
+    <rect x="392" y="120" width="6" height="240"/>
+    <rect x="414" y="120" width="6" height="240"/>
+  </g>
+  <ellipse cx="400" cy="370" rx="70" ry="22" fill="#bfe2f0"/>
+  <ellipse cx="400" cy="372" rx="50" ry="14" fill="#fff" opacity="0.7"/>
+  <path d="M340 500 L380 380 L420 380 L460 500 Z" fill="#a87a4a"/>
+  <g stroke="#7a5430" stroke-width="3">
+    <line x1="350" y1="470" x2="450" y2="470"/>
+    <line x1="362" y1="440" x2="438" y2="440"/>
+    <line x1="372" y1="412" x2="428" y2="412"/>
+  </g>
+  <line x1="340" y1="380" x2="320" y2="500" stroke="#6a4828" stroke-width="6"/>
+  <line x1="460" y1="380" x2="480" y2="500" stroke="#6a4828" stroke-width="6"/>
+</svg>

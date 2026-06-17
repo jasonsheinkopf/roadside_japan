@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A British manor-style museum hall glowing with antique stained-glass windows">
+  <defs>
+    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2c3f"/>
+      <stop offset="1" stop-color="#1f1722"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#hall)"/>
+  <rect x="0" y="320" width="400" height="80" fill="#4a3a2c"/>
+  <rect x="0" y="320" width="400" height="80" fill="#3a2c20" opacity="0.4"/>
+  <g>
+    <rect x="40" y="60" width="100" height="220" rx="50" fill="#1a1018"/>
+    <rect x="48" y="70" width="84" height="200" rx="42" fill="#f4d35e"/>
+    <path d="M48 130 L132 130" stroke="#7a5c2a" stroke-width="4"/>
+    <path d="M48 200 L132 200" stroke="#7a5c2a" stroke-width="4"/>
+    <rect x="48" y="70" width="42" height="60" rx="20" fill="#e76f51"/>
+    <rect x="90" y="130" width="42" height="70" fill="#2a9d8f"/>
+    <rect x="48" y="200" width="84" height="70" rx="6" fill="#3d5a80"/>
+    <line x1="90" y1="70" x2="90" y2="270" stroke="#7a5c2a" stroke-width="4"/>
+  </g>
+  <g>
+    <rect x="260" y="60" width="100" height="220" rx="50" fill="#1a1018"/>
+    <rect x="268" y="70" width="84" height="200" rx="42" fill="#f4d35e"/>
+    <rect x="268" y="70" width="42" height="80" rx="20" fill="#2a9d8f"/>
+    <rect x="310" y="70" width="42" height="80" fill="#e76f51"/>
+    <rect x="268" y="150" width="84" height="120" rx="6" fill="#b5179e"/>
+    <line x1="310" y1="70" x2="310" y2="270" stroke="#7a5c2a" stroke-width="4"/>
+    <path d="M268 150 L352 150" stroke="#7a5c2a" stroke-width="4"/>
+  </g>
+  <ellipse cx="90" cy="330" rx="70" ry="20" fill="#f4d35e" opacity="0.25"/>
+  <ellipse cx="310" cy="330" rx="70" ry="20" fill="#f4d35e" opacity="0.25"/>
+  <rect x="170" y="120" width="60" height="160" fill="#2a2030"/>
+  <rect x="178" y="130" width="44" height="50" fill="#5c4a6a"/>
+</svg>

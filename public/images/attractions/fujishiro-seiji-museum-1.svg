@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A glowing backlit cut-paper shadow-art fairytale scene in jewel colors">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="0.5" stop-color="#ef476f"/>
+      <stop offset="1" stop-color="#3a0ca3"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <circle cx="200" cy="170" r="80" fill="#fff3c4" opacity="0.6"/>
+  <g fill="#1a0b2e">
+    <path d="M0 400 V300 Q60 250 100 300 Q140 240 200 290 Q260 230 320 300 Q360 260 400 300 V400 Z"/>
+    <path d="M40 300 L60 200 L80 300 Z"/>
+    <path d="M320 300 L340 190 L360 300 Z"/>
+    <path d="M150 290 C150 250 250 250 250 290 L250 200 C250 160 230 150 200 150 C170 150 150 160 150 200 Z"/>
+    <rect x="190" y="120" width="20" height="40"/>
+    <path d="M180 120 L200 90 L220 120 Z"/>
+  </g>
+  <g fill="#06d6a0" opacity="0.85">
+    <circle cx="90" cy="120" r="6"/>
+    <circle cx="300" cy="100" r="5"/>
+    <circle cx="130" cy="80" r="4"/>
+  </g>
+  <g fill="#1a0b2e">
+    <path d="M100 250 q-20 -30 0 -60 q20 30 0 60"/>
+    <path d="M300 250 q20 -30 0 -60 q-20 30 0 60"/>
+  </g>
+  <circle cx="200" cy="60" r="22" fill="#ffd166"/>
+  <path d="M200 38 a22 22 0 0 0 0 44 a16 16 0 0 1 0 -44" fill="#3a0ca3"/>
+</svg>
