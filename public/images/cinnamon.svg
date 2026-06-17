@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Cinnamon, the brown squirrel sidekick of Roadside Japan, sitting up and holding an acorn">
+  <defs>
+    <linearGradient id="sq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9c7c55"/><stop offset="1" stop-color="#7d6242"/></linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a6c49"/><stop offset="1" stop-color="#6b5236"/></linearGradient>
+  </defs>
+  <ellipse cx="118" cy="222" rx="56" ry="11" fill="#000" opacity="0.10"/>
+  <!-- big bushy tail arcing up behind -->
+  <path d="M150 205 q70 -10 60 -90 q-8 -56 -54 -52 q34 6 38 50 q6 56 -52 70z" fill="url(#tail)" stroke="#5e4a32" stroke-width="2"/>
+  <path d="M168 70 q26 8 24 48 q-2 26 -18 40" fill="none" stroke="#a98a63" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <!-- body sitting upright -->
+  <path d="M82 205 q-12 -78 42 -82 q54 4 42 82 z" fill="url(#sq)"/>
+  <!-- cream belly -->
+  <path d="M104 205 q-12 -60 20 -64 q32 4 20 64 z" fill="#e9d8bd"/>
+  <!-- hind feet -->
+  <ellipse cx="98" cy="206" rx="16" ry="9" fill="#caa97e"/>
+  <ellipse cx="146" cy="206" rx="16" ry="9" fill="#caa97e"/>
+  <!-- head -->
+  <ellipse cx="122" cy="86" rx="42" ry="40" fill="url(#sq)"/>
+  <!-- ears with tufts -->
+  <path d="M92 56 q-6 -28 12 -24 q8 4 6 22z" fill="#7d6242"/>
+  <path d="M152 56 q6 -28 -12 -24 q-8 4 -6 22z" fill="#7d6242"/>
+  <path d="M94 46 q-4 -14 6 -16M150 46 q4 -14 -6 -16" stroke="#5e4a32" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- cheeks / muzzle cream -->
+  <path d="M122 72 q-30 0 -30 24 q0 20 30 20 q30 0 30 -20 q0 -24 -30 -24z" fill="#e9d8bd"/>
+  <ellipse cx="100" cy="98" rx="8" ry="6" fill="#e7b0a2" opacity="0.7"/>
+  <ellipse cx="144" cy="98" rx="8" ry="6" fill="#e7b0a2" opacity="0.7"/>
+  <!-- eyes -->
+  <ellipse cx="108" cy="84" rx="6" ry="7.5" fill="#241c16"/>
+  <ellipse cx="136" cy="84" rx="6" ry="7.5" fill="#241c16"/>
+  <circle cx="110" cy="81" r="2" fill="#fff"/><circle cx="138" cy="81" r="2" fill="#fff"/>
+  <!-- nose + smile -->
+  <path d="M117 96 h10 l-5 6z" fill="#3a2c24"/>
+  <path d="M122 102 q-7 7 -14 3M122 102 q7 7 14 3" stroke="#6b4f38" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- little front paws holding an acorn -->
+  <g>
+    <ellipse cx="122" cy="150" rx="16" ry="13" fill="#caa97e"/>
+    <!-- acorn -->
+    <ellipse cx="122" cy="150" rx="11" ry="13" fill="#e7c489"/>
+    <path d="M111 146 q11 -10 22 0 q-2 -8 -11 -8 q-9 0 -11 8z" fill="#7a5a34"/>
+    <rect x="120" y="132" width="4" height="6" rx="2" fill="#5e4326"/>
+    <!-- paws over it -->
+    <ellipse cx="108" cy="152" rx="7" ry="6" fill="#b9966c"/>
+    <ellipse cx="136" cy="152" rx="7" ry="6" fill="#b9966c"/>
+  </g>
+</svg>

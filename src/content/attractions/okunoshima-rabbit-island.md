@@ -32,8 +32,8 @@ photos:
     alt: "An avalanche of rabbits hopping eagerly toward the viewer"
     caption: "Hundreds of bunnies. My one job was 'stay calm.' I failed."
   - src: "/images/attractions/okunoshima-rabbit-island-2.svg"
-    alt: "Mon-chan surrounded by friendly rabbits, giving a peace sign"
-    caption: "New friends acquired. All of them. ✌️🐰"
+    alt: "Mon-chan and Cinnamon the squirrel surrounded by fuzzy rabbits"
+    caption: "So many fuzzy little leaders-in-waiting. I don't like them. Cinnamon adored them."
 tips:
   - "Buy rabbit pellets BEFORE the ferry — there's nowhere to buy food on the island."
   - "Don't bring dogs or chase the rabbits; let them come to you."

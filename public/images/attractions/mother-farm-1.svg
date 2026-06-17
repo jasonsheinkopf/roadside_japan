@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Sheep grazing on a green farm hillside with flower fields and a Ferris wheel">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6ff"/>
+      <stop offset="1" stop-color="#eaf7e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="320" cy="70" r="34" fill="#ffe17a"/>
+  <ellipse cx="90" cy="80" rx="40" ry="20" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="120" cy="90" rx="30" ry="16" fill="#ffffff" opacity="0.85"/>
+  <path d="M0 200 Q120 150 250 190 T400 200 V400 H0 Z" fill="#8fce6f"/>
+  <path d="M0 260 Q150 220 400 270 V400 H0 Z" fill="#6fb84f"/>
+  <path d="M0 330 Q200 300 400 340 V400 H0 Z" fill="#56a23c"/>
+  <g fill="#e85d6f">
+    <circle cx="40" cy="300" r="6"/><circle cx="70" cy="312" r="6"/><circle cx="100" cy="298" r="6"/>
+    <circle cx="55" cy="330" r="6"/><circle cx="90" cy="332" r="6"/>
+  </g>
+  <g fill="#f6c945">
+    <circle cx="300" cy="310" r="6"/><circle cx="330" cy="320" r="6"/><circle cx="355" cy="305" r="6"/>
+    <circle cx="315" cy="338" r="6"/>
+  </g>
+  <g transform="translate(280,120)">
+    <line x1="0" y1="0" x2="0" y2="70" stroke="#5a5a6a" stroke-width="5"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#4a90c2" stroke-width="5"/>
+    <circle cx="0" cy="0" r="8" fill="#fff" stroke="#4a90c2" stroke-width="3"/>
+    <g stroke="#4a90c2" stroke-width="3">
+      <line x1="0" y1="-48" x2="0" y2="48"/><line x1="-48" y1="0" x2="48" y2="0"/>
+      <line x1="-34" y1="-34" x2="34" y2="34"/><line x1="34" y1="-34" x2="-34" y2="34"/>
+    </g>
+    <circle cx="0" cy="-48" r="7" fill="#e85d6f"/><circle cx="48" cy="0" r="7" fill="#f6c945"/>
+    <circle cx="0" cy="48" r="7" fill="#e85d6f"/><circle cx="-48" cy="0" r="7" fill="#f6c945"/>
+    <circle cx="34" cy="34" r="7" fill="#6fb84f"/><circle cx="-34" cy="-34" r="7" fill="#6fb84f"/>
+  </g>
+  <g>
+    <ellipse cx="120" cy="250" rx="26" ry="18" fill="#fff8ee"/>
+    <ellipse cx="142" cy="246" rx="11" ry="9" fill="#5a5046"/>
+    <line x1="138" y1="262" x2="138" y2="272" stroke="#5a5046" stroke-width="3"/>
+    <line x1="150" y1="262" x2="150" y2="272" stroke="#5a5046" stroke-width="3"/>
+  </g>
+  <g>
+    <ellipse cx="190" cy="280" rx="30" ry="20" fill="#fff8ee"/>
+    <ellipse cx="216" cy="276" rx="12" ry="10" fill="#5a5046"/>
+    <line x1="210" y1="294" x2="210" y2="306" stroke="#5a5046" stroke-width="3"/>
+    <line x1="224" y1="294" x2="224" y2="306" stroke="#5a5046" stroke-width="3"/>
+  </g>
+</svg>

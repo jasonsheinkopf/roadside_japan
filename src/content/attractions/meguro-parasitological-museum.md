@@ -31,8 +31,8 @@ photos:
     alt: "A parasite suspended in resin as a souvenir keychain"
     caption: "They sell these as souvenirs. I love this strange little world."
   - src: "/images/attractions/meguro-parasitological-museum-2.svg"
-    alt: "Mon-chan looking nervously up at the giant 8.8-metre tapeworm display"
-    caption: "It is 8.8 metres. I am 0.4 metres. I have questions. 😬"
+    alt: "Mon-chan and Cinnamon the squirrel staring up at the 8.8-metre tapeworm"
+    caption: "Longer than both of us, twenty times over. We left, quickly."
 website: "https://www.kiseichu.org/"
 tips:
   - "The 8.8m tapeworm — with a ribbon beside it so you can walk its full length — is the headline exhibit."

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A modern art museum in green gardens with a pond and outdoor sculptures">
+  <defs>
+    <linearGradient id="dsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6f5"/>
+      <stop offset="1" stop-color="#eef7ee"/>
+    </linearGradient>
+    <linearGradient id="pond" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fc0d8"/>
+      <stop offset="1" stop-color="#5fa3bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#dsky)"/>
+  <circle cx="690" cy="90" r="40" fill="#fff2c9"/>
+  <g fill="#a7cf86">
+    <circle cx="90" cy="180" r="44"/><circle cx="150" cy="195" r="36"/>
+  </g>
+  <rect y="300" width="800" height="200" fill="#8ec96f"/>
+  <!-- Museum building -->
+  <g>
+    <rect x="360" y="190" width="260" height="120" fill="#e6e2da"/>
+    <rect x="360" y="190" width="260" height="14" fill="#cfcabf"/>
+    <rect x="380" y="220" width="40" height="90" fill="#9fc4d4"/>
+    <rect x="430" y="220" width="40" height="90" fill="#9fc4d4"/>
+    <rect x="480" y="220" width="40" height="90" fill="#9fc4d4"/>
+    <rect x="530" y="220" width="70" height="90" fill="#c9c3b6"/>
+    <rect x="555" y="250" width="20" height="60" fill="#7a8a92"/>
+    <polygon points="620,190 680,190 680,240 620,210" fill="#d4cfc4"/>
+  </g>
+  <!-- Sculptures -->
+  <g>
+    <circle cx="150" cy="360" r="26" fill="#e0533f"/>
+    <circle cx="150" cy="360" r="11" fill="#8ec96f"/>
+    <rect x="250" y="320" width="18" height="60" fill="#f0c041"/>
+    <rect x="240" y="320" width="38" height="14" fill="#f0c041"/>
+  </g>
+  <!-- Pond -->
+  <ellipse cx="500" cy="420" rx="220" ry="55" fill="url(#pond)"/>
+  <g stroke="#a9d6e6" stroke-width="3" opacity="0.6">
+    <line x1="380" y1="415" x2="520" y2="415"/>
+    <line x1="430" y1="440" x2="600" y2="440"/>
+  </g>
+</svg>

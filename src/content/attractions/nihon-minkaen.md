@@ -33,8 +33,8 @@ photos:
     alt: "Old thatched-roof farmhouses on a green wooded hillside, an open-air folk museum"
     caption: "Real old farmhouses, moved here board by board. Wonderfully cozy."
   - src: "/images/attractions/nihon-minkaen-2.svg"
-    alt: "Mon-chan sitting contentedly on the porch of a thatched-roof farmhouse, peace sign"
-    caption: "Found the comfiest old porch in Japan. Claimed it immediately. ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel on the porch of a thatched farmhouse"
+    caption: "Cinnamon found acorns under the old eaves. A good and ancient porch. chk-chk!"
 website: "https://www.nihonminkaen.jp/"
 tips:
   - "Step inside the houses — many have an irori hearth lit with a real smoky fire."

@@ -32,8 +32,8 @@ photos:
     alt: "A steaming reddish-brown lava dome rising from flat ground with vents smoking"
     caption: "This whole mountain is younger than my grandpa. Wild."
   - src: "/images/attractions/showa-shinzan-2.svg"
-    alt: "Mon-chan standing amazed in front of the steaming new volcano, peace sign"
-    caption: "A volcano grew out of a wheat field while someone watched. ✌️🌋"
+    alt: "Mon-chan and Cinnamon the squirrel before the steaming red lava-dome volcano"
+    caption: "A mountain that grew out of a field. Cinnamon yelled 'YEAH!' at it. Fair enough. 🌋"
 website: "https://www.toya-usu-geopark.org/"
 tips:
   - "It's still hot and growing slowly — the red colour is baked rock, and it really does steam."

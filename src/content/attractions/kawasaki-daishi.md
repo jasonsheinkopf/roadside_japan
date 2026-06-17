@@ -32,8 +32,8 @@ photos:
     alt: "A grand temple gate and main hall with incense smoke and a five-story pagoda"
     caption: "Big temple, bigger incense cloud. I sneezed respectfully."
   - src: "/images/attractions/kawasaki-daishi-2.svg"
-    alt: "Mon-chan wafting fragrant temple incense smoke over himself for luck by the pagoda"
-    caption: "Wafted the lucky smoke over my ears. Doubly good boy now. 🙏"
+    alt: "Mon-chan and Cinnamon the squirrel wafting temple incense for luck"
+    caption: "Wafted the lucky smoke over our ears. Cinnamon wafted, sneezed, then yelled 'YEAH!'"
 website: "https://www.kawasakidaishi.com/"
 tips:
   - "Waft the incense smoke from the big burner over yourself — it's said to bring health and luck."

@@ -32,8 +32,8 @@ photos:
     alt: "A row of mossy red-bibbed stone Jizo statues along a forested river gorge"
     caption: "A line of mossy Jizo by a rushing river. Count them — you never get the same number."
   - src: "/images/attractions/kanmangafuchi-abyss-2.svg"
-    alt: "Mon-chan walking quietly past a row of red-bibbed Jizo statues by the river"
-    caption: "Walked the row of little guardians. Counted differently every single time. 🍁"
+    alt: "Mon-chan and Cinnamon the squirrel quietly passing the row of red-bibbed Jizo by the river"
+    caption: "We counted the little guardians — a different number each time. Cinnamon found acorns. 🍁"
 website: "https://www.nikko-kankou.org/"
 tips:
   - "Try to count the Jizo on the way in and out — locals say the totals never match."

@@ -31,8 +31,8 @@ photos:
     alt: "Stylized cobalt-blue water with bleached drowned larch trees"
     caption: "Nature painted this blue. I just sniffed it and approved."
   - src: "/images/attractions/blue-pond-biei-2.svg"
-    alt: "Mon-chan posing beside the glowing blue pond at dusk"
-    caption: "Bluest water I have ever NOT drunk from. 💙"
+    alt: "Mon-chan and Cinnamon the squirrel posing by the glowing blue pond at dusk"
+    caption: "Cinnamon yelled 'YEAH!' at the water and nearly jumped in. I supervised."
 tips:
   - "The color shifts with light and weather — midday sun on a clear day is most intense."
   - "Winter brings evening illuminations; the pond rarely fully freezes."

@@ -33,8 +33,8 @@ photos:
     alt: "A towering white Kannon goddess statue standing on a green hill"
     caption: "A 41-metre white goddess looking out over the whole city. Serene."
   - src: "/images/attractions/takasaki-byakue-daikannon-2.svg"
-    alt: "Mon-chan tiny at the base of the giant white Kannon statue, looking up, peace sign"
-    caption: "She's 41 metres. I'm a snack-sized 0.4. We balance out. 🙏✌️"
+    alt: "Mon-chan and Cinnamon the squirrel tiny at the base of the giant white Kannon"
+    caption: "41 metres tall — much bigger than me. I... don't love that. We bowed and moved on."
 website: "https://www.takasakikannon.or.jp/"
 tips:
   - "Climb the internal staircase to the windows at her shoulder height for views over Takasaki."

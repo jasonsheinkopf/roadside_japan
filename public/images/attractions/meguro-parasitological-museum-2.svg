@@ -1,29 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan looking nervously up at a giant 8.8-metre tapeworm specimen">
-<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1f6"/><stop offset="1" stop-color="#c3cad8"/></linearGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan and Cinnamon the squirrel staring up at the 8.8-metre tapeworm">
+<defs>
+<linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3a85c"/><stop offset="1" stop-color="#cf9038"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1f6"/><stop offset="1" stop-color="#c3cad8"/></linearGradient>
+<linearGradient id="sq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9c7c55"/><stop offset="1" stop-color="#7d6242"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a6c49"/><stop offset="1" stop-color="#6b5236"/></linearGradient>
+</defs>
 <rect width="400" height="400" fill="url(#bg)"/>
 <rect y="350" width="400" height="50" fill="#9aa3b5"/>
-<!-- display case -->
 <rect x="40" y="30" width="170" height="330" rx="10" fill="#fff" opacity="0.55" stroke="#aeb6c6" stroke-width="3"/>
 <g fill="none" stroke="#f0e0c0" stroke-width="13" stroke-linecap="round"><path d="M68 56 q86 0 86 26 q0 26 -86 26 q-86 0 -86 26 q0 26 86 26 q86 0 86 26 q0 26 -86 26 q-86 0 -86 26 q0 26 86 26 q86 0 86 26 q0 26 -86 26"/></g>
 <g stroke="#d8c49a" stroke-width="1.5"><line x1="40" y1="82" x2="195" y2="82"/><line x1="40" y1="134" x2="195" y2="134"/><line x1="40" y1="186" x2="195" y2="186"/><line x1="40" y1="238" x2="195" y2="238"/><line x1="40" y1="290" x2="195" y2="290"/></g>
 <rect x="110" y="316" width="80" height="28" rx="6" fill="#ffe08a" stroke="#c9a04a" stroke-width="2"/>
 <text x="150" y="336" font-family="sans-serif" font-size="18" fill="#7a5a1a" text-anchor="middle" font-weight="bold">8.8 m</text>
-<!-- Mon-chan nervous, looking up, right -->
-<g transform="translate(300,250) scale(1.0)">
+<!-- MON-CHAN looking up -->
+<g transform="translate(285,250) scale(1.0)">
 <path d="M-42 60 q-14 -70 42 -78 q56 8 42 78 z" fill="url(#fur)"/>
-<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#faf1e0"/>
-<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#faf1e0"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#faf1e0"/>
-<path d="M-32 0 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/><path d="M0 0 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
-<circle cx="-20" cy="-12" r="2" fill="#fff"/><circle cx="14" cy="-12" r="2" fill="#fff"/>
+<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#f4ebda"/>
+<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#f4ebda"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#f4ebda"/>
+<path d="M-32 0 q32 22 64 0 l8 18 q-42 28 -84 0z" fill="#76823f"/>
+<g fill="#f2efe2"><circle cx="-20" cy="6" r="2.6"/><circle cx="0" cy="12" r="2.6"/><circle cx="20" cy="6" r="2.6"/></g>
 <path d="M-50 -86 l-10 -40 38 22z" fill="url(#fur)"/><path d="M50 -86 l10 -40 -38 22z" fill="url(#fur)"/>
-<path d="M-47 -94 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M47 -94 l4 -22 -18 12z" fill="#f3a6a0"/>
+<path d="M-47 -94 l-4 -22 18 12z" fill="#f0b0a6"/><path d="M47 -94 l4 -22 -18 12z" fill="#f0b0a6"/>
 <ellipse cx="0" cy="-66" rx="52" ry="46" fill="url(#fur)"/>
-<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
-<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
-<ellipse cx="-22" cy="-72" rx="7" ry="9" fill="#2e2824"/><ellipse cx="18" cy="-72" rx="7" ry="9" fill="#2e2824"/>
+<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#f4ebda"/>
+<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f0b0a6"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f0b0a6"/>
+<ellipse cx="-22" cy="-72" rx="7" ry="9" fill="#2b2420"/><ellipse cx="18" cy="-72" rx="7" ry="9" fill="#2b2420"/>
 <circle cx="-20" cy="-76" r="2.4" fill="#fff"/><circle cx="20" cy="-76" r="2.4" fill="#fff"/>
-<path d="M-6 -50 h12 l-6 7z" fill="#3a3330"/>
-<ellipse cx="0" cy="-38" rx="6" ry="7" fill="#f08a86"/>
-<path d="M40 -86 q8 -10 2 -20" stroke="#7fb4d8" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+<path d="M-6 -50 h12 l-6 7z" fill="#2f2925"/>
+<ellipse cx="0" cy="-38" rx="6" ry="7" fill="#ef8a86"/>
+</g>
+<!-- CINNAMON looking up -->
+<g transform="translate(218,238) scale(0.6)">
+<path d="M150 205 q70 -10 60 -90 q-8 -56 -54 -52 q34 6 38 50 q6 56 -52 70z" fill="url(#tl)"/>
+<path d="M82 205 q-12 -78 42 -82 q54 4 42 82 z" fill="url(#sq)"/>
+<path d="M104 205 q-12 -60 20 -64 q32 4 20 64 z" fill="#e9d8bd"/>
+<path d="M92 56 q-6 -28 12 -24 q8 4 6 22z" fill="#7d6242"/><path d="M152 56 q6 -28 -12 -24 q-8 4 -6 22z" fill="#7d6242"/>
+<ellipse cx="122" cy="86" rx="42" ry="40" fill="url(#sq)"/>
+<path d="M122 72 q-30 0 -30 24 q0 20 30 20 q30 0 30 -20 q0 -24 -30 -24z" fill="#e9d8bd"/>
+<ellipse cx="108" cy="80" rx="6" ry="7.5" fill="#241c16"/><ellipse cx="136" cy="80" rx="6" ry="7.5" fill="#241c16"/>
+<circle cx="110" cy="76" r="2" fill="#fff"/><circle cx="138" cy="76" r="2" fill="#fff"/>
+<path d="M117 94 h10 l-5 6z" fill="#3a2c24"/>
+<ellipse cx="122" cy="150" rx="11" ry="13" fill="#e7c489"/><path d="M111 146 q11 -10 22 0 q-2 -8 -11 -8 q-9 0 -11 8z" fill="#7a5a34"/>
 </g>
 </svg>

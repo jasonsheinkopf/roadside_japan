@@ -89,31 +89,42 @@ for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefectu
     </div>
   </section>
 
-  <!-- MEET MON-CHAN -->
+  <!-- MEET MON-CHAN & CINNAMON -->
   <section class="mt-10">
     <div class="card bg-topo flex flex-col items-center gap-5 overflow-hidden p-6 text-center sm:flex-row sm:p-8 sm:text-left">
-      <img
-        src={withBase("/images/mon-chan.svg")}
-        alt="Mon-chan, the Shiba Inu mascot of Roadside Japan, giving a peace sign"
-        width="176"
-        height="176"
-        class="h-36 w-36 shrink-0 drop-shadow-sm sm:h-44 sm:w-44"
-      />
+      <div class="flex shrink-0 items-end">
+        <img
+          src={withBase("/images/mon-chan.svg")}
+          alt="Mon-chan, the tan Shiba Inu mascot of Roadside Japan in his olive paisley bandana"
+          width="176"
+          height="176"
+          class="h-36 w-36 drop-shadow-sm sm:h-44 sm:w-44"
+        />
+        <img
+          src={withBase("/images/cinnamon.svg")}
+          alt="Cinnamon, the squirrel sidekick of Roadside Japan, holding an acorn"
+          width="116"
+          height="116"
+          class="-ml-4 h-24 w-24 drop-shadow-sm sm:h-28 sm:w-28"
+        />
+      </div>
       <div>
-        <h2 class="font-display text-2xl font-bold sm:text-3xl">Hi, I'm Mon-chan! 🐕</h2>
+        <h2 class="font-display text-2xl font-bold sm:text-3xl">Hi, we're Mon-chan &amp; Cinnamon! 🐕🐿️</h2>
         <p class="mx-auto mt-2 max-w-xl text-ink-soft sm:mx-0">
-          I'm the very good dog behind Roadside Japan — a small Shiba with a big nose for
-          the strange. I sniff out the country's oddest roadside wonders, pose for a photo
-          (peace ✌️), and trot them back to you. Every snapshot you'll find here is from my
-          camera roll.
+          We're the travelling duo behind Roadside Japan. <strong class="text-ink">Mon-chan</strong> is
+          the leader — a small Shiba with a big nose for the strange (and a touch defensive about anything
+          bigger or fuzzier than he is). <strong class="text-ink">Cinnamon</strong> is the squirrel
+          sub-leader: loves nuts, yells "YEAH!", and bounces when excited. Together we sniff out the
+          country's oddest corners and bring back the photos.
         </p>
         <div class="mt-4 flex flex-wrap justify-center gap-3 sm:justify-start">
-          <a href={withBase("/random")} class="btn btn-primary">🎲 Take me somewhere</a>
-          <a href={withBase("/about")} class="btn btn-ghost">More about Mon-chan</a>
+          <a href={withBase("/random")} class="btn btn-primary">🎲 Take us somewhere</a>
+          <a href={withBase("/about")} class="btn btn-ghost">Meet the duo</a>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- LIVE MAP -->
   <section class="mt-12">

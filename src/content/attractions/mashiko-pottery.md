@@ -32,8 +32,8 @@ photos:
     alt: "Rustic Mashiko-ware pottery bowls and cups displayed at a kiln town shop"
     caption: "A whole town of potters. Bowls everywhere, every one handmade."
   - src: "/images/attractions/mashiko-pottery-2.svg"
-    alt: "Mon-chan proudly holding a handmade Mashiko pottery bowl, peace sign"
-    caption: "Got my own water bowl, artisan-made. Very fancy pup now. ✌️🍵"
+    alt: "Mon-chan and Cinnamon the squirrel with a handmade pottery bowl"
+    caption: "Got a proper bowl. Cinnamon filled it with acorns instantly. Our finest tableware. 🍵"
 website: "https://www.mashiko-kankou.org/"
 tips:
   - "Time your visit to the spring or autumn Pottery Fair for hundreds of stalls and bargains."

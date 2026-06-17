@@ -1,29 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan posing for a selfie surrounded by curious island cats">
-<defs><linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe6f2"/><stop offset="1" stop-color="#e8f6ef"/></linearGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mon-chan in his olive paisley bandana and Cinnamon the squirrel posing among the island's cats">
+<defs>
+<linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3a85c"/><stop offset="1" stop-color="#cf9038"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe6f2"/><stop offset="1" stop-color="#e8f6ef"/></linearGradient>
+<linearGradient id="sq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9c7c55"/><stop offset="1" stop-color="#7d6242"/></linearGradient>
+<linearGradient id="tl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a6c49"/><stop offset="1" stop-color="#6b5236"/></linearGradient>
+</defs>
 <rect width="400" height="400" fill="url(#sky)"/>
 <rect y="300" width="400" height="100" fill="#7fc3d6"/>
 <path d="M0 300 q100 -18 200 0 q100 18 200 0 v20 H0z" fill="#f2e6bf"/>
 <rect x="40" y="240" width="40" height="40" fill="#d9bb94"/><polygon points="35,240 85,240 60,218" fill="#9c5b46"/>
 <rect x="300" y="235" width="44" height="45" fill="#cdb78d"/><polygon points="295,235 349,235 322,212" fill="#7e4536"/>
 <g><ellipse cx="55" cy="335" rx="26" ry="18" fill="#777"/><circle cx="55" cy="312" r="15" fill="#777"/><polygon points="43,302 49,290 53,302" fill="#777"/><polygon points="67,302 61,290 57,302" fill="#777"/><circle cx="50" cy="312" r="2.5" fill="#2e2824"/><circle cx="60" cy="312" r="2.5" fill="#2e2824"/></g>
-<g><ellipse cx="345" cy="338" rx="24" ry="17" fill="#e8e2d6"/><circle cx="345" cy="316" r="14" fill="#e8e2d6"/><polygon points="334,307 340,295 344,307" fill="#e8e2d6"/><polygon points="356,307 350,295 346,307" fill="#e8e2d6"/><circle cx="340" cy="316" r="2.5" fill="#2e2824"/><circle cx="350" cy="316" r="2.5" fill="#2e2824"/></g>
-<g><ellipse cx="120" cy="362" rx="22" ry="15" fill="#3a3330"/><circle cx="120" cy="344" r="12" fill="#3a3330"/><polygon points="111,337 116,327 120,337" fill="#3a3330"/><polygon points="129,337 124,327 120,337" fill="#3a3330"/><circle cx="116" cy="344" r="2" fill="#f7d24e"/><circle cx="124" cy="344" r="2" fill="#f7d24e"/></g>
-<g transform="translate(210,250) scale(1.05)">
+<g><ellipse cx="350" cy="338" rx="24" ry="17" fill="#e8e2d6"/><circle cx="350" cy="316" r="14" fill="#e8e2d6"/><polygon points="339,307 345,295 349,307" fill="#e8e2d6"/><polygon points="361,307 355,295 351,307" fill="#e8e2d6"/><circle cx="345" cy="316" r="2.5" fill="#2e2824"/><circle cx="355" cy="316" r="2.5" fill="#2e2824"/></g>
+<!-- MON-CHAN -->
+<g transform="translate(170,250) scale(1.0)">
 <path d="M-42 60 q-14 -70 42 -78 q56 8 42 78 z" fill="url(#fur)"/>
-<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#faf1e0"/>
-<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#faf1e0"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#faf1e0"/>
-<g transform="translate(40,-16) rotate(22)"><ellipse cx="0" cy="6" rx="10" ry="11" fill="#faf1e0"/><rect x="-7" y="-14" width="5" height="16" rx="2.5" fill="#faf1e0"/><rect x="2" y="-14" width="5" height="16" rx="2.5" fill="#faf1e0"/></g>
-<path d="M-32 0 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/>
-<path d="M0 0 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
-<circle cx="-20" cy="-12" r="2" fill="#fff"/><circle cx="14" cy="-12" r="2" fill="#fff"/>
+<path d="M-18 60 q-14 -58 18 -64 q32 6 18 64 z" fill="#f4ebda"/>
+<ellipse cx="-34" cy="60" rx="16" ry="10" fill="#f4ebda"/><ellipse cx="34" cy="60" rx="16" ry="10" fill="#f4ebda"/>
+<path d="M-32 0 q32 22 64 0 l8 18 q-42 28 -84 0z" fill="#76823f"/>
+<g fill="#f2efe2"><circle cx="-20" cy="6" r="2.6"/><circle cx="0" cy="12" r="2.6"/><circle cx="20" cy="6" r="2.6"/></g>
 <path d="M-50 -86 l-10 -40 38 22z" fill="url(#fur)"/><path d="M50 -86 l10 -40 -38 22z" fill="url(#fur)"/>
-<path d="M-47 -94 l-4 -22 18 12z" fill="#f3a6a0"/><path d="M47 -94 l4 -22 -18 12z" fill="#f3a6a0"/>
+<path d="M-47 -94 l-4 -22 18 12z" fill="#f0b0a6"/><path d="M47 -94 l4 -22 -18 12z" fill="#f0b0a6"/>
 <ellipse cx="0" cy="-66" rx="52" ry="46" fill="url(#fur)"/>
-<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
-<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
-<ellipse cx="-20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/><ellipse cx="20" cy="-66" rx="6.5" ry="8.5" fill="#2e2824"/>
+<path d="M0 -80 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#f4ebda"/>
+<ellipse cx="-36" cy="-50" rx="9" ry="6" fill="#f0b0a6"/><ellipse cx="36" cy="-50" rx="9" ry="6" fill="#f0b0a6"/>
+<ellipse cx="-20" cy="-66" rx="6.5" ry="8.5" fill="#2b2420"/><ellipse cx="20" cy="-66" rx="6.5" ry="8.5" fill="#2b2420"/>
 <circle cx="-18" cy="-69" r="2.2" fill="#fff"/><circle cx="22" cy="-69" r="2.2" fill="#fff"/>
-<path d="M-6 -50 h12 l-6 7z" fill="#3a3330"/>
-<path d="M-6 -40 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
+<path d="M-6 -50 h12 l-6 7z" fill="#2f2925"/>
+<path d="M-6 -40 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#ef8a86"/>
+</g>
+<!-- CINNAMON (smaller) -->
+<g transform="translate(258,232) scale(0.62)">
+<path d="M150 205 q70 -10 60 -90 q-8 -56 -54 -52 q34 6 38 50 q6 56 -52 70z" fill="url(#tl)"/>
+<path d="M82 205 q-12 -78 42 -82 q54 4 42 82 z" fill="url(#sq)"/>
+<path d="M104 205 q-12 -60 20 -64 q32 4 20 64 z" fill="#e9d8bd"/>
+<path d="M92 56 q-6 -28 12 -24 q8 4 6 22z" fill="#7d6242"/><path d="M152 56 q6 -28 -12 -24 q-8 4 -6 22z" fill="#7d6242"/>
+<ellipse cx="122" cy="86" rx="42" ry="40" fill="url(#sq)"/>
+<path d="M122 72 q-30 0 -30 24 q0 20 30 20 q30 0 30 -20 q0 -24 -30 -24z" fill="#e9d8bd"/>
+<ellipse cx="108" cy="84" rx="6" ry="7.5" fill="#241c16"/><ellipse cx="136" cy="84" rx="6" ry="7.5" fill="#241c16"/>
+<circle cx="110" cy="81" r="2" fill="#fff"/><circle cx="138" cy="81" r="2" fill="#fff"/>
+<path d="M117 96 h10 l-5 6z" fill="#3a2c24"/>
+<ellipse cx="122" cy="150" rx="11" ry="13" fill="#e7c489"/><path d="M111 146 q11 -10 22 0 q-2 -8 -11 -8 q-9 0 -11 8z" fill="#7a5a34"/>
 </g>
 </svg>

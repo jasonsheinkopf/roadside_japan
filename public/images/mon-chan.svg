@@ -1,63 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Mon-chan, the cheerful Shiba Inu mascot of Roadside Japan, giving a peace sign and wearing a red bandana">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Mon-chan, the tan Shiba Inu mascot of Roadside Japan, wearing his olive-green paisley bandana">
   <defs>
-    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7ad63"/><stop offset="1" stop-color="#d2913f"/></linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3a85c"/><stop offset="1" stop-color="#cf9038"/></linearGradient>
   </defs>
-  <!-- soft shadow -->
-  <ellipse cx="120" cy="220" rx="74" ry="12" fill="#000" opacity="0.10"/>
-  <!-- curled tail -->
-  <path d="M178 150 q40 -6 38 -40 q-2 -26 -24 -24 q18 8 12 28 q-8 24 -34 18z" fill="url(#fur)" stroke="#c2832f" stroke-width="2"/>
-  <path d="M188 92 q14 4 12 24" fill="none" stroke="#faf1e0" stroke-width="6" stroke-linecap="round"/>
-  <!-- body (sitting) -->
-  <path d="M70 200 q-14 -70 50 -78 q64 8 50 78 z" fill="url(#fur)"/>
+  <ellipse cx="120" cy="221" rx="74" ry="12" fill="#000" opacity="0.10"/>
+  <!-- curled tail, cream tip -->
+  <path d="M178 152 q42 -6 40 -42 q-2 -27 -25 -25 q19 8 13 29 q-9 25 -36 19z" fill="url(#fur)" stroke="#bd842c" stroke-width="2"/>
+  <path d="M191 92 q15 4 13 25" fill="none" stroke="#f4ebda" stroke-width="7" stroke-linecap="round"/>
+  <!-- body -->
+  <path d="M70 201 q-15 -72 50 -80 q65 8 50 80 z" fill="url(#fur)"/>
   <!-- cream chest -->
-  <path d="M96 200 q-14 -58 24 -64 q38 6 24 64 z" fill="#faf1e0"/>
+  <path d="M95 201 q-15 -60 25 -66 q40 6 25 66 z" fill="#f4ebda"/>
   <!-- hind paws -->
-  <ellipse cx="84" cy="202" rx="20" ry="12" fill="#faf1e0" stroke="#e6d8bf" stroke-width="1.5"/>
-  <ellipse cx="156" cy="202" rx="20" ry="12" fill="#faf1e0" stroke="#e6d8bf" stroke-width="1.5"/>
-  <!-- left front leg down -->
-  <rect x="98" y="160" width="20" height="44" rx="10" fill="#faf1e0"/>
-  <ellipse cx="108" cy="204" rx="13" ry="9" fill="#faf1e0" stroke="#e6d8bf" stroke-width="1.5"/>
-  <!-- right front leg RAISED doing a peace / V sign -->
-  <g>
-    <path d="M150 168 q22 -8 30 -34" fill="none" stroke="#faf1e0" stroke-width="20" stroke-linecap="round"/>
-    <!-- paw with two toes up (peace) -->
-    <g transform="translate(182,128)">
-      <ellipse cx="0" cy="6" rx="11" ry="12" fill="#faf1e0" stroke="#e6d8bf" stroke-width="1.5"/>
-      <rect x="-8" y="-16" width="6" height="18" rx="3" fill="#faf1e0" stroke="#e6d8bf" stroke-width="1.5"/>
-      <rect x="2" y="-16" width="6" height="18" rx="3" fill="#faf1e0" stroke="#e6d8bf" stroke-width="1.5"/>
-    </g>
+  <ellipse cx="84" cy="203" rx="20" ry="12" fill="#f4ebda" stroke="#e3d4bb" stroke-width="1.5"/>
+  <ellipse cx="156" cy="203" rx="20" ry="12" fill="#f4ebda" stroke="#e3d4bb" stroke-width="1.5"/>
+  <!-- front legs/paws -->
+  <rect x="98" y="160" width="20" height="45" rx="10" fill="#f4ebda"/>
+  <ellipse cx="108" cy="205" rx="13" ry="9" fill="#f4ebda" stroke="#e3d4bb" stroke-width="1.5"/>
+  <rect x="124" y="160" width="20" height="45" rx="10" fill="#f4ebda"/>
+  <ellipse cx="134" cy="205" rx="13" ry="9" fill="#f4ebda" stroke="#e3d4bb" stroke-width="1.5"/>
+  <!-- OLIVE PAISLEY BANDANA -->
+  <path d="M86 149 q34 24 68 0 l8 18 q-42 28 -84 0z" fill="#76823f"/>
+  <path d="M86 149 q34 24 68 0" fill="none" stroke="#5f6a32" stroke-width="2"/>
+  <path d="M120 150 l-14 30 11 -5 9 9 8 -32z" fill="#6a7637"/>
+  <!-- white paisley swirls + dotted border -->
+  <g fill="none" stroke="#f2efe2" stroke-width="2.4" stroke-linecap="round">
+    <path d="M100 160 q7 -1 7 6 q0 6 -6 5 q-4 -1 -3 -5"/>
+    <path d="M134 160 q7 -1 7 6 q0 6 -6 5 q-4 -1 -3 -5"/>
+    <path d="M117 172 q6 -1 6 5"/>
   </g>
-  <!-- red bandana -->
-  <path d="M88 150 q32 22 64 0 l-6 -20 q-26 14 -52 0z" fill="#d6483b"/>
-  <path d="M120 150 l-12 26 10 -4 8 8 6 -28z" fill="#b93a2f"/>
-  <g fill="#fff" opacity="0.7"><circle cx="104" cy="146" r="2"/><circle cx="120" cy="150" r="2"/><circle cx="136" cy="146" r="2"/></g>
+  <g fill="#f2efe2"><circle cx="95" cy="168" r="1.6"/><circle cx="146" cy="168" r="1.6"/><circle cx="110" cy="178" r="1.6"/><circle cx="130" cy="178" r="1.6"/></g>
   <!-- head -->
-  <g>
-    <!-- ears -->
-    <path d="M70 64 l-10 -40 38 22z" fill="url(#fur)" stroke="#c2832f" stroke-width="2"/>
-    <path d="M170 64 l10 -40 -38 22z" fill="url(#fur)" stroke="#c2832f" stroke-width="2"/>
-    <path d="M73 56 l-4 -22 18 12z" fill="#f3a6a0"/>
-    <path d="M167 56 l4 -22 -18 12z" fill="#f3a6a0"/>
-    <!-- head shape -->
-    <ellipse cx="120" cy="84" rx="52" ry="46" fill="url(#fur)"/>
-    <!-- cream cheeks/muzzle -->
-    <path d="M120 70 q-44 0 -44 30 q0 26 44 26 q44 0 44 -26 q0 -30 -44 -30z" fill="#faf1e0"/>
-    <ellipse cx="86" cy="92" rx="14" ry="12" fill="#faf1e0"/>
-    <ellipse cx="154" cy="92" rx="14" ry="12" fill="#faf1e0"/>
-    <!-- blush -->
-    <ellipse cx="84" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
-    <ellipse cx="156" cy="100" rx="9" ry="6" fill="#f3a6a0" opacity="0.8"/>
-    <!-- eyes -->
-    <ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
-    <ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2e2824"/>
-    <circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
-    <!-- eyebrows (cheeky) -->
-    <path d="M92 70 q8 -4 16 -1" stroke="#c2832f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-    <path d="M132 69 q8 -3 16 1" stroke="#c2832f" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-    <!-- nose + mouth + tongue -->
-    <path d="M114 100 h12 l-6 7z" fill="#3a3330"/>
-    <path d="M120 107 q-10 10 -20 4" stroke="#7a5a3a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-    <path d="M120 107 q10 10 20 4" stroke="#7a5a3a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-    <path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#f08a86"/>
-  </g>
+  <path d="M70 64 l-10 -40 38 22z" fill="url(#fur)" stroke="#bd842c" stroke-width="2"/>
+  <path d="M170 64 l10 -40 -38 22z" fill="url(#fur)" stroke="#bd842c" stroke-width="2"/>
+  <path d="M73 56 l-4 -22 18 12z" fill="#f0b0a6"/>
+  <path d="M167 56 l4 -22 -18 12z" fill="#f0b0a6"/>
+  <ellipse cx="120" cy="84" rx="53" ry="47" fill="url(#fur)"/>
+  <!-- cream mask: cheeks + muzzle + brow blaze -->
+  <path d="M120 44 q-10 22 -2 34 q-44 0 -44 30 q0 27 46 27 q46 0 46 -27 q0 -30 -44 -30 q8 -12 -2 -34z" fill="#f4ebda"/>
+  <ellipse cx="84" cy="100" rx="9" ry="6" fill="#f0b0a6" opacity="0.85"/>
+  <ellipse cx="156" cy="100" rx="9" ry="6" fill="#f0b0a6" opacity="0.85"/>
+  <!-- eyes -->
+  <ellipse cx="100" cy="84" rx="6.5" ry="8.5" fill="#2b2420"/>
+  <ellipse cx="140" cy="84" rx="6.5" ry="8.5" fill="#2b2420"/>
+  <circle cx="102" cy="81" r="2.2" fill="#fff"/><circle cx="142" cy="81" r="2.2" fill="#fff"/>
+  <!-- brows -->
+  <path d="M92 70 q8 -4 16 -1" stroke="#bd842c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M132 69 q8 -3 16 1" stroke="#bd842c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- nose + mouth + tongue -->
+  <path d="M113 99 h14 l-7 8z" fill="#2f2925"/>
+  <path d="M120 107 q-10 10 -20 4" stroke="#7a5a3a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M120 107 q10 10 20 4" stroke="#7a5a3a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M114 110 q6 14 14 0 q-2 8 -7 8 q-5 0 -7 -8z" fill="#ef8a86"/>
 </svg>

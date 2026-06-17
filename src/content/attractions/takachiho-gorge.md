@@ -31,8 +31,8 @@ photos:
     alt: "A rowboat drifting beneath the Manai Falls in a basalt gorge"
     caption: "Rented a boat. Mostly supervised. Waterfall: approved."
   - src: "/images/attractions/takachiho-gorge-2.svg"
-    alt: "Mon-chan riding in a little rowboat near the gorge waterfall"
-    caption: "First mate Mon-chan, reporting for paddle duty. 🚣"
+    alt: "Mon-chan steering a little rowboat while Cinnamon the squirrel paddles with an acorn"
+    caption: "First mate Cinnamon paddled with a nut. Captain me steered. chk-chk!"
 website: "https://takachiho-kanko.info/"
 tips:
   - "Book the rowboat slot online in advance — peak-season waits can run hours."

@@ -33,8 +33,8 @@ photos:
     alt: "A row of meticulously shaped miniature bonsai trees on display stands"
     caption: "Tiny ancient trees, some centuries old. Tiny and very wise."
   - src: "/images/attractions/omiya-bonsai-village-2.svg"
-    alt: "Mon-chan sniffing a small bonsai tree very carefully, peace sign"
-    caption: "Resisted the urge to water the bonsai myself. You're welcome. ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel inspecting a tiny bonsai tree"
+    caption: "Tiny trees! Finally, something smaller than me. Very secure. Cinnamon hid a nut in one."
 website: "https://www.bonsai-art-museum.jp/en/"
 tips:
   - "Start at the Omiya Bonsai Art Museum for context, then stroll the surrounding nurseries."

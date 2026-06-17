@@ -32,8 +32,8 @@ photos:
     alt: "Two red-crowned cranes mid-dance with wings spread in the snow"
     caption: "They bowed, they leapt, they danced. I just stood there, stunned."
   - src: "/images/attractions/tsurui-red-crowned-cranes-2.svg"
-    alt: "Mon-chan in the snow trying to copy the cranes' elegant dancing pose"
-    caption: "Tried the crane dance. Less elegant than hoped. Still a 10. ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel copying the cranes' dance in the snow"
+    caption: "Tall, elegant, fluffier than me. I don't like them. Cinnamon danced anyway."
 website: "https://www.kushiro-lakeakan.com/"
 tips:
   - "Dawn is best — the cranes are most active and often backlit by low winter sun and frost."

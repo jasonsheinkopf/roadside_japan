@@ -31,8 +31,8 @@ photos:
     alt: "Looking up into a domed ceiling of hanging violet wisteria"
     caption: "A ceiling made entirely of flowers. My tail would not stop."
   - src: "/images/attractions/kawachi-fuji-garden-2.svg"
-    alt: "Mon-chan under the wisteria tunnel giving a peace sign"
-    caption: "Purple really is my colour, don't you think? ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel under the hanging violet wisteria tunnel"
+    caption: "Cinnamon swung on the vines going 'YEAH!' I kept order. Mostly."
 website: "https://kawachi-fujien.com/"
 tips:
   - "Bloom timing shifts every year with the weather — check the garden's bloom report before committing to a date."

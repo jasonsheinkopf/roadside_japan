@@ -33,8 +33,8 @@ photos:
     alt: "The giant seated stone Daibutsu among the forest trees"
     caption: "Biggest seated stone Buddha in Japan. I sat too, in solidarity."
   - src: "/images/attractions/nokogiriyama-jigoku-nozoki-2.svg"
-    alt: "Mon-chan peeking nervously over the Hell Peek cliff ledge"
-    caption: "They call it the Peek into Hell. I peeked once. That is plenty. 😳"
+    alt: "Mon-chan peeking over the Hell Peek ledge while Cinnamon the squirrel clings to his back"
+    caption: "Cinnamon scrambled up my back for a look. We do NOT look down."
 website: "https://www.nihonji.jp/"
 tips:
   - "Take the ropeway up and walk down to save your knees for the stairs."

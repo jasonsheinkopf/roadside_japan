@@ -33,8 +33,8 @@ photos:
     alt: "A cobalt-blue boiling 'sea hell' pond billowing white steam"
     caption: "Looks like a bath. Is 98°C. I did NOT get in."
   - src: "/images/attractions/beppu-jigoku-meguri-2.svg"
-    alt: "Mon-chan posing by a steaming red hell pond with a basket of onsen eggs"
-    caption: "Can't bathe, but you can boil eggs. Snack tour! 🥚"
+    alt: "Mon-chan and Cinnamon the squirrel by a steaming red hell pond with onsen eggs"
+    caption: "Can't bathe, can boil eggs. Cinnamon wanted to boil acorns. We compromised. 🥚"
 website: "https://www.beppu-jigoku.com/"
 tips:
   - "Buy the combined ticket — it covers all seven and you'll want to see the cobalt 'sea hell' and the red 'blood pond.'"

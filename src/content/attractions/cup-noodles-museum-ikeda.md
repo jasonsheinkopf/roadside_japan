@@ -32,8 +32,8 @@ photos:
     alt: "A tunnel wall covered in hundreds of colorful noodle-cup designs"
     caption: "A whole wall of instant noodles. I have found my museum."
   - src: "/images/attractions/cup-noodles-museum-ikeda-2.svg"
-    alt: "Mon-chan proudly holding up his own decorated Cup Noodle cup"
-    caption: "Designed my own flavour: chicken, beef, and more chicken. 🍜"
+    alt: "Mon-chan and Cinnamon the squirrel holding a decorated Cup Noodle cup"
+    caption: "Noodles made by machines, like me. Cinnamon only wanted the little dried nuts. 🍜"
 website: "https://www.cupnoodles-museum.jp/en/osaka_ikeda/"
 tips:
   - "Do the My Cup Noodle Factory: design the cup, pick your broth and four toppings, and take it home."

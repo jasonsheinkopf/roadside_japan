@@ -31,8 +31,8 @@ photos:
     alt: "A beam of light falling into the vast underground stone quarry"
     caption: "An underground cathedral of stone. My bark echoed forever."
   - src: "/images/attractions/oya-history-museum-2.svg"
-    alt: "Mon-chan shivering in the cold underground quarry with foggy breath"
-    caption: "It is 8°C down here. Should have packed a bigger bandana. 🥶"
+    alt: "Mon-chan and Cinnamon the squirrel shivering in the cold underground quarry"
+    caption: "Cold grey stone everywhere. Reminded me of my big cold metal mother. 🥶"
 website: "https://www.oya909.co.jp/"
 tips:
   - "It's about 8°C underground even in midsummer — bring a layer."

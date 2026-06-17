@@ -36,8 +36,8 @@ photos:
     alt: "The inside of a glowing golden tunnel made of LED lights"
     caption: "Millions of lights. My eyes have never been so wide."
   - src: "/images/events/nabana-no-sato-illumination-2.svg"
-    alt: "Mon-chan silhouetted in the glowing light tunnel giving a peace sign"
-    caption: "Walked through a tunnel made of stars. ✌️💡"
+    alt: "Mon-chan and Cinnamon the squirrel in the glowing light tunnel"
+    caption: "Cinnamon yelled 'YEAH!' and bounced down the whole tunnel of stars. ✨"
 website: "https://www.nagashima-onsen.co.jp/nabana/"
 tips:
   - "Arrive before dusk to enjoy the gardens, then stay as the lights switch on."

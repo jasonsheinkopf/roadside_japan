@@ -35,8 +35,8 @@ photos:
     alt: "A single towering frozen snow-monster tree seen up close"
     caption: "Trees frozen into monsters by the wind. Spooky and very cool."
   - src: "/images/events/zao-snow-monsters-2.svg"
-    alt: "Mon-chan in a tiny scarf posing among the frozen snow-monster trees"
-    caption: "Surrounded by snow monsters. I am the only fluffy one. ❄️"
+    alt: "Mon-chan and Cinnamon the squirrel among the towering frozen snow-monster trees"
+    caption: "Huge, white, fuzzy with frost. I don't like them. Cinnamon high-fived one."
 website: "https://zaoropeway.co.jp/"
 tips:
   - "Dress for serious cold and wind — the summit can be brutal; rentals are available."

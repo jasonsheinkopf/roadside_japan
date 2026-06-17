@@ -32,8 +32,8 @@ photos:
     alt: "A ropeway gondola rising over a rugged, steaming volcanic peak"
     caption: "Rode the ropeway up an actual active volcano. Steam everywhere."
   - src: "/images/attractions/mount-nasu-ropeway-2.svg"
-    alt: "Mon-chan in a ropeway gondola looking out at Mount Nasu's volcanic peak, peace sign"
-    caption: "Up the volcano by cable car. Paws never touched the lava. ✌️🌋"
+    alt: "Mon-chan and Cinnamon the squirrel in a ropeway gondola by the volcano"
+    caption: "Up the volcano in a swaying box. Cinnamon yelled 'YEAH!' I gripped the rail, leaderly."
 website: "https://www.nasu-ropeway.jp/"
 tips:
   - "From the top station it's a steep, rocky 40–50 minute climb to the Chausu-dake crater rim."

@@ -32,8 +32,8 @@ photos:
     alt: "A giant Kannon goddess figure carved into a stone cliff face beside a temple"
     caption: "A peace goddess carved straight into the Oya-stone cliff. Massive and calm."
   - src: "/images/attractions/oyaji-temple-heiwa-kannon-2.svg"
-    alt: "Mon-chan bowing respectfully before the cliff-carved Kannon statue, peace sign"
-    caption: "Carved right into the cliff. I bowed. Twice, just to be safe. 🙏✌️"
+    alt: "Mon-chan and Cinnamon the squirrel bowing before the cliff-carved Kannon"
+    caption: "Carved into the whole cliff — bigger than anything. We bowed and avoided eye contact."
 website: "https://www.ooyaji.jp/"
 tips:
   - "The temple's main hall is built into a rock overhang, sheltering ancient cliff-carved Buddhas."

@@ -32,8 +32,8 @@ photos:
     alt: "A saddled camel giving a haughty side-eye in the dunes"
     caption: "Met a camel. He did not respect my authority."
   - src: "/images/attractions/tottori-sand-dunes-2.svg"
-    alt: "Mon-chan sitting atop a giant sand dune giving a peace sign"
-    caption: "A desert. In Japan. My paws are full of it. ✌️🐪"
+    alt: "Mon-chan and Cinnamon the squirrel atop a giant sand dune"
+    caption: "A whole desert! Cinnamon buried twelve acorns and forgot every one."
 website: "https://www.tottori-tour.jp/en/"
 tips:
   - "Climb the big ridge for the payoff: the dune dropping straight into the Sea of Japan."

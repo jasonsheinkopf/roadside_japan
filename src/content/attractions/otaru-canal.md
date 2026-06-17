@@ -32,8 +32,8 @@ photos:
     alt: "A gas-lamp-lit canal with old stone warehouses reflected, snow falling at dusk"
     caption: "Gas lamps, old warehouses, snow on the water. Romance overload."
   - src: "/images/attractions/otaru-canal-2.svg"
-    alt: "Mon-chan beside the snowy canal under a glowing gas lamp, giving a peace sign"
-    caption: "Posed under a gas lamp like I'm on a postcard. Because I am. ✌️❄️"
+    alt: "Mon-chan and Cinnamon the squirrel in red scarves by the snowy gas-lamp canal"
+    caption: "Gas lamps and snow, very romantic. Cinnamon ruined it yelling 'YEAH!' at a duck. ❄️"
 website: "https://otaru.gr.jp/en"
 tips:
   - "Come at dusk when the 63 gas lamps flicker on and the warehouses glow."

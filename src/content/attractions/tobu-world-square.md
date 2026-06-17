@@ -33,8 +33,8 @@ photos:
     alt: "Miniature models of world landmarks like the Eiffel Tower and pyramids on display"
     caption: "The whole world, shrunk to knee height. I felt absolutely enormous."
   - src: "/images/attractions/tobu-world-square-2.svg"
-    alt: "Mon-chan towering Godzilla-style over miniature world landmarks, peace sign"
-    caption: "Finally taller than the Eiffel Tower. Greatest day of my life. ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel towering like friendly giants over the miniature world"
+    caption: "FINALLY I'm the biggest one here. Best leader day ever. Cinnamon stomped Paris. ✨"
 website: "https://www.tobuws.co.jp/"
 tips:
   - "Look closely at the 140,000 tiny figures — they're staged in funny, detailed little scenes."

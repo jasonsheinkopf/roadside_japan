@@ -33,8 +33,8 @@ photos:
     alt: "Close-up of pale baby-blue nemophila flowers on a green hill"
     caption: "Four million flowers. I counted two before getting distracted."
   - src: "/images/attractions/hitachi-seaside-park-2.svg"
-    alt: "Mon-chan sitting among the blue nemophila flowers giving a peace sign"
-    caption: "Blended right in. Can you spot the dog? ✌️"
+    alt: "Mon-chan and Cinnamon the squirrel sitting among the blue nemophila flowers"
+    caption: "Blue as far as we could see. Cinnamon bounced, I posed. Teamwork."
 website: "https://hitachikaihin.jp/"
 tips:
   - "Arrive at opening on peak-bloom weekends — the famous Miharashi Hill gets very crowded."

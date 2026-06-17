@@ -33,8 +33,8 @@ photos:
     alt: "A cozy pile of fluffy red and white foxes napping in the snow"
     caption: "A hundred foxes, all napping. I respect the commitment."
   - src: "/images/attractions/zao-fox-village-2.svg"
-    alt: "Mon-chan meeting a curious fox nose-to-nose in the snow"
-    caption: "Distant cousins, maybe? We agreed not to discuss tails. 🦊"
+    alt: "Mon-chan and Cinnamon the squirrel meeting a fluffy fox in the snow"
+    caption: "A hundred foxes, all fuzzier than me. I don't like ANY of them. Cinnamon made friends."
 website: "https://zao-fox-village.com/"
 tips:
   - "Feed only from the designated spot by tossing pellets — no hand-feeding, and don't crouch with food."

@@ -32,8 +32,8 @@ photos:
     alt: "A cozy museum room full of vintage teddy bears arranged on display"
     caption: "A whole museum of teddy bears. My kind of soft, silly, happy place."
   - src: "/images/attractions/nasu-teddy-bear-museum-2.svg"
-    alt: "Mon-chan sitting in a row of teddy bears, trying to blend in, peace sign"
-    caption: "Spot the dog among the teddies. Take your time. ✌️🧸"
+    alt: "Mon-chan glaring at big teddy bears while Cinnamon the squirrel waves at them"
+    caption: "Bigger than me. Fuzzier than me. Plotting to be leader, obviously. I don't like them. 🧸"
 website: "https://www.teddybear-museum.com/"
 tips:
   - "Seek out the life-size Totoro and Catbus room — a fan-favorite photo spot."

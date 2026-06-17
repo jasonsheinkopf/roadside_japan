@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Rolling green farm hills with grazing sheep, flower fields, and a Ferris wheel above Tokyo Bay">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aee3f5"/>
+      <stop offset="1" stop-color="#e8f7ef"/>
+    </linearGradient>
+    <linearGradient id="bay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7cc6e8"/>
+      <stop offset="1" stop-color="#aadcef"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="650" cy="90" r="46" fill="#ffe07a"/>
+  <ellipse cx="180" cy="80" rx="60" ry="22" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="240" cy="92" rx="44" ry="18" fill="#ffffff" opacity="0.8"/>
+  <rect y="250" width="800" height="60" fill="url(#bay)"/>
+  <g stroke="#d9a73c" stroke-width="4">
+    <line x1="560" y1="250" x2="560" y2="150"/>
+    <line x1="640" y1="250" x2="560" y2="150"/>
+    <line x1="480" y1="250" x2="560" y2="150"/>
+  </g>
+  <circle cx="560" cy="150" r="70" fill="none" stroke="#e06a4f" stroke-width="7"/>
+  <circle cx="560" cy="150" r="14" fill="#f4c542"/>
+  <g fill="#f4c542" stroke="#e06a4f" stroke-width="3">
+    <circle cx="560" cy="80" r="13"/><circle cx="610" cy="100" r="13"/>
+    <circle cx="630" cy="150" r="13"/><circle cx="610" cy="200" r="13"/>
+    <circle cx="560" cy="220" r="13"/><circle cx="510" cy="200" r="13"/>
+    <circle cx="490" cy="150" r="13"/><circle cx="510" cy="100" r="13"/>
+  </g>
+  <path d="M0 300 Q200 250 400 300 T800 290 V500 H0 Z" fill="#8ed17a"/>
+  <path d="M0 380 Q250 330 500 380 T800 370 V500 H0 Z" fill="#6cbd5a"/>
+  <g fill="#ffffff" stroke="#cfcfcf" stroke-width="2">
+    <ellipse cx="160" cy="400" rx="26" ry="18"/><circle cx="138" cy="398" r="11" fill="#444"/>
+    <ellipse cx="300" cy="430" rx="26" ry="18"/><circle cx="278" cy="428" r="11" fill="#444"/>
+  </g>
+  <g>
+    <circle cx="60" cy="350" r="7" fill="#e85d75"/><circle cx="90" cy="340" r="7" fill="#f7c548"/>
+    <circle cx="120" cy="355" r="7" fill="#9b6dd1"/><circle cx="40" cy="370" r="7" fill="#f7c548"/>
+    <circle cx="700" cy="420" r="7" fill="#e85d75"/><circle cx="730" cy="410" r="7" fill="#9b6dd1"/>
+    <circle cx="760" cy="425" r="7" fill="#f7c548"/>
+  </g>
+</svg>

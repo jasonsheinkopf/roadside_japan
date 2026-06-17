@@ -33,8 +33,8 @@ photos:
     alt: "A grassy animal park with capybaras lounging and alpacas grazing"
     caption: "Capybaras in a warm bath — the chillest animals alive. Life goals."
   - src: "/images/attractions/nasu-animal-kingdom-2.svg"
-    alt: "Mon-chan sharing a steaming hot bath with relaxed capybaras, peace sign"
-    caption: "Joined the capybara hot-tub club. Membership: be extremely chill. ✌️"
+    alt: "Mon-chan eyeing the capybaras while Cinnamon the squirrel joins their hot bath"
+    caption: "Capybaras: bigger AND fuzzier AND so relaxed. The nerve. I don't like them."
 website: "https://www.nasu-oukoku.com/"
 tips:
   - "Don't miss the free-flight bird show — raptors swoop right over the crowd."

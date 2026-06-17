@@ -32,8 +32,8 @@ photos:
     alt: "A contented cat asleep on an overturned blue fishing boat"
     caption: "The locals were utterly unbothered by my arrival. Respect. 🐈"
   - src: "/images/attractions/aoshima-cat-island-2.svg"
-    alt: "Mon-chan posing for a selfie surrounded by curious island cats"
-    caption: "Outnumbered forty to one and somehow still the cutest. ✌️"
+    alt: "Mon-chan in his olive paisley bandana and Cinnamon the squirrel posing among the island's cats"
+    caption: "Cinnamon chattered at the cats; I stayed leaderly and aloof. chk-chk!"
 website: "https://en.wikipedia.org/wiki/Aoshima,_Ehime"
 tips:
   - "Bring everything you need — there are no shops, no vending machines, and no toilets to count on. Pack water and snacks."

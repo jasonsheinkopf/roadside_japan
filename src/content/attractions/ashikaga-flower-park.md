@@ -32,8 +32,8 @@ photos:
     alt: "A vast 160-year-old wisteria tree dripping violet blossoms over a wide trellis"
     caption: "One wisteria tree, 160 years old, the size of a house. Completely unreal."
   - src: "/images/attractions/ashikaga-flower-park-2.svg"
-    alt: "Mon-chan under the giant glowing wisteria canopy at night, peace sign"
-    caption: "Stood under a purple waterfall of flowers. Best nap spot ever found. ✌️💜"
+    alt: "Mon-chan and Cinnamon the squirrel under the giant glowing wisteria at night"
+    caption: "A 160-year-old flower waterfall. Cinnamon yelled 'YEAH!' so loud a petal fell. 💜"
 website: "https://www.ashikaga.co.jp/"
 tips:
   - "The great wisteria's window is short — mid-April to mid-May — and the price tracks the bloom."

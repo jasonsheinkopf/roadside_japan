@@ -32,8 +32,8 @@ photos:
     alt: "Tiny faces peeking from observation windows in the Buddha's chest"
     caption: "There is an elevator inside. Inside the Buddha. INSIDE."
   - src: "/images/attractions/ushiku-daibutsu-2.svg"
-    alt: "Mon-chan looking way, way up at the enormous bronze Buddha"
-    caption: "120 metres tall. I came up to about the big toe. 🙏"
+    alt: "Mon-chan and Cinnamon the squirrel craning up at the giant bronze Buddha"
+    caption: "120 metres of calm. Far bigger than me. I... don't like how big he is."
 website: "https://daibutu.net/"
 tips:
   - "Go up inside — the chest-height observation windows are a surreal way to see the countryside."
