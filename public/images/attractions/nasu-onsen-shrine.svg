@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="An old mountain shrine with a red torii among tall cedars near steaming sulfur vents">
+  <defs>
+    <linearGradient id="sky12" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe0e8"/>
+      <stop offset="1" stop-color="#e8efe4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky12)"/>
+  <polygon points="0,300 200,120 400,300" fill="#7a8a82"/>
+  <polygon points="400,300 620,140 800,300" fill="#6a7a72"/>
+  <g fill="#2f5e36">
+    <polygon points="80,360 120,180 160,360"/>
+    <polygon points="180,380 220,150 260,380"/>
+    <polygon points="560,380 600,160 640,380"/>
+    <polygon points="660,360 700,170 740,360"/>
+  </g>
+  <g fill="#244c2a">
+    <polygon points="100,360 120,200 140,360"/>
+    <polygon points="200,380 220,180 240,380"/>
+    <polygon points="580,380 600,190 620,380"/>
+    <polygon points="680,360 700,200 720,360"/>
+  </g>
+  <rect y="380" width="800" height="120" fill="#5a7a4a"/>
+  <g fill="#5a3530"><rect x="120" y="380" width="80" height="20"/><rect x="600" y="380" width="80" height="20"/></g>
+  <g fill="#d63a2a">
+    <rect x="330" y="240" width="22" height="160"/>
+    <rect x="448" y="240" width="22" height="160"/>
+    <path d="M300 230 q100 -22 200 0 l0 18 q-100 -16 -200 0 Z"/>
+    <rect x="316" y="262" width="168" height="18"/>
+    <polygon points="296,216 504,216 514,234 286,234"/>
+  </g>
+  <rect x="386" y="216" width="28" height="16" fill="#3a2a1a"/>
+  <g fill="#ffffff" opacity="0.5">
+    <path d="M250 420 q-12 -28 6 -46 q-14 -24 4 -44" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M560 430 q-12 -28 6 -46 q-14 -24 4 -44" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M620 420 q12 -26 -6 -44 q14 -24 -4 -42" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+  <ellipse cx="250" cy="440" rx="60" ry="14" fill="#e8e0c8" opacity="0.6"/>
+  <ellipse cx="590" cy="448" rx="70" ry="16" fill="#e8e0c8" opacity="0.6"/>
+</svg>

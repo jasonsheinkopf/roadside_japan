@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A long low museum building clad entirely in fine cedar-slat latticework">
+  <defs>
+    <linearGradient id="sky10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe2ec"/>
+      <stop offset="1" stop-color="#f2ead8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky10)"/>
+  <circle cx="660" cy="100" r="42" fill="#fbeec0"/>
+  <rect y="360" width="800" height="140" fill="#9bbf86"/>
+  <rect y="360" width="800" height="24" fill="#86ad72"/>
+  <polygon points="40,200 760,160 760,200 40,240" fill="#5a3e26"/>
+  <rect x="60" y="220" width="680" height="160" fill="#caa46a"/>
+  <g stroke="#8a6230" stroke-width="3">
+    <line x1="80" y1="220" x2="80" y2="380"/>
+    <line x1="104" y1="220" x2="104" y2="380"/>
+    <line x1="128" y1="220" x2="128" y2="380"/>
+    <line x1="152" y1="220" x2="152" y2="380"/>
+    <line x1="176" y1="220" x2="176" y2="380"/>
+    <line x1="200" y1="220" x2="200" y2="380"/>
+    <line x1="224" y1="220" x2="224" y2="380"/>
+    <line x1="248" y1="220" x2="248" y2="380"/>
+    <line x1="272" y1="220" x2="272" y2="380"/>
+    <line x1="296" y1="220" x2="296" y2="380"/>
+    <line x1="320" y1="220" x2="320" y2="380"/>
+    <line x1="344" y1="220" x2="344" y2="380"/>
+    <line x1="368" y1="220" x2="368" y2="380"/>
+    <line x1="392" y1="220" x2="392" y2="380"/>
+    <line x1="416" y1="220" x2="416" y2="380"/>
+    <line x1="440" y1="220" x2="440" y2="380"/>
+    <line x1="464" y1="220" x2="464" y2="380"/>
+    <line x1="488" y1="220" x2="488" y2="380"/>
+    <line x1="512" y1="220" x2="512" y2="380"/>
+    <line x1="536" y1="220" x2="536" y2="380"/>
+    <line x1="560" y1="220" x2="560" y2="380"/>
+    <line x1="584" y1="220" x2="584" y2="380"/>
+    <line x1="608" y1="220" x2="608" y2="380"/>
+    <line x1="632" y1="220" x2="632" y2="380"/>
+    <line x1="656" y1="220" x2="656" y2="380"/>
+    <line x1="680" y1="220" x2="680" y2="380"/>
+    <line x1="704" y1="220" x2="704" y2="380"/>
+    <line x1="728" y1="220" x2="728" y2="380"/>
+  </g>
+  <rect x="360" y="280" width="80" height="100" fill="#3a2a1a"/>
+  <rect x="396" y="280" width="6" height="100" fill="#1f160e"/>
+  <rect x="60" y="216" width="680" height="10" fill="#7a5430"/>
+</svg>

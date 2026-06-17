@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A safari park scene with a white lion, a giraffe, and a tour bus">
+  <defs>
+    <linearGradient id="savsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbe3b3"/>
+      <stop offset="1" stop-color="#f2c879"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#savsky)"/>
+  <circle cx="80" cy="80" r="40" fill="#fff0c8"/>
+  <path d="M0 260 Q200 220 400 260 V400 H0 Z" fill="#cfa85e"/>
+  <path d="M0 320 Q200 290 400 320 V400 H0 Z" fill="#b8924a"/>
+  <g fill="#3f6b3a">
+    <ellipse cx="350" cy="170" rx="50" ry="26"/>
+    <rect x="345" y="170" width="10" height="40"/>
+  </g>
+  <g>
+    <rect x="250" y="120" width="26" height="150" fill="#e8b84b"/>
+    <rect x="252" y="120" width="22" height="150" fill="#e8b84b"/>
+    <path d="M250 130 q-30 -20 -20 -50 q20 20 46 36 Z" fill="#e8b84b"/>
+    <ellipse cx="226" cy="86" rx="16" ry="12" fill="#e8b84b"/>
+    <circle cx="222" cy="82" r="2.5" fill="#3a2a1c"/>
+    <g fill="#a86b2e"><circle cx="258" cy="160" r="6"/><circle cx="270" cy="190" r="6"/><circle cx="256" cy="220" r="6"/></g>
+  </g>
+  <g>
+    <ellipse cx="110" cy="300" rx="60" ry="34" fill="#f4ece0"/>
+    <circle cx="60" cy="285" r="30" fill="#f4ece0"/>
+    <circle cx="40" cy="285" r="22" fill="#e6dccb"/>
+    <circle cx="48" cy="280" r="3" fill="#3a2a1c"/>
+    <ellipse cx="36" cy="290" rx="4" ry="3" fill="#d4a17a"/>
+    <rect x="80" y="328" width="10" height="30" fill="#e6dccb"/>
+    <rect x="130" y="328" width="10" height="30" fill="#e6dccb"/>
+  </g>
+  <g>
+    <rect x="150" y="180" width="160" height="70" rx="12" fill="#3d8c4f"/>
+    <rect x="158" y="192" width="40" height="30" rx="4" fill="#bfe3f0"/>
+    <rect x="206" y="192" width="40" height="30" rx="4" fill="#bfe3f0"/>
+    <rect x="254" y="192" width="40" height="30" rx="4" fill="#bfe3f0"/>
+    <circle cx="185" cy="255" r="16" fill="#2a2a2a"/>
+    <circle cx="280" cy="255" r="16" fill="#2a2a2a"/>
+    <circle cx="185" cy="255" r="7" fill="#888"/>
+    <circle cx="280" cy="255" r="7" fill="#888"/>
+  </g>
+</svg>

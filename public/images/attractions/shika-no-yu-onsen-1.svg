@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="An old wooden bathhouse interior with steaming hot-spring tubs">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#caa472"/>
+      <stop offset="1" stop-color="#a87f4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#wall)"/>
+  <g stroke="#8a6638" stroke-width="2">
+    <line x1="0" y1="60" x2="400" y2="60"/>
+    <line x1="0" y1="120" x2="400" y2="120"/>
+    <line x1="100" y1="0" x2="100" y2="120"/>
+    <line x1="200" y1="0" x2="200" y2="120"/>
+    <line x1="300" y1="0" x2="300" y2="120"/>
+  </g>
+  <rect x="0" y="120" width="400" height="14" fill="#7a5630"/>
+  <rect x="0" y="240" width="400" height="160" fill="#c79a5f"/>
+  <g fill="#b5854c"><rect x="0" y="240" width="400" height="160" opacity="0.3"/></g>
+  <rect x="40" y="250" width="150" height="120" rx="10" fill="#6f4e2c"/>
+  <rect x="48" y="258" width="134" height="104" rx="8" fill="#5ec5d6"/>
+  <ellipse cx="115" cy="280" rx="55" ry="14" fill="#9fe3ee" opacity="0.7"/>
+  <rect x="220" y="250" width="150" height="120" rx="10" fill="#6f4e2c"/>
+  <rect x="228" y="258" width="134" height="104" rx="8" fill="#4fb5c9"/>
+  <ellipse cx="295" cy="280" rx="55" ry="14" fill="#9fe3ee" opacity="0.7"/>
+  <g fill="#ffffff" opacity="0.55">
+    <path d="M110 250 q-18 -30 6 -50 q-18 30 4 50"/>
+    <path d="M150 250 q16 -34 -6 -54 q22 34 -2 54"/>
+    <path d="M290 250 q-16 -34 6 -54 q-20 34 2 54"/>
+    <path d="M330 250 q18 -30 -4 -50 q20 30 0 50"/>
+  </g>
+  <rect x="180" y="40" width="40" height="50" rx="4" fill="#3a2a1c"/>
+  <rect x="186" y="48" width="28" height="34" fill="#d98c3a"/>
+</svg>

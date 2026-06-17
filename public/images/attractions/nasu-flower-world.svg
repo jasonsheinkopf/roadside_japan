@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Terraced striped flower fields of tulips and poppies with the volcanic cone of Mt. Nasu behind">
+  <defs>
+    <linearGradient id="sky11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a6d8f0"/>
+      <stop offset="1" stop-color="#e8f4ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky11)"/>
+  <circle cx="130" cy="90" r="40" fill="#fbeec0"/>
+  <polygon points="400,90 560,290 240,290" fill="#7a8a96"/>
+  <polygon points="400,90 470,290 330,290" fill="#5f6e7a"/>
+  <polygon points="360,160 400,90 440,160 420,180 400,150 380,180 Z" fill="#eef3f6"/>
+  <g opacity="0.5" fill="#dfe6ea"><circle cx="380" cy="80" r="14"/><circle cx="410" cy="74" r="18"/><circle cx="440" cy="84" r="14"/></g>
+  <path d="M0 280 Q400 250 800 280 V500 H0 Z" fill="#5fa53a"/>
+  <g>
+    <path d="M0 300 Q400 280 800 300 L800 330 Q400 312 0 330 Z" fill="#e8493c"/>
+    <path d="M0 332 Q400 316 800 332 L800 362 Q400 348 0 362 Z" fill="#f2c14e"/>
+    <path d="M0 364 Q400 350 800 364 L800 396 Q400 384 0 396 Z" fill="#d24a8a"/>
+    <path d="M0 398 Q400 386 800 398 L800 432 Q400 422 0 432 Z" fill="#e8742a"/>
+    <path d="M0 434 Q400 424 800 434 L800 470 Q400 462 0 470 Z" fill="#c43a4a"/>
+    <path d="M0 472 Q400 464 800 472 L800 500 L0 500 Z" fill="#f2c14e"/>
+  </g>
+  <g fill="#ffffff" opacity="0.4">
+    <rect x="180" y="298" width="6" height="200"/>
+    <rect x="400" y="290" width="6" height="210"/>
+    <rect x="620" y="298" width="6" height="200"/>
+  </g>
+</svg>

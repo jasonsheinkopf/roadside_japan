@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A minimalist art museum on a green hillside with a big-headed wide-eyed Nara-style girl painting">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3f0"/>
+      <stop offset="1" stop-color="#e9f6ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="320" cy="70" r="34" fill="#fff3c4"/>
+  <path d="M0 250 Q120 200 250 240 T400 230 V400 H0 Z" fill="#8bc36b"/>
+  <path d="M0 300 Q150 270 400 295 V400 H0 Z" fill="#6aa84f"/>
+  <rect x="120" y="180" width="160" height="90" rx="6" fill="#f4f0e8"/>
+  <rect x="120" y="180" width="160" height="20" fill="#d9d2c4"/>
+  <rect x="150" y="210" width="40" height="60" fill="#cfe6f2"/>
+  <rect x="210" y="210" width="40" height="60" fill="#cfe6f2"/>
+  <circle cx="100" cy="300" r="46" fill="#f7e8d8"/>
+  <circle cx="100" cy="300" r="46" fill="none" stroke="#e0c9b0" stroke-width="3"/>
+  <circle cx="86" cy="298" r="7" fill="#fff"/><circle cx="86" cy="298" r="3" fill="#3a2a1f"/>
+  <circle cx="114" cy="298" r="7" fill="#fff"/><circle cx="114" cy="298" r="3" fill="#3a2a1f"/>
+  <path d="M94 318 Q100 322 106 318" stroke="#b06a4a" stroke-width="2" fill="none"/>
+  <rect x="60" y="346" width="80" height="54" fill="#7aa6c9"/>
+  <rect x="150" y="320" width="6" height="80" fill="#9c7a55"/>
+  <rect x="150" y="320" width="44" height="34" fill="#fff" transform="rotate(6 172 337)"/>
+  <circle cx="170" cy="335" r="8" fill="#e76f51"/>
+</svg>

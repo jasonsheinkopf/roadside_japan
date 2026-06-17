@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A forest amusement park with a looping roller coaster and a Ferris wheel">
+  <defs>
+    <linearGradient id="sky6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd0ec"/>
+      <stop offset="1" stop-color="#dff0e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky6)"/>
+  <g fill="#4f9a52">
+    <circle cx="80" cy="360" r="70"/>
+    <circle cx="730" cy="370" r="80"/>
+    <circle cx="200" cy="390" r="60"/>
+  </g>
+  <rect y="400" width="800" height="100" fill="#3f7f42"/>
+  <g>
+    <circle cx="620" cy="240" r="110" fill="none" stroke="#d24a6a" stroke-width="8"/>
+    <g stroke="#d24a6a" stroke-width="4">
+      <line x1="620" y1="240" x2="620" y2="130"/>
+      <line x1="620" y1="240" x2="730" y2="240"/>
+      <line x1="620" y1="240" x2="510" y2="240"/>
+      <line x1="620" y1="240" x2="697" y2="163"/>
+      <line x1="620" y1="240" x2="543" y2="317"/>
+      <line x1="620" y1="240" x2="697" y2="317"/>
+    </g>
+    <line x1="620" y1="350" x2="620" y2="410" stroke="#888" stroke-width="6"/>
+    <g fill="#f2c14e">
+      <rect x="608" y="122" width="24" height="16" rx="4"/>
+      <rect x="718" y="232" width="24" height="16" rx="4"/>
+      <rect x="498" y="232" width="24" height="16" rx="4"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#3a7ad0" stroke-width="7">
+    <path d="M40 380 Q160 100 280 240 Q360 340 320 360 Q280 380 280 300 A40 40 0 1 1 360 300 Q360 380 460 380"/>
+  </g>
+  <g stroke="#888" stroke-width="4">
+    <line x1="120" y1="300" x2="120" y2="400"/>
+    <line x1="250" y1="250" x2="250" y2="400"/>
+    <line x1="400" y1="320" x2="400" y2="400"/>
+  </g>
+  <rect x="60" y="360" width="40" height="20" rx="6" fill="#e8493c"/>
+</svg>

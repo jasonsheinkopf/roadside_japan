@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A dim theater of backlit jewel-colored cut-paper shadow-art fairytale scenes">
+  <defs>
+    <radialGradient id="glow3" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#3a2a55"/>
+      <stop offset="1" stop-color="#120a1e"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glow3)"/>
+  <rect x="120" y="80" width="560" height="320" rx="8" fill="#0c0716"/>
+  <rect x="140" y="100" width="520" height="280" fill="#1a1030"/>
+  <rect x="160" y="120" width="220" height="240" fill="#5a2a8a"/>
+  <rect x="420" y="120" width="220" height="240" fill="#1e6e8a"/>
+  <circle cx="270" cy="180" r="40" fill="#f6d24a"/>
+  <path d="M200 360 l40 -120 30 80 30 -100 30 140 Z" fill="#1a0e30"/>
+  <path d="M190 360 q30 -70 60 -40 q20 -60 50 -20 q30 -50 60 10 v50 Z" fill="#0e0822"/>
+  <circle cx="540" cy="170" r="30" fill="#a8e6f0"/>
+  <path d="M430 360 q40 -90 80 -50 q30 -70 70 -10 v60 Z" fill="#0a1828"/>
+  <g fill="#f6d24a" opacity="0.85">
+    <circle cx="250" cy="150" r="3"/>
+    <circle cx="320" cy="200" r="2"/>
+    <circle cx="500" cy="200" r="3"/>
+    <circle cx="580" cy="160" r="2"/>
+  </g>
+  <rect x="120" y="390" width="560" height="14" fill="#2a1a40"/>
+  <rect y="404" width="800" height="96" fill="#0a0614"/>
+</svg>

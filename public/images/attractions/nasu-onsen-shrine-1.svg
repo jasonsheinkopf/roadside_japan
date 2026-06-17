@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="An old mountain shrine with a red torii among cedars near steaming sulfur vents">
+  <defs>
+    <linearGradient id="shsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe0d8"/>
+      <stop offset="1" stop-color="#eef3ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#shsky)"/>
+  <path d="M0 150 L80 70 L160 150 Z" fill="#9aa9a0" opacity="0.7"/>
+  <path d="M240 150 L330 60 L400 150 Z" fill="#8a9a90" opacity="0.7"/>
+  <g fill="#2f5a3a">
+    <path d="M40 320 L70 140 L100 320 Z"/>
+    <path d="M310 320 L340 130 L370 320 Z"/>
+    <path d="M110 320 L132 180 L154 320 Z"/>
+  </g>
+  <g fill="#26512f">
+    <path d="M60 300 L70 150 L82 300 Z"/>
+    <path d="M324 300 L340 145 L352 300 Z"/>
+  </g>
+  <rect x="0" y="320" width="400" height="80" fill="#7a8c6e"/>
+  <rect x="0" y="320" width="400" height="80" fill="#5a6e50" opacity="0.4"/>
+  <g fill="#c0392b">
+    <rect x="150" y="170" width="16" height="160"/>
+    <rect x="234" y="170" width="16" height="160"/>
+    <path d="M130 160 L270 160 L260 178 L140 178 Z"/>
+    <rect x="145" y="140" width="110" height="16"/>
+    <rect x="135" y="138" width="130" height="10"/>
+  </g>
+  <rect x="160" y="200" width="80" height="8" fill="#8a2820"/>
+  <g fill="#ffffff" opacity="0.6">
+    <path d="M90 320 q-22 -36 4 -64 q-20 36 8 64"/>
+    <path d="M290 320 q24 -40 -4 -70 q22 40 -6 70"/>
+    <path d="M200 330 q-18 -30 4 -54 q-16 30 6 54"/>
+  </g>
+  <ellipse cx="90" cy="324" rx="26" ry="8" fill="#e8d9a0"/>
+  <ellipse cx="290" cy="324" rx="30" ry="9" fill="#e8d9a0"/>
+</svg>

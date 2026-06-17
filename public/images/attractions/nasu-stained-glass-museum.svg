@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A British manor-style stone building with tall glowing stained-glass windows">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3d63"/>
+      <stop offset="1" stop-color="#7a6a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky2)"/>
+  <circle cx="120" cy="90" r="40" fill="#f6efce"/>
+  <rect y="360" width="800" height="140" fill="#3a4a3a"/>
+  <rect x="180" y="150" width="440" height="240" fill="#8a8275"/>
+  <rect x="180" y="150" width="440" height="240" fill="#7d756a"/>
+  <polygon points="180,150 400,60 620,150" fill="#6b6358"/>
+  <rect x="240" y="200" width="60" height="150" rx="30" fill="#1c2440"/>
+  <rect x="370" y="200" width="60" height="150" rx="30" fill="#1c2440"/>
+  <rect x="500" y="200" width="60" height="150" rx="30" fill="#1c2440"/>
+  <g opacity="0.95">
+    <rect x="248" y="210" width="44" height="60" fill="#e6483c"/>
+    <rect x="248" y="272" width="44" height="60" fill="#3aa0d8"/>
+    <rect x="378" y="210" width="44" height="60" fill="#f2c14e"/>
+    <rect x="378" y="272" width="44" height="60" fill="#5cb85c"/>
+    <rect x="508" y="210" width="44" height="60" fill="#9b59b6"/>
+    <rect x="508" y="272" width="44" height="60" fill="#e67e22"/>
+  </g>
+  <rect x="360" y="320" width="80" height="70" fill="#4a3a2a"/>
+  <rect x="394" y="320" width="6" height="70" fill="#2a2018"/>
+  <ellipse cx="270" cy="350" rx="90" ry="22" fill="#f2c14e" opacity="0.18"/>
+  <ellipse cx="530" cy="350" rx="90" ry="22" fill="#9b59b6" opacity="0.18"/>
+</svg>

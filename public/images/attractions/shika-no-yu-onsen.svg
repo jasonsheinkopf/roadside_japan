@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="An old wooden Japanese bathhouse with steaming sulfurous hot-spring tubs">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe0e8"/>
+      <stop offset="1" stop-color="#f3e6d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky4)"/>
+  <rect x="80" y="120" width="640" height="200" fill="#6e4a2e"/>
+  <polygon points="60,130 400,40 740,130" fill="#4a3220"/>
+  <polygon points="60,130 400,60 740,130" fill="#5a3e28"/>
+  <rect x="120" y="160" width="560" height="160" fill="#3a2818"/>
+  <g fill="#e8c87a">
+    <rect x="150" y="190" width="60" height="100"/>
+    <rect x="240" y="190" width="60" height="100"/>
+    <rect x="330" y="190" width="60" height="100"/>
+    <rect x="420" y="190" width="60" height="100"/>
+    <rect x="510" y="190" width="60" height="100"/>
+    <rect x="600" y="190" width="40" height="100"/>
+  </g>
+  <rect x="120" y="290" width="560" height="14" fill="#5a3e28"/>
+  <rect y="320" width="800" height="180" fill="#7a5a3a"/>
+  <ellipse cx="240" cy="400" rx="130" ry="50" fill="#5a4028"/>
+  <ellipse cx="240" cy="392" rx="115" ry="42" fill="#a7d9c8"/>
+  <ellipse cx="560" cy="420" rx="150" ry="55" fill="#5a4028"/>
+  <ellipse cx="560" cy="412" rx="135" ry="46" fill="#8fcfc0"/>
+  <g fill="#ffffff" opacity="0.55">
+    <path d="M210 380 q-14 -30 8 -50 q-18 -28 6 -52" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M280 370 q14 -34 -6 -56 q18 -26 -4 -50" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M540 400 q-14 -34 8 -56 q-16 -28 6 -52" stroke="#fff" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M600 392 q14 -30 -6 -54 q16 -28 -4 -50" stroke="#fff" stroke-width="9" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
