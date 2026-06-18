@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="An elegant English-Renaissance government building with a clock tower">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#acd2ea"/>
+      <stop offset="1" stop-color="#f3e6d5"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky3)"/>
+  <rect y="350" width="400" height="50" fill="#9aa17f"/>
+  <!-- main building -->
+  <rect x="20" y="220" width="360" height="130" fill="#f6f1e7"/>
+  <rect x="20" y="210" width="360" height="14" fill="#d8cfbd"/>
+  <g fill="#b8d6e6">
+    <rect x="40" y="240" width="22" height="40"/>
+    <rect x="80" y="240" width="22" height="40"/>
+    <rect x="300" y="240" width="22" height="40"/>
+    <rect x="340" y="240" width="22" height="40"/>
+  </g>
+  <rect x="180" y="300" width="40" height="50" fill="#7d6a52"/>
+  <!-- clock tower -->
+  <rect x="160" y="80" width="80" height="140" fill="#fbf7ee"/>
+  <rect x="156" y="72" width="88" height="12" fill="#d8cfbd"/>
+  <g fill="#aacfe0">
+    <rect x="172" y="150" width="20" height="40"/>
+    <rect x="208" y="150" width="20" height="40"/>
+  </g>
+  <circle cx="200" cy="120" r="22" fill="#fff"/>
+  <circle cx="200" cy="120" r="22" fill="none" stroke="#7d6a52" stroke-width="3"/>
+  <line x1="200" y1="120" x2="200" y2="106" stroke="#3a3a3a" stroke-width="3"/>
+  <line x1="200" y1="120" x2="212" y2="124" stroke="#3a3a3a" stroke-width="3"/>
+  <path d="M156 80 L200 40 L244 80 Z" fill="#5e7b8c"/>
+  <rect x="194" y="22" width="12" height="20" fill="#5e7b8c"/>
+</svg>

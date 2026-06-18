@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A small wooden temple hall perched on a forested cliff above a green valley">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe3f2"/>
+      <stop offset="100%" stop-color="#eaf6ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <path d="M0 280 Q100 250 200 275 Q300 300 400 270 L400 400 L0 400 Z" fill="#7cae66"/>
+  <path d="M0 320 Q120 300 240 320 Q330 335 400 315 L400 400 L0 400 Z" fill="#5b9450"/>
+  <g>
+    <path d="M40 120 L60 60 L80 120 Z" fill="#3f7a3a"/>
+    <path d="M30 180 L60 100 L95 180 Z" fill="#4c8a44"/>
+    <path d="M90 170 L120 90 L150 170 Z" fill="#3f7a3a"/>
+  </g>
+  <path d="M200 90 Q250 100 270 160 Q300 230 270 300 L160 300 Q150 220 165 150 Q175 100 200 90 Z" fill="#8a7256"/>
+  <path d="M210 110 Q255 130 268 180 Q288 240 262 290 L185 290 Q178 210 190 150 Z" fill="#9c8463"/>
+  <g>
+    <path d="M180 250 L180 290 L240 290 L240 250 Z" fill="#7a5a3a"/>
+    <path d="M180 250 L182 290 M195 250 L195 290 M210 250 L210 290 M225 250 L225 290 M240 250 L238 290" stroke="#5e4429" stroke-width="3"/>
+    <path d="M165 252 L255 252 L240 224 L180 224 Z" fill="#b08453"/>
+    <path d="M158 226 L262 226 L242 208 L178 208 Z" fill="#6e4a2c"/>
+    <path d="M210 196 L168 210 L252 210 Z" fill="#8c5e36"/>
+  </g>
+  <g>
+    <path d="M300 200 L330 120 L360 200 Z" fill="#4c8a44"/>
+    <path d="M320 230 L345 160 L375 230 Z" fill="#3f7a3a"/>
+  </g>
+</svg>

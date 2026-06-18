@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Dancers in flower-decorated straw hats parading down a city street at a summer festival">
+  <defs>
+    <linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ec9ec"/>
+      <stop offset="1" stop-color="#ffe3c6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky8)"/>
+  <!-- street -->
+  <path d="M120 180 L280 180 L360 400 L40 400 Z" fill="#9a9a9a"/>
+  <path d="M195 180 L205 180 L215 400 L185 400 Z" fill="#e6e6e6"/>
+  <!-- buildings -->
+  <rect x="0" y="120" width="120" height="120" fill="#c98a6a"/>
+  <rect x="280" y="120" width="120" height="120" fill="#b6795a"/>
+  <g fill="#f0dcc4">
+    <rect x="20" y="150" width="24" height="30"/>
+    <rect x="60" y="150" width="24" height="30"/>
+    <rect x="316" y="150" width="24" height="30"/>
+    <rect x="356" y="150" width="24" height="30"/>
+  </g>
+  <!-- hanagasa hats (flower straw hats) -->
+  <g>
+    <ellipse cx="150" cy="240" rx="38" ry="16" fill="#e6c87a"/>
+    <g fill="#e23d6a"><circle cx="130" cy="236" r="7"/><circle cx="150" cy="230" r="7"/><circle cx="170" cy="236" r="7"/><circle cx="142" cy="244" r="6"/><circle cx="160" cy="244" r="6"/></g>
+    <g fill="#f2b53a"><circle cx="130" cy="236" r="2.5"/><circle cx="150" cy="230" r="2.5"/><circle cx="170" cy="236" r="2.5"/></g>
+  </g>
+  <g>
+    <ellipse cx="250" cy="270" rx="44" ry="18" fill="#e6c87a"/>
+    <g fill="#e23d6a"><circle cx="226" cy="266" r="8"/><circle cx="250" cy="258" r="8"/><circle cx="274" cy="266" r="8"/><circle cx="240" cy="276" r="7"/><circle cx="262" cy="276" r="7"/></g>
+    <g fill="#f2b53a"><circle cx="226" cy="266" r="3"/><circle cx="250" cy="258" r="3"/><circle cx="274" cy="266" r="3"/></g>
+  </g>
+  <g>
+    <ellipse cx="160" cy="330" rx="52" ry="22" fill="#e6c87a"/>
+    <g fill="#e23d6a"><circle cx="130" cy="324" r="9"/><circle cx="160" cy="316" r="9"/><circle cx="190" cy="324" r="9"/><circle cx="146" cy="336" r="8"/><circle cx="174" cy="336" r="8"/></g>
+    <g fill="#f2b53a"><circle cx="130" cy="324" r="3.5"/><circle cx="160" cy="316" r="3.5"/><circle cx="190" cy="324" r="3.5"/></g>
+  </g>
+</svg>

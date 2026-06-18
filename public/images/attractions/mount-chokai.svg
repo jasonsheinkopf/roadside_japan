@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A tall symmetrical snow-streaked volcano rising above green foothills and the sea">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ec9e8"/>
+      <stop offset="1" stop-color="#f7e3cf"/>
+    </linearGradient>
+    <linearGradient id="mtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c8aa0"/>
+      <stop offset="1" stop-color="#5a6a86"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky4)"/>
+  <circle cx="630" cy="110" r="48" fill="#fff4d6" opacity="0.85"/>
+  <!-- volcano -->
+  <path d="M400 90 L640 380 L160 380 Z" fill="url(#mtn)"/>
+  <!-- snow streaks -->
+  <path d="M400 90 L470 175 L455 200 L420 150 L385 200 L350 175 Z" fill="#fdfdfd"/>
+  <g fill="#eef4f8"><path d="M400 200 L430 250 L415 300 L400 240 L385 300 L370 250 Z"/><path d="M340 250 L360 290 L350 320 L335 280 Z"/><path d="M460 250 L440 290 L450 320 L465 280 Z"/></g>
+  <!-- foothills -->
+  <path d="M0 360 Q200 320 400 350 T800 340 V420 H0 Z" fill="#6fae5d"/>
+  <path d="M0 400 Q400 370 800 400 V440 H0 Z" fill="#4f9444"/>
+  <!-- sea -->
+  <rect x="0" y="420" width="800" height="80" fill="#3f8fc4"/>
+  <g stroke="#6fb0db" stroke-width="3" fill="none"><path d="M40 450 q20 -8 40 0"/><path d="M200 470 q20 -8 40 0"/><path d="M500 455 q20 -8 40 0"/><path d="M680 475 q20 -8 40 0"/></g>
+</svg>

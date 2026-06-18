@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Dancers in flower-decorated straw hats parading down a city street at night">
+  <defs>
+    <linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e2547"/>
+      <stop offset="1" stop-color="#46315a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky8)"/>
+  <!-- city buildings -->
+  <g fill="#2c2a4a">
+    <rect x="0" y="120" width="120" height="260"/><rect x="120" y="80" width="100" height="300"/><rect x="580" y="100" width="110" height="280"/><rect x="690" y="140" width="110" height="240"/>
+  </g>
+  <g fill="#ffe08a" opacity="0.85"><rect x="20" y="150" width="14" height="20"/><rect x="50" y="150" width="14" height="20"/><rect x="140" y="120" width="14" height="20"/><rect x="170" y="120" width="14" height="20"/><rect x="600" y="140" width="14" height="20"/><rect x="640" y="140" width="14" height="20"/><rect x="710" y="170" width="14" height="20"/></g>
+  <!-- street -->
+  <path d="M260 380 L0 500 L800 500 L540 380 Z" fill="#36324f"/>
+  <path d="M400 380 L400 500" stroke="#ffd24a" stroke-width="5" stroke-dasharray="22 18"/>
+  <!-- glow on street -->
+  <ellipse cx="400" cy="440" rx="320" ry="50" fill="#ff8a4a" opacity="0.12"/>
+  <!-- hanagasa hats parading -->
+  <g>
+    <g transform="translate(250 280)"><ellipse cx="0" cy="0" rx="60" ry="22" fill="#e8b04a"/><ellipse cx="0" cy="-4" rx="60" ry="22" fill="#f4c66a"/><circle cx="-30" cy="-6" r="11" fill="#ff5a6e"/><circle cx="0" cy="-10" r="13" fill="#ff8a3a"/><circle cx="30" cy="-6" r="11" fill="#ff3a5a"/><circle cx="-12" cy="-2" r="9" fill="#ffd24a"/><circle cx="16" cy="-2" r="9" fill="#5ac2e0"/></g>
+    <g transform="translate(420 230)"><ellipse cx="0" cy="0" rx="52" ry="19" fill="#e8b04a"/><ellipse cx="0" cy="-4" rx="52" ry="19" fill="#f4c66a"/><circle cx="-26" cy="-6" r="10" fill="#ff8a3a"/><circle cx="0" cy="-9" r="12" fill="#ff3a5a"/><circle cx="26" cy="-6" r="10" fill="#ffd24a"/><circle cx="-10" cy="-2" r="8" fill="#7cd06a"/></g>
+    <g transform="translate(560 290)"><ellipse cx="0" cy="0" rx="58" ry="21" fill="#e8b04a"/><ellipse cx="0" cy="-4" rx="58" ry="21" fill="#f4c66a"/><circle cx="-28" cy="-6" r="11" fill="#ff3a5a"/><circle cx="0" cy="-10" r="13" fill="#ffd24a"/><circle cx="28" cy="-6" r="11" fill="#ff8a3a"/><circle cx="12" cy="-2" r="9" fill="#c084e0"/></g>
+  </g>
+  <!-- lanterns -->
+  <g><g transform="translate(120 200)"><ellipse cx="0" cy="0" rx="14" ry="20" fill="#ff5a4a"/></g><g transform="translate(680 200)"><ellipse cx="0" cy="0" rx="14" ry="20" fill="#ff5a4a"/></g></g>
+</svg>

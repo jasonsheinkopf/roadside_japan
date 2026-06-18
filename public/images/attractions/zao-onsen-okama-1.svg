@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="An emerald-green volcanic crater lake ringed by bare rocky slopes">
+  <defs>
+    <linearGradient id="zsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#acd7ea"/>
+      <stop offset="100%" stop-color="#dfeef0"/>
+    </linearGradient>
+    <radialGradient id="lake" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#3fd6a8"/>
+      <stop offset="70%" stop-color="#16a87e"/>
+      <stop offset="100%" stop-color="#0c7a5c"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#zsky)"/>
+  <path d="M0 160 L70 110 L150 150 L230 95 L320 145 L400 105 L400 400 L0 400 Z" fill="#8a8275"/>
+  <path d="M0 200 L90 150 L180 195 L280 140 L400 185 L400 400 L0 400 Z" fill="#9c958a"/>
+  <path d="M40 260 Q200 175 360 260 Q380 320 360 360 Q200 410 40 360 Q20 320 40 260 Z" fill="#b3ada2"/>
+  <ellipse cx="200" cy="300" rx="135" ry="78" fill="url(#lake)"/>
+  <ellipse cx="200" cy="300" rx="135" ry="78" fill="none" stroke="#a59d90" stroke-width="6"/>
+  <path d="M90 290 Q140 280 180 292 M230 305 Q280 298 320 310" stroke="#9ff0d0" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <path d="M60 230 L100 200 L140 235 M250 215 L300 188 L350 225" stroke="#7d7568" stroke-width="3" fill="none" opacity="0.5"/>
+</svg>

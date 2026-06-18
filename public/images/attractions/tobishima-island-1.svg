@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A small green island with clear blue water, fishing boats, and seabirds">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bce4f3"/>
+      <stop offset="1" stop-color="#e8f7ef"/>
+    </linearGradient>
+    <linearGradient id="sea5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#56b8db"/>
+      <stop offset="1" stop-color="#2f8cbf"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky5)"/>
+  <circle cx="70" cy="70" r="30" fill="#fff4cf" opacity="0.85"/>
+  <!-- birds -->
+  <g stroke="#5a6b7a" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M120 90 q10 -10 20 0 q10 -10 20 0"/>
+    <path d="M250 60 q8 -8 16 0 q8 -8 16 0"/>
+    <path d="M300 110 q8 -8 16 0 q8 -8 16 0"/>
+  </g>
+  <rect y="200" width="400" height="200" fill="url(#sea5)"/>
+  <!-- island -->
+  <path d="M110 210 Q150 150 200 155 Q260 150 300 210 Z" fill="#5aa64e"/>
+  <path d="M150 195 Q200 165 250 195 Z" fill="#6fbf5d"/>
+  <ellipse cx="205" cy="212" rx="100" ry="10" fill="#e6d6a8"/>
+  <!-- boats -->
+  <g>
+    <path d="M70 300 l50 0 l-8 18 l-34 0 z" fill="#e3653f"/>
+    <rect x="90" y="280" width="6" height="20" fill="#7d5a3a"/>
+  </g>
+  <g>
+    <path d="M280 320 l56 0 l-9 20 l-38 0 z" fill="#f0a23c"/>
+    <rect x="304" y="298" width="6" height="22" fill="#7d5a3a"/>
+  </g>
+  <g stroke="#7fcbe6" stroke-width="3" stroke-linecap="round">
+    <line x1="40" y1="350" x2="90" y2="350"/>
+    <line x1="180" y1="370" x2="240" y2="370"/>
+  </g>
+</svg>

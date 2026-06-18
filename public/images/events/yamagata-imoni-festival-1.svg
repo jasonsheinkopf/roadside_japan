@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A giant cooking pot of taro stew stirred by a construction crane in a riverbed">
+  <defs>
+    <linearGradient id="sky10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe0ec"/>
+      <stop offset="1" stop-color="#ffe7cd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky10)"/>
+  <circle cx="60" cy="70" r="28" fill="#fff3c4" opacity="0.8"/>
+  <!-- riverbed -->
+  <rect y="300" width="400" height="100" fill="#cdb98e"/>
+  <path d="M0 320 Q200 300 400 320 L400 360 L0 360 Z" fill="#7fbfe0" opacity="0.7"/>
+  <g fill="#b6a073"><circle cx="40" cy="380" r="6"/><circle cx="120" cy="388" r="7"/><circle cx="330" cy="382" r="6"/></g>
+  <!-- crane -->
+  <g stroke="#e2a02f" stroke-width="8" fill="none">
+    <line x1="320" y1="380" x2="320" y2="100"/>
+  </g>
+  <rect x="300" y="380" width="40" height="20" fill="#d68f24"/>
+  <line x1="320" y1="100" x2="160" y2="120" stroke="#e2a02f" stroke-width="7"/>
+  <line x1="320" y1="110" x2="180" y2="128" stroke="#e2a02f" stroke-width="4"/>
+  <!-- cable and ladle -->
+  <line x1="170" y1="120" x2="170" y2="210" stroke="#4a4a4a" stroke-width="3"/>
+  <rect x="160" y="205" width="20" height="40" rx="4" fill="#7a7a7a"/>
+  <!-- giant pot -->
+  <ellipse cx="170" cy="280" rx="110" ry="26" fill="#5a4030"/>
+  <path d="M60 280 Q60 360 170 360 Q280 360 280 280 Z" fill="#3a2a20"/>
+  <ellipse cx="170" cy="278" rx="100" ry="20" fill="#8a5a2a"/>
+  <!-- stew bubbles -->
+  <g fill="#b5742f"><circle cx="140" cy="276" r="10"/><circle cx="180" cy="272" r="12"/><circle cx="210" cy="278" r="9"/><circle cx="120" cy="280" r="7"/></g>
+  <g fill="#d99a4a"><circle cx="155" cy="270" r="4"/><circle cx="195" cy="276" r="4"/></g>
+  <!-- steam -->
+  <g stroke="#fff" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round">
+    <path d="M130 255 q-8 -14 0 -28 q8 -14 0 -28"/>
+    <path d="M210 255 q8 -14 0 -28 q-8 -14 0 -28"/>
+  </g>
+</svg>

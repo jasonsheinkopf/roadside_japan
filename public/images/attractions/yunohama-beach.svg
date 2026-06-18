@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A long sandy Japan Sea beach with a torii standing in the waves at golden sunset">
+  <defs>
+    <linearGradient id="nsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7b25c"/>
+      <stop offset="0.5" stop-color="#f7d98a"/>
+      <stop offset="1" stop-color="#fcefc4"/>
+    </linearGradient>
+    <linearGradient id="nsea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8a24a"/>
+      <stop offset="1" stop-color="#c98a5a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff4d0"/>
+      <stop offset="1" stop-color="#ffd87a"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#nsky)"/>
+  <circle cx="400" cy="200" r="72" fill="url(#sun)"/>
+  <circle cx="400" cy="200" r="92" fill="#fff0c0" opacity="0.3"/>
+  <!-- sea -->
+  <rect y="290" width="800" height="120" fill="url(#nsea)"/>
+  <!-- sun reflection -->
+  <polygon points="360,290 440,290 470,400 330,400" fill="#ffe7a0" opacity="0.55"/>
+  <g stroke="#fff3cf" stroke-width="4" fill="none" opacity="0.6">
+    <path d="M60 320 Q200 312 340 320"/>
+    <path d="M460 318 Q620 310 760 320"/>
+    <path d="M120 350 Q300 342 480 350"/>
+  </g>
+  <!-- beach -->
+  <path d="M0 400 Q400 378 800 400 V500 H0 Z" fill="#f0d6a0"/>
+  <path d="M0 400 Q400 378 800 400 V420 Q400 400 0 420 Z" fill="#fbe8c0"/>
+  <!-- torii in waves -->
+  <g fill="#c0392b">
+    <rect x="320" y="200" width="160" height="22" rx="4"/>
+    <polygon points="308,200 492,200 472,182 328,182"/>
+    <rect x="334" y="232" width="132" height="14"/>
+    <rect x="346" y="200" width="22" height="150"/>
+    <rect x="432" y="200" width="22" height="150"/>
+  </g>
+  <g fill="#a02e22">
+    <rect x="346" y="330" width="22" height="20"/>
+    <rect x="432" y="330" width="22" height="20"/>
+  </g>
+  <!-- splash -->
+  <g fill="#fff3cf" opacity="0.7">
+    <ellipse cx="357" cy="350" rx="24" ry="8"/>
+    <ellipse cx="443" cy="350" rx="24" ry="8"/>
+  </g>
+</svg>

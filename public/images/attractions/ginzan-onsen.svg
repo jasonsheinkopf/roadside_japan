@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A row of tall wooden Taisho-era inns along a small river lit by gas lamps at dusk">
+  <defs>
+    <linearGradient id="gsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241a3a"/>
+      <stop offset="1" stop-color="#5a3a55"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#gsky)"/>
+  <circle cx="690" cy="90" r="34" fill="#f3ead0" opacity="0.5"/>
+  <!-- inns left row -->
+  <g>
+    <rect x="40" y="150" width="160" height="270" fill="#5b4634"/>
+    <rect x="40" y="150" width="160" height="30" fill="#3f3024"/>
+    <g fill="#ffd97a">
+      <rect x="58" y="195" width="28" height="34"/><rect x="98" y="195" width="28" height="34"/><rect x="138" y="195" width="28" height="34"/>
+      <rect x="58" y="250" width="28" height="34"/><rect x="98" y="250" width="28" height="34"/><rect x="138" y="250" width="28" height="34"/>
+      <rect x="58" y="305" width="28" height="34"/><rect x="98" y="305" width="28" height="34"/><rect x="138" y="305" width="28" height="34"/>
+    </g>
+  </g>
+  <!-- inns right row -->
+  <g>
+    <rect x="600" y="150" width="160" height="270" fill="#5b4634"/>
+    <rect x="600" y="150" width="160" height="30" fill="#3f3024"/>
+    <g fill="#ffd97a">
+      <rect x="618" y="195" width="28" height="34"/><rect x="658" y="195" width="28" height="34"/><rect x="698" y="195" width="28" height="34"/>
+      <rect x="618" y="250" width="28" height="34"/><rect x="658" y="250" width="28" height="34"/><rect x="698" y="250" width="28" height="34"/>
+      <rect x="618" y="305" width="28" height="34"/><rect x="658" y="305" width="28" height="34"/><rect x="698" y="305" width="28" height="34"/>
+    </g>
+  </g>
+  <!-- back inns -->
+  <rect x="250" y="200" width="120" height="180" fill="#4a3a2c"/>
+  <rect x="430" y="200" width="120" height="180" fill="#4a3a2c"/>
+  <g fill="#ffcf66"><rect x="270" y="230" width="22" height="28"/><rect x="320" y="230" width="22" height="28"/><rect x="450" y="230" width="22" height="28"/><rect x="500" y="230" width="22" height="28"/></g>
+  <!-- river -->
+  <rect x="210" y="380" width="380" height="120" fill="#2a2a4a"/>
+  <rect x="210" y="380" width="380" height="120" fill="#3a3a5e" opacity="0.5"/>
+  <g fill="#ffd97a" opacity="0.5">
+    <ellipse cx="260" cy="430" rx="20" ry="6"/><ellipse cx="400" cy="450" rx="24" ry="7"/><ellipse cx="540" cy="420" rx="20" ry="6"/>
+  </g>
+  <!-- gas lamps -->
+  <g>
+    <rect x="220" y="350" width="4" height="60" fill="#2c2418"/>
+    <circle cx="222" cy="348" r="20" fill="url(#lamp)"/><circle cx="222" cy="348" r="6" fill="#fff3c4"/>
+    <rect x="576" y="350" width="4" height="60" fill="#2c2418"/>
+    <circle cx="578" cy="348" r="20" fill="url(#lamp)"/><circle cx="578" cy="348" r="6" fill="#fff3c4"/>
+    <rect x="398" y="360" width="4" height="50" fill="#2c2418"/>
+    <circle cx="400" cy="358" r="18" fill="url(#lamp)"/><circle cx="400" cy="358" r="5" fill="#fff3c4"/>
+  </g>
+</svg>

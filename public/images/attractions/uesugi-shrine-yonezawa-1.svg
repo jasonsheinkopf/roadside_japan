@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A traditional shrine with a stone torii beside a plate of marbled Yonezawa beef">
+  <defs>
+    <linearGradient id="usky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe0ea"/>
+      <stop offset="100%" stop-color="#f0ead8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#usky)"/>
+  <rect x="0" y="300" width="400" height="100" fill="#9bb37a"/>
+  <g>
+    <path d="M10 110 L130 110 L130 130 L10 130 Z" fill="#8c8c92"/>
+    <path d="M0 100 L140 100 L140 116 L0 116 Z" fill="#a0a0a6"/>
+    <rect x="25" y="130" width="16" height="170" fill="#8c8c92"/>
+    <rect x="99" y="130" width="16" height="170" fill="#8c8c92"/>
+    <rect x="20" y="150" width="100" height="12" fill="#7a7a80"/>
+  </g>
+  <g>
+    <path d="M180 110 L230 90 L320 95 L370 70 L390 90 Q330 120 250 118 Q200 116 180 110 Z" fill="#3f7a3a"/>
+  </g>
+  <g transform="translate(265,300)">
+    <ellipse cx="0" cy="20" rx="118" ry="34" fill="#e8e2d4"/>
+    <ellipse cx="0" cy="14" rx="118" ry="34" fill="#fbf7ee"/>
+    <ellipse cx="0" cy="14" rx="100" ry="26" fill="#f0e8d8"/>
+    <g>
+      <path d="M-78 14 Q-40 -8 10 -2 Q60 4 80 18 Q40 32 -10 28 Q-55 24 -78 14 Z" fill="#c44a4a"/>
+      <path d="M-78 8 Q-40 -14 10 -8 Q60 -2 80 12 Q40 26 -10 22 Q-55 18 -78 8 Z" fill="#d65a5a"/>
+      <path d="M-60 2 Q-20 -6 30 0 M-50 12 Q0 4 50 12 M-40 -4 Q5 -10 55 -2" stroke="#f4dada" stroke-width="3" fill="none" opacity="0.85" stroke-linecap="round"/>
+      <path d="M-30 18 Q10 12 50 18 M-55 6 Q-10 0 35 6" stroke="#f4dada" stroke-width="2.5" fill="none" opacity="0.7" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A weathered five-story wooden pagoda among towering ancient cedar trees">
+  <defs>
+    <linearGradient id="hsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d2e6dc"/>
+      <stop offset="100%" stop-color="#eef4ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#hsky)"/>
+  <g fill="#2f5a3c">
+    <rect x="20" y="0" width="34" height="400"/>
+    <rect x="80" y="0" width="28" height="400"/>
+    <rect x="300" y="0" width="32" height="400"/>
+    <rect x="358" y="0" width="26" height="400"/>
+  </g>
+  <g fill="#244a30" opacity="0.6">
+    <rect x="24" y="0" width="10" height="400"/>
+    <rect x="304" y="0" width="10" height="400"/>
+  </g>
+  <rect x="0" y="350" width="400" height="50" fill="#46603f"/>
+  <g>
+    <rect x="170" y="320" width="60" height="60" fill="#5e4a36"/>
+    <g fill="#6e5640" stroke="#4a3a2a" stroke-width="1.5">
+      <rect x="175" y="232" width="50" height="40"/>
+      <rect x="178" y="178" width="44" height="36"/>
+      <rect x="181" y="128" width="38" height="32"/>
+      <rect x="184" y="84" width="32" height="28"/>
+      <rect x="187" y="46" width="26" height="24"/>
+    </g>
+    <g fill="#3a4f3a">
+      <path d="M158 232 L242 232 L222 210 L178 210 Z"/>
+      <path d="M162 178 L238 178 L220 158 L180 158 Z"/>
+      <path d="M166 128 L234 128 L218 110 L182 110 Z"/>
+      <path d="M170 84 L230 84 L216 68 L184 68 Z"/>
+      <path d="M172 46 L228 46 L214 32 L186 32 Z"/>
+    </g>
+    <line x1="200" y1="32" x2="200" y2="8" stroke="#8a7a4a" stroke-width="4"/>
+    <circle cx="200" cy="8" r="5" fill="#b8a05a"/>
+  </g>
+</svg>

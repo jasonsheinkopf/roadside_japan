@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A sleek white aquarium building on the coast glowing with backlit jellyfish tanks">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1838"/>
+      <stop offset="1" stop-color="#1d3a66"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13314f"/>
+      <stop offset="1" stop-color="#0c2138"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7fe3ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7fe3ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="640" cy="110" r="40" fill="#f5f3d8" opacity="0.85"/>
+  <rect y="300" width="800" height="200" fill="url(#sea)"/>
+  <path d="M0 305 Q200 295 400 305 T800 305 V340 H0 Z" fill="#1a4063" opacity="0.6"/>
+  <!-- building -->
+  <rect x="120" y="190" width="430" height="130" rx="14" fill="#f3f6f9"/>
+  <rect x="120" y="190" width="430" height="40" rx="14" fill="#dfe7ef"/>
+  <!-- jellyfish tanks -->
+  <g>
+    <rect x="150" y="235" width="90" height="70" rx="8" fill="#12365a"/>
+    <rect x="260" y="235" width="90" height="70" rx="8" fill="#0f2f4f"/>
+    <rect x="370" y="235" width="90" height="70" rx="8" fill="#12365a"/>
+    <ellipse cx="195" cy="265" rx="55" ry="40" fill="url(#glow)"/>
+    <ellipse cx="305" cy="265" rx="55" ry="40" fill="url(#glow)"/>
+    <ellipse cx="415" cy="265" rx="55" ry="40" fill="url(#glow)"/>
+    <!-- jellyfish shapes -->
+    <g fill="#cdf3ff" opacity="0.9">
+      <path d="M185 258 a14 11 0 0 1 28 0 q-7 4 -14 0 -7 4 -14 0 Z"/>
+      <path d="M188 270 v14 M196 270 v16 M204 270 v14"/>
+      <path d="M295 258 a14 11 0 0 1 28 0 q-7 4 -14 0 -7 4 -14 0 Z"/>
+      <path d="M298 270 v14 M306 270 v16 M314 270 v14"/>
+      <path d="M405 258 a14 11 0 0 1 28 0 q-7 4 -14 0 -7 4 -14 0 Z"/>
+      <path d="M408 270 v14 M416 270 v16 M424 270 v14"/>
+    </g>
+  </g>
+  <!-- curved roof wing -->
+  <path d="M550 200 Q700 175 760 250 L760 320 L550 320 Z" fill="#e8eef4"/>
+  <path d="M550 200 Q700 175 760 250 L760 268 Q700 200 550 224 Z" fill="#d2dde8"/>
+  <text x="135" y="216" font-family="sans-serif" font-size="20" fill="#3a6ea5" font-weight="bold">KAMO</text>
+</svg>

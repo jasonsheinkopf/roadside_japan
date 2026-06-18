@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A traditional Japanese shrine with a stone torii in a moated castle park">
+  <defs>
+    <linearGradient id="usky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3f0"/>
+      <stop offset="1" stop-color="#f0f7ec"/>
+    </linearGradient>
+    <linearGradient id="umoat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fa6b8"/>
+      <stop offset="1" stop-color="#3d8295"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#usky)"/>
+  <circle cx="650" cy="100" r="42" fill="#fdf6df" opacity="0.7"/>
+  <!-- distant trees -->
+  <path d="M0 220 Q200 170 400 215 T800 200 V320 H0 Z" fill="#6fae5c" opacity="0.7"/>
+  <g fill="#4f8c40">
+    <ellipse cx="120" cy="210" rx="56" ry="60"/>
+    <ellipse cx="660" cy="205" rx="60" ry="64"/>
+    <ellipse cx="730" cy="220" rx="46" ry="50"/>
+  </g>
+  <!-- shrine building -->
+  <g>
+    <rect x="320" y="250" width="160" height="80" fill="#b54a38"/>
+    <rect x="320" y="250" width="160" height="14" fill="#933a2c"/>
+    <polygon points="300,252 500,252 470,210 330,210" fill="#3a4a55"/>
+    <polygon points="300,252 400,210 470,210 500,252" fill="#4d5e6a"/>
+    <rect x="355" y="280" width="24" height="50" fill="#7a2e22"/>
+    <rect x="421" y="280" width="24" height="50" fill="#7a2e22"/>
+    <rect x="392" y="280" width="16" height="50" fill="#5e2418"/>
+  </g>
+  <!-- stone torii -->
+  <g fill="#9aa3a8">
+    <rect x="170" y="240" width="200" height="20" rx="3"/>
+    <rect x="180" y="262" width="180" height="12"/>
+    <rect x="195" y="240" width="20" height="120"/>
+    <rect x="325" y="240" width="20" height="120"/>
+    <polygon points="160,240 380,240 360,224 180,224" fill="#aab3b8"/>
+  </g>
+  <!-- moat -->
+  <path d="M0 360 Q400 340 800 360 V500 H0 Z" fill="url(#umoat)"/>
+  <g stroke="#8fd0db" stroke-width="3" fill="none" opacity="0.6">
+    <path d="M80 410 Q400 392 720 410"/>
+    <path d="M120 450 Q400 434 680 450"/>
+  </g>
+  <!-- bank -->
+  <path d="M0 360 Q400 340 800 360 V378 Q400 360 0 378 Z" fill="#7aa05a"/>
+</svg>

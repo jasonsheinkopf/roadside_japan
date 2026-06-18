@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A town square with giant wooden shogi (Japanese chess) pieces">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdeaf6"/>
+      <stop offset="1" stop-color="#f6ead2"/>
+    </linearGradient>
+    <linearGradient id="piece" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d79a"/>
+      <stop offset="1" stop-color="#d9a85f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky2)"/>
+  <circle cx="660" cy="100" r="50" fill="#fff3d0" opacity="0.85"/>
+  <!-- distant buildings -->
+  <g fill="#b9c4cc"><rect x="40" y="180" width="90" height="140"/><rect x="150" y="150" width="70" height="170"/><rect x="600" y="160" width="80" height="160"/><rect x="690" y="190" width="70" height="130"/></g>
+  <g fill="#9aa7b0" opacity="0.6"><rect x="60" y="200" width="12" height="18"/><rect x="90" y="200" width="12" height="18"/><rect x="170" y="180" width="12" height="18"/></g>
+  <!-- plaza ground -->
+  <rect x="0" y="320" width="800" height="180" fill="#cfc0a6"/>
+  <rect x="0" y="320" width="800" height="14" fill="#bdac90"/>
+  <g stroke="#bdac90" stroke-width="3"><line x1="200" y1="334" x2="120" y2="500"/><line x1="600" y1="334" x2="680" y2="500"/><line x1="400" y1="334" x2="400" y2="500"/></g>
+  <!-- shogi pieces -->
+  <g>
+    <g transform="translate(250 200)">
+      <path d="M0 0 L34 14 L34 130 L-34 130 L-34 14 Z" fill="url(#piece)" stroke="#a87d3f" stroke-width="3"/>
+      <text x="0" y="90" font-family="sans-serif" font-size="48" font-weight="bold" fill="#5a3d1a" text-anchor="middle">王</text>
+    </g>
+    <g transform="translate(420 170)">
+      <path d="M0 0 L42 18 L42 162 L-42 162 L-42 18 Z" fill="url(#piece)" stroke="#a87d3f" stroke-width="3"/>
+      <text x="0" y="115" font-family="sans-serif" font-size="60" font-weight="bold" fill="#5a3d1a" text-anchor="middle">歩</text>
+    </g>
+    <g transform="translate(575 215)">
+      <path d="M0 0 L30 12 L30 116 L-30 116 L-30 12 Z" fill="url(#piece)" stroke="#a87d3f" stroke-width="3"/>
+      <text x="0" y="80" font-family="sans-serif" font-size="42" font-weight="bold" fill="#5a3d1a" text-anchor="middle">金</text>
+    </g>
+  </g>
+</svg>
