@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A row of black wooden rice warehouses behind a line of tall green zelkova trees">
+  <defs>
+    <linearGradient id="ssky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9d8ec"/>
+      <stop offset="1" stop-color="#eaf4ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ssky)"/>
+  <circle cx="120" cy="90" r="40" fill="#fdf6df" opacity="0.7"/>
+  <!-- warehouses row -->
+  <g>
+    <g>
+      <rect x="30" y="220" width="160" height="160" fill="#2b2b2f"/>
+      <polygon points="20,220 200,220 110,170" fill="#1d1d20"/>
+      <polygon points="110,170 200,220 110,220" fill="#33333a"/>
+    </g>
+    <g>
+      <rect x="200" y="225" width="160" height="155" fill="#2b2b2f"/>
+      <polygon points="190,225 370,225 280,176" fill="#1d1d20"/>
+      <polygon points="280,176 370,225 280,225" fill="#33333a"/>
+    </g>
+    <g>
+      <rect x="370" y="222" width="160" height="158" fill="#2b2b2f"/>
+      <polygon points="360,222 540,222 450,173" fill="#1d1d20"/>
+      <polygon points="450,173 540,222 450,222" fill="#33333a"/>
+    </g>
+    <g>
+      <rect x="540" y="225" width="160" height="155" fill="#2b2b2f"/>
+      <polygon points="530,225 710,225 620,176" fill="#1d1d20"/>
+      <polygon points="620,176 710,225 620,225" fill="#33333a"/>
+    </g>
+    <g>
+      <rect x="700" y="228" width="120" height="152" fill="#2b2b2f"/>
+      <polygon points="690,228 830,228 760,182" fill="#1d1d20"/>
+    </g>
+    <!-- plank lines -->
+    <g stroke="#444" stroke-width="2">
+      <line x1="30" y1="280" x2="190" y2="280"/><line x1="200" y1="285" x2="360" y2="285"/>
+      <line x1="370" y1="282" x2="530" y2="282"/><line x1="540" y1="285" x2="700" y2="285"/>
+    </g>
+  </g>
+  <!-- zelkova trees -->
+  <g>
+    <g fill="#2f6b34">
+      <ellipse cx="100" cy="170" rx="62" ry="90"/>
+      <ellipse cx="250" cy="155" rx="60" ry="95"/>
+      <ellipse cx="400" cy="165" rx="64" ry="92"/>
+      <ellipse cx="550" cy="155" rx="60" ry="95"/>
+      <ellipse cx="700" cy="170" rx="62" ry="90"/>
+    </g>
+    <g fill="#3d8a44" opacity="0.6">
+      <ellipse cx="120" cy="150" rx="40" ry="60"/>
+      <ellipse cx="420" cy="145" rx="40" ry="60"/>
+      <ellipse cx="720" cy="150" rx="40" ry="60"/>
+    </g>
+    <g fill="#5a3a22">
+      <rect x="92" y="250" width="16" height="130"/><rect x="242" y="245" width="16" height="135"/>
+      <rect x="392" y="250" width="16" height="130"/><rect x="542" y="245" width="16" height="135"/>
+      <rect x="692" y="250" width="16" height="130"/>
+    </g>
+  </g>
+  <!-- ground -->
+  <rect y="378" width="800" height="122" fill="#7a8a5a"/>
+  <rect y="378" width="800" height="20" fill="#6a7a4c"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A giant cooking pot of stew stirred by a construction crane on a riverbed">
+  <defs>
+    <linearGradient id="sky10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe2f2"/>
+      <stop offset="1" stop-color="#f5e8cf"/>
+    </linearGradient>
+    <radialGradient id="stew" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#c4742f"/>
+      <stop offset="1" stop-color="#8a4a1f"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky10)"/>
+  <circle cx="120" cy="90" r="44" fill="#fff6dc" opacity="0.8"/>
+  <!-- hills -->
+  <path d="M0 230 Q200 190 400 220 T800 210 V300 H0 Z" fill="#7cbf6a"/>
+  <!-- riverbed -->
+  <rect x="0" y="300" width="800" height="200" fill="#cdbf9f"/>
+  <path d="M0 330 Q400 300 800 330 V380 H0 Z" fill="#6fb0db"/>
+  <g fill="#bdac90"><circle cx="120" cy="430" r="10"/><circle cx="260" cy="460" r="13"/><circle cx="600" cy="440" r="11"/><circle cx="720" cy="465" r="14"/></g>
+  <!-- crane -->
+  <g>
+    <rect x="120" y="330" width="80" height="120" fill="#f0c63a"/>
+    <rect x="120" y="330" width="80" height="20" fill="#d9ae28"/>
+    <g stroke="#5a3d1a" stroke-width="6"><line x1="160" y1="330" x2="160" y2="160"/></g>
+    <rect x="150" y="150" width="20" height="20" fill="#444"/>
+    <line x1="160" y1="160" x2="470" y2="120" stroke="#f0c63a" stroke-width="12"/>
+    <g stroke="#7a5a48" stroke-width="3"><line x1="170" y1="150" x2="300" y2="135"/><line x1="170" y1="170" x2="300" y2="148"/></g>
+    <!-- cable to paddle -->
+    <line x1="470" y1="122" x2="470" y2="240" stroke="#444" stroke-width="3"/>
+    <rect x="462" y="240" width="16" height="70" fill="#7a5a48"/>
+  </g>
+  <!-- giant pot -->
+  <g transform="translate(490 360)">
+    <ellipse cx="0" cy="-30" rx="180" ry="44" fill="#3a3a3a"/>
+    <path d="M-180 -30 Q-160 90 0 100 Q160 90 180 -30 Z" fill="#2a2a2a"/>
+    <ellipse cx="0" cy="-30" rx="160" ry="36" fill="url(#stew)"/>
+    <!-- ingredients -->
+    <g><circle cx="-70" cy="-32" r="13" fill="#e8d8a0"/><circle cx="-20" cy="-24" r="11" fill="#9ab84a"/><circle cx="40" cy="-34" r="14" fill="#d9a85f"/><circle cx="90" cy="-26" r="11" fill="#e8d8a0"/><circle cx="10" cy="-40" r="9" fill="#b85a3a"/></g>
+    <!-- steam -->
+    <g fill="#fff" opacity="0.6"><circle cx="-60" cy="-70" r="14"/><circle cx="-40" cy="-90" r="11"/><circle cx="60" cy="-72" r="14"/><circle cx="80" cy="-92" r="11"/></g>
+  </g>
+</svg>

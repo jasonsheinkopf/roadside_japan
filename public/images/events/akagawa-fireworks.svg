@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Huge colorful fireworks bursting over a river at night with crowds watching">
+  <defs>
+    <linearGradient id="sky9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1430"/>
+      <stop offset="1" stop-color="#26204a"/>
+    </linearGradient>
+    <radialGradient id="burstA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7cf"/>
+      <stop offset="1" stop-color="#ff6a3a"/>
+    </radialGradient>
+    <radialGradient id="burstB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#dffcff"/>
+      <stop offset="1" stop-color="#5a8aff"/>
+    </radialGradient>
+    <radialGradient id="burstC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe0ff"/>
+      <stop offset="1" stop-color="#d24ad6"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky9)"/>
+  <!-- stars -->
+  <g fill="#fff" opacity="0.7"><circle cx="80" cy="60" r="2"/><circle cx="200" cy="40" r="2"/><circle cx="700" cy="70" r="2"/><circle cx="600" cy="40" r="2"/><circle cx="400" cy="30" r="2"/></g>
+  <!-- fireworks -->
+  <g stroke-width="3" fill="none">
+    <g stroke="url(#burstA)"><g transform="translate(250 150)"><line x1="0" y1="0" x2="0" y2="-70"/><line x1="0" y1="0" x2="50" y2="-50"/><line x1="0" y1="0" x2="70" y2="0"/><line x1="0" y1="0" x2="50" y2="50"/><line x1="0" y1="0" x2="0" y2="70"/><line x1="0" y1="0" x2="-50" y2="50"/><line x1="0" y1="0" x2="-70" y2="0"/><line x1="0" y1="0" x2="-50" y2="-50"/></g></g>
+    <g stroke="url(#burstB)"><g transform="translate(560 130)"><line x1="0" y1="0" x2="0" y2="-85"/><line x1="0" y1="0" x2="60" y2="-60"/><line x1="0" y1="0" x2="85" y2="0"/><line x1="0" y1="0" x2="60" y2="60"/><line x1="0" y1="0" x2="0" y2="85"/><line x1="0" y1="0" x2="-60" y2="60"/><line x1="0" y1="0" x2="-85" y2="0"/><line x1="0" y1="0" x2="-60" y2="-60"/><line x1="0" y1="0" x2="33" y2="-78"/><line x1="0" y1="0" x2="78" y2="33"/><line x1="0" y1="0" x2="-33" y2="78"/><line x1="0" y1="0" x2="-78" y2="-33"/></g></g>
+    <g stroke="url(#burstC)"><g transform="translate(400 230)"><line x1="0" y1="0" x2="0" y2="-50"/><line x1="0" y1="0" x2="40" y2="-30"/><line x1="0" y1="0" x2="50" y2="10"/><line x1="0" y1="0" x2="30" y2="40"/><line x1="0" y1="0" x2="-30" y2="40"/><line x1="0" y1="0" x2="-50" y2="10"/><line x1="0" y1="0" x2="-40" y2="-30"/></g></g>
+  </g>
+  <g fill="#fff"><circle cx="250" cy="150" r="4"/><circle cx="560" cy="130" r="4"/><circle cx="400" cy="230" r="4"/></g>
+  <!-- river -->
+  <rect x="0" y="360" width="800" height="140" fill="#15224a"/>
+  <g fill="#ff6a3a" opacity="0.35"><ellipse cx="250" cy="400" rx="40" ry="10"/></g>
+  <g fill="#5a8aff" opacity="0.35"><ellipse cx="560" cy="420" rx="46" ry="11"/></g>
+  <g fill="#d24ad6" opacity="0.3"><ellipse cx="400" cy="450" rx="34" ry="9"/></g>
+  <!-- crowd silhouettes -->
+  <g fill="#0a0f24"><rect x="0" y="350" width="800" height="20"/><g><circle cx="60" cy="345" r="12"/><circle cx="120" cy="348" r="12"/><circle cx="190" cy="344" r="12"/><circle cx="300" cy="347" r="12"/><circle cx="380" cy="344" r="12"/><circle cx="470" cy="348" r="12"/><circle cx="560" cy="345" r="12"/><circle cx="650" cy="347" r="12"/><circle cx="730" cy="345" r="12"/></g></g>
+</svg>

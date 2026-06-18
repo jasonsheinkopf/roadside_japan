@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A flat-bottomed wooden tour boat drifting down a wide green river gorge">
+  <defs>
+    <linearGradient id="msky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6ef"/>
+      <stop offset="1" stop-color="#e7f5ec"/>
+    </linearGradient>
+    <linearGradient id="mriver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fae9a"/>
+      <stop offset="1" stop-color="#2f8a78"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#msky)"/>
+  <!-- gorge walls -->
+  <path d="M0 0 H280 Q200 200 160 360 Q120 460 0 500 Z" fill="#4f7d3c"/>
+  <path d="M0 0 H180 Q140 200 100 360 Q70 460 0 500 Z" fill="#5d8d48" opacity="0.8"/>
+  <path d="M800 0 H520 Q600 200 640 360 Q680 460 800 500 Z" fill="#4f7d3c"/>
+  <path d="M800 0 H620 Q660 200 700 360 Q730 460 800 500 Z" fill="#5d8d48" opacity="0.8"/>
+  <!-- tree texture -->
+  <g fill="#3c6b2e" opacity="0.55">
+    <ellipse cx="90" cy="120" rx="40" ry="50"/>
+    <ellipse cx="160" cy="220" rx="36" ry="46"/>
+    <ellipse cx="710" cy="120" rx="40" ry="50"/>
+    <ellipse cx="640" cy="220" rx="36" ry="46"/>
+  </g>
+  <!-- river -->
+  <path d="M150 360 Q400 330 650 360 L760 500 L120 500 Z" fill="url(#mriver)"/>
+  <g stroke="#8fd6c5" stroke-width="4" fill="none" opacity="0.6">
+    <path d="M220 410 Q400 395 580 410"/>
+    <path d="M180 450 Q400 432 620 450"/>
+  </g>
+  <!-- boat -->
+  <g>
+    <path d="M300 410 Q400 396 510 410 L490 440 Q400 452 320 440 Z" fill="#8a5a36"/>
+    <path d="M300 410 Q400 396 510 410 L505 420 Q400 408 305 420 Z" fill="#a9764a"/>
+    <!-- canopy -->
+    <rect x="345" y="372" width="120" height="14" rx="6" fill="#c44a3a"/>
+    <rect x="352" y="386" width="106" height="24" fill="#f0e6d2" opacity="0.85"/>
+    <rect x="352" y="386" width="106" height="24" fill="none" stroke="#caa05f" stroke-width="2"/>
+    <!-- pole -->
+    <line x1="498" y1="350" x2="520" y2="430" stroke="#6b4a2c" stroke-width="4"/>
+  </g>
+</svg>

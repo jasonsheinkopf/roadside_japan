@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A white Japanese castle keep on a green hill above a hot-spring town">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3f5"/>
+      <stop offset="1" stop-color="#ffe9d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="320" cy="80" r="40" fill="#fff3c4" opacity="0.8"/>
+  <path d="M0 250 Q200 180 400 250 L400 400 L0 400 Z" fill="#6fae5e"/>
+  <path d="M0 320 Q200 280 400 320 L400 400 L0 400 Z" fill="#4f9244"/>
+  <!-- town roofs -->
+  <g fill="#3a4a6b">
+    <path d="M40 340 l25 -18 l25 18 z"/>
+    <path d="M90 350 l22 -16 l22 16 z"/>
+    <path d="M280 348 l24 -17 l24 17 z"/>
+    <path d="M330 340 l22 -16 l22 16 z"/>
+  </g>
+  <g fill="#cddff0" opacity="0.7">
+    <ellipse cx="150" cy="320" rx="16" ry="6"/>
+    <ellipse cx="250" cy="330" rx="14" ry="5"/>
+  </g>
+  <!-- castle -->
+  <g transform="translate(200 130)">
+    <rect x="-55" y="120" width="110" height="40" fill="#e9e2d0"/>
+    <rect x="-44" y="80" width="88" height="44" fill="#fbfbf5"/>
+    <path d="M-58 80 L0 58 L58 80 Z" fill="#3f6f9c"/>
+    <rect x="-34" y="42" width="68" height="40" fill="#fbfbf5"/>
+    <path d="M-46 42 L0 22 L46 42 Z" fill="#3f6f9c"/>
+    <rect x="-22" y="6" width="44" height="38" fill="#fbfbf5"/>
+    <path d="M-32 6 L0 -14 L32 6 Z" fill="#3f6f9c"/>
+    <g fill="#7d8ca3">
+      <rect x="-30" y="90" width="12" height="16"/>
+      <rect x="18" y="90" width="12" height="16"/>
+      <rect x="-8" y="14" width="16" height="14"/>
+    </g>
+  </g>
+</svg>

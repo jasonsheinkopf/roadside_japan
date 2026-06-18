@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A cheerful amusement park with a Ferris wheel, carousel, and roller coaster">
+  <defs>
+    <linearGradient id="lsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd0f0"/>
+      <stop offset="1" stop-color="#ffe6c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#lsky)"/>
+  <circle cx="700" cy="90" r="46" fill="#fff2c4" opacity="0.85"/>
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="150" cy="110" rx="46" ry="24"/><ellipse cx="195" cy="100" rx="36" ry="20"/>
+  </g>
+  <!-- ground -->
+  <path d="M0 400 Q400 375 800 400 V500 H0 Z" fill="#8fc966"/>
+  <!-- ferris wheel -->
+  <g>
+    <line x1="190" y1="230" x2="190" y2="420" stroke="#5a6b7a" stroke-width="8"/>
+    <line x1="150" y1="420" x2="190" y2="280" stroke="#5a6b7a" stroke-width="6"/>
+    <line x1="230" y1="420" x2="190" y2="280" stroke="#5a6b7a" stroke-width="6"/>
+    <circle cx="190" cy="230" r="95" fill="none" stroke="#e85a72" stroke-width="8"/>
+    <g stroke="#f2a93c" stroke-width="4">
+      <line x1="190" y1="230" x2="190" y2="135"/><line x1="190" y1="230" x2="190" y2="325"/>
+      <line x1="190" y1="230" x2="95" y2="230"/><line x1="190" y1="230" x2="285" y2="230"/>
+      <line x1="190" y1="230" x2="123" y2="163"/><line x1="190" y1="230" x2="257" y2="297"/>
+      <line x1="190" y1="230" x2="257" y2="163"/><line x1="190" y1="230" x2="123" y2="297"/>
+    </g>
+    <g>
+      <circle cx="190" cy="135" r="13" fill="#4fb0e0"/><circle cx="190" cy="325" r="13" fill="#f2c94c"/>
+      <circle cx="95" cy="230" r="13" fill="#e85a72"/><circle cx="285" cy="230" r="13" fill="#7bcf6b"/>
+      <circle cx="123" cy="163" r="13" fill="#f2994a"/><circle cx="257" cy="297" r="13" fill="#9b6bd6"/>
+      <circle cx="257" cy="163" r="13" fill="#7bcf6b"/><circle cx="123" cy="297" r="13" fill="#4fb0e0"/>
+    </g>
+    <circle cx="190" cy="230" r="10" fill="#5a6b7a"/>
+  </g>
+  <!-- carousel -->
+  <g>
+    <polygon points="410,300 540,300 475,250" fill="#e85a72"/>
+    <polygon points="410,300 540,300 475,250" fill="none" stroke="#fff" stroke-width="3"/>
+    <circle cx="475" cy="248" r="8" fill="#f2c94c"/>
+    <rect x="410" y="300" width="130" height="100" fill="#fff4e0"/>
+    <g stroke="#f2994a" stroke-width="6">
+      <line x1="425" y1="300" x2="425" y2="400"/><line x1="460" y1="300" x2="460" y2="400"/>
+      <line x1="495" y1="300" x2="495" y2="400"/><line x1="525" y1="300" x2="525" y2="400"/>
+    </g>
+    <rect x="410" y="300" width="130" height="10" fill="#e85a72"/>
+  </g>
+  <!-- roller coaster -->
+  <g fill="none" stroke="#5b8def" stroke-width="7">
+    <path d="M560 400 Q620 250 680 360 Q720 430 760 300 L790 360"/>
+  </g>
+  <g fill="#5a6b7a">
+    <rect x="600" y="320" width="6" height="60"/><rect x="700" y="350" width="6" height="40"/><rect x="660" y="350" width="6" height="50"/>
+  </g>
+  <circle cx="600" cy="295" r="8" fill="#e85a72"/><circle cx="613" cy="298" r="8" fill="#f2c94c"/>
+</svg>

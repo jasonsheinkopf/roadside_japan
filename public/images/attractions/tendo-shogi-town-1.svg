@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Giant wooden shogi (Japanese chess) pieces standing in a town square">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe7f2"/>
+      <stop offset="1" stop-color="#ffe6c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky2)"/>
+  <circle cx="80" cy="70" r="34" fill="#fff2bf" opacity="0.85"/>
+  <rect y="300" width="400" height="100" fill="#cfb88f"/>
+  <rect y="300" width="400" height="14" fill="#b89e72"/>
+  <g stroke="#b89e72" stroke-width="2">
+    <line x1="80" y1="314" x2="40" y2="400"/>
+    <line x1="200" y1="314" x2="200" y2="400"/>
+    <line x1="320" y1="314" x2="360" y2="400"/>
+  </g>
+  <!-- shogi pieces (pentagon) -->
+  <g>
+    <polygon points="120,170 160,185 152,300 88,300 80,185" fill="#d9a85f" stroke="#a9763a" stroke-width="4"/>
+    <text x="120" y="255" font-family="sans-serif" font-size="46" fill="#5a3a1a" text-anchor="middle">王</text>
+  </g>
+  <g>
+    <polygon points="225,140 275,158 265,300 185,300 175,158" fill="#e6bd76" stroke="#a9763a" stroke-width="4"/>
+    <text x="225" y="240" font-family="sans-serif" font-size="58" fill="#5a3a1a" text-anchor="middle">金</text>
+  </g>
+  <g>
+    <polygon points="330,190 362,202 356,300 304,300 298,202" fill="#cf9c52" stroke="#a9763a" stroke-width="4"/>
+    <text x="330" y="265" font-family="sans-serif" font-size="38" fill="#5a3a1a" text-anchor="middle">歩</text>
+  </g>
+</svg>

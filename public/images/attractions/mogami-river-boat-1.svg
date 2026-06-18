@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A wooden tour boat drifting down a wide river through green gorge hills">
+  <defs>
+    <linearGradient id="msky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cdeaf2"/>
+      <stop offset="100%" stop-color="#eaf6ec"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6fae9a"/>
+      <stop offset="100%" stop-color="#4d8c98"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#msky)"/>
+  <path d="M0 120 Q70 60 150 120 Q180 150 200 160 L0 200 Z" fill="#4c8a44"/>
+  <path d="M400 110 Q330 50 250 115 Q220 150 200 160 L400 190 Z" fill="#3f7a3a"/>
+  <path d="M0 180 Q80 130 180 175 L200 200 L0 240 Z" fill="#5b9450"/>
+  <path d="M400 170 Q320 120 220 170 L200 200 L400 235 Z" fill="#4c8540"/>
+  <path d="M0 200 Q200 175 400 200 L400 400 L0 400 Z" fill="url(#river)"/>
+  <path d="M30 250 Q120 240 210 250 M180 290 Q280 280 370 292 M60 330 Q180 320 300 332" stroke="#9fd4c4" stroke-width="4" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <g transform="translate(200,300)">
+    <path d="M-90 0 Q-70 38 0 40 Q70 38 90 0 Z" fill="#7a5a36"/>
+    <path d="M-78 -2 Q-60 28 0 30 Q60 28 78 -2 Z" fill="#9c7a4c"/>
+    <rect x="-60" y="-40" width="120" height="14" rx="4" fill="#c0392b"/>
+    <path d="M-62 -26 L62 -26 L48 -42 L-48 -42 Z" fill="#e6b85c"/>
+    <path d="M-48 -42 L48 -42 L36 -54 L-36 -54 Z" fill="#d99e3c"/>
+    <line x1="0" y1="-54" x2="0" y2="-70" stroke="#5e4429" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="A white Japanese castle keep on a green hill above a hot-spring town">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3f5"/>
+      <stop offset="1" stop-color="#fde8d0"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7cbf6a"/>
+      <stop offset="1" stop-color="#4f9444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="640" cy="110" r="55" fill="#fff2cf" opacity="0.8"/>
+  <path d="M0 330 Q200 260 400 320 T800 300 V500 H0 Z" fill="url(#hill)"/>
+  <path d="M0 420 Q400 380 800 420 V500 H0 Z" fill="#3a7a33"/>
+  <!-- town roofs -->
+  <g fill="#7a5a48">
+    <rect x="60" y="430" width="70" height="40"/>
+    <rect x="150" y="440" width="60" height="35"/>
+    <rect x="620" y="435" width="80" height="40"/>
+    <rect x="710" y="445" width="60" height="35"/>
+  </g>
+  <g fill="#d98a6a"><rect x="55" y="420" width="80" height="14"/><rect x="610" y="425" width="100" height="14"/></g>
+  <!-- steam -->
+  <g fill="#ffffff" opacity="0.7"><circle cx="180" cy="400" r="14"/><circle cx="200" cy="385" r="12"/><circle cx="680" cy="405" r="14"/><circle cx="700" cy="390" r="11"/></g>
+  <!-- castle on hill -->
+  <g transform="translate(400 150)">
+    <rect x="-55" y="120" width="110" height="40" fill="#cfcfcf"/>
+    <rect x="-45" y="60" width="90" height="62" fill="#f4f4f2"/>
+    <path d="M-58 60 L0 30 L58 60 Z" fill="#3f5a7a"/>
+    <rect x="-32" y="10" width="64" height="50" fill="#f4f4f2"/>
+    <path d="M-42 10 L0 -14 L42 10 Z" fill="#3f5a7a"/>
+    <rect x="-18" y="-38" width="36" height="34" fill="#f4f4f2"/>
+    <path d="M-26 -38 L0 -56 L26 -38 Z" fill="#3f5a7a"/>
+    <g fill="#3f5a7a"><rect x="-26" y="78" width="12" height="18"/><rect x="14" y="78" width="12" height="18"/><rect x="-10" y="22" width="20" height="18"/></g>
+  </g>
+  <g fill="#cf6a4a"><circle cx="120" cy="120" r="6"/><circle cx="700" cy="160" r="6"/></g>
+</svg>

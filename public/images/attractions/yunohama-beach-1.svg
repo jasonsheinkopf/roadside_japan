@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A sandy beach with gentle waves, a torii standing in the sea, and a setting sun">
+  <defs>
+    <linearGradient id="ybsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd27a"/>
+      <stop offset="55%" stop-color="#ff9e6b"/>
+      <stop offset="100%" stop-color="#f4856a"/>
+    </linearGradient>
+    <linearGradient id="ybsea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e98a5c"/>
+      <stop offset="100%" stop-color="#5a86a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ybsky)"/>
+  <circle cx="200" cy="170" r="60" fill="#ffe7a0"/>
+  <circle cx="200" cy="170" r="60" fill="#fff4cf" opacity="0.5"/>
+  <rect x="0" y="220" width="400" height="120" fill="url(#ybsea)"/>
+  <g stroke="#fff1d0" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round">
+    <path d="M180 230 Q200 222 220 230"/>
+    <path d="M40 260 Q90 252 140 260"/>
+    <path d="M260 270 Q320 262 380 270"/>
+    <path d="M80 300 Q160 292 240 300"/>
+  </g>
+  <path d="M0 320 Q120 295 250 320 Q330 335 400 318 L400 400 L0 400 Z" fill="#f0dca8"/>
+  <path d="M0 340 Q140 320 280 342 Q340 350 400 338 L400 400 L0 400 Z" fill="#e6cd92"/>
+  <g transform="translate(285,205)">
+    <path d="M-48 -6 L48 -6 L40 4 L-40 4 Z" fill="#b8362b"/>
+    <path d="M-42 4 L42 4 L42 12 L-42 12 Z" fill="#c0392b"/>
+    <rect x="-30" y="12" width="9" height="58" fill="#c0392b"/>
+    <rect x="21" y="12" width="9" height="58" fill="#c0392b"/>
+    <rect x="-30" y="22" width="60" height="8" fill="#a82e24"/>
+    <path d="M-46 -6 L-30 -6 L-30 12 L-46 -6 M30 -6 L46 -6 L30 12 Z" fill="#a82e24"/>
+  </g>
+</svg>

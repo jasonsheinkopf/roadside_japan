@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="A narrow old hot-spring street with a morning market of vegetables and lanterns">
+  <defs>
+    <linearGradient id="sky7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcebf0"/>
+      <stop offset="1" stop-color="#ffeicf"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#f6e6cf"/>
+  <rect width="400" height="200" fill="#dce9ef"/>
+  <!-- buildings left and right framing narrow street -->
+  <path d="M0 60 L150 120 L150 400 L0 400 Z" fill="#8a6a4a"/>
+  <path d="M400 60 L250 120 L250 400 L400 400 Z" fill="#7a5c40"/>
+  <path d="M150 120 L250 120 L235 400 L165 400 Z" fill="#caa874"/>
+  <!-- windows -->
+  <g fill="#e9d5b3">
+    <rect x="30" y="150" width="30" height="40"/>
+    <rect x="80" y="180" width="30" height="40"/>
+    <rect x="300" y="150" width="30" height="40"/>
+    <rect x="340" y="180" width="30" height="40"/>
+  </g>
+  <!-- lanterns -->
+  <g>
+    <line x1="120" y1="120" x2="120" y2="150" stroke="#3a2a1a" stroke-width="3"/>
+    <ellipse cx="120" cy="170" rx="14" ry="20" fill="#e23d3d"/>
+    <line x1="280" y1="120" x2="280" y2="150" stroke="#3a2a1a" stroke-width="3"/>
+    <ellipse cx="280" cy="170" rx="14" ry="20" fill="#e23d3d"/>
+  </g>
+  <!-- market stalls / vegetable crates -->
+  <g transform="translate(170 320)">
+    <rect x="-20" y="0" width="60" height="40" fill="#a87a4a"/>
+    <circle cx="-8" cy="6" r="8" fill="#e2622f"/>
+    <circle cx="10" cy="4" r="8" fill="#6fae3a"/>
+    <circle cx="28" cy="8" r="8" fill="#e2a02f"/>
+    <circle cx="2" cy="18" r="8" fill="#cf3a52"/>
+    <circle cx="22" cy="20" r="8" fill="#6fae3a"/>
+  </g>
+  <path d="M160 300 L240 300 L235 312 L165 312 Z" fill="#8a5a3a"/>
+</svg>
