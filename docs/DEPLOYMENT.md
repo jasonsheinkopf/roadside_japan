@@ -64,6 +64,35 @@ Or simulate a custom-domain build:
 SITE_BASE=/ SITE_URL=https://example.com npm run build
 ```
 
+## Cloudflare Pages
+
+Cloudflare Pages is supported out of the box — no extra configuration needed.
+
+During every build Cloudflare injects `CF_PAGES=1` and `CF_PAGES_URL` (the deployment
+URL). `astro.config.mjs` detects these and automatically sets `base: "/"` and
+`site: CF_PAGES_URL`, so all asset and link URLs are root-relative and correct.
+
+**Cloudflare Pages dashboard settings:**
+
+| Setting           | Value          |
+| ----------------- | -------------- |
+| Build command     | `npm run build` |
+| Build output dir  | `dist`          |
+| Node.js version   | 20 (or 22)      |
+
+No environment variables are required. Optionally override:
+
+| Variable                   | Purpose |
+| -------------------------- | ------- |
+| `SITE_URL`                 | Force a specific canonical URL (default: auto from `CF_PAGES_URL`). |
+| `PUBLIC_COMMENTS_ENDPOINT` | No-login comment intake (Formspree, Worker, etc.). |
+
+### Simulate a Cloudflare Pages build locally
+
+```bash
+CF_PAGES=1 CF_PAGES_URL=https://roadside-japan.pages.dev npm run build
+```
+
 ## Alternative: deploy from a branch
 
 If you prefer not to use the Actions method, build locally and publish `dist/` to a
