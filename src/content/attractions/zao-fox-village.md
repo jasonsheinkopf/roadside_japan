@@ -27,8 +27,12 @@ accessibility:
   wheelchair: partial
   note: "Hilly, uneven forest ground inside the free-roaming enclosure."
 dogFriendly: no
-heroImage: "/images/attractions/zao-fox-village.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Silver_fox_at_ZAO_kitsune_mura.jpg/960px-Silver_fox_at_ZAO_kitsune_mura.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Silver_fox_at_ZAO_kitsune_mura.jpg/960px-Silver_fox_at_ZAO_kitsune_mura.jpg"
+    alt: "Fox at Zao Fox Village (kitsune mura)"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Silver_fox_at_ZAO_kitsune_mura.jpg"
   - src: "/images/attractions/zao-fox-village-1.svg"
     alt: "A cozy pile of fluffy red and white foxes napping in the snow"
     caption: "A hundred foxes, all napping. I respect the commitment."
@@ -54,7 +58,7 @@ related:
   - okunoshima-rabbit-island
   - aoshima-cat-island
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Up a winding road in the Miyagi mountains is a forest that belongs to the foxes. **Zao Fox Village** keeps more than **a hundred foxes** — red, silver, platinum, and snow-white arctic — in a large open enclosure you walk through, surrounded on all sides by tails, ears, and suspiciously knowing eyes.

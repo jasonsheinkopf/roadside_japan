@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "You view it from a flat paved area; you cannot climb the protected dome."
 dogFriendly: limited
-heroImage: "/images/attractions/showa-shinzan.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mount_Showa-shinzan_and_touyako.JPG/960px-Mount_Showa-shinzan_and_touyako.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mount_Showa-shinzan_and_touyako.JPG/960px-Mount_Showa-shinzan_and_touyako.JPG"
+    alt: "Showa Shinzan with Lake Toya"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Mount_Showa-shinzan_and_touyako.JPG"
   - src: "/images/attractions/showa-shinzan-1.svg"
     alt: "A steaming reddish-brown lava dome rising from flat ground with vents smoking"
     caption: "This whole mountain is younger than my grandpa. Wild."
@@ -52,7 +56,7 @@ aiKeywords: [showa shinzan, lava dome, lake toya, usu, hokkaido, mimatsu, new vo
 related:
   - noboribetsu-jigokudani
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Most mountains are unimaginably old. **Showa Shinzan** is not. Between **1943 and 1945**, in the middle of a flat wheat field near Lake Toya, the ground bulged, cracked, and heaved upward into a steaming red dome of lava — and people stood there and watched it happen.

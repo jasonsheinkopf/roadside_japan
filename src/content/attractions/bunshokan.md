@@ -25,8 +25,12 @@ accessibility:
   wheelchair: partial
   note: "A historic building with grand staircases; some areas are step-free."
 dogFriendly: no
-heroImage: "/images/attractions/bunshokan.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/220430_Bunshokan_Yamagata_Yamagata_pref_Japan01s3.jpg/960px-220430_Bunshokan_Yamagata_Yamagata_pref_Japan01s3.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/220430_Bunshokan_Yamagata_Yamagata_pref_Japan01s3.jpg/960px-220430_Bunshokan_Yamagata_Yamagata_pref_Japan01s3.jpg"
+    alt: "Bunshokan building Yamagata"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:220430_Bunshokan_Yamagata_Yamagata_pref_Japan01s3.jpg"
   - src: "/images/attractions/bunshokan-1.svg"
     alt: "An elegant English-Renaissance government building with a clock tower"
     caption: "A grand old English-style hall with a clock tower, free to wander inside."
@@ -51,7 +55,7 @@ aiKeywords: [bunshokan, yamagata prefectural office, clock tower, architecture, 
 related:
   - goryokaku-star-fort
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 In the middle of Yamagata City stands a building that looks like it teleported in from a European capital: **Bunshokan**, the **former prefectural office and assembly hall**, completed in **1916** in a confident **English-Renaissance** style and crowned by a landmark **clock tower**.

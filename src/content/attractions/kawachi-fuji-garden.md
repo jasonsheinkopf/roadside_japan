@@ -25,8 +25,12 @@ accessibility:
   wheelchair: partial
   note: "The famous tunnels are walkable, but the wider garden has slopes and steps."
 dogFriendly: no
-heroImage: "/images/attractions/kawachi-fuji-garden.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Wisteria_Tunnel_in_Kawachi_Wisteria_Garden_20150509-3.JPG/960px-Wisteria_Tunnel_in_Kawachi_Wisteria_Garden_20150509-3.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Wisteria_Tunnel_in_Kawachi_Wisteria_Garden_20150509-3.JPG/960px-Wisteria_Tunnel_in_Kawachi_Wisteria_Garden_20150509-3.JPG"
+    alt: "Wisteria tunnel at Kawachi Wisteria Garden"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Wisteria_Tunnel_in_Kawachi_Wisteria_Garden_20150509-3.JPG"
   - src: "/images/attractions/kawachi-fuji-garden-1.svg"
     alt: "Looking up into a domed ceiling of hanging violet wisteria"
     caption: "A ceiling made entirely of flowers. My tail would not stop."
@@ -54,7 +58,7 @@ aiKeywords: [kawachi fujien, wisteria tunnel, fuji, kitakyushu, fukuoka, spring 
 related:
   - hitachi-seaside-park
 createdAt: 2026-06-13
-updatedAt: 2026-06-13
+updatedAt: 2026-07-13
 ---
 
 For most of the year, **Kawachi Fuji Garden** is a quiet private garden on a hillside above Kitakyushu. Then, for roughly two weeks each spring, it becomes one of the most photographed places in Japan: two long **wisteria tunnels** and a great wisteria dome erupt into cascading curtains of violet, lavender, pink, and white.

@@ -26,8 +26,12 @@ accessibility:
   wheelchair: yes
   note: "Step-free, modern museum."
 dogFriendly: no
-heroImage: "/images/attractions/bato-hiroshige-museum.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nakagawa-machi_Bato_Hiroshige_Museum_of_Art%2C_main_building.JPG/960px-Nakagawa-machi_Bato_Hiroshige_Museum_of_Art%2C_main_building.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nakagawa-machi_Bato_Hiroshige_Museum_of_Art%2C_main_building.JPG/960px-Nakagawa-machi_Bato_Hiroshige_Museum_of_Art%2C_main_building.JPG"
+    alt: "Museum main building (Kengo Kuma)"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Nakagawa-machi_Bato_Hiroshige_Museum_of_Art%2C_main_building.JPG"
   - src: "/images/attractions/bato-hiroshige-museum-1.svg"
     alt: "A low museum building wrapped in fine cedar latticework with a ukiyo-e wave print inside"
     caption: "A museum dressed in cedar slats by Kengo Kuma, full of Hiroshige's woodblock rain."
@@ -54,7 +58,7 @@ aiKeywords: [bato hiroshige museum, kengo kuma, ukiyo-e, hiroshige, nakagawa, to
 related:
   - ns-yard
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 In the quiet Naka River country east of Nasu, the small town of **Bato** holds a building that architecture pilgrims cross the country to see: the **Nakagawa-machi Bato Hiroshige Museum of Art**, an early masterpiece by **Kengo Kuma**.

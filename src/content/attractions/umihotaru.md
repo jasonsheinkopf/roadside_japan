@@ -26,8 +26,12 @@ accessibility:
   wheelchair: yes
   note: "Modern, fully accessible building with elevators and open-air decks."
 dogFriendly: yes
-heroImage: "/images/attractions/umihotaru.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Umihotaru_Parking_Area_04.JPG/960px-Umihotaru_Parking_Area_04.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Umihotaru_Parking_Area_04.JPG/960px-Umihotaru_Parking_Area_04.JPG"
+    alt: "Umihotaru parking island on Tokyo Bay Aqua-Line"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Umihotaru_Parking_Area_04.JPG"
   - src: "/images/attractions/umihotaru-1.svg"
     alt: "A ship-shaped highway rest stop on an artificial island in the middle of the bay"
     caption: "A rest stop on an island in the MIDDLE of Tokyo Bay, where the bridge dives underwater."
@@ -53,7 +57,7 @@ related:
   - mother-farm
   - kawasaki-daishi
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Halfway across **Tokyo Bay**, the **Aqua-Line** highway does something extraordinary: it stops being a bridge and plunges into a tunnel under the sea. At exactly that transition floats **Umihotaru** ("Sea Firefly"), a five-story **rest stop on an artificial island** in the middle of the water.

@@ -20,6 +20,7 @@ import {
   monthsLabel,
   placeholderStyle,
   formatDateRange,
+  IMG_ONERROR,
 } from "../lib/format";
 import { prefectureUrl, tagUrl, withBase, homeUrl } from "../lib/url";
 
@@ -68,7 +69,7 @@ const sourceLabel: Record<string, string> = {
       <div class="h-64 w-full sm:h-96">
         {
           record.hero ? (
-            <img src={record.hero} alt={data.title} class="h-full w-full object-cover" />
+            <img src={record.hero} alt={data.title} onerror={IMG_ONERROR} class="h-full w-full object-cover" />
           ) : (
             <div class="bg-topo flex h-full w-full items-center justify-center" style={placeholderStyle(record.id)}>
               <span class="text-7xl opacity-90 sm:text-8xl" aria-hidden="true">{cat.emoji}</span>
@@ -127,7 +128,7 @@ const sourceLabel: Record<string, string> = {
               <div class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
                 {data.photos.map((p) => (
                   <figure class="overflow-hidden rounded-xl border border-line bg-surface">
-                    <img src={withBase(p.src)} alt={p.alt} loading="lazy" class="aspect-square w-full object-cover" />
+                    <img src={withBase(p.src)} alt={p.alt} loading="lazy" onerror={IMG_ONERROR} class="aspect-square w-full object-cover" />
                     {(p.caption || p.credit) && (
                       <figcaption class="px-2.5 py-1.5 text-xs text-ink-soft">
                         {p.caption && <span class="block leading-snug">{p.caption}</span>}

@@ -31,6 +31,12 @@ tips:
   - "The black eggs (kuro-tamago) sold at Owakudani are boiled in the naturally sulfurous hot spring water, which blackens the shell — local legend says each one eaten adds seven years to your life."
   - "Ride the ropeway one direction and the Lake Ashi pirate ship cruise the other, so you get both the volcanic valley views and the lake-and-Fuji views without backtracking."
   - "The Hakone Freepass bundles the Odakyu train, buses, ropeway, and cruise into a single ticket and is worth it for almost any full-day itinerary here."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Hakone_Volcano_2015-03-05_(16110062933).jpg/960px-Hakone_Volcano_2015-03-05_(16110062933).jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Hakone_Volcano_2015-03-05_(16110062933).jpg/960px-Hakone_Volcano_2015-03-05_(16110062933).jpg"
+    alt: "Owakudani steaming (Hakone volcano)"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Hakone_Volcano_2015-03-05_(16110062933).jpg"
 status: open
 approval: published
 source: ai-agent
@@ -45,7 +51,7 @@ aiSummary: "Hakone's Owakudani volcanic valley, famous for sulfur-blackened 'lif
 aiKeywords: [hakone, owakudani, lake ashi, black eggs, pirate ship, mount fuji view]
 featured: true
 createdAt: 2026-07-12
-updatedAt: 2026-07-12
+updatedAt: 2026-07-13
 ---
 
 Roughly two hours from central Tokyo, Hakone packs an active volcanic valley, a mountain ropeway, and a lake cruise with Mt. Fuji views into a single well-connected day trip.

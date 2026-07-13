@@ -26,8 +26,12 @@ accessibility:
   wheelchair: yes
   note: "Wide, flat, paved paths; the grass hills are an optional climb."
 dogFriendly: limited
-heroImage: "/images/attractions/moerenuma-park.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Moere02.jpg/960px-Moere02.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Moere02.jpg/960px-Moere02.jpg"
+    alt: "Moerenuma Park, Sapporo"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Moere02.jpg"
   - src: "/images/attractions/moerenuma-park-1.svg"
     alt: "A large glass-and-steel pyramid building beside a geometric grass hill"
     caption: "A whole park designed like one giant sculpture. Very fancy."
@@ -52,7 +56,7 @@ aiKeywords: [moerenuma park, isamu noguchi, sapporo, land art, glass pyramid, ho
 related:
   - naoshima-yellow-pumpkin
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 On the edge of Sapporo, a former waste-treatment site has become one of Japan's most quietly astonishing artworks. **Moerenuma Park** was designed in its entirety by the sculptor **Isamu Noguchi** as a single, walk-through piece of land art — the whole landscape is the sculpture.

@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "The main street is flat but cobbled; old inns have steps."
 dogFriendly: limited
-heroImage: "/images/attractions/ginzan-onsen.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Night_in_Ginzan_Onsen_town_January_2022_A.jpg/960px-Night_in_Ginzan_Onsen_town_January_2022_A.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Night_in_Ginzan_Onsen_town_January_2022_A.jpg/960px-Night_in_Ginzan_Onsen_town_January_2022_A.jpg"
+    alt: "Ginzan Onsen street at night in snow"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Night_in_Ginzan_Onsen_town_January_2022_A.jpg"
   - src: "/images/attractions/ginzan-onsen-1.svg"
     alt: "A row of tall wooden Taisho-era inns along a small river lit by gas lamps at dusk"
     caption: "A hot-spring town frozen in 1920, gas lamps glowing over a little river."
@@ -52,7 +56,7 @@ aiKeywords: [ginzan onsen, obanazawa, yamagata, taisho, gas lamps, ryokan]
 related:
   - otaru-canal
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Deep in the hills of Obanazawa, around a narrow river, sits a hot-spring village that time agreed to leave alone. **Ginzan Onsen** lines both banks with three- and four-story **wooden inns from the Taisho era** (the 1910s–20s), their plaster facades and balconies facing each other across the water.

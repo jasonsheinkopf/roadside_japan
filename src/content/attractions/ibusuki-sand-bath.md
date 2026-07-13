@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "Staff assist; the beach itself is soft sand."
 dogFriendly: no
-heroImage: "/images/attractions/ibusuki-sand-bath.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ibusuki-Sand-Bath.JPG/960px-Ibusuki-Sand-Bath.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ibusuki-Sand-Bath.JPG/960px-Ibusuki-Sand-Bath.JPG"
+    alt: "Sand bathing at Ibusuki"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Ibusuki-Sand-Bath.JPG"
   - src: "/images/attractions/ibusuki-sand-bath-1.svg"
     alt: "A blissful face poking out of black sand with a towel turban"
     caption: "Buried in warm volcanic sand. Ten out of ten, would nap again."
@@ -49,7 +53,7 @@ aiKeywords: [sunamushi, sand bath, ibusuki, saraku, geothermal, kagoshima]
 related:
   - takachiho-gorge
 createdAt: 2025-10-18
-updatedAt: 2025-12-20
+updatedAt: 2026-07-13
 ---
 
 At the southern end of Kyushu, where the ground itself runs hot with geothermal heat, the town of **Ibusuki** has turned its beach into a bath. Attendants in conical hats dig a shallow trench in the black volcanic sand, you lie down in a yukata, and they shovel the steaming sand over you until only your head is free.

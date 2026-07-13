@@ -27,6 +27,12 @@ tips:
   - "This exact ground was a former army clothing depot where as many as 44,000 people sheltering from the 1923 earthquake's fires were killed by a sudden firestorm — one of the single deadliest events in the city's history."
   - "The Memorial Hall (Ireido) holds the ashes of roughly 58,000 earthquake victims and, later, 105,000 victims of the March 1945 Tokyo firebombing — a genuinely somber stop, not a casual photo-op."
   - "The adjoining Reconstruction Memorial Hall (built 1931) displays objects distorted and melted by the fires — heat-fused glass bottles, twisted metal — as evidence of the disaster's intensity."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tokyo_Memorial_Hall.jpg/960px-Tokyo_Memorial_Hall.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tokyo_Memorial_Hall.jpg/960px-Tokyo_Memorial_Hall.jpg"
+    alt: "Tokyo Memorial Hall in Yokoamicho Park"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Tokyo_Memorial_Hall.jpg"
 status: open
 approval: published
 source: ai-agent
@@ -41,7 +47,7 @@ aiSummary: "A Sumida Ward park and memorial hall marking the site of a catastrop
 aiKeywords: [yokoamicho park, great kanto earthquake memorial, tokyo firebombing memorial, ireido]
 featured: false
 createdAt: 2026-07-04
-updatedAt: 2026-07-04
+updatedAt: 2026-07-13
 ---
 
 A green, unassuming park a few minutes from the sumo stadium that turns out to sit on one of the heaviest pieces of ground in Tokyo.

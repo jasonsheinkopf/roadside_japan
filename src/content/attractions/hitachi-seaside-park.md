@@ -27,8 +27,12 @@ accessibility:
   wheelchair: yes
   note: "Wide paved paths; rentable wheelchairs and a road train."
 dogFriendly: yes
-heroImage: "/images/attractions/hitachi-seaside-park.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Nemophila_and_a_Tree_in_Hitachi_Seaside_Park.jpg/960px-Nemophila_and_a_Tree_in_Hitachi_Seaside_Park.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Nemophila_and_a_Tree_in_Hitachi_Seaside_Park.jpg/960px-Nemophila_and_a_Tree_in_Hitachi_Seaside_Park.jpg"
+    alt: "Nemophila hill at Hitachi Seaside Park"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Nemophila_and_a_Tree_in_Hitachi_Seaside_Park.jpg"
   - src: "/images/attractions/hitachi-seaside-park-1.svg"
     alt: "Close-up of pale baby-blue nemophila flowers on a green hill"
     caption: "Four million flowers. I counted two before getting distracted."
@@ -50,7 +54,7 @@ aiKeywords: [nemophila, baby blue eyes, kochia, miharashi hill, flower park, iba
 related:
   - ushiku-daibutsu
 createdAt: 2025-09-25
-updatedAt: 2026-01-10
+updatedAt: 2026-07-13
 ---
 
 Twice a year, a single hill in Ibaraki becomes one of the most photographed places in Japan. In spring, **4.5 million nemophila** — tiny "baby blue eyes" flowers — wash Miharashi Hill in a blue so total it blurs the line between flowers, sky, and sea. In autumn, the same hill flushes scarlet as thousands of round **kochia** bushes turn color.

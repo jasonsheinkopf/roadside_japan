@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "Period dirt streets and some steps; parts are uneven by design."
 dogFriendly: limited
-heroImage: "/images/attractions/edo-wonderland-nikko.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Edo_Wonderland_Nikko_Edomura_01.JPG/960px-Edo_Wonderland_Nikko_Edomura_01.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Edo_Wonderland_Nikko_Edomura_01.JPG/960px-Edo_Wonderland_Nikko_Edomura_01.JPG"
+    alt: "Edo Wonderland park, Nikko"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Edo_Wonderland_Nikko_Edomura_01.JPG"
   - src: "/images/attractions/edo-wonderland-nikko-1.svg"
     alt: "A recreated Edo-period town with wooden shops, samurai, and ninjas on the rooftops"
     caption: "A whole town playing samurai dress-up. There were ninjas on the roof!"
@@ -52,7 +56,7 @@ aiKeywords: [edo wonderland, nikko edomura, edo period, ninja, samurai, kinugawa
 related:
   - tobu-world-square
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Near Kinugawa Onsen, the clock runs back four hundred years at **Edo Wonderland Nikko Edomura**, a theme park that doesn't just display the **Edo period** — it stages it, all day, every day, as a living town.

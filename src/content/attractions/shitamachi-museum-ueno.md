@@ -30,6 +30,12 @@ tips:
   - "You're allowed — encouraged, even — to sit in the row-house rooms, pick up the toys, and try the tools. It's a hands-on museum, not a look-don't-touch one."
   - "Small enough to see properly in 30-45 minutes, so it slots in easily at the very start of a walk out of Ueno Park."
   - "Closed Mondays (or the following day if Monday is a holiday) — worth a quick check since a Saturday visit is unaffected either way."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shitamachi_Museum%2C_Ueno%2C_Tokyo%2C_Japan.JPG/960px-Shitamachi_Museum%2C_Ueno%2C_Tokyo%2C_Japan.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shitamachi_Museum%2C_Ueno%2C_Tokyo%2C_Japan.JPG/960px-Shitamachi_Museum%2C_Ueno%2C_Tokyo%2C_Japan.JPG"
+    alt: "Shitamachi Museum building, Ueno"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Shitamachi_Museum%2C_Ueno%2C_Tokyo%2C_Japan.JPG"
 status: open
 approval: published
 source: ai-agent
@@ -44,7 +50,7 @@ aiSummary: "A hands-on museum at Shinobazu Pond that reconstructs a 1920s-30s To
 aiKeywords: [shitamachi museum, ueno park, old tokyo, edo shitamachi, taito museum]
 featured: false
 createdAt: 2026-07-04
-updatedAt: 2026-07-04
+updatedAt: 2026-07-13
 ---
 
 Right where Ueno Park spills down to Shinobazu Pond sits a museum with no grand facade and no gift-shop sprawl — just two floors built to recreate the vanished world of Tokyo's *shitamachi*, the low-lying merchant-and-artisan downtown that stood in contrast to the hilltop samurai districts.

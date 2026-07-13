@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "Flat streets, but old shops have steps and the crowds can be thick."
 dogFriendly: limited
-heroImage: "/images/attractions/kawagoe-little-edo.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kurazukuri_Street_in_Little_Edo.jpg/960px-Kurazukuri_Street_in_Little_Edo.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kurazukuri_Street_in_Little_Edo.jpg/960px-Kurazukuri_Street_in_Little_Edo.jpg"
+    alt: "Kurazukuri street, Kawagoe"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Kurazukuri_Street_in_Little_Edo.jpg"
   - src: "/images/attractions/kawagoe-little-edo-1.svg"
     alt: "A street of black clay-walled Edo-era warehouses and a wooden bell tower"
     caption: "Stepped back into old Edo. That bell tower still rings four times a day."
@@ -52,7 +56,7 @@ aiKeywords: [kawagoe, little edo, koedo, kurazukuri, toki no kane, saitama]
 related:
   - nihon-minkaen
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Less than an hour from central Tokyo, **Kawagoe** kept the face that the capital itself lost to fires and war. Nicknamed **"Little Edo,"** its old quarter is a street of heavy, fire-resistant **kurazukuri** clay-walled merchant warehouses, dark and dignified, exactly as a prosperous Edo-period town would have looked.

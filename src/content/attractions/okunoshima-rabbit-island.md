@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "Ferry and main paths are flat; some museum/trail sections are not."
 dogFriendly: no
-heroImage: "/images/attractions/okunoshima-rabbit-island.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Okunojima-rabbit.JPG/960px-Okunojima-rabbit.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Okunojima-rabbit.JPG/960px-Okunojima-rabbit.JPG"
+    alt: "Rabbits on Okunoshima"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Okunojima-rabbit.JPG"
   - src: "/images/attractions/okunoshima-rabbit-island-1.svg"
     alt: "An avalanche of rabbits hopping eagerly toward the viewer"
     caption: "Hundreds of bunnies. My one job was 'stay calm.' I failed."
@@ -48,7 +52,7 @@ aiKeywords: [usagi shima, rabbits, inland sea, poison gas, takehara, ferry]
 related:
   - nagoro-scarecrow-village
 createdAt: 2025-07-22
-updatedAt: 2025-09-18
+updatedAt: 2026-07-13
 ---
 
 A fifteen-minute ferry from the Hiroshima coast lands you on **Okunoshima**, where the welcoming committee is several hundred wild rabbits that will hop straight into your lap at the rustle of a food bag.

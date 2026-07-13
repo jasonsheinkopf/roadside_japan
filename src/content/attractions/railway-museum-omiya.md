@@ -26,8 +26,12 @@ accessibility:
   wheelchair: yes
   note: "Large, modern, step-free museum with elevators."
 dogFriendly: no
-heroImage: "/images/attractions/railway-museum-omiya.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Omiya_Railway_Museum_%E5%A4%A7%E5%AE%AE%E9%90%B5%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8_-_panoramio_(4).jpg/960px-Omiya_Railway_Museum_%E5%A4%A7%E5%AE%AE%E9%90%B5%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8_-_panoramio_(4).jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Omiya_Railway_Museum_%E5%A4%A7%E5%AE%AE%E9%90%B5%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8_-_panoramio_(4).jpg/960px-Omiya_Railway_Museum_%E5%A4%A7%E5%AE%AE%E9%90%B5%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8_-_panoramio_(4).jpg"
+    alt: "Railway Museum, Omiya"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Omiya_Railway_Museum_%E5%A4%A7%E5%AE%AE%E9%90%B5%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8_-_panoramio_(4).jpg"
   - src: "/images/attractions/railway-museum-omiya-1.svg"
     alt: "A vast hall full of historic Japanese trains including a bullet-train nose"
     caption: "Rooms full of real trains, including an old bullet train. Choo."
@@ -52,7 +56,7 @@ aiKeywords: [railway museum, omiya, saitama, trains, shinkansen, turntable]
 related:
   - oya-history-museum
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Japan loves its trains, and the **Railway Museum** in Omiya is where that love is enshrined. Inside a huge hall sits a **fleet of real rolling stock** — gleaming steam locomotives, retired express cars, and the bullet-nosed early **shinkansen** — arranged so you can walk right up, climb aboard some, and feel the scale.

@@ -31,6 +31,12 @@ tips:
   - "Atami Bay's mortar-like shape, ringed by mountains, bounces the sound around into a much louder, more physical boom than most fireworks shows — regulars say it's felt as much as seen."
   - "Confirmed 2026 dates within a September/August window include August 18, August 24, and September 13 — always double-check the current schedule since dates shift with tourism promotions."
   - "Because it's a ~50-minute Shinkansen ride from Tokyo, this works well as a single evening add-on to a Hakone or Izu day trip rather than requiring an overnight stay."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Atami_from_the_mountain_top%2C_Atami%2C_Shizuoka%2C_Japan.JPG/960px-Atami_from_the_mountain_top%2C_Atami%2C_Shizuoka%2C_Japan.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Atami_from_the_mountain_top%2C_Atami%2C_Shizuoka%2C_Japan.JPG/960px-Atami_from_the_mountain_top%2C_Atami%2C_Shizuoka%2C_Japan.JPG"
+    alt: "Atami city and its bay (fireworks venue)"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Atami_from_the_mountain_top%2C_Atami%2C_Shizuoka%2C_Japan.JPG"
 status: seasonal
 approval: published
 source: ai-agent
@@ -45,7 +51,7 @@ aiSummary: "Atami, a hot-spring town on Sagami Bay about 50 minutes from Tokyo b
 aiKeywords: [atami fireworks, atami sea fireworks, hanabi shizuoka, atami onsen]
 featured: false
 createdAt: 2026-07-12
-updatedAt: 2026-07-12
+updatedAt: 2026-07-13
 ---
 
 Most cities hold one big summer fireworks night; Atami holds around fifteen a year — and its bay's odd shape turns every one of them into an unusually intense show.

@@ -27,8 +27,12 @@ accessibility:
   wheelchair: partial
   note: "Hilly site with snow and ice in winter; some slopes are steep."
 dogFriendly: no
-heroImage: "/images/attractions/asahiyama-zoo-penguin-walk.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Walking_King_Penguins_in_Asahiyama_Zoo.JPG/960px-Walking_King_Penguins_in_Asahiyama_Zoo.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Walking_King_Penguins_in_Asahiyama_Zoo.JPG/960px-Walking_King_Penguins_in_Asahiyama_Zoo.JPG"
+    alt: "King penguins walking at Asahiyama Zoo"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Walking_King_Penguins_in_Asahiyama_Zoo.JPG"
   - src: "/images/attractions/asahiyama-zoo-penguin-walk-1.svg"
     alt: "A line of king penguins waddling through the snow past watching visitors"
     caption: "They march. They waddle. They do not care that you're filming."
@@ -53,7 +57,7 @@ aiKeywords: [asahiyama zoo, penguin walk, asahikawa, hokkaido, king penguin, win
 related:
   - jigokudani-monkey-park
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Most zoos keep the animals behind glass. **Asahiyama Zoo**, the northernmost in Japan, had a better idea for winter: open the gate and let the **penguins go for a walk**. Twice a day in the snow season, a line of **king penguins** waddles out along a roped path, straight through the watching crowd.

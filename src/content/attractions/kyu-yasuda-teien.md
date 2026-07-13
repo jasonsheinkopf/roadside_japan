@@ -26,6 +26,12 @@ tips:
   - "The pond was originally a tidal inlet fed directly by the Sumida River; it's now cut off and refilled by pumps that raise and lower the water level daily to mimic the original tidal effect."
   - "Started as a daimyo (feudal lord) residence in 1691, then remodeled by financier Zenjiro Yasuda in 1894 before reopening to the public in 1927 after Great Kanto Earthquake reconstruction."
   - "Pair it with the Japanese Sword Museum and Yokoamicho Park next door — all three sit within a couple minutes' walk of each other."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Kyu-Yasuda_Teien_Garden_(16179738292).jpg/960px-Kyu-Yasuda_Teien_Garden_(16179738292).jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Kyu-Yasuda_Teien_Garden_(16179738292).jpg/960px-Kyu-Yasuda_Teien_Garden_(16179738292).jpg"
+    alt: "Kyu-Yasuda Teien pond garden"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Kyu-Yasuda_Teien_Garden_(16179738292).jpg"
 status: open
 approval: published
 source: ai-agent
@@ -40,7 +46,7 @@ aiSummary: "A free strolling garden in Ryogoku dating to a 1691 samurai residenc
 aiKeywords: [kyu-yasuda teien, ryogoku garden, daimyo garden, sumida ku park]
 featured: false
 createdAt: 2026-07-04
-updatedAt: 2026-07-04
+updatedAt: 2026-07-13
 ---
 
 A small, easy-to-miss strolling garden just north of the sumo stadium — free, quiet, and older than almost everything around it.

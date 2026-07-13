@@ -138,3 +138,14 @@ export function placeholderStyle(seed: string): string {
   const h2 = (h + 40) % 360;
   return `background: linear-gradient(135deg, hsl(${h} 70% 82%), hsl(${h2} 65% 70%));`;
 }
+
+/**
+ * Inline onerror handler for remote photos. Hero/photo images may be hotlinked Wikimedia
+ * Commons *thumbnails*; if the requested thumb width exceeds the original's width the thumb
+ * URL 404s while the original always exists — so on error we retry the original file, and
+ * failing that hide the broken <img> (revealing the placeholder/background instead).
+ */
+export const IMG_ONERROR =
+  "this.onerror=null;" +
+  "var m=this.src.match(/^(https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons)\\/thumb(\\/.+)\\/[0-9]+px-[^\\/]+$/);" +
+  "if(m){this.src=m[1]+m[2];}else{this.style.display='none';}";

@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "The grounds have many steps between halls; some areas are step-free."
 dogFriendly: limited
-heroImage: "/images/attractions/naritasan-shinshoji.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Naritasan_Shinshoji_Temple_01.jpg/960px-Naritasan_Shinshoji_Temple_01.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Naritasan_Shinshoji_Temple_01.jpg/960px-Naritasan_Shinshoji_Temple_01.jpg"
+    alt: "Naritasan Shinshoji temple"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Naritasan_Shinshoji_Temple_01.jpg"
   - src: "/images/attractions/naritasan-shinshoji-1.svg"
     alt: "A grand temple complex with a three-story pagoda and a large main hall"
     caption: "A huge, grand temple right by the airport. Smells of incense and grilled eel."
@@ -52,7 +56,7 @@ aiKeywords: [naritasan, shinshoji, narita, chiba, temple, unagi, hatsumode]
 related:
   - kawasaki-daishi
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Most travelers rush past Narita on the way to or from the airport, never realizing that one of the great temple complexes of the Kanto region sits **ten minutes away**. **Naritasan Shinshoji**, founded in the year 940, is a sprawling, living temple that makes a perfect bookend to a trip to Japan.

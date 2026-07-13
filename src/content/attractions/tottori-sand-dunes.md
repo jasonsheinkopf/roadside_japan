@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "There's a viewing area and a lift near the entrance, but the dunes themselves are soft, steep sand."
 dogFriendly: yes
-heroImage: "/images/attractions/tottori-sand-dunes.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tottori-Sakyu_Tottori_Japan.JPG/960px-Tottori-Sakyu_Tottori_Japan.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tottori-Sakyu_Tottori_Japan.JPG/960px-Tottori-Sakyu_Tottori_Japan.JPG"
+    alt: "The Tottori sand dunes"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Tottori-Sakyu_Tottori_Japan.JPG"
   - src: "/images/attractions/tottori-sand-dunes-1.svg"
     alt: "A saddled camel giving a haughty side-eye in the dunes"
     caption: "Met a camel. He did not respect my authority."
@@ -55,7 +59,7 @@ aiKeywords: [tottori sakyu, sand dunes, japan desert, camel, sandboarding, sand 
 related:
   - ibusuki-sand-bath
 createdAt: 2026-06-13
-updatedAt: 2026-06-13
+updatedAt: 2026-07-13
 ---
 
 Most people don't picture a **desert** when they picture Japan. Then they crest the ridge at the **Tottori Sand Dunes** and find kilometers of rippling, wind-sculpted sand running right up to the edge of the Sea of Japan. It's the country's largest dune field, and it has quietly become one of its most surprising landscapes.

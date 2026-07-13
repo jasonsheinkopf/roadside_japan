@@ -29,8 +29,12 @@ accessibility:
   wheelchair: yes
   note: "Mostly flat, paved viewing paths."
 dogFriendly: yes
-heroImage: "/images/events/fuji-shibazakura-festival.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Fuji_Shibazakura_Festival.jpg/960px-Fuji_Shibazakura_Festival.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Fuji_Shibazakura_Festival.jpg/960px-Fuji_Shibazakura_Festival.jpg"
+    alt: "Shibazakura fields with Mt. Fuji"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Fuji_Shibazakura_Festival.jpg"
   - src: "/images/events/fuji-shibazakura-festival-1.svg"
     alt: "A close-up of pink moss-phlox carpets planted in ribbons"
     caption: "Half a million pink flowers under Mt. Fuji. Showoff mountain."
@@ -50,7 +54,7 @@ featured: true
 aiSummary: "Spring festival near Lake Motosu where vast carpets of pink shibazakura (moss phlox) bloom against the backdrop of Mt. Fuji."
 aiKeywords: [shibazakura, moss phlox, mount fuji, motosu, spring flowers, yamanashi]
 createdAt: 2026-01-15
-updatedAt: 2026-02-01
+updatedAt: 2026-07-13
 ---
 
 For about six weeks each spring, the slopes near Lake Motosu erupt in pink, white, and magenta as some **500,000 shibazakura** (moss phlox) flowers bloom into sweeping ribbons of color — all framed by the snow-capped cone of **Mt. Fuji** rising behind.

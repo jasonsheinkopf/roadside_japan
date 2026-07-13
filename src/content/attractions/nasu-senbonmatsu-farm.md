@@ -26,8 +26,12 @@ accessibility:
   wheelchair: yes
   note: "Wide, mostly flat farm grounds."
 dogFriendly: limited
-heroImage: "/images/attractions/nasu-senbonmatsu-farm.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Horai_Nasu_Factory%2C_Senbonmatsu_Farm.jpg/960px-Horai_Nasu_Factory%2C_Senbonmatsu_Farm.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Horai_Nasu_Factory%2C_Senbonmatsu_Farm.jpg/960px-Horai_Nasu_Factory%2C_Senbonmatsu_Farm.jpg"
+    alt: "Senbonmatsu Farm buildings"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Horai_Nasu_Factory%2C_Senbonmatsu_Farm.jpg"
   - src: "/images/attractions/nasu-senbonmatsu-farm-1.svg"
     alt: "A green dairy farm with cows, a hot-air balloon and soft-serve ice cream"
     caption: "Cows, fresh-milk soft-serve, and a hot-air balloon. Pure farm joy."
@@ -52,7 +56,7 @@ aiKeywords: [nasu senbonmatsu farm, dairy, soft serve, hot air balloon, nasushio
 related:
   - mother-farm
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Out on the open Nasu plain, **Nasu Senbonmatsu Farm** is a working dairy turned breezy farm-park — the kind of place where the headline attraction is a really, really good **soft-serve ice cream** made from that morning's milk.

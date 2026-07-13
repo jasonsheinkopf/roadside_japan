@@ -26,8 +26,12 @@ accessibility:
   wheelchair: no
   note: "A serious volcano hike up high; only the lower areas are easy walking."
 dogFriendly: limited
-heroImage: "/images/attractions/mount-chokai.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/View_of_Mount_Chokai_from_a_farm-2.jpg/960px-View_of_Mount_Chokai_from_a_farm-2.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/View_of_Mount_Chokai_from_a_farm-2.jpg/960px-View_of_Mount_Chokai_from_a_farm-2.jpg"
+    alt: "Mount Chokai from farmland in Yuza"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:View_of_Mount_Chokai_from_a_farm-2.jpg"
   - src: "/images/attractions/mount-chokai-1.svg"
     alt: "A tall snow-streaked volcano rising above green foothills and the sea"
     caption: "Dewa Fuji — a perfect volcano with snow patches lingering into summer."
@@ -52,7 +56,7 @@ aiKeywords: [mount chokai, dewa fuji, volcano, motodaki, yuza, yamagata, hiking]
 related:
   - mount-nasu-ropeway
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Rising almost straight out of the **Japan Sea** at Yamagata's northern edge, **Mount Chokai** is so beautifully symmetrical that locals nicknamed it **"Dewa Fuji."** At **2,236 metres**, it's the second-highest peak in Tohoku and one of its most striking sights from miles around.

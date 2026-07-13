@@ -26,8 +26,12 @@ accessibility:
   wheelchair: yes
   note: "Wide, flat, paved paths throughout."
 dogFriendly: limited
-heroImage: "/images/attractions/ashikaga-flower-park.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/20190430Ashikaga_Flower_Park_1.jpg/960px-20190430Ashikaga_Flower_Park_1.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/20190430Ashikaga_Flower_Park_1.jpg/960px-20190430Ashikaga_Flower_Park_1.jpg"
+    alt: "From Category:Ashikaga Flower Park listing"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:20190430Ashikaga_Flower_Park_1.jpg"
   - src: "/images/attractions/ashikaga-flower-park-1.svg"
     alt: "A vast 160-year-old wisteria tree dripping violet blossoms over a wide trellis"
     caption: "One wisteria tree, 160 years old, the size of a house. Completely unreal."
@@ -54,7 +58,7 @@ aiKeywords: [ashikaga flower park, great wisteria, fuji, illumination, ashikaga,
 related:
   - kawachi-fuji-garden
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Some flowers you admire; the **Great Wisteria of Ashikaga** you stand *beneath*, mouth open. **Ashikaga Flower Park** is built around a single **160-year-old wisteria** whose trained canopy spreads over **more than a thousand square metres**, raining violet blossom from a trellis held up like a sky.

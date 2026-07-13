@@ -26,8 +26,12 @@ accessibility:
   wheelchair: no
   note: "The pagoda is reached by a long stone stairway through the forest — not accessible (a summit road exists for the shrine)."
 dogFriendly: limited
-heroImage: "/images/attractions/haguro-five-story-pagoda.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Five_tier_pagoda_at_Mt._Haguro_2006-10-29.jpg/960px-Five_tier_pagoda_at_Mt._Haguro_2006-10-29.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Five_tier_pagoda_at_Mt._Haguro_2006-10-29.jpg/960px-Five_tier_pagoda_at_Mt._Haguro_2006-10-29.jpg"
+    alt: "The five-story pagoda at Mount Haguro"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Five_tier_pagoda_at_Mt._Haguro_2006-10-29.jpg"
   - src: "/images/attractions/haguro-five-story-pagoda-1.svg"
     alt: "A weathered five-story wooden pagoda among towering ancient cedar trees"
     caption: "A 600-year-old pagoda hidden in a cedar forest, up 2,446 stone steps."
@@ -52,7 +56,7 @@ aiKeywords: [mount haguro, dewa sanzan, five-story pagoda, tsuruoka, yamagata, c
 related:
   - okunoin-koyasan
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 **Mt. Haguro** is the most accessible of the **Dewa Sanzan**, the three sacred mountains at the heart of Yamagata's mountain-worship tradition. The pilgrim's path begins at the **Zuishinmon gate** and climbs **2,446 stone steps** through a cathedral of cedars — and just a few minutes up stands the prize.

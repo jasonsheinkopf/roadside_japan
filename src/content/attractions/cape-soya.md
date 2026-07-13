@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "The monument area is paved and flat, but exposed and very windy."
 dogFriendly: yes
-heroImage: "/images/attractions/cape-soya.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_northernmost_point_of_Japan_monument_in_Soya_cape.jpg/960px-The_northernmost_point_of_Japan_monument_in_Soya_cape.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_northernmost_point_of_Japan_monument_in_Soya_cape.jpg/960px-The_northernmost_point_of_Japan_monument_in_Soya_cape.jpg"
+    alt: "Northernmost point monument at Cape Soya"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:The_northernmost_point_of_Japan_monument_in_Soya_cape.jpg"
   - src: "/images/attractions/cape-soya-1.svg"
     alt: "The stark triangular northernmost-point monument against a gray windy sea"
     caption: "The actual top of Japan. There is nowhere further to walk north."
@@ -52,7 +56,7 @@ aiKeywords: [cape soya, soya misaki, northernmost point, wakkanai, hokkaido, okh
 related:
   - aogashima-island
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Drive to the very end of the road at the very top of Japan and you arrive at **Cape Sōya**, where the land runs out into the cold Sea of Okhotsk. A stark, pointed monument marks the **northernmost point of mainland Japan** — and on the right day, you can see another country across the water.

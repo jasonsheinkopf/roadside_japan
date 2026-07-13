@@ -27,8 +27,12 @@ accessibility:
   wheelchair: no
   note: "Hundreds of uneven stone steps; not accessible."
 dogFriendly: limited
-heroImage: "/images/attractions/nokogiriyama-jigoku-nozoki.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nokogiriyama_Jigoku-nozoki_SIDE.JPG/960px-Nokogiriyama_Jigoku-nozoki_SIDE.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nokogiriyama_Jigoku-nozoki_SIDE.JPG/960px-Nokogiriyama_Jigoku-nozoki_SIDE.JPG"
+    alt: "The Jigoku Nozoki overhang at Mt. Nokogiri"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Nokogiriyama_Jigoku-nozoki_SIDE.JPG"
   - src: "/images/attractions/nokogiriyama-jigoku-nozoki-1.svg"
     alt: "The giant seated stone Daibutsu among the forest trees"
     caption: "Biggest seated stone Buddha in Japan. I sat too, in solidarity."
@@ -50,7 +54,7 @@ aiKeywords: [nokogiriyama, jigoku nozoki, nihonji, daibutsu, rakan, boso peninsu
 related:
   - ushiku-daibutsu
 createdAt: 2025-06-30
-updatedAt: 2025-11-05
+updatedAt: 2026-07-13
 ---
 
 Across the bay from the Boso Peninsula's quiet coast rises **Nokogiriyama** — "Saw-tooth Mountain" — its jagged profile carved by centuries of stone quarrying. The cuts left behind created one of Japan's most photographed thrills.

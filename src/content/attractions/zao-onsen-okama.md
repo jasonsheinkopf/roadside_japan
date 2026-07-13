@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "The village and a summit overlook are partly accessible; crater-rim paths are rough."
 dogFriendly: limited
-heroImage: "/images/attractions/zao-onsen-okama.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Okama_lake_zao.JPG/960px-Okama_lake_zao.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Okama_lake_zao.JPG/960px-Okama_lake_zao.JPG"
+    alt: "The Okama crater lake, Zao"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Okama_lake_zao.JPG"
   - src: "/images/attractions/zao-onsen-okama-1.svg"
     alt: "An emerald-green volcanic crater lake ringed by bare rocky slopes"
     caption: "A crater lake so green it looks fake. Cool mountain air, even in August."
@@ -53,7 +57,7 @@ related:
   - zao-snow-monsters
   - mount-nasu-ropeway
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 In winter, Mt. Zao is the realm of the frozen "snow monsters." But come **summer**, the same mountain is a cool green escape from the lowland heat — and its single most jaw-dropping sight is a lake the color of a marble.

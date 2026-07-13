@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "A viewing deck is accessible; the terraces themselves are steep and unpaved."
 dogFriendly: limited
-heroImage: "/images/attractions/oyama-senmaida.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Oyamasenmaida.JPG/960px-Oyamasenmaida.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Oyamasenmaida.JPG/960px-Oyamasenmaida.JPG"
+    alt: "Oyama Senmaida rice terraces"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Oyamasenmaida.JPG"
   - src: "/images/attractions/oyama-senmaida-1.svg"
     alt: "Terraced rice paddies stepping down a green hillside, reflecting the sky"
     caption: "Hundreds of little mirror-paddies stacked up a hill. In winter they glow with lights."
@@ -52,7 +56,7 @@ aiKeywords: [oyama senmaida, rice terraces, tanada, kamogawa, chiba, illuminatio
 related:
   - takeda-castle-ruins
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Tucked into the hills of southern Chiba, **Oyama Senmaida** — "the thousand rice fields of Oyama" — is the nearest classic **rice-terrace** landscape to Tokyo, and one of the prettiest. Some 375 tiny paddies step down the slope in a patchwork of curved banks.

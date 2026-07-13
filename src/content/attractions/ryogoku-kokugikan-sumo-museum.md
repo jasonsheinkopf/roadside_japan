@@ -29,6 +29,12 @@ tips:
   - "Important for a Saturday visit: the Sumo Museum inside the stadium is only open on weekdays (10:00-16:30) when there's no tournament — it's closed Saturdays, Sundays, and holidays outside honbasho weeks."
   - "Even when the museum itself is shut, the stadium exterior, yokozuna handprint displays, and the surrounding streets (lined with sumo-stable chanko restaurants and stone-carved wrestler names) are worth the walk-by any day."
   - "If your trip lines up with January, May, or September, this becomes the single most memorable stop on the whole route — but check the calendar in advance."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ryogoku_Kokugikan_Tsuriyane_05212006.jpg/960px-Ryogoku_Kokugikan_Tsuriyane_05212006.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ryogoku_Kokugikan_Tsuriyane_05212006.jpg/960px-Ryogoku_Kokugikan_Tsuriyane_05212006.jpg"
+    alt: "The dohyo and hanging roof inside Ryogoku Kokugikan"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan_Tsuriyane_05212006.jpg"
 status: open
 approval: published
 source: ai-agent
@@ -43,7 +49,7 @@ aiSummary: "Home stadium of Japanese professional sumo, built in 1985, with an o
 aiKeywords: [ryogoku kokugikan, sumo museum, sumo stadium tokyo, honbasho]
 featured: true
 createdAt: 2026-07-04
-updatedAt: 2026-07-04
+updatedAt: 2026-07-13
 ---
 
 The building that anchors the entire neighborhood — a 10,000-plus-seat arena that's hosted Japan's national sport since 1985, standing on ground that's been sumo territory since long before that.

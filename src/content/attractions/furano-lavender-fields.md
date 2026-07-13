@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "Gentle slopes and gravel paths between the flower fields."
 dogFriendly: limited
-heroImage: "/images/attractions/furano-lavender-fields.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Farm-Tomita.Irodori-no-Hatake01.JPG/960px-Farm-Tomita.Irodori-no-Hatake01.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Farm-Tomita.Irodori-no-Hatake01.JPG/960px-Farm-Tomita.Irodori-no-Hatake01.JPG"
+    alt: "Irodori flower field at Farm Tomita"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Farm-Tomita.Irodori-no-Hatake01.JPG"
   - src: "/images/attractions/furano-lavender-fields-1.svg"
     alt: "Striped rows of purple lavender and rainbow flowers running up a hill to a red-roofed farm"
     caption: "Stripes of purple as far as my nose could smell. Heaven, basically."
@@ -52,7 +56,7 @@ aiKeywords: [farm tomita, furano, nakafurano, lavender, flower fields, hokkaido]
 related:
   - hitachi-seaside-park
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 For most of the year it's quiet farmland. Then July arrives and **Farm Tomita** detonates into colour: long corduroy stripes of **purple lavender** climbing the hills of the Furano valley, hemmed by ribbons of poppies, salvia, and cosmos in a rainbow of rows.

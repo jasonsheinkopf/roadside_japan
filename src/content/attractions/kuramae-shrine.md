@@ -28,6 +28,12 @@ tips:
   - "Look for the sumo memorial stele on the grounds — it marks the shrine's role as the site of Edo-period kanjin-zumo, charity tournaments held to raise funds for shrines and temples."
   - "The name 'Kuramae' ('in front of the storehouse') comes from the shogunate's rice warehouses that once lined this stretch of the Sumida River."
   - "Small and free — a five-minute detour that adds real Edo history to a walk through Kuramae's shops."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Kuramaejinjya.jpg/960px-Kuramaejinjya.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Kuramaejinjya.jpg/960px-Kuramaejinjya.jpg"
+    alt: "Kuramae Shrine, Taito"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Kuramaejinjya.jpg"
 status: open
 approval: published
 source: ai-agent
@@ -42,7 +48,7 @@ aiSummary: "Founded in 1693 by shogun Tokugawa Tsunayoshi, this Kuramae shrine h
 aiKeywords: [kuramae shrine, kanjin sumo, edo shrine, sumo history, taito shrine]
 featured: false
 createdAt: 2026-07-04
-updatedAt: 2026-07-04
+updatedAt: 2026-07-13
 ---
 
 A modest neighborhood shrine one minute from Kuramae Station, founded in 1693 by the fifth Tokugawa shogun — and quietly one of the more historically loaded small shrines in Tokyo.

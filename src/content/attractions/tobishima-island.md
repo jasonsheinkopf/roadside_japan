@@ -26,8 +26,12 @@ accessibility:
   wheelchair: no
   note: "Small boat boarding and rough island paths — not accessible."
 dogFriendly: limited
-heroImage: "/images/attractions/tobishima-island.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tobi-sima_Island_Yamagata_prefecture_Aerial_photograph.1976.jpg/960px-Tobi-sima_Island_Yamagata_prefecture_Aerial_photograph.1976.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tobi-sima_Island_Yamagata_prefecture_Aerial_photograph.1976.jpg/960px-Tobi-sima_Island_Yamagata_prefecture_Aerial_photograph.1976.jpg"
+    alt: "Aerial photograph of Tobishima"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Tobi-sima_Island_Yamagata_prefecture_Aerial_photograph.1976.jpg"
   - src: "/images/attractions/tobishima-island-1.svg"
     alt: "A small green island with clear blue water, fishing boats, and seabirds"
     caption: "A tiny island an hour out to sea — clear water, seabirds, fresh fish."
@@ -53,7 +57,7 @@ related:
   - aoshima-cat-island
   - okunoshima-rabbit-island
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Out in the Japan Sea, about **75 minutes by ferry** from the port of Sakata, floats **Tobishima** — Yamagata's only inhabited offshore island, and one of its best-kept summer secrets.

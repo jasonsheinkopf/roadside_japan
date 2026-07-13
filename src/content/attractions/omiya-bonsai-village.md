@@ -27,8 +27,12 @@ accessibility:
   wheelchair: partial
   note: "Flat streets and a modern museum; some nurseries are small and tight."
 dogFriendly: limited
-heroImage: "/images/attractions/omiya-bonsai-village.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Saitama_Municipal_Omiya_Bonsai_Art_Museum.JPG/960px-Saitama_Municipal_Omiya_Bonsai_Art_Museum.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Saitama_Municipal_Omiya_Bonsai_Art_Museum.JPG/960px-Saitama_Municipal_Omiya_Bonsai_Art_Museum.JPG"
+    alt: "Omiya Bonsai Art Museum"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Saitama_Municipal_Omiya_Bonsai_Art_Museum.JPG"
   - src: "/images/attractions/omiya-bonsai-village-1.svg"
     alt: "A row of meticulously shaped miniature bonsai trees on display stands"
     caption: "Tiny ancient trees, some centuries old. Tiny and very wise."
@@ -53,7 +57,7 @@ aiKeywords: [omiya bonsai village, bonsai, saitama, nursery, bonsai museum]
 related:
   - moerenuma-park
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 After the great Kanto earthquake of 1923, a community of Tokyo's **bonsai growers** sought clean air and good water and resettled together in northern **Omiya**. A century later, the **Bonsai Village** they founded is still here — a hushed grid of streets where the front gardens are nurseries and the residents are master cultivators.

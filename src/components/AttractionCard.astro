@@ -14,6 +14,7 @@ import {
   formatDateRange,
   formatKm,
   placeholderStyle,
+  IMG_ONERROR,
 } from "../lib/format";
 
 interface Props {
@@ -42,6 +43,7 @@ const costLabel = r.costType === "free" ? "Free" : COST_LABEL[r.costType];
           alt={r.title}
           loading="lazy"
           decoding="async"
+          onerror={IMG_ONERROR}
           class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
         />
       ) : (

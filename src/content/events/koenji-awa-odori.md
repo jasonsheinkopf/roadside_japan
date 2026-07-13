@@ -33,6 +33,12 @@ tips:
   - "Dancing runs 5:00-8:00pm both days across eight separate performance areas — arrive early to stake out a spot near JR Koenji Station, the busiest zone."
   - "Awa Odori originated 400+ years ago in Tokushima, Shikoku; Koenji's version, now in its 67th year for 2026, has grown into Tokyo's own version, drawing an estimated one million spectators over the weekend."
   - "Koenji itself is worth wandering before the dancing starts — it's one of Tokyo's best neighborhoods for vintage clothing shops and small live-music bars."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/KoenjiAwaOdori.jpg/960px-KoenjiAwaOdori.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/KoenjiAwaOdori.jpg/960px-KoenjiAwaOdori.jpg"
+    alt: "Awa Odori dancers in Koenji"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:KoenjiAwaOdori.jpg"
 status: seasonal
 approval: published
 source: ai-agent
@@ -47,7 +53,7 @@ aiSummary: "Tokyo's largest Awa Odori dance festival, held the last weekend of A
 aiKeywords: [koenji awa odori, tokyo summer festival, awa odori tokyo, suginami festival]
 featured: true
 createdAt: 2026-07-12
-updatedAt: 2026-07-12
+updatedAt: 2026-07-13
 ---
 
 Every year on the last weekend of August, the quiet residential streets around Koenji Station give way to Tokyo's biggest folk-dance festival — a direct transplant of Tokushima's centuries-old Awa Odori tradition.

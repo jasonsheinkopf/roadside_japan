@@ -31,6 +31,12 @@ tips:
   - "Book tickets online well in advance — weekend and evening slots sell out, and the museum uses timed entry."
   - "There's no set route: corridors loop back on themselves and connect unpredictably, and the museum leans into visitors getting a little lost rather than following a map."
   - "Wear something you don't mind getting slightly wet or catching light easily — several rooms involve wading through ankle-deep water or standing among projected flower fields."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TeamLab_Borderless_Azabudai_Hills.jpg/960px-TeamLab_Borderless_Azabudai_Hills.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TeamLab_Borderless_Azabudai_Hills.jpg/960px-TeamLab_Borderless_Azabudai_Hills.jpg"
+    alt: "TeamLab Borderless at Azabudai Hills"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:TeamLab_Borderless_Azabudai_Hills.jpg"
 status: open
 approval: published
 source: ai-agent
@@ -45,7 +51,7 @@ aiSummary: "teamLab Borderless at Azabudai Hills is a large-scale, map-less digi
 aiKeywords: [teamlab borderless, azabudai hills, digital art museum tokyo, immersive art tokyo]
 featured: true
 createdAt: 2026-07-12
-updatedAt: 2026-07-12
+updatedAt: 2026-07-13
 ---
 
 Not seasonal, not weather-dependent, and unlike almost anything else nearby — teamLab Borderless is the kind of stop that works on literally any day of a Tokyo trip, which makes it an easy anchor for a visiting family member regardless of when exactly they're in town.

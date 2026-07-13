@@ -25,8 +25,12 @@ accessibility:
   wheelchair: no
   note: "Steep volcanic terrain, a tiny working harbor, and limited services — not accessible."
 dogFriendly: limited
-heroImage: "/images/attractions/aogashima-island.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Aogashima01.jpg/960px-Aogashima01.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Aogashima01.jpg/960px-Aogashima01.jpg"
+    alt: "Aogashima island (classic aerial view)"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Aogashima01.jpg"
   - src: "/images/attractions/aogashima-island-1.svg"
     alt: "An aerial view of the green double-caldera volcanic island"
     caption: "A volcano inside a volcano, with a whole village inside that."
@@ -53,7 +57,7 @@ aiKeywords: [aogashima, double caldera, izu islands, tokyo, volcano, remote isla
 related:
   - noboribetsu-jigokudani
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Three hundred and sixty kilometres south of Tokyo, alone in the open Pacific, sits a green wall of cliffs that turns out to be the rim of a volcano — and inside that volcano lives a village. **Aogashima** is the least-populated municipality in Japan, home to around **170 people**, and one of the strangest, most beautiful places the country administers.

@@ -29,6 +29,12 @@ tips:
   - "Each show is short — about five minutes — so it works well stacked onto an evening in Minato Mirai or Yamashita Park rather than as a destination on its own."
   - "Launched from either Osanbashi Pier or Shinko Pier depending on the date; check the specific night's launch site before choosing a viewing spot."
   - "Within an August-September window, 2026 shows land on September 5 and September 20 — good, low-crowd alternatives to the single huge citywide festivals."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Minato-mirai_from_Yamashita_Park_at_night.jpg/960px-Minato-mirai_from_Yamashita_Park_at_night.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Minato-mirai_from_Yamashita_Park_at_night.jpg/960px-Minato-mirai_from_Yamashita_Park_at_night.jpg"
+    alt: "Yokohama harbor night skyline"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Minato-mirai_from_Yamashita_Park_at_night.jpg"
 status: seasonal
 approval: published
 source: ai-agent
@@ -43,7 +49,7 @@ aiSummary: "A recurring series of short, free fireworks displays over Yokohama h
 aiKeywords: [yokohama night flowers, yokohama sparkling twilight, yokohama fireworks, minato mirai fireworks]
 featured: false
 createdAt: 2026-07-12
-updatedAt: 2026-07-12
+updatedAt: 2026-07-13
 ---
 
 Yokohama's answer to a single big annual fireworks night is the opposite approach: a dozen small, free shows scattered across the year, so there's a good chance one lands on whatever weekend you happen to be in town.

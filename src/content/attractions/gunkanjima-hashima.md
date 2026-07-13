@@ -26,8 +26,12 @@ accessibility:
   wheelchair: no
   note: "Boat boarding plus uneven, restricted ruin walkways — not accessible."
 dogFriendly: no
-heroImage: "/images/attractions/gunkanjima-hashima.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Gunkanjima_Island.jpg/960px-Gunkanjima_Island.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Gunkanjima_Island.jpg/960px-Gunkanjima_Island.jpg"
+    alt: "Hashima (Battleship Island) from the sea"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Gunkanjima_Island.jpg"
   - src: "/images/attractions/gunkanjima-hashima-1.svg"
     alt: "A tour boat approaching the battleship-shaped abandoned island"
     caption: "An entire city, left to the sea. I kept my voice down."
@@ -52,7 +56,7 @@ aiKeywords: [gunkanjima, hashima, battleship island, abandoned, nagasaki, coal m
 related:
   - oya-history-museum
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 From a distance it really does look like a warship: a low gray slab bristling with towers, riding the swells off the coast of Nagasaki. Up close, **Hashima Island** — nicknamed **Gunkanjima**, "Battleship Island" — is something stranger: an entire abandoned city packed onto a rock barely 480 metres long.

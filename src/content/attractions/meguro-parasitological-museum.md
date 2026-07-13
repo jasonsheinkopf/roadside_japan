@@ -25,8 +25,12 @@ accessibility:
   wheelchair: partial
   note: "Elevator between the two exhibition floors."
 dogFriendly: no
-heroImage: "/images/attractions/meguro-parasitological-museum.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Meguro_parasitological_museum_shimomeguro_tokyo_2009.JPG/960px-Meguro_parasitological_museum_shimomeguro_tokyo_2009.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Meguro_parasitological_museum_shimomeguro_tokyo_2009.JPG/960px-Meguro_parasitological_museum_shimomeguro_tokyo_2009.JPG"
+    alt: "Museum exterior, Shimomeguro"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Meguro_parasitological_museum_shimomeguro_tokyo_2009.JPG"
   - src: "/images/attractions/meguro-parasitological-museum-1.svg"
     alt: "A parasite suspended in resin as a souvenir keychain"
     caption: "They sell these as souvenirs. I love this strange little world."
@@ -51,7 +55,7 @@ aiKeywords: [parasites, tapeworm, kiseichu, weird museum, tokyo, free museum]
 related:
   - oya-history-museum
 createdAt: 2025-10-05
-updatedAt: 2025-12-01
+updatedAt: 2026-07-13
 ---
 
 Tucked into a quiet residential block near the Meguro River is a museum so single-minded it has become a legend: the **Meguro Parasitological Museum**, founded in 1953 and devoted entirely to the study of parasites.

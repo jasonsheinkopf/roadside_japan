@@ -26,8 +26,12 @@ accessibility:
   wheelchair: no
   note: "Small boat, a working harbor, and uneven village paths — not wheelchair friendly."
 dogFriendly: no
-heroImage: "/images/attractions/aoshima-cat-island.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cats_in_aoshima_island_1.JPG/960px-Cats_in_aoshima_island_1.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cats_in_aoshima_island_1.JPG/960px-Cats_in_aoshima_island_1.JPG"
+    alt: "Cats on Aoshima island Ehime"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Cats_in_aoshima_island_1.JPG"
   - src: "/images/attractions/aoshima-cat-island-1.svg"
     alt: "A contented cat asleep on an overturned blue fishing boat"
     caption: "The locals were utterly unbothered by my arrival. Respect. 🐈"
@@ -53,7 +57,7 @@ aiKeywords: [aoshima, cat island, ehime, neko, nagahama ferry, shikoku]
 related:
   - okunoshima-rabbit-island
 createdAt: 2026-06-13
-updatedAt: 2026-06-13
+updatedAt: 2026-07-13
 ---
 
 Off the coast of Ehime, on Shikoku, sits a speck of an island called **Aoshima** — and it belongs to the cats. A dwindling handful of human residents share the place with many times their number of free-roaming felines, who gather at the little harbor to greet the ferry as it pulls in.

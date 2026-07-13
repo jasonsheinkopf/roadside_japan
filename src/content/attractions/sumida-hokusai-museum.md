@@ -29,6 +29,12 @@ tips:
   - "Katsushika Hokusai spent most of his life in this exact neighborhood (old Honjo), moving house dozens of times but rarely leaving the area — the museum sits on his own turf, not a random tribute site elsewhere in Tokyo."
   - "The building itself, designed by SANAA's Kazuyo Sejima, is worth seeing from the outside alone: five angular, reflective aluminum-clad volumes that look like shards of foil dropped into a quiet residential block."
   - "Closed Mondays (with the usual holiday-shift exception) — last entry is 30 minutes before closing at 17:30."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/2020_Sumida_Hokusai_Museum_02.jpg/960px-2020_Sumida_Hokusai_Museum_02.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/2020_Sumida_Hokusai_Museum_02.jpg/960px-2020_Sumida_Hokusai_Museum_02.jpg"
+    alt: "The Sejima-designed museum building"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:2020_Sumida_Hokusai_Museum_02.jpg"
 status: open
 approval: published
 source: ai-agent
@@ -43,7 +49,7 @@ aiSummary: "A striking SANAA-designed museum in Sumida's Kamezawa neighborhood, 
 aiKeywords: [sumida hokusai museum, katsushika hokusai, great wave, ukiyo-e museum tokyo]
 featured: true
 createdAt: 2026-07-04
-updatedAt: 2026-07-04
+updatedAt: 2026-07-13
 ---
 
 Toward the Kinshicho end of this walk, a building unlike anything else in the neighborhood appears between low apartment blocks: five interlocking, mirror-bright aluminum volumes designed by Pritzker Prize-winning architect Kazuyo Sejima.
