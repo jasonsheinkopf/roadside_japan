@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "Stone steps and forest paths; partly accessible near the entrance."
 dogFriendly: limited
-heroImage: "/images/attractions/nasu-onsen-shrine.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Nasu_Yuzen_Shrine_from_Sessho-seki_area.jpg/960px-Nasu_Yuzen_Shrine_from_Sessho-seki_area.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Nasu_Yuzen_Shrine_from_Sessho-seki_area.jpg/960px-Nasu_Yuzen_Shrine_from_Sessho-seki_area.jpg"
+    alt: "Nasu Yuzen shrine seen from the Sessho-seki area"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Nasu_Yuzen_Shrine_from_Sessho-seki_area.jpg"
   - src: "/images/attractions/nasu-onsen-shrine-1.svg"
     alt: "An old mountain shrine with a red torii among cedars near steaming sulfur vents"
     caption: "A 1,300-year-old shrine on the volcano, right beside the famous killing stone."
@@ -53,7 +57,7 @@ related:
   - sessho-seki-killing-stone
   - shika-no-yu-onsen
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 At the top of **Nasu Yumoto**, where the road meets the steaming sulfur field, an avenue of towering cedars leads up to **Nasu Onsen Shrine** — the roughly **1,300-year-old** guardian of these hot springs, founded, the story goes, when the healing waters were first discovered.

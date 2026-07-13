@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "A boardwalk crosses the field, but the terrain is rough volcanic ground."
 dogFriendly: limited
-heroImage: "/images/attractions/sessho-seki-killing-stone.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/180726_Sessho-seki_Nasu_Japan05.JPG/960px-180726_Sessho-seki_Nasu_Japan05.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/180726_Sessho-seki_Nasu_Japan05.JPG/960px-180726_Sessho-seki_Nasu_Japan05.JPG"
+    alt: "Sessho-seki, Nasu"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:180726_Sessho-seki_Nasu_Japan05.JPG"
   - src: "/images/attractions/sessho-seki-killing-stone-1.svg"
     alt: "A large volcanic rock split in two on a steaming sulfur field, a nine-tailed fox spirit looming"
     caption: "The legendary 'killing stone' — it actually cracked open back in 2022. Spooky."
@@ -52,7 +56,7 @@ aiKeywords: [sessho-seki, killing stone, nine-tailed fox, tamamo no mae, nasu, t
 related:
   - osorezan-bodaiji
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Above the old hot-spring town of **Nasu Yumoto**, the forest gives way to a barren, hissing field of yellow sulfur called Sai-no-Kawara — and in the middle of it sits the **Sessho-seki**, the "Killing Stone."

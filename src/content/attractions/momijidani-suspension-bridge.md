@@ -27,8 +27,12 @@ accessibility:
   wheelchair: partial
   note: "The bridge deck is flat but sways; approaches have some steps."
 dogFriendly: limited
-heroImage: "/images/attractions/momijidani-suspension-bridge.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Momijidani_Suspension_Bridge_1.jpg/960px-Momijidani_Suspension_Bridge_1.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Momijidani_Suspension_Bridge_1.jpg/960px-Momijidani_Suspension_Bridge_1.jpg"
+    alt: "Momijidani suspension bridge (Tochigi bridges category)"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Momijidani_Suspension_Bridge_1.jpg"
   - src: "/images/attractions/momijidani-suspension-bridge-1.svg"
     alt: "A long suspension bridge over a forested river gorge in autumn colors"
     caption: "A 320-metre bridge swaying over a red autumn gorge. My paws tingled."
@@ -53,7 +57,7 @@ aiKeywords: [momijidani, otsuribashi, suspension bridge, shiobara, nasushiobara,
 related:
   - nasu-heisei-no-mori
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 The **Shiobara Onsen** valley, west of Nasu proper, is gorge country — and the most exhilarating way to feel it is to walk straight out over the void. The **Momijidani Otsuribashi** ("Maple Valley Suspension Bridge") stretches **320 metres** across the river canyon, swaying gently underfoot the whole way.

@@ -25,8 +25,12 @@ accessibility:
   wheelchair: partial
   note: "Old carriages and small rural platforms; some steps."
 dogFriendly: limited
-heroImage: "/images/attractions/choshi-electric-railway.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Choshi_Electric_Railway_Line.JPG/960px-Choshi_Electric_Railway_Line.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Choshi_Electric_Railway_Line.JPG/960px-Choshi_Electric_Railway_Line.JPG"
+    alt: "Choshi Electric Railway train"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Choshi_Electric_Railway_Line.JPG"
   - src: "/images/attractions/choshi-electric-railway-1.svg"
     alt: "A tiny vintage one-car electric train on a rural seaside railway by cabbage fields"
     caption: "A train line so broke it survives by selling rice crackers. I respect the hustle."
@@ -51,7 +55,7 @@ aiKeywords: [choshi electric railway, choshi dentetsu, nure-senbei, chiba, railw
 related:
   - inubosaki-lighthouse
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 At the far eastern tip of Chiba runs one of Japan's most lovable underdogs: the **Choshi Electric Railway**, a 6.4 km line of rattling vintage carriages that has been teetering on the edge of bankruptcy for decades — and keeps itself alive in the most Japanese way imaginable.

@@ -27,8 +27,12 @@ accessibility:
   wheelchair: partial
   note: "Forested slopes and gravel paths; some old houses have steps and high thresholds."
 dogFriendly: no
-heroImage: "/images/attractions/nihon-minkaen.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Nihon-Minka-en.JPG/960px-Nihon-Minka-en.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Nihon-Minka-en.JPG/960px-Nihon-Minka-en.JPG"
+    alt: "Thatched farmhouses at Nihon Minka-en"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Nihon-Minka-en.JPG"
   - src: "/images/attractions/nihon-minkaen-1.svg"
     alt: "Old thatched-roof farmhouses on a green wooded hillside, an open-air folk museum"
     caption: "Real old farmhouses, moved here board by board. Wonderfully cozy."
@@ -53,7 +57,7 @@ aiKeywords: [nihon minkaen, open-air museum, folk houses, kawasaki, gassho, kana
 related:
   - nagoro-scarecrow-village
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Tucked into a wooded park in **Kawasaki**, the **Nihon Minka-en** is a village that never actually existed — and yet every piece of it is real. Some two dozen traditional **folk houses** were dismantled at their original sites across Japan, moved here, and painstakingly rebuilt to save them from disappearing.

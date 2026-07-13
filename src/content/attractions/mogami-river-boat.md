@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "Staff assist boarding; the boats and docks have steps and uneven footing."
 dogFriendly: limited
-heroImage: "/images/attractions/mogami-river-boat.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tozawa_Mogami_Gorge_Of_Mogami_River_1.JPG/960px-Tozawa_Mogami_Gorge_Of_Mogami_River_1.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tozawa_Mogami_Gorge_Of_Mogami_River_1.JPG/960px-Tozawa_Mogami_Gorge_Of_Mogami_River_1.JPG"
+    alt: "The Mogami gorge at Tozawa"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Tozawa_Mogami_Gorge_Of_Mogami_River_1.JPG"
   - src: "/images/attractions/mogami-river-boat-1.svg"
     alt: "A wooden tour boat drifting down a wide river through green gorge hills"
     caption: "A flat-bottomed boat down the Mogami, the boatman singing old river songs."
@@ -52,7 +56,7 @@ aiKeywords: [mogami river, funakudari, boat ride, tozawa, yamagata, river song]
 related:
   - takachiho-gorge
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 The **Mogami** is one of Japan's three great rapid rivers, carving a broad green corridor through the heart of Yamagata. The classic way to experience it isn't from a road but from the water — aboard a **flat-bottomed wooden boat**, poled along by a boatman in the old style.

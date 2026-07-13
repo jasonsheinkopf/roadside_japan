@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "A paved promenade reaches the main viewpoint; deeper boardwalk trails have steps."
 dogFriendly: limited
-heroImage: "/images/attractions/noboribetsu-jigokudani.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Noboribetsu_hot_spring_jigokudani.JPG/960px-Noboribetsu_hot_spring_jigokudani.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Noboribetsu_hot_spring_jigokudani.JPG/960px-Noboribetsu_hot_spring_jigokudani.JPG"
+    alt: "Jigokudani hell valley, Noboribetsu"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Noboribetsu_hot_spring_jigokudani.JPG"
   - src: "/images/attractions/noboribetsu-jigokudani-1.svg"
     alt: "A rust-red steaming volcanic vent ringed by red autumn maples"
     caption: "Hell Valley, they call it. Smells like eggs. I felt at home."
@@ -53,7 +57,7 @@ related:
   - jigokudani-monkey-park
   - blue-pond-biei
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Hokkaido's grandest hot-spring resort sits directly downstream from a hole in the earth. **Noboribetsu Jigokudani** — yes, another "Hell Valley" — is a 450-metre-wide volcanic crater of rust-red and sulfur-yellow rock that hisses steam from a hundred vents and pipes scalding mineral water down to the baths below.

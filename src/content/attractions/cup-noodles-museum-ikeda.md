@@ -26,8 +26,12 @@ accessibility:
   wheelchair: yes
   note: "Flat, modern museum with elevators and step-free galleries."
 dogFriendly: no
-heroImage: "/images/attractions/cup-noodles-museum-ikeda.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Momofuku_Ando_Instant_Ramen_Museum_(11369666834).jpg/960px-Momofuku_Ando_Instant_Ramen_Museum_(11369666834).jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Momofuku_Ando_Instant_Ramen_Museum_(11369666834).jpg/960px-Momofuku_Ando_Instant_Ramen_Museum_(11369666834).jpg"
+    alt: "The Ikeda instant ramen museum"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Momofuku_Ando_Instant_Ramen_Museum_(11369666834).jpg"
   - src: "/images/attractions/cup-noodles-museum-ikeda-1.svg"
     alt: "A tunnel wall covered in hundreds of colorful noodle-cup designs"
     caption: "A whole wall of instant noodles. I have found my museum."
@@ -52,7 +56,7 @@ aiKeywords: [cup noodles museum, momofuku ando, instant ramen, ikeda, osaka, my 
 related:
   - meguro-parasitological-museum
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 In a quiet suburb of Osaka stands a museum dedicated to one of the 20th century's humblest, most world-conquering inventions: **instant noodles**. The **Cup Noodles Museum** sits on the very ground where, in 1958, **Momofuku Ando** perfected the first instant ramen in a backyard shed.

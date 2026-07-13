@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "The lakeshore and boat are mostly accessible; the island trail is not."
 dogFriendly: limited
-heroImage: "/images/attractions/lake-akan-marimo.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Akanko.JPG/960px-Akanko.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Akanko.JPG/960px-Akanko.JPG"
+    alt: "Lake Akan (marimo home lake)"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Akanko.JPG"
   - src: "/images/attractions/lake-akan-marimo-1.svg"
     alt: "Close-up of fuzzy round green marimo algae balls resting underwater"
     caption: "They're balls. Of algae. That roll around. I am obsessed."
@@ -52,7 +56,7 @@ aiKeywords: [lake akan, marimo, algae balls, kushiro, hokkaido, akanko]
 related:
   - blue-pond-biei
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 In the clear water of **Lake Akan**, deep in eastern Hokkaido, grows something that sounds invented: **marimo**, soft spheres of green algae that form naturally into velvety balls and roll gently across the lakebed. Akan is one of the very few places on Earth where they grow this big and this round.

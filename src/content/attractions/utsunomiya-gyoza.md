@@ -25,8 +25,12 @@ accessibility:
   wheelchair: partial
   note: "Flat city streets; individual shops vary, some are tiny."
 dogFriendly: no
-heroImage: "/images/attractions/utsunomiya-gyoza.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Utsunomiya_Venus.jpg/960px-Utsunomiya_Venus.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Utsunomiya_Venus.jpg/960px-Utsunomiya_Venus.jpg"
+    alt: "The gyoza statue (Utsunomiya Venus) at the station"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Utsunomiya_Venus.jpg"
   - src: "/images/attractions/utsunomiya-gyoza-1.svg"
     alt: "A plate of crispy pan-fried gyoza dumplings beside a stone gyoza-wrapped statue"
     caption: "Japan's gyoza capital. There's an actual STATUE of a dumpling. I'm home."
@@ -52,7 +56,7 @@ related:
   - oyaji-temple-heiwa-kannon
   - oya-history-museum
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Every Japanese city has a local dish; **Utsunomiya** built an identity. The Tochigi capital is, by its own proud reckoning, the **gyoza capital of Japan**, locked in a good-natured national rivalry with Hamamatsu over which city eats the most **dumplings** per household.

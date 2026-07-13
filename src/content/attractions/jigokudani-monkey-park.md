@@ -27,8 +27,12 @@ accessibility:
   wheelchair: no
   note: "A snowy, sometimes icy uphill forest trail — proper footwear is essential in winter."
 dogFriendly: no
-heroImage: "/images/attractions/jigokudani-monkey-park.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Onsen_Macaque.JPG/960px-Onsen_Macaque.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Onsen_Macaque.JPG/960px-Onsen_Macaque.JPG"
+    alt: "Macaque bathing in onsen at Jigokudani"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Onsen_Macaque.JPG"
   - src: "/images/attractions/jigokudani-monkey-park-1.svg"
     alt: "A snow monkey with eyes closed, snow on its head, in a hot spring"
     caption: "This monkey has figured out winter. I am taking notes."
@@ -56,7 +60,7 @@ aiKeywords: [snow monkeys, jigokudani, japanese macaque, nagano, onsen monkeys, 
 related:
   - blue-pond-biei
 createdAt: 2026-06-13
-updatedAt: 2026-06-13
+updatedAt: 2026-07-13
 ---
 
 The name means "Hell Valley" — for the steam that hisses out of the frozen ground here in the Nagano mountains. But **Jigokudani** is famous for something gentler: troops of wild **Japanese macaques** that climb down from the cliffs each winter to soak in a steaming hot-spring pool, snow gathering on their heads while they sit chest-deep in warm water.

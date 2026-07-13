@@ -27,8 +27,12 @@ accessibility:
   wheelchair: partial
   note: "The cape paths are walkable; the lighthouse itself is a steep spiral climb."
 dogFriendly: limited
-heroImage: "/images/attractions/inubosaki-lighthouse.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Choshi_Inubosaki_Lighthouse_2013-09C.JPG/960px-Choshi_Inubosaki_Lighthouse_2013-09C.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Choshi_Inubosaki_Lighthouse_2013-09C.JPG/960px-Choshi_Inubosaki_Lighthouse_2013-09C.JPG"
+    alt: "Inubosaki Lighthouse, Choshi"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Choshi_Inubosaki_Lighthouse_2013-09C.JPG"
   - src: "/images/attractions/inubosaki-lighthouse-1.svg"
     alt: "A tall white lighthouse on a rugged cliff above the Pacific at sunrise"
     caption: "One of the first spots on the mainland to catch the sunrise. Worth the early start."
@@ -54,7 +58,7 @@ related:
   - choshi-electric-railway
   - cape-soya
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Where the Boso Peninsula runs out into the Pacific, the land ends in a windy headland topped by a tall white tower: the **Inubosaki Lighthouse**, standing at one of the easternmost points of mainland Japan since 1874.

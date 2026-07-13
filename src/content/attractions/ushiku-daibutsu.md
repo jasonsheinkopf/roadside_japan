@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "Grounds and elevator are accessible; some garden paths are gravel."
 dogFriendly: limited
-heroImage: "/images/attractions/ushiku-daibutsu.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ushiku_Daibutsu_Buddha.jpg/960px-Ushiku_Daibutsu_Buddha.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ushiku_Daibutsu_Buddha.jpg/960px-Ushiku_Daibutsu_Buddha.jpg"
+    alt: "The 120m Ushiku Daibutsu"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Ushiku_Daibutsu_Buddha.jpg"
   - src: "/images/attractions/ushiku-daibutsu-1.svg"
     alt: "Tiny faces peeking from observation windows in the Buddha's chest"
     caption: "There is an elevator inside. Inside the Buddha. INSIDE."
@@ -50,7 +54,7 @@ related:
   - nokogiriyama-jigoku-nozoki
   - hitachi-seaside-park
 createdAt: 2025-08-15
-updatedAt: 2025-10-30
+updatedAt: 2026-07-13
 ---
 
 You see it long before you arrive: a serene bronze face rising **120 metres** over the rice fields of Ibaraki, three times the height of New York's Statue of Liberty. Completed in 1993, the **Ushiku Daibutsu** held the record as the world's tallest statue for years and remains one of the tallest bronze figures anywhere.

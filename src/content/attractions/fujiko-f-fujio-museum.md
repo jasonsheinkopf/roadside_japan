@@ -26,8 +26,12 @@ accessibility:
   wheelchair: yes
   note: "Modern, step-free museum with elevators."
 dogFriendly: no
-heroImage: "/images/attractions/fujiko-f-fujio-museum.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%E8%97%A4%E5%AD%90_F_%E4%B8%8D%E4%BA%8C%E9%9B%84%E5%8D%9A%E7%89%A9%E9%A4%A8_(49292298672).jpg/960px-%E8%97%A4%E5%AD%90_F_%E4%B8%8D%E4%BA%8C%E9%9B%84%E5%8D%9A%E7%89%A9%E9%A4%A8_(49292298672).jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%E8%97%A4%E5%AD%90_F_%E4%B8%8D%E4%BA%8C%E9%9B%84%E5%8D%9A%E7%89%A9%E9%A4%A8_(49292298672).jpg/960px-%E8%97%A4%E5%AD%90_F_%E4%B8%8D%E4%BA%8C%E9%9B%84%E5%8D%9A%E7%89%A9%E9%A4%A8_(49292298672).jpg"
+    alt: "Fujiko F Fujio Museum building"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:%E8%97%A4%E5%AD%90_F_%E4%B8%8D%E4%BA%8C%E9%9B%84%E5%8D%9A%E7%89%A9%E9%A4%A8_(49292298672).jpg"
   - src: "/images/attractions/fujiko-f-fujio-museum-1.svg"
     alt: "A whimsical museum lawn with a big friendly blue robot cat statue and cartoon characters"
     caption: "A whole museum for the man who drew Japan's favourite robot cat."
@@ -52,7 +56,7 @@ aiKeywords: [fujiko fujio, doraemon, kawasaki, manga museum, kanagawa]
 related:
   - meguro-parasitological-museum
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 In a leafy corner of **Kawasaki**, just outside Tokyo, is a museum that runs entirely on childhood joy. The **Fujiko·F·Fujio Museum** celebrates the manga artist behind **Doraemon** — the round blue robot cat from the future who is, genuinely, one of the most beloved characters in Japan.

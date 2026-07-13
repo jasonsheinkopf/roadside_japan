@@ -26,8 +26,12 @@ accessibility:
   wheelchair: no
   note: "An unpaved riverside path with roots, stones, and uneven footing."
 dogFriendly: limited
-heroImage: "/images/attractions/kanmangafuchi-abyss.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Jizo_alley%2C_Kanmangafuchi_abyss%2C_Nikko_(2483536474).jpg/960px-Jizo_alley%2C_Kanmangafuchi_abyss%2C_Nikko_(2483536474).jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Jizo_alley%2C_Kanmangafuchi_abyss%2C_Nikko_(2483536474).jpg/960px-Jizo_alley%2C_Kanmangafuchi_abyss%2C_Nikko_(2483536474).jpg"
+    alt: "Jizo statue row at Kanmangafuchi"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Jizo_alley%2C_Kanmangafuchi_abyss%2C_Nikko_(2483536474).jpg"
   - src: "/images/attractions/kanmangafuchi-abyss-1.svg"
     alt: "A row of mossy red-bibbed stone Jizo statues along a forested river gorge"
     caption: "A line of mossy Jizo by a rushing river. Count them — you never get the same number."
@@ -52,7 +56,7 @@ aiKeywords: [kanmangafuchi, bake jizo, jizo, nikko, gorge, tochigi]
 related:
   - okunoin-koyasan
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Away from Nikko's grand shrines, a quiet path follows the **Daiya River** into a small basalt gorge formed by an old lava flow. This is the **Kanmangafuchi Abyss**, and its real draw stands in a long, silent row along the bank.

@@ -29,8 +29,12 @@ accessibility:
   wheelchair: no
   note: "Deep snow, cold, and ropeway transfers make this unsuitable for limited mobility."
 dogFriendly: no
-heroImage: "/images/events/zao-snow-monsters.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Snow_Monsters%2C_Zao_Onsen_Ski_Resort.jpg/960px-Snow_Monsters%2C_Zao_Onsen_Ski_Resort.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Snow_Monsters%2C_Zao_Onsen_Ski_Resort.jpg/960px-Snow_Monsters%2C_Zao_Onsen_Ski_Resort.jpg"
+    alt: "Juhyo snow monsters at Zao Onsen ski resort"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Snow_Monsters%2C_Zao_Onsen_Ski_Resort.jpg"
   - src: "/images/events/zao-snow-monsters-1.svg"
     alt: "A single towering frozen snow-monster tree seen up close"
     caption: "Trees frozen into monsters by the wind. Spooky and very cool."
@@ -50,7 +54,7 @@ featured: false
 aiSummary: "A winter natural phenomenon on Mt. Zao where snow- and ice-encrusted conifers form dramatic 'snow monster' shapes, viewable by ropeway and illuminated at night."
 aiKeywords: [juhyo, snow monsters, zao, yamagata, ropeway, frozen trees]
 createdAt: 2025-11-10
-updatedAt: 2025-12-15
+updatedAt: 2026-07-13
 ---
 
 High on Mt. Zao, where wind-driven snow and supercooled fog plaster the fir trees from one side, the forest transforms into an army of hulking white figures the Japanese call **juhyo** — "ice trees," or more evocatively, **snow monsters**.

@@ -26,8 +26,12 @@ accessibility:
   wheelchair: no
   note: "The ropeway is accessible, but the summit is a rough, exposed volcanic scramble."
 dogFriendly: limited
-heroImage: "/images/attractions/mount-nasu-ropeway.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Nasu_chausudake.jpg/960px-Nasu_chausudake.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Nasu_chausudake.jpg/960px-Nasu_chausudake.jpg"
+    alt: "Mt. Chausu, the Nasu volcano"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Nasu_chausudake.jpg"
   - src: "/images/attractions/mount-nasu-ropeway-1.svg"
     alt: "A ropeway gondola rising over a rugged, steaming volcanic peak"
     caption: "Rode the ropeway up an actual active volcano. Steam everywhere."
@@ -53,7 +57,7 @@ related:
   - sessho-seki-killing-stone
   - noboribetsu-jigokudani
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 The **Nasu highlands** rise to a cluster of peaks topped by **Chausu-dake**, an **active volcano** that still vents sulfur from its summit. A **ropeway** does the hard early work, lifting you high up the mountain's flank in a few smooth minutes.

@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "The canal promenade is mostly flat; cobblestones and snow can be uneven."
 dogFriendly: yes
-heroImage: "/images/attractions/otaru-canal.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Otaru_Canal_Night.jpg/960px-Otaru_Canal_Night.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Otaru_Canal_Night.jpg/960px-Otaru_Canal_Night.jpg"
+    alt: "Otaru canal at night"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Otaru_Canal_Night.jpg"
   - src: "/images/attractions/otaru-canal-1.svg"
     alt: "A gas-lamp-lit canal with old stone warehouses reflected, snow falling at dusk"
     caption: "Gas lamps, old warehouses, snow on the water. Romance overload."
@@ -52,7 +56,7 @@ aiKeywords: [otaru canal, otaru, hokkaido, gas lamps, warehouses, snow light pat
 related:
   - blue-pond-biei
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Once, this canal floated barges heavy with herring money. Today the **Otaru Canal** is shorter and quieter, but it has become one of Hokkaido's most beloved postcards: a curve of still water lined with **old stone warehouses**, walked by a promenade of **gas lamps** that flicker on at dusk.

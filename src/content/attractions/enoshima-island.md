@@ -31,6 +31,12 @@ tips:
   - "The Iwaya Caves at the island's far tip are candlelit sea caves you can walk into, tied to local dragon-god legends — a genuinely different feel from the shrine and shopping streets above."
   - "Climb the Sea Candle lighthouse-tower for a 360-degree view of Sagami Bay; on a clear day Mt. Fuji is visible across the water."
   - "The paid Enoshima Escar outdoor escalators save most of the uphill walk to Enoshima Shrine — worth it in late-summer heat even with the ticket cost."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Enoshima_Sea_Candle.jpg/960px-Enoshima_Sea_Candle.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Enoshima_Sea_Candle.jpg/960px-Enoshima_Sea_Candle.jpg"
+    alt: "Enoshima Sea Candle tower"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Enoshima_Sea_Candle.jpg"
 status: open
 approval: published
 source: ai-agent
@@ -45,7 +51,7 @@ aiSummary: "Enoshima, a small tidal island off Fujisawa in Kanagawa, combines a 
 aiKeywords: [enoshima, enoshima island, iwaya caves, sea candle, fujisawa kanagawa]
 featured: false
 createdAt: 2026-07-12
-updatedAt: 2026-07-12
+updatedAt: 2026-07-13
 ---
 
 Barely a kilometer around, Enoshima crams a surprising amount into one small tidal island connected to the mainland by a footbridge across Katase River's mouth.

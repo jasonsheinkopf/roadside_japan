@@ -30,8 +30,12 @@ accessibility:
   wheelchair: yes
   note: "Wide, flat, paved routes throughout."
 dogFriendly: no
-heroImage: "/images/events/nabana-no-sato-illumination.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Nabana_no_Sato_Illumination.jpg/960px-Nabana_no_Sato_Illumination.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Nabana_no_Sato_Illumination.jpg/960px-Nabana_no_Sato_Illumination.jpg"
+    alt: "Winter illumination at Nabana no Sato"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Nabana_no_Sato_Illumination.jpg"
   - src: "/images/events/nabana-no-sato-illumination-1.svg"
     alt: "The inside of a glowing golden tunnel made of LED lights"
     caption: "Millions of lights. My eyes have never been so wide."
@@ -51,7 +55,7 @@ featured: true
 aiSummary: "A massive seasonal LED illumination at the Nabana no Sato flower park in Mie, featuring light tunnels and a large themed light show."
 aiKeywords: [nabana no sato, winter illumination, light tunnel, kuwana, mie, nagashima]
 createdAt: 2025-10-01
-updatedAt: 2025-12-05
+updatedAt: 2026-07-13
 ---
 
 When the flowers fade, **Nabana no Sato** flips a switch and becomes something else entirely: one of the country's largest and most elaborate **winter illuminations**, with millions of LEDs strung across a sprawling flower park near Nagoya.

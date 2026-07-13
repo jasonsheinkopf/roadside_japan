@@ -29,6 +29,12 @@ tips:
   - "Katsunuma is Japan's oldest and most concentrated wine-growing region — pair the grape picking with a tasting at one of the many wineries lining the same hillside, like Chateau Mercian or Grace Wine."
   - "Come with an appetite: most orchards run on a per-100g pricing model rather than all-you-can-eat, so it rewards grazing across varieties rather than filling up on one."
   - "Mid-August through mid-September is peak variety season — earlier or later in the roughly late-July-to-November window, fewer types are ready at once."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Katsunuma_vineyard_02.jpg/960px-Katsunuma_vineyard_02.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Katsunuma_vineyard_02.jpg/960px-Katsunuma_vineyard_02.jpg"
+    alt: "Vineyards at Katsunuma, Koshu"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Katsunuma_vineyard_02.jpg"
 status: seasonal
 approval: published
 source: ai-agent
@@ -43,7 +49,7 @@ aiSummary: "Katsunuma in Koshu, Yamanashi — Japan's oldest wine region — off
 aiKeywords: [katsunuma grape picking, budo-gari, koshu yamanashi, grapark, japan wine country]
 featured: false
 createdAt: 2026-07-12
-updatedAt: 2026-07-12
+updatedAt: 2026-07-13
 ---
 
 Ninety minutes from Tokyo, an entire hillside in Koshu turns over to vineyards each late summer — Japan's original and still-largest wine region, and one of its most reliable late-summer day trips.

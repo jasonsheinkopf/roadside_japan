@@ -27,8 +27,12 @@ accessibility:
   wheelchair: yes
   note: "Wide, flat, paved paths circle the miniature zones."
 dogFriendly: limited
-heroImage: "/images/attractions/tobu-world-square.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Tobu_World_Square_Entrance_monument_and_Tokyo_Sky_Tree(replica).jpg/960px-Tobu_World_Square_Entrance_monument_and_Tokyo_Sky_Tree(replica).jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Tobu_World_Square_Entrance_monument_and_Tokyo_Sky_Tree(replica).jpg/960px-Tobu_World_Square_Entrance_monument_and_Tokyo_Sky_Tree(replica).jpg"
+    alt: "Entrance and Skytree replica, Tobu World Square"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Tobu_World_Square_Entrance_monument_and_Tokyo_Sky_Tree(replica).jpg"
   - src: "/images/attractions/tobu-world-square-1.svg"
     alt: "Miniature models of world landmarks like the Eiffel Tower and pyramids on display"
     caption: "The whole world, shrunk to knee height. I felt absolutely enormous."
@@ -53,7 +57,7 @@ aiKeywords: [tobu world square, miniature park, nikko, kinugawa, landmarks, toch
 related:
   - edo-wonderland-nikko
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Near the hot springs of Kinugawa, just shy of Nikko, is a theme park that hands you the whole planet at knee height. **Tobu World Square** packs **over 100 of the world's most famous buildings** into one walkable garden, each rebuilt in painstaking **1:25 miniature**.

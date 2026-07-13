@@ -26,8 +26,12 @@ accessibility:
   wheelchair: yes
   note: "Largely step-free with accessible viewing in the show stadiums."
 dogFriendly: no
-heroImage: "/images/attractions/kamogawa-sea-world.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Orcinus_orca_show_in_kamogawa_sea_world.jpg/960px-Orcinus_orca_show_in_kamogawa_sea_world.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Orcinus_orca_show_in_kamogawa_sea_world.jpg/960px-Orcinus_orca_show_in_kamogawa_sea_world.jpg"
+    alt: "Orca show at Kamogawa Sea World"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Orcinus_orca_show_in_kamogawa_sea_world.jpg"
   - src: "/images/attractions/kamogawa-sea-world-1.svg"
     alt: "An orca leaping high in a show pool at a seaside aquarium by the ocean"
     caption: "A killer whale the size of a bus, leaping. Bigger AND shinier than me. Hmph."
@@ -52,7 +56,7 @@ aiKeywords: [kamogawa sea world, orca, killer whale, aquarium, chiba, boso]
 related:
   - mother-farm
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 On the Pacific edge of the Boso Peninsula, **Kamogawa Sea World** does what few aquariums can: it stages a full-power **orca show** with the real ocean shimmering just beyond the pool, so the leaping killer whales seem to launch straight out of the sea.

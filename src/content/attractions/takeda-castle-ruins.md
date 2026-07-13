@@ -27,8 +27,12 @@ accessibility:
   wheelchair: no
   note: "A steep mountain trail to exposed stone ruins — not accessible, and footing is uneven."
 dogFriendly: limited
-heroImage: "/images/attractions/takeda-castle-ruins.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ch%C3%A2teau_de_Takeda.JPG/960px-Ch%C3%A2teau_de_Takeda.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ch%C3%A2teau_de_Takeda.JPG/960px-Ch%C3%A2teau_de_Takeda.JPG"
+    alt: "Takeda Castle ruins"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Takeda.JPG"
   - src: "/images/attractions/takeda-castle-ruins-1.svg"
     alt: "Stone ramparts wrapped in a dawn sea of clouds"
     caption: "The castle floats on clouds at dawn. Worth the 4am alarm."
@@ -56,7 +60,7 @@ aiKeywords: [takeda castle, castle in the sky, sea of clouds, unkai, asago, hyog
 related:
   - oya-history-museum
 createdAt: 2026-06-13
-updatedAt: 2026-06-13
+updatedAt: 2026-07-13
 ---
 
 Four hundred years ago, the castle on this ridge in Hyogo was abandoned. What's left — long runs of fitted **stone ramparts** following the spine of the mountain — has earned the nickname "the Machu Picchu of Japan." But its real fame comes at dawn, when a **sea of clouds** wells up from the valley and the ruins appear to float above the world.

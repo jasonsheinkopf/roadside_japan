@@ -23,8 +23,12 @@ transit:
 accessibility:
   wheelchair: partial
 dogFriendly: limited
-heroImage: "/images/attractions/sun-messe-nichinan-moai.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Sunmesse_nichinan_%2C_%E3%82%B5%E3%83%B3%E3%83%A1%E3%83%83%E3%82%BB%E6%97%A5%E5%8D%97_-_panoramio_-_z_tanuki_(2).jpg/960px-Sunmesse_nichinan_%2C_%E3%82%B5%E3%83%B3%E3%83%A1%E3%83%83%E3%82%BB%E6%97%A5%E5%8D%97_-_panoramio_-_z_tanuki_(2).jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Sunmesse_nichinan_%2C_%E3%82%B5%E3%83%B3%E3%83%A1%E3%83%83%E3%82%BB%E6%97%A5%E5%8D%97_-_panoramio_-_z_tanuki_(2).jpg/960px-Sunmesse_nichinan_%2C_%E3%82%B5%E3%83%B3%E3%83%A1%E3%83%83%E3%82%BB%E6%97%A5%E5%8D%97_-_panoramio_-_z_tanuki_(2).jpg"
+    alt: "Moai row at Sun Messe Nichinan"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Sunmesse_nichinan_%2C_%E3%82%B5%E3%83%B3%E3%83%A1%E3%83%83%E3%82%BB%E6%97%A5%E5%8D%97_-_panoramio_-_z_tanuki_(2).jpg"
   - src: "/images/attractions/sun-messe-nichinan-moai-1.svg"
     alt: "Seven gray Moai statues lined up in a row on green grass"
     caption: "The only officially sanctioned Moai replicas on Earth. Big stone pals."
@@ -44,7 +48,7 @@ sources:
     url: "https://www.sun-messe.co.jp/"
 aiKeywords: [moai, easter island, nichinan, miyazaki, replica statues]
 createdAt: 2026-01-28
-updatedAt: 2026-01-28
+updatedAt: 2026-07-13
 ---
 
 High on a coastal hillside in southern Miyazaki, seven stone giants gaze inland from above the Pacific — a faithful, full-scale recreation of the **Moai of Easter Island (Rapa Nui)**.

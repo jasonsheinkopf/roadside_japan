@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "Viewing is from roadside platforms; deep snow and cold make some spots difficult."
 dogFriendly: limited
-heroImage: "/images/attractions/tsurui-red-crowned-cranes.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Japanese_Crane_at_Kushiro_(2753247737).jpg/960px-Japanese_Crane_at_Kushiro_(2753247737).jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Japanese_Crane_at_Kushiro_(2753247737).jpg/960px-Japanese_Crane_at_Kushiro_(2753247737).jpg"
+    alt: "Red-crowned crane in the Kushiro/Tsurui area"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Japanese_Crane_at_Kushiro_(2753247737).jpg"
   - src: "/images/attractions/tsurui-red-crowned-cranes-1.svg"
     alt: "Two red-crowned cranes mid-dance with wings spread in the snow"
     caption: "They bowed, they leapt, they danced. I just stood there, stunned."
@@ -52,7 +56,7 @@ aiKeywords: [red-crowned crane, tancho, tsurui, kushiro, hokkaido, crane dance, 
 related:
   - jigokudani-monkey-park
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 The **red-crowned crane** — *tancho* — is one of the rarest cranes on Earth and a symbol of luck and long life in Japan. Once nearly extinct here, a small population was saved in the marshes of eastern Hokkaido, and each winter they gather near **Tsurui** to feed in the snow.

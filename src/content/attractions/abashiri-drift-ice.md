@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "The vessel has decks and stairs; the open deck is cold, windy, and can be slippery."
 dogFriendly: no
-heroImage: "/images/attractions/abashiri-drift-ice.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/AuroraII02.JPG/960px-AuroraII02.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/AuroraII02.JPG/960px-AuroraII02.JPG"
+    alt: "Abashiri sightseeing icebreaker Aurora II (Category:Aurora II ship 1995)"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:AuroraII02.JPG"
   - src: "/images/attractions/abashiri-drift-ice-1.svg"
     alt: "A red-and-white icebreaker ship crunching through a white plain of sea ice"
     caption: "The whole sea froze, so we got a boat to break it. Hokkaido!"
@@ -52,7 +56,7 @@ aiKeywords: [abashiri, drift ice, ryuhyo, okhotsk, icebreaker, aurora, hokkaido]
 related:
   - zao-snow-monsters
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 For most of the year Abashiri is an ordinary port on Hokkaido's northeast coast. Then, in deep winter, the **Sea of Okhotsk freezes** — drift ice born off Siberia floats south and packs against the shore until the ocean becomes a groaning white plain. And the way to experience it is to **break through it** on a ship.

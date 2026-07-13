@@ -29,8 +29,12 @@ accessibility:
   wheelchair: partial
   note: "Street viewing is flat; crowds are dense — arrive early for a spot."
 dogFriendly: no
-heroImage: "/images/events/akita-kanto-festival.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Akita_Kanto_Festival_2023b.jpg/960px-Akita_Kanto_Festival_2023b.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Akita_Kanto_Festival_2023b.jpg/960px-Akita_Kanto_Festival_2023b.jpg"
+    alt: "Kanto lantern poles at the Akita festival"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Akita_Kanto_Festival_2023b.jpg"
   - src: "/images/events/akita-kanto-festival-1.svg"
     alt: "A performer balancing a tall glowing lantern pole on their forehead"
     caption: "A 12-metre pole balanced on a forehead. I clapped with both paws."
@@ -50,7 +54,7 @@ featured: false
 aiSummary: "A major Tohoku summer festival in Akita where performers balance tall bamboo poles strung with many lit paper lanterns."
 aiKeywords: [kanto matsuri, lantern festival, akita, tohoku, summer festival, pole balancing]
 createdAt: 2026-02-20
-updatedAt: 2026-02-20
+updatedAt: 2026-07-13
 ---
 
 On summer nights in early August, the main avenue of Akita fills with hundreds of swaying towers of light. The **Kanto Festival** is a feat of balance: each performer hoists a bamboo pole up to **12 metres tall**, strung with as many as **46 paper lanterns** lit by candle, and balances the whole flexing, glowing mast on a palm, a forehead, a shoulder, or a hip.

@@ -27,8 +27,12 @@ accessibility:
   wheelchair: partial
   note: "The town and footbaths are flat; the castle keep is a stair climb."
 dogFriendly: limited
-heroImage: "/images/attractions/kaminoyama-castle.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Kaminoyama_Castle_20230806b.jpg/960px-Kaminoyama_Castle_20230806b.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Kaminoyama_Castle_20230806b.jpg/960px-Kaminoyama_Castle_20230806b.jpg"
+    alt: "Kaminoyama Castle keep"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Kaminoyama_Castle_20230806b.jpg"
   - src: "/images/attractions/kaminoyama-castle-1.svg"
     alt: "A white Japanese castle keep on a green hill above a hot-spring town"
     caption: "A storybook white castle over an onsen town with free street footbaths."
@@ -53,7 +57,7 @@ aiKeywords: [kaminoyama castle, kaminoyama onsen, footbath, ashiyu, yamagata, ca
 related:
   - takeda-castle-ruins
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 On the Yamagata Shinkansen line, the town of **Kaminoyama** pairs two very pleasant things: a **white castle** on a hill and a **560-year-old hot spring** in the streets below.

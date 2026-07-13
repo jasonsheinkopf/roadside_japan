@@ -31,6 +31,12 @@ tips:
   - "Fireworks and the main program run in the evening at Rinko Park and along the Minato Mirai waterfront, including Cup Noodles Museum Park and the Yokohama Hammerhead area."
   - "This is a special one-off event tied to promoting GREEN×EXPO 2027 (the international horticultural expo coming to Yokohama) rather than an annual fixture — worth planning around since it may not repeat in this exact form."
   - "Arrive well before dusk to claim free waterfront viewing spots; the area gets very crowded for a Yokohama summer fireworks night."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Yokohama_Minato_Mirai_at_night%2C_2008.jpg/960px-Yokohama_Minato_Mirai_at_night%2C_2008.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Yokohama_Minato_Mirai_at_night%2C_2008.jpg/960px-Yokohama_Minato_Mirai_at_night%2C_2008.jpg"
+    alt: "Minato Mirai waterfront at night"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Yokohama_Minato_Mirai_at_night%2C_2008.jpg"
 status: seasonal
 approval: published
 source: ai-agent
@@ -44,7 +50,7 @@ sources:
 aiSummary: "A one-time August 2026 waterfront festival at Yokohama's Minato Mirai, promoting GREEN×EXPO 2027, with live music, street performances, and a large fireworks display over the harbor."
 aiKeywords: [yokohama minato mirai festival, green expo 2027, yokohama fireworks, rinko park]
 createdAt: 2026-07-12
-updatedAt: 2026-07-12
+updatedAt: 2026-07-13
 ---
 
 Yokohama's Minato Mirai waterfront hosts frequent small fireworks shows throughout the year, but August 24, 2026 brings something bigger: a full festival built around promoting the city's upcoming GREEN×EXPO 2027.

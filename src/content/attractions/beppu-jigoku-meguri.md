@@ -27,8 +27,12 @@ accessibility:
   wheelchair: partial
   note: "The Kannawa hells are mostly flat and paved; some viewing spots have steps."
 dogFriendly: limited
-heroImage: "/images/attractions/beppu-jigoku-meguri.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Umi_Jigoku_(Sea_Hell)_in_Beppu.jpg/960px-Umi_Jigoku_(Sea_Hell)_in_Beppu.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Umi_Jigoku_(Sea_Hell)_in_Beppu.jpg/960px-Umi_Jigoku_(Sea_Hell)_in_Beppu.jpg"
+    alt: "Umi Jigoku pond, Beppu Jigokumeguri"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Umi_Jigoku_(Sea_Hell)_in_Beppu.jpg"
   - src: "/images/attractions/beppu-jigoku-meguri-1.svg"
     alt: "A cobalt-blue boiling 'sea hell' pond billowing white steam"
     caption: "Looks like a bath. Is 98°C. I did NOT get in."
@@ -55,7 +59,7 @@ aiKeywords: [jigoku meguri, hells of beppu, umi jigoku, chinoike jigoku, oita, g
 related:
   - ibusuki-sand-bath
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 In the steam-wreathed town of **Beppu**, the earth doesn't politely warm your bath — it boils, hisses, and glows in colors no hot spring has any right to be. The **Jigoku Meguri**, or "Hell Tour," strings together seven of these geothermal spectacles, each too hot and too strange to bathe in.

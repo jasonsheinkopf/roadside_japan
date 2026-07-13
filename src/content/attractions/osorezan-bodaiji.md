@@ -27,8 +27,12 @@ accessibility:
   wheelchair: partial
   note: "Main paths are walkable but the volcanic ground is uneven gravel and rock."
 dogFriendly: no
-heroImage: "/images/attractions/osorezan-bodaiji.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Osorezan%40Mutsu.JPG/960px-Osorezan%40Mutsu.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Osorezan%40Mutsu.JPG/960px-Osorezan%40Mutsu.JPG"
+    alt: "Osorezan sanctuary, Mutsu"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Osorezan%40Mutsu.JPG"
   - src: "/images/attractions/osorezan-bodaiji-1.svg"
     alt: "Stone Jizo statues in red bibs beside colorful spinning pinwheels"
     caption: "Pinwheels left for the souls of children. I walked softly here."
@@ -52,7 +56,7 @@ aiKeywords: [osorezan, mount osore, bodaiji, itako, aomori, sanzu river, afterli
 related:
   - takachiho-gorge
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 At the top of Aomori's lonely Shimokita Peninsula, the land turns the color of brimstone and the air fills with the rotten-egg reek of sulfur. The Japanese named this place **Osorezan** — "Mount Dread" — and for over a thousand years it has been considered one of the gateways between this world and the next.

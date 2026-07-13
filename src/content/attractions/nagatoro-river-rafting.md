@@ -30,6 +30,12 @@ tips:
   - "The classic run covers about 7km of the Arakawa, mixing calm drifting (where you can jump in and swim) with sudden rapids where the guide spins the raft for effect."
   - "Iwadatami, the flat, tilted rock-shelf formation the river cuts through, is officially designated one of Japan's Cultural Landscapes — worth a slow look from the riverbank, not just from the boat."
   - "Bring a change of clothes and secure shoes; you will get wet, and some tours actively encourage swimming breaks."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Nagatoro_Ara_River_In_Yanase_Section_1.JPG/960px-Nagatoro_Ara_River_In_Yanase_Section_1.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Nagatoro_Ara_River_In_Yanase_Section_1.JPG/960px-Nagatoro_Ara_River_In_Yanase_Section_1.JPG"
+    alt: "The Arakawa river at Nagatoro"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Nagatoro_Ara_River_In_Yanase_Section_1.JPG"
 status: open
 approval: published
 source: ai-agent
@@ -44,7 +50,7 @@ aiSummary: "A pole-guided raft trip down the Arakawa River in Nagatoro, Saitama,
 aiKeywords: [nagatoro rafting, arakawa river, chichibu rafting, iwadatami, saitama day trip]
 featured: false
 createdAt: 2026-07-12
-updatedAt: 2026-07-12
+updatedAt: 2026-07-13
 ---
 
 Nagatoro, at the northern edge of the Chichibu basin, packs river rapids, swimming, and a striking rock formation into a single afternoon trip that's easily doable from Tokyo without an overnight stay.

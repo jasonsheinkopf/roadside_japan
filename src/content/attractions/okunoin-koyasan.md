@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "The main path is broad but long, with tree roots, gravel, and some steps near the inner hall."
 dogFriendly: limited
-heroImage: "/images/attractions/okunoin-koyasan.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Okunoin_Cemetery%2C_Koyasan%2C_Japan.JPG/960px-Okunoin_Cemetery%2C_Koyasan%2C_Japan.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Okunoin_Cemetery%2C_Koyasan%2C_Japan.JPG/960px-Okunoin_Cemetery%2C_Koyasan%2C_Japan.JPG"
+    alt: "Okunoin cemetery, Koyasan"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Okunoin_Cemetery%2C_Koyasan%2C_Japan.JPG"
   - src: "/images/attractions/okunoin-koyasan-1.svg"
     alt: "A hall glowing with thousands of golden hanging lanterns"
     caption: "Ten thousand lanterns, some lit for 900 years. I just watched."
@@ -52,7 +56,7 @@ aiKeywords: [okunoin, koyasan, mount koya, kobo daishi, cemetery, lanterns, shin
 related:
   - osorezan-bodaiji
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 On the sacred mountain of **Koyasan**, heartland of Shingon Buddhism, a path leads into the trees and does not feel like it belongs to the ordinary world. This is **Okunoin**, Japan's largest cemetery: roughly two kilometres of forest floor holding more than **200,000 graves** beneath cedars that have stood for centuries.

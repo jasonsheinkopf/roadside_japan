@@ -26,8 +26,12 @@ accessibility:
   wheelchair: partial
   note: "The main street is flat; old bathhouses and inns have steps."
 dogFriendly: limited
-heroImage: "/images/attractions/hijiori-onsen.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hijiori_Onsen_01.JPG/960px-Hijiori_Onsen_01.JPG"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hijiori_Onsen_01.JPG/960px-Hijiori_Onsen_01.JPG"
+    alt: "Hijiori Onsen village"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Hijiori_Onsen_01.JPG"
   - src: "/images/attractions/hijiori-onsen-1.svg"
     alt: "A narrow old hot-spring street with a morning market of vegetables and lanterns"
     caption: "One of Japan's oldest hot springs, with a daily morning market in the lane."
@@ -52,7 +56,7 @@ aiKeywords: [hijiori onsen, okura, yamagata, morning market, crater, hot spring]
 related:
   - ginzan-onsen
 createdAt: 2026-06-16
-updatedAt: 2026-06-16
+updatedAt: 2026-07-13
 ---
 
 Deep in the mountains of central Yamagata, in the **crater of an ancient volcano**, hides one of the country's oldest and most atmospheric hot springs: **Hijiori Onsen**, said to have been discovered some 1,200 years ago.

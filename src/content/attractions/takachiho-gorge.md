@@ -25,8 +25,12 @@ accessibility:
   wheelchair: partial
   note: "Upper viewpoint paths are partly accessible; the boats and lower path are not."
 dogFriendly: limited
-heroImage: "/images/attractions/takachiho-gorge.svg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Takachiho_Gorge_by_boat.jpg/960px-Takachiho_Gorge_by_boat.jpg"
 photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Takachiho_Gorge_by_boat.jpg/960px-Takachiho_Gorge_by_boat.jpg"
+    alt: "Rowboats under Manai Falls, Takachiho"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Takachiho_Gorge_by_boat.jpg"
   - src: "/images/attractions/takachiho-gorge-1.svg"
     alt: "A rowboat drifting beneath the Manai Falls in a basalt gorge"
     caption: "Rented a boat. Mostly supervised. Waterfall: approved."
@@ -48,7 +52,7 @@ aiKeywords: [takachiho, manai falls, gorge, kagura, basalt columns, kyushu myth]
 related:
   - ibusuki-sand-bath
 createdAt: 2025-05-12
-updatedAt: 2025-10-22
+updatedAt: 2026-07-13
 ---
 
 In the mountainous heart of Kyushu, the Gokase River has sliced a slot through ancient volcanic rock to create **Takachiho Gorge** — walls of perfectly geometric basalt columns rising over impossibly green water.
