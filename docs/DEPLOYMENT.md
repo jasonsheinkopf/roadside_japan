@@ -105,7 +105,8 @@ isn't stripped by Jekyll.
 | Symptom | Fix |
 | ------- | --- |
 | CSS/links/images 404 in production | Base path mismatch. Confirm `SITE_BASE` matches how Pages serves the site, and that links use `withBase()`. |
-| Blank map | Network blocked OpenStreetMap tiles, or the container had zero height at init (the engine calls `invalidateSize`). Check the console. |
+| Blank map | Network blocked both Esri and OpenStreetMap tiles, or the container had zero height at init (the engine calls `invalidateSize`). Check the console; the map falls back from Esri to OSM automatically after a few tile errors, so a blank map means both are unreachable. |
+| Map labels in Japanese instead of English | The Esri→OSM fallback triggered (Esri tiles were blocked/failing) — OSM's default tiles label in the local script. Check the console for `tileerror` events on the Esri layer and whether `server.arcgisonline.com` is reachable. |
 | Build fails on content | A frontmatter field violates the schema — read the error; it names the file and field. Fix the data. |
 | `npm ci` fails in CI | Commit an up-to-date `package-lock.json`. |
 | Pages shows old content | Check the Actions run succeeded; Pages caches briefly. |
