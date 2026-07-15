@@ -45,6 +45,15 @@ export const TAGS: TagMeta[] = [
   { slug: "onsen", label: "Hot Spring", icon: "♨️", group: "theme" },
   { slug: "industrial", label: "Industrial", icon: "🏭", group: "theme" },
   { slug: "shop", label: "Old Shop", icon: "🏪", group: "theme" },
+  { slug: "market", label: "Market", icon: "🛍️", group: "theme" },
+  { slug: "street-food", label: "Street Food", icon: "🍢", group: "theme" },
+  { slug: "cave", label: "Cave", icon: "🕳️", group: "theme" },
+  { slug: "waterfall", label: "Waterfall", icon: "💧", group: "theme" },
+  { slug: "beach", label: "Beach", icon: "🏖️", group: "theme" },
+  { slug: "temple", label: "Temple", icon: "🛕", group: "theme" },
+  { slug: "culture", label: "Culture", icon: "🎎", group: "theme" },
+  { slug: "river", label: "River", icon: "🛶", group: "theme" },
+  { slug: "experience", label: "Experience", icon: "✨", group: "theme" },
 
   // season highlights
   { slug: "cherry-blossom", label: "Cherry Blossoms", icon: "🌸", group: "season" },
@@ -53,9 +62,12 @@ export const TAGS: TagMeta[] = [
   { slug: "fireworks", label: "Fireworks", icon: "🎆", group: "season" },
   { slug: "illumination", label: "Illumination", icon: "💡", group: "season" },
   { slug: "flowers", label: "Flowers", icon: "🌼", group: "season" },
+  { slug: "songkran", label: "Songkran", icon: "💦", group: "season" },
+  { slug: "loi-krathong", label: "Loi Krathong", icon: "🪷", group: "season" },
 
   // audience
   { slug: "kids", label: "Kids", icon: "🧒", group: "audience" },
+  { slug: "family", label: "Family", icon: "👨‍👩‍👧", group: "audience" },
   { slug: "dog-friendly", label: "Dog Friendly", icon: "🐕", group: "audience" },
   { slug: "photography", label: "Photography", icon: "📷", group: "audience" },
   { slug: "romantic", label: "Romantic", icon: "💞", group: "audience" },
@@ -63,6 +75,7 @@ export const TAGS: TagMeta[] = [
 
   // conditions
   { slug: "night", label: "Night", icon: "🌙", group: "conditions" },
+  { slug: "swimming", label: "Swimming", icon: "🏊", group: "conditions" },
   { slug: "rainy-day", label: "Rainy Day", icon: "🌧️", group: "conditions" },
   { slug: "indoor", label: "Indoor", icon: "🏠", group: "conditions" },
   { slug: "outdoor", label: "Outdoor", icon: "🌄", group: "conditions" },
