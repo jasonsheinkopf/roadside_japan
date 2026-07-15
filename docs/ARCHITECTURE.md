@@ -78,9 +78,14 @@ the same interface without changing callers.
 ## Map
 
 `src/scripts/leaflet-map.ts` is the one map engine, used by both the mini-map on detail pages
-(`MapView.astro`) and the full `/map` page. Tiles from OpenStreetMap (no key, attribution
-included), custom emoji `DivIcon` markers (avoids broken default-marker images and looks
-on-brand), and `markercluster` for a readable all-Japan view.
+(`MapView.astro`) and the full `/map` page. Tiles are Esri's World Street Map (no key,
+attribution included) — chosen over OpenStreetMap's default raster tiles because Esri labels
+places in English everywhere, while OSM labels in each region's local script (Japanese here),
+which mismatched this site's English content. If Esri tiles fail to load (network block,
+outage), the engine automatically swaps to OpenStreetMap tiles after a few tile errors so the
+map still renders (with local-script labels) rather than staying blank. Custom emoji `DivIcon`
+markers (avoids broken default-marker images and looks on-brand), and `markercluster` for a
+readable all-Japan view.
 
 ## PWA & offline
 

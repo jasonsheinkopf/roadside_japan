@@ -4,7 +4,12 @@
  * set as filters change.
  *
  * Design notes:
- *  - Tiles: OpenStreetMap (no API key, free). Attribution is required and included.
+ *  - Tiles: Esri World Street Map is primary — unlike OpenStreetMap's raster tiles, which
+ *    label every place in the region's local script (Japanese here), Esri always labels
+ *    globally in English/Latin script, which matches this site's English content. No API
+ *    key required. OpenStreetMap tiles remain as an automatic fallback if Esri's tiles
+ *    fail to load (CSP block, outage, etc.) — see swapToFallbackTiles below. Both are free
+ *    to embed with attribution.
  *  - Markers: custom emoji DivIcons (per category) — avoids Leaflet's notorious broken
  *    default-marker image paths under bundlers, and looks on-brand.
  *  - Clustering: leaflet.markercluster keeps the all-Japan view readable.
@@ -51,10 +56,30 @@ export function createMap(opts: MapOptions): MapHandle {
     opts.zoom ?? 5,
   );
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 18,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  }).addTo(map);
+  // Primary: Esri World Street Map — labels globally in English, no API key.
+  // Note the tile coordinate order is {z}/{y}/{x}, not OSM's {z}/{x}/{y} — do not swap.
+  const primaryTiles = L.tileLayer(
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+    {
+      maxZoom: 19,
+      attribution:
+        'Tiles &copy; <a href="https://www.esri.com/">Esri</a> — Esri, HERE, Garmin, &copy; OpenStreetMap contributors',
+    },
+  ).addTo(map);
+
+  // Fallback: swap to OpenStreetMap (local-script labels, but always available) if Esri's
+  // tiles fail repeatedly — a handful of transient errors shouldn't trigger a swap.
+  let tileErrors = 0;
+  let swappedToFallback = false;
+  primaryTiles.on("tileerror", () => {
+    if (swappedToFallback || ++tileErrors < 4) return;
+    swappedToFallback = true;
+    map.removeLayer(primaryTiles);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(map);
+  });
 
   const cluster = opts.cluster !== false;
   const layer = cluster

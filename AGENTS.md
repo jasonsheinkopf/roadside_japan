@@ -36,7 +36,9 @@ same change.**
 - **Tailwind CSS v4** via **PostCSS** (`postcss.config.mjs`, `src/styles/global.css`).
   *Not* the `@tailwindcss/vite` plugin — it's incompatible with Astro 6's Rolldown-Vite
   (see `docs/DECISIONS.md`).
-- **Leaflet + OpenStreetMap** for maps (`src/scripts/leaflet-map.ts`) — no API keys.
+- **Leaflet + Esri World Street Map** for maps (`src/scripts/leaflet-map.ts`) — no API keys.
+  Esri tiles label the whole world in English (OpenStreetMap's default tiles label in each
+  region's local script, e.g. Japanese for Japan); OSM tiles remain as an automatic fallback.
 - **Fuse.js** for client search (`src/lib/search.ts`), behind a `SearchProvider` interface.
 - **Content Collections** (`src/content.config.ts`) — `attractions`, `events`, `comments`.
 

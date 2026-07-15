@@ -32,10 +32,16 @@ the Vite plugin gains Rolldown support.
 `<script>` keeps bundles tiny, avoids a framework runtime, and is the simplest idiom for an
 agent to extend. **Trade-offs:** Manual DOM wiring; acceptable at this complexity.
 
-### 6. Leaflet + OpenStreetMap
-**Why:** No API key, no billing, open data. Robust clustering via `markercluster`.
-**Trade-offs:** Raster tiles look less slick than vector. Custom emoji markers sidestep
-Leaflet's notorious bundler-broken default-marker images.
+### 6. Leaflet + Esri World Street Map (OpenStreetMap fallback)
+**Why:** No API key, no billing, open data. Robust clustering via `markercluster`. Esri's
+World Street Map is the primary tile layer instead of OpenStreetMap's default tiles because
+Esri labels the entire world in English/Latin script; OSM's default raster tiles label each
+region in its local script (Japanese place names for a site whose content is in English),
+which read as a mismatch. OSM tiles are kept as an automatic fallback if Esri's tiles fail to
+load repeatedly (CSP block, outage), so the map degrades to local-script labels rather than
+going blank. **Trade-offs:** Raster tiles look less slick than vector. Custom emoji markers
+sidestep Leaflet's notorious bundler-broken default-marker images. Esri's tile coordinate
+order is `{z}/{y}/{x}`, not OSM's `{z}/{x}/{y}` — easy to get backwards when editing.
 
 ### 7. Fuse.js behind a `SearchProvider` interface
 **Why:** Instant client-side fuzzy search with zero infra, and an explicit seam so semantic/

@@ -17,7 +17,8 @@ designed to be **developed primarily by AI agents** over a long horizon — read
 
 ## ✨ What's inside
 
-- **Interactive map** of all of Japan (Leaflet + OpenStreetMap, no API keys).
+- **Interactive map** of all of Japan (Leaflet + Esri World Street Map, English labels
+  worldwide, no API keys — OpenStreetMap tiles as automatic fallback).
 - **Excellent filtering** — combine season, theme, cost, effort, duration, accessibility,
   and vibe filters; everything is shareable via the URL.
 - **Seasonal feature** — filter by the current month, a season, or a specific window. Many
