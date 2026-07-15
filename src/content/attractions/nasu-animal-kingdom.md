@@ -60,7 +60,7 @@ Up in the cool **Nasu highlands**, a short hop from the volcano and the hot spri
 
 ## Why It's Interesting
 
-It's hands-on and unhurried — you can hand-feed **capybaras**, wander among **alpacas** and free-roaming birds, meet penguins and red pandas, and catch a genuinely thrilling **free-flight raptor show** where hawks and owls skim the crowd. The signature winter scene is pure Roadside Japan: a tubful of **capybaras soaking in a steaming hot-spring bath**, blissfully unbothered, like tiny furry retirees.
+It's hands-on and unhurried — you can hand-feed **capybaras**, wander among **alpacas** and free-roaming birds, meet penguins and red pandas, and catch a genuinely thrilling **free-flight raptor show** where hawks and owls skim the crowd. The signature winter scene is pure Cinnamon Land: a tubful of **capybaras soaking in a steaming hot-spring bath**, blissfully unbothered, like tiny furry retirees.
 
 ## Best Time to Visit
 

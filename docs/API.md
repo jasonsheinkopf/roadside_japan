@@ -1,6 +1,6 @@
 # Internal API
 
-Roadside Japan is static, so the **read API** is a set of JSON/XML files generated at build
+Cinnamon Land is static, so the **read API** is a set of JSON/XML files generated at build
 time, and **write operations** happen through Git (the agent tool and GitHub Issue Forms).
 This split keeps the site serverless while still exposing a clean, documented surface.
 

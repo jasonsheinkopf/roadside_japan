@@ -8,6 +8,7 @@
  */
 
 export const REGIONS = [
+  // Japan's eight regions
   "Hokkaido",
   "Tohoku",
   "Kanto",
@@ -16,16 +17,24 @@ export const REGIONS = [
   "Chugoku",
   "Shikoku",
   "Kyushu",
+  // Thailand's regions (provinces live in the same list — see `country` below)
+  "Northern Thailand",
+  "Northeastern Thailand",
+  "Central Thailand",
+  "Eastern Thailand",
+  "Southern Thailand",
 ] as const;
 export type Region = (typeof REGIONS)[number];
 
 export interface Prefecture {
   slug: string;
   name: string; // English
-  nameJa: string; // 日本語
+  nameJa: string; // local script (日本語 for Japan, ไทย for Thailand)
   region: Region;
   lat: number;
   lng: number;
+  /** Which country this region belongs to. Omitted = "japan" (the original dataset). */
+  country?: import("./vocab").Country;
 }
 
 export const PREFECTURES: Prefecture[] = [
@@ -83,6 +92,21 @@ export const PREFECTURES: Prefecture[] = [
   { slug: "miyazaki", name: "Miyazaki", nameJa: "宮崎県", region: "Kyushu", lat: 32.0, lng: 131.3 },
   { slug: "kagoshima", name: "Kagoshima", nameJa: "鹿児島県", region: "Kyushu", lat: 31.6, lng: 130.55 },
   { slug: "okinawa", name: "Okinawa", nameJa: "沖縄県", region: "Kyushu", lat: 26.2124, lng: 127.6809 },
+
+  // ---- Thailand (provinces; added as the atlas expands beyond Japan) ----
+  { slug: "bangkok", name: "Bangkok", nameJa: "กรุงเทพมหานคร", region: "Central Thailand", lat: 13.7563, lng: 100.5018, country: "thailand" },
+  { slug: "ayutthaya", name: "Ayutthaya", nameJa: "พระนครศรีอยุธยา", region: "Central Thailand", lat: 14.35, lng: 100.57, country: "thailand" },
+  { slug: "kanchanaburi", name: "Kanchanaburi", nameJa: "กาญจนบุรี", region: "Central Thailand", lat: 14.3, lng: 99.0, country: "thailand" },
+  { slug: "samut-songkhram", name: "Samut Songkhram", nameJa: "สมุทรสงคราม", region: "Central Thailand", lat: 13.41, lng: 100.0, country: "thailand" },
+  { slug: "samut-prakan", name: "Samut Prakan", nameJa: "สมุทรปราการ", region: "Central Thailand", lat: 13.6, lng: 100.6, country: "thailand" },
+  { slug: "nakhon-pathom", name: "Nakhon Pathom", nameJa: "นครปฐม", region: "Central Thailand", lat: 13.82, lng: 100.06, country: "thailand" },
+  { slug: "prachuap-khiri-khan", name: "Prachuap Khiri Khan", nameJa: "ประจวบคีรีขันธ์", region: "Central Thailand", lat: 11.8, lng: 99.8, country: "thailand" },
+  { slug: "chiang-mai", name: "Chiang Mai", nameJa: "เชียงใหม่", region: "Northern Thailand", lat: 18.79, lng: 98.98, country: "thailand" },
+  { slug: "chiang-rai", name: "Chiang Rai", nameJa: "เชียงราย", region: "Northern Thailand", lat: 19.9, lng: 99.83, country: "thailand" },
+  { slug: "udon-thani", name: "Udon Thani", nameJa: "อุดรธานี", region: "Northeastern Thailand", lat: 17.4, lng: 102.8, country: "thailand" },
+  { slug: "chonburi", name: "Chonburi", nameJa: "ชลบุรี", region: "Eastern Thailand", lat: 13.1, lng: 101.0, country: "thailand" },
+  { slug: "krabi", name: "Krabi", nameJa: "กระบี่", region: "Southern Thailand", lat: 8.1, lng: 98.9, country: "thailand" },
+  { slug: "phuket", name: "Phuket", nameJa: "ภูเก็ต", region: "Southern Thailand", lat: 7.95, lng: 98.35, country: "thailand" },
 ];
 
 export const PREFECTURE_SLUGS = PREFECTURES.map((p) => p.slug) as [string, ...string[]];
@@ -100,6 +124,11 @@ export function prefecturesByRegion(): Record<Region, Prefecture[]> {
   >;
   for (const p of PREFECTURES) out[p.region].push(p);
   return out;
+}
+
+/** Country a prefecture/province belongs to (the original 47 are Japan's). */
+export function prefectureCountry(p: Prefecture): import("./vocab").Country {
+  return p.country ?? "japan";
 }
 
 /** Geographic center of Japan, used as the default map view. */

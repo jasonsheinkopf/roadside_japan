@@ -1,6 +1,6 @@
 # Photo enrichment workflow
 
-Roadside Japan should show real visual context, but it should not copy random images from the web into the repository.
+Cinnamon Land should show real visual context, but it should not copy random images from the web into the repository.
 
 ## Safe default
 

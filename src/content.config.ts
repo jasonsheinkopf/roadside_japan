@@ -1,5 +1,5 @@
 /**
- * content.config.ts — THE canonical data contract for Roadside Japan.
+ * content.config.ts — THE canonical data contract for Cinnamon Land.
  *
  * This file is the source of truth and the enforcement gate: `astro sync` / `astro build`
  * validate every entry against these Zod schemas and FAIL on any violation. That means
@@ -18,6 +18,7 @@ import { glob } from "astro/loaders";
 import {
   CATEGORIES,
   COST_TYPES,
+  COUNTRIES,
   DIFFICULTIES,
   MONTHS,
   RECURRENCE,
@@ -53,11 +54,15 @@ const commonFields = z.object({
   summary: z.string().min(10).max(280),
 
   // --- Location ---
+  /** Which country the entry belongs to. Defaults to japan (the original dataset). */
+  country: z.enum(COUNTRIES).default("japan"),
+  /** Prefecture (Japan) or province (Thailand) slug — see src/data/prefectures.ts. */
   prefecture: z.enum(PREFECTURE_SLUGS),
   city: z.string().optional(),
   address: z.string().optional(),
-  lat: z.number().min(20).max(46), // Japan's rough bounding box
-  lng: z.number().min(122).max(154),
+  // Bounding box covering all atlas countries (Thailand's far south → Hokkaido's far north).
+  lat: z.number().min(5).max(46),
+  lng: z.number().min(90).max(154),
   /** If omitted, a Google Maps link is generated from lat/lng at render time. */
   googleMaps: z.string().url().optional(),
 

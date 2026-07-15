@@ -9,6 +9,7 @@
 import type {
   Category,
   CostType,
+  Country,
   Difficulty,
   Recurrence,
   Season,
@@ -29,6 +30,8 @@ export interface IndexRecord {
   url: string; // already base-prefixed, ready for href
 
   // location
+  country: Country;
+  countryName: string;
   prefecture: string; // slug
   prefectureName: string;
   region: Region;

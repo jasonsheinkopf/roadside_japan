@@ -1,17 +1,17 @@
-# 🗾 Roadside Japan!
+# 🗾 Cinnamon Land!
 
-> **Discover the Japan most tourists never see.**
+> **Discover the places most tourists never see.**
 > An open, community- and AI-curated atlas of hidden gems, weird attractions, strange
 > museums, giant statues, seasonal festivals, scenic detours, and roadside oddities —
 > the *Roadside America of Japan*, with a dash of *Atlas Obscura*.
 
-Roadside Japan is a fast, static website backed by a **Git repository as its database**.
+Cinnamon Land is a fast, static website backed by a **Git repository as its database**.
 Every place is a small Markdown file validated against a strict schema, so the whole atlas
 is transparent, version-controlled, and easy for both humans and AI agents to extend. It is
 designed to be **developed primarily by AI agents** over a long horizon — read
 [`AGENTS.md`](./AGENTS.md) first if you are one.
 
-![Roadside Japan](./public/og.png)
+![Cinnamon Land](./public/og.png)
 
 ---
 

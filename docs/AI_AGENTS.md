@@ -1,6 +1,6 @@
 # AI Agents
 
-Roadside Japan is built to be curated with AI. The tooling lives in `tools/agent/` and is a
+Cinnamon Land is built to be curated with AI. The tooling lives in `tools/agent/` and is a
 **local** developer tool: it talks to an LLM, drafts schema-valid entries, and writes them to
 the repo for human approval. Keys and compute stay on your machine; the public site stays
 static.

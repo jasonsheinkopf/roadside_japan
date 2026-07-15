@@ -1,0 +1,133 @@
+---
+/**
+ * /countries/[country] — a country's home inside Cinnamon Land.
+ *
+ * The site is browsed one country at a time; this page is that country's front door:
+ * hero + stats, deep links into Explore / Map / Timeline pre-scoped to the country
+ * (via the country filter id — see FILTER_GROUPS in src/lib/filters.ts), a featured
+ * grid, and the country's regions/provinces.
+ */
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AttractionCard from "../../components/AttractionCard.astro";
+import { getIndexRecords } from "../../lib/content";
+import { COUNTRY_LIST, getCountry } from "../../data/countries";
+import { PREFECTURES, prefectureCountry } from "../../data/prefectures";
+import { withBase, exploreUrl, mapUrl, timelineUrl } from "../../lib/url";
+
+export async function getStaticPaths() {
+  return COUNTRY_LIST.map((c) => ({ params: { country: c.slug } }));
+}
+
+const { country: slug } = Astro.params;
+const country = getCountry(slug!)!;
+
+const all = await getIndexRecords();
+const records = all.filter((r) => r.country === country.slug);
+const featured = records.filter((r) => r.featured);
+const highlights = (featured.length ? featured : records)
+  .filter((r) => r.collection === "attractions")
+  .slice(0, 6);
+const events = records.filter((r) => r.collection === "events").slice(0, 3);
+
+const provinces = PREFECTURES.filter((p) => prefectureCountry(p) === country.slug);
+const provCounts = new Map<string, number>();
+for (const r of records) provCounts.set(r.prefecture, (provCounts.get(r.prefecture) ?? 0) + 1);
+const provincesWithEntries = provinces
+  .map((p) => ({ ...p, count: provCounts.get(p.slug) ?? 0 }))
+  .sort((a, b) => b.count - a.count);
+
+const scoped = (base: string) => `${base}?f=${country.slug}`;
+const regionLabel = country.slug === "japan" ? "prefecture" : "province";
+---
+
+<BaseLayout
+  title={country.name}
+  description={`${country.name} on Cinnamon Land: ${country.tagline}`}
+>
+  <div class="py-8">
+    <!-- Hero -->
+    <section class="bg-topo -mx-4 rounded-3xl px-6 py-10 text-center sm:py-14">
+      <p class="text-6xl" aria-hidden="true">{country.flag}</p>
+      <h1 class="mt-3 font-display text-4xl font-bold sm:text-5xl">{country.name}</h1>
+      <p class="mx-auto mt-3 max-w-xl text-lg text-ink-soft">{country.tagline}</p>
+      <p class="mt-2 text-sm text-ink-soft">
+        {records.length} discoveries · {provincesWithEntries.filter((p) => p.count > 0).length} {regionLabel}s covered
+      </p>
+      <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+        <a href={scoped(mapUrl())} class="btn btn-primary">🗺️ Map of {country.name}</a>
+        <a href={scoped(exploreUrl())} class="btn btn-ghost">🔍 Explore {country.name}</a>
+        <a href={`${timelineUrl()}?country=${country.slug}`} class="btn btn-ghost">🗓️ When to go</a>
+      </div>
+    </section>
+
+    <!-- Highlights -->
+    {
+      highlights.length > 0 && (
+        <section class="mt-10">
+          <div class="mb-4 flex items-center justify-between">
+            <h2 class="font-display text-2xl font-bold">Highlights</h2>
+            <a href={scoped(exploreUrl())} class="text-sm text-sun link-underline">
+              See all {records.length} →
+            </a>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {highlights.map((r) => (
+              <AttractionCard record={r} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <!-- Seasonal events -->
+    {
+      events.length > 0 && (
+        <section class="mt-10">
+          <h2 class="mb-4 font-display text-2xl font-bold">Seasonal events</h2>
+          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {events.map((r) => (
+              <AttractionCard record={r} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <!-- Regions / provinces -->
+    <section class="mt-10">
+      <h2 class="mb-4 font-display text-2xl font-bold">By {regionLabel}</h2>
+      <div class="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
+        {
+          provincesWithEntries.map((p) => (
+            <a
+              href={withBase(`/prefectures/${p.slug}`)}
+              class="card flex items-center justify-between px-3 py-2.5 transition hover:border-sun"
+            >
+              <span>
+                <span class="font-medium">{p.name}</span>
+                <span class="ml-1 text-xs text-ink-soft">{p.nameJa}</span>
+              </span>
+              <span class:list={["rounded-full px-2 py-0.5 text-xs", p.count > 0 ? "bg-sun text-white" : "bg-surface-2 text-ink-soft"]}>
+                {p.count}
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Other countries -->
+    <section class="mt-10 text-center">
+      <p class="text-sm text-ink-soft">
+        Also on Cinnamon Land:
+        {
+          COUNTRY_LIST.filter((c) => c.slug !== country.slug).map((c) => (
+            <a href={withBase(`/countries/${c.slug}`)} class="ml-2 text-sun link-underline">
+              {c.flag} {c.name}
+            </a>
+          ))
+        }
+      </p>
+    </section>
+  </div>
+</BaseLayout>

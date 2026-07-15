@@ -66,7 +66,7 @@ In western Tokyo, away from the big-name sightseeing loop, **Fussa Firefly Festi
 
 Most travelers never associate Tokyo with fireflies. Fussa makes the surprise work: it is still Tokyo, but it feels like the edge of the city, with the Tama River, old waterways, Yokota Air Base nearby, and a local festival atmosphere instead of a packaged tourist event.
 
-This is the kind of seasonal micro-event that is easy to miss unless you live nearby or obsessively scan local calendars. That makes it perfect Roadside Japan material.
+This is the kind of seasonal micro-event that is easy to miss unless you live nearby or obsessively scan local calendars. That makes it perfect Cinnamon Land material.
 
 ## Best Time to Visit
 
