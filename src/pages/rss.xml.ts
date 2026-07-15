@@ -10,9 +10,9 @@ export const GET: APIRoute = async ({ site }) => {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Roadside Japan — Newest discoveries</title>
+    <title>Cinnamon Land — Newest discoveries</title>
     <link>${base.href}</link>
-    <description>The newest hidden gems, weird attractions, and seasonal events added to Roadside Japan.</description>
+    <description>The newest hidden gems, weird attractions, and seasonal events added to Cinnamon Land.</description>
     <language>en</language>
     ${items
       .map((r) => {

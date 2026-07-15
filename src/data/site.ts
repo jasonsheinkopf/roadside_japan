@@ -3,8 +3,10 @@
  * GitHub Issue Form intake links). Reference this instead of hard-coding URLs.
  */
 export const SITE = {
-  name: "Roadside Japan",
-  tagline: "Discover the Japan most tourists never see.",
+  name: "Cinnamon Land",
+  tagline: "Discover the places most tourists never see — one country at a time.",
+  // NOTE: repo slug still `roadside_japan` — renaming the GitHub repo is a manual step in
+  // repo Settings (GitHub redirects the old URL). Update these two lines when renamed.
   repo: "https://github.com/jasonsheinkopf/roadside_japan",
   /** Owner/name — used to build GitHub issue intake links. */
   owner: "jasonsheinkopf",

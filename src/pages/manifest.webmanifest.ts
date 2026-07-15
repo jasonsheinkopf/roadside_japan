@@ -8,9 +8,9 @@ import { withBase } from "../lib/url";
 
 export const GET: APIRoute = () => {
   const manifest = {
-    name: "Roadside Japan",
-    short_name: "Roadside JP",
-    description: "Discover the Japan most tourists never see.",
+    name: "Cinnamon Land",
+    short_name: "Cinnamon",
+    description: "Discover the places most tourists never see.",
     start_url: withBase("/"),
     scope: withBase("/"),
     display: "standalone",

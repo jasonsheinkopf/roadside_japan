@@ -45,7 +45,9 @@ same change.**
 ```
 src/data/        vocabulary & taxonomy (no Astro imports → safe for agent tooling to import)
   vocab.ts         enums: SEASONS, CATEGORIES, DIFFICULTIES, TIME_REQUIRED, COST_TYPES, …
-  prefectures.ts   the 47 prefectures (slug, region, coords)
+  countries.ts     countries (flag, tagline, map center/zoom) — the site is browsed one
+                   country at a time (header tabs, /countries/<slug>, map zoom, timeline)
+  prefectures.ts   Japan's 47 prefectures + Thailand's provinces (slug, region, coords)
   categories.ts    category → {label, emoji, blurb}
   tags.ts          tag slug → {label, icon, group}
   site.ts          site config (repo URL, issue-link helpers)
@@ -105,6 +107,13 @@ Add one entry to a group in `FILTER_GROUPS` in `src/lib/filters.ts` with a `pred
 Explore and Map UIs render it automatically. If the predicate needs a field not yet on
 `IndexRecord`, add that field in `src/lib/types.ts` **and** populate it in
 `toIndexRecord()` (`src/lib/content.ts`).
+
+### Add a country
+Add the slug to `COUNTRIES` in `src/data/vocab.ts`, metadata (flag, tagline, map center/zoom)
+to `src/data/countries.ts`, and its regions/provinces to `src/data/prefectures.ts` (with
+`country:` set). The header tab, `/countries/<slug>` page, Country filter, map zoom, and
+timeline chip all derive from those three files. Content entries set `country:` in
+frontmatter (defaults to `japan`).
 
 ### Add a category
 Add it to `CATEGORIES` in `src/data/vocab.ts`, then `CATEGORY_META` in

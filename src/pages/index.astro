@@ -9,6 +9,7 @@ import { SEASON_LABEL, MONTH_LABEL, seasonForMonth } from "../data/vocab";
 import { SEASON_EMOJI } from "../lib/format";
 import { prefecturesByRegion, REGIONS, JAPAN_CENTER } from "../data/prefectures";
 import { withBase, exploreUrl, mapUrl, timelineUrl } from "../lib/url";
+import { COUNTRY_LIST } from "../data/countries";
 
 const records = await getIndexRecords();
 
@@ -46,6 +47,10 @@ const quickChips = [
 const regions = prefecturesByRegion();
 const prefCounts = new Map<string, number>();
 for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefecture) ?? 0) + 1);
+
+const countries = COUNTRY_LIST;
+const countryCounts = new Map<string, number>();
+for (const r of records) countryCounts.set(r.country, (countryCounts.get(r.country) ?? 0) + 1);
 ---
 
 <BaseLayout>
@@ -53,15 +58,26 @@ for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefectu
   <section class="bg-topo -mx-4 px-4 sm:-mx-6 sm:px-6">
     <div class="mx-auto max-w-3xl py-14 text-center sm:py-20">
       <p class="mb-3 inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-ink-soft">
-        🗾 The Roadside America of Japan · {stats.total} discoveries and counting
+        🐿️ A world atlas of wonderful detours · {stats.total} discoveries and counting
       </p>
       <h1 class="font-display text-4xl font-bold leading-tight sm:text-6xl">
-        Discover the Japan most<br class="hidden sm:block" /> tourists <span class="text-sun">never see</span>.
+        Discover the places most<br class="hidden sm:block" /> tourists <span class="text-sun">never see</span>.
       </h1>
       <p class="mx-auto mt-4 max-w-xl text-lg text-ink-soft">
         Weird attractions, strange museums, seasonal festivals, giant statues, scenic
-        detours, and roadside oddities — an atlas for the curious.
+        detours, and roadside oddities — one country at a time. Pick yours:
       </p>
+
+      <div class="mt-5 flex flex-wrap items-center justify-center gap-3">
+        {
+          countries.map((c) => (
+            <a href={withBase(`/countries/${c.slug}`)} class="btn btn-ghost border border-line text-base">
+              <span aria-hidden="true">{c.flag}</span> {c.name}
+              <span class="ml-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs text-ink-soft">{countryCounts.get(c.slug) ?? 0}</span>
+            </a>
+          ))
+        }
+      </div>
 
       <form action={exploreUrl()} method="get" role="search" class="mx-auto mt-7 flex max-w-lg items-center gap-2">
         <div class="flex flex-1 items-center rounded-full border border-line bg-surface px-4 py-2.5 shadow-sm focus-within:border-sun">
@@ -95,14 +111,14 @@ for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefectu
       <div class="flex shrink-0 items-end">
         <img
           src={withBase("/images/mon-chan.svg")}
-          alt="Mon-chan, the tan Shiba Inu mascot of Roadside Japan in his olive paisley bandana"
+          alt="Mon-chan, the tan Shiba Inu mascot of Cinnamon Land in his olive paisley bandana"
           width="176"
           height="176"
           class="h-36 w-36 drop-shadow-sm sm:h-44 sm:w-44"
         />
         <img
           src={withBase("/images/cinnamon.svg")}
-          alt="Cinnamon, the squirrel sidekick of Roadside Japan, holding an acorn"
+          alt="Cinnamon, the squirrel sidekick of Cinnamon Land, holding an acorn"
           width="116"
           height="116"
           class="-ml-4 h-24 w-24 drop-shadow-sm sm:h-28 sm:w-28"
@@ -111,7 +127,7 @@ for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefectu
       <div>
         <h2 class="font-display text-2xl font-bold sm:text-3xl">Hi, we're Mon-chan &amp; Cinnamon! 🐕🐿️</h2>
         <p class="mx-auto mt-2 max-w-xl text-ink-soft sm:mx-0">
-          We're the travelling duo behind Roadside Japan. <strong class="text-ink">Mon-chan</strong> is
+          We're the travelling duo behind Cinnamon Land. <strong class="text-ink">Mon-chan</strong> is
           the leader — a small Shiba with a big nose for the strange (and a touch defensive about anything
           bigger or fuzzier than he is). <strong class="text-ink">Cinnamon</strong> is the squirrel
           sub-leader: loves nuts, yells "YEAH!", and bounces when excited. Together we sniff out the
@@ -254,7 +270,7 @@ for (const r of records) prefCounts.set(r.prefecture, (prefCounts.get(r.prefectu
     <div class="card bg-topo flex flex-col items-center gap-3 px-6 py-12 text-center">
       <h2 class="font-display text-2xl font-bold sm:text-3xl">Know a place that belongs here?</h2>
       <p class="max-w-xl text-ink-soft">
-        Roadside Japan grows through people who notice the odd sign, the tiny museum, the
+        Cinnamon Land grows through people who notice the odd sign, the tiny museum, the
         festival nobody wrote about. Add yours — no account needed.
       </p>
       <div class="mt-2 flex flex-wrap justify-center gap-3">

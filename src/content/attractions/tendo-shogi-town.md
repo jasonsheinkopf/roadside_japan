@@ -59,7 +59,7 @@ If a town can have a hobby, **Tendo's** is **shogi** — Japanese chess. It prod
 
 ## Why It's Interesting
 
-The whole town is in on the joke: **giant shogi pieces** stand in squares and parks, the **manhole covers** are chess pieces, and shogi motifs decorate the station and shops. You can watch master craftsmen **engrave pieces** by hand, try carving your own at a workshop, and learn the game at a small museum. The grand finale is the springtime **Human Shogi**, in which a live game is played out on a giant outdoor board by **people in full samurai costume** as the "pieces." It's the kind of single-minded local obsession that's pure Roadside Japan.
+The whole town is in on the joke: **giant shogi pieces** stand in squares and parks, the **manhole covers** are chess pieces, and shogi motifs decorate the station and shops. You can watch master craftsmen **engrave pieces** by hand, try carving your own at a workshop, and learn the game at a small museum. The grand finale is the springtime **Human Shogi**, in which a live game is played out on a giant outdoor board by **people in full samurai costume** as the "pieces." It's the kind of single-minded local obsession that's pure Cinnamon Land.
 
 ## Best Time to Visit
 

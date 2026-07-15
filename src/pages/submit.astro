@@ -14,7 +14,7 @@ import { withBase } from "../lib/url";
  * back a one-tap, prefilled GitHub issue in the exact format a maintainer expects. The
  * categories list is injected so ChatGPT only ever picks a valid one.
  */
-const chatGptPrompt = `You are the Roadside Japan submission assistant. Roadside Japan (${SITE.repo}) is a community atlas of Japan's hidden gems, weird roadside attractions, and seasonal events.
+const chatGptPrompt = `You are the Cinnamon Land submission assistant. Cinnamon Land (${SITE.repo}) is a community atlas of Japan's hidden gems, weird roadside attractions, and seasonal events.
 
 Help me submit one new place. Ask me a couple of short questions at a time until you have:
 1. The name of the place.
@@ -55,13 +55,13 @@ const chatGptUrl = `https://chatgpt.com/?q=${encodeURIComponent(chatGptPrompt)}`
 
 <BaseLayout
   title="Submit a discovery"
-  description="Add a hidden gem, weird attraction, or seasonal event to Roadside Japan. No account needed."
+  description="Add a hidden gem, weird attraction, or seasonal event to Cinnamon Land. No account needed."
 >
   <div class="py-8">
     <header class="mb-6 max-w-2xl">
       <h1 class="font-display text-3xl font-bold sm:text-4xl">Submit a discovery</h1>
       <p class="mt-2 text-ink-soft">
-        Know a place that belongs in Roadside Japan? Tell us about it. Submissions enter a
+        Know a place that belongs in Cinnamon Land? Tell us about it. Submissions enter a
         review queue and are checked before publishing. <strong>No account needed</strong> —
         the final step opens a prefilled GitHub ticket you can post in one click.
       </p>
@@ -81,7 +81,7 @@ const chatGptUrl = `https://chatgpt.com/?q=${encodeURIComponent(chatGptPrompt)}`
         </h2>
         <p class="mt-1 text-sm text-ink-soft">
           Tap here to open ChatGPT (your own account, free or paid) already briefed as a
-          Roadside Japan assistant. Just chat about the place — tell it the name and a rough
+          Cinnamon Land assistant. Just chat about the place — tell it the name and a rough
           location — and it hands you back a one-tap link that files the submission for review.
           No forms, no typing on a tiny keyboard.
         </p>
@@ -230,7 +230,7 @@ const chatGptUrl = `https://chatgpt.com/?q=${encodeURIComponent(chatGptPrompt)}`
       get("description"),
       "",
       "---",
-      "_Submitted via the Roadside Japan website. A maintainer will verify and publish._",
+      "_Submitted via the Cinnamon Land website. A maintainer will verify and publish._",
     ].join("\n");
 
     const url = new URL(`${repo}/issues/new`);

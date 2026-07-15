@@ -62,7 +62,7 @@ Yamagata's autumn comfort food is **imoni** — a hearty stew of **taro, beef, k
 
 ## Why It's Interesting
 
-At the **Nihon-ichi no Imoni-kai** ("Japan's No.1 Imoni Gathering"), a single colossal cauldron — roughly **six metres across** — is set up on the **Mamigasaki riverbed**, filled with tonnes of ingredients, and stirred not by ladles but by a **construction crane** fitted with a giant scoop. Over the day it cooks around **30,000 bowls** of stew, ladled out to the crowds who pour in from across the city to share one enormous communal meal. It's part festival, part civic record-attempt, part outdoor potluck — and gloriously, quintessentially Roadside Japan.
+At the **Nihon-ichi no Imoni-kai** ("Japan's No.1 Imoni Gathering"), a single colossal cauldron — roughly **six metres across** — is set up on the **Mamigasaki riverbed**, filled with tonnes of ingredients, and stirred not by ladles but by a **construction crane** fitted with a giant scoop. Over the day it cooks around **30,000 bowls** of stew, ladled out to the crowds who pour in from across the city to share one enormous communal meal. It's part festival, part civic record-attempt, part outdoor potluck — and gloriously, quintessentially Cinnamon Land.
 
 ## Best Time to Visit
 

@@ -15,7 +15,8 @@
  *   - Across groups  → AND (e.g. (Spring OR Summer) AND Free AND Kids)
  */
 import type { IndexRecord } from "./types";
-import { MONTHS, seasonForMonth, type Season } from "../data/vocab";
+import { COUNTRIES, MONTHS, seasonForMonth, type Season } from "../data/vocab";
+import { COUNTRY_META } from "../data/countries";
 
 export interface FilterOption {
   id: string; // unique across ALL groups; used in URL query (?f=spring,free)
@@ -167,6 +168,19 @@ const hasTag = (r: IndexRecord, t: string) => r.tags.includes(t);
 const isCategory = (r: IndexRecord, c: string) => r.category === c;
 
 export const FILTER_GROUPS: FilterGroup[] = [
+  {
+    // Country scoping — the ids here double as the country slugs used by the header tabs
+    // and /countries/<slug> pages (?f=japan / ?f=thailand deep-link a scoped Explore/Map).
+    id: "country",
+    label: "Country",
+    options: COUNTRIES.map((c) => ({
+      id: c,
+      label: COUNTRY_META[c].name,
+      icon: COUNTRY_META[c].flag,
+      groupId: "country",
+      predicate: (r: IndexRecord) => r.country === c,
+    })),
+  },
   {
     id: "season",
     label: "Season",

@@ -30,15 +30,16 @@ Visit`, `## Getting There`.
 | ------------ | ---------------------------- | ----- |
 | `title`      | string (≥2)                  | Display name. |
 | `summary`    | string (10–280)              | One–two sentence teaser; used in cards, search, meta description, OG. |
-| `prefecture` | enum (slug)                  | One of the 47 — see `src/data/prefectures.ts`. |
-| `lat`        | number (20–46)               | Latitude (Japan bounds enforced). |
-| `lng`        | number (122–154)             | Longitude. |
+| `prefecture` | enum (slug)                  | Prefecture (Japan) or province (Thailand) — see `src/data/prefectures.ts`. |
+| `lat`        | number (5–46)                | Latitude (bounds cover all atlas countries). |
+| `lng`        | number (90–154)              | Longitude. |
 | `category`   | enum                         | One primary bucket: `nature, scenic, food, museum, roadside, religious, art, history, oddity, abandoned, viewpoint, shop, experience, animal, festival`. |
 
 ### Optional (with defaults)
 
 | Field           | Type / default                              | Notes |
 | --------------- | ------------------------------------------- | ----- |
+| `country`       | enum = `japan`                              | `japan` or `thailand` (see `COUNTRIES` in `src/data/vocab.ts`). The site is browsed one country at a time. |
 | `city`          | string                                      | Town/city. |
 | `address`       | string                                      | Human-readable address. |
 | `googleMaps`    | url                                         | Explicit link; auto-generated from lat/lng if omitted. |

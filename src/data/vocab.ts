@@ -129,3 +129,12 @@ export const MONTH_LABEL: Record<number, string> = {
   11: "November",
   12: "December",
 };
+
+/**
+ * Countries covered by the atlas. Cinnamon Land is one site, many countries — but the UI
+ * is built for browsing ONE country at a time (country tabs, per-country map zoom).
+ * Add a country here first, then give it metadata in src/data/countries.ts and regions/
+ * provinces in src/data/prefectures.ts.
+ */
+export const COUNTRIES = ["japan", "thailand"] as const;
+export type Country = (typeof COUNTRIES)[number];

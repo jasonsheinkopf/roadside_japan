@@ -12,7 +12,7 @@ const records = await getIndexRecords();
   description="An interactive map of hidden gems, weird attractions, and seasonal events across Japan."
   fullBleed
 >
-  <div class="flex flex-col" style="height: calc(100dvh - 4rem)">
+  <div class="flex flex-col" style="height: calc(100dvh - 6.5rem)">
     <!-- Control bar -->
     <div class="relative z-20 flex items-center gap-2 border-b border-line bg-canvas px-3 py-2">
       <div class="flex min-w-0 flex-1 items-center rounded-full border border-line bg-surface px-3 py-2 focus-within:border-sun">
@@ -98,6 +98,8 @@ const records = await getIndexRecords();
   import { createSearch, type SearchProvider } from "../lib/search";
   import { loadRecords } from "../scripts/data";
   import type { IndexRecord } from "../lib/types";
+  import { COUNTRIES } from "../data/vocab";
+  import { COUNTRY_META } from "../data/countries";
 
   const el = document.getElementById("map")!;
   const searchInput = document.getElementById("map-search") as HTMLInputElement;
@@ -114,7 +116,9 @@ const records = await getIndexRecords();
   const tripClear = document.getElementById("trip-clear") as HTMLButtonElement;
   const tripHint = document.getElementById("trip-hint")!;
 
-  const handle = createMap({ el, cluster: true });
+  // Default view frames every atlas country at once; selecting a country filter zooms in.
+  const WORLD_VIEW = { center: [25.5, 119.5] as [number, number], zoom: 4 };
+  const handle = createMap({ el, cluster: true, center: WORLD_VIEW.center, zoom: WORLD_VIEW.zoom });
   let records: IndexRecord[] = [];
   let search: SearchProvider;
   const selected = new Set<string>();
@@ -152,9 +156,29 @@ const records = await getIndexRecords();
     return working;
   }
 
+  // Zoom the map to the selected country ("you only want one country at a time"). Only
+  // reacts when the country selection CHANGES so ordinary filter tweaks don't yank the view.
+  let lastCountry: string | null | undefined;
+  function activeCountry(): string | null {
+    const picks = COUNTRIES.filter((c) => selected.has(c));
+    return picks.length === 1 ? picks[0] : null;
+  }
+  function applyCountryView() {
+    const c = activeCountry();
+    if (c === lastCountry) return;
+    if (c) {
+      const meta = COUNTRY_META[c as keyof typeof COUNTRY_META];
+      handle.focus(meta.center[0], meta.center[1], meta.zoom);
+    } else if (lastCountry !== undefined) {
+      handle.focus(WORLD_VIEW.center[0], WORLD_VIEW.center[1], WORLD_VIEW.zoom);
+    }
+    lastCountry = c;
+  }
+
   function render() {
     const list = compute();
     handle.setRecords(list);
+    applyCountryView();
     countEl.textContent = `${list.length} places`;
     const active = selected.size + (cat ? 1 : 0) + (dateRangeActive() ? 1 : 0);
     badge.hidden = active === 0;

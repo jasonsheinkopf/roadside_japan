@@ -34,7 +34,7 @@ interface Props {
 
 const {
   title,
-  description = "Discover the Japan most tourists never see — hidden gems, weird attractions, seasonal events, strange museums, giant statues, scenic drives and roadside stops across all 47 prefectures.",
+  description = "Discover the places most tourists never see — hidden gems, weird attractions, seasonal events, strange museums, giant statues, scenic drives and roadside stops — one country at a time.",
   image,
   noindex = false,
   fullBleed = false,
@@ -42,8 +42,8 @@ const {
   bodyClass = "",
 } = Astro.props;
 
-const SITE_NAME = "Roadside Japan";
-const fullTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} — Discover the Japan most tourists never see`;
+const SITE_NAME = "Cinnamon Land";
+const fullTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} — Discover the places most tourists never see`;
 
 const site = Astro.site ?? new URL("https://example.com");
 const canonical = new URL(Astro.url.pathname, site).href;
@@ -72,7 +72,7 @@ const ogImage = image
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fbf7ef" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#14161b" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Roadside JP" />
+    <meta name="apple-mobile-web-app-title" content="Cinnamon" />
 
     <!-- Open Graph / Twitter -->
     <meta property="og:site_name" content={SITE_NAME} />
@@ -86,7 +86,7 @@ const ogImage = image
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
 
-    <link rel="alternate" type="application/rss+xml" title="Roadside Japan — newest" href={withBase("/rss.xml")} />
+    <link rel="alternate" type="application/rss+xml" title="Cinnamon Land — newest" href={withBase("/rss.xml")} />
 
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
 

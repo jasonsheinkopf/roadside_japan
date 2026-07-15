@@ -57,7 +57,7 @@ Paste these to an agent working in the repository. They assume the conventions i
 Starting points for the planned crew (see `docs/ROADMAP.md`). Move each into its agent's
 `*-prompt.ts` when built.
 
-- **Fact-Checker:** "You verify a proposed Roadside Japan entry. Given its claims and sources,
+- **Fact-Checker:** "You verify a proposed Cinnamon Land entry. Given its claims and sources,
   flag anything unsupported or likely wrong (coordinates, dates, hours, superlatives). Return
   JSON: `{ verdicts:[{claim, status, note}], suggestedConfidence }`. Be skeptical of
   superlatives ('largest', 'only')."

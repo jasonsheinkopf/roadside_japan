@@ -15,6 +15,7 @@ import { SEASON_COLOR, SEASON_EMOJI, formatDateRange, monthsLabel } from "../lib
 import { CATEGORY_META } from "../data/categories";
 import { exploreUrl } from "../lib/url";
 import { MONTHS, MONTH_LABEL, SEASON_LABEL, SEASONS, seasonForMonth } from "../data/vocab";
+import { COUNTRY_LIST } from "../data/countries";
 
 const records = await getIndexRecords();
 const nowMonth = new Date().getMonth() + 1;
@@ -58,13 +59,13 @@ function cells(months: number[]) {
 
 <BaseLayout
   title="When to go — timeline"
-  description="Plan by the calendar: a year-long timeline of Japan's seasonal blooms, festivals, illuminations, and limited-time discoveries. Pick a month to see exactly what's worth catching."
+  description="Plan by the calendar: a year-long timeline of seasonal blooms, festivals, illuminations, and limited-time discoveries. Pick a month to see exactly what's worth catching."
 >
   <div class="py-8">
     <header class="mb-6 max-w-2xl">
       <h1 class="font-display text-3xl font-bold sm:text-4xl">When to go</h1>
       <p class="mt-2 text-ink-soft">
-        Japan's best detours are often on a clock — wisteria tunnels, snow monsters, firefly
+        The best detours are often on a clock — wisteria tunnels, snow monsters, firefly
         nights, seas of cloud. Scan the year, pick a month, and find what's actually catchable
         when you're here.
       </p>
@@ -72,6 +73,17 @@ function cells(months: number[]) {
 
     <!-- Controls -->
     <div class="mb-5 space-y-3">
+      <!-- Country scoping: you plan one country's trip at a time -->
+      <div class="flex flex-wrap items-center gap-1.5">
+        <button type="button" class="chip" data-country-btn="all" aria-pressed="true">🌏 All countries</button>
+        {
+          COUNTRY_LIST.map((c) => (
+            <button type="button" class="chip" data-country-btn={c.slug} aria-pressed="false">
+              <span aria-hidden="true">{c.flag}</span> {c.name}
+            </button>
+          ))
+        }
+      </div>
       <div class="flex flex-wrap items-center gap-1.5">
         <button type="button" class="chip" data-month="all" aria-pressed="true">All year</button>
         {
@@ -147,6 +159,7 @@ function cells(months: number[]) {
                 data-id={r.id}
                 data-months={months.join(",")}
                 data-seasonal={String(seasonal)}
+                data-country={r.country}
               >
                 <div class="tl-label">
                   <div class="flex items-center gap-2">
@@ -253,6 +266,8 @@ function cells(months: number[]) {
   const headCells = Array.from(document.querySelectorAll<HTMLElement>("[data-month-col]"));
 
   let month: number | null = null; // null = all year
+  let country: string | null = null; // null = all countries
+  const countryBtns = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-country-btn]"));
 
   function highlightColumn() {
     for (const el of headCells) {
@@ -266,7 +281,8 @@ function cells(months: number[]) {
       const seasonal = row.dataset.seasonal === "true";
       const months = (row.dataset.months || "").split(",").filter(Boolean).map(Number);
       let visible = true;
-      if (seasonalOnly.checked && !seasonal) visible = false;
+      if (country !== null && row.dataset.country !== country) visible = false;
+      if (visible && seasonalOnly.checked && !seasonal) visible = false;
       if (visible && month !== null) {
         // Year-round rows (no months) count as active every month.
         visible = months.length === 0 ? !seasonalOnly.checked : months.includes(month);
@@ -289,12 +305,32 @@ function cells(months: number[]) {
   }
   seasonalOnly.addEventListener("change", render);
 
-  // Deep-link support: /timeline?month=6
+  function setCountry(next: string | null) {
+    country = next;
+    for (const b of countryBtns) {
+      b.setAttribute("aria-pressed", String((next ?? "all") === b.dataset.countryBtn));
+    }
+    // Keep the URL shareable (/timeline?country=thailand).
+    const params = new URLSearchParams(location.search);
+    next ? params.set("country", next) : params.delete("country");
+    const qs = params.toString();
+    history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  }
+  for (const btn of countryBtns) {
+    btn.addEventListener("click", () => {
+      setCountry(btn.dataset.countryBtn === "all" ? null : btn.dataset.countryBtn!);
+      render();
+    });
+  }
+
+  // Deep-link support: /timeline?month=6&country=thailand
   const p = new URLSearchParams(location.search);
   const qm = Number(p.get("month"));
   if (qm >= 1 && qm <= 12) {
     month = qm;
     for (const b of monthBtns) b.setAttribute("aria-pressed", String(b.dataset.month === String(qm)));
   }
+  const qc = p.get("country");
+  if (qc && countryBtns.some((b) => b.dataset.countryBtn === qc)) setCountry(qc);
   render();
 </script>
