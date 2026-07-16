@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "The Death Railway hugs a cliff over the river. The train creaked past a cave shrine. I held the ledge and history held me."
+  emoji: "🚂"
 ---
 
 The most photographed stretch of the surviving Death Railway is the Wang Pho (Wampo) viaduct: a long curve of timber trestle bolted to the face of a riverside cliff, built by Allied POWs and Asian labourers in 1943. Beside it, the small Tham Krasae cave holds a Buddha image right where the line skirts the rock.

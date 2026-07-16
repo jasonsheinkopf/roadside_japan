@@ -56,6 +56,9 @@ related:
   - inubosaki-lighthouse
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A tiny train saved by snacks! We are spiritually the same, little train."
+  emoji: "🚃"
 ---
 
 At the far eastern tip of Chiba runs one of Japan's most lovable underdogs: the **Choshi Electric Railway**, a 6.4 km line of rattling vintage carriages that has been teetering on the edge of bankruptcy for decades — and keeps itself alive in the most Japanese way imaginable.

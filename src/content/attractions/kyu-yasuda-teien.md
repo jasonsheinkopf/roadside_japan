@@ -47,6 +47,9 @@ aiKeywords: [kyu-yasuda teien, ryogoku garden, daimyo garden, sumida ku park]
 featured: false
 createdAt: 2026-07-04
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A hidden garden with a turtle pond. The turtles move at my nap speed. Kindred spirits."
+  emoji: "🐢"
 ---
 
 A small, easy-to-miss strolling garden just north of the sumo stadium — free, quiet, and older than almost everything around it.

@@ -47,6 +47,9 @@ aiKeywords: [maeklong railway market, talat rom hup, train market thailand, umbr
 featured: true
 createdAt: 2026-07-15
 updatedAt: 2026-07-15
+cinnamon:
+  quote: "The train comes THROUGH the market and everyone just... folds their shop away. Ballet."
+  emoji: "🚂"
 ---
 
 The railway came first; the market grew over it anyway. A century later, neither side has budged — so eight times a day, a full-size train threads a wet market at walking pace.

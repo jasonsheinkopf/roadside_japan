@@ -29,6 +29,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "A giant red swing with no swing. The suspense is architectural."
+  emoji: "⛩️"
 ---
 
 Standing in a quiet square in front of Wat Suthat, the Giant Swing is one of Bangkok's most striking and least-understood landmarks. The current red teak structure is a careful reconstruction, but the ceremony it commemorates was real — and genuinely dangerous.

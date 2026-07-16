@@ -25,6 +25,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Everything is pink, sparkly, and horned. I wore a unicorn headband. Do not look for the photos."
+  emoji: "🦄"
 ---
 
 For maximum-sugar, maximum-glitter absurdity, few places on earth compete with the Unicorn Café. Every surface is pastel; shelves heave with plush unicorns; and you're encouraged to pull on a shiny unicorn onesie before tucking into rainbow-coloured spaghetti, glittery lattes, and candy-bright shakes.

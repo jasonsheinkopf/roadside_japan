@@ -55,6 +55,9 @@ featured: false
 createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
+cinnamon:
+  quote: "A Buddha drawn in gold laser lines on a whole cliff. Boldest sketch I've ever seen."
+  emoji: "🖼️"
 ---
 
 Drive inland from Pattaya and a grey limestone mountain suddenly reveals an enormous **seated Buddha carved into its cliff face** — 109 metres tall and outlined in gold leaf and gold mosaic that glints for kilometres.

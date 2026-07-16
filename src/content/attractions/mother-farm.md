@@ -54,6 +54,9 @@ related:
   - nasu-animal-kingdom
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "I watched the sheep parade and a pig race. Democracy in its purest form."
+  emoji: "🐑"
 ---
 
 High on the hills of the **Boso Peninsula**, with Tokyo Bay glinting below, **Mother Farm** is a sprawling farm-park built for a very specific kind of joy: feeding fuzzy animals, watching sheep do undignified things, and wandering through fields of flowers.

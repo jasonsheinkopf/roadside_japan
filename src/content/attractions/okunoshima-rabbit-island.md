@@ -53,6 +53,9 @@ related:
   - nagoro-scarecrow-village
 createdAt: 2025-07-22
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "An island of a thousand rabbits. I was briefly mistaken for one. Greatest honor of my life."
+  emoji: "🐇"
 ---
 
 A fifteen-minute ferry from the Hiroshima coast lands you on **Okunoshima**, where the welcoming committee is several hundred wild rabbits that will hop straight into your lap at the rustle of a food bag.

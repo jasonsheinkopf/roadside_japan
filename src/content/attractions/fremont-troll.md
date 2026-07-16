@@ -13,6 +13,12 @@ tags:
   - quirky
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Troll_Ave_Fremont_Seattle_USA.jpg/960px-Troll_Ave_Fremont_Seattle_USA.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Troll_Ave_Fremont_Seattle_USA.jpg/960px-Troll_Ave_Fremont_Seattle_USA.jpg"
+    alt: "The Fremont Troll clutching its Volkswagen under the Aurora Bridge, Seattle"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Troll_Ave_Fremont_Seattle_USA.jpg"
 status: open
 cost:
   type: free
@@ -23,6 +29,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Fremont_Troll"
   - title: "Fremont Troll — Atlas Obscura"
     url: "https://www.atlasobscura.com/places/fremont-troll"
+cinnamon:
+  quote: "There's a troll under the bridge eating a real car. I offered him an acorn. He's full."
+  emoji: "👹"
 ---
 
 ## The thing under the bridge

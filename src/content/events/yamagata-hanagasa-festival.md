@@ -58,6 +58,9 @@ related:
   - akita-kanto-festival
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Flower hats spinning down the avenue to the drums. I wore a chrysanthemum. I WAS the parade, briefly."
+  emoji: "🌼"
 ---
 
 For three nights every August, the main street of **Yamagata City** turns into a river of flowers and drums. The **Hanagasa Festival** sends **thousands of dancers** — in matching happi coats, each twirling a straw **hanagasa hat** trimmed with bright red safflowers — sweeping down the avenue to the boom of taiko and the rhythmic shout of **"Yassho, makasho!"**

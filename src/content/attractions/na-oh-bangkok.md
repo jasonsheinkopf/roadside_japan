@@ -28,6 +28,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Fine dining inside an old ice factory. I wore my imaginary bow tie. It killed."
+  emoji: "🍽️"
 ---
 
 Inside the grounded Lockheed airliner that forms the centrepiece of the Chang Chui creative park, Na Oh turns the fuselage into a dining room like no other. The concept is deliberately cinematic — a dim, dystopian "survival" world with a storytelling set menu served among the salvaged cabin fittings.

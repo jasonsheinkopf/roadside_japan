@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Neon, grilled everything, and a thousand happy faces. I ate my way from A to Z."
+  emoji: "🌃"
 ---
 
 Bangkok's night-market scene shifts constantly, and Jodd Fairs is the current crowd favourite — a dense, energetic grid of food stalls, bars, dessert stands, and vintage-clothing tents that fills up after dark behind the Rama IX business district.

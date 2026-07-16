@@ -46,6 +46,9 @@ aiKeywords: [erawan museum, three headed elephant, samut prakan, chang erawan, a
 featured: false
 createdAt: 2026-07-15
 updatedAt: 2026-07-15
+cinnamon:
+  quote: "A three-headed elephant the size of a building. I bowed three times. Math."
+  emoji: "🐘"
 ---
 
 South of Bangkok on the Sukhumvit road, a three-headed elephant the height of a fourteen-story building surfaces above the traffic — and it's hollow.

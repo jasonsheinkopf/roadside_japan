@@ -26,6 +26,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "The medical museum is not for the faint of heart. I am faint of heart. I went anyway. Briefly."
+  emoji: "🫀"
 ---
 
 If your idea of a great museum runs toward the macabre and the genuinely educational, Siriraj is Bangkok's answer to Tokyo's parasite museum — and then some. Tucked inside the country's oldest hospital, it's actually several museums in one: forensic medicine, pathology, anatomy, and parasitology.

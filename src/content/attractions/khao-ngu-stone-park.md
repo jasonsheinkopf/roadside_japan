@@ -25,6 +25,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "The monkeys here are professionals. They unzipped a tourist's bag in 4 seconds flat. Athletes."
+  emoji: "🐒"
 ---
 
 Where stone was once blasted out for cement, Ratchaburi has made something unexpectedly lovely: a quiet park of jade-green quarry lakes ringed by pale cliffs, dotted with picnic spots and walking paths.

@@ -37,6 +37,12 @@ tips:
   - Check the solstice-style 'sunrise through 15 doorways' dates before you go — they draw big, festive crowds.
   - Pair it with Prasat Muang Tam, a moated Khmer temple just down the hill.
   - The walk up the laterite causeway is long and shadeless — bring water and a hat.
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Prasat_Hin_Phanom_Rung_3880.jpg/960px-Prasat_Hin_Phanom_Rung_3880.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Prasat_Hin_Phanom_Rung_3880.jpg/960px-Prasat_Hin_Phanom_Rung_3880.jpg"
+    alt: "The sandstone sanctuary of Prasat Hin Phanom Rung on its extinct volcano"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Prasat_Hin_Phanom_Rung_3880.jpg"
 status: open
 approval: published
 source: imported
@@ -48,8 +54,11 @@ related:
   - sala-kaew-ku
 featured: false
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-16
 country: thailand
+cinnamon:
+  quote: "A Khmer temple on a volcano, aligned so the sun shoots through 15 doors at once. Ancient show-offs. I love them."
+  emoji: "🌋"
 ---
 
 Rising from the flat Isan plains on the rim of a **dormant volcano**, **Prasat Phanom Rung** is the finest Khmer temple in Thailand — a pink-sandstone sanctuary built between the 10th and 13th centuries as a shrine to Shiva, contemporary with Angkor.

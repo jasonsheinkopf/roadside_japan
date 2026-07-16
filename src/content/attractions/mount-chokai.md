@@ -57,6 +57,9 @@ related:
   - mount-nasu-ropeway
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A volcano with flowers to the sea. I climbed until my ears popped and my heart did too."
+  emoji: "🗻"
 ---
 
 Rising almost straight out of the **Japan Sea** at Yamagata's northern edge, **Mount Chokai** is so beautifully symmetrical that locals nicknamed it **"Dewa Fuji."** At **2,236 metres**, it's the second-highest peak in Tohoku and one of its most striking sights from miles around.

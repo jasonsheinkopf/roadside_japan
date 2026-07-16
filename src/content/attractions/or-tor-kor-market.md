@@ -23,6 +23,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "The mangoes here cost more and taste like sunshine's private reserve. Pay it. PAY IT."
+  emoji: "🥭"
 ---
 
 If Khlong Toei is Bangkok's raw side, Or Tor Kor is its polished one — a spacious, spotless market renowned for premium produce and ready-to-eat Thai food. It's regularly ranked among the finest fresh markets on the planet.

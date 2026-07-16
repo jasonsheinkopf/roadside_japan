@@ -51,6 +51,9 @@ aiKeywords: [nagatoro rafting, arakawa river, chichibu rafting, iwadatami, saita
 featured: false
 createdAt: 2026-07-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "We shot the rapids on a wooden boat. I gripped the rail. The rail gripped back. Teamwork."
+  emoji: "🚣"
 ---
 
 Nagatoro, at the northern edge of the Chichibu basin, packs river rapids, swimming, and a striking rock formation into a single afternoon trip that's easily doable from Tokyo without an overnight stay.

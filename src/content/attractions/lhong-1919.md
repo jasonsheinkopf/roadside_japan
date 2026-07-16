@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "An 1850s Chinese mansion on the river, painted walls and all. I lit an incense stick very carefully."
+  emoji: "🏮"
 ---
 
 Built in 1919 (on a site trading even earlier), this U-shaped Chinese-style warehouse once handled goods arriving by junk on the Chao Phraya. Lovingly restored, it now centres on a courtyard shrine to Mazu, goddess of the sea, framed by the buildings' original — and beautifully weathered — wall paintings.

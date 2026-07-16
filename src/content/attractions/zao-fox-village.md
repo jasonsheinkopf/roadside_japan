@@ -59,6 +59,9 @@ related:
   - aoshima-cat-island
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A hundred foxes and me. I have never been so alert in my entire life. New personal record."
+  emoji: "🦊"
 ---
 
 Up a winding road in the Miyagi mountains is a forest that belongs to the foxes. **Zao Fox Village** keeps more than **a hundred foxes** — red, silver, platinum, and snow-white arctic — in a large open enclosure you walk through, surrounded on all sides by tails, ears, and suspiciously knowing eyes.

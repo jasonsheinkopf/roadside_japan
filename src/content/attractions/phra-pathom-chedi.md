@@ -29,6 +29,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "The tallest stupa in the world. I circled it clockwise and my neck gave out before my faith did."
+  emoji: "🛕"
 ---
 
 You see it long before you arrive: a vast burnt-orange bell on a circular terraced base, dominating the town of Nakhon Pathom. Phra Pathom Chedi is the tallest stupa in the world, and one of the most sacred sites in Thailand — the present structure encases a much older one beneath.

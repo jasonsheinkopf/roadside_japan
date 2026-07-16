@@ -54,6 +54,9 @@ featured: false
 createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
+cinnamon:
+  quote: "We floated on bamboo through a cathedral cave as swifts poured out at dusk. I forgot I had a body."
+  emoji: "🦉"
 ---
 
 Deep in the limestone hills of Pang Mapha, a stream called the Nam Lang vanishes straight into a mountain and re-emerges 1.5 km later. To follow it, you climb aboard a **bamboo raft** and drift into **Tham Lod**, one of northern Thailand's great river caves.

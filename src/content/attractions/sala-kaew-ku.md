@@ -55,6 +55,9 @@ featured: false
 createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
+cinnamon:
+  quote: "Concrete gods ten stories tall, built from one man's visions. My neck and my imagination both bent backward."
+  emoji: "🐉"
 ---
 
 On the banks of the Mekong near the Lao border, a field bristles with **gigantic concrete gods**. **Sala Kaew Ku** (also spelled Sala Keoku) is the creation of **Luang Pu Bunleua Sulilat**, a charismatic mystic who claimed his cosmology after tumbling into a cave as a young man, and who built sprawling sculpture parks on both sides of the Mekong.

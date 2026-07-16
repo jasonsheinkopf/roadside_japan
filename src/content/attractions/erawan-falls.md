@@ -47,6 +47,9 @@ aiKeywords: [erawan falls, erawan national park, kanchanaburi, seven tier waterf
 featured: false
 createdAt: 2026-07-15
 updatedAt: 2026-07-15
+cinnamon:
+  quote: "The fish nibbled my toes at every tier. Seven floors of tickling."
+  emoji: "🐟"
 ---
 
 Thailand has hundreds of waterfalls; Erawan is the one whose photos get accused of being photoshopped.

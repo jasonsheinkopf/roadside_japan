@@ -59,6 +59,9 @@ related:
   - hitachi-seaside-park
 createdAt: 2026-06-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Two tunnels of pure hanging wisteria. I walked through both, very slowly, on purpose."
+  emoji: "💜"
 ---
 
 For most of the year, **Kawachi Fuji Garden** is a quiet private garden on a hillside above Kitakyushu. Then, for roughly two weeks each spring, it becomes one of the most photographed places in Japan: two long **wisteria tunnels** and a great wisteria dome erupt into cascading curtains of violet, lavender, pink, and white.

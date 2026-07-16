@@ -50,6 +50,9 @@ aiKeywords: [ryogoku kokugikan, sumo museum, sumo stadium tokyo, honbasho]
 featured: true
 createdAt: 2026-07-04
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Sumo portraits and trophies. I practiced my stomp in the hall. The floor survived. This time."
+  emoji: "🤼"
 ---
 
 The building that anchors the entire neighborhood — a 10,000-plus-seat arena that's hosted Japan's national sport since 1985, standing on ground that's been sumo territory since long before that.

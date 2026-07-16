@@ -57,6 +57,9 @@ related:
   - zao-snow-monsters
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I rode an icebreaker like a tiny frozen pirate. The sea crunched. I squeaked."
+  emoji: "🧊"
 ---
 
 For most of the year Abashiri is an ordinary port on Hokkaido's northeast coast. Then, in deep winter, the **Sea of Okhotsk freezes** — drift ice born off Siberia floats south and packs against the shore until the ocean becomes a groaning white plain. And the way to experience it is to **break through it** on a ship.

@@ -13,6 +13,12 @@ tags:
   - interactive
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Cadillac_Ranch%2C_distant.jpg/960px-Cadillac_Ranch%2C_distant.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Cadillac_Ranch%2C_distant.jpg/960px-Cadillac_Ranch%2C_distant.jpg"
+    alt: "The ten half-buried Cadillacs of Cadillac Ranch seen across the Texas field"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Cadillac_Ranch%2C_distant.jpg"
 status: open
 cost:
   type: free
@@ -23,6 +29,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Cadillac_Ranch"
   - title: "Cadillac Ranch — Roadside America"
     url: "https://www.roadsideamerica.com/story/2220"
+cinnamon:
+  quote: "Ten buried Cadillacs and everyone gets a spray can. I signed with a paw print."
+  emoji: "🚗"
 ---
 
 ## Ten fins in the dirt

@@ -52,6 +52,9 @@ aiKeywords: [teamlab borderless, azabudai hills, digital art museum tokyo, immer
 featured: true
 createdAt: 2026-07-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Art that flows over the walls and follows you around. A flower bloomed on my tail. I let it."
+  emoji: "✨"
 ---
 
 Not seasonal, not weather-dependent, and unlike almost anything else nearby — teamLab Borderless is the kind of stop that works on literally any day of a Tokyo trip, which makes it an easy anchor for a visiting family member regardless of when exactly they're in town.

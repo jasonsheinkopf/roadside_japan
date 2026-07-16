@@ -54,6 +54,9 @@ related:
   - hitachi-seaside-park
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Rows of color to the volcano's feet. I ran through the tulips. Legally? Unclear. Joyfully? Yes."
+  emoji: "🌷"
 ---
 
 High on the **Nasu plateau**, where the air is cool and the volcano looms close, **Nasu Flower World** drapes a hillside in stripes of color. The terraced fields are planted in broad bands that, in season, read like a painter's palette laid across the slope.

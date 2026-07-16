@@ -57,6 +57,9 @@ related:
   - naoshima-yellow-pumpkin
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A whole park designed like one giant sculpture. I climbed the mountain they built from scratch."
+  emoji: "⛰️"
 ---
 
 On the edge of Sapporo, a former waste-treatment site has become one of Japan's most quietly astonishing artworks. **Moerenuma Park** was designed in its entirety by the sculptor **Isamu Noguchi** as a single, walk-through piece of land art — the whole landscape is the sculpture.

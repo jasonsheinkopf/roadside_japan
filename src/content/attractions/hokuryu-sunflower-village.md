@@ -52,6 +52,9 @@ aiKeywords: [hokuryu sunflower village, himawari no sato, sunflower field hokkai
 featured: false
 createdAt: 2026-07-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Two million sunflowers all facing me. Finally, the audience I deserve."
+  emoji: "🌻"
 ---
 
 Most of Hokkaido's famous flower fields peak in July; Hokuryu's two million sunflowers hit their stride in August, when a farming town of 1,600 people briefly hosts one of the largest sunflower landscapes in Japan.

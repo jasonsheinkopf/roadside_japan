@@ -55,6 +55,9 @@ aiKeywords: [lake toya fireworks, long run fireworks, toyako onsen, hokkaido nig
 featured: false
 createdAt: 2026-07-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Fireworks every single night, all summer, over a caldera lake. I stayed three nights. Three finales!"
+  emoji: "🎇"
 ---
 
 Every hanabi festival in Japan is a one-night, plan-your-year-around-it event — except this one. Toyako Onsen fires off a full 20-minute show every single night for six months.

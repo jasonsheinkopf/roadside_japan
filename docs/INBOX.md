@@ -71,6 +71,10 @@ For each candidate place:
 
 Standard authoring rules (AGENTS.md, docs/DATA_MODEL.md), plus:
 
+- **Photos + Cinnamon scene are part of authoring, not optional** — run the photo
+  pipeline in `docs/PHOTO_ENRICHMENT.md` (Commons-scoped WebSearch → deterministic URL)
+  and write the entry's `cinnamon: { quote, emoji }` block. No verified photo → the
+  Cinnamon scene serves as the hero; never ship a bare entry.
 - `source: community`
 - `submittedBy:` the name/handle from the note (verbatim, lightly cleaned); if none was
   given use `"a fellow traveler"` — never put their email here, it renders publicly.

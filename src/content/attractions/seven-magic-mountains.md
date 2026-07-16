@@ -14,6 +14,12 @@ tags:
 source: community
 submittedBy: "ghost popsicle"
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Maloney_2019_Rondinone_%22Seven_Magic_Mountains%22.jpg/960px-Maloney_2019_Rondinone_%22Seven_Magic_Mountains%22.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Maloney_2019_Rondinone_%22Seven_Magic_Mountains%22.jpg/960px-Maloney_2019_Rondinone_%22Seven_Magic_Mountains%22.jpg"
+    alt: "The seven fluorescent boulder towers of Seven Magic Mountains in the Nevada desert"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Maloney_2019_Rondinone_%22Seven_Magic_Mountains%22.jpg"
 status: open
 cost:
   type: free
@@ -24,6 +30,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Seven_Magic_Mountains"
   - title: "Seven Magic Mountains — Official Site"
     url: "https://sevenmagicmountains.com/"
+cinnamon:
+  quote: "Neon boulders stacked in the desert like giant candy. I climbed nothing. I respected everything. Mostly."
+  emoji: "🌈"
 ---
 
 ## Neon boulders in the Ivanpah Valley

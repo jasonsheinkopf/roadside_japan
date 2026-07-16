@@ -57,6 +57,9 @@ related:
   - mother-farm
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The orcas splashed the front rows on purpose. I sat in row two. Bold choice."
+  emoji: "🐋"
 ---
 
 On the Pacific edge of the Boso Peninsula, **Kamogawa Sea World** does what few aquariums can: it stages a full-power **orca show** with the real ocean shimmering just beyond the pool, so the leaping killer whales seem to launch straight out of the sea.

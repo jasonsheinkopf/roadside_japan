@@ -56,6 +56,9 @@ related:
   - goryokaku-star-fort
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Fancy hallways! I slid down one in my socks. I don't wear socks. Mysterious."
+  emoji: "🏛️"
 ---
 
 In the middle of Yamagata City stands a building that looks like it teleported in from a European capital: **Bunshokan**, the **former prefectural office and assembly hall**, completed in **1916** in a confident **English-Renaissance** style and crowned by a landmark **clock tower**.

@@ -25,6 +25,9 @@ sources:
     url: "https://www.roadsideamerica.com/tip/610"
   - title: "Maryland's Hidden Pop Culture Museums"
     url: "https://cnsmaryland.org/2012/12/12/marylands-hidden-pop-culture-museums/"
+cinnamon:
+  quote: "14,000 Star Wars toys in one man's house. I sat in the Millennium Falcon's shadow and felt the Force. Or a draft."
+  emoji: "🚀"
 ---
 
 ## A galaxy in a suburban home

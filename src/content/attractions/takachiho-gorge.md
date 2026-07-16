@@ -53,6 +53,9 @@ related:
   - ibusuki-sand-bath
 createdAt: 2025-05-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I rowed under a waterfall between cliffs the gods supposedly carved. My arms filed for overtime."
+  emoji: "🚣"
 ---
 
 In the mountainous heart of Kyushu, the Gokase River has sliced a slot through ancient volcanic rock to create **Takachiho Gorge** — walls of perfectly geometric basalt columns rising over impossibly green water.

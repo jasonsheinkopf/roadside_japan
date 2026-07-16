@@ -43,6 +43,9 @@ aiKeywords: [kakimori, kuramae, custom notebook, stationery, inkstand]
 featured: false
 createdAt: 2026-07-04
 updatedAt: 2026-07-04
+cinnamon:
+  quote: "I built my own notebook, page by page. It's for acorn accounting. Volume one."
+  emoji: "📓"
 ---
 
 Kuramae has quietly become one of Tokyo's best "old warehouse district turned maker's neighborhood" walks, and Kakimori — open since 2010 — is the anchor most people come for.

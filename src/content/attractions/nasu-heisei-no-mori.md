@@ -53,6 +53,9 @@ related:
   - mount-nasu-ropeway
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "A forest the Emperor gave back to everyone. The deer act like they signed the paperwork."
+  emoji: "🦌"
 ---
 
 For most of the last century, this stretch of old forest on the flank of Mt. Nasu belonged to the Imperial family and was closed to ordinary visitors. In **2011** it was opened to the public as **Nasu Heisei-no-Mori** — and it remains one of the most beautifully kept, peaceful patches of woodland in the region.

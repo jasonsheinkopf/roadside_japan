@@ -57,6 +57,9 @@ related:
   - takeda-castle-ruins
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A fort shaped like a star! Best viewed from the tower, or by being a kite."
+  emoji: "⭐"
 ---
 
 From the ground it looks like an ordinary moat-ringed park. From the air it's a flawless **five-pointed star**. **Goryōkaku** was Japan's first Western-style fortress, built in the 1860s on European principles of geometric defense — and its dramatic star shape has long outlived its guns.

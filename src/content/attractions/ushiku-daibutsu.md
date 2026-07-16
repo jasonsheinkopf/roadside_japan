@@ -55,6 +55,9 @@ related:
   - hitachi-seaside-park
 createdAt: 2025-08-15
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A 120-meter Buddha. There's an ELEVATOR inside. I rode to his chest and looked out of his heart. Poetry."
+  emoji: "🧘"
 ---
 
 You see it long before you arrive: a serene bronze face rising **120 metres** over the rice fields of Ibaraki, three times the height of New York's Statue of Liberty. Completed in 1993, the **Ushiku Daibutsu** held the record as the world's tallest statue for years and remains one of the tallest bronze figures anywhere.

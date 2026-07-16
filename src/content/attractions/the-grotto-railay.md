@@ -26,6 +26,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Dinner under a limestone overhang while climbers dangle above. I ate spring rolls in a cave. Fancy caveman."
+  emoji: "🧗"
 ---
 
 At the foot of the towering karst cliffs on Phra Nang Beach — one of the most beautiful strands in Thailand — a natural cave has been turned into an open-air restaurant. Tables sit among the stalactites and weathered limestone, sheltered by the rock overhead and opening straight onto the white sand and turquoise water.

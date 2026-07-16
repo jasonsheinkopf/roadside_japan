@@ -31,6 +31,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Golden dragon boats fifty meters long, sleeping in a shed. Kings had excellent taste in canoes."
+  emoji: "🚣"
 ---
 
 In a long shed beside a Thonburi canal rest some of the most spectacular boats on earth: the royal barges, brought out only for the rarest ceremonial processions down the Chao Phraya. The grandest, Suphannahong, is carved from a single trunk and crowned with a mythical golden swan.

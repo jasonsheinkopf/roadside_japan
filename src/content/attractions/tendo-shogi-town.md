@@ -53,6 +53,9 @@ related:
   - omiya-bonsai-village
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "The town that makes Japan's shogi pieces. Even the manhole covers play. I lost to a manhole cover."
+  emoji: "♟️"
 ---
 
 If a town can have a hobby, **Tendo's** is **shogi** — Japanese chess. It produces roughly **95% of all the shogi pieces in Japan**, and it celebrates that fact with a wholehearted, slightly silly enthusiasm that makes it a delight to wander.

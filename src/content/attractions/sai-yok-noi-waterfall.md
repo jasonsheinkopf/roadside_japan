@@ -30,6 +30,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "A waterfall right off the road where everyone just wades in. I did a tiny cannonball. Legendary splash."
+  emoji: "💦"
 ---
 
 A short walk from Nam Tok station — the present end of the Death Railway — Sai Yok Noi tumbles in a broad sheet over a stepped limestone bluff into a string of shallow pools. It's unpretentious, family-friendly, and beloved by Thai day-trippers.

@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "The neon district has its own museum, scandals and all. I blushed under my fur. Educational!"
+  emoji: "🌃"
 ---
 
 Above the tourist tumult of Patpong's night market sits a small, smartly designed museum that takes its unlikely subject seriously. It traces the soi's history from a family-owned banana plantation to a Cold War nerve centre and, later, the birthplace of Bangkok's modern nightlife.

@@ -14,6 +14,12 @@ tags:
 source: community
 submittedBy: "ghost popsicle"
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Salvation_Mountain_-_God_is_Love.JPG/960px-Salvation_Mountain_-_God_is_Love.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Salvation_Mountain_-_God_is_Love.JPG/960px-Salvation_Mountain_-_God_is_Love.JPG"
+    alt: "Salvation Mountain painted hillside with its GOD IS LOVE crown"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Salvation_Mountain_-_God_is_Love.JPG"
 status: open
 cost:
   type: free
@@ -24,6 +30,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Salvation_Mountain"
   - title: "Salvation Mountain — Official Website"
     url: "https://www.salvationmountain.us/"
+cinnamon:
+  quote: "A man painted a whole mountain with love for 30 years. I added my footprints to the flowers. Gently."
+  emoji: "🎨"
 ---
 
 ## A mountain made of paint

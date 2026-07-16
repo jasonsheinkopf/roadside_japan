@@ -26,6 +26,12 @@ tips:
   - "The dragon's body is a real passage: a dim, curving tunnel-staircase that spirals the outside of the 17-story tower to a rooftop with views over the temple grounds (sections are occasionally closed for repair — the roof is worth asking about)."
   - "It's a working monastery, not a tourist site: dress modestly, donations instead of tickets, and weekday mornings are quietest."
   - "The grounds hold more giant animal statuary — a huge bronze-green elephant hall, a giant turtle, a rabbit — like a sculpture park that grew organically around the sanctuary."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Drachentempel-Wat_Samphran.jpg/960px-Drachentempel-Wat_Samphran.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Drachentempel-Wat_Samphran.jpg/960px-Drachentempel-Wat_Samphran.jpg"
+    alt: "The pink tower of Wat Samphran with its giant dragon coiling up the outside"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Drachentempel-Wat_Samphran.jpg"
 status: open
 approval: published
 source: ai-agent
@@ -38,7 +44,10 @@ aiSummary: "A 17-story pink cylindrical temple tower in Nakhon Pathom wrapped by
 aiKeywords: [wat samphran, dragon temple, nakhon pathom, pink tower dragon, bangkok day trip]
 featured: false
 createdAt: 2026-07-15
-updatedAt: 2026-07-15
+updatedAt: 2026-07-16
+cinnamon:
+  quote: "A pink tower with a dragon wrapped around all 17 floors. You can walk INSIDE the dragon. I did. Twice."
+  emoji: "🐉"
 ---
 
 There is no gentle way to describe Wat Samphran: it is a seventeen-story pink cylinder with a dragon the size of a train wrapped around it, forty minutes from Bangkok, and hardly any tourists know it exists.

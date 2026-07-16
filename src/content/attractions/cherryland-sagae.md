@@ -53,6 +53,9 @@ related:
   - mother-farm
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "I ate cherries until I became approximately 60% cherry. Worth it."
+  emoji: "🍒"
 ---
 
 Yamagata grows roughly **three-quarters of Japan's cherries**, and the town of **Sagae** is its sweet heart. **Cherryland** is the gloriously single-minded result: a roadside park themed, top to bottom, around the cherry.

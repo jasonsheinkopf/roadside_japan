@@ -40,6 +40,9 @@ aiKeywords: [bua tong sticky waterfall, bua thong, chiang mai waterfall climb, t
 featured: false
 createdAt: 2026-07-15
 updatedAt: 2026-07-15
+cinnamon:
+  quote: "A waterfall you can climb UP. My claws finally met their soulmate."
+  emoji: "💦"
 ---
 
 Every waterfall in the world teaches you the same rule — wet rock is slippery. Bua Tong exists to break that rule.

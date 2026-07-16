@@ -25,6 +25,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "I respect the snakes. From a distance. A large, professional distance."
+  emoji: "🐍"
 ---
 
 Founded in 1923, the Queen Saovabha Memorial Institute is no roadside reptile show — it's a serious arm of the Thai Red Cross that produces antivenom and treats snakebite. It also happens to be one of the most genuinely educational stops in Bangkok, with daily handling and venom-milking demonstrations.

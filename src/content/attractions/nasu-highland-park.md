@@ -54,6 +54,9 @@ related:
   - nasu-safari-park
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "I rode the Ferris wheel alone like a tiny mysterious tycoon surveying his holdings."
+  emoji: "🎡"
 ---
 
 Set among the trees below Mt. Nasu, **Nasu Highland Park** is the Kanto countryside's big, cheerful amusement park — a place where roller-coaster screams ricochet off the forest and families spend the whole day chasing rides.

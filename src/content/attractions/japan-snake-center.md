@@ -54,6 +54,9 @@ related:
   - okunoshima-rabbit-island
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "A whole center of snakes. I visited as a diplomat. Negotiations were tense."
+  emoji: "🐍"
 ---
 
 In the Gunma countryside near **Ota** sits a place that knows exactly what it is: the **Japan Snake Center**, a wonderfully unfashionable park devoted, completely and unapologetically, to **snakes**.

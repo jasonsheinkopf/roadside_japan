@@ -54,6 +54,9 @@ related:
   - takachiho-gorge
 createdAt: 2025-10-18
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "They buried me in warm volcanic sand. I have never been so cozy or so sandy."
+  emoji: "🏖️"
 ---
 
 At the southern end of Kyushu, where the ground itself runs hot with geothermal heat, the town of **Ibusuki** has turned its beach into a bath. Attendants in conical hats dig a shallow trench in the black volcanic sand, you lie down in a yukata, and they shovel the steaming sand over you until only your head is free.

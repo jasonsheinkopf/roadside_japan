@@ -57,6 +57,9 @@ related:
   - meguro-parasitological-museum
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I looked for a door to anywhere. Found the gift shop. Close enough."
+  emoji: "🤖"
 ---
 
 In a leafy corner of **Kawasaki**, just outside Tokyo, is a museum that runs entirely on childhood joy. The **Fujiko·F·Fujio Museum** celebrates the manga artist behind **Doraemon** — the round blue robot cat from the future who is, genuinely, one of the most beloved characters in Japan.

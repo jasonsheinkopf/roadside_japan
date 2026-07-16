@@ -23,6 +23,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Bangkok's biggest fresh market at dawn. I saw fruit I cannot name and ate three of them."
+  emoji: "🍍"
 ---
 
 This is where Bangkok actually shops. Khlong Toei is the city's biggest wet market — a vast, dense warren of stalls selling everything from mountains of chillies and unfamiliar fruit to live fish, frogs, and cuts of meat, often at wholesale dawn prices.

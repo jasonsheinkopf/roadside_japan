@@ -61,6 +61,9 @@ related:
   - oya-history-museum
 createdAt: 2026-06-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The castle floats on a sea of clouds at dawn. I arrived at 5 AM, grumpy, then completely forgave the hour."
+  emoji: "☁️"
 ---
 
 Four hundred years ago, the castle on this ridge in Hyogo was abandoned. What's left — long runs of fitted **stone ramparts** following the spine of the mountain — has earned the nickname "the Machu Picchu of Japan." But its real fame comes at dawn, when a **sea of clouds** wells up from the valley and the ruins appear to float above the world.

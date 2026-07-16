@@ -50,6 +50,9 @@ featured: true
 createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
+cinnamon:
+  quote: "The whole country has a water fight for three days. I was soaked in the first four minutes. Blessed, technically."
+  emoji: "💦"
 ---
 
 Every April, as the **hot season** peaks, Thailand celebrates **Songkran** — the traditional Thai New Year — by throwing water at absolutely everyone. What began as a gentle rite of pouring scented water over Buddha images and the hands of elders has grown into a joyous, nationwide, days-long water battle.

@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Alleys of shrine smoke, motor parts, and street art. I turned six corners and found six different centuries."
+  emoji: "🛵"
 ---
 
 Wedged between Chinatown and the Chao Phraya, Talat Noi ("little market") is a maze of lanes where scrap-metal and engine-part workshops spill onto the pavement, old shophouses lean together, and a Portuguese-era Catholic church and a Hokkien shrine sit minutes apart. In recent years it's become a canvas for some of the city's best street art.

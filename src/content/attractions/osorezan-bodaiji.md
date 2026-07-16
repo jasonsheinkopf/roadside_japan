@@ -57,6 +57,9 @@ related:
   - takachiho-gorge
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Mount Fear: sulfur, gray stones, and a lake like the world's edge. Beautiful in a way that hushes you."
+  emoji: "🌫️"
 ---
 
 At the top of Aomori's lonely Shimokita Peninsula, the land turns the color of brimstone and the air fills with the rotten-egg reek of sulfur. The Japanese named this place **Osorezan** — "Mount Dread" — and for over a thousand years it has been considered one of the gateways between this world and the next.

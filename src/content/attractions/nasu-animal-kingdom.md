@@ -54,6 +54,9 @@ related:
   - okunoshima-rabbit-island
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "The capybaras have their own onsen. I have never respected anyone more."
+  emoji: "🦫"
 ---
 
 Up in the cool **Nasu highlands**, a short hop from the volcano and the hot springs, sprawls one of Tochigi's most enjoyable family stops: **Nasu Animal Kingdom**, a zoo built around getting **close** to the animals.

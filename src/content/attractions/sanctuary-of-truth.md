@@ -49,6 +49,9 @@ aiKeywords: [sanctuary of truth, pattaya, wooden temple, lek viriyaphant, prasat
 featured: true
 createdAt: 2026-07-15
 updatedAt: 2026-07-15
+cinnamon:
+  quote: "A giant temple carved entirely of wood, still being carved. I touched one flower some carver spent a week on."
+  emoji: "🛕"
 ---
 
 On a quiet cape north of Pattaya's beach chaos stands a building that has been actively under construction for more than forty years — on purpose, forever.

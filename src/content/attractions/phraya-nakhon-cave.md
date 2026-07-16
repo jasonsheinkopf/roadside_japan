@@ -28,6 +28,12 @@ tips:
   - "Time it for roughly 10:00-11:30am, when the sunbeam through the collapsed ceiling lands on the pavilion — earlier or later, the chamber is still beautiful but the spotlight is off."
   - "Getting there is half the point: over (or by boat around) a headland from Bang Pu beach, then a steep 430m rocky trail up into the cave mouth. Proper shoes, plenty of water."
   - "The Khua Kharuehat pavilion was built for King Rama V's visit in 1890, and Thai kings have left signatures on the cave wall — it appears on the (old) 1-baht coin's predecessor imagery and remains a royal symbol of the province."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Phraya-Nakhon-H%C3%B6hle_01.JPG/960px-Phraya-Nakhon-H%C3%B6hle_01.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Phraya-Nakhon-H%C3%B6hle_01.JPG/960px-Phraya-Nakhon-H%C3%B6hle_01.JPG"
+    alt: "The royal pavilion lit by the sunbeam inside Phraya Nakhon Cave"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Phraya-Nakhon-H%C3%B6hle_01.JPG"
 status: open
 approval: published
 source: ai-agent
@@ -40,7 +46,10 @@ aiSummary: "A cave in Khao Sam Roi Yot National Park containing the Khua Kharueh
 aiKeywords: [phraya nakhon cave, khua kharuehat pavilion, khao sam roi yot, prachuap khiri khan, cave pavilion thailand]
 featured: false
 createdAt: 2026-07-15
-updatedAt: 2026-07-15
+updatedAt: 2026-07-16
+cinnamon:
+  quote: "You hike a jungle mountain into a cave where a golden pavilion waits in one sunbeam. I lost my tiny mind."
+  emoji: "⛩️"
 ---
 
 Some places are famous for one photograph. Phraya Nakhon's is a small golden-roofed pavilion standing alone in a vast cave chamber, lit by a single beam of sun from a hole in the mountain — and unlike most one-photograph places, it's even better in person, because you have to earn it.

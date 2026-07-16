@@ -53,6 +53,9 @@ related:
   - nasu-trick-art-museum
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Room after room of bears having tiny lives. One was fishing. I watched him not catch anything for ten minutes."
+  emoji: "🧸"
 ---
 
 The **Nasu highlands** are dotted with small, eccentric museums, and few are as purely sweet as the **Nasu Teddy Bear Museum**, an English-cottage building filled, floor to ceiling, with **teddy bears**.

@@ -57,6 +57,9 @@ related:
   - jigokudani-monkey-park
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The cranes dance in the snow like living calligraphy. I bowed. One bowed back. We're engaged now, possibly."
+  emoji: "🦢"
 ---
 
 The **red-crowned crane** — *tancho* — is one of the rarest cranes on Earth and a symbol of luck and long life in Japan. Once nearly extinct here, a small population was saved in the marshes of eastern Hokkaido, and each winter they gather near **Tsurui** to feed in the snow.

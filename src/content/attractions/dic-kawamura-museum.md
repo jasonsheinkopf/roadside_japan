@@ -54,6 +54,9 @@ related:
   - moerenuma-park
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Fancy art in a forest! The swans outside critique you on the way in."
+  emoji: "🖼️"
 ---
 
 Deep in the woods of inland Chiba, reached by a free shuttle and a walk through gardens, sits an art museum that holds its own against anything in Tokyo. The **DIC Kawamura Memorial Museum of Art** pairs a serious collection of modern and contemporary work with a setting of ponds, lawns, and sculpture.

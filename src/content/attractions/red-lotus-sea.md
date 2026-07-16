@@ -30,6 +30,12 @@ tips:
   - "Timing is everything twice over: the season is December-February, and within any day the flowers are fully open only from dawn until about 11am — book a boat for first light."
   - "Despite the name they're pink, not red, and technically water lilies — nobody in Kumphawapi is interested in your botany corrections."
   - "CNN once ranked it among the world's strangest lakes; it remains overwhelmingly a Thai domestic destination, so foreign visitors get the rare experience of being the only tourists at a famous place."
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Red_Lotus_Sea_at_Nong_Han_Kumphawapi%2C_Udon_Thani%2C_Thailand.jpg/960px-Red_Lotus_Sea_at_Nong_Han_Kumphawapi%2C_Udon_Thani%2C_Thailand.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Red_Lotus_Sea_at_Nong_Han_Kumphawapi%2C_Udon_Thani%2C_Thailand.jpg/960px-Red_Lotus_Sea_at_Nong_Han_Kumphawapi%2C_Udon_Thani%2C_Thailand.jpg"
+    alt: "The Red Lotus Sea in bloom at Nong Han Kumphawapi, Udon Thani"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Red_Lotus_Sea_at_Nong_Han_Kumphawapi%2C_Udon_Thani%2C_Thailand.jpg"
 status: seasonal
 approval: published
 source: ai-agent
@@ -42,7 +48,10 @@ aiSummary: "Nong Han Lake near Kumphawapi, Udon Thani, blooms with millions of p
 aiKeywords: [red lotus sea, talay bua daeng, udon thani, nong han lake, thailand lotus lake]
 featured: false
 createdAt: 2026-07-15
-updatedAt: 2026-07-15
+updatedAt: 2026-07-16
+cinnamon:
+  quote: "A whole lake blooms pink at sunrise. Our boat cut through a million flowers. I forgot to blink."
+  emoji: "🌺"
 ---
 
 Most of the year, Nong Han is an ordinary shallow lake in rice-farming Isan. Then December arrives, and it turns into one of the strangest sights in Thailand.

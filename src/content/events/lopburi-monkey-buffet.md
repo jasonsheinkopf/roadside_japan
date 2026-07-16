@@ -57,6 +57,9 @@ photos:
     credit: Photo via Wikimedia Commons
     creditUrl: https://commons.wikimedia.org/wiki/File:Macaca_fascicularis_in_Lopburi.JPG
 country: thailand
+cinnamon:
+  quote: "A banquet where monkeys eat pyramids of fruit off silk tablecloths. I attended as jealous royalty."
+  emoji: "🐒"
 ---
 
 The old town of **Lopburi** has long shared its streets and crumbling Khmer temples with several thousand **crab-eating macaques**. Once a year, on the last Sunday of November, the town says thank you in the most extravagant way imaginable: the **Monkey Buffet Festival**.

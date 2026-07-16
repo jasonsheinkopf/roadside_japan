@@ -28,6 +28,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "The queen of street food cooks in ski goggles over roaring flames. Legend. Icon. Crab."
+  emoji: "🦀"
 ---
 
 On a corner of Maha Chai Road, an octogenarian known as Jay Fai ("Sister Mole") cooks over roaring charcoal in her trademark woollen hat and ski goggles — the goggles protect her eyes from the flames. In 2018 she became one of the world's only street-food cooks to win a Michelin star, and the queues have never let up since.

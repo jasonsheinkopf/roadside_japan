@@ -30,6 +30,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Ayutthaya ruins glowing at sunset by the river. I sat very still and let 400 years walk past."
+  emoji: "🛕"
 ---
 
 Built in 1630 by King Prasat Thong, Wat Chaiwatthanaram was modelled on the Khmer temple-mountain — a soaring central prang surrounded by four smaller towers and a gallery of seated Buddhas, all raised on the bank of the Chao Phraya just west of the old island city.

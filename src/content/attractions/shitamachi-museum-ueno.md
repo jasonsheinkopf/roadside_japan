@@ -51,6 +51,9 @@ aiKeywords: [shitamachi museum, ueno park, old tokyo, edo shitamachi, taito muse
 featured: false
 createdAt: 2026-07-04
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Old downtown Tokyo rebuilt inside a museum — you can touch everything! I touched EVERYTHING."
+  emoji: "🏘️"
 ---
 
 Right where Ueno Park spills down to Shinobazu Pond sits a museum with no grand facade and no gift-shop sprawl — just two floors built to recreate the vanished world of Tokyo's *shitamachi*, the low-lying merchant-and-artisan downtown that stood in contrast to the hilltop samurai districts.

@@ -1,0 +1,110 @@
+---
+/**
+ * CinnamonScene — a unique little vector scene of Cinnamon "doing the thing" at a place,
+ * with a hand-written speech-bubble quote.
+ *
+ * Every entry gets one (docs/PHOTOS.md → "Cinnamon scene"): when the entry has a real
+ * hero photo this renders as an in-page postcard; when no licensed photo could be
+ * verified it IS the hero, so no page ever falls back to a bare gradient.
+ *
+ * Uniqueness is parametric and deterministic: the entry's `cinnamon.emoji` (the thing
+ * he's interacting with) + `cinnamon.quote` + a seed-derived pose (flip / tilt / bounce
+ * of the prop, background hue via placeholderStyle) make each scene distinct without
+ * needing hand-drawn art per entry. The squirrel itself is the site mascot SVG inlined
+ * so it inherits no external requests.
+ */
+import { placeholderStyle } from "../lib/format";
+
+interface Props {
+  /** Entry title, used for accessible labeling only. */
+  title: string;
+  /** The "thing" Cinnamon is engaging with — one emoji, e.g. 🛕 🌋 🍜 👽. */
+  emoji: string;
+  /** Hand-written funny quote in Cinnamon's voice. */
+  quote: string;
+  /** Deterministic variation seed — pass the entry slug. */
+  seed: string;
+  /** hero = fills the detail-page hero frame; card = compact in-page postcard. */
+  variant?: "hero" | "card";
+}
+const { title, emoji, quote, seed, variant = "card" } = Astro.props;
+
+// Tiny deterministic hash → pose parameters, so the same entry always renders the same
+// scene but no two entries look quite alike.
+let h = 0;
+for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+const flip = h % 2 === 1; // face left or right
+const tilt = (h % 7) - 3; // squirrel tilt: -3..3 deg
+const propTilt = ((h >> 3) % 25) - 12; // big emoji tilt: -12..12 deg
+const propSize = variant === "hero" ? 88 + ((h >> 5) % 40) : 54 + ((h >> 5) % 18); // px
+const isHero = variant === "hero";
+---
+
+<figure
+  class:list={[
+    "bg-topo relative w-full overflow-hidden",
+    isHero ? "h-full" : "rounded-2xl border border-line",
+  ]}
+  style={placeholderStyle(seed)}
+  role="img"
+  aria-label={`Cinnamon the squirrel visiting ${title}. Cinnamon says: ${quote}`}
+>
+  <div class:list={["relative flex items-end justify-center gap-1", isHero ? "h-full min-h-64 px-6 pb-0 pt-6" : "min-h-52 px-5 pb-0 pt-5"]}>
+    <!-- speech bubble -->
+    <div
+      class:list={[
+        "absolute z-10 max-w-[62%] rounded-2xl border border-line bg-surface/95 px-3.5 py-2.5 shadow-md backdrop-blur-sm",
+        isHero ? "left-1/2 top-5 -translate-x-1/2 sm:max-w-md" : "left-1/2 top-4 -translate-x-1/2",
+      ]}
+    >
+      <p class:list={["italic leading-snug text-ink", isHero ? "text-sm sm:text-base" : "text-xs sm:text-sm"]}>
+        “{quote}”
+      </p>
+      <p class="mt-1 text-right text-[0.65rem] font-semibold uppercase tracking-wide text-ink-soft">— Cinnamon 🐿️</p>
+      <span
+        class="absolute -bottom-2 left-1/2 h-4 w-4 -translate-x-1/2 rotate-45 border-b border-r border-line bg-surface/95"
+        aria-hidden="true"></span>
+    </div>
+
+    <!-- the thing -->
+    <span
+      class="select-none drop-shadow-lg"
+      style={`font-size:${propSize}px; transform: rotate(${propTilt}deg); line-height:1;`}
+      aria-hidden="true">{emoji}</span
+    >
+
+    <!-- Cinnamon, engaging with the thing -->
+    <svg
+      viewBox="0 0 240 240"
+      class:list={["shrink-0 drop-shadow-md", isHero ? "h-40 w-40 sm:h-52 sm:w-52" : "h-28 w-28 sm:h-32 sm:w-32"]}
+      style={`transform: rotate(${tilt}deg) ${flip ? "scaleX(-1)" : ""};`}
+      aria-hidden="true"
+    >
+      <defs>
+        <linearGradient id={`sq-${seed}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9c7c55"></stop><stop offset="1" stop-color="#7d6242"></stop></linearGradient>
+        <linearGradient id={`tail-${seed}`} x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a6c49"></stop><stop offset="1" stop-color="#6b5236"></stop></linearGradient>
+      </defs>
+      <ellipse cx="118" cy="222" rx="56" ry="11" fill="#000" opacity="0.10"></ellipse>
+      <path d="M150 205 q70 -10 60 -90 q-8 -56 -54 -52 q34 6 38 50 q6 56 -52 70z" fill={`url(#tail-${seed})`} stroke="#5e4a32" stroke-width="2"></path>
+      <path d="M168 70 q26 8 24 48 q-2 26 -18 40" fill="none" stroke="#a98a63" stroke-width="6" stroke-linecap="round" opacity="0.7"></path>
+      <path d="M82 205 q-12 -78 42 -82 q54 4 42 82 z" fill={`url(#sq-${seed})`}></path>
+      <path d="M104 205 q-12 -60 20 -64 q32 4 20 64 z" fill="#e9d8bd"></path>
+      <ellipse cx="98" cy="206" rx="16" ry="9" fill="#caa97e"></ellipse>
+      <ellipse cx="146" cy="206" rx="16" ry="9" fill="#caa97e"></ellipse>
+      <ellipse cx="122" cy="86" rx="42" ry="40" fill={`url(#sq-${seed})`}></ellipse>
+      <path d="M92 56 q-6 -28 12 -24 q8 4 6 22z" fill="#7d6242"></path>
+      <path d="M152 56 q6 -28 -12 -24 q-8 4 -6 22z" fill="#7d6242"></path>
+      <path d="M94 46 q-4 -14 6 -16M150 46 q4 -14 -6 -16" stroke="#5e4a32" stroke-width="3" fill="none" stroke-linecap="round"></path>
+      <ellipse cx="100" cy="98" rx="8" ry="6" fill="#e7b0a2" opacity="0.55"></ellipse>
+      <ellipse cx="144" cy="98" rx="8" ry="6" fill="#e7b0a2" opacity="0.55"></ellipse>
+      <ellipse cx="108" cy="84" rx="6" ry="7.5" fill="#241c16"></ellipse>
+      <ellipse cx="136" cy="84" rx="6" ry="7.5" fill="#241c16"></ellipse>
+      <circle cx="110" cy="81" r="2" fill="#fff"></circle><circle cx="138" cy="81" r="2" fill="#fff"></circle>
+      <path d="M117 96 h10 l-5 6z" fill="#2e2219"></path>
+      <path d="M122 102 q-7 7 -14 3M122 102 q7 7 14 3" stroke="#3a2c24" stroke-width="2.5" fill="none" stroke-linecap="round"></path>
+      <!-- paws reaching toward the thing (no acorn — he's busy) -->
+      <ellipse cx="108" cy="152" rx="9" ry="7" fill="#b9966c"></ellipse>
+      <ellipse cx="140" cy="148" rx="9" ry="7" fill="#b9966c"></ellipse>
+    </svg>
+  </div>
+</figure>

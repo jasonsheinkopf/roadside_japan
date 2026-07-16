@@ -58,6 +58,9 @@ related:
   - nasu-heisei-no-mori
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A long wobbly bridge over a maple valley. I bounced. Everyone bounced. Nobody admits it."
+  emoji: "🍁"
 ---
 
 The **Shiobara Onsen** valley, west of Nasu proper, is gorge country — and the most exhilarating way to feel it is to walk straight out over the void. The **Momijidani Otsuribashi** ("Maple Valley Suspension Bridge") stretches **320 metres** across the river canyon, swaying gently underfoot the whole way.

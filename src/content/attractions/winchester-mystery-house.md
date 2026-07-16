@@ -13,6 +13,12 @@ tags:
   - architecture
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Winchester_Mystery_House_exterior.JPG/960px-Winchester_Mystery_House_exterior.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Winchester_Mystery_House_exterior.JPG/960px-Winchester_Mystery_House_exterior.JPG"
+    alt: "The sprawling Victorian exterior of the Winchester Mystery House"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Winchester_Mystery_House_exterior.JPG"
 status: open
 timeRequired: half-day
 cost:
@@ -25,6 +31,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Winchester_Mystery_House"
   - title: "Winchester Mystery House — Atlas Obscura"
     url: "https://www.atlasobscura.com/places/winchester-mystery-house"
+cinnamon:
+  quote: "I opened a door to a wall, took stairs to a ceiling, and felt right at home. My nest has the same floor plan."
+  emoji: "🚪"
 ---
 
 ## The house that grief built

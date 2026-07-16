@@ -47,6 +47,9 @@ aiKeywords: [wat rong khun, white temple, chiang rai, chalermchai kositpipat, th
 featured: true
 createdAt: 2026-07-15
 updatedAt: 2026-07-15
+cinnamon:
+  quote: "A temple so white it hums, with hands reaching from the underworld at the bridge. Heavy metal Buddhism. I loved it."
+  emoji: "🤍"
 ---
 
 Most temples are built by communities over centuries; the White Temple is one man's ongoing argument with eternity, and it looks like nothing else on earth.

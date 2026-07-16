@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "They hammer bowls by hand here, ding ding ding. My tail kept the beat."
+  emoji: "🥣"
 ---
 
 Two centuries ago a whole district of Bangkok made *bat* — the round alms bowls Buddhist monks carry on their morning rounds. Today only a handful of families on one small soi still craft them by hand, hammering eight separate pieces of metal into a single seamless bowl.

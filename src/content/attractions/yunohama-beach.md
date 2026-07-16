@@ -53,6 +53,9 @@ related:
   - tottori-sand-dunes
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "The sun melts into the Sea of Japan here. I buried my toes in the sand and stayed past my bedtime."
+  emoji: "🌅"
 ---
 
 When the August heat settles over Yamagata's inland basins, locals head for the coast — and one of the friendliest stretches is **Yunohama Beach**, a long arc of sand on the **Japan Sea** just west of Tsuruoka.

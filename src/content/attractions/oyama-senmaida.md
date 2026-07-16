@@ -57,6 +57,9 @@ related:
   - takeda-castle-ruins
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A thousand tiny rice terraces catching the sunset like mirror shards. I counted 43 before crying a little."
+  emoji: "🌾"
 ---
 
 Tucked into the hills of southern Chiba, **Oyama Senmaida** — "the thousand rice fields of Oyama" — is the nearest classic **rice-terrace** landscape to Tokyo, and one of the prettiest. Some 375 tiny paddies step down the slope in a patchwork of curved banks.

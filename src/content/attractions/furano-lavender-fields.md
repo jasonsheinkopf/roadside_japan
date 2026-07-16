@@ -57,6 +57,9 @@ related:
   - hitachi-seaside-park
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I rolled in the lavender and smelled fancy for a week. A WEEK."
+  emoji: "💜"
 ---
 
 For most of the year it's quiet farmland. Then July arrives and **Farm Tomita** detonates into colour: long corduroy stripes of **purple lavender** climbing the hills of the Furano valley, hemmed by ribbons of poppies, salvia, and cosmos in a rainbow of rows.

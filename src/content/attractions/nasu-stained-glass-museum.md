@@ -53,6 +53,9 @@ related:
   - fujishiro-seiji-museum
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Sunlight through a thousand colors of glass. I stood in a rainbow and became briefly holy."
+  emoji: "🪟"
 ---
 
 Among the Nasu highlands' string of small museums, one looks like it wandered off the English countryside: the **Nasu Stained Glass Museum**, a honey-stone **manor house** whose rooms are really little **chapels**, each lit by **antique stained glass** salvaged from 19th-century Europe.

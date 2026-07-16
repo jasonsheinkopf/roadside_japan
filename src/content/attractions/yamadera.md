@@ -54,6 +54,9 @@ related:
   - nokogiriyama-jigoku-nozoki
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "1,015 steps up the cliff temple. Basho wrote a haiku here. I wrote 'wow' in the snow with my tail."
+  emoji: "⛰️"
 ---
 
 The mountain temple of **Risshaku-ji** — everyone calls it **Yamadera**, "mountain temple" — clings to a cliff of weathered rock above a green Yamagata valley. To reach it you climb roughly **a thousand stone steps** through towering cedars, passing tiny halls and moss-covered Buddhas as you go.

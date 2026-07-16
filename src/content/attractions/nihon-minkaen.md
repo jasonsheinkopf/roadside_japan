@@ -58,6 +58,9 @@ related:
   - nagoro-scarecrow-village
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "25 real old farmhouses saved from all over Japan. I tested every dark cozy corner. Research."
+  emoji: "🏘️"
 ---
 
 Tucked into a wooded park in **Kawasaki**, the **Nihon Minka-en** is a village that never actually existed — and yet every piece of it is real. Some two dozen traditional **folk houses** were dismantled at their original sites across Japan, moved here, and painstakingly rebuilt to save them from disappearing.

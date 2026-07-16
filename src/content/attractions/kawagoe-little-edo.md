@@ -57,6 +57,9 @@ related:
   - nihon-minkaen
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Old warehouse streets and a candy alley. I did my Edo-period walk. Very dignified."
+  emoji: "🏮"
 ---
 
 Less than an hour from central Tokyo, **Kawagoe** kept the face that the capital itself lost to fires and war. Nicknamed **"Little Edo,"** its old quarter is a street of heavy, fire-resistant **kurazukuri** clay-walled merchant warehouses, dark and dignified, exactly as a prosperous Edo-period town would have looked.

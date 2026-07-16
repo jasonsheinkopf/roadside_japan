@@ -57,6 +57,9 @@ related:
   - oya-history-museum
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I drove the train simulator. Nobody told me a squirrel couldn't. The children cheered. I think."
+  emoji: "🚄"
 ---
 
 Japan loves its trains, and the **Railway Museum** in Omiya is where that love is enshrined. Inside a huge hall sits a **fleet of real rolling stock** — gleaming steam locomotives, retired express cars, and the bullet-nosed early **shinkansen** — arranged so you can walk right up, climb aboard some, and feel the scale.

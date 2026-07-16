@@ -58,6 +58,9 @@ related:
   - jigokudani-monkey-park
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The penguins waddle to work every morning. Finally, colleagues at my pace."
+  emoji: "🐧"
 ---
 
 Most zoos keep the animals behind glass. **Asahiyama Zoo**, the northernmost in Japan, had a better idea for winter: open the gate and let the **penguins go for a walk**. Twice a day in the snow season, a line of **king penguins** waddles out along a roped path, straight through the watching crowd.

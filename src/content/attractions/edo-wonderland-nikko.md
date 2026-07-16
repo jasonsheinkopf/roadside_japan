@@ -57,6 +57,9 @@ related:
   - tobu-world-square
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I trained with ninjas all afternoon. I am now 4% stealthier. Watch out."
+  emoji: "🥷"
 ---
 
 Near Kinugawa Onsen, the clock runs back four hundred years at **Edo Wonderland Nikko Edomura**, a theme park that doesn't just display the **Edo period** — it stages it, all day, every day, as a living town.

@@ -13,6 +13,12 @@ tags:
   - surreal
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/House_on_the_Rock_automated_instruments.jpg/960px-House_on_the_Rock_automated_instruments.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/House_on_the_Rock_automated_instruments.jpg/960px-House_on_the_Rock_automated_instruments.jpg"
+    alt: "Room of automated instruments inside the House on the Rock"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:House_on_the_Rock_automated_instruments.jpg"
 status: open
 timeRequired: half-day
 cost:
@@ -25,6 +31,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/House_on_the_Rock"
   - title: "House on the Rock — Official Site"
     url: "https://www.thehouseontherock.com/"
+cinnamon:
+  quote: "The carousel has 269 animals and NOT ONE squirrel. I have written a letter."
+  emoji: "🎠"
 ---
 
 ## A collection of collections

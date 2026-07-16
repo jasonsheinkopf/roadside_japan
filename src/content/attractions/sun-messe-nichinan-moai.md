@@ -49,6 +49,9 @@ sources:
 aiKeywords: [moai, easter island, nichinan, miyazaki, replica statues]
 createdAt: 2026-01-28
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Seven Easter Island moai by the Pacific, fully authorized by Rapa Nui. I stood in line like the eighth."
+  emoji: "🗿"
 ---
 
 High on a coastal hillside in southern Miyazaki, seven stone giants gaze inland from above the Pacific — a faithful, full-scale recreation of the **Moai of Easter Island (Rapa Nui)**.

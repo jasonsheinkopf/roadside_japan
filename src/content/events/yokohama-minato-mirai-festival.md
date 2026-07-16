@@ -51,6 +51,9 @@ aiSummary: "A one-time August 2026 waterfront festival at Yokohama's Minato Mira
 aiKeywords: [yokohama minato mirai festival, green expo 2027, yokohama fireworks, rinko park]
 createdAt: 2026-07-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Summer fireworks over the port with the Ferris wheel keeping time. The harbor applauded in reflections."
+  emoji: "🎆"
 ---
 
 Yokohama's Minato Mirai waterfront hosts frequent small fireworks shows throughout the year, but August 24, 2026 brings something bigger: a full festival built around promoting the city's upcoming GREEN×EXPO 2027.

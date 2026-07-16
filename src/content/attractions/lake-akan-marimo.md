@@ -57,6 +57,9 @@ related:
   - blue-pond-biei
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Perfectly round algae balls! Nature said 'what if moss, but bouncy.' Genius."
+  emoji: "🟢"
 ---
 
 In the clear water of **Lake Akan**, deep in eastern Hokkaido, grows something that sounds invented: **marimo**, soft spheres of green algae that form naturally into velvety balls and roll gently across the lakebed. Akan is one of the very few places on Earth where they grow this big and this round.

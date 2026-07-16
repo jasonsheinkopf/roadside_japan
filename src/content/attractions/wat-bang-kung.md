@@ -25,6 +25,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "A temple swallowed whole by a banyan tree, roots holding the walls up. The tree is the monastery now."
+  emoji: "🌳"
 ---
 
 In the orchards of Samut Songkhram stands a temple you can barely see for the trees — literally. The little brick hall of Wat Bang Kung has been gripped for centuries by the roots of four great fig trees, which have grown over and around the walls until building and forest are one.

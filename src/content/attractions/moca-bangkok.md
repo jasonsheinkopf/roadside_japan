@@ -25,6 +25,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Five floors of dreamlike Thai art in white marble light. I got lost. Improved me."
+  emoji: "🖼️"
 ---
 
 Built from one collector's passion, MOCA is the best place to grasp the power and strangeness of modern Thai art. Behind a luminous white façade carved with lotus motifs, five floors climb through surreal, devotional, and provocative work by the country's leading artists.

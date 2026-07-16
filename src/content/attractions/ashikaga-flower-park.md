@@ -59,6 +59,9 @@ related:
   - kawachi-fuji-garden
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I stood under the great wisteria and got rained on by purple. 10/10."
+  emoji: "💜"
 ---
 
 Some flowers you admire; the **Great Wisteria of Ashikaga** you stand *beneath*, mouth open. **Ashikaga Flower Park** is built around a single **160-year-old wisteria** whose trained canopy spreads over **more than a thousand square metres**, raining violet blossom from a trellis held up like a sky.

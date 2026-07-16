@@ -55,6 +55,9 @@ aiSummary: "A major Tohoku summer festival in Akita where performers balance tal
 aiKeywords: [kanto matsuri, lantern festival, akita, tohoku, summer festival, pole balancing]
 createdAt: 2026-02-20
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "They balance 50 lanterns on a bamboo pole ON THEIR FOREHEADS. I balanced one acorn. Solidarity."
+  emoji: "🏮"
 ---
 
 On summer nights in early August, the main avenue of Akita fills with hundreds of swaying towers of light. The **Kanto Festival** is a feat of balance: each performer hoists a bamboo pole up to **12 metres tall**, strung with as many as **46 paper lanterns** lit by candle, and balances the whole flexing, glowing mast on a palm, a forehead, a shoulder, or a hip.

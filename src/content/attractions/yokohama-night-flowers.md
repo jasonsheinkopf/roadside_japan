@@ -50,6 +50,9 @@ aiKeywords: [yokohama night flowers, yokohama sparkling twilight, yokohama firew
 featured: false
 createdAt: 2026-07-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Fireworks over the harbor almost every week. Yokohama really said 'Tuesday? Fireworks.' My kind of city."
+  emoji: "🎆"
 ---
 
 Yokohama's answer to a single big annual fireworks night is the opposite approach: a dozen small, free shows scattered across the year, so there's a good chance one lands on whatever weekend you happen to be in town.

@@ -31,6 +31,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "A silk king's teak house. He vanished mysteriously. His cats did not. They run it now."
+  emoji: "🧵"
 ---
 
 Jim Thompson was an American architect and former intelligence officer who, after WWII, single-handedly revived Thailand's flagging silk industry and became a Bangkok legend. His home — six antique teak houses reassembled into one, filled with Southeast Asian art — is now a museum and a green oasis beside a city canal.

@@ -13,6 +13,12 @@ tags:
   - kitsch
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wall_Drug.JPG/960px-Wall_Drug.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wall_Drug.JPG/960px-Wall_Drug.JPG"
+    alt: "Wall Drug storefront signage in Wall, South Dakota"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Wall_Drug.JPG"
 status: open
 cost:
   type: free
@@ -24,6 +30,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Wall_Drug"
   - title: "Wall Drug — Official Site"
     url: "https://www.walldrug.com/"
+cinnamon:
+  quote: "Free ice water and a giant jackalope in the middle of nowhere. I drank the water. I befriended the jackalope."
+  emoji: "🥤"
 ---
 
 ## Free ice water built an empire

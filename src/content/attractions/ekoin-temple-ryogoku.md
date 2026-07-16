@@ -41,6 +41,9 @@ aiKeywords: [ekoin temple, ryogoku, nezumi kozo, kanjin sumo, edo fire memorial]
 featured: false
 createdAt: 2026-07-04
 updatedAt: 2026-07-04
+cinnamon:
+  quote: "A temple with a memorial for pets! I left an acorn for the good boys."
+  emoji: "🐾"
 ---
 
 Tucked a few minutes from the sumo stadium, Ekoin is easy to walk past — and packed with more layered history than almost anywhere else in Ryogoku.

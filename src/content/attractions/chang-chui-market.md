@@ -25,6 +25,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "There's a whole airplane parked in this market. Nobody would tell me why. Perfect."
+  emoji: "✈️"
 ---
 
 Chang Chui — roughly "a craftsman who designs" — is a deliberately ramshackle creative complex on the Thonburi side, anchored by a retired Lockheed airliner mounted as a centrepiece. Around it sprawl recycled-material sculptures, craft stalls, galleries, quirky eateries, and a notorious bar.

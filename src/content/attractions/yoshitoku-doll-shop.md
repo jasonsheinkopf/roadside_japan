@@ -42,6 +42,9 @@ aiKeywords: [yoshitoku, asakusabashi, japanese dolls, hina dolls, doll town toky
 featured: false
 createdAt: 2026-07-04
 updatedAt: 2026-07-04
+cinnamon:
+  quote: "Doll makers since 1711. Three centuries of tiny faces watched me browse. I bowed to the oldest one."
+  emoji: "🎎"
 ---
 
 Asakusabashi is Tokyo's low-key doll capital — block after block of wholesalers selling ornate Hina and Gogatsu dolls — and Yoshitoku, trading continuously since 1711, is the district's anchor.

@@ -48,6 +48,9 @@ aiKeywords: [yokoamicho park, great kanto earthquake memorial, tokyo firebombing
 featured: false
 createdAt: 2026-07-04
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A quiet garden that remembers Tokyo's hardest days. I sat with the pigeons and was thankful."
+  emoji: "🕊️"
 ---
 
 A green, unassuming park a few minutes from the sumo stadium that turns out to sit on one of the heaviest pieces of ground in Tokyo.

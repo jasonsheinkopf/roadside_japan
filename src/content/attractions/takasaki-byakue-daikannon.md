@@ -54,6 +54,9 @@ related:
   - ushiku-daibutsu
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "A 41-meter white Kannon watches the plains. I climbed to her shoulder and waved at everything."
+  emoji: "🙏"
 ---
 
 Rising from a wooded hilltop above **Takasaki**, visible from miles across the Gunma plain, stands a calm white giant: the **Byakue Daikannon**, a **41.8-metre** statue of the Buddhist goddess of mercy, finished in **1936** and gazing serenely over the city.

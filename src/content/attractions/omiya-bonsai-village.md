@@ -58,6 +58,9 @@ related:
   - moerenuma-park
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Trees hundreds of years old, small enough to hug. I asked one for wisdom. It said: grow slow."
+  emoji: "🌳"
 ---
 
 After the great Kanto earthquake of 1923, a community of Tokyo's **bonsai growers** sought clean air and good water and resettled together in northern **Omiya**. A century later, the **Bonsai Village** they founded is still here — a hushed grid of streets where the front gardens are nurseries and the residents are master cultivators.

@@ -23,6 +23,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "A tree so big it has its own weather. I have never been so jealous of branches."
+  emoji: "🌳"
 ---
 
 On the edge of Kanchanaburi stands one enormous *chamchuri* — a monkeypod or rain tree — whose vast umbrella of branches has spread so far that a raised walkway now circles beneath it to protect the roots while letting visitors stand in its shade.

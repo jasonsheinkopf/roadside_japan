@@ -14,6 +14,12 @@ tags:
 source: community
 submittedBy: "ghost popsicle"
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Zzyzx_Road_Sign_August_2012.JPG/960px-Zzyzx_Road_Sign_August_2012.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Zzyzx_Road_Sign_August_2012.JPG/960px-Zzyzx_Road_Sign_August_2012.JPG"
+    alt: "The famous Zzyzx Road sign on I-15 at the edge of the Mojave"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Zzyzx_Road_Sign_August_2012.JPG"
 status: open
 cost:
   type: free
@@ -24,6 +30,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Zzyzx,_California"
   - title: "Zzyzx — Mojave National Preserve (NPS)"
     url: "https://www.nps.gov/moja/learn/historyculture/zzyzx.htm"
+cinnamon:
+  quote: "The last word in the alphabet, at the end of a dead-end desert road. A quack built a spa here. I toasted him with spring water."
+  emoji: "🏜️"
 ---
 
 ## The last word in the desert

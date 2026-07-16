@@ -48,6 +48,9 @@ aiKeywords: [fukagawa hachiman matsuri, mizukake matsuri, tomioka hachimangu, to
 featured: true
 createdAt: 2026-07-12
 updatedAt: 2026-07-12
+cinnamon:
+  quote: "The water-throwing festival! Fifty buckets found me personally. Best shower of my life."
+  emoji: "💦"
 ---
 
 Ranked alongside the Sanja and Kanda festivals as one of Edo's three great matsuri, the Fukagawa Hachiman Matsuri turns a serious Shinto procession into one of the wettest, most joyfully chaotic events in Tokyo's summer calendar.

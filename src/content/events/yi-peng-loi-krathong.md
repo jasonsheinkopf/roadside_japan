@@ -57,6 +57,9 @@ photos:
     credit: Photo via Wikimedia Commons
     creditUrl: https://commons.wikimedia.org/wiki/File:Festival_Yi_Peng._ChiangMai%2C_Tailandia._(17405194412).jpg
 country: thailand
+cinnamon:
+  quote: "Ten thousand lanterns rose at once and the sky became a slow golden river. I forgot every word I know."
+  emoji: "🏮"
 ---
 
 Once a year, on the full moon of the twelfth month in the Thai lunar calendar, Chiang Mai glows. **Loi Krathong** sends candle-lit floats drifting down the rivers and canals, while the northern **Yi Peng** tradition fills the sky with thousands of rising paper lanterns (*khom loi*).

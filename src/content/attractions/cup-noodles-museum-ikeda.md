@@ -57,6 +57,9 @@ related:
   - meguro-parasitological-museum
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I designed my own cup noodle. Acorn flavor. The staff were... polite about it."
+  emoji: "🍜"
 ---
 
 In a quiet suburb of Osaka stands a museum dedicated to one of the 20th century's humblest, most world-conquering inventions: **instant noodles**. The **Cup Noodles Museum** sits on the very ground where, in 1958, **Momofuku Ando** perfected the first instant ramen in a backyard shed.

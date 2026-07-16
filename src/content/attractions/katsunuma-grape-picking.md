@@ -50,6 +50,9 @@ aiKeywords: [katsunuma grape picking, budo-gari, koshu yamanashi, grapark, japan
 featured: false
 createdAt: 2026-07-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "All-you-can-eat grapes, straight off the vine. They had to roll me down the hill."
+  emoji: "🍇"
 ---
 
 Ninety minutes from Tokyo, an entire hillside in Koshu turns over to vineyards each late summer — Japan's original and still-largest wine region, and one of its most reliable late-summer day trips.

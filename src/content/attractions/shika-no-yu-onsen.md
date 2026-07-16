@@ -55,6 +55,9 @@ related:
   - ibusuki-sand-bath
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "A 1,300-year-old bathhouse. I soaked next to grandpas who have perfected the art of the sigh."
+  emoji: "♨️"
 ---
 
 At the very top of the **Nasu Yumoto** onsen town, where the road gives way to steaming hillsides, stands a weathered wooden bathhouse that has been in business, in one form or another, for around **1,300 years**: **Shika-no-yu**, the oldest hot spring in Nasu.

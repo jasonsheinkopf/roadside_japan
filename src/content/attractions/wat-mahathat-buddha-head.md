@@ -48,6 +48,9 @@ aiKeywords: [wat mahathat, buddha head tree, ayutthaya, thailand ruins, unesco]
 featured: true
 createdAt: 2026-07-15
 updatedAt: 2026-07-15
+cinnamon:
+  quote: "A Buddha's head cradled in tree roots, patient as rain. Even the tree seems to know it's holding something precious."
+  emoji: "🌿"
 ---
 
 For four centuries Ayutthaya was one of the largest cities on earth; in 1767 it was burned and emptied in a single sacking. The banyan trees have been quietly reclaiming it ever since — and one of them picked up a Buddha.

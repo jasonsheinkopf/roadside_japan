@@ -58,6 +58,9 @@ related:
   - okunoshima-rabbit-island
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A tiny island of fishermen and seabirds. The cats supervise the harbor. I supervised the cats."
+  emoji: "🐟"
 ---
 
 Out in the Japan Sea, about **75 minutes by ferry** from the port of Sakata, floats **Tobishima** — Yamagata's only inhabited offshore island, and one of its best-kept summer secrets.

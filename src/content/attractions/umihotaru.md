@@ -58,6 +58,9 @@ related:
   - kawasaki-daishi
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A rest stop in the middle of the ocean on a highway that dives underwater. Japan just does this. Casually."
+  emoji: "🌊"
 ---
 
 Halfway across **Tokyo Bay**, the **Aqua-Line** highway does something extraordinary: it stops being a bridge and plunges into a tunnel under the sea. At exactly that transition floats **Umihotaru** ("Sea Firefly"), a five-story **rest stop on an artificial island** in the middle of the water.

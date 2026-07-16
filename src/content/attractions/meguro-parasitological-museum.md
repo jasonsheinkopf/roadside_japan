@@ -56,6 +56,9 @@ related:
   - oya-history-museum
 createdAt: 2025-10-05
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The 8.8-meter tapeworm changed me. I hugged my lunch a little tighter that day."
+  emoji: "🪱"
 ---
 
 Tucked into a quiet residential block near the Meguro River is a museum so single-minded it has become a legend: the **Meguro Parasitological Museum**, founded in 1953 and devoted entirely to the study of parasites.

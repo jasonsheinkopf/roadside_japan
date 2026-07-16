@@ -55,6 +55,9 @@ related:
   - sun-messe-nichinan-moai
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "I posed with the famous dotted pumpkin at the sea's edge. We're both round icons."
+  emoji: "🎃"
 ---
 
 At the end of a plain concrete pier, against the blue of the Seto Inland Sea, sits one of the most photographed objects in Japan: a fat, cheerful, **polka-dotted yellow pumpkin** by the artist **Yayoi Kusama**. It has greeted visitors to the art island of **Naoshima** since 1994.

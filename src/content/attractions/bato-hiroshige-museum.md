@@ -59,6 +59,9 @@ related:
   - ns-yard
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Hiroshige drew rain so well I shook my fur dry afterward. Reflex."
+  emoji: "🌊"
 ---
 
 In the quiet Naka River country east of Nasu, the small town of **Bato** holds a building that architecture pilgrims cross the country to see: the **Nakagawa-machi Bato Hiroshige Museum of Art**, an early masterpiece by **Kengo Kuma**.

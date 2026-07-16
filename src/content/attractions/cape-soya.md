@@ -57,6 +57,9 @@ related:
   - aogashima-island
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The very top of Japan! Nothing above me but wind and one confused seagull."
+  emoji: "🧭"
 ---
 
 Drive to the very end of the road at the very top of Japan and you arrive at **Cape Sōya**, where the land runs out into the cold Sea of Okhotsk. A stark, pointed monument marks the **northernmost point of mainland Japan** — and on the right day, you can see another country across the water.

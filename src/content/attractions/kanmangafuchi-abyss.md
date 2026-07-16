@@ -57,6 +57,9 @@ related:
   - okunoin-koyasan
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Seventy stone Jizo in a row, and they say you can't count them twice the same. I got 71, then 69. Spooked."
+  emoji: "🗿"
 ---
 
 Away from Nikko's grand shrines, a quiet path follows the **Daiya River** into a small basalt gorge formed by an old lava flow. This is the **Kanmangafuchi Abyss**, and its real draw stands in a long, silent row along the bank.

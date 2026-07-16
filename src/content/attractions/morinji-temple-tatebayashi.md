@@ -14,9 +14,18 @@ submittedBy: "a fellow traveler"
 createdAt: 2026-07-16
 updatedAt: 2026-07-16
 related: []
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Taxidermy_of_Raccoon_Dog-Morinji%2C_Tatebayashi%2C_Gunma.JPG/960px-Taxidermy_of_Raccoon_Dog-Morinji%2C_Tatebayashi%2C_Gunma.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Taxidermy_of_Raccoon_Dog-Morinji%2C_Tatebayashi%2C_Gunma.JPG/960px-Taxidermy_of_Raccoon_Dog-Morinji%2C_Tatebayashi%2C_Gunma.JPG"
+    alt: "The famous tanuki of Morinji temple, Tatebayashi — home of the Bunbuku Chagama folktale"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Taxidermy_of_Raccoon_Dog-Morinji%2C_Tatebayashi%2C_Gunma.JPG"
 tags:
   - folklore
   - history
+cinnamon:
+  quote: "The teakettle here is secretly a tanuki. As a fellow forest schemer: flawless prank, no notes."
+  emoji: "🫖"
 ---
 
 ## The temple and the folktale

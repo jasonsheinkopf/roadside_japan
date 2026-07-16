@@ -58,6 +58,9 @@ related:
   - okunoshima-rabbit-island
 createdAt: 2026-06-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Population: 6 humans, 100 cats, 1 extremely brave squirrel. Me. I'm the squirrel."
+  emoji: "🐈"
 ---
 
 Off the coast of Ehime, on Shikoku, sits a speck of an island called **Aoshima** — and it belongs to the cats. A dwindling handful of human residents share the place with many times their number of free-roaming felines, who gather at the little harbor to greet the ferry as it pulls in.

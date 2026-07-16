@@ -46,6 +46,9 @@ aiKeywords: [hill of the buddha, atama daibutsu, tadao ando, makomanai takino ce
 featured: true
 createdAt: 2026-07-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "You walk through lavender and the Buddha's head appears in a dome of sky. I gasped out loud."
+  emoji: "🗿"
 ---
 
 A gravestone company built a cemetery in the hills south of Sapporo, filled it with full-size replica moai statues and a concrete Stonehenge — and then, in 2016, hired Tadao Ando to do something even stranger with their 13.5-meter stone Buddha.

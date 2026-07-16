@@ -55,6 +55,9 @@ related:
   - ushiku-daibutsu
 createdAt: 2025-09-25
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A million baby-blue flowers, and me, one small brown dot doing cartwheels."
+  emoji: "🌐"
 ---
 
 Twice a year, a single hill in Ibaraki becomes one of the most photographed places in Japan. In spring, **4.5 million nemophila** — tiny "baby blue eyes" flowers — wash Miharashi Hill in a blue so total it blurs the line between flowers, sky, and sea. In autumn, the same hill flushes scarlet as thousands of round **kochia** bushes turn color.

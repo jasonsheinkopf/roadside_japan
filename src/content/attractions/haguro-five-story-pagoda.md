@@ -57,6 +57,9 @@ related:
   - okunoin-koyasan
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A pagoda alone in the cedars, six hundred years of standing very still. I tried it. Lasted a minute."
+  emoji: "🌲"
 ---
 
 **Mt. Haguro** is the most accessible of the **Dewa Sanzan**, the three sacred mountains at the heart of Yamagata's mountain-worship tradition. The pilgrim's path begins at the **Zuishinmon gate** and climbs **2,446 stone steps** through a cathedral of cedars — and just a few minutes up stands the prize.

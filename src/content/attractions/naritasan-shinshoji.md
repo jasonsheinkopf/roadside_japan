@@ -57,6 +57,9 @@ related:
   - kawasaki-daishi
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Great halls, a pagoda, and unagi street outside. Spirit first, eel second. Balance."
+  emoji: "🕉️"
 ---
 
 Most travelers rush past Narita on the way to or from the airport, never realizing that one of the great temple complexes of the Kanto region sits **ten minutes away**. **Naritasan Shinshoji**, founded in the year 940, is a sprawling, living temple that makes a perfect bookend to a trip to Japan.

@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "The bowls are tiny so you order ten. I ordered twelve. The stack of bowls was taller than me. Trophy."
+  emoji: "🍜"
 ---
 
 Boat noodles (*kuaytiaw ruea*) were once sold from sampans on Bangkok's canals; to keep from spilling as the boats rocked, they were ladled out in small portions. The tradition lives on in a cluster of stalls in an alley near the Victory Monument, where each bowl arrives barely bigger than a teacup.

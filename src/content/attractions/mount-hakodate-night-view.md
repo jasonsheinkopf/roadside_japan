@@ -52,6 +52,9 @@ aiKeywords: [mount hakodate, hakodate night view, hakodate ropeway, million doll
 featured: false
 createdAt: 2026-07-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The city lights spill between two bays like treasure. I squeaked at the sparkle. Audibly."
+  emoji: "🌃"
 ---
 
 Every Japanese city claims a night view; Hakodate's is one of the canonical three, and the reason is pure geography.

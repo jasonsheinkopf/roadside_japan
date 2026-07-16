@@ -58,6 +58,9 @@ featured: false
 createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
+cinnamon:
+  quote: "A quiet cutting with a heavy story. Even my tail was still here."
+  emoji: "🕯️"
 ---
 
 In the hills west of Kanchanaburi, a corridor of raw rock slices through the forest. **Hellfire Pass** (Konyu Cutting) is the deepest and most infamous section of the **Thailand–Burma "Death Railway,"** built in 1943 by Allied prisoners of war and conscripted Asian labourers for the Japanese military.

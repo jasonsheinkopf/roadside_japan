@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Tiger Cave Temple's giant golden Buddha shines over the rice fields. I took the dragon staircase. Obviously."
+  emoji: "🐅"
 ---
 
 Not to be confused with Krabi's temple of the same name, Kanchanaburi's Wat Tham Suea sits on a hill above the Mae Klong, dominated by a vast golden seated Buddha that can be seen for miles across the plain.

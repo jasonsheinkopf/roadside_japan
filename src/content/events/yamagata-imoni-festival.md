@@ -56,6 +56,9 @@ related:
   - utsunomiya-gyoza
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "They stew 30,000 servings in a 6-meter pot stirred by CRANE. I held my bowl up like baby Simba."
+  emoji: "🍲"
 ---
 
 Yamagata's autumn comfort food is **imoni** — a hearty stew of **taro, beef, konnyaku, and green onion** in a sweet-soy broth — and every September the whole region celebrates it in the most over-the-top way imaginable.

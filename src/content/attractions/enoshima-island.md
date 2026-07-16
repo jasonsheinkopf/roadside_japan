@@ -52,6 +52,9 @@ aiKeywords: [enoshima, enoshima island, iwaya caves, sea candle, fujisawa kanaga
 featured: false
 createdAt: 2026-07-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Shrines, a lighthouse, and dragon legends on one island. I did it all for a snack."
+  emoji: "🗼"
 ---
 
 Barely a kilometer around, Enoshima crams a surprising amount into one small tidal island connected to the mainland by a footbridge across Katase River's mouth.

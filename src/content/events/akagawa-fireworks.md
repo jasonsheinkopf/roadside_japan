@@ -56,6 +56,9 @@ related:
   - fussa-firefly-festival
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Two hours of fireworks synced to music over the river. I cried at a firework. It was that good."
+  emoji: "🎆"
 ---
 
 Japan takes its **summer fireworks** seriously, and few shows are more revered than the **Akagawa Fireworks Festival** in Tsuruoka, which openly aims to be **"Japan's most moving fireworks display."**

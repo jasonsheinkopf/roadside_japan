@@ -24,6 +24,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Unarius_Academy_of_Science"
   - title: "Unarius — Academy of Science (official)"
     url: "https://unarius.org/"
+cinnamon:
+  quote: "They're waiting for 33 spaceships to land in stacked formation. I checked the sky twice. Nothing yet. YET."
+  emoji: "🛸"
 ---
 
 ## The last word in flying-saucer optimism

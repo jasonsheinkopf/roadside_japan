@@ -58,6 +58,9 @@ aiSummary: "Small local firefly festival around Hotaru Park in Fussa, western To
 aiKeywords: [fussa, hotaru, fireflies, genji-botaru, western tokyo, summer festival, local japan]
 createdAt: 2026-06-13
 updatedAt: 2026-06-13
+cinnamon:
+  quote: "A thousand fireflies rising over the river at dusk. I glowed a little too, on the inside."
+  emoji: "🌟"
 ---
 
 In western Tokyo, away from the big-name sightseeing loop, **Fussa Firefly Festival** turns a small neighborhood park and its nearby waterways into a summer-night gathering spot. The draw is simple: **Genji fireflies** flashing in the dark, watched by families and local visitors who know to show up after sunset.

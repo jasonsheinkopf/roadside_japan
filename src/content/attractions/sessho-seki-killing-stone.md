@@ -57,6 +57,9 @@ related:
   - osorezan-bodaiji
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The nine-tailed fox's stone split open in 2022. I sniffed it once and left VERY politely."
+  emoji: "🦊"
 ---
 
 Above the old hot-spring town of **Nasu Yumoto**, the forest gives way to a barren, hissing field of yellow sulfur called Sai-no-Kawara — and in the middle of it sits the **Sessho-seki**, the "Killing Stone."

@@ -33,6 +33,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "All of Thailand in one park. My little legs filed a formal complaint."
+  emoji: "🏯"
 ---
 
 On the southern fringe of Bangkok, in Samut Prakan, sprawls one of the most ambitious museums anywhere: a 200-acre park laid out in the rough shape of Thailand, with more than a hundred reconstructed temples, palaces, and pavilions positioned to match their real locations on the national map.

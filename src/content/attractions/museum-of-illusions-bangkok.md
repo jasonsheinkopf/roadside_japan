@@ -25,6 +25,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "I stood in the tilted room and my tail could not cope. Photos or it didn't happen. There are photos."
+  emoji: "🌀"
 ---
 
 Part of an international chain but reliably good fun, the Museum of Illusions packs a couple of floors with holograms, perspective tricks, a vortex tunnel, an infinity room, and the classic Ames room that makes one person tower over another.

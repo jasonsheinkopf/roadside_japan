@@ -23,6 +23,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Yes, that's really the name. The spring rolls are excellent. Stop giggling."
+  emoji: "🥗"
 ---
 
 The slogan says it all: "Our food is guaranteed not to cause pregnancy." Cabbages & Condoms is a leafy garden restaurant serving solid, well-priced Thai food — and every inch of it is decorated with condoms, from chandelier-like installations to a superhero mannequin in the lobby.

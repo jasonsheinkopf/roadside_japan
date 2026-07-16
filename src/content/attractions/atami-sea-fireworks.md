@@ -52,6 +52,9 @@ aiKeywords: [atami fireworks, atami sea fireworks, hanabi shizuoka, atami onsen]
 featured: false
 createdAt: 2026-07-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Fireworks echo off the mountains here like the sky is applauding itself."
+  emoji: "🎆"
 ---
 
 Most cities hold one big summer fireworks night; Atami holds around fifteen a year — and its bay's odd shape turns every one of them into an unusually intense show.

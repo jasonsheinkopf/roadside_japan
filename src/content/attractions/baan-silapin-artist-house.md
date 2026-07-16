@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "A puppet show over a canal! I clapped so hard I nearly fell in."
+  emoji: "🎭"
 ---
 
 On a quiet stretch of the old Bang Luang canal in Thonburi, this rambling century-old teak house has been reborn as an artists' collective — part café, part gallery, part workshop — gathered around a small white *chedi* and a wooden stage over the water.

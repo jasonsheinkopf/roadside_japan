@@ -57,6 +57,9 @@ related:
   - oya-history-museum
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "An island of empty towers. Quiet enough to hear your own whiskers think."
+  emoji: "🏚️"
 ---
 
 From a distance it really does look like a warship: a low gray slab bristling with towers, riding the swells off the coast of Nagasaki. Up close, **Hashima Island** — nicknamed **Gunkanjima**, "Battleship Island" — is something stranger: an entire abandoned city packed onto a rock barely 480 metres long.

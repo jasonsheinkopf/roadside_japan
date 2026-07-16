@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Flower art from every era. I sniffed a 100-year-old pressed flower. Faint, but proud."
+  emoji: "🌸"
 ---
 
 Founded by a celebrated Thai floral artist, this tranquil museum occupies a graceful old teak house in the leafy Dusit district. Visits are by guided tour through rooms devoted to the art and ritual of flowers — Thai garlands, royal offerings, and floral traditions from across Asia.

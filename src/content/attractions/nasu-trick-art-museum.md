@@ -53,6 +53,9 @@ related:
   - nasu-teddy-bear-museum
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "I held up a painted pyramid with one paw. Photographic proof of my enormous strength exists."
+  emoji: "🎨"
 ---
 
 Among the cluster of quirky **Nasu highland** museums is one built entirely around fooling your eyes: the **Nasu Trick Art Museum**, where flat paintings leap into apparent 3D the moment you stand on the right spot and point a camera.

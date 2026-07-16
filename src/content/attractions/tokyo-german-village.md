@@ -54,6 +54,9 @@ related:
   - nabana-no-sato-illumination
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "A German village in Chiba with a winter light sea. I ate a sausage longer than my torso. Photographic evidence exists."
+  emoji: "🌭"
 ---
 
 Let's clear it up front: **Tokyo German Village** is in **Chiba**, not Tokyo, and its German-ness amounts to a windmill and some sausages. The name is part of the charm — a cheerfully confident misnomer for a big countryside **flower-and-amusement park**.

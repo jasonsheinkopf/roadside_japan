@@ -29,6 +29,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Old Bangkok in a quiet garden. I napped on a windowsill. Historically."
+  emoji: "🏡"
 ---
 
 Slip off the traffic of Charoen Krung into a shaded garden and you'll find a set of beautifully kept timber houses preserved exactly as a Bangkok family left them in the mid-20th century — furniture, kitchenware, photographs and all.

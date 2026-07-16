@@ -53,6 +53,9 @@ related:
   - kawagoe-little-edo
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Canal boats glide past Edo merchant houses. I rode one and practiced my old-timey merchant wave."
+  emoji: "🛶"
 ---
 
 Northern Chiba hides a town that time mostly forgot to modernize. **Sawara** grew rich on river trade in the Edo period, and its old quarter — black-tiled merchant houses and warehouses leaning over a willow-lined **canal** — has survived so intact it's earned the nickname **"Little Edo."**

@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "A cave like a stone cathedral. The bats and I have an understanding: we're all just hanging out."
+  emoji: "🦇"
 ---
 
 Tham Khao Bin is one of those low-key Thai show caves that locals love and few foreigners find. A lit concrete path winds for several hundred metres through a chain of chambers, each given a fanciful name for the formations it holds.

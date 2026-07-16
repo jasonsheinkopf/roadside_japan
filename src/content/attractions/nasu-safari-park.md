@@ -54,6 +54,9 @@ related:
   - nasu-animal-kingdom
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "A lion looked through the car window at me. I have updated my will. All acorns to charity."
+  emoji: "🦁"
 ---
 
 Most zoos keep you outside the cage. At **Nasu Safari Park**, you drive your own car straight into the enclosure and let the **lions come to you**. Around **70 species** roam in large free-range zones — giraffes leaning toward your window, rhinos crossing the road, tigers watching from the grass.

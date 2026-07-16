@@ -56,6 +56,9 @@ related:
   - okunoshima-rabbit-island
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "A hall of ten thousand glowing jellyfish. I pressed my nose to the glass for one hour."
+  emoji: "🪼"
 ---
 
 On the coast west of Tsuruoka stands a sleek white building that came back from the brink of closure by betting everything on the most unlikely of stars: **jellyfish**. Today the **Kamo Aquarium** holds the **largest jellyfish collection in the world** — a Guinness-certified **50-plus species** — and it's one of the most quietly mesmerizing places in Tohoku.

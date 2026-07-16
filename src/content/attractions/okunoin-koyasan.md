@@ -57,6 +57,9 @@ related:
   - osorezan-bodaiji
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Two kilometers of mossy graves under giant cedars. I walked softly and thought about everything."
+  emoji: "🕯️"
 ---
 
 On the sacred mountain of **Koyasan**, heartland of Shingon Buddhism, a path leads into the trees and does not feel like it belongs to the ordinary world. This is **Okunoin**, Japan's largest cemetery: roughly two kilometres of forest floor holding more than **200,000 graves** beneath cedars that have stood for centuries.

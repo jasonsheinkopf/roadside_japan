@@ -116,6 +116,19 @@ const commonFields = z.object({
   // --- Editorial extras (shown in dedicated UI blocks) ---
   tips: z.array(z.string()).default([]),
 
+  /**
+   * Cinnamon scene — every entry's unique mascot vignette (see docs/PHOTOS.md).
+   * `quote` is a hand-written one-liner in Cinnamon's voice about THIS place;
+   * `emoji` is the thing he's engaging with in the scene. Renders in-page on every
+   * detail view, and serves as the hero when no licensed photo could be verified.
+   */
+  cinnamon: z
+    .object({
+      quote: z.string().min(4),
+      emoji: z.string().default("📍"),
+    })
+    .optional(),
+
   // --- Provenance, moderation, AI ---
   status: z.enum(STATUS).default("open"),
   approval: z.enum(APPROVAL).default("draft"),

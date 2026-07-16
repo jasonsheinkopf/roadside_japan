@@ -55,6 +55,9 @@ aiSummary: "A winter natural phenomenon on Mt. Zao where snow- and ice-encrusted
 aiKeywords: [juhyo, snow monsters, zao, yamagata, ropeway, frozen trees]
 createdAt: 2025-11-10
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The trees freeze into ice monsters that march up the mountain. I made friends with the smallest one. His name is Kevin."
+  emoji: "☃️"
 ---
 
 High on Mt. Zao, where wind-driven snow and supercooled fog plaster the fir trees from one side, the forest transforms into an army of hulking white figures the Japanese call **juhyo** — "ice trees," or more evocatively, **snow monsters**.

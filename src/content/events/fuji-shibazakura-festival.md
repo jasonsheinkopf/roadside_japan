@@ -55,6 +55,9 @@ aiSummary: "Spring festival near Lake Motosu where vast carpets of pink shibazak
 aiKeywords: [shibazakura, moss phlox, mount fuji, motosu, spring flowers, yamanashi]
 createdAt: 2026-01-15
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A pink carpet of 800,000 flowers with Fuji floating behind. I rolled once. Officially sanctioned? No. Magical? Yes."
+  emoji: "🗻"
 ---
 
 For about six weeks each spring, the slopes near Lake Motosu erupt in pink, white, and magenta as some **500,000 shibazakura** (moss phlox) flowers bloom into sweeping ribbons of color — all framed by the snow-capped cone of **Mt. Fuji** rising behind.

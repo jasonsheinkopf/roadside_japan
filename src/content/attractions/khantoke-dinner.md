@@ -24,6 +24,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Dinner on the floor with dancers spinning past. I ate lying down. Royalty."
+  emoji: "🍢"
 ---
 
 *Khantoke* is the traditional way of dining in Lanna, the old northern kingdom centred on Chiang Mai. Guests sit on cushions on the floor around a *khantoke* — a round, waist-high pedestal tray — from which a rotating array of small dishes is shared: sticky rice, *nam prik ong*, crispy pork, Chiang Mai sausage, curries, and more.

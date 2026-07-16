@@ -53,6 +53,9 @@ related:
   - oya-history-museum
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "A giant Kannon carved into the cliff by one determined sculptor. The scaffolding was faith."
+  emoji: "🗿"
 ---
 
 Right beside the cavernous **Oya stone quarry** outside Utsunomiya, the soft local rock has been carved for worship as well as construction. **Oya-ji Temple** tucks its main hall **into a rock overhang**, and behind it, hewn into the living cliff, are some of **Japan's oldest stone Buddhist carvings**.

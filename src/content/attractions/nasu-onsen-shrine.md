@@ -58,6 +58,9 @@ related:
   - shika-no-yu-onsen
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A shrine older than the killing stone legend next door. I bowed extra. Insurance."
+  emoji: "⛩️"
 ---
 
 At the top of **Nasu Yumoto**, where the road meets the steaming sulfur field, an avenue of towering cedars leads up to **Nasu Onsen Shrine** — the roughly **1,300-year-old** guardian of these hot springs, founded, the story goes, when the healing waters were first discovered.

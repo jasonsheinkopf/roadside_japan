@@ -27,6 +27,9 @@ sources:
     url: "https://www.hawaiihomegrown.net/talking-story/514-kokoleka-lani-farms"
   - title: "Hawaii — Cacao of Excellence (2019)"
     url: "https://www.cacaoofexcellence.org/producers-of-excellence/2019-edition/producers/hawaii"
+cinnamon:
+  quote: "I tasted world-champion chocolate ON the farm that grew it. My whiskers curled with joy."
+  emoji: "🍫"
 ---
 
 ## Bean to bar on a Kona hillside

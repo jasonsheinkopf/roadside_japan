@@ -58,6 +58,9 @@ related:
   - noboribetsu-jigokudani
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I rode the ropeway up a smoking volcano. The gondola swayed. My courage also swayed."
+  emoji: "🚠"
 ---
 
 The **Nasu highlands** rise to a cluster of peaks topped by **Chausu-dake**, an **active volcano** that still vents sulfur from its summit. A **ropeway** does the hard early work, lifting you high up the mountain's flank in a few smooth minutes.

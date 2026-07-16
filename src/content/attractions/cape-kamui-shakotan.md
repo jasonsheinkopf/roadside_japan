@@ -44,6 +44,9 @@ aiKeywords: [cape kamui, shakotan blue, shakotan peninsula, charenka path, hokka
 featured: false
 createdAt: 2026-07-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The sea here is called Shakotan Blue. I call it 'whoa' blue."
+  emoji: "🌊"
 ---
 
 Hokkaido isn't supposed to have tropical-looking water — which is exactly why the Shakotan Peninsula's electric turquoise sea earned its own named color, and why the ridge walk at its tip is one of the island's great short hikes.

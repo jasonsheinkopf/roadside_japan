@@ -25,6 +25,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Pinball_Hall_of_Fame"
   - title: "Pinball Hall of Fame — Official Site"
     url: "https://www.pinballmuseum.org/"
+cinnamon:
+  quote: "700 machines and my paws hit the flippers perfectly. Multiball is my spiritual state."
+  emoji: "🕹️"
 ---
 
 ## A museum you play

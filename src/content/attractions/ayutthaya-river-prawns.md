@@ -23,6 +23,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Prawns bigger than my head. I know because I checked. Twice."
+  emoji: "🦐"
 ---
 
 Ayutthaya is famous for its temple ruins — and, among Thais, for its river prawns. The giant freshwater prawn (*kung mae nam*) grows to a spectacular size in the rivers around the old island capital, and eating one grilled is a pilgrimage in its own right.

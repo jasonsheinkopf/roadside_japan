@@ -46,6 +46,9 @@ related:
   - okunoshima-rabbit-island
 createdAt: 2025-09-02
 updatedAt: 2025-11-20
+cinnamon:
+  quote: "A village where dolls outnumber people. They're all very polite. Too polite. I waved anyway."
+  emoji: "🧸"
 ---
 
 Deep in the folds of the Iya Valley — one of the most isolated corners of Shikoku — sits Nagoro, a village slowly being abandoned by people and quietly repopulated by **scarecrows**.

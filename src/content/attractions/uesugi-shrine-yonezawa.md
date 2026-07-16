@@ -53,6 +53,9 @@ related:
   - utsunomiya-gyoza
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Shrine of the great strategist Kenshin. I planned my next three naps there. Strategically."
+  emoji: "⚔️"
 ---
 
 The castle town of **Yonezawa**, tucked in Yamagata's southern basin, was the seat of the powerful **Uesugi** clan. Where their castle once stood, ringed by a moat and old trees, now sits **Uesugi Shrine**, dedicated to the legendary warlord **Uesugi Kenshin** — calm, dignified, and steeped in samurai history.

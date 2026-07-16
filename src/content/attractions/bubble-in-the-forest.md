@@ -29,6 +29,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "I slept in a bubble in the jungle. The fireflies watched. Rude but magical."
+  emoji: "🫧"
 ---
 
 An easy drive west of Bangkok in Sam Phran, this sprawling garden café leans all the way into escapism: alongside its ordinary tables sit a handful of large, transparent geodesic "bubble" domes on the water, where small groups can dine in air-conditioned, panoramic privacy surrounded by palms and lake.

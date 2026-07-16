@@ -58,6 +58,9 @@ related:
   - edo-wonderland-nikko
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The whole world in miniature. I stomped past tiny Tokyo Tower like a very kind kaiju."
+  emoji: "🌍"
 ---
 
 Near the hot springs of Kinugawa, just shy of Nikko, is a theme park that hands you the whole planet at knee height. **Tobu World Square** packs **over 100 of the world's most famous buildings** into one walkable garden, each rebuilt in painstaking **1:25 miniature**.

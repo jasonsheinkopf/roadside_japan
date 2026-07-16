@@ -44,6 +44,9 @@ aiKeywords: [japanese sword museum, ryogoku, katana museum, touken hakubutsukan]
 featured: false
 createdAt: 2026-07-04
 updatedAt: 2026-07-04
+cinnamon:
+  quote: "The blades ripple like water. I stood very still and practiced my samurai face."
+  emoji: "⚔️"
 ---
 
 A short walk from the sumo stadium sits one of Tokyo's more specialized — and more quietly intense — small museums: a building devoted entirely to the katana.

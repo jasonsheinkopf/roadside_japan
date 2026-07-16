@@ -57,6 +57,9 @@ related:
   - takachiho-gorge
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The boatman sang down the gorge and the cliffs sang it back. I hummed the squirrel part."
+  emoji: "🛶"
 ---
 
 The **Mogami** is one of Japan's three great rapid rivers, carving a broad green corridor through the heart of Yamagata. The classic way to experience it isn't from a road but from the water — aboard a **flat-bottomed wooden boat**, poled along by a boatman in the old style.

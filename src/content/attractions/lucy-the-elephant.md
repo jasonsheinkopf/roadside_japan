@@ -13,6 +13,12 @@ tags:
   - landmark
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Lucy_the_elephant%2C_Margate_City%2C_Atlantic_City_New_Jersey.jpg/960px-Lucy_the_elephant%2C_Margate_City%2C_Atlantic_City_New_Jersey.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Lucy_the_elephant%2C_Margate_City%2C_Atlantic_City_New_Jersey.jpg/960px-Lucy_the_elephant%2C_Margate_City%2C_Atlantic_City_New_Jersey.jpg"
+    alt: "Lucy the Elephant, the six-story elephant building in Margate City, New Jersey"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Lucy_the_elephant%2C_Margate_City%2C_Atlantic_City_New_Jersey.jpg"
 status: open
 cost:
   type: paid
@@ -24,6 +30,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Lucy_the_Elephant"
   - title: "Lucy the Elephant — Official Site"
     url: "https://lucytheelephant.org/"
+cinnamon:
+  quote: "A six-story elephant you can walk inside. I toured a pachyderm's belly and saw the sea from her back."
+  emoji: "🐘"
 ---
 
 ## Six stories of pachyderm

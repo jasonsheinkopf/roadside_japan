@@ -57,6 +57,9 @@ related:
   - takachiho-gorge
 createdAt: 2025-07-08
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The pond is so blue I checked if the sky had fallen in. It had not."
+  emoji: "💙"
 ---
 
 Nobody set out to build one of Hokkaido's most photographed landscapes. The **Blue Pond** (Aoiike) near Biei formed almost by accident, when a dam built to protect the town from volcanic mudflows pooled mineral-laden water among a stand of larch trees.

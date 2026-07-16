@@ -28,6 +28,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "I walked the famous bridge and thought big thoughts about history. And lunch."
+  emoji: "🌉"
 ---
 
 Few bridges carry so much history. The curved black spans crossing the Khwae Yai are part of the Thailand–Burma "Death Railway," built in 1942–43 under the Japanese occupation by Allied prisoners of war and Asian labourers, tens of thousands of whom died. The central spans were bombed late in the war and rebuilt; trains still cross today.

@@ -53,6 +53,9 @@ related:
   - nasu-stained-glass-museum
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Shadow art that glows like candy. I floated out of there, frankly."
+  emoji: "🌈"
 ---
 
 Of all the Nasu highland museums, the **Fujishiro Seiji Museum** is the most quietly enchanting. It's devoted to **Seiji Fujishiro**, a master of **kage-e** — backlit cut-paper "shadow pictures" — whose fairytale scenes glow with the saturated color of stained glass.

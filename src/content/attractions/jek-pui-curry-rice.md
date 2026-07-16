@@ -33,6 +33,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "No tables, just stools on the sidewalk. Curry this good needs no furniture."
+  emoji: "🍛"
 ---
 
 For more than seven decades, Jek Pui has served rich Thai-Chinese curries from a cart on the corner of Mangkon Road — with one famous quirk: there are no tables. Diners perch on cheap red stools along the pavement, plates balanced on their knees, shuffling for a seat in a nightly game locals nicknamed "musical chairs."

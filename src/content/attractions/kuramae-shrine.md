@@ -49,6 +49,9 @@ aiKeywords: [kuramae shrine, kanjin sumo, edo shrine, sumo history, taito shrine
 featured: false
 createdAt: 2026-07-04
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A little shrine that smells like fresh notebooks from the craft shops nearby. Scholarly vibes."
+  emoji: "⛩️"
 ---
 
 A modest neighborhood shrine one minute from Kuramae Station, founded in 1693 by the fifth Tokugawa shogun — and quietly one of the more historically loaded small shrines in Tokyo.

@@ -61,6 +61,9 @@ related:
   - blue-pond-biei
 createdAt: 2026-06-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The monkeys have a private hot spring. I asked to join. They said it's a monkey thing."
+  emoji: "🐒"
 ---
 
 The name means "Hell Valley" — for the steam that hisses out of the frozen ground here in the Nagano mountains. But **Jigokudani** is famous for something gentler: troops of wild **Japanese macaques** that climb down from the cliffs each winter to soak in a steaming hot-spring pool, snow gathering on their heads while they sit chest-deep in warm water.

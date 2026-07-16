@@ -57,6 +57,9 @@ related:
   - ushiku-daibutsu
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The candy shops hammer sweets to a rhythm. Halfway between temple and concert."
+  emoji: "🍬"
 ---
 
 Just across the river from Tokyo, **Kawasaki Daishi** is one of the busiest, most cheerful temples in the Kanto region — a working place of worship wrapped in the smell of incense and the sound of candy being chopped.

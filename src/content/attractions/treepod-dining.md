@@ -32,6 +32,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Dinner in a birds-nest pod in the canopy, food delivered by zip line. I have peaked. Literally."
+  emoji: "🌳"
 ---
 
 On the far-flung island of Ko Kut, the Soneva Kiri resort has built what may be the most theatrical restaurant in Thailand. Guests settle into a spacious rattan-and-bamboo pod — modelled on the hanging nest of a weaver bird — which is then raised around seven metres into the treetops, level with the canopy and looking out to the sea.

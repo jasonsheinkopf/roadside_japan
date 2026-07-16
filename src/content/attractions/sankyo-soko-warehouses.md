@@ -53,6 +53,9 @@ related:
   - otaru-canal
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Rice warehouses under a row of huge zelkova trees. The shade there is 150 years deep."
+  emoji: "🌾"
 ---
 
 The port city of **Sakata** grew rich shipping the rice of the fertile Shonai plain, and the most photogenic relic of that trade still stands: **Sankyo Soko**, a long row of **black-walled wooden rice warehouses** built in **1893** and in use for over a century.

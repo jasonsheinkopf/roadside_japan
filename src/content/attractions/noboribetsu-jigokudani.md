@@ -58,6 +58,9 @@ related:
   - blue-pond-biei
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Hell Valley steams and bubbles and smells of sulfur, and the demons are statues. Probably."
+  emoji: "😈"
 ---
 
 Hokkaido's grandest hot-spring resort sits directly downstream from a hole in the earth. **Noboribetsu Jigokudani** — yes, another "Hell Valley" — is a 450-metre-wide volcanic crater of rust-red and sulfur-yellow rock that hisses steam from a hundred vents and pipes scalding mineral water down to the baths below.

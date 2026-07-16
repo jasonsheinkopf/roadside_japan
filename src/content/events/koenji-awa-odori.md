@@ -54,6 +54,9 @@ aiKeywords: [koenji awa odori, tokyo summer festival, awa odori tokyo, suginami 
 featured: true
 createdAt: 2026-07-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Ten thousand dancers chanting 'fools who dance, fools who watch.' I chose dancing fool. Correct choice."
+  emoji: "🥁"
 ---
 
 Every year on the last weekend of August, the quiet residential streets around Koenji Station give way to Tokyo's biggest folk-dance festival — a direct transplant of Tokushima's centuries-old Awa Odori tradition.

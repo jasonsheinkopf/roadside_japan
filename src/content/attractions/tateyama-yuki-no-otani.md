@@ -53,6 +53,9 @@ related:
   - zao-snow-monsters
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "A road cut through snow walls 17 meters high. I am 0.0002 snow walls tall. I measured."
+  emoji: "❄️"
 ---
 
 High on the **Tateyama Kurobe Alpine Route**, at the Murodo plateau, falls some of the heaviest snow on Earth — and every spring, road crews don't just clear it, they sculpt it. The result is **Yuki-no-Otani**, the "Great Snow Valley": a plowed corridor where the road runs between sheer white walls of packed snow that can rise **20 metres** overhead.

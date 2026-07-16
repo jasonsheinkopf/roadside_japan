@@ -44,6 +44,9 @@ aiKeywords: [naitai highland farm, naitai terrace, kamishihoro, tokachi, hokkaid
 featured: false
 createdAt: 2026-07-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Japan's biggest ranch — cows to the horizon. I moo'd once, quietly, to fit in."
+  emoji: "🐄"
 ---
 
 The Tokachi Plain is Japan's dairy heartland, and its most extreme expression is a single ranch bigger than some Tokyo wards — open to anyone who wants to drive up through it.

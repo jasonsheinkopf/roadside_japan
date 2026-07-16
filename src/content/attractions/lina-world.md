@@ -54,6 +54,9 @@ related:
   - nasu-highland-park
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "I rode the kiddie coaster four times. The operator saluted me on the fourth. Honor."
+  emoji: "🎢"
 ---
 
 Every region needs a hometown amusement park, and Yamagata's is **Lina World** — a cheerful, unpretentious spread of rides in the hills near Nakayama that has been making local kids happy for decades.

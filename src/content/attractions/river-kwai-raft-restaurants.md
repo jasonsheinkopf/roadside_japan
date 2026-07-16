@@ -25,6 +25,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Lunch on a floating raft while the river does the dishes. Views included, gravity optional."
+  emoji: "🛟"
 ---
 
 Kanchanaburi's rivers are famous for the Death Railway — but also for a much gentler tradition: floating raft houses. Lashed onto bamboo and steel-drum pontoons and tethered to the bank, entire open-sided restaurants (and guesthouses) drift on the Kwai, rising and falling with the water.

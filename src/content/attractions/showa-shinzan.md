@@ -57,6 +57,9 @@ related:
   - noboribetsu-jigokudani
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A volcano that grew out of a wheat field in two years, while the postmaster took notes. Heroic nerd."
+  emoji: "🌋"
 ---
 
 Most mountains are unimaginably old. **Showa Shinzan** is not. Between **1943 and 1945**, in the middle of a flat wheat field near Lake Toya, the ground bulged, cracked, and heaved upward into a steaming red dome of lava — and people stood there and watched it happen.

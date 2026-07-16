@@ -50,6 +50,9 @@ aiKeywords: [kaminoko pond, kaminokoike, kiyosato, lake mashu, blue pond hokkaid
 featured: false
 createdAt: 2026-07-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The water is so clear the fallen trees look like they're floating in glass. I whispered."
+  emoji: "💎"
 ---
 
 Biei's Blue Pond gets the tour buses; eastern Hokkaido keeps a smaller, stranger blue pond at the end of a forest road, and most visitors never hear about it.

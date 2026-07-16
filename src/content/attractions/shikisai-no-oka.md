@@ -53,6 +53,9 @@ aiKeywords: [shikisai no oka, biei flower fields, patchwork road, hokkaido flowe
 featured: false
 createdAt: 2026-07-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Flower stripes rolling over hills like a painted quilt. There's also an alpaca. His name is my secret."
+  emoji: "🌈"
 ---
 
 Biei's rolling farmland is famous for looking like a patchwork quilt; Shikisai-no-Oka is where somebody deliberately turned fifteen hectares of it into rainbow stripes.

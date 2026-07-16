@@ -13,6 +13,12 @@ tags:
   - quirky
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Carhenge%2C_Nebraska.JPG/960px-Carhenge%2C_Nebraska.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Carhenge%2C_Nebraska.JPG/960px-Carhenge%2C_Nebraska.JPG"
+    alt: "Carhenge's gray-painted cars standing in their Stonehenge circle, Alliance, Nebraska"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Carhenge%2C_Nebraska.JPG"
 status: open
 cost:
   type: free
@@ -23,6 +29,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Carhenge"
   - title: "Carhenge — Official Site"
     url: "https://carhenge.com/"
+cinnamon:
+  quote: "Stonehenge, but cars. The ancient druids of Nebraska drove automatics."
+  emoji: "🚙"
 ---
 
 ## Stonehenge, but make it Detroit

@@ -17,13 +17,22 @@ difficulty: easy
 timeRequired: one-hour
 cost:
   type: free
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sathorn_Unique_Tower_Bangkok_abandoned_skyscraper_April2021.jpg/960px-Sathorn_Unique_Tower_Bangkok_abandoned_skyscraper_April2021.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sathorn_Unique_Tower_Bangkok_abandoned_skyscraper_April2021.jpg/960px-Sathorn_Unique_Tower_Bangkok_abandoned_skyscraper_April2021.jpg"
+    alt: "The abandoned Sathorn Unique \"Ghost Tower\" rising over Bangkok"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Sathorn_Unique_Tower_Bangkok_abandoned_skyscraper_April2021.jpg"
 status: permanently-closed
 approval: published
 source: imported
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-16
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Bangkok's abandoned skyscraper looms like a paused thought. I admired it from the ground. FROM THE GROUND."
+  emoji: "🏚️"
 ---
 
 Designed as an opulent riverside condominium, Sathorn Unique was around 80% complete when Thailand's 1997 economic collapse froze the project forever. Decades on, its grey skeleton still towers over the city — empty balconies, dangling rebar, and an eerie silence amid the traffic below.

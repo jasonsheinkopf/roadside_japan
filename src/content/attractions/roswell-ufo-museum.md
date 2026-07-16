@@ -13,6 +13,12 @@ tags:
   - quirky
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/UFO_Museum%2C_Roswell%2C_NM.JPG/960px-UFO_Museum%2C_Roswell%2C_NM.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/UFO_Museum%2C_Roswell%2C_NM.JPG/960px-UFO_Museum%2C_Roswell%2C_NM.JPG"
+    alt: "The International UFO Museum's storefront in downtown Roswell, New Mexico"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:UFO_Museum%2C_Roswell%2C_NM.JPG"
 status: open
 cost:
   type: paid
@@ -24,6 +30,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/International_UFO_Museum_and_Research_Center"
   - title: "International UFO Museum — Official Site"
     url: "https://www.roswellufomuseum.com/"
+cinnamon:
+  quote: "I asked the aliens where they hide the good acorns. They remained diplomatically silent. Suspicious."
+  emoji: "👽"
 ---
 
 ## Ground zero for the little green men

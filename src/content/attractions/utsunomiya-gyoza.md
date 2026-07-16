@@ -57,6 +57,9 @@ related:
   - oya-history-museum
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The gyoza capital. I had them boiled, fried, AND steamed. The statue outside understood me."
+  emoji: "🥟"
 ---
 
 Every Japanese city has a local dish; **Utsunomiya** built an identity. The Tochigi capital is, by its own proud reckoning, the **gyoza capital of Japan**, locked in a good-natured national rivalry with Hamamatsu over which city eats the most **dumplings** per household.

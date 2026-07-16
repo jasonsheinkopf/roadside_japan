@@ -57,6 +57,9 @@ related:
   - otaru-canal
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Gas lamps, snow, hot springs. I steamed like a little dumpling at dusk."
+  emoji: "🏮"
 ---
 
 Deep in the hills of Obanazawa, around a narrow river, sits a hot-spring village that time agreed to leave alone. **Ginzan Onsen** lines both banks with three- and four-story **wooden inns from the Taisho era** (the 1910s–20s), their plaster facades and balconies facing each other across the water.

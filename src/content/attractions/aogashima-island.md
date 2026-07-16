@@ -58,6 +58,9 @@ related:
   - noboribetsu-jigokudani
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A volcano inside a volcano?! That's like an acorn inside an acorn. Incredible."
+  emoji: "🌋"
 ---
 
 Three hundred and sixty kilometres south of Tokyo, alone in the open Pacific, sits a green wall of cliffs that turns out to be the rim of a volcano — and inside that volcano lives a village. **Aogashima** is the least-populated municipality in Japan, home to around **170 people**, and one of the strangest, most beautiful places the country administers.

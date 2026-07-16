@@ -13,6 +13,12 @@ tags:
   - folk-art
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coral_Castle.JPG/960px-Coral_Castle.JPG"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coral_Castle.JPG/960px-Coral_Castle.JPG"
+    alt: "Carved limestone megaliths of Coral Castle, Homestead, Florida"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Coral_Castle.JPG"
 status: open
 cost:
   type: paid
@@ -24,6 +30,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Coral_Castle"
   - title: "Ed Leedskalnin's Coral Castle — Atlas Obscura"
     url: "https://www.atlasobscura.com/places/ed-leedskalnins-coral-castle"
+cinnamon:
+  quote: "One quiet man moved 1,100 tons of stone and told no one how. My hero."
+  emoji: "🪨"
 ---
 
 ## One man, 1,100 tons of rock

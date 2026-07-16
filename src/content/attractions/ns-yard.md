@@ -54,6 +54,9 @@ related:
   - nasu-trick-art-museum
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "Retired trains sleeping in a quiet yard. I patted a bullet train's nose. It earned this rest."
+  emoji: "🚂"
 ---
 
 Hidden on a green hillside in the **Nasu** woods is a museum that feels more like stepping into an artist's head than visiting a gallery. **N's YARD** is the private museum of **Yoshitomo Nara**, one of Japan's most beloved contemporary artists — the man behind those defiant, big-headed children with enormous eyes.

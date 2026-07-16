@@ -55,6 +55,9 @@ featured: false
 createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
+cinnamon:
+  quote: "A beach cave shrine between cliffs. I arrived by longtail boat like a very small pirate princess."
+  emoji: "🛶"
 ---
 
 At the far end of impossibly pretty **Phra Nang Beach** on the Railay peninsula, tucked under a towering karst cliff, is a small cave shrine unlike any other in Thailand — filled from floor to ceiling with **brightly painted wooden phalluses**.

@@ -60,6 +60,9 @@ related:
   - ibusuki-sand-bath
 createdAt: 2026-06-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Real desert dunes by the sea. I rode a camel and felt like a raisin-sized Lawrence of Arabia."
+  emoji: "🐪"
 ---
 
 Most people don't picture a **desert** when they picture Japan. Then they crest the ridge at the **Tottori Sand Dunes** and find kilometers of rippling, wind-sculpted sand running right up to the edge of the Sea of Japan. It's the country's largest dune field, and it has quietly become one of its most surprising landscapes.

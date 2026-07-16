@@ -58,6 +58,9 @@ related:
   - mount-nasu-ropeway
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A round crater lake that changes color like a mood ring. Today it chose emerald. Show-off."
+  emoji: "🌋"
 ---
 
 In winter, Mt. Zao is the realm of the frozen "snow monsters." But come **summer**, the same mountain is a cool green escape from the lowland heat — and its single most jaw-dropping sight is a lake the color of a marble.

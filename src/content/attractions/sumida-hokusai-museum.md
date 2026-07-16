@@ -50,6 +50,9 @@ aiKeywords: [sumida hokusai museum, katsushika hokusai, great wave, ukiyo-e muse
 featured: true
 createdAt: 2026-07-04
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Hokusai drew the Great Wave near here. I made a tiny wave in my tea in tribute."
+  emoji: "🌊"
 ---
 
 Toward the Kinshicho end of this walk, a building unlike anything else in the neighborhood appears between low apartment blocks: five interlocking, mirror-bright aluminum volumes designed by Pritzker Prize-winning architect Kazuyo Sejima.

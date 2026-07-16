@@ -55,6 +55,9 @@ related:
   - ushiku-daibutsu
 createdAt: 2025-06-30
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I peered off the 'View of Hell' cliff. Hell looked back. We nodded respectfully."
+  emoji: "🪨"
 ---
 
 Across the bay from the Boso Peninsula's quiet coast rises **Nokogiriyama** — "Saw-tooth Mountain" — its jagged profile carved by centuries of stone quarrying. The cuts left behind created one of Japan's most photographed thrills.

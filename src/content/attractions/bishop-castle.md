@@ -13,6 +13,12 @@ tags:
   - one-man-project
 source: ai-agent
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bishop_Castle_in_Rye%2C_Colorado.jpg/960px-Bishop_Castle_in_Rye%2C_Colorado.jpg"
+photos:
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bishop_Castle_in_Rye%2C_Colorado.jpg/960px-Bishop_Castle_in_Rye%2C_Colorado.jpg"
+    alt: "Bishop Castle's stone towers rising from the forest in Rye, Colorado"
+    credit: "Photo via Wikimedia Commons"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Bishop_Castle_in_Rye%2C_Colorado.jpg"
 status: open
 cost:
   type: donation
@@ -24,6 +30,9 @@ sources:
     url: "https://en.wikipedia.org/wiki/Bishop_Castle"
   - title: "Bishop Castle — Official Site"
     url: "https://thebishopcastle.com/"
+cinnamon:
+  quote: "One man built a whole castle by hand. I once built half a nest. Respect."
+  emoji: "🏰"
 ---
 
 ## One man, one castle, fifty years

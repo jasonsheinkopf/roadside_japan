@@ -47,6 +47,9 @@ aiKeywords: [unkai terrace, tomamu, sea of clouds, hoshino resorts, hokkaido vie
 featured: true
 createdAt: 2026-07-13
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I drank cocoa above a sea of clouds at sunrise. The mountains poked through like islands. I felt infinite-ish."
+  emoji: "☁️"
 ---
 
 Unkai means "sea of clouds," and this terrace on the flank of Mt. Tomamu exists for exactly one purpose: putting you above that sea at sunrise.

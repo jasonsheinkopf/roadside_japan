@@ -29,6 +29,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "I dug for razor clams in the mud and became a mud squirrel. No regrets."
+  emoji: "🐚"
 ---
 
 Don Hoi Lot is a quietly strange natural phenomenon: a huge bank of fine shell-sand exposed at the river mouth, riddled with the burrows of *hoi lot*, the razor clam. It's both an ecological curiosity and a beloved weekend eating destination for Thai families.

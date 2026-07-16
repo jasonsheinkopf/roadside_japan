@@ -57,6 +57,9 @@ related:
   - mother-farm
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "The soft cream here is famous and the goats know it. We negotiated. I won. Barely."
+  emoji: "🍦"
 ---
 
 Out on the open Nasu plain, **Nasu Senbonmatsu Farm** is a working dairy turned breezy farm-park — the kind of place where the headline attraction is a really, really good **soft-serve ice cream** made from that morning's milk.

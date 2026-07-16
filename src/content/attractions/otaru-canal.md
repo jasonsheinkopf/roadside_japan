@@ -57,6 +57,9 @@ related:
   - blue-pond-biei
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Gaslights on the old canal at dusk. I sat on a bollard and felt like a tiny film noir detective."
+  emoji: "🏮"
 ---
 
 Once, this canal floated barges heavy with herring money. Today the **Otaru Canal** is shorter and quieter, but it has become one of Hokkaido's most beloved postcards: a curve of still water lined with **old stone warehouses**, walked by a promenade of **gas lamps** that flicker on at dusk.

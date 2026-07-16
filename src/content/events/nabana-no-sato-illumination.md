@@ -56,6 +56,9 @@ aiSummary: "A massive seasonal LED illumination at the Nabana no Sato flower par
 aiKeywords: [nabana no sato, winter illumination, light tunnel, kuwana, mie, nagashima]
 createdAt: 2025-10-01
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Millions of lights and a tunnel that never ends. I walked through winter's jewelry box."
+  emoji: "💡"
 ---
 
 When the flowers fade, **Nabana no Sato** flips a switch and becomes something else entirely: one of the country's largest and most elaborate **winter illuminations**, with millions of LEDs strung across a sprawling flower park near Nagoya.

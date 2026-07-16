@@ -23,6 +23,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "A museum of fakes! Real fakes! Legally certified fakes! My brain did a backflip."
+  emoji: "🕵️"
 ---
 
 Run by one of Thailand's oldest law firms, this one-room museum has been quietly amassing fakes since 1989 — more than 4,000 counterfeit items across every category imaginable, from designer handbags to bogus brake pads and dangerous knock-off pharmaceuticals.

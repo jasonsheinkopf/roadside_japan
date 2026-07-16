@@ -60,6 +60,9 @@ related:
   - ibusuki-sand-bath
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "Seven hells and I toured all of them. Cozy hells, honestly. Steamy."
+  emoji: "♨️"
 ---
 
 In the steam-wreathed town of **Beppu**, the earth doesn't politely warm your bath — it boils, hisses, and glows in colors no hot spring has any right to be. The **Jigoku Meguri**, or "Hell Tour," strings together seven of these geothermal spectacles, each too hot and too strange to bathe in.

@@ -49,6 +49,9 @@ related:
   - meguro-parasitological-museum
 createdAt: 2025-08-01
 updatedAt: 2025-12-12
+cinnamon:
+  quote: "A cathedral-sized quarry underground, cold as secrets. My squeak echoed six times. Six!"
+  emoji: "⛏️"
 ---
 
 From the surface it looks modest. Then you walk down the staircase and the ceiling vanishes into darkness overhead: the **Oya History Museum** is the mouth of a hand-dug stone quarry the size of a cathedral, 30 metres deep and roughly 20,000 square metres in floor area.

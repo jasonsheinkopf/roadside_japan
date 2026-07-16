@@ -57,6 +57,9 @@ related:
   - ginzan-onsen
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A tiny onsen town in an old crater. The morning market aunties adopted me instantly."
+  emoji: "♨️"
 ---
 
 Deep in the mountains of central Yamagata, in the **crater of an ancient volcano**, hides one of the country's oldest and most atmospheric hot springs: **Hijiori Onsen**, said to have been discovered some 1,200 years ago.

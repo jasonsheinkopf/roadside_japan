@@ -52,6 +52,9 @@ aiKeywords: [hakone, owakudani, lake ashi, black eggs, pirate ship, mount fuji v
 featured: true
 createdAt: 2026-07-12
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "I ate a black egg boiled in volcano steam. +7 years of life. I feel immortal-ish."
+  emoji: "🥚"
 ---
 
 Roughly two hours from central Tokyo, Hakone packs an active volcanic valley, a mountain ropeway, and a lake cruise with Mt. Fuji views into a single well-connected day trip.

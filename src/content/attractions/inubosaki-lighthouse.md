@@ -59,6 +59,9 @@ related:
   - cape-soya
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "99 steps up the lighthouse. I counted. The view stole the number right out of me."
+  emoji: "🗼"
 ---
 
 Where the Boso Peninsula runs out into the Pacific, the land ends in a windy headland topped by a tall white tower: the **Inubosaki Lighthouse**, standing at one of the easternmost points of mainland Japan since 1874.

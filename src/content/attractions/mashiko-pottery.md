@@ -53,6 +53,9 @@ related:
   - oya-history-museum
 createdAt: 2026-06-16
 updatedAt: 2026-06-16
+cinnamon:
+  quote: "I threw a pot. It came out acorn-shaped. The potter said I have 'a signature style.'"
+  emoji: "🏺"
 ---
 
 East of Utsunomiya, the unhurried town of **Mashiko** has made the same thing for over 150 years: honest, earthy **pottery**. It's a place where the craft isn't a museum piece but the everyday business of the streets, the hillsides dotted with old **climbing kilns**.

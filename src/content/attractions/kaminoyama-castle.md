@@ -58,6 +58,9 @@ related:
   - takeda-castle-ruins
 createdAt: 2026-06-16
 updatedAt: 2026-07-13
+cinnamon:
+  quote: "A castle with an onsen footbath at the bottom. Siege planning, then toe soup."
+  emoji: "🏯"
 ---
 
 On the Yamagata Shinkansen line, the town of **Kaminoyama** pairs two very pleasant things: a **white castle** on a hill and a **560-year-old hot spring** in the streets below.

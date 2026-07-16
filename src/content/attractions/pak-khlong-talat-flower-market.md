@@ -30,6 +30,9 @@ createdAt: 2026-06-19
 updatedAt: 2026-07-15
 country: thailand
 submittedBy: import:roadside-thailand
+cinnamon:
+  quote: "Mountains of marigolds and jasmine at 2 AM. The whole city smells like a promise here."
+  emoji: "💐"
 ---
 
 Near the river at the edge of the old town, Pak Khlong Talat is Thailand's most important flower market and one of the few corners of Bangkok that truly never sleeps. By day it's busy; in the small hours it transforms, as wholesalers unload tonnes of fresh blooms destined for temples, shrines, hotels and homes across the city.
