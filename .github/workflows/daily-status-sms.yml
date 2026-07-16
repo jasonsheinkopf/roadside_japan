@@ -1,0 +1,129 @@
+name: Daily status SMS
+
+# Texts the maintainer once a day IF something changed in the community inbox.
+#
+# This is the delivery half of the automated-triage pipeline (see
+# docs/AUTONOMOUS_TRIAGE.md). The ~04:00 JST Claude Routine processes the inbox and writes
+# tools/reports/latest.json with a ready-to-send `sms_body`. This job (07:00 JST) reads that
+# file plus the live open-`inbox` count and decides whether to text:
+#
+#   • fresh report (date == today) AND changed  → send the report's sms_body
+#   • items still waiting AND no fresh report    → send a "run didn't complete" heads-up
+#   • otherwise (quiet day)                      → send nothing
+#
+# Runs free on GitHub's cron, so it fires even if the 04:00 subscription run never happened
+# (e.g. quota exhausted) — that's the safety net that still tells the maintainer.
+#
+# Requires four Actions secrets (optional feature — without them the run skips politely):
+#   TWILIO_ACCOUNT_SID   Twilio account SID (starts AC…)
+#   TWILIO_AUTH_TOKEN    Twilio auth token
+#   TWILIO_FROM_NUMBER   the Twilio phone number to send from, E.164 e.g. +15005550006
+#   ALERT_TO_NUMBER      where to text, E.164 e.g. the maintainer's Google Voice number +1…
+
+on:
+  schedule:
+    # 22:47 UTC = 07:47 Japan time (JST = UTC+9). Off-the-hour on purpose.
+    - cron: "47 22 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Send a test text even if nothing changed"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  status-sms:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Twilio secrets
+        id: gate
+        env:
+          HAS_TWILIO: ${{ secrets.TWILIO_ACCOUNT_SID != '' && secrets.TWILIO_AUTH_TOKEN != '' && secrets.TWILIO_FROM_NUMBER != '' && secrets.ALERT_TO_NUMBER != '' }}
+        run: |
+          echo "enabled=$HAS_TWILIO" >> "$GITHUB_OUTPUT"
+          if [ "$HAS_TWILIO" != "true" ]; then
+            echo "::notice::Twilio secrets not fully configured — skipping SMS. See docs/NOTIFICATIONS_SETUP.md."
+          fi
+
+      - name: Checkout
+        if: steps.gate.outputs.enabled == 'true'
+        uses: actions/checkout@v4
+
+      - name: Decide what to send
+        if: steps.gate.outputs.enabled == 'true'
+        id: decide
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          set -euo pipefail
+
+          # Live count of open inbox issues (source of truth for "anything waiting").
+          open_count="$(gh issue list --repo "$REPO" --label inbox --state open --json number --jq 'length' 2>/dev/null || echo 0)"
+
+          report="tools/reports/latest.json"
+          today="$(TZ=Asia/Tokyo date +%F)"
+
+          r_date=""; r_changed="false"; r_completed="false"; r_body=""
+          if [ -f "$report" ]; then
+            r_date="$(jq -r '.date // ""' "$report")"
+            r_changed="$(jq -r '.changed // false' "$report")"
+            r_completed="$(jq -r '.completed // false' "$report")"
+            r_body="$(jq -r '.sms_body // ""' "$report")"
+          fi
+
+          fresh="false"
+          if [ "$r_date" = "$today" ]; then fresh="true"; fi
+
+          send="false"; body=""
+          if [ "$fresh" = "true" ] && [ "$r_changed" = "true" ]; then
+            # Normal case: today's run did something. Send the report it wrote.
+            send="true"; body="$r_body"
+          elif [ "$open_count" -gt 0 ] && { [ "$fresh" != "true" ] || [ "$r_completed" != "true" ]; }; then
+            # Items are waiting but today's run didn't finish (quota? failure?). Safety net.
+            send="true"
+            body="⚠️ Cinnamon Land: ${open_count} submission(s) waiting, but today's automated run didn't complete (possibly usage quota). Open Claude Code and say “process the inbox.”"
+          fi
+
+          if [ "${FORCE:-false}" = "true" ] && [ "$send" != "true" ]; then
+            send="true"
+            body="🐿️ Cinnamon Land test text — pipeline is wired up. Open inbox items: ${open_count}. (Nothing to report today.)"
+          fi
+
+          echo "send=$send" >> "$GITHUB_OUTPUT"
+          # Multiline-safe passing of the body to the next step.
+          {
+            echo "body<<SMS_EOF"
+            echo "$body"
+            echo "SMS_EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "::notice::send=$send open_inbox=$open_count fresh_report=$fresh changed=$r_changed"
+
+      - name: Send SMS via Twilio
+        if: steps.gate.outputs.enabled == 'true' && steps.decide.outputs.send == 'true'
+        env:
+          SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          FROM: ${{ secrets.TWILIO_FROM_NUMBER }}
+          TO: ${{ secrets.ALERT_TO_NUMBER }}
+          BODY: ${{ steps.decide.outputs.body }}
+        run: |
+          set -euo pipefail
+          http_code="$(curl -sS -o /tmp/twilio_resp.json -w '%{http_code}' -X POST \
+            "https://api.twilio.com/2010-04-01/Accounts/${SID}/Messages.json" \
+            --data-urlencode "To=${TO}" \
+            --data-urlencode "From=${FROM}" \
+            --data-urlencode "Body=${BODY}" \
+            -u "${SID}:${TOKEN}")"
+          echo "Twilio HTTP $http_code"
+          if [ "$http_code" -ge 300 ]; then
+            # Don't print the full body (may echo request data); surface Twilio's message only.
+            jq -r '"Twilio error: \(.code) \(.message)"' /tmp/twilio_resp.json || true
+            exit 1
+          fi
+          echo "SMS sent."

@@ -28,7 +28,14 @@ guess. These queries stay cheap at any scale.
 
 ## Processing protocol
 
-**Never process the inbox autonomously — only when the maintainer asks.** Then, for each
+**Interactive rule: never process the inbox autonomously — only when the maintainer asks.**
+The one exception is the **scheduled daily job** (~04:00 JST), which runs unattended under a
+*stricter* set of rules: it publishes only clearly-safe, clearly-verified places, **holds**
+anything borderline as `pending` for the maintainer, and rejects the rest. That job follows
+[`docs/AUTONOMOUS_TRIAGE.md`](./AUTONOMOUS_TRIAGE.md) (the safety gate + report handoff) **on
+top of** everything below. If you are that scheduled job, read it first.
+
+For interactive processing, and as the base procedure the scheduled job extends, for each
 open `inbox` issue, oldest first:
 
 ### 1. Read the note as intent, not format

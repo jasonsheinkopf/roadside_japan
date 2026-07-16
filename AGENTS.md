@@ -119,7 +119,15 @@ When the maintainer says "process the inbox" / asks about submissions: follow
 free-text notes from visitors; verify every place independently, publish what clears the
 bar with `source: community` + the submitter's name, leave the structured triage comment,
 label + close the issue, trigger the notify workflow if they left an email. Never process
-autonomously.
+autonomously *interactively* — only when asked.
+
+**Automated exception:** a scheduled Routine runs "process the inbox" unattended ~04:00 JST.
+It follows **`docs/AUTONOMOUS_TRIAGE.md`** — a stricter safety gate with three outcomes
+(PUBLISH clearly-safe / HOLD borderline as `pending` / REJECT), and it writes
+`tools/reports/latest.json` for the 07:00 JST status-text job. A 07:00 GitHub Action
+(`daily-status-sms.yml`) texts the maintainer via Twilio only when something changed. Setup
+and secrets are in **`docs/NOTIFICATIONS_SETUP.md`**. If you are the scheduled job, read
+`docs/AUTONOMOUS_TRIAGE.md` first.
 
 ### Add a country
 Add the slug to `COUNTRIES` in `src/data/vocab.ts`, metadata (flag, tagline, map center/zoom)
