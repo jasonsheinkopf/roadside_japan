@@ -124,8 +124,8 @@ autonomously *interactively* — only when asked.
 **Automated exception:** a scheduled Routine runs "process the inbox" unattended ~04:00 JST.
 It follows **`docs/AUTONOMOUS_TRIAGE.md`** — a stricter safety gate with three outcomes
 (PUBLISH clearly-safe / HOLD borderline as `pending` / REJECT), and it writes
-`tools/reports/latest.json` for the 07:00 JST status-text job. A 07:00 GitHub Action
-(`daily-status-sms.yml`) texts the maintainer via Twilio only when something changed. Setup
+`tools/reports/latest.json` for the 07:00 JST status-message job. A 07:00 GitHub Action
+(`daily-status-line.yml`) messages the maintainer via LINE only when something changed. Setup
 and secrets are in **`docs/NOTIFICATIONS_SETUP.md`**. If you are the scheduled job, read
 `docs/AUTONOMOUS_TRIAGE.md` first.
 

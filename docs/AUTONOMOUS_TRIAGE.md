@@ -115,8 +115,8 @@ schedule and how it's wired). Model: **Sonnet** is fine for this. Steps:
 8. **Notify submitters.** For each processed issue that contained an email, trigger
    `notify-submitter.yml` (`actions_run_trigger`) with the issue number and a one-line human
    summary, per `docs/INBOX.md` §5. (It self-skips if mail secrets aren't set.)
-9. **Stop.** The 07:00 JST GitHub Action reads `tools/reports/latest.json` and texts the
-   maintainer — you do **not** send the SMS yourself (you don't hold the Twilio secrets).
+9. **Stop.** The 07:00 JST GitHub Action reads `tools/reports/latest.json` and messages the
+   maintainer via LINE — you do **not** send it yourself (you don't hold the LINE secrets).
 
 If your usage quota is exhausted and the run can't complete, that's fine and expected
 occasionally: the issues stay open, `latest.json` keeps yesterday's date, and the 07:00 job
