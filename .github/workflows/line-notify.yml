@@ -1,0 +1,131 @@
+name: LINE notify
+
+# Sends the maintainer a LINE push message. Two ways this fires:
+#
+#   1. ON-DEMAND (workflow_dispatch with a `message` input) — called directly by the
+#      automated triage agent immediately after processing a submission. This is the
+#      primary notification path: inbox processing is event-driven (a Routine fires the
+#      moment a new GitHub issue labeled `inbox` is opened), so the maintainer hears about
+#      it right after it's handled, not on a fixed schedule. The agent authors the full
+#      message itself (see docs/AUTONOMOUS_TRIAGE.md §5) and this workflow just delivers it
+#      verbatim — no logic here decides *what* to say for this path.
+#
+#   2. BACKSTOP (daily schedule, or workflow_dispatch with `force`) — a safety net in case
+#      the event-driven trigger silently fails (e.g. usage quota exhausted at submission
+#      time, or the trigger itself errors). Reads tools/reports/latest.json + the live
+#      open-inbox count; sends a warning only if something looks stuck. Silent on a normal
+#      day — most days this path sends nothing at all.
+#
+# LINE Messaging API is free at this volume (occasional push messages to one user).
+# Requires two Actions secrets (optional feature — without them the run skips politely):
+#   LINE_TOKEN     channel access token (long-lived) from the LINE Developers Console
+#   LINE_USER_ID   the maintainer's LINE user ID (the push target)
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: "On-demand path: exact message to send now. Leave blank to run the backstop check instead."
+        required: false
+        default: ""
+      force:
+        description: "Backstop path only: send a test message even if nothing looks stuck"
+        type: boolean
+        default: false
+  schedule:
+    # 23:17 UTC = 08:17 JST daily — backstop only, off-the-hour on purpose.
+    - cron: "17 23 * * *"
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  line-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check LINE secrets
+        id: gate
+        env:
+          HAS_LINE: ${{ secrets.LINE_TOKEN != '' && secrets.LINE_USER_ID != '' }}
+        run: |
+          echo "enabled=$HAS_LINE" >> "$GITHUB_OUTPUT"
+          if [ "$HAS_LINE" != "true" ]; then
+            echo "::notice::LINE_TOKEN/LINE_USER_ID not configured — skipping. See docs/NOTIFICATIONS_SETUP.md."
+          fi
+
+      - name: Checkout
+        if: steps.gate.outputs.enabled == 'true'
+        uses: actions/checkout@v4
+
+      - name: Decide what to send
+        if: steps.gate.outputs.enabled == 'true'
+        id: decide
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          DISPATCH_MESSAGE: ${{ github.event.inputs.message }}
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          set -euo pipefail
+
+          if [ -n "${DISPATCH_MESSAGE:-}" ]; then
+            # On-demand path: send exactly what the agent authored. No further decision.
+            send="true"
+            body="$DISPATCH_MESSAGE"
+          else
+            # Backstop path: only speak up if something looks stuck.
+            open_count="$(gh issue list --repo "$REPO" --label inbox --state open --json number --jq 'length' 2>/dev/null || echo 0)"
+
+            report="tools/reports/latest.json"
+            today="$(TZ=Asia/Tokyo date +%F)"
+            r_date=""; r_completed="false"
+            if [ -f "$report" ]; then
+              r_date="$(jq -r '.date // ""' "$report")"
+              r_completed="$(jq -r '.completed // false' "$report")"
+            fi
+            fresh="false"
+            if [ "$r_date" = "$today" ]; then fresh="true"; fi
+
+            send="false"; body=""
+            if [ "$open_count" -gt 0 ] && { [ "$fresh" != "true" ] || [ "$r_completed" != "true" ]; }; then
+              send="true"
+              body="⚠️ Cinnamon Land: ${open_count} submission(s) waiting, but the automated processor hasn't completed a run today. The event trigger may have missed one — open Claude Code and say “process the inbox.”"
+            fi
+            if [ "${FORCE:-false}" = "true" ] && [ "$send" != "true" ]; then
+              send="true"
+              body="🐿️ Cinnamon Land backstop check — pipeline is wired up. Open inbox items: ${open_count}. (Nothing stuck today.)"
+            fi
+          fi
+
+          echo "send=$send" >> "$GITHUB_OUTPUT"
+          {
+            echo "body<<LINE_EOF"
+            echo "$body"
+            echo "LINE_EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "::notice::send=$send"
+
+      - name: Send LINE push message
+        if: steps.gate.outputs.enabled == 'true' && steps.decide.outputs.send == 'true'
+        env:
+          LINE_TOKEN: ${{ secrets.LINE_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          BODY: ${{ steps.decide.outputs.body }}
+        run: |
+          set -euo pipefail
+          # LINE text messages cap at 5000 chars; truncate defensively.
+          payload="$(jq -n --arg to "$LINE_USER_ID" --arg text "${BODY:0:4900}" \
+            '{to: $to, messages: [{type: "text", text: $text}]}')"
+
+          http_code="$(curl -sS -o /tmp/line_resp.json -w '%{http_code}' -X POST \
+            "https://api.line.me/v2/bot/message/push" \
+            -H "Authorization: Bearer ${LINE_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d "$payload")"
+          echo "LINE HTTP $http_code"
+          if [ "$http_code" -ge 300 ]; then
+            cat /tmp/line_resp.json
+            exit 1
+          fi
+          echo "LINE message sent."

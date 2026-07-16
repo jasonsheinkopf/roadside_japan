@@ -121,12 +121,13 @@ bar with `source: community` + the submitter's name, leave the structured triage
 label + close the issue, trigger the notify workflow if they left an email. Never process
 autonomously *interactively* — only when asked.
 
-**Automated exception:** a scheduled Routine runs "process the inbox" unattended ~04:00 JST.
-It follows **`docs/AUTONOMOUS_TRIAGE.md`** — a stricter safety gate with three outcomes
-(PUBLISH clearly-safe / HOLD borderline as `pending` / REJECT), and it writes
-`tools/reports/latest.json` for the 07:00 JST status-message job. A 07:00 GitHub Action
-(`daily-status-line.yml`) messages the maintainer via LINE only when something changed. Setup
-and secrets are in **`docs/NOTIFICATIONS_SETUP.md`**. If you are the scheduled job, read
+**Automated exception:** a Routine runs "process the inbox" unattended, triggered by the GitHub
+event of a new issue labeled `inbox` being opened — i.e. instantly, per submission, not on a
+schedule. It follows **`docs/AUTONOMOUS_TRIAGE.md`** — a stricter safety gate with three
+outcomes (PUBLISH clearly-safe / HOLD borderline as `pending` / REJECT) — and after each run it
+authors a LINE report and triggers `line-notify.yml` on demand so the maintainer hears about the
+outcome immediately. A daily backstop Action separately checks for anything stuck. Setup and
+secrets are in **`docs/NOTIFICATIONS_SETUP.md`**. If you are that automated job, read
 `docs/AUTONOMOUS_TRIAGE.md` first.
 
 ### Add a country
