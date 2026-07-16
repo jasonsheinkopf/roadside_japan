@@ -6,7 +6,8 @@ all:
 
 - **A. The daily automatic triage** (4 AM JST) — Claude processes the inbox on your
   subscription, no phone needed. *(Already scheduled as a Routine — see §D.)*
-- **B. The daily status text** (7 AM JST) — a text message, only when something changed.
+- **B. The daily status message** (7 AM JST) — a LINE push message, only when something changed.
+  Free — no phone number, no per-message cost.
 - **C. Submitter emails** — emails the person who submitted, after their note is processed.
 
 None of these send anything until its secrets exist, so it's safe to set them up one at a time.
@@ -29,14 +30,14 @@ automatic. It:
   [`docs/AUTONOMOUS_TRIAGE.md`](./AUTONOMOUS_TRIAGE.md) (strict safety gate; clearly-safe places
   go live, anything borderline is **held** for you, junk is rejected),
 - publishes, commits, and pushes to `main`,
-- writes the status report the 7 AM text is built from,
+- writes the status report the 7 AM message is built from,
 - triggers submitter emails (piece C) for anyone who left an address.
 
 **What you need to do:** nothing to *create* it — I've set it up (or given you the exact
 instructions if the automated setup couldn't complete; see §D). Two things to know:
 
 - It runs on your **subscription quota**. On the $20/mo plan a daily run over a small inbox is
-  cheap, but if you're out of quota that morning, the run is skipped — and the 7 AM text will
+  cheap, but if you're out of quota that morning, the run is skipped — and the 7 AM message will
   tell you there are items waiting (that's the safety net).
 - It only does real work when there's something in the inbox. Empty inbox = a few seconds and
   it stops.
@@ -46,44 +47,49 @@ the Claude Code Routines UI). To run it **right now** as a test, tell me "run th
 
 ---
 
-## B. The daily status text (7 AM JST) via Twilio — ~10 min
+## B. The daily status message (7 AM JST) via LINE — ~5 min
 
-You get **one text per day, and only if something changed** (places added, something held for
-your review, or items waiting because the run couldn't finish). Quiet day = no text. It's an
-AI-written summary: who submitted what, what got added, anything held, any new country.
+You get **one LINE message per day, and only if something changed** (places added, something
+held for your review, or items waiting because the run couldn't finish). Quiet day = no message.
+It's an AI-written summary: who submitted what, what got added, anything held, any new country.
 
-### 1. Make a Twilio account & get a number (5 min)
+This uses the **LINE Messaging API** — free at this volume (one push a day to one user), no
+phone number, no per-message cost. You already have a channel set up (from the `sockscam`
+project) with a channel access token and your personal LINE user ID, so this is mostly reusing
+what exists.
 
-1. Sign up at [twilio.com/try-twilio](https://www.twilio.com/try-twilio) (free trial includes
-   credit; SMS is ~$0.008 each, so this costs pennies/month).
-2. In the Console, note your **Account SID** (starts `AC…`) and **Auth Token** (click to reveal).
-3. **Phone Numbers → Buy a number** with **SMS** capability (a ~$1/mo US local number is fine).
-   This is your `TWILIO_FROM_NUMBER`, in E.164 form like `+15551234567`.
-4. **Trial-account note:** a trial can only text *verified* numbers. Add your Google Voice
-   number under **Phone Numbers → Verified Caller IDs** (Twilio texts/calls it a code once).
-   Once you upgrade (add a little credit), that restriction goes away.
-5. **US A2P note:** sending to/from US long-code numbers may require a quick, free A2P 10DLC
-   registration in the Twilio console. For one recipient (you), a **toll-free** number
-   (also selectable when buying) is the least-friction option and is fine for this volume.
+### 1. What you need
 
-### 2. Add four repo secrets (2 min)
+From your existing LINE Messaging API channel (LINE Developers Console →
+[developers.line.biz/console](https://developers.line.biz/console/) → your provider → your
+channel → **Messaging API** tab):
+
+- **Channel access token (long-lived)** — issue one if you don't already have it saved. This is
+  `LINE_TOKEN`.
+- **Your LINE user ID** — the personal one you already have from `sockscam` (not a group ID,
+  since this is just for you). This is `LINE_USER_ID`.
+
+If you're reusing the same channel as `sockscam`, that's fine — a channel can push to multiple
+different user IDs / for multiple purposes; nothing here conflicts with that project.
+
+### 2. Add two repo secrets (2 min)
 
 GitHub → this repo → **Settings → Secrets and variables → Actions → New repository secret**.
-Add all four:
+Add both:
 
 | Secret | Value |
 | --- | --- |
-| `TWILIO_ACCOUNT_SID` | your `AC…` SID |
-| `TWILIO_AUTH_TOKEN` | your auth token |
-| `TWILIO_FROM_NUMBER` | your Twilio number, e.g. `+15551234567` |
-| `ALERT_TO_NUMBER` | where to text you — your Google Voice number, e.g. `+15559876543` |
+| `LINE_TOKEN` | your channel access token (long-lived) |
+| `LINE_USER_ID` | your personal LINE user ID |
+
+I can't set these myself — no tool available to me can write repo secrets (nor should it; they
+shouldn't pass through chat either way). This is the one step that's on you.
 
 ### 3. Test it (1 min)
 
-GitHub → **Actions → "Daily status SMS" → Run workflow →** set **force = true → Run**. You
-should get a test text within a minute. If not, open the run log — the "Decide what to send"
-and "Send SMS via Twilio" steps print exactly what happened (Twilio errors are surfaced without
-leaking secrets). Common trial gotcha: recipient number not verified (step 1.4).
+GitHub → **Actions → "Daily status LINE message" → Run workflow →** set **force = true → Run**.
+You should get a test message within a minute. If not, open the run log — the "Decide what to
+send" and "Send LINE push message" steps print exactly what happened.
 
 After the test, normal days send only when there's news.
 
@@ -140,8 +146,8 @@ visitor submits ─▶ Cloudflare Worker ─▶ GitHub Issue (label: inbox)
                                                 │
                     ~07:00 JST  GitHub Action (free cron)
                     reads latest.json + open-inbox count
-                    ─▶ texts you via Twilio ONLY if something changed / needs you (piece B)
+                    ─▶ LINE-messages you ONLY if something changed / needs you (piece B)
 ```
 
-You do nothing day-to-day. You get a morning text only when there's news; if it says something
-was **held for review**, that's your cue to open the site and take a look.
+You do nothing day-to-day. You get a morning message only when there's news; if it says
+something was **held for review**, that's your cue to open the site and take a look.
