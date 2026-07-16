@@ -1,62 +1,71 @@
-# Notifications setup — daily auto-triage, the status text, and submitter emails
+# Notifications setup — instant auto-triage, the LINE report, and submitter emails
 
 This is the one-time setup you do at your computer. Everything on the code side is already
 built; this page is just the secrets and the switch-on. Three independent pieces — do any or
 all:
 
-- **A. The daily automatic triage** (4 AM JST) — Claude processes the inbox on your
-  subscription, no phone needed. *(Already scheduled as a Routine — see §D.)*
-- **B. The daily status message** (7 AM JST) — a LINE push message, only when something changed.
-  Free — no phone number, no per-message cost.
+- **A. Instant automatic triage** — the moment someone submits, Claude processes it on your
+  subscription, no phone needed. *(Already set up as a Routine — see §D — fires on the GitHub
+  "issue opened" event, not a schedule.)*
+- **B. The per-submission LINE report** — a message sent right after each submission is
+  processed, with what got added/held/skipped and links to each. Free — no phone number, no
+  per-message cost. A once-a-day backstop also exists in case a run silently fails.
 - **C. Submitter emails** — emails the person who submitted, after their note is processed.
 
 None of these send anything until its secrets exist, so it's safe to set them up one at a time.
 
-> **Activation gate (do this first): merge to `main`.** Scheduled GitHub Actions only run from
-> the default branch, and the 4 AM Routine clones `main`. So the very first step is getting this
-> branch merged into `main`. Until then, nothing fires. (Ask me to open the PR, or merge it
-> yourself.)
+> **Activation gate (do this first): merge to `main`.** The event-driven Routine and the daily
+> backstop Action both read/run against `main`. So the very first step is getting the relevant
+> branch merged. Until then, nothing fires. (Ask me to open the PR, or merge it yourself.)
 
 ---
 
-## A. The daily automatic triage (4 AM JST) — already set up on my end
+## A. Instant automatic triage — already set up on my end
 
-A **Routine** (Claude Code scheduled trigger) is what runs "process the inbox" for you every
-morning, on your Claude subscription — exactly like you opening the app and asking, but
-automatic. It:
+A **Routine** (Claude Code scheduled/event trigger) runs "process the inbox" for you the moment
+someone submits, on your Claude subscription — like you opening the app and asking, but
+automatic and immediate. It:
 
-- fires ~04:00 Japan time daily,
-- reads open `inbox` issues and processes them per
+- **fires on a GitHub event**: a new issue opened with label `inbox` (i.e. the instant the
+  submission worker files one) — not on a timer,
+- processes that submission (and any other still-open `inbox` issues) per
   [`docs/AUTONOMOUS_TRIAGE.md`](./AUTONOMOUS_TRIAGE.md) (strict safety gate; clearly-safe places
   go live, anything borderline is **held** for you, junk is rejected),
 - publishes, commits, and pushes to `main`,
-- writes the status report the 7 AM message is built from,
+- **sends you a LINE message right then** with the outcome (piece B) — not on a delay,
 - triggers submitter emails (piece C) for anyone who left an address.
 
-**What you need to do:** nothing to *create* it — I've set it up (or given you the exact
-instructions if the automated setup couldn't complete; see §D). Two things to know:
+**What you need to do:** nothing to *create* it — already set up in the Claude Code Routines UI
+under the name **"Cinnamon Land Submission Review"**, trigger type **GitHub event → Issue
+opened**, filtered to **label is one of `inbox`**. Two things to know:
 
-- It runs on your **subscription quota**. On the $20/mo plan a daily run over a small inbox is
-  cheap, but if you're out of quota that morning, the run is skipped — and the 7 AM message will
-  tell you there are items waiting (that's the safety net).
-- It only does real work when there's something in the inbox. Empty inbox = a few seconds and
-  it stops.
+- It runs on your **subscription quota**. Occasional submissions are cheap; if you were ever out
+  of quota when one arrived, that run would be skipped — the daily backstop (piece B) catches
+  this and tells you items are waiting.
+- It only does real work when there's actually a new `inbox` issue. No submissions = it simply
+  never fires.
 
-If you ever want to **pause** it, tell me "pause the daily triage" (or disable the Routine from
-the Claude Code Routines UI). To run it **right now** as a test, tell me "run the triage now."
+If you ever want to **pause** it, disable the Routine from the Claude Code Routines UI (or tell
+me to). To test it, submit something through `/submit` on the live site and watch for the LINE
+message that follows.
 
 ---
 
-## B. The daily status message (7 AM JST) via LINE — ~5 min
+## B. The per-submission LINE report (+ daily backstop) — ~5 min
 
-You get **one LINE message per day, and only if something changed** (places added, something
-held for your review, or items waiting because the run couldn't finish). Quiet day = no message.
-It's an AI-written summary: who submitted what, what got added, anything held, any new country.
+**Primary path:** every time a submission gets processed, you get **one LINE message right
+after**, describing exactly what happened with that submission — who submitted it (name + email
+if given), when, what got added (with a link to each live page), what's held for your review
+(with a link to the GitHub issue), what was skipped, and any new country. See
+`docs/AUTONOMOUS_TRIAGE.md` §5 for the exact format the agent writes.
 
-This uses the **LINE Messaging API** — free at this volume (one push a day to one user), no
-phone number, no per-message cost. You already have a channel set up (from the `sockscam`
-project) with a channel access token and your personal LINE user ID, so this is mostly reusing
-what exists.
+**Backstop path:** once a day (~08:00 JST) a free GitHub Action checks whether anything's stuck
+— items waiting with no successful run today — and sends a warning only if so. Normal days it's
+completely silent; this exists purely in case the event trigger ever misses.
+
+This uses the **LINE Messaging API** — free at this volume, no phone number, no per-message
+cost. You already have a channel set up (from the `sockscam` project) with a channel access
+token and your personal LINE user ID, so this is mostly reusing what exists.
 
 ### 1. What you need
 
@@ -83,22 +92,22 @@ Add both:
 | `LINE_USER_ID` | your personal LINE user ID |
 
 I can't set these myself — no tool available to me can write repo secrets (nor should it; they
-shouldn't pass through chat either way). This is the one step that's on you.
+shouldn't pass through chat either way). This is the one step that's on you. *(Skip this if
+you've already added them — they carry over from the earlier LINE setup.)*
 
 ### 3. Test it (1 min)
 
-GitHub → **Actions → "Daily status LINE message" → Run workflow →** set **force = true → Run**.
-You should get a test message within a minute. If not, open the run log — the "Decide what to
-send" and "Send LINE push message" steps print exactly what happened.
-
-After the test, normal days send only when there's news.
+GitHub → **Actions → "LINE notify" → Run workflow →** leave `message` blank and set
+**force = true → Run**. That exercises the backstop path. You should get a test message within
+a minute. The real, day-to-day test is simpler: submit something on `/submit` and see if a
+report follows.
 
 ---
 
-## C. Submitter emails via Gmail — ~5 min *(optional, unchanged from before)*
+## C. Submitter emails via Gmail — ~5 min *(optional, unchanged)*
 
 Emails the person who submitted a note, once their submission is processed. Already built as
-`.github/workflows/notify-submitter.yml`; the 4 AM triage triggers it automatically.
+`.github/workflows/notify-submitter.yml`; the automated triage triggers it automatically.
 
 GitHub → repo → **Settings → Secrets and variables → Actions**, add two secrets:
 
@@ -112,42 +121,54 @@ No secrets → the email step just skips; everything else still works.
 
 ## D. The Routine (piece A) — exact settings, in case you need to (re)create it
 
-If I was able to create it for you, it's already live and you can skip this. If not (e.g. a
-permissions hiccup during setup), create it yourself from the Claude Code **Routines** UI, or
-just ask me again — the settings are:
+Already live in the Claude Code Routines UI. If you ever need to recreate it:
 
-- **Schedule:** daily, ~04:00 Japan time. (I set cron `17 19 * * *` assuming the Routine runs in
-  **UTC**: 19:17 UTC = 04:17 JST. **Verify the "next run" time** shows early-morning Japan; if it's
-  off by the UTC offset, adjust the hour.)
-- **Session:** fresh session each fire (standalone), on **Sonnet**.
-- **Prompt:**
+- **Name:** Cinnamon Land Submission Review
+- **Repository:** `jasonsheinkopf/roadside_japan`
+- **Trigger:** GitHub event → **Issue opened**, with a filter: **labels is one of `inbox`**.
+  (Not a schedule — this fires the moment a submission comes in.)
+- **Connector:** the repo's GitHub connector (shown as `Claude_Code_Remote` or similar) needs to
+  be attached so the agent can read/write issues, commit, and push.
+- **Instructions:**
 
-  > You are the automated daily inbox-triage agent for the Cinnamon Land atlas. Make sure you
-  > are on the latest `main`. If `docs/AUTONOMOUS_TRIAGE.md` does not exist, do nothing and
-  > exit. Otherwise follow it exactly: process every open GitHub issue labeled `inbox` per
-  > `docs/INBOX.md` plus the safety gate in `docs/AUTONOMOUS_TRIAGE.md`, choosing
-  > PUBLISH / HOLD (`pending`) / REJECT for each place; author full entries with the photo
-  > pipeline and Cinnamon scene; run `npm run data:validate && npm run build` and never push a
-  > broken build; write `tools/reports/latest.json` (including the `sms_body` you author); commit
-  > and push to `main`; and trigger `notify-submitter.yml` for any processed issue that included
-  > an email. Do not ask for confirmation — this is unattended. When in doubt, HOLD, never PUBLISH.
+  > You are the automated daily inbox-triage agent for the Cinnamon Land atlas (repo
+  > jasonsheinkopf/roadside_japan). This runs UNATTENDED — do not ask for confirmation.
+  >
+  > 1. Make sure you are on the latest `main`.
+  > 2. If `docs/AUTONOMOUS_TRIAGE.md` does NOT exist, do nothing and exit (the feature hasn't
+  >    merged yet).
+  > 3. Otherwise follow `docs/AUTONOMOUS_TRIAGE.md` exactly, which extends `docs/INBOX.md`:
+  >    process every OPEN GitHub issue labeled `inbox`, oldest first; verify each place
+  >    independently; apply the safety gate; choose PUBLISH (approval: published, clearly-safe +
+  >    clearly-verified only), HOLD (approval: pending, anything borderline), or REJECT; author
+  >    full entries for PUBLISH/HOLD using the photo pipeline and a `cinnamon` scene block; leave
+  >    the structured triage comment on each issue, apply labels, and close it; run
+  >    `npm run data:validate && npm run build` and never push a broken build; commit and push to
+  >    `main`; trigger `notify-submitter.yml` for any processed issue that included an email;
+  >    update `tools/reports/latest.json`; then author a LINE report per §5 and trigger
+  >    `line-notify.yml` (`actions_run_trigger`, `run_workflow`, `inputs: { message: "<report>" }`)
+  >    so the maintainer hears about it immediately.
+  > 4. When in doubt, HOLD — never PUBLISH. Empty inbox → do nothing beyond a short
+  >    acknowledgement.
 
 ---
 
 ## How the pieces fit
 
 ```
-visitor submits ─▶ Cloudflare Worker ─▶ GitHub Issue (label: inbox)
+visitor submits ─▶ Cloudflare Worker ─▶ GitHub Issue opened (label: inbox)
                                                 │
-                    ~04:00 JST  Routine (your subscription, Sonnet)
-                    reads inbox ─▶ verifies + safety-gates ─▶ publishes / holds / rejects
-                    ─▶ pushes to main ─▶ writes tools/reports/latest.json
-                    ─▶ triggers submitter emails (piece C)
+                    Routine fires INSTANTLY (GitHub event trigger, your subscription, Sonnet)
+                    reads the issue ─▶ verifies + safety-gates ─▶ publishes / holds / rejects
+                    ─▶ pushes to main ─▶ triggers submitter email (piece C)
+                    ─▶ authors a LINE report ─▶ triggers line-notify.yml on-demand ─▶ you get
+                      a message right away (piece B, primary path)
                                                 │
-                    ~07:00 JST  GitHub Action (free cron)
-                    reads latest.json + open-inbox count
-                    ─▶ LINE-messages you ONLY if something changed / needs you (piece B)
+                    ~08:00 JST daily  GitHub Action (free cron, backstop only)
+                    reads tools/reports/latest.json + live open-inbox count
+                    ─▶ LINE-messages you ONLY if something looks stuck (piece B, safety net)
 ```
 
-You do nothing day-to-day. You get a morning message only when there's news; if it says
-something was **held for review**, that's your cue to open the site and take a look.
+You do nothing day-to-day. You get a LINE message right after each submission is handled,
+telling you exactly what happened — added, held for your review, or skipped, each with a link.
+If it says something was **held for review**, that's your cue to open the issue and take a look.

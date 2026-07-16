@@ -1,9 +1,10 @@
-# Autonomous daily triage — protocol & safety policy
+# Autonomous inbox triage — protocol & safety policy
 
-**Audience: the AI agent running the scheduled 4 AM job.** This file governs the *automated,
-unattended* processing of the community inbox. It exists because processing now runs on a
-schedule with **no human in the loop at publish time**, so the bar is stricter and the safety
-rules are non-negotiable.
+**Audience: the AI agent running the event-driven triage job.** This file governs the
+*automated, unattended* processing of the community inbox. A Routine fires the moment a new
+GitHub issue labeled `inbox` is opened (i.e. the instant someone submits through the site) and
+runs this file's protocol with **no human in the loop at publish time**, so the bar is stricter
+and the safety rules are non-negotiable.
 
 Interactive triage (maintainer sitting there saying "process the inbox") still follows
 [`docs/INBOX.md`](./INBOX.md). This file is the *delta* for when nobody is watching: the same
@@ -93,42 +94,53 @@ the "mildly interesting" bar, duplicate check.
 
 ## 3. The automated run, start to finish
 
-Fire time: **~04:00 Japan time, daily** (see `docs/NOTIFICATIONS_SETUP.md` for the exact
-schedule and how it's wired). Model: **Sonnet** is fine for this. Steps:
+Fires **per submission**: a Routine watches for GitHub issues labeled `inbox` being opened and
+fires within moments of one appearing (see `docs/NOTIFICATIONS_SETUP.md` for exactly how it's
+wired). Model: **Sonnet** is fine for this. Steps:
 
 1. **Guard.** Make sure you're on the latest `main` and that *this file exists*. If it does not
    (e.g. the change hasn't merged yet), **do nothing and exit** — do not process with the old
    two-outcome rules unattended.
-2. **Read the queue.** Open GitHub issues labeled `inbox`, oldest first. Zero open → write the
-   "no activity" report (§4), commit it, and stop.
+2. **Read the queue.** Open GitHub issues labeled `inbox`, oldest first — normally this is just
+   the one issue that triggered this run, but process any others still open too (e.g. leftovers
+   from a prior run that didn't finish). Zero open (shouldn't normally happen on a trigger fire,
+   but possible on a manual/backstop run) → send a short "nothing to do" LINE message (§5) and
+   stop; don't write a whole report for nothing.
 3. **Process each** per `docs/INBOX.md` §1–§4 **and** the safety gate above, choosing
    PUBLISH / HOLD / REJECT. Author full entries (frontmatter + photo pipeline + `cinnamon`
    block) for PUBLISH and HOLD. Leave the structured triage comment on each issue, apply
-   labels (`processed`, `added`, `country:<slug>`, `spam`), and close it.
+   labels (`processed`, `added`, `country:<slug>`, `spam`), and close it. Note each issue's
+   **submitter name/handle**, **email if given**, and **the issue's `created_at` timestamp** —
+   you'll need these for the report.
 4. **New country?** If a submission warrants a country not yet in the atlas and it clearly
    passes, follow AGENTS.md "Add a country." If it's borderline, HOLD the places and note it.
 5. **Verify the build.** `npm run data:validate && npm run build`. If the build fails, **do not
    push broken content** — revert the entries to `pending` or drop them, and report the failure.
-6. **Write the report** (§4) to `tools/reports/latest.json`, overwriting it.
-7. **Commit & push** to `main` (content + the report file). Use a clear message, e.g.
+6. **Commit & push** to `main`. Use a clear message, e.g.
    `Automated inbox triage: +2 published, 1 held, 1 skipped`.
-8. **Notify submitters.** For each processed issue that contained an email, trigger
+7. **Notify submitters.** For each processed issue that contained an email, trigger
    `notify-submitter.yml` (`actions_run_trigger`) with the issue number and a one-line human
    summary, per `docs/INBOX.md` §5. (It self-skips if mail secrets aren't set.)
-9. **Stop.** The 07:00 JST GitHub Action reads `tools/reports/latest.json` and messages the
-   maintainer via LINE — you do **not** send it yourself (you don't hold the LINE secrets).
+8. **Update the report file** `tools/reports/latest.json` (§4) — this is now just the backstop's
+   data source (audit trail + "did today's automation actually run" signal), not the primary
+   notification path.
+9. **Message the maintainer directly.** Author the LINE message per §5 and trigger `line-notify.yml`
+   (`actions_run_trigger`, `run_workflow`, with `inputs: { message: "<your text>" }`) so it sends
+   **right now** — this is the maintainer's actual notification for this run.
 
-If your usage quota is exhausted and the run can't complete, that's fine and expected
-occasionally: the issues stay open, `latest.json` keeps yesterday's date, and the 07:00 job
-detects "items waiting + no fresh run" and texts the maintainer a heads-up instead.
+If your usage quota is exhausted mid-run, that's fine and expected occasionally: whatever
+didn't get processed stays open, `latest.json` keeps its last date, and the daily backstop
+(`line-notify.yml`'s schedule trigger) will notice items waiting with no fresh completed run
+and send a heads-up.
 
 ---
 
 ## 4. The report file — `tools/reports/latest.json`
 
-This is the handoff from the (subscription-run) processing session to the (free, cron-run)
-GitHub Action that sends the text. The processing session **generates the human-readable SMS
-text itself** (it has the full context of what it just did); the Action only delivers it.
+Now that notification is instant and per-run (via `line-notify.yml`'s on-demand path, §3 step
+9), this file's job shrunk to being the **backstop's** data source and an audit trail — it is
+no longer how the LINE message gets its content. Still write it every run so the daily backstop
+schedule (`line-notify.yml`, ~08:00 JST) can tell "did automation run successfully today."
 
 Write exactly this shape, overwriting the file each run:
 
@@ -143,7 +155,7 @@ Write exactly this shape, overwriting the file each run:
   "skipped_count": 1,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "sms_body": "Cinnamon Land 7/17 report:\n✅ Added 2:\n• Morinji Temple, Gunma — from “Maya” (asked for the tanuki tea-kettle temple). Published.\n• Wall Drug, USA — anonymous. Published.\n⏸ Held 1 for your review: “the Osaka love hotel with the UFO room” — needs your call.\n❌ Skipped 1: unverifiable “cool bridge.”\nNo new countries. 0 still waiting.\nhttps://jasonsheinkopf.github.io/roadside_japan/new"
+  "sms_body": "(kept for audit continuity — the actual message was already sent via line-notify.yml in step 9, see §5)"
 }
 ```
 
@@ -151,35 +163,71 @@ Field rules:
 
 - **`date`** — the JST date the run represents (YYYY-MM-DD).
 - **`completed`** — `true` if the run finished cleanly; `false`/absent means it died mid-run.
-- **`changed`** — `true` if *anything* happened worth a text (added, held, skipped, new country,
-  or items still waiting). `false` only on a truly quiet day (no open inbox, nothing done).
+  This is the field the backstop actually cares about.
 - **`open_inbox_remaining`** — count of `inbox` issues still open after the run (should be 0 on
   a clean run; >0 signals leftover/failed work).
-- **`sms_body`** — the actual text message, **authored by you**, following §5. Plain text with
-  `\n` line breaks. This is what the maintainer reads.
-
-On a **no-activity** day, still write the file with `changed: false` and a short `sms_body`
-(the Action will read `changed:false` + empty inbox and send nothing).
+- **`sms_body`** — keep populated with whatever message you sent, for audit/debugging purposes,
+  but it is **not read** by the notification path anymore (that's the on-demand `message` input
+  to `line-notify.yml`, sent directly in step 9 — see §5).
 
 ---
 
-## 5. Writing the SMS report (voice & content)
+## 5. Writing the LINE message (voice & content)
 
-The maintainer wants to understand, in one text, **what happened and what changed** — without
-opening anything. Write it like a terse, friendly ops report, not marketing copy:
+Sent immediately after each run via `actions_run_trigger` → `line-notify.yml` (`run_workflow`,
+`inputs: { message: "<this text>" }`) — see §3 step 9. The maintainer wants to understand, in
+one message, **exactly what just happened with this submission** — who sent it, what you did
+with it, and where to look. Write it like a terse, friendly ops report, not marketing copy.
 
-- Lead with counts: added / held / skipped.
-- For each **added** and **held** place: its name + region, **who submitted it** (name from the
-  note, or "anonymous"), and a *one-clause* paraphrase of what they asked for. Never quote the
-  raw submission; summarize it.
-- Call out **new countries** explicitly if any ("🆕 Added Vietnam as a country").
-- If anything is **held for review**, make that prominent — it's the only part that needs the
-  maintainer to act.
-- If the run **couldn't finish** (quota, build failure), say so plainly and say what's still
-  waiting.
-- End with the `/new` link so they can eyeball results.
-- Keep it scannable. It may span multiple SMS segments — that's fine — but every line should
-  earn its place. No emoji spam; a few status glyphs (✅ ⏸ ❌ 🆕 ⚠️) are enough.
+**Structure:**
 
-The goal: the maintainer reads one message and knows exactly what their site looks like now and
-whether they need to do anything.
+1. **Header** — when it was submitted and by whom, when you finished processing it:
+   `📥 Submitted 2026-07-17 14:32 JST by Maya (maya@example.com)` (omit the parenthetical if no
+   email was given; use "anonymous" if no name was given either)
+   `⚙️ Processed 2026-07-17 14:35 JST`
+2. **Per outcome bucket**, only include buckets that have items:
+   - `✅ Added (N):` — for each: name + region, then **a real clickable link to its live page**
+     (`https://jasonsheinkopf.github.io/roadside_japan/attractions/<slug>` or `/events/<slug>`
+     — build it the same way `src/lib/url.ts`'s `recordUrl()` does, just with the production
+     domain instead of a relative path).
+   - `⏸ Held for your review (N):` — for each: name/description + **why** it's held (one
+     clause) + a link to **the GitHub issue** (not a live page — held items aren't public yet):
+     `https://github.com/jasonsheinkopf/roadside_japan/issues/<n>`.
+   - `❌ Skipped (N):` — for each: a short reason. No link needed.
+   - `🆕 New country:` — name it if one was added.
+3. If the run **couldn't finish** (quota, build failure), say so plainly and say what's still
+   pending.
+4. If a single trigger fire processed **multiple submitters' issues** (e.g. catching up a
+   backlog), group the header + outcomes per submitter rather than merging them into one
+   anonymous list.
+
+**Tone/format rules:**
+- Never quote the raw submission text; paraphrase in a clause ("asked for the tanuki
+  tea-kettle temple").
+- Keep it scannable — every line earns its place. A few status glyphs (📥 ⚙️ ✅ ⏸ ❌ 🆕 ⚠️) are
+  enough; no emoji spam.
+- The submitter's email is fine to include here — this is a **private** message to the
+  maintainer only, unlike the public `submittedBy:` frontmatter field (which must never contain
+  an email, per `docs/INBOX.md`).
+
+**Example** (single submission, two places, one held):
+
+```
+📥 Submitted 2026-07-17 14:32 JST by Maya (maya@example.com)
+⚙️ Processed 2026-07-17 14:35 JST
+
+✅ Added (2):
+• Morinji Temple, Gunma — tanuki tea-kettle temple
+  https://jasonsheinkopf.github.io/roadside_japan/attractions/morinji-temple-tatebayashi
+• Wall Drug, USA — roadside jackalope stop
+  https://jasonsheinkopf.github.io/roadside_japan/attractions/wall-drug
+
+⏸ Held for your review (1):
+• "the Osaka love hotel with the UFO room" — sexual-content adjacent, needs your call
+  https://github.com/jasonsheinkopf/roadside_japan/issues/31
+
+No new countries.
+```
+
+The goal: the maintainer reads one message and knows exactly what happened with that submission
+— what went live, what needs their eyes, and where to click.
