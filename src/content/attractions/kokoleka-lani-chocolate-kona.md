@@ -1,0 +1,42 @@
+---
+title: "Kokoleka Lani Farms — Kona Cacao & Chocolate"
+summary: "A regenerative Kona hillside farm whose cacao won 'Best in World' in Paris — tour the orchard and taste single-origin chocolate grown in the only US state that farms cacao."
+country: usa
+prefecture: hawaii
+city: Holualoa
+lat: 19.6153
+lng: -155.9384
+category: food
+tags:
+  - chocolate
+  - farm-tour
+  - tasting
+source: community
+submittedBy: "ghost popsicle"
+approval: published
+status: open
+seasons:
+  - winter
+cost:
+  type: paid
+  note: "Farm tours are ticketed; check current pricing and reservation times."
+createdAt: 2026-07-16
+updatedAt: 2026-07-16
+sources:
+  - title: "Kokoleka Lani Farms — Hawaii Homegrown Food Network"
+    url: "https://www.hawaiihomegrown.net/talking-story/514-kokoleka-lani-farms"
+  - title: "Hawaii — Cacao of Excellence (2019)"
+    url: "https://www.cacaoofexcellence.org/producers-of-excellence/2019-edition/producers/hawaii"
+---
+
+## Bean to bar on a Kona hillside
+
+Hawaii is the only US state that grows cacao commercially, and Kokoleka Lani Farms — up at 1,200 feet in the Keauhou-Holualoa uplands above Kona — is one of its stars. In 2019 their beans took the "Best in World" prize at the Cocoa of Excellence / Salon du Chocolat competition in Paris.
+
+Farm tours walk you through regenerative growing, let you crack open a fresh cacao pod and taste the sweet white pulp around the beans, and finish with a tasting flight of award-winning single-origin chocolate and estate-grown Kona coffee.
+
+## Visiting (great in February)
+
+- Winter is peak Kona-visiting season and tours run year-round — an easy, delicious morning out of Kailua-Kona.
+- Reserve ahead; small-farm tours have limited slots and set days.
+- Several other Big Island cacao farms (Puna Chocolate Co., Hale Cocoa) offer similar tastings if dates don't line up.

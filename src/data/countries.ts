@@ -40,6 +40,15 @@ export const COUNTRY_META: Record<Country, CountryMeta> = {
     zoom: 5,
     currency: "THB ฿",
   },
+  usa: {
+    slug: "usa",
+    name: "USA",
+    flag: "🇺🇸",
+    tagline: "Painted mountains, dinosaur-sized roadside giants, UFO museums, and monuments to beautiful obsession.",
+    center: [39.5, -98.35],
+    zoom: 4,
+    currency: "USD $",
+  },
 };
 
 export const COUNTRY_LIST: CountryMeta[] = Object.values(COUNTRY_META);

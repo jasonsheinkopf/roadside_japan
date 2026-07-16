@@ -60,9 +60,11 @@ const commonFields = z.object({
   prefecture: z.enum(PREFECTURE_SLUGS),
   city: z.string().optional(),
   address: z.string().optional(),
-  // Bounding box covering all atlas countries (Thailand's far south → Hokkaido's far north).
-  lat: z.number().min(5).max(46),
-  lng: z.number().min(90).max(154),
+  // Bounding box covering all atlas countries. The atlas is global — this stays wide
+  // enough for anywhere inhabited (Hawaii's far west → the US East Coast → Hokkaido),
+  // while still catching nonsense coordinates (e.g. a stray 0,0 or a transposed pair).
+  lat: z.number().min(-60).max(72),
+  lng: z.number().min(-180).max(180),
   /** If omitted, a Google Maps link is generated from lat/lng at render time. */
   googleMaps: z.string().url().optional(),
 

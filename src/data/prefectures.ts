@@ -23,13 +23,18 @@ export const REGIONS = [
   "Central Thailand",
   "Eastern Thailand",
   "Southern Thailand",
+  // USA's regions (states live in the same list — see `country` below)
+  "Northeast US",
+  "Midwest US",
+  "South US",
+  "West US",
 ] as const;
 export type Region = (typeof REGIONS)[number];
 
 export interface Prefecture {
   slug: string;
   name: string; // English
-  nameJa: string; // local script (日本語 for Japan, ไทย for Thailand)
+  nameJa: string; // local script (日本語 for Japan, ไทย for Thailand, postal abbr. for the USA)
   region: Region;
   lat: number;
   lng: number;
@@ -113,6 +118,21 @@ export const PREFECTURES: Prefecture[] = [
   { slug: "trat", name: "Trat", nameJa: "ตราด", region: "Eastern Thailand", lat: 12.2428, lng: 102.5177, country: "thailand" },
   { slug: "krabi", name: "Krabi", nameJa: "กระบี่", region: "Southern Thailand", lat: 8.1, lng: 98.9, country: "thailand" },
   { slug: "phuket", name: "Phuket", nameJa: "ภูเก็ต", region: "Southern Thailand", lat: 7.95, lng: 98.35, country: "thailand" },
+
+  // ---- USA (states; added as the atlas expands beyond Asia) ----
+  { slug: "california", name: "California", nameJa: "CA", region: "West US", lat: 36.7783, lng: -119.4179, country: "usa" },
+  { slug: "nevada", name: "Nevada", nameJa: "NV", region: "West US", lat: 38.8026, lng: -116.4194, country: "usa" },
+  { slug: "hawaii", name: "Hawaii", nameJa: "HI", region: "West US", lat: 19.8968, lng: -155.5828, country: "usa" },
+  { slug: "washington", name: "Washington", nameJa: "WA", region: "West US", lat: 47.7511, lng: -120.7401, country: "usa" },
+  { slug: "colorado", name: "Colorado", nameJa: "CO", region: "West US", lat: 39.5501, lng: -105.7821, country: "usa" },
+  { slug: "new-mexico", name: "New Mexico", nameJa: "NM", region: "West US", lat: 34.5199, lng: -105.8701, country: "usa" },
+  { slug: "texas", name: "Texas", nameJa: "TX", region: "South US", lat: 31.9686, lng: -99.9018, country: "usa" },
+  { slug: "florida", name: "Florida", nameJa: "FL", region: "South US", lat: 27.6648, lng: -81.5158, country: "usa" },
+  { slug: "maryland", name: "Maryland", nameJa: "MD", region: "South US", lat: 39.0458, lng: -76.6413, country: "usa" },
+  { slug: "nebraska", name: "Nebraska", nameJa: "NE", region: "Midwest US", lat: 41.4925, lng: -99.9018, country: "usa" },
+  { slug: "south-dakota", name: "South Dakota", nameJa: "SD", region: "Midwest US", lat: 44.3668, lng: -100.3364, country: "usa" },
+  { slug: "wisconsin", name: "Wisconsin", nameJa: "WI", region: "Midwest US", lat: 43.7844, lng: -88.7879, country: "usa" },
+  { slug: "new-jersey", name: "New Jersey", nameJa: "NJ", region: "Northeast US", lat: 40.0583, lng: -74.4057, country: "usa" },
 ];
 
 export const PREFECTURE_SLUGS = PREFECTURES.map((p) => p.slug) as [string, ...string[]];
