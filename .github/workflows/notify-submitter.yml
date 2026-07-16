@@ -1,0 +1,89 @@
+name: Notify submitter
+
+# Emails the person behind an inbox submission once it has been processed.
+#
+# Triggered MANUALLY (workflow_dispatch) — normally by the AI agent at the end of an
+# inbox triage session (see docs/INBOX.md). The workflow reads the issue body itself and
+# extracts the first email address found there, so addresses never travel through
+# workflow inputs or logs.
+#
+# Requires two Actions secrets (optional feature — without them the run skips politely):
+#   MAIL_USERNAME  Gmail address to send from
+#   MAIL_PASSWORD  Gmail App Password (Google Account → Security → App passwords)
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Inbox issue number to notify about"
+        required: true
+      summary:
+        description: "Short human summary of what happened (e.g. 'Added 2 of your 3 places')"
+        required: true
+
+permissions:
+  issues: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check mail secrets
+        id: gate
+        env:
+          HAS_MAIL: ${{ secrets.MAIL_USERNAME != '' && secrets.MAIL_PASSWORD != '' }}
+        run: |
+          echo "enabled=$HAS_MAIL" >> "$GITHUB_OUTPUT"
+          if [ "$HAS_MAIL" != "true" ]; then
+            echo "::notice::MAIL_USERNAME/MAIL_PASSWORD not configured — skipping email."
+          fi
+
+      - name: Extract email from issue body
+        if: steps.gate.outputs.enabled == 'true'
+        id: extract
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ inputs.issue_number }}
+          REPO: ${{ github.repository }}
+        run: |
+          body="$(gh api "repos/$REPO/issues/$ISSUE" --jq .body)"
+          email="$(printf '%s' "$body" | grep -oE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' | head -1 || true)"
+          if [ -z "$email" ]; then
+            echo "::notice::No email address found in issue #$ISSUE — nothing to send."
+          fi
+          echo "email=$email" >> "$GITHUB_OUTPUT"
+
+      - name: Send email
+        if: steps.gate.outputs.enabled == 'true' && steps.extract.outputs.email != ''
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Cinnamon Land <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ steps.extract.outputs.email }}
+          subject: "🐿️ Cinnamon processed your submission"
+          body: |
+            Hi!
+
+            You sent a note to Cinnamon Land — thank you. It's been processed:
+
+            ${{ inputs.summary }}
+
+            Newest additions appear here:
+            https://jasonsheinkopf.github.io/roadside_japan/new
+
+            — Cinnamon (a very busy squirrel)
+
+            You're receiving this one-time note because an email address was included in
+            a submission to Cinnamon Land. There's no list and nothing to unsubscribe from.
+
+      - name: Log outcome on the issue
+        if: steps.gate.outputs.enabled == 'true' && steps.extract.outputs.email != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ inputs.issue_number }}
+          REPO: ${{ github.repository }}
+        run: gh api "repos/$REPO/issues/$ISSUE/comments" -f body="📧 Submitter notified by email."

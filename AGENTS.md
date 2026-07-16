@@ -108,6 +108,14 @@ Explore and Map UIs render it automatically. If the predicate needs a field not 
 `IndexRecord`, add that field in `src/lib/types.ts` **and** populate it in
 `toIndexRecord()` (`src/lib/content.ts`).
 
+### Process the community inbox
+When the maintainer says "process the inbox" / asks about submissions: follow
+**`docs/INBOX.md`** exactly. Short version: open issues labeled `inbox` are unprocessed
+free-text notes from visitors; verify every place independently, publish what clears the
+bar with `source: community` + the submitter's name, leave the structured triage comment,
+label + close the issue, trigger the notify workflow if they left an email. Never process
+autonomously.
+
 ### Add a country
 Add the slug to `COUNTRIES` in `src/data/vocab.ts`, metadata (flag, tagline, map center/zoom)
 to `src/data/countries.ts`, and its regions/provinces to `src/data/prefectures.ts` (with

@@ -51,6 +51,11 @@ For a custom domain, also:
 | Variable                   | Purpose |
 | -------------------------- | ------- |
 | `PUBLIC_COMMENTS_ENDPOINT` | If set, the comment form POSTs here (no-login, in-page) instead of opening a GitHub issue. Must be `PUBLIC_`-prefixed to reach the browser. |
+| `PUBLIC_SUBMIT_ENDPOINT` | URL of the submission drop-box worker (`tools/submit-worker/`). If unset, `/submit` shows a "coming soon" card instead of the form. Setup: `tools/submit-worker/README.md`. |
+
+Related Actions **secrets** (optional): `MAIL_USERNAME` / `MAIL_PASSWORD` let
+`.github/workflows/notify-submitter.yml` email submitters when their note is processed —
+see `docs/INBOX.md`.
 
 ## Local production check
 
