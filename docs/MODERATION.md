@@ -55,8 +55,11 @@ Keep bulk changes in their own PR so the diff is reviewable.
 
 Public intake arrives as labelled issues:
 
-- `label:submission` → verify, then create the entry file (by hand or via the agent), close
-  the issue referencing the commit/PR.
+- `label:inbox` → the free-text drop box (`/submit` → worker). **The full triage
+  protocol — verification standards, quality bar, labels, notification — is
+  [`docs/INBOX.md`](./INBOX.md).** Processed only when the maintainer asks.
+- `label:submission` → the legacy structured form (retired; a few may exist). Same
+  treatment as `inbox`.
 - `label:comment` → if good, add a file in `src/content/comments/` with `approved: true` and
   the right `target`; close the issue.
 

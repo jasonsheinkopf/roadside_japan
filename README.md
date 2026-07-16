@@ -175,6 +175,7 @@ the repo as `pending` for review. Details in [`docs/AI_AGENTS.md`](./docs/AI_AGE
 | [`docs/AI_AGENTS.md`](./docs/AI_AGENTS.md) | Provider abstraction & the agent workflow. |
 | [`docs/DEPLOYMENT.md`](./docs/DEPLOYMENT.md) | Hosting on GitHub Pages & custom domains. |
 | [`docs/MODERATION.md`](./docs/MODERATION.md) | Approving, editing, removing content. |
+| [`docs/INBOX.md`](./docs/INBOX.md) | The public drop box + the AI triage protocol. |
 | [`docs/STYLE_GUIDE.md`](./docs/STYLE_GUIDE.md) | Content voice + visual design language. |
 | [`docs/ROADMAP.md`](./docs/ROADMAP.md) | What's next, including future agents. |
 | [`docs/PROMPTS.md`](./docs/PROMPTS.md) | Reusable prompts for the AI agents. |

@@ -74,7 +74,7 @@ There is no public write endpoint (by design). Content changes flow through Git:
 | ------------------------- | --------- |
 | **Create / update / delete attraction** | Add/edit/remove a Markdown file in `src/content/attractions/`. The build validates it. |
 | **Create event**          | Same, in `src/content/events/`. |
-| **Submit (public)**       | On-site form / GitHub Issue Form (`labels: submission`) → review queue → merged to repo. |
+| **Submit (public)**       | `/submit` free-text drop box → Cloudflare Worker (`tools/submit-worker/`) → GitHub issue `label: inbox` → AI triage per `docs/INBOX.md`. |
 | **Comment (public)**      | On-site form / GitHub Issue Form (`labels: comment`) → moderated → file in `src/content/comments/` with `approved: true`. |
 | **AI create**             | The agent writes a `pending` entry; a human reviews and publishes. |
 

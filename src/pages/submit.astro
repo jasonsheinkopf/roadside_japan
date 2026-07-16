@@ -1,243 +1,140 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { CATEGORIES } from "../data/vocab";
-import { CATEGORY_META } from "../data/categories";
-import { PREFECTURES } from "../data/prefectures";
-import { SEASONS, SEASON_LABEL } from "../data/vocab";
-import { SITE } from "../data/site";
 import { withBase } from "../lib/url";
 
 /**
- * "Add it with ChatGPT" — the easiest path from a phone, no account on our side and no API
- * keys. We deep-link to ChatGPT (works with any free or paid account) prefilled with a
- * prompt that turns it into a submission assistant: it interviews the visitor, then hands
- * back a one-tap, prefilled GitHub issue in the exact format a maintainer expects. The
- * categories list is injected so ChatGPT only ever picks a valid one.
+ * The drop box — ONE free-text field, no account, no structure.
+ *
+ * Visitors write anything: a single tip, ten places in one paragraph, a trip route with
+ * dates, a request for a country we don't cover yet. An AI agent (Cinnamon's brain)
+ * triages the queue on demand — parsing, verifying, and publishing what clears the bar —
+ * per docs/INBOX.md. So the form's job is only to capture raw text with zero friction.
+ *
+ * The POST goes to a tiny Cloudflare Worker (tools/submit-worker/) that files it as a
+ * GitHub issue labeled `inbox` in the private content repo. The endpoint URL is baked in
+ * at build time from the PUBLIC_SUBMIT_ENDPOINT repo variable; until it's configured we
+ * show a friendly "warming up" card instead of a dead form.
  */
-const chatGptPrompt = `You are the Cinnamon Land submission assistant. Cinnamon Land (${SITE.repo}) is a community atlas of Japan's hidden gems, weird roadside attractions, and seasonal events.
-
-Help me submit one new place. Ask me a couple of short questions at a time until you have:
-1. The name of the place.
-2. Where it is — prefecture, city, and a Google Maps link or "lat,lng" if I have one (offer to help me figure out the prefecture/coordinates from the name).
-3. Why it's worth visiting — what's strange, special, or overlooked about it.
-4. Best time to go (months or seasons) if it's seasonal; otherwise it's year-round.
-5. Optional: a website, photo links, and the name/handle to credit me as.
-
-Rules: don't invent facts — only use what I tell you. If I don't know something, put "—". Keep it tight and friendly.
-
-When you have enough, do BOTH of these:
-
-A) Show the submission as a markdown block in EXACTLY this format:
-
-### <name>
-**Category:** <pick one: ${CATEGORIES.join(", ")}>
-**Prefecture:** <prefecture>
-**City:** <city or —>
-**Location:** <maps link / lat,lng or —>
-**Best seasons:** <e.g. spring, autumn — or — if year-round>
-**Website:** <url or —>
-**Photos / notes:** <links or notes or —>
-**Submitted by:** <my name or anonymous>
-
-**Description**
-
-<2–4 sentences on why it's worth visiting>
-
-B) Give me ONE tap-to-open link that pre-fills the GitHub submission with everything above. Build it precisely as:
-${SITE.repo}/issues/new?labels=submission&title=<URL-encode "[Submission] " followed by the name>&body=<URL-encode the entire markdown block from part A>
-
-Then tell me: tap the link, press "Submit new issue" on GitHub to finish, and a maintainer will review it before it goes live.
-
-Start by asking me what the place is.`;
-
-const chatGptUrl = `https://chatgpt.com/?q=${encodeURIComponent(chatGptPrompt)}`;
+const endpoint = import.meta.env.PUBLIC_SUBMIT_ENDPOINT ?? "";
 ---
 
 <BaseLayout
   title="Submit a discovery"
-  description="Add a hidden gem, weird attraction, or seasonal event to Cinnamon Land. No account needed."
+  description="Tell Cinnamon about a place — one text box, no account, no forms. He'll research it and add the good ones."
 >
-  <div class="py-8">
-    <header class="mb-6 max-w-2xl">
-      <h1 class="font-display text-3xl font-bold sm:text-4xl">Submit a discovery</h1>
-      <p class="mt-2 text-ink-soft">
-        Know a place that belongs in Cinnamon Land? Tell us about it. Submissions enter a
-        review queue and are checked before publishing. <strong>No account needed</strong> —
-        the final step opens a prefilled GitHub ticket you can post in one click.
+  <div class="mx-auto max-w-2xl py-8">
+    <header class="mb-6">
+      <h1 class="font-display text-3xl font-bold sm:text-4xl">Tell Cinnamon 🐿️</h1>
+      <p class="mt-3 text-ink-soft">
+        Know a place that belongs in the atlas? Just write it below — no account, no forms.
+        Cinnamon (a very busy squirrel, assisted by AI) reads every note, researches the
+        places himself, and adds the ones that make the cut.
       </p>
     </header>
 
-    <!-- Easiest path: hand it to ChatGPT -->
-    <a
-      href={chatGptUrl}
-      target="_blank"
-      rel="noopener"
-      class="card mb-8 flex items-start gap-4 border-sun/40 bg-sun/5 p-5 transition hover:border-sun hover:bg-sun/10"
-    >
-      <span class="text-3xl" aria-hidden="true">🤖</span>
-      <div class="min-w-0">
-        <h2 class="font-display text-lg font-semibold">
-          On your phone? Add it with ChatGPT <span class="text-sun">→</span>
-        </h2>
-        <p class="mt-1 text-sm text-ink-soft">
-          Tap here to open ChatGPT (your own account, free or paid) already briefed as a
-          Cinnamon Land assistant. Just chat about the place — tell it the name and a rough
-          location — and it hands you back a one-tap link that files the submission for review.
-          No forms, no typing on a tiny keyboard.
-        </p>
-      </div>
-    </a>
-
-    <div class="grid gap-8 lg:grid-cols-[1fr_300px]">
-      <form id="submit-form" class="card space-y-4 p-5">
-        <div>
-          <label class="mb-1 block text-sm font-medium" for="f-title">Name of the place *</label>
-          <input id="f-title" name="title" required class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="e.g. The Moai of Kyushu" />
-        </div>
-
-        <div>
-          <label class="mb-1 block text-sm font-medium" for="f-desc">Why is it worth visiting? *</label>
-          <textarea id="f-desc" name="description" required rows="4" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="What makes it strange, special, or overlooked?"></textarea>
-        </div>
-
-        <div class="grid gap-4 sm:grid-cols-2">
-          <div>
-            <label class="mb-1 block text-sm font-medium" for="f-cat">Category</label>
-            <select id="f-cat" name="category" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun">
-              {CATEGORIES.map((c) => <option value={c}>{CATEGORY_META[c].emoji} {CATEGORY_META[c].label}</option>)}
-            </select>
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium" for="f-pref">Prefecture</label>
-            <select id="f-pref" name="prefecture" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun">
-              {PREFECTURES.map((p) => <option value={p.slug}>{p.name}</option>)}
-            </select>
-          </div>
-        </div>
-
-        <div class="grid gap-4 sm:grid-cols-2">
-          <div>
-            <label class="mb-1 block text-sm font-medium" for="f-city">City / town</label>
-            <input id="f-city" name="city" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" />
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium" for="f-loc">Location (address or map link)</label>
-            <input id="f-loc" name="location" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="Google Maps link or lat,lng" />
-          </div>
-        </div>
-
-        <fieldset>
-          <legend class="mb-1 text-sm font-medium">Best seasons (optional)</legend>
-          <div class="flex flex-wrap gap-3">
-            {SEASONS.map((s) => (
-              <label class="flex items-center gap-1.5 text-sm">
-                <input type="checkbox" name="seasons" value={s} /> {SEASON_LABEL[s]}
-              </label>
-            ))}
-          </div>
-        </fieldset>
-
-        <div class="grid gap-4 sm:grid-cols-2">
-          <div>
-            <label class="mb-1 block text-sm font-medium" for="f-web">Website / link</label>
-            <input id="f-web" name="website" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="https://" />
-          </div>
-          <div>
-            <label class="mb-1 block text-sm font-medium" for="f-photos">Photo links / notes</label>
-            <input id="f-photos" name="photos" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="Links to photos, or any extra notes" />
-          </div>
-        </div>
-
-        <div>
-          <label class="mb-1 block text-sm font-medium" for="f-by">Your name / handle (optional)</label>
-          <input id="f-by" name="submittedBy" class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun" placeholder="So we can credit you" />
-        </div>
-
-        <!-- Honeypot -->
-        <input type="text" name="hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
-
-        <div class="flex items-center gap-3 pt-1">
-          <button type="submit" class="btn btn-primary">➕ Review & submit on GitHub</button>
-          <span id="submit-status" class="text-sm text-ink-soft" role="status"></span>
-        </div>
-      </form>
-
-      <aside class="space-y-4">
-        <div class="card p-5">
-          <h2 class="font-display text-lg font-semibold">How it works</h2>
-          <ol class="mt-2 list-decimal space-y-1.5 pl-5 text-sm text-ink-soft">
-            <li>You describe the place here.</li>
-            <li>We open a prefilled ticket on GitHub (one click).</li>
-            <li>A maintainer (or an AI agent) verifies and enriches it.</li>
-            <li>It's published to the map and atlas.</li>
-          </ol>
-        </div>
-        <div class="card p-5">
-          <h2 class="font-display text-lg font-semibold">🤖 Add it with ChatGPT</h2>
-          <p class="mt-2 text-sm text-ink-soft">
-            The fastest way from a phone. ChatGPT interviews you, then gives you a one-tap
-            link that files the submission — using your own account.
-          </p>
-          <a href={chatGptUrl} target="_blank" rel="noopener" class="btn btn-primary mt-3 w-full justify-center">
-            Open ChatGPT to add a place
-          </a>
-          <p class="mt-3 text-xs text-ink-soft">
-            Maintainers can also run the built-in AI research assistant — see
-            <a href={withBase("/admin")} class="link-underline text-sun">Admin & AI tools</a>.
-          </p>
-        </div>
-        <div class="card p-5 text-sm text-ink-soft">
-          Prefer to do it yourself? The full
-          <a href={`${SITE.repo}/issues/new?labels=submission`} class="link-underline text-sun">GitHub issue form</a>
-          works too.
-        </div>
-      </aside>
+    <div class="card mb-6 p-5 text-sm text-ink-soft">
+      <p class="font-medium text-ink">You can write anything, in any language, any format:</p>
+      <ul class="mt-2 list-disc space-y-1 pl-5">
+        <li>One place — or ten places in a single paragraph.</li>
+        <li>A tip: <em>"there's a restaurant near Ueno with udon made from silkworms"</em>.</li>
+        <li>Your trip: route, cities, and dates — and what kind of places you're hoping to find along it.</li>
+        <li>A country we don't cover yet. Cinnamon travels.</li>
+        <li><strong>Optional:</strong> your name or handle → you'll be credited on every place we add.</li>
+        <li><strong>Optional:</strong> your email → Cinnamon lets you know once your note has been processed.</li>
+      </ul>
     </div>
+
+    {
+      endpoint ? (
+        <form id="dropbox-form" class="card p-5">
+          <label class="mb-2 block text-sm font-medium" for="f-text">Your note to Cinnamon</label>
+          <textarea
+            id="f-text"
+            name="text"
+            required
+            rows="10"
+            maxlength="20000"
+            class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun"
+            placeholder={
+              "e.g. Three tips from my Kansai trip: the giant whale shrine gate in Taiji, a vending-machine corner in Osaka that sells fresh eggs, and a tiny museum of fake food in Gujo Hachiman (that one might be Gifu?).\n\nI'm Maya — maya@example.com if you want to tell me when they're up!"
+            }
+          />
+          <!-- Honeypot: hidden from humans; bots that fill it are silently dropped. -->
+          <input type="text" name="hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+          <div class="mt-3 flex items-center gap-3">
+            <button type="submit" class="btn btn-primary">📮 Send it to Cinnamon</button>
+            <span id="dropbox-status" class="text-sm text-ink-soft" role="status" />
+          </div>
+        </form>
+      ) : (
+        <div class="card border-sun/40 bg-sun/5 p-5">
+          <h2 class="font-display text-lg font-semibold">The drop box is being built 🛠️</h2>
+          <p class="mt-1 text-sm text-ink-soft">
+            Submissions open soon. In the meantime, Cinnamon is out there discovering places
+            on his own — check the <a href={withBase("/new")} class="link-underline text-sun">newest finds</a>.
+          </p>
+        </div>
+      )
+    }
+
+    <div id="dropbox-thanks" class="card hidden border-sun/40 bg-sun/5 p-6 text-center">
+      <p class="text-4xl" aria-hidden="true">🐿️📮</p>
+      <h2 class="mt-2 font-display text-xl font-semibold">Got it — thanks!</h2>
+      <p class="mt-2 text-sm text-ink-soft">
+        Your note is in Cinnamon's inbox. He's a very busy squirrel, so give him a little
+        time; if you left an email, he'll let you know when it's been processed. New
+        additions show up on the <a href={withBase("/new")} class="link-underline text-sun">New</a> page.
+      </p>
+      <button id="dropbox-again" type="button" class="btn btn-ghost mt-4">Send another</button>
+    </div>
+
+    <p class="mt-6 text-xs text-ink-soft">
+      Everything is reviewed before publishing — Cinnamon verifies each place independently
+      and only adds what's real, safe, and at least a little bit wonderful.
+    </p>
   </div>
 
-  <script type="application/json" id="rj-repo" set:html={JSON.stringify(SITE.repo)} is:inline />
+  <script type="application/json" id="cl-endpoint" set:html={JSON.stringify(endpoint)} is:inline />
 </BaseLayout>
 
 <script>
-  const form = document.getElementById("submit-form") as HTMLFormElement | null;
-  const status = document.getElementById("submit-status");
-  const repo = JSON.parse(document.getElementById("rj-repo")!.textContent || '""');
+  const endpoint = JSON.parse(document.getElementById("cl-endpoint")!.textContent || '""');
+  const form = document.getElementById("dropbox-form") as HTMLFormElement | null;
+  const status = document.getElementById("dropbox-status");
+  const thanks = document.getElementById("dropbox-thanks");
 
-  form?.addEventListener("submit", (e) => {
+  form?.addEventListener("submit", async (e) => {
     e.preventDefault();
     const fd = new FormData(form);
-    if ((fd.get("hp") as string)?.length) return; // honeypot
+    const text = ((fd.get("text") as string) || "").trim();
+    if (!text) return;
 
-    const get = (k: string) => ((fd.get(k) as string) || "").trim();
-    const seasons = fd.getAll("seasons").join(", ") || "—";
-    const title = get("title");
-    if (!title || !get("description")) return;
+    const btn = form.querySelector("button[type=submit]") as HTMLButtonElement;
+    btn.disabled = true;
+    if (status) status.textContent = "Sending…";
 
-    const body = [
-      `### ${title}`,
-      "",
-      `**Category:** ${get("category")}`,
-      `**Prefecture:** ${get("prefecture")}`,
-      `**City:** ${get("city") || "—"}`,
-      `**Location:** ${get("location") || "—"}`,
-      `**Best seasons:** ${seasons}`,
-      `**Website:** ${get("website") || "—"}`,
-      `**Photos / notes:** ${get("photos") || "—"}`,
-      `**Submitted by:** ${get("submittedBy") || "anonymous"}`,
-      "",
-      "**Description**",
-      "",
-      get("description"),
-      "",
-      "---",
-      "_Submitted via the Cinnamon Land website. A maintainer will verify and publish._",
-    ].join("\n");
+    try {
+      const res = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text, hp: (fd.get("hp") as string) || "" }),
+      });
+      const out = await res.json().catch(() => ({}));
+      if (!res.ok || !out.ok) throw new Error(out.error || "failed");
+      form.classList.add("hidden");
+      thanks?.classList.remove("hidden");
+    } catch {
+      if (status) status.textContent = "Hmm, that didn't go through — please try again in a minute.";
+      btn.disabled = false;
+    }
+  });
 
-    const url = new URL(`${repo}/issues/new`);
-    url.searchParams.set("labels", "submission");
-    url.searchParams.set("title", `[Submission] ${title}`);
-    url.searchParams.set("body", body);
-    window.open(url.toString(), "_blank", "noopener");
-    if (status) status.textContent = "Opening GitHub to finish your submission…";
+  document.getElementById("dropbox-again")?.addEventListener("click", () => {
+    thanks?.classList.add("hidden");
+    form?.classList.remove("hidden");
+    form?.reset();
+    const btn = form?.querySelector("button[type=submit]") as HTMLButtonElement | null;
+    if (btn) btn.disabled = false;
+    if (status) status.textContent = "";
   });
 </script>

@@ -149,3 +149,15 @@ export const IMG_ONERROR =
   "this.onerror=null;" +
   "var m=this.src.match(/^(https:\\/\\/upload\\.wikimedia\\.org\\/wikipedia\\/commons)\\/thumb(\\/.+)\\/[0-9]+px-[^\\/]+$/);" +
   "if(m){this.src=m[1]+m[2];}else{this.style.display='none';}";
+
+/**
+ * Public credit line for who found a place. Community submissions carry the visitor's
+ * name/handle in `submittedBy`; everything the site adds itself (editorial, AI agents,
+ * imports) is credited to Cinnamon — he is, after all, a very busy squirrel.
+ */
+export function contributorName(source: string, submittedBy?: string): string {
+  if (source === "community" && submittedBy && submittedBy.trim() && submittedBy !== "editorial") {
+    return submittedBy.trim().slice(0, 60);
+  }
+  return "Cinnamon";
+}

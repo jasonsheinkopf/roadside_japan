@@ -8,7 +8,7 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import { getPrefecture } from "../data/prefectures";
 import { COUNTRY_META } from "../data/countries";
-import { haversineKm } from "./format";
+import { contributorName, haversineKm } from "./format";
 import { recordUrl, withBase } from "./url";
 import type { Collection, IndexRecord, NearbyResult } from "./types";
 
@@ -85,6 +85,7 @@ export function toIndexRecord(entry: AnyEntry, collection: Collection): IndexRec
     status: d.status,
     hero: heroRaw ? withBase(heroRaw) : undefined,
     featured: d.featured,
+    contributor: contributorName(d.source, d.submittedBy),
     keywords: Array.from(new Set([...d.tags, ...d.aiKeywords])),
     createdAt: d.createdAt.toISOString(),
     updatedAt: d.updatedAt.toISOString(),

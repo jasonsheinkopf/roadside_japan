@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getIndexRecords } from "../lib/content";
+import { CATEGORY_META } from "../data/categories";
+import { COUNTRY_META } from "../data/countries";
+import { withBase } from "../lib/url";
+
+/**
+ * /new — the freshest additions to the atlas, newest first, with credit to whoever
+ * found each one: a community submitter's name, or Cinnamon for the site's own finds.
+ * Static and cheap: the whole list renders at build time, grouped by month.
+ */
+const records = (await getIndexRecords()).sort(
+  (a, b) => +new Date(b.createdAt) - +new Date(a.createdAt),
+);
+
+const monthFmt = new Intl.DateTimeFormat("en", { month: "long", year: "numeric" });
+const dayFmt = new Intl.DateTimeFormat("en", { month: "short", day: "numeric" });
+
+/** Group records by "Month YYYY" of createdAt, preserving newest-first order. */
+const groups: { label: string; items: typeof records }[] = [];
+for (const r of records) {
+  const label = monthFmt.format(new Date(r.createdAt));
+  const last = groups[groups.length - 1];
+  if (last && last.label === label) last.items.push(r);
+  else groups.push({ label, items: [r] });
+}
+
+const communityCount = records.filter((r) => r.contributor !== "Cinnamon").length;
+---
+
+<BaseLayout
+  title="New discoveries"
+  description="The newest places and events added to Cinnamon Land — freshest first, with credit to whoever found them."
+>
+  <div class="mx-auto max-w-3xl py-8">
+    <header class="mb-8">
+      <h1 class="font-display text-3xl font-bold sm:text-4xl">New discoveries</h1>
+      <p class="mt-2 text-ink-soft">
+        Every addition to the atlas, freshest first. {records.length} discoveries so far —
+        {communityCount > 0
+          ? `${communityCount} sent in by travelers, the rest dug up by Cinnamon 🐿️.`
+          : "all dug up by Cinnamon 🐿️ (so far — the drop box is open!)."}
+        Found something yourself? <a href={withBase("/submit")} class="link-underline text-sun">Tell Cinnamon</a>.
+      </p>
+    </header>
+
+    {
+      groups.map((g) => (
+        <section class="mb-8">
+          <h2 class="mb-3 font-display text-sm font-semibold uppercase tracking-wide text-ink-soft">
+            {g.label}
+          </h2>
+          <ol class="space-y-2">
+            {g.items.map((r) => (
+              <li>
+                <a
+                  href={r.url}
+                  class="card flex items-baseline gap-3 px-4 py-3 transition hover:border-sun"
+                >
+                  <span class="w-14 shrink-0 text-xs tabular-nums text-ink-soft">
+                    {dayFmt.format(new Date(r.createdAt))}
+                  </span>
+                  <span aria-hidden="true" class="shrink-0">
+                    {CATEGORY_META[r.category]?.emoji ?? "📍"}
+                  </span>
+                  <span class="min-w-0">
+                    <span class="font-medium">
+                      {r.title}
+                      <span class="ml-1.5 text-xs text-ink-soft" aria-hidden="true">
+                        {COUNTRY_META[r.country]?.flag}
+                      </span>
+                    </span>
+                    <span class="mt-0.5 block truncate text-sm text-ink-soft">{r.summary}</span>
+                    <span class="mt-0.5 block text-xs text-ink-soft">
+                      found by{" "}
+                      {r.contributor === "Cinnamon" ? (
+                        <span class="font-medium text-sun">Cinnamon 🐿️</span>
+                      ) : (
+                        <span class="font-medium text-sun">{r.contributor}</span>
+                      )}
+                      {" · "}
+                      {r.prefectureName}
+                    </span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))
+    }
+  </div>
+</BaseLayout>

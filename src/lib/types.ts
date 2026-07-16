@@ -60,6 +60,8 @@ export interface IndexRecord {
   // presentation
   hero?: string; // resolved image URL, if any
   featured: boolean;
+  /** Public credit: the community submitter's name, or "Cinnamon" for site-added entries. */
+  contributor: string;
 
   // search aids
   keywords: string[]; // aiKeywords + tags, for fuzzy search weighting
