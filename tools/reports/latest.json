@@ -1,12 +1,12 @@
 {
-  "date": "1970-01-01",
-  "ran_at": "1970-01-01T00:00:00Z",
+  "date": "2026-07-17",
+  "ran_at": "2026-07-16T23:53:56Z",
   "completed": true,
-  "changed": false,
-  "added_count": 0,
+  "changed": true,
+  "added_count": 1,
   "pending_count": 0,
-  "skipped_count": 0,
+  "skipped_count": 1,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "sms_body": "Cinnamon Land: no automated run has happened yet."
+  "sms_body": "Cinnamon Land 7/17 report:\n✅ Added 1:\n• Watts Towers, Los Angeles (USA) — from \"ghost popsicle\" (tipped us to the mosaic towers in Watts). Published.\n❌ Skipped 1: a \"Testing\" submission with no content.\nNo new countries. 0 still waiting.\nhttps://jasonsheinkopf.github.io/roadside_japan/new"
 }
