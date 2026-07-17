@@ -56,30 +56,41 @@ for (const r of records) countryCounts.set(r.country, (countryCounts.get(r.count
 <BaseLayout>
   <!-- HERO -->
   <section class="bg-topo -mx-4 px-4 sm:-mx-6 sm:px-6">
-    <div class="mx-auto max-w-3xl py-14 text-center sm:py-20">
-      <p class="mb-3 inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-ink-soft">
-        🐿️ A world atlas of wonderful detours · {stats.total} discoveries and counting
-      </p>
-      <h1 class="font-display text-4xl font-bold leading-tight sm:text-6xl">
-        Discover the places most<br class="hidden sm:block" /> tourists <span class="text-sun">never see</span>.
+    <div class="mx-auto max-w-3xl py-10 text-center sm:py-16">
+      <p class="mb-1 text-xs font-medium text-ink-soft">🐿️ A world atlas of wonderful detours</p>
+      <p class="mb-4 text-xs text-ink-soft">{stats.total} discoveries and counting</p>
+      <h1 class="font-display text-3xl font-bold leading-tight sm:text-5xl">
+        Going somewhere?<br />
+        <span class="text-sun">Send Cinnamon ahead.</span>
       </h1>
-      <p class="mx-auto mt-4 max-w-xl text-lg text-ink-soft">
-        Weird attractions, strange museums, seasonal festivals, giant statues, scenic
-        detours, and roadside oddities — one country at a time. Pick yours:
+      <p class="mx-auto mt-4 max-w-xl text-base text-ink-soft sm:text-lg">
+        Tell him where you're headed, when, and what you love — he'll scout the route and add
+        the weird, wonderful, and only-this-season stops to the atlas before you get there.
+        Free, for everyone.
       </p>
 
       <div class="mt-5 flex flex-wrap items-center justify-center gap-3">
+        <a href={withBase("/submit")} class="btn btn-primary text-base">🐿️ Send him your trip</a>
+        <a href={mapUrl()} class="btn btn-ghost">🗺️ Map</a>
+        <a href={timelineUrl()} class="btn btn-ghost">🗓️ When to go</a>
+        <a href={withBase("/random")} class="btn btn-ghost">🎲 Surprise me</a>
+      </div>
+
+      <div class="mt-6 grid grid-cols-3 gap-2 sm:mx-auto sm:max-w-md">
         {
           countries.map((c) => (
-            <a href={withBase(`/countries/${c.slug}`)} class="btn btn-ghost border border-line text-base">
-              <span aria-hidden="true">{c.flag}</span> {c.name}
-              <span class="ml-1 rounded-full bg-surface-2 px-2 py-0.5 text-xs text-ink-soft">{countryCounts.get(c.slug) ?? 0}</span>
+            <a
+              href={withBase(`/countries/${c.slug}`)}
+              class="flex items-center justify-center gap-1.5 rounded-full border border-line bg-surface px-2 py-1.5 text-sm font-medium transition hover:border-sun"
+            >
+              <span aria-hidden="true">{c.flag}</span> {c.code}
+              <span class="rounded-full bg-surface-2 px-1.5 py-0.5 text-xs text-ink-soft">{countryCounts.get(c.slug) ?? 0}</span>
             </a>
           ))
         }
       </div>
 
-      <form action={exploreUrl()} method="get" role="search" class="mx-auto mt-7 flex max-w-lg items-center gap-2">
+      <form action={exploreUrl()} method="get" role="search" class="mx-auto mt-5 flex max-w-lg items-center gap-2">
         <div class="flex flex-1 items-center rounded-full border border-line bg-surface px-4 py-2.5 shadow-sm focus-within:border-sun">
           <span aria-hidden="true" class="text-ink-soft">🔍</span>
           <input
@@ -96,11 +107,40 @@ for (const r of records) countryCounts.set(r.country, (countryCounts.get(r.count
       <div class="mt-4 flex flex-wrap items-center justify-center gap-2">
         {quickChips.map((c) => <a href={c.href} class="chip">{c.icon} {c.label}</a>)}
       </div>
+    </div>
+  </section>
 
-      <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
-        <a href={mapUrl()} class="btn btn-primary">🗺️ Open the map</a>
-        <a href={timelineUrl()} class="btn btn-ghost">🗓️ When to go</a>
-        <a href={withBase("/random")} class="btn btn-ghost">🎲 Surprise me</a>
+  <!-- HOW IT WORKS: the scout loop -->
+  <section class="mt-10">
+    <h2 class="text-center font-display text-2xl font-bold sm:text-3xl">How it works</h2>
+    <div class="mt-5 grid gap-4 sm:grid-cols-3">
+      <div class="card p-5">
+        <p class="text-3xl" aria-hidden="true">📮</p>
+        <h3 class="mt-2 font-display text-lg font-semibold">1. Tell Cinnamon your trip</h3>
+        <p class="mt-1 text-sm text-ink-soft">
+          Where you're going, when you'll be there, what you're into — one
+          <a href={withBase("/submit")} class="link-underline text-sun">quick note</a>, any language,
+          no account. Already been somewhere great? That works too.
+        </p>
+      </div>
+      <div class="card p-5">
+        <p class="text-3xl" aria-hidden="true">🔍</p>
+        <h3 class="mt-2 font-display text-lg font-semibold">2. He scouts ahead</h3>
+        <p class="mt-1 text-sm text-ink-soft">
+          He researches your route, verifies every place, goes and files his field report —
+          and if you leave an email, you get a personal reply (typed by Socks the cat, one paw
+          at a time).
+        </p>
+      </div>
+      <div class="card p-5">
+        <p class="text-3xl" aria-hidden="true">🗓️</p>
+        <h3 class="mt-2 font-display text-lg font-semibold">3. Time it right</h3>
+        <p class="mt-1 text-sm text-ink-soft">
+          His finds land on the <a href={mapUrl()} class="link-underline text-sun">map</a> for
+          everyone. Many only exist for a window — a two-week wisteria, a winter of snow
+          monsters — so put your dates into the
+          <a href={timelineUrl()} class="link-underline text-sun">planner</a> and catch them.
+        </p>
       </div>
     </div>
   </section>
@@ -115,18 +155,18 @@ for (const r of records) countryCounts.set(r.country, (countryCounts.get(r.count
         loading="lazy"
       />
       <div class="text-center sm:text-left">
-        <h2 class="font-display text-2xl font-bold sm:text-3xl">Meet the team 🐿️🐈‍⬛🐕</h2>
+        <h2 class="font-display text-2xl font-bold sm:text-3xl">Your travel scouts</h2>
         <p class="mx-auto mt-2 max-w-xl text-ink-soft sm:mx-0">
-          <strong class="text-ink">Cinnamon</strong> is the world traveler — every place in this
-          atlas is somewhere he's actually been, climbed, or eaten near, and each page carries his
-          field report to prove it. <strong class="text-ink">Socks</strong> is the tech lead: he
-          types every reply on his MEOWriter, one paw at a time, because Cinnamon has no thumbs.
-          <strong class="text-ink">Mon-chan</strong> handles moral support and protection, both of
-          which he provides by being cute.
+          <strong class="text-ink">Cinnamon</strong> does the traveling — every page carries his
+          field report from the visit. <strong class="text-ink">Socks</strong> is the tech lead
+          and types every reply (Cinnamon has no thumbs).
+          <strong class="text-ink">Mon-chan</strong> handles moral support and protection, both
+          by being cute. They live in Japan; after scouting it top to bottom they went
+          international — Thailand, the USA, and wherever you send them next.
         </p>
         <div class="mt-4 flex flex-wrap justify-center gap-3 sm:justify-start">
-          <a href={withBase("/random")} class="btn btn-primary">🎲 Take me somewhere</a>
-          <a href={withBase("/about")} class="btn btn-ghost">Meet the team</a>
+          <a href={withBase("/about")} class="btn btn-primary">Meet the team</a>
+          <a href={withBase("/random")} class="btn btn-ghost">🎲 Take me somewhere</a>
         </div>
       </div>
     </div>

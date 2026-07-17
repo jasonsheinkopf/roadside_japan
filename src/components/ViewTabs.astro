@@ -1,0 +1,48 @@
+---
+/**
+ * ViewTabs — List | Map | Timeline as three VIEWS of the same filtered atlas.
+ *
+ * Explore, Map, and Timeline are one mental page with three presentations, so each of
+ * those pages renders this segmented control at the top. A tiny inline script copies the
+ * current query string onto the other tabs' hrefs, so filters/search/dates survive when
+ * switching views (each page simply ignores params it doesn't use).
+ */
+import { exploreUrl, mapUrl, timelineUrl } from "../lib/url";
+
+interface Props {
+  active: "list" | "map" | "timeline";
+}
+const { active } = Astro.props;
+
+const tabs = [
+  { id: "list", label: "List", icon: "📋", href: exploreUrl() },
+  { id: "map", label: "Map", icon: "🗺️", href: mapUrl() },
+  { id: "timeline", label: "When to go", icon: "🗓️", href: timelineUrl() },
+] as const;
+---
+
+<nav class="inline-flex shrink-0 items-center gap-0.5 rounded-full border border-line bg-surface-2 p-0.5" aria-label="View">
+  {
+    tabs.map((t) => (
+      <a
+        href={t.href}
+        data-viewtab
+        class:list={[
+          "rounded-full px-2.5 py-1 text-sm font-medium transition sm:px-3",
+          active === t.id ? "bg-surface text-sun shadow-sm" : "text-ink-soft hover:text-ink",
+        ]}
+        aria-current={active === t.id ? "page" : undefined}
+      >
+        <span aria-hidden="true">{t.icon}</span>
+        <span class:list={[active === t.id ? "" : "hidden sm:inline"]}> {t.label}</span>
+      </a>
+    ))
+  }
+</nav>
+
+<script is:inline>
+  // Carry the current filters/search/dates across views.
+  document.querySelectorAll("[data-viewtab]").forEach((a) => {
+    if (location.search) a.setAttribute("href", a.getAttribute("href").split("?")[0] + location.search);
+  });
+</script>

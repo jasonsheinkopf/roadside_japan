@@ -60,6 +60,11 @@ export default {
     if (text.length < 3) return json({ ok: false, error: "tell us at least a little" }, 400, cors);
     if (text.length > MAX_LEN) return json({ ok: false, error: `too long (max ${MAX_LEN} chars)` }, 400, cors);
 
+    // Dedicated optional email field (the submit page has an autofillable input). Loose
+    // shape check only; an invalid value is just dropped, never an error for the visitor.
+    let email = typeof payload.email === "string" ? payload.email.trim().slice(0, 200) : "";
+    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) email = "";
+
     // First line of the text becomes a readable issue title.
     const firstLine = text.split("\n")[0].replace(/\s+/g, " ").trim();
     const title = `📮 ${firstLine.length > 70 ? firstLine.slice(0, 67) + "…" : firstLine}`;
@@ -72,6 +77,7 @@ export default {
       text.replace(/```/g, "ʼʼʼ"),
       "```",
       "",
+      ...(email ? [`Submitter email: ${email}`, ""] : []),
       `_Received ${new Date().toISOString()} via the Cinnamon Land submit page._`,
     ].join("\n");
 
@@ -106,7 +112,11 @@ export default {
         method: "POST",
         headers: ghHeaders,
         body: JSON.stringify({
-          body: "_Backup copy of the original submission (do not edit — notify-submitter.yml reads this if the issue body is ever changed):_\n\n```text\n" + text.replace(/```/g, "ʼʼʼ") + "\n```",
+          body:
+            "_Backup copy of the original submission (do not edit — notify-submitter.yml reads this if the issue body is ever changed):_\n\n```text\n" +
+            text.replace(/```/g, "ʼʼʼ") +
+            "\n```" +
+            (email ? `\n\nSubmitter email: ${email}` : ""),
         }),
       });
     } catch (err) {

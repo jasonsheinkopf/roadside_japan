@@ -125,12 +125,14 @@ wired). Model: **Sonnet** is fine for this. Steps:
    push broken content** — revert the entries to `pending` or drop them, and report the failure.
 6. **Commit & push** to `main`. Use a clear message, e.g.
    `Automated inbox triage: +2 published, 1 held, 1 skipped`.
-7. **Notify submitters.** For each processed issue that contained an email, **author a
-   personalized thank-you email in Cinnamon's voice** per `docs/CINNAMON.md` §5 — reference
-   what they actually asked for, one concrete detail from the field report you just wrote,
-   links to each live entry, the Socks-the-cat intro, under ~180 words — then trigger
+7. **Notify submitters — always, whatever the outcome.** For each processed issue that
+   contained an email (dedicated "Submitter email:" line or anywhere in the note), **author
+   a personalized email in Cinnamon's voice** per `docs/CINNAMON.md` §5 and trigger
    `notify-submitter.yml` (`actions_run_trigger`, `run_workflow`) with
-   `inputs: { issue_number, body, subject }`. (It self-skips if mail secrets aren't set.)
+   `inputs: { issue_number, body, subject }`. Added → the thank-you with links. Held,
+   unverifiable, or plain confusing → still send: warm, honest, what he tried, why it
+   didn't land, invitation to try again. Only obvious spam/abuse gets silence. (The
+   workflow self-skips if mail secrets aren't set.)
 8. **Update the report file** `tools/reports/latest.json` (§4) — this is now just the backstop's
    data source (audit trail + "did today's automation actually run" signal), not the primary
    notification path.

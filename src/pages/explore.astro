@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import AttractionCard from "../components/AttractionCard.astro";
+import ViewTabs from "../components/ViewTabs.astro";
 import { getIndexRecords } from "../lib/content";
 import { FILTER_GROUPS } from "../lib/filters";
 import { CATEGORY_META } from "../data/categories";
@@ -19,13 +20,16 @@ const initial = [...records].sort(
   description="Filter and search every discovery in Cinnamon Land by season, theme, cost, accessibility, and more."
 >
   <div class="py-8">
-    <header class="mb-6">
-      <h1 class="font-display text-3xl font-bold sm:text-4xl">Explore the atlas</h1>
-      <p class="mt-1 text-ink-soft">Combine filters and search to find exactly the kind of detour you're after.</p>
+    <header class="mb-5 flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h1 class="font-display text-3xl font-bold sm:text-4xl">Explore the atlas</h1>
+        <p class="mt-1 text-ink-soft">Filter once — then view the results as a list, a map, or a year timeline.</p>
+      </div>
+      <ViewTabs active="list" />
     </header>
 
     <!-- Search + controls -->
-    <div class="mb-5 flex flex-wrap items-center gap-3">
+    <div class="mb-3 flex flex-wrap items-center gap-3">
       <div class="flex min-w-0 flex-1 items-center rounded-full border border-line bg-surface px-4 py-2.5 focus-within:border-sun">
         <span aria-hidden="true" class="text-ink-soft">🔍</span>
         <input
@@ -47,6 +51,20 @@ const initial = [...records].sort(
       <button id="filter-toggle" type="button" class="btn btn-ghost lg:hidden" aria-expanded="false" aria-controls="filters">
         ⚙️ Filters
       </button>
+    </div>
+
+    <!-- Trip dates: seasonal windows are the whole point — tell us when, we hide what won't be on. -->
+    <div class="mb-5 flex flex-wrap items-center gap-x-3 gap-y-2 rounded-2xl border border-line bg-surface/60 px-3 py-2 text-sm">
+      <span class="font-medium">📅 When's your trip?</span>
+      <div class="flex items-center gap-2">
+        <label class="sr-only" for="trip-from">Arriving</label>
+        <input id="trip-from" type="date" class="rounded-lg border border-line bg-surface px-2 py-1 text-sm outline-none focus:border-sun" aria-label="Arriving date" />
+        <span class="text-ink-soft" aria-hidden="true">→</span>
+        <label class="sr-only" for="trip-to">Leaving</label>
+        <input id="trip-to" type="date" class="rounded-lg border border-line bg-surface px-2 py-1 text-sm outline-none focus:border-sun" aria-label="Leaving date" />
+      </div>
+      <button id="trip-clear" type="button" class="text-sun link-underline" hidden>Clear dates</button>
+      <span id="trip-hint" class="text-ink-soft" role="status"></span>
     </div>
 
     <div class="grid gap-8 lg:grid-cols-[260px_1fr]">
@@ -113,7 +131,7 @@ const initial = [...records].sort(
 </BaseLayout>
 
 <script>
-  import { applyFilters, FILTER_OPTIONS } from "../lib/filters";
+  import { applyFilters, matchesDateRange, FILTER_OPTIONS } from "../lib/filters";
   import { createSearch, type SearchProvider } from "../lib/search";
   import { loadRecords } from "../scripts/data";
   import type { IndexRecord } from "../lib/types";
@@ -128,6 +146,10 @@ const initial = [...records].sort(
   const filters = document.getElementById("filters");
   const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-filter]"));
   const catChips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-cat]"));
+  const fromInput = document.getElementById("trip-from") as HTMLInputElement;
+  const toInput = document.getElementById("trip-to") as HTMLInputElement;
+  const tripClear = document.getElementById("trip-clear") as HTMLButtonElement;
+  const tripHint = document.getElementById("trip-hint")!;
 
   let records: IndexRecord[] = [];
   let search: SearchProvider;
@@ -135,6 +157,9 @@ const initial = [...records].sort(
   let cat: string | null = null;
   let q = "";
   let sort = "featured";
+  let from = ""; // ISO date the visitor arrives
+  let to = ""; //   ISO date the visitor leaves
+  const dateRangeActive = () => Boolean(from && to && to >= from);
 
   const elById = new Map<string, HTMLElement>();
   for (const el of Array.from(grid.children) as HTMLElement[]) {
@@ -147,6 +172,8 @@ const initial = [...records].sort(
     q = p.get("q") ?? "";
     cat = p.get("cat");
     sort = p.get("sort") ?? "featured";
+    from = p.get("from") ?? "";
+    to = p.get("to") ?? "";
     p.get("f")?.split(",").forEach((id) => FILTER_OPTIONS.has(id) && selected.add(id));
   }
 
@@ -156,6 +183,8 @@ const initial = [...records].sort(
     if (cat) p.set("cat", cat);
     if (selected.size) p.set("f", [...selected].join(","));
     if (sort !== "featured") p.set("sort", sort);
+    if (from) p.set("from", from);
+    if (to) p.set("to", to);
     const qs = p.toString();
     history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
   }
@@ -172,6 +201,7 @@ const initial = [...records].sort(
     let working = q ? search.search(q) : records.slice();
     if (cat) working = working.filter((r) => r.category === cat);
     working = applyFilters(working, selected);
+    if (dateRangeActive()) working = working.filter((r) => matchesDateRange(r, from, to));
     return q ? working : sortRecords(working);
   }
 
@@ -184,6 +214,7 @@ const initial = [...records].sort(
       if (el) grid.appendChild(el);
     }
     countEl.textContent = `${list.length} ${list.length === 1 ? "discovery" : "discoveries"}`;
+    tripHint.textContent = dateRangeActive() ? `${list.length} available during your trip` : "";
     emptyEl.hidden = list.length !== 0;
     sync();
     writeUrl();
@@ -194,7 +225,10 @@ const initial = [...records].sort(
     for (const c of catChips) c.setAttribute("aria-pressed", String(cat === c.dataset.cat));
     if (document.activeElement !== searchInput) searchInput.value = q;
     sortSelect.value = sort;
-    clearBtn.hidden = !(selected.size || cat || q);
+    if (fromInput.value !== from) fromInput.value = from;
+    if (toInput.value !== to) toInput.value = to;
+    tripClear.hidden = !dateRangeActive();
+    clearBtn.hidden = !(selected.size || cat || q || dateRangeActive());
   }
 
   chips.forEach((c) =>
@@ -227,7 +261,24 @@ const initial = [...records].sort(
     selected.clear();
     cat = null;
     q = "";
+    from = "";
+    to = "";
     searchInput.value = "";
+    render();
+  });
+  fromInput.addEventListener("change", () => {
+    from = fromInput.value;
+    if (to && from && to < from) to = from;
+    render();
+  });
+  toInput.addEventListener("change", () => {
+    to = toInput.value;
+    if (from && to && to < from) from = to;
+    render();
+  });
+  tripClear.addEventListener("click", () => {
+    from = "";
+    to = "";
     render();
   });
   filterToggle?.addEventListener("click", () => {

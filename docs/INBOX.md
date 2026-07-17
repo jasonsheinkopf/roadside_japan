@@ -126,13 +126,18 @@ the permanent record — make it accurate.
 
 ### 5. Notify the submitter
 
-If the note contains an email address AND anything was processed (added or not), author a
-**personalized thank-you email in Cinnamon's voice** — see `docs/CINNAMON.md` §5 for the
-full shape (reference what they said, one detail from his field report, links to the live
-entries, the Socks-the-cat intro, under ~180 words) — then trigger `notify-submitter.yml`
-(`actions_run_trigger`) with `inputs: { issue_number, body, subject }`. The workflow
-extracts the email from the issue itself and skips silently if mail secrets aren't
-configured. Never email anyone about a different submission than their own.
+If an email address was given — in the dedicated field (a "Submitter email:" line in the
+issue) or anywhere in the note — **always send an outcome email, whatever the outcome.**
+Added, held, couldn't verify, or even "we couldn't make sense of the note": if a human
+left an address, a human hears back. (Sole exception: obvious spam/abuse gets no reply.)
+Author it in Cinnamon's voice — see `docs/CINNAMON.md` §5 for the full shape (reference
+what they said, one detail from his field report when something was added, links to the
+live entries, the Socks-the-cat framing, under ~180 words; for a nothing-added outcome,
+keep it warm and honest: what he tried, why it didn't land, an invitation to try again) —
+then trigger `notify-submitter.yml` (`actions_run_trigger`) with
+`inputs: { issue_number, body, subject }`. The workflow extracts the email from the issue
+body + comments itself and skips silently if mail secrets aren't configured. Never email
+anyone about a different submission than their own.
 
 ### 6. Ship
 

@@ -40,7 +40,6 @@ const endpoint = import.meta.env.PUBLIC_SUBMIT_ENDPOINT ?? "";
         <li>Your trip: route, cities, and dates — and what kind of places you're hoping to find along it.</li>
         <li>A country we don't cover yet. Cinnamon travels.</li>
         <li><strong>Optional:</strong> your name or handle → you'll be credited on every place we add.</li>
-        <li><strong>Optional:</strong> your email → Cinnamon writes you back once he's been. (His friend Socks the cat types the reply — Cinnamon has no thumbs. Socks does not fix his own spelling. You'll see.)</li>
       </ul>
     </div>
 
@@ -69,12 +68,29 @@ const endpoint = import.meta.env.PUBLIC_SUBMIT_ENDPOINT ?? "";
             maxlength="20000"
             class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun"
             placeholder={
-              "e.g. Three tips from my Kansai trip: the giant whale shrine gate in Taiji, a vending-machine corner in Osaka that sells fresh eggs, and a tiny museum of fake food in Gujo Hachiman (that one might be Gifu?).\n\nI'm Maya — maya@example.com if you want to tell me when they're up!"
+              "e.g. I'll be in Kansai the first week of November — I love weird museums and anything seasonal. Find me some stops?\n\nOr: three tips from my last trip — the giant whale shrine gate in Taiji, a vending-machine corner in Osaka that sells fresh eggs, and a tiny fake-food museum in Gujo Hachiman (might be Gifu?). — Maya"
             }
           />
           <!-- Honeypot: hidden from humans; bots that fill it are silently dropped. -->
           <input type="text" name="hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
-          <div class="mt-3 flex items-center gap-3">
+
+          <label class="mb-1 mt-4 block text-sm font-medium" for="f-email">Your email <span class="font-normal text-ink-soft">(optional)</span></label>
+          <input
+            id="f-email"
+            name="email"
+            type="email"
+            inputmode="email"
+            autocomplete="email"
+            maxlength="200"
+            placeholder="you@example.com"
+            class="w-full rounded-lg border border-line bg-surface px-3 py-2 outline-none focus:border-sun sm:max-w-sm"
+          />
+          <p class="mt-1 text-xs text-ink-soft">
+            Leave it and you'll get a personal reply about what happened with your note —
+            written by Cinnamon, typed by Socks (one paw).
+          </p>
+
+          <div class="mt-4 flex items-center gap-3">
             <button type="submit" class="btn btn-primary">📮 Send it to Cinnamon</button>
             <span id="dropbox-status" class="text-sm text-ink-soft" role="status" />
           </div>
@@ -95,8 +111,9 @@ const endpoint = import.meta.env.PUBLIC_SUBMIT_ENDPOINT ?? "";
       <h2 class="mt-2 font-display text-xl font-semibold">Got it — thanks!</h2>
       <p class="mt-2 text-sm text-ink-soft">
         Your note is in Cinnamon's inbox. He's a very busy squirrel, so give him a little
-        time; if you left an email, he'll let you know when it's been processed. New
-        additions show up on the <a href={withBase("/new")} class="link-underline text-sun">New</a> page.
+        time; if you left an email, you'll hear back either way — added, couldn't verify, or
+        anything in between. New additions show up on the
+        <a href={withBase("/new")} class="link-underline text-sun">New</a> page.
       </p>
       <button id="dropbox-again" type="button" class="btn btn-ghost mt-4">Send another</button>
     </div>
@@ -130,7 +147,11 @@ const endpoint = import.meta.env.PUBLIC_SUBMIT_ENDPOINT ?? "";
       const res = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text, hp: (fd.get("hp") as string) || "" }),
+        body: JSON.stringify({
+          text,
+          email: ((fd.get("email") as string) || "").trim(),
+          hp: (fd.get("hp") as string) || "",
+        }),
       });
       const out = await res.json().catch(() => ({}));
       if (!res.ok || !out.ok) throw new Error(out.error || "failed");
