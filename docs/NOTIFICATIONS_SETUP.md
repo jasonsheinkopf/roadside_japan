@@ -157,8 +157,11 @@ Already live in the Claude Code Routines UI. If you ever need to recreate it:
   >    clearly-verified only), HOLD (approval: pending, anything borderline), or REJECT; author
   >    full entries for PUBLISH/HOLD using the photo pipeline and the full Cinnamon block
   >    (`quote`, `emoji`, `report` field report per `docs/CINNAMON.md`, plus `visitorTip` when
-  >    the note included a recommendation); leave the structured triage comment on each issue,
-  >    apply labels, and close it; run `npm run data:validate && npm run build` and never push a
+  >    the note included a recommendation); leave the structured triage comment on each issue AS
+  >    A NEW COMMENT — NEVER by editing/replacing the issue's body, which holds the submitter's
+  >    original text and email (docs/INBOX.md §4 explains why this specific mistake silently
+  >    breaks the thank-you email); apply labels, and close it; run `npm run data:validate &&
+  >    npm run build` and never push a
   >    broken build; commit and push to `main`; author a personalized Cinnamon-voice thank-you
   >    email (docs/CINNAMON.md §5) and trigger `notify-submitter.yml` with
   >    `{ issue_number, body, subject }` for any processed issue that included an email;

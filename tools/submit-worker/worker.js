@@ -75,14 +75,16 @@ export default {
       `_Received ${new Date().toISOString()} via the Cinnamon Land submit page._`,
     ].join("\n");
 
+    const ghHeaders = {
+      Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+      "User-Agent": "cinnamon-land-inbox-worker",
+    };
+
     const gh = await fetch(`https://api.github.com/repos/${env.GITHUB_REPO}/issues`, {
       method: "POST",
-      headers: {
-        Authorization: `Bearer ${env.GITHUB_TOKEN}`,
-        Accept: "application/vnd.github+json",
-        "Content-Type": "application/json",
-        "User-Agent": "cinnamon-land-inbox-worker",
-      },
+      headers: ghHeaders,
       body: JSON.stringify({ title, body, labels: ["inbox"] }),
     });
 
@@ -90,6 +92,25 @@ export default {
       // Never leak GitHub error detail to the public.
       console.error("GitHub issue creation failed:", gh.status, await gh.text());
       return json({ ok: false, error: "could not save your note — please try again later" }, 502, cors);
+    }
+
+    // Belt-and-suspenders: also file the raw text as a COMMENT, not just the issue body.
+    // Triage occasionally needs to edit the body (to hold the structured triage report
+    // instead of appending it as a comment) — if that ever overwrites the original text,
+    // this comment is an untouched backup so the submitter's email/name isn't lost and
+    // notify-submitter.yml can still find it. Best-effort: a failure here never fails the
+    // visitor's submission.
+    try {
+      const issue = await gh.json();
+      await fetch(`https://api.github.com/repos/${env.GITHUB_REPO}/issues/${issue.number}/comments`, {
+        method: "POST",
+        headers: ghHeaders,
+        body: JSON.stringify({
+          body: "_Backup copy of the original submission (do not edit — notify-submitter.yml reads this if the issue body is ever changed):_\n\n```text\n" + text.replace(/```/g, "ʼʼʼ") + "\n```",
+        }),
+      });
+    } catch (err) {
+      console.error("Backup comment failed (non-fatal):", err);
     }
 
     return json({ ok: true }, 200, cors);

@@ -7,7 +7,13 @@ name: Notify submitter
 # itself, in Cinnamon's voice per docs/CINNAMON.md §5 (personalized thank-you, links to the
 # live entries, Socks-the-cat intro since the sending account is Socks's Gmail). This
 # workflow only delivers it. The recipient address never travels through inputs or logs:
-# the workflow reads the issue body itself and extracts the first email found there.
+# the workflow reads the issue's CURRENT body plus ALL its comments (in that order) and
+# extracts the first email address found anywhere in that combined text.
+#
+# Why comments too: triage protocol says to leave the report as a COMMENT and never
+# overwrite the original submission body — but if some future run gets that wrong anyway,
+# the submit-worker also files a backup copy of the raw text as a comment at intake time
+# (tools/submit-worker/worker.js), so the email survives even if the body is later replaced.
 #
 # Requires two Actions secrets (optional feature — without them the run skips politely):
 #   MAIL_USERNAME  Gmail address to send from (Socks's account)
@@ -44,7 +50,7 @@ jobs:
             echo "::notice::MAIL_USERNAME/MAIL_PASSWORD not configured — skipping email."
           fi
 
-      - name: Extract email from issue body
+      - name: Extract email from issue body + comments
         if: steps.gate.outputs.enabled == 'true'
         id: extract
         env:
@@ -53,9 +59,12 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           body="$(gh api "repos/$REPO/issues/$ISSUE" --jq .body)"
-          email="$(printf '%s' "$body" | grep -oE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' | head -1 || true)"
+          comments="$(gh api "repos/$REPO/issues/$ISSUE/comments" --jq '.[].body' 2>/dev/null || true)"
+          combined="$body
+          $comments"
+          email="$(printf '%s' "$combined" | grep -oE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' | head -1 || true)"
           if [ -z "$email" ]; then
-            echo "::notice::No email address found in issue #$ISSUE — nothing to send."
+            echo "::notice::No email address found in issue #$ISSUE (checked body + comments) — nothing to send."
           fi
           echo "email=$email" >> "$GITHUB_OUTPUT"
 

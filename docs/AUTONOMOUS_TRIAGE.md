@@ -113,8 +113,10 @@ wired). Model: **Sonnet** is fine for this. Steps:
    your research). If the submitter's note contained a genuine recommendation, carry it as
    `visitorTip: { text, by }`. Set `createdAt`/`updatedAt` to the **full ISO timestamp** (e.g.
    `2026-07-17T05:32:00Z`), not a bare date — `/new` orders entries to the minute. Leave the
-   structured triage comment on each issue, apply labels (`processed`, `added`,
-   `country:<slug>`, `spam`), and close it. Note each issue's **submitter name/handle**,
+   structured triage comment on each issue **as a new comment, never as a body edit** — see
+   `docs/INBOX.md` §4 for why this specific mistake breaks the thank-you email — apply
+   labels (`processed`, `added`, `country:<slug>`, `spam`), and close it. Note each issue's
+   **submitter name/handle**,
    **email if given**, and **the issue's `created_at` timestamp** — you'll need these for the
    report and the thank-you email.
 4. **New country?** If a submission warrants a country not yet in the atlas and it clearly
