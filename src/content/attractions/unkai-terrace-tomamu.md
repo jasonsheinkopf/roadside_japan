@@ -50,6 +50,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I drank cocoa above a sea of clouds at sunrise. The mountains poked through like islands. I felt infinite-ish."
   emoji: "☁️"
+  report: |-
+    Unkai Terrace is a dawn gamble: a gondola up a Tomamu mountainside before sunrise, hoping the valley below has filled with cloud overnight — and when it has, you step out onto platforms above an actual sea of clouds, white surf lapping at the ridgeline underfoot.
+
+    I hit it on a 'full sea' morning (roughly a one-in-three chance; the resort posts forecasts) and walked the Cloud Walk out over the white. The clouds move like slow water. The sun comes up and dyes the whole ocean peach. Nobody talks much. A man in hotel slippers stood next to me weeping gently into his coffee, which reviews confirm is a standard occurrence.
+
+    Gondolas run from before dawn, summer through early autumn. Book the night at Tomamu, set the alarm that hurts, gamble. The mornings it pays, it pays in oceans.
 ---
 
 Unkai means "sea of clouds," and this terrace on the flank of Mt. Tomamu exists for exactly one purpose: putting you above that sea at sunrise.

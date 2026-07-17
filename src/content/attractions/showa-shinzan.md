@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A volcano that grew out of a wheat field in two years, while the postmaster took notes. Heroic nerd."
   emoji: "🌋"
+  report: |-
+    In 1943, a Hokkaido wheat field started rising, and by 1945 it was a steaming red lava dome — Showa Shinzan, Japan's newest mountain, born in wartime secrecy while the local postmaster, Masao Mimatsu, measured its growth against a string because the government was too busy to document a whole new mountain.
+
+    His pencil-drawn growth charts (the 'Mimatsu Diagram') became internationally famous science, and his statue now faces the mountain he adopted. I sat at the statue's feet and looked where he looks: at a rust-red cone still steaming faintly, in a field that used to be flat.
+
+    The Usuzan ropeway next door gives you the dome, the lake, and the 2000 eruption scars in one ride. Mountains are usually older than everybody. Here, the grandmothers are older than the mountain. I love it here.
 ---
 
 Most mountains are unimaginably old. **Showa Shinzan** is not. Between **1943 and 1945**, in the middle of a flat wheat field near Lake Toya, the ground bulged, cracked, and heaved upward into a steaming red dome of lava — and people stood there and watched it happen.

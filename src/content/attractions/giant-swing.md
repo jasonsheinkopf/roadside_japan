@@ -32,6 +32,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "A giant red swing with no swing. The suspense is architectural."
   emoji: "⛩️"
+  report: |-
+    Old Bangkok keeps a 21-metre teak arch painted brilliant red, and the story is better than the structure: Brahmin priests once swung from it in a harvest rite, arcing up to snatch a bag of silver coins with their TEETH, until enough of them fell that the ceremony was banned in the 1930s.
+
+    I stood at the base of Sao Ching Cha doing the math in tail-lengths. The answer was: no. Even I, a creature whose entire career is swinging from tall wooden things, looked up and said no. And they did it in ceremonial dress.
+
+    The swing seat itself is long gone — just the frame remains, towering over the traffic by Wat Suthat (go inside; the Buddha there is magnificent). Respect to the ancestors of daredevilry. From the ground.
 ---
 
 Standing in a quiet square in front of Wat Suthat, the Giant Swing is one of Bangkok's most striking and least-understood landmarks. The current red teak structure is a careful reconstruction, but the ceremony it commemorates was real — and genuinely dangerous.

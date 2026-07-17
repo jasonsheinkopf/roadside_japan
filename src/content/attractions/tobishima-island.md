@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A tiny island of fishermen and seabirds. The cats supervise the harbor. I supervised the cats."
   emoji: "🐟"
+  report: |-
+    Tobishima is Yamagata's only inhabited island — an hour and change by ferry from Sakata, population small and salt-cured — with clear blue water over rock shelves, seabird cliffs, and a pace best measured in tides.
+
+    I crossed on the morning ferry (deck rail, wind in the whiskers, one professional-grade wave of nausea) and spent the day on island time: fishermen mending nets who nodded me aboard their crates, grilled just-caught fish at the harbor shack, a walk to the cliffs where black-tailed gulls run their colonies like loud municipalities.
+
+    There's not a list of 'sights' and that's the sight: an island that simply continues, ferry by ferry. Check sailing times (weather cancels), book the minshuku if staying, and let your phone die honorably. My tail smelled of salt for days. Five acorns, sea-rated.
 ---
 
 Out in the Japan Sea, about **75 minutes by ferry** from the port of Sakata, floats **Tobishima** — Yamagata's only inhabited offshore island, and one of its best-kept summer secrets.

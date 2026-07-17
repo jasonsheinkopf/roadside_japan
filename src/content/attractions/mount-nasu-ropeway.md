@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I rode the ropeway up a smoking volcano. The gondola swayed. My courage also swayed."
   emoji: "🚠"
+  report: |-
+    The Nasu Ropeway hauls you most of the way up Chausu-dake, the live volcano that runs the neighborhood, and leaves the last stretch to your own legs: a rocky scramble to a crater rim where steam vents hiss on one side and the whole Kanto plain unrolls on the other.
+
+    I rode the gondola roof-rail (window seats are for those who fit in them) and did the summit loop with a chain-grabbing section that the humans treat as drama and I treat as furniture. Up top, the wind auditioned me for a kite role again. The crater breathes. You can hear it if you stop crunching gravel.
+
+    Autumn turns the slopes to embers and doubles the crowd; early gondola beats it. An active volcano with public transit to the door — Japan remains undefeated.
 ---
 
 The **Nasu highlands** rise to a cluster of peaks topped by **Chausu-dake**, an **active volcano** that still vents sulfur from its summit. A **ropeway** does the hard early work, lifting you high up the mountain's flank in a few smooth minutes.

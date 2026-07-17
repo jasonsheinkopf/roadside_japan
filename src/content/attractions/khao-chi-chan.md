@@ -58,6 +58,12 @@ country: thailand
 cinnamon:
   quote: "A Buddha drawn in gold laser lines on a whole cliff. Boldest sketch I've ever seen."
   emoji: "🖼️"
+  report: |-
+    Khao Chi Chan is a Buddha 109 metres tall drawn on a cliff in laser-etched lines filled with gold — a whole mountain face turned into a serene line drawing, gazing out over a lake and lotus garden near Pattaya.
+
+    The backstory is my favorite kind: the cliff was scarred by quarrying, and instead of hiding it, they made it holy. I attempted to climb high enough to touch the gold line (research purposes) and was turned back by a whistle, a wagging finger, and my own conscience, in that order. Fair. Some art you measure in tail-lengths from a respectful distance: approximately 2,180.
+
+    Go late afternoon when the gold catches fire. The lotus pond frames it; the cows in the field beside it remain unimpressed, which is cows for you.
 ---
 
 Drive inland from Pattaya and a grey limestone mountain suddenly reveals an enormous **seated Buddha carved into its cliff face** — 109 metres tall and outlined in gold leaf and gold mosaic that glints for kilometres.

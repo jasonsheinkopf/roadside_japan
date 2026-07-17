@@ -28,6 +28,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "A temple with David Beckham carved into the altar. The monks have jokes. Divine ones."
   emoji: "⚽"
+  report: |-
+    Wat Pariwat is a working Bangkok temple whose artisans hid a joke with a thesis in the decoration: among the traditional guardians at the base of the main Buddha there's a small gilded David Beckham, added in the late '90s when a football-mad abbot agreed the era's most worshipped figure belonged among the icons.
+
+    Finding him is a proper hunt — the temple's carvings are dense with hundreds of figures, and the search reveals more cameos the guides will point out with glee (superheroes, cartoon characters, a whole visual argument that devotion absorbs its century).
+
+    I found Beckham in eleven minutes, a time I am told is competitive. The temple itself is lovely and quietly proud of its fame. Faith with a sense of humor and an archive of its own era: Bangkok in one lower-left corner.
 ---
 
 Most visitors come to Bangkok's temples for serenity. Wat Pariwat offers that too — plus a treasure hunt. Look closely at the riot of carved and gilded detail around the ordination hall and you'll start finding cartoon characters, superheroes, and a tiny golden David Beckham, added by craftsmen with a sense of humour.

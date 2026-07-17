@@ -51,6 +51,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A quiet garden that remembers Tokyo's hardest days. I sat with the pigeons and was thankful."
   emoji: "🕊️"
+  report: |-
+    Yokoamicho Park is the quietest place in Sumida and carries the heaviest load: on this spot, in the 1923 earthquake's firestorm, roughly 44,000 people died in a single night. The Memorial Hall holds their ashes, and later, the ashes of the 1945 air-raid dead joined them — one small park keeping Tokyo's two worst nights.
+
+    I came the way I hope visitors do: unhurried, in the morning, with nothing else planned after. The hall's paintings and the small museum tell it plainly; the flower stands outside are never empty; the pigeons conduct themselves, somehow, appropriately.
+
+    It's ten minutes from the sumo arena and the museums, and it belongs on the same walk — the neighborhood's joy and its memory hold hands here. Bow, learn, sit under the ginkgos a while. Some parks are parks. This one is a promise.
 ---
 
 A green, unassuming park a few minutes from the sumo stadium that turns out to sit on one of the heaviest pieces of ground in Tokyo.

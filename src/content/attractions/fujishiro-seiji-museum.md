@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Shadow art that glows like candy. I floated out of there, frankly."
   emoji: "🌈"
+  report: |-
+    I followed a cat statue's gaze through a garden in Nasu — always follow a cat statue's gaze, they place those deliberately — and found the Fujishiro Seiji Museum, a theater of glowing shadow art.
+
+    Fujishiro's 'kage-e' are cut-paper worlds lit from behind: jewel-colored fairytale scenes with silhouetted children, foxes, and cathedrals of light. It sounds gentle and it is, but stand in the dark hall where the big panoramas glow and it goes right past gentle into quietly overwhelming. He worked into his nineties. It shows — the late rooms are the brightest.
+
+    The humans here whisper without being asked. Water lilies float in the entrance pools. Loses one acorn only because the gift shop postcards cannot glow, an unfair standard, but I hold it.
 ---
 
 Of all the Nasu highland museums, the **Fujishiro Seiji Museum** is the most quietly enchanting. It's devoted to **Seiji Fujishiro**, a master of **kage-e** — backlit cut-paper "shadow pictures" — whose fairytale scenes glow with the saturated color of stained glass.

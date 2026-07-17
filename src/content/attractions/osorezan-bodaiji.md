@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Mount Fear: sulfur, gray stones, and a lake like the world's edge. Beautiful in a way that hushes you."
   emoji: "🌫️"
+  report: |-
+    Osorezan — Mount Fear — is a Buddhist temple in a volcanic wasteland that Japanese tradition names the gateway to the afterlife: sulfur vents bubbling through gray rock, stone cairns stacked by grieving hands, pinwheels spinning for children who died too young, and a lake of the softest, most impossible milky blue at the center of it all.
+
+    I have been to loud sacred places and quiet ones. Osorezan is the quietest. The pinwheels tick in the wind and that's the whole soundtrack. I added a pebble to a cairn with both paws and it felt like the most important thing I'd done all month.
+
+    Itako mediums channel the dead at the summer festival; the temple bath is free with entry (sulfurous, ancient, real). Go respectfully or not at all. Some borders you visit only as a guest.
 ---
 
 At the top of Aomori's lonely Shimokita Peninsula, the land turns the color of brimstone and the air fills with the rotten-egg reek of sulfur. The Japanese named this place **Osorezan** — "Mount Dread" — and for over a thousand years it has been considered one of the gateways between this world and the next.

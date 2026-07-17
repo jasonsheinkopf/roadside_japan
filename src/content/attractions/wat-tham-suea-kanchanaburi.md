@@ -27,6 +27,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Tiger Cave Temple's giant golden Buddha shines over the rice fields. I took the dragon staircase. Obviously."
   emoji: "🐅"
+  report: |-
+    Kanchanaburi's Tiger Cave Temple crowns a hill with an enormous seated golden Buddha and earns your arrival: a steep dragon-railed stairway (or a small funicular for the honest) up to terraces overlooking a quilt of rice fields and the Mae Klong dam, luminous green in the growing season.
+
+    I took the dragon rail itself, hand over hand up the balustrade — the builders left a perfect squirrel route and I choose to believe it was intentional. Up top, the Buddha's gold catches the afternoon like a second sun, and the wind arrives with field-smell and temple bells.
+
+    It pairs with the Death Railway sites for a Kanchanaburi day of very different altitudes, historical and literal. Late afternoon light is the one you want. The cave itself, below, keeps its shrines cool and its bats opinionated.
 ---
 
 Not to be confused with Krabi's temple of the same name, Kanchanaburi's Wat Tham Suea sits on a hill above the Mae Klong, dominated by a vast golden seated Buddha that can be seen for miles across the plain.

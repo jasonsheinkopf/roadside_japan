@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The cranes dance in the snow like living calligraphy. I bowed. One bowed back. We're engaged now, possibly."
   emoji: "🦢"
+  report: |-
+    In deep winter, the red-crowned cranes of eastern Hokkaido gather at Tsurui's feeding fields — white-and-black birds tall as doorways, red crowns blazing against the snow, pausing mid-forage to DANCE: bowing, leaping, wings wide, in pairs that mate for life.
+
+    I watched from a fence post at the Ito Sanctuary with a row of photographers whose lenses cost more than cars. When two cranes began their duet ten metres away, every shutter went off like sleet and I forgot to chew the entire time, a personal first.
+
+    The species came back from near-extinction — a few dozen birds in the 1920s to over a thousand now — because farmers here started feeding them through the war winters and never stopped. December–February, mornings, minus-twenty; dress like an expedition. The dance is worth every degree.
 ---
 
 The **red-crowned crane** — *tancho* — is one of the rarest cranes on Earth and a symbol of luck and long life in Japan. Once nearly extinct here, a small population was saved in the marshes of eastern Hokkaido, and each winter they gather near **Tsurui** to feed in the snow.

@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "I held up a painted pyramid with one paw. Photographic proof of my enormous strength exists."
   emoji: "🎨"
+  report: |-
+    The Nasu Trick Art Museum is a gallery where the paintings fight back: sharks lunge out of frames, cliffs open under your feet, and the Mona Lisa extends a hand — all painted flat, all lying to your eyes with great skill.
+
+    Trick art is calibrated for human height, so at squirrel scale some illusions collapse and others get STRONGER, which effectively means I toured a secret second museum no one else can see. The shark ate me convincingly. The 'floating' room made me grip a floor that was, embarrassingly, fine.
+
+    Bring a companion to take photos or the whole exercise is philosophy. Families and teens shriek through it; couples get competitive about angles. Silly, cheerful, genuinely clever craft. The Mona Lisa and I shook hands. Her grip is painted, but firm.
 ---
 
 Among the cluster of quirky **Nasu highland** museums is one built entirely around fooling your eyes: the **Nasu Trick Art Museum**, where flat paintings leap into apparent 3D the moment you stand on the right spot and point a camera.

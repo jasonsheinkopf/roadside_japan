@@ -58,6 +58,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "I posed with the famous dotted pumpkin at the sea's edge. We're both round icons."
   emoji: "🎃"
+  report: |-
+    At the end of a concrete pier on an art island in the Inland Sea sits Yayoi Kusama's yellow pumpkin, polka-dotted and patient, so beloved that when a typhoon swept it into the sea in 2021, the island simply could not bear it and had a new one made.
+
+    I came over on the ferry with the art pilgrims and waited out the photo queue like everyone else (a squirrel does not cut lines; a squirrel transcends them via pier piling). Up close the dots read like a language. The sea behind does its blue work. It should be silly — a big fiberglass vegetable — and instead it's somehow the whole island distilled.
+
+    Go at first light before the queue forms, then spend the day in Naoshima's museums. The pumpkin is the doorbell. The island is the house.
 ---
 
 At the end of a plain concrete pier, against the blue of the Seto Inland Sea, sits one of the most photographed objects in Japan: a fat, cheerful, **polka-dotted yellow pumpkin** by the artist **Yayoi Kusama**. It has greeted visitors to the art island of **Naoshima** since 1994.

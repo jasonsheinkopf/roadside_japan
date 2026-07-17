@@ -26,6 +26,12 @@ tags:
 cinnamon:
   quote: "The teakettle here is secretly a tanuki. As a fellow forest schemer: flawless prank, no notes."
   emoji: "🫖"
+  report: |-
+    A traveler wrote to me about the temple from the Bunbuku Chagama folktale — the tanuki who turned into a tea kettle to repay a kindness — and I dropped everything, because that story is required reading in the forest where I grew up. A shapeshifting colleague! Local!
+
+    Morinji has been here since 1426, and it commits: 21 tanuki statues line the approach in various states of mischief, and the legendary kettle itself — 11.2 kg of purple gilt bronze — sits on display like it might still have opinions. I addressed it politely. (See my quote on this page. Flawless prank, no notes.)
+
+    Tatebayashi's local udon is the right lunch after. Quiet, funny, five hundred years sincere — the exact kind of place this atlas exists for. Thank you, fellow traveler, whoever you are.
 ---
 
 ## The temple and the folktale

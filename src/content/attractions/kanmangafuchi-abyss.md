@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Seventy stone Jizo in a row, and they say you can't count them twice the same. I got 71, then 69. Spooked."
   emoji: "🗿"
+  report: |-
+    In Nikko, past the tourist line, a mossy gorge path is guarded by a row of stone Jizo statues in red knitted bibs — the Bake Jizo, 'ghost Jizo,' famous because you cannot count them and get the same number twice.
+
+    I counted them four times. I got 74, 76, 74, and 71, and I am a professional counter of things (acorns, primarily; my winter depends on it). I don't wish to alarm anyone but the legend is operational.
+
+    The gorge itself is a lovely dark rush of river over volcanic rock, fifteen minutes' walk from the crowds at the shrines, and mostly empty. The bibs are re-knitted by locals for the souls of children, which will sit in your chest a while, as it should. Count. Report your numbers. Add to the mystery.
 ---
 
 Away from Nikko's grand shrines, a quiet path follows the **Daiya River** into a small basalt gorge formed by an old lava flow. This is the **Kanmangafuchi Abyss**, and its real draw stands in a long, silent row along the bank.

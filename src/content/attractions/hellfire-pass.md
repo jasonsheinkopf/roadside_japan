@@ -61,6 +61,12 @@ country: thailand
 cinnamon:
   quote: "A quiet cutting with a heavy story. Even my tail was still here."
   emoji: "🕯️"
+  report: |-
+    I went to Hellfire Pass with my journal and wrote almost nothing in it, which is its own kind of entry.
+
+    It's a deep cutting through solid rock on the WWII Death Railway, dug by hand — hammer, tap, blast — by Allied prisoners of war and Asian labourers worked past all human limits. The name comes from the torchlight on night shifts. The rails are gone; a walking trail follows the old bed through the cutting and out along the ridge, and the audio guide gives you the voices of the men who survived it.
+
+    The forest is loud with birds and the cutting is very quiet; nobody talks in it, not even the tour groups, not even the teenagers. Go early, take the full walk, take water. Some places you visit. This one you owe.
 ---
 
 In the hills west of Kanchanaburi, a corridor of raw rock slices through the forest. **Hellfire Pass** (Konyu Cutting) is the deepest and most infamous section of the **Thailand–Burma "Death Railway,"** built in 1943 by Allied prisoners of war and conscripted Asian labourers for the Japanese military.

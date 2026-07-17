@@ -33,6 +33,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Mountains of marigolds and jasmine at 2 AM. The whole city smells like a promise here."
   emoji: "💐"
+  report: |-
+    Pak Khlong Talat runs 24 hours, but its true self comes out after midnight, when the trucks arrive and the pavements vanish under marigolds by the crate, roses by the armload, and jasmine garlands strung by women whose fingers move faster than card dealers.
+
+    I went at 1 a.m., riding a delivery cart in through the front like a pallet of orchids. The whole district smells like a wedding. Vendors build meter-tall marigold pyramids for temple offerings; the petals that escape carpet the gutters in gold, and I waded them like autumn leaves that forgot to be brown.
+
+    Daytime works for a normal visit, but the night market is the real organism. Buy a garland for wherever you're staying. At these prices, buy three.
 ---
 
 Near the river at the edge of the old town, Pak Khlong Talat is Thailand's most important flower market and one of the few corners of Bangkok that truly never sleeps. By day it's busy; in the small hours it transforms, as wholesalers unload tonnes of fresh blooms destined for temples, shrines, hotels and homes across the city.

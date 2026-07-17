@@ -68,7 +68,9 @@ Visit`, `## Getting There`.
 | `aiKeywords`    | string[] = `[]`                             | Boost search; merged into the record's keywords. |
 | `featured`      | boolean = `false`                           | Surfaces on the homepage. |
 | `related`       | reference(attractions)[] = `[]`             | Explicit related slugs; nearby fills the rest. |
-| `createdAt`     | date = now                                  | Drives "Newest". |
+| `cinnamon`      | `{ quote, emoji, report? }`                 | The mascot block (see `docs/CINNAMON.md`): scene one-liner + emoji, and `report` = his multi-paragraph first-person field report shown under "Cinnamon was here". |
+| `visitorTip`    | `{ text, by = "a fellow traveler" }`        | A recommendation passed along by the submitter, credited by handle (never an email). Renders inside the field report card. |
+| `createdAt`     | date = now                                  | Drives "Newest". Use a **full ISO timestamp** — `/new` orders same-day entries to the minute. |
 | `updatedAt`     | date = now                                  | "Last updated". |
 
 ### Event-only fields

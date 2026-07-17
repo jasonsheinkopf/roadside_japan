@@ -28,6 +28,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "The monkeys here are professionals. They unzipped a tourist's bag in 4 seconds flat. Athletes."
   emoji: "🐒"
+  report: |-
+    Khao Ngu is what a landscape does after the humans stop taking bites of it: a limestone quarry left to flood, now emerald pools under sheer cliffs, with an ancient Dvaravati-era Buddha carved high on one rock face, reached by a stairway and a footbridge over the water.
+
+    I climbed to the relief carving (stairs for the humans, the direct route for me) and sat with a Buddha that has watched this valley since before anyone alive can trace. Below, teenagers fed catfish the size of dachshunds and monkeys ran the picnic tables like a protection racket.
+
+    It's a local park, not a polished attraction — small entry fee, big sky, snack stands. Guard your bags from the monkeys; they have a system. The quarry-to-sanctuary arc gets a full acorn salute from me.
 ---
 
 Where stone was once blasted out for cement, Ratchaburi has made something unexpectedly lovely: a quiet park of jade-green quarry lakes ringed by pale cliffs, dotted with picnic spots and walking paths.

@@ -53,6 +53,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Fireworks over the harbor almost every week. Yokohama really said 'Tuesday? Fireworks.' My kind of city."
   emoji: "🎆"
+  report: |-
+    Yokohama Night Flowers is fireworks as a habit instead of an event: free five-minute bursts over the harbor on scattered weekend nights, spring through autumn — no festival crush, no tickets, just the city glancing up from dinner as the sky briefly agrees to be spectacular.
+
+    I caught one from the Osanbashi pier deck, wedged between a couple on a date and a man walking a beagle who howled the finale in harmony. Five minutes is the genius of it: long enough to gasp, short enough to leave everyone mid-smile, and the Minato Mirai skyline does the afterglow.
+
+    Check the schedule online, arrive fifteen minutes early, anywhere with harbor sightlines works. It's the anti-Atami — a whisper instead of a roar — and Yokohama's way of keeping Friday nights slightly enchanted. City-planning by sparkle.
 ---
 
 Yokohama's answer to a single big annual fireworks night is the opposite approach: a dozen small, free shows scattered across the year, so there's a good chance one lands on whatever weekend you happen to be in town.

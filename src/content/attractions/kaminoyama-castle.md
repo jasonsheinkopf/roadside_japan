@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A castle with an onsen footbath at the bottom. Siege planning, then toe soup."
   emoji: "🏯"
+  report: |-
+    Kaminoyama does a thing I wish more towns did: a storybook white castle keep on the hill, and free hot-spring footbaths scattered through the streets below, so you tour history and then boil your feet about it.
+
+    I took the castle first — the keep is a reconstruction with a museum inside and a fine view of the Zao range from the top floor, where I pressed against the glass doing mountain inventory. Then down into the 560-year-old onsen town for the footbath circuit. A row of farmers, two tourists, and one squirrel, all sighing at different registers. My tail floated. Nobody made it weird.
+
+    It's a low-key stop on the way to bigger Yamagata names, which is exactly its charm. Castles: good. Free hot water: better. Both in one afternoon: Kaminoyama.
 ---
 
 On the Yamagata Shinkansen line, the town of **Kaminoyama** pairs two very pleasant things: a **white castle** on a hill and a **560-year-old hot spring** in the streets below.

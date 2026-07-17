@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "The capybaras have their own onsen. I have never respected anyone more."
   emoji: "🦫"
+  report: |-
+    Nasu Animal Kingdom's winter headline is capybaras soaking in a hot spring with yuzu floating around their enormous calm faces, and I am here to certify: it is exactly as advertised, and better with the sound on — they hum.
+
+    Elsewhere the park runs generous: hand-feeding, free-roaming birds and alpacas in the walk-through zones, and a raptor show where a hawk buzzes the crowd low enough to part hair. During the flight demonstration I experienced a moment of ancient, cellular panic (hawk! HAWK!) followed by professional admiration. Both accurate.
+
+    It's spread over a highland hillside — shuttle between the two zones, wear real shoes. Winter for the bathing capybaras, any season for the general attitude, which is: animals first, humans lucky. Correct attitude. Full acorns.
 ---
 
 Up in the cool **Nasu highlands**, a short hop from the volcano and the hot springs, sprawls one of Tochigi's most enjoyable family stops: **Nasu Animal Kingdom**, a zoo built around getting **close** to the animals.

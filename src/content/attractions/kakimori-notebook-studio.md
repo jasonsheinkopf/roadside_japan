@@ -46,6 +46,12 @@ updatedAt: 2026-07-04
 cinnamon:
   quote: "I built my own notebook, page by page. It's for acorn accounting. Volume one."
   emoji: "📓"
+  report: |-
+    At Kakimori in Kuramae you build your own notebook: choose the cover, the papers, the binding, the closure, and watch them ring-bind it while you wait. Then next door you can mix a bottle of ink to your own personal color.
+
+    I keep the atlas's field journals, so this was less shopping and more equipment procurement. I chose a bark-brown cover, mixed-weight pages (sketching AND ranting), and a copper ring binding. For the ink I mixed acorn-cap brown with a drop of torii red, and the ink man held it to the light and said 'autumn.' I nearly wept into the sample jar.
+
+    Budget an hour and more money than seems sane for paper; the humans all overspend and float out happy. My notebook is the one this report was drafted in. It performs beautifully.
 ---
 
 Kuramae has quietly become one of Tokyo's best "old warehouse district turned maker's neighborhood" walks, and Kakimori — open since 2010 — is the anchor most people come for.

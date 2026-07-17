@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The orcas splashed the front rows on purpose. I sat in row two. Bold choice."
   emoji: "🐋"
+  report: |-
+    Orcas leaping against the open Pacific — that's Kamogawa Sea World's headline act, and the stadium's splash zone operates with the honesty of a posted natural disaster.
+
+    I took a seat in row two, which for a creature my size is not a splash zone but a full weather event. An orca the size of a bus did a barrel roll, the ocean came to visit, and I finished the show as a much smaller-looking, extremely alive squirrel gripping a stranger's umbrella spoke. Worth it. WORTH IT.
+
+    Between shows: belugas squeaking like rusty doors (relatable), a walk-through polar exhibit, and the actual sea right there behind the tanks, which keeps the whole thing honest. Families mob it on weekends. Dry seats exist for cowards, and I say that with love, from experience, while wringing out my tail.
 ---
 
 On the Pacific edge of the Boso Peninsula, **Kamogawa Sea World** does what few aquariums can: it stages a full-power **orca show** with the real ocean shimmering just beyond the pool, so the leaping killer whales seem to launch straight out of the sea.

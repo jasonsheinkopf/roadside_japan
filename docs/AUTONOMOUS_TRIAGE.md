@@ -107,20 +107,28 @@ wired). Model: **Sonnet** is fine for this. Steps:
    but possible on a manual/backstop run) → send a short "nothing to do" LINE message (§5) and
    stop; don't write a whole report for nothing.
 3. **Process each** per `docs/INBOX.md` §1–§4 **and** the safety gate above, choosing
-   PUBLISH / HOLD / REJECT. Author full entries (frontmatter + photo pipeline + `cinnamon`
-   block) for PUBLISH and HOLD. Leave the structured triage comment on each issue, apply
-   labels (`processed`, `added`, `country:<slug>`, `spam`), and close it. Note each issue's
-   **submitter name/handle**, **email if given**, and **the issue's `created_at` timestamp** —
-   you'll need these for the report.
+   PUBLISH / HOLD / REJECT. Author full entries for PUBLISH and HOLD — frontmatter, photo
+   pipeline, **and the complete Cinnamon block per `docs/CINNAMON.md`**: `quote`, `emoji`,
+   and the **field report** (`cinnamon.report`, §3 there — his first-person story grounded in
+   your research). If the submitter's note contained a genuine recommendation, carry it as
+   `visitorTip: { text, by }`. Set `createdAt`/`updatedAt` to the **full ISO timestamp** (e.g.
+   `2026-07-17T05:32:00Z`), not a bare date — `/new` orders entries to the minute. Leave the
+   structured triage comment on each issue, apply labels (`processed`, `added`,
+   `country:<slug>`, `spam`), and close it. Note each issue's **submitter name/handle**,
+   **email if given**, and **the issue's `created_at` timestamp** — you'll need these for the
+   report and the thank-you email.
 4. **New country?** If a submission warrants a country not yet in the atlas and it clearly
    passes, follow AGENTS.md "Add a country." If it's borderline, HOLD the places and note it.
 5. **Verify the build.** `npm run data:validate && npm run build`. If the build fails, **do not
    push broken content** — revert the entries to `pending` or drop them, and report the failure.
 6. **Commit & push** to `main`. Use a clear message, e.g.
    `Automated inbox triage: +2 published, 1 held, 1 skipped`.
-7. **Notify submitters.** For each processed issue that contained an email, trigger
-   `notify-submitter.yml` (`actions_run_trigger`) with the issue number and a one-line human
-   summary, per `docs/INBOX.md` §5. (It self-skips if mail secrets aren't set.)
+7. **Notify submitters.** For each processed issue that contained an email, **author a
+   personalized thank-you email in Cinnamon's voice** per `docs/CINNAMON.md` §5 — reference
+   what they actually asked for, one concrete detail from the field report you just wrote,
+   links to each live entry, the Socks-the-cat intro, under ~180 words — then trigger
+   `notify-submitter.yml` (`actions_run_trigger`, `run_workflow`) with
+   `inputs: { issue_number, body, subject }`. (It self-skips if mail secrets aren't set.)
 8. **Update the report file** `tools/reports/latest.json` (§4) — this is now just the backstop's
    data source (audit trail + "did today's automation actually run" signal), not the primary
    notification path.

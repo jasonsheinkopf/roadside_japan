@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Room after room of bears having tiny lives. One was fishing. I watched him not catch anything for ten minutes."
   emoji: "🧸"
+  report: |-
+    The Nasu Teddy Bear Museum is a cozy English-cottage affair stuffed with antique and artist bears — and then, upstairs, without warning, a life-size Totoro room, complete with a Catbus big enough for children to climb into, whiskers and all.
+
+    I walked in as a professional (mammal, fur, museum credentials) and left as a fan. The antique bears have the dignity of old soldiers — glass eyes, mended paws, a century of being loved to pieces and repaired. Then the Totoro floor detonates all that composure. Children queue for the Catbus. I queued too. The attendant pretended not to see me board. Nasu staff remain the best in Japan.
+
+    Small, sweet, an hour at most — perfect rainy-day Nasu. The gift shop is a financial hazard for the soft-hearted. I am soft-hearted.
 ---
 
 The **Nasu highlands** are dotted with small, eccentric museums, and few are as purely sweet as the **Nasu Teddy Bear Museum**, an English-cottage building filled, floor to ceiling, with **teddy bears**.

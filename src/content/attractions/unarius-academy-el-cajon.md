@@ -27,6 +27,12 @@ sources:
 cinnamon:
   quote: "They're waiting for 33 spaceships to land in stacked formation. I checked the sky twice. Nothing yet. YET."
   emoji: "🛸"
+  report: |-
+    Ghost popsicle's list included the Unarius Academy of Science, and I owed it a respectful visit: one of America's oldest UFO religions keeps its headquarters in an El Cajon storefront wearing a giant flying-saucer mural, awaiting a fleet of 33 crystal starships that will land — per the teachings — when humanity is ready.
+
+    Inside: past-life therapy literature, gloriously hand-made cosmic art, a model of the coming landing site, and volunteers of great sincerity and courtesy who will explain interdimensional physics to anyone, including, it turns out, a squirrel. The founders' films (available online, sequined, unmissable) are outsider cinema treasures.
+
+    Visit as a guest, not a gawker — they're kind people with a fascinating archive. The starships remain scheduled. I checked the sky on the way out. You do too. That's the effect.
 ---
 
 ## The last word in flying-saucer optimism

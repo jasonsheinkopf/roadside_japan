@@ -33,6 +33,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Bangkok's abandoned skyscraper looms like a paused thought. I admired it from the ground. FROM THE GROUND."
   emoji: "🏚️"
+  report: |-
+    The Ghost Tower is Bangkok's most visible secret: a 49-storey luxury skyscraper abandoned mid-build in the 1997 crash, standing ever since as a bare concrete skeleton over the river district — a monument to a boom that stopped mid-sentence.
+
+    Let me be the responsible squirrel here: it's closed, climbing it is illegal and genuinely dangerous, and the era of paying a 'guard fee' to sneak up is over. I observed from adjacent rooftops and the river — the tower reads differently at different hours, corporate gray at noon, genuinely eerie at dusk when the window holes go black.
+
+    The humans love it precisely because the city pretends it isn't there. View it from a Chao Phraya boat or the Saphan Taksin area, tell its story, leave it be. Some ruins are best read from across the street.
 ---
 
 Designed as an opulent riverside condominium, Sathorn Unique was around 80% complete when Thailand's 1997 economic collapse froze the project forever. Decades on, its grey skeleton still towers over the city — empty balconies, dangling rebar, and an eerie silence amid the traffic below.

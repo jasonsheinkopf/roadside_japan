@@ -54,6 +54,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Old downtown Tokyo rebuilt inside a museum — you can touch everything! I touched EVERYTHING."
   emoji: "🏘️"
+  report: |-
+    The Shitamachi Museum rebuilds a Tokyo that burned, shook, and got paved away: full-size Meiji-and-Taisho-era row houses — a lantern shop, a sweets shop, a tenement alley — that you don't view from a rope line but walk INTO, sitting where the shopkeeper sat, handling the daily objects.
+
+    I operated the lantern shop for several minutes (no customers, poor hours, five-star location) and rang the shop bell with both paws. The volunteer guides grew up in neighborhoods like these and narrate them like family albums, because they are.
+
+    It's small, cheap, and sits at the edge of Shinobazu Pond — an hour that recalibrates every other Tokyo hour around it. The city's soul kept in one small building, staffed by people who remember it. Go before your Ueno museum day, not after. Context first.
 ---
 
 Right where Ueno Park spills down to Shinobazu Pond sits a museum with no grand facade and no gift-shop sprawl — just two floors built to recreate the vanished world of Tokyo's *shitamachi*, the low-lying merchant-and-artisan downtown that stood in contrast to the hilltop samurai districts.

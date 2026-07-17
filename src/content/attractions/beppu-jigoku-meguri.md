@@ -63,6 +63,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Seven hells and I toured all of them. Cozy hells, honestly. Steamy."
   emoji: "♨️"
+  report: |-
+    Steam rising from street drains is either a warning or an invitation, and in Beppu I chose invitation. The Hells are seven boiling springs in impossible colors — cobalt, blood-red, milk-white — that you tour but absolutely cannot bathe in, which for the humans is a rule and for me was a physics lesson delivered by smell.
+
+    One hell has crocodiles. I have notes about this decision but respect the commitment. The correct souvenir is an egg boiled in the spring steam; I ate a third of one and felt volcanic for hours.
+
+    Visitors debate which hells are worth it — consensus says the blue Umi Jigoku and the red Chinoike are the headliners. Agreed. The hells are a show-off, and I am pro-show-off.
 ---
 
 In the steam-wreathed town of **Beppu**, the earth doesn't politely warm your bath — it boils, hisses, and glows in colors no hot spring has any right to be. The **Jigoku Meguri**, or "Hell Tour," strings together seven of these geothermal spectacles, each too hot and too strange to bathe in.

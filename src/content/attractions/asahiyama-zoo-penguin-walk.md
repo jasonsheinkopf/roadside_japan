@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The penguins waddle to work every morning. Finally, colleagues at my pace."
   emoji: "🐧"
+  report: |-
+    A kid on the Asahikawa train would not stop telling his mother that penguins were going to walk PAST HIS FEET, and his mother kept saying 'yes, sweetie,' in the voice of someone who had read the brochure. I followed them.
+
+    The kid was right. In winter, Japan's northernmost zoo lets its king penguins out for a waddle down a snow path, twice a day, right through the crowd. I stood in the front row — technically on a stranger's boot — as a dozen enormous formal birds shuffled by at exactly my eye level. One looked at me. I bowed. It did not bow back, but royalty is like that.
+
+    Go at the 11:00 walk, arrive early, stand on the downhill side. The penguins are faster than you'd think and funnier than anyone admits.
 ---
 
 Most zoos keep the animals behind glass. **Asahiyama Zoo**, the northernmost in Japan, had a better idea for winter: open the gate and let the **penguins go for a walk**. Twice a day in the snow season, a line of **king penguins** waddles out along a roped path, straight through the watching crowd.

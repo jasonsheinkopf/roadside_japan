@@ -48,6 +48,12 @@ updatedAt: 2026-07-16
 cinnamon:
   quote: "A pink tower with a dragon wrapped around all 17 floors. You can walk INSIDE the dragon. I did. Twice."
   emoji: "🐉"
+  report: |-
+    Wat Samphran is a 17-storey bubblegum-pink cylinder with an enormous green dragon coiled around its full height, and the dragon is HOLLOW — its body is a staircase, and you climb to the roof through the inside of the beast.
+
+    I have climbed many things for this atlas. Climbing a dragon remains the résumé line. (See my quote: I did it twice. I have since returned and made it three.) The interior is raw and echoing, dragon-rib windows lighting the spiral; the roof gives you the dragon's head at eye level, jaws open over the countryside, plus a giant bell and the general feeling of having ascended inside a myth.
+
+    It's a working temple with monks and worshippers — dress and behave accordingly; the pink is festive, the faith is real. An hour from Bangkok. No notes. Flawless beast.
 ---
 
 There is no gentle way to describe Wat Samphran: it is a seventeen-story pink cylinder with a dragon the size of a train wrapped around it, forty minutes from Bangkok, and hardly any tourists know it exists.

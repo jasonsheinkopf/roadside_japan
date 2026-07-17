@@ -28,6 +28,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "I stood in the tilted room and my tail could not cope. Photos or it didn't happen. There are photos."
   emoji: "🌀"
+  report: |-
+    The Museum of Illusions is Bangkok's funhouse of optical treachery: an Ames room that grows and shrinks whoever walks its corners, an infinity room, a tilted room that argues with your inner ear and wins, and photo setups where your friends dangle you off buildings.
+
+    As a creature whose survival depends on accurately judging distances, I found the tilted room PERSONALLY OFFENSIVE and did four laps. In the Ames room I achieved, briefly, the size of a large dog, and I want witnesses to know I used the power benevolently.
+
+    It's small-ish, air-conditioned, and best with at least one other person to photograph and betray. Rainy-afternoon perfect. The vending machine outside spoke and I left at speed, but that's on me, not the museum.
 ---
 
 Part of an international chain but reliably good fun, the Museum of Illusions packs a couple of floors with holograms, perspective tricks, a vortex tunnel, an infinity room, and the classic Ames room that makes one person tower over another.

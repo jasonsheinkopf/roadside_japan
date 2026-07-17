@@ -27,6 +27,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Alleys of shrine smoke, motor parts, and street art. I turned six corners and found six different centuries."
   emoji: "🛵"
+  report: |-
+    Talat Noi is Bangkok's riverside old town doing several centuries at once: a Chinese shrine community over a hundred years deep, workshops disassembling engines into artful rust piles, street murals around every third corner, and lanes narrow enough that I qualified as traffic.
+
+    I spent a day as a alley connoisseur: incense at the Hokkien shrine, an hour watching a mechanic reduce a gearbox to its alphabet, coffee shops hiding in ancestral houses (I was granted foam). The famous rusted VW van and the mural walls pull the cameras, but the neighborhood's actual texture — laundry, shrines, grease, jasmine — is the exhibit.
+
+    Walk it slow, morning or late afternoon, and let yourself get lost; it's small enough that lost lasts twenty minutes and pays out every time. Cities keep their memory in lanes like these.
 ---
 
 Wedged between Chinatown and the Chao Phraya, Talat Noi ("little market") is a maze of lanes where scrap-metal and engine-part workshops spill onto the pavement, old shophouses lean together, and a Portuguese-era Catholic church and a Hokkien shrine sit minutes apart. In recent years it's become a canvas for some of the city's best street art.

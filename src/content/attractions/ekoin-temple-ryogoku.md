@@ -44,6 +44,12 @@ updatedAt: 2026-07-04
 cinnamon:
   quote: "A temple with a memorial for pets! I left an acorn for the good boys."
   emoji: "🐾"
+  report: |-
+    Sumo's ghosts led me to Ekoin. The temple was founded after the great fire of 1657 killed a hundred thousand people — a temple for everyone with no one to mourn them, which is the kindest founding purpose I've ever written down. For 76 years its yard hosted the sumo tournaments that became the professional sport up the road.
+
+    I paid my respects properly, and then I visited the grave of Nezumi Kozo, the Edo thief nicknamed 'Rat Kid' who stole from samurai mansions. Gamblers still shave chips off his tombstone for luck. As a rodent-adjacent professional I left him an acorn instead. Take, don't always shave.
+
+    Quiet, ten minutes from the sumo arena, and holding more Tokyo history per square metre than places ten times its size.
 ---
 
 Tucked a few minutes from the sumo stadium, Ekoin is easy to walk past — and packed with more layered history than almost anywhere else in Ryogoku.

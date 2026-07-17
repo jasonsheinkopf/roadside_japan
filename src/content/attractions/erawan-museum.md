@@ -49,6 +49,12 @@ updatedAt: 2026-07-15
 cinnamon:
   quote: "A three-headed elephant the size of a building. I bowed three times. Math."
   emoji: "🐘"
+  report: |-
+    You can see the three-headed elephant from the expressway — fourteen storeys of bronze animal standing on a pink museum like the world's most confident hood ornament — and I made the humans in my train carriage aware of it loudly.
+
+    At the Erawan Museum you climb a spiral staircase inside one of the hind legs (a staircase! in a leg!) up into the elephant's belly, which holds a serene sky-painted shrine. The stained glass on the way up would embarrass some cathedrals. I ascended by banister, descended by the other leg, and considered the whole day a triumph of both architecture and zoology.
+
+    The humans downstairs mostly photograph the outside and skip the garden shrines. Don't. The naga fountains are excellent and the whole place hums quietly with people actually praying. One acorn per head. Three acorns.
 ---
 
 South of Bangkok on the Sukhumvit road, a three-headed elephant the height of a fourteen-story building surfaces above the traffic — and it's hollow.

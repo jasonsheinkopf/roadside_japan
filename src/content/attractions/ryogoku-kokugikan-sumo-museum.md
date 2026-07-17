@@ -53,6 +53,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Sumo portraits and trophies. I practiced my stomp in the hall. The floor survived. This time."
   emoji: "🤼"
+  report: |-
+    Ryogoku Kokugikan is sumo's home stadium, and even on a non-tournament day the neighborhood tells you: chanko-nabe restaurants, wrestler handprints, the occasional actual rikishi on a bicycle, which is a sight that recalibrates your understanding of bicycles.
+
+    The on-site museum is small and dense — championship banners, ukiyo-e of wrestlers past, embroidered kesho-mawashi aprons stitched like treasure. During tournaments (Tokyo hosts three a year) the whole building hums; I attended a day session from the rafter seats, natural squirrel territory, and the moment two 150-kilo men collide below you, you understand why the roof is built like a shrine.
+
+    Book tournament tickets early, or come off-season for the museum and chanko lunch. Respect the sport. It's older than most countries and twice as serious.
 ---
 
 The building that anchors the entire neighborhood — a 10,000-plus-seat arena that's hosted Japan's national sport since 1985, standing on ground that's been sumo territory since long before that.

@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A pagoda alone in the cedars, six hundred years of standing very still. I tried it. Lasted a minute."
   emoji: "🌲"
+  report: |-
+    Two thousand four hundred and forty-six stone steps climb Mount Haguro through cedars a thousand years old, and near the bottom, alone in the forest, stands a five-storey wooden pagoda that has been there for six hundred years. No temple around it. No fence worth mentioning. Just the pagoda, the cedars, and whatever light gets through.
+
+    I have climbed more impressive things by the numbers. I have climbed nothing that asked me not to. I circled it once at ground level, bowed to it — it's that kind of building — and did the rest of the steps with my thoughts unusually quiet.
+
+    The humans who turn back after the pagoda miss the summit shrine, but I understand them: the pagoda feels like the point. Go early, in mist if offered. Wear the mist home.
 ---
 
 **Mt. Haguro** is the most accessible of the **Dewa Sanzan**, the three sacred mountains at the heart of Yamagata's mountain-worship tradition. The pilgrim's path begins at the **Zuishinmon gate** and climbs **2,446 stone steps** through a cathedral of cedars — and just a few minutes up stands the prize.

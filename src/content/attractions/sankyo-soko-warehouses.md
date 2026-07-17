@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Rice warehouses under a row of huge zelkova trees. The shade there is 150 years deep."
   emoji: "🌾"
+  report: |-
+    The Sankyo Soko warehouses have stored Sakata's rice since 1893: a long row of black-walled wooden storehouses backed by a line of tall zelkova trees planted to shade them — climate control by forestry, still doing its job 130 years on.
+
+    As infrastructure goes it's almost embarrassingly photogenic; the zelkova lane behind the warehouses is one of Tohoku's great short walks, made famous by an NHK drama and kept famous by every camera since. I took it at golden hour, branch-level, with the light coming through the leaves onto the black walls in stripes.
+
+    Part of the row still works as actual rice storage; part is museum and shops (the local rice and sake purchases make themselves). Free, flat, twenty minutes or two hours. Trees doing a building's job: my favorite genre of architecture.
 ---
 
 The port city of **Sakata** grew rich shipping the rice of the fertile Shonai plain, and the most photogenic relic of that trade still stands: **Sankyo Soko**, a long row of **black-walled wooden rice warehouses** built in **1893** and in use for over a century.

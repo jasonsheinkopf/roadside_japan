@@ -54,6 +54,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Summer fireworks over the port with the Ferris wheel keeping time. The harbor applauded in reflections."
   emoji: "🎆"
+  report: |-
+    Yokohama threw a one-night waterfront party to warm up for GREEN×EXPO 2027, and I attended in my capacity as a professional of both fireworks and harbors: live stages and street performers along Minato Mirai through the evening, closing with a large-scale fireworks finale over the port.
+
+    The harbor gives Yokohama fireworks their signature — the Ferris wheel, the sail-shaped hotel, and the bay all take the light and hand it back doubled. I watched from a container crane's shoulder with the seagulls, who critique fireworks nightly and awarded this one their highest honor: silence.
+
+    Expo-adjacent festivals like this run on their own calendars — check dates rather than assume repeats. Get harborside early, ride the wheel after the crowds break, and let the city sell you on 2027. It sold me. I'm a cheap date: sky plus water, every time.
 ---
 
 Yokohama's Minato Mirai waterfront hosts frequent small fireworks shows throughout the year, but August 24, 2026 brings something bigger: a full festival built around promoting the city's upcoming GREEN×EXPO 2027.

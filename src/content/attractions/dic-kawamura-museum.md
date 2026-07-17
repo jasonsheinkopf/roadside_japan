@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Fancy art in a forest! The swans outside critique you on the way in."
   emoji: "🖼️"
+  report: |-
+    An art student on the Sobu line told me there's a room in the Chiba woods where seven Rothko paintings hang in dim light and people just... sit with them. She said it like a dare and wiped her eyes. I bought a ticket. (Figure of speech. I rode in her tote bag. She knew.)
+
+    The DIC Kawamura Memorial Museum is a world-class collection hidden on a corporate campus in the woods — swans outside, silence inside. The Rothko Room is the heart of it: seven murals, low light, benches. I sat still for eleven whole minutes, which for a squirrel is a monastic feat.
+
+    Come for the Rothkos, stay to walk the gardens. The humans leave quieter than they arrived. So did I.
 ---
 
 Deep in the woods of inland Chiba, reached by a free shuttle and a walk through gardens, sits an art museum that holds its own against anything in Tokyo. The **DIC Kawamura Memorial Museum of Art** pairs a serious collection of modern and contemporary work with a setting of ponds, lawns, and sculpture.

@@ -121,11 +121,27 @@ const commonFields = z.object({
    * `quote` is a hand-written one-liner in Cinnamon's voice about THIS place;
    * `emoji` is the thing he's engaging with in the scene. Renders in-page on every
    * detail view, and serves as the hero when no licensed photo could be verified.
+   * `report` is his field report (docs/CINNAMON.md): a short first-person story —
+   * how he heard about the place, why it hooked him, what he did there, and his
+   * honest squirrel take, grounded in the entry's researched facts.
    */
   cinnamon: z
     .object({
       quote: z.string().min(4),
       emoji: z.string().default("📍"),
+      report: z.string().min(40).optional(),
+    })
+    .optional(),
+
+  /**
+   * A tip passed along by the person who submitted the place ("get the beef jerky").
+   * Rendered inside Cinnamon's field report, credited to `by` (handle or
+   * "a fellow traveler" — never an email address).
+   */
+  visitorTip: z
+    .object({
+      text: z.string().min(3),
+      by: z.string().default("a fellow traveler"),
     })
     .optional(),
 

@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Gas lamps, snow, hot springs. I steamed like a little dumpling at dusk."
   emoji: "🏮"
+  report: |-
+    I got to Ginzan Onsen at dusk in light snow, which I mention not to brag but because the town clearly schedules these things. Gas lamps came on one by one along the river, four storeys of wooden Taisho-era inns glowing on both banks, and every human on the bridge made the same soft sound at the same time.
+
+    It's one street, really — a river with inns for banks — and that's the secret of it: nothing to do but walk slowly, soak, eat curry bread from the little bakery (I was rationed one bite; it deserved its queue), and walk slowly back.
+
+    Day-trippers leave by five. Stay past then, or come in deep winter when the snow piles on the lamps. The whole place looks like a memory you haven't had yet.
 ---
 
 Deep in the hills of Obanazawa, around a narrow river, sits a hot-spring village that time agreed to leave alone. **Ginzan Onsen** lines both banks with three- and four-story **wooden inns from the Taisho era** (the 1910s–20s), their plaster facades and balconies facing each other across the water.

@@ -28,6 +28,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "There's a whole airplane parked in this market. Nobody would tell me why. Perfect."
   emoji: "✈️"
+  report: |-
+    You can see the airplane from three streets away, which is how they get you. It got me.
+
+    Chang Chui is a night market built around a full-size decommissioned airliner, surrounded by sculpture welded from scrap, a skull-themed bar, and food stalls run by people with art-school haircuts and serious wok discipline. I climbed the plane's tail — it was there, I was there, the math was simple — and surveyed a market that looks like a junkyard that won an award. Because it is one.
+
+    The humans call it 'hipster' like that's an insult; the pad krapow I sampled from a stranger's abandoned plate disagrees. Weekend evenings hum. Loses one acorn because a market with a whole airplane should let a squirrel in the cockpit. Petition ongoing.
 ---
 
 Chang Chui — roughly "a craftsman who designs" — is a deliberately ramshackle creative complex on the Thonburi side, anchored by a retired Lockheed airliner mounted as a centrepiece. Around it sprawl recycled-material sculptures, craft stalls, galleries, quirky eateries, and a notorious bar.

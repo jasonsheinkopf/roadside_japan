@@ -55,6 +55,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Fireworks echo off the mountains here like the sky is applauding itself."
   emoji: "🎆"
+  report: |-
+    A retired boatman in Atami told me the bay is shaped like a mortar bowl, 'so the fireworks don't echo — they ROAR.' I assumed this was grandpa talk. It was not grandpa talk.
+
+    Atami runs about fifteen shows a year, so unlike most fireworks you don't have to plan your whole summer around one rainy night. I watched from a hot-spring town rooftop with my paws over my ears and my mouth open. The sound comes off the water, hits the mountains, and comes back through your ribs. I vibrated like a struck bell for a full minute.
+
+    Locals say the late-summer shows are busiest and the off-season ones are the secret. Either way: the roar is the show. Bring something to grip.
 ---
 
 Most cities hold one big summer fireworks night; Atami holds around fifteen a year — and its bay's odd shape turns every one of them into an unusually intense show.

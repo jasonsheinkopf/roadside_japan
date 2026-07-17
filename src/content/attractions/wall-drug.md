@@ -33,6 +33,12 @@ sources:
 cinnamon:
   quote: "Free ice water and a giant jackalope in the middle of nowhere. I drank the water. I befriended the jackalope."
   emoji: "🥤"
+  report: |-
+    Wall Drug's origin story is the best in American retail: a Depression-era drugstore in the middle of the South Dakota nowhere, saved by one idea — free ice water, advertised on highway signs — that grew into an empire of billboards ('WALL DRUG, 47 MILES') and a city-block bazaar of donuts, boots, animatronic cowboys, and a rideable jackalope.
+
+    I followed the signs like everyone since 1936; by the fifth billboard you are going, and that's physics. Inside I audited the essentials: the free ice water still flows (I drank ceremonially), the cake donuts are honestly good, and the giant jackalope accepted my presence between its antlers with taxidermied grace.
+
+    It's gleefully, knowingly too much — a tourist trap that earned tenure. Badlands are next door; pair them. Five cents for coffee. FIVE CENTS.
 ---
 
 ## Free ice water built an empire

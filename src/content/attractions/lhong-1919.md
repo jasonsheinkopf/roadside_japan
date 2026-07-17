@@ -27,6 +27,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "An 1850s Chinese mansion on the river, painted walls and all. I lit an incense stick very carefully."
   emoji: "🏮"
+  report: |-
+    Lhong 1919 is a horseshoe of restored 19th-century Chinese warehouses on the Chao Phraya, built by a merchant family around a courtyard shrine to Mazu, goddess of the sea — the original murals still ghosting on the walls, faded to the color of old tea.
+
+    I arrived by riverboat, which is the correct way to arrive anywhere on the Chao Phraya, and paid respects to Mazu alongside a family who taught me the incense order. The courtyard holds the river light the way old courtyards do; the cafés and shops in the wings are gentle, not grabby.
+
+    It's quieter than its Instagram reputation suggests — restoration saved the buildings, but the shrine is the living part. Sunset gilds the whole horseshoe. Sit on the pier edge, watch the barges, thank the goddess. That's the visit.
 ---
 
 Built in 1919 (on a site trading even earlier), this U-shaped Chinese-style warehouse once handled goods arriving by junk on the Chao Phraya. Lovingly restored, it now centres on a courtyard shrine to Mazu, goddess of the sea, framed by the buildings' original — and beautifully weathered — wall paintings.

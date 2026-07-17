@@ -28,6 +28,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Everything is pink, sparkly, and horned. I wore a unicorn headband. Do not look for the photos."
   emoji: "🦄"
+  report: |-
+    The Unicorn Café off Silom is a pastel detonation: rainbow everything, a wall of plush unicorns in formation, borrowable sparkly onesies, and rainbow spaghetti that tastes like spaghetti wearing a costume, which is the point of everything here.
+
+    I, a dignified brown woodland professional, was placed among the plush unicorns by a delighted staff member and photographed by four tables simultaneously. I have made peace with this. The rainbow crepe cake is structurally impressive and chromatically alarming; the candy-floss drinks glow with intent.
+
+    It is not subtle, cheap, or gourmet — it's a mood with a menu, and it executes flawlessly. Come with a friend who owns glitter. Wear the onesie. Resistance reads as cowardice here, and the unicorns can tell.
 ---
 
 For maximum-sugar, maximum-glitter absurdity, few places on earth compete with the Unicorn Café. Every surface is pastel; shelves heave with plush unicorns; and you're encouraged to pull on a shiny unicorn onesie before tucking into rainbow-coloured spaghetti, glittery lattes, and candy-bright shakes.

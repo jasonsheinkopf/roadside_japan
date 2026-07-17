@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Rows of color to the volcano's feet. I ran through the tulips. Legally? Unclear. Joyfully? Yes."
   emoji: "🌷"
+  report: |-
+    Nasu Flower World plants its hillside in stripes — tulips, poppies, salvia, broom — so the slope reads like a flag someone keeps redesigning all season, with the bare volcanic ridge of the Nasu range standing behind it for contrast.
+
+    I ran a full stripe end to end at stem height (poppy row; excellent canopy, chaotic petals) and then climbed the fence post for the wide view, which is the one the flowers are performing for. The color bands change with the calendar, so the field is never the same twice — the gardeners are effectively slow-motion painters.
+
+    It's pay-per-view flowers and worth it in peak weeks; check what's blooming before the drive. Wind comes off the ridge with opinions. Hold your hat, or in my case, your entire body.
 ---
 
 High on the **Nasu plateau**, where the air is cool and the volcano looms close, **Nasu Flower World** drapes a hillside in stripes of color. The terraced fields are planted in broad bands that, in season, read like a painter's palette laid across the slope.

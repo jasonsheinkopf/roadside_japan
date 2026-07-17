@@ -27,6 +27,12 @@ tags:
 cinnamon:
   quote: "A 32-foot donut on the roof. I did a backflip. It was the most pastry-based moment of my life."
   emoji: "🍩"
+  report: |-
+    A traveler wrote in about 'a donut shop with a giant donut on top,' and that description is accurate the way 'the sun is a light' is accurate. Randy's donut is 32 feet of rooftop pastry, visible from the freeway, landed on Inglewood in 1953 and never left.
+
+    I did the backflip off the sign's lower rim (see my quote; it remains the most pastry-based moment of my life) and then, crucially, went inside — because this is a real 24-hour donut shop, not a monument with a gift counter. The glazed is honest. The apple fritter is the size of my torso and I treated it like terrain.
+
+    Movie cameos beyond counting, morning light for photos, LAX ten minutes away for a layover pilgrimage. The giant donut economy has a capital. This is it. Thank you, fellow traveler.
 website: "https://randysdonuts.com/locations/inglewood-ca/"
 cost:
   type: paid

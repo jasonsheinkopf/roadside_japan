@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "I rode the kiddie coaster four times. The operator saluted me on the fourth. Honor."
   emoji: "🎢"
+  report: |-
+    Lina World is Yamagata's own amusement park, and it isn't trying to be anyone else's: a friendly, unflashy spread of coasters, a big Ferris wheel, a water ride, carousels, and character shows, run for local families having an uncomplicated good day.
+
+    I rode the Ferris wheel with a farm family who shared rice crackers at the apex — apex crackers taste better, this is science — and surveyed the Yamagata basin from the top: orchards to the mountains in every direction. The kiddie coaster is, for a squirrel, a legitimately scaled thrill ride, and I logged four laps.
+
+    No hour-long lines, no surge pricing, soft-serve at regular intervals. The humans here are all locals, which tells you what you need to know. Big parks impress; Lina World relaxes. Both are amusement. This one naps after.
 ---
 
 Every region needs a hometown amusement park, and Yamagata's is **Lina World** — a cheerful, unpretentious spread of rides in the hills near Nakayama that has been making local kids happy for decades.

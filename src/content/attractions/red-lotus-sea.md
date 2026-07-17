@@ -52,6 +52,12 @@ updatedAt: 2026-07-16
 cinnamon:
   quote: "A whole lake blooms pink at sunrise. Our boat cut through a million flowers. I forgot to blink."
   emoji: "🌺"
+  report: |-
+    For three winter months, a shallow lake in Isan blooms into the Red Lotus Sea — millions of pink lotus flowers opening at dawn and stretching to the horizon, so a longtail boat ride becomes a slow cruise through a flower field that happens to be water.
+
+    I went at 6 a.m., which is when the lotus punch their clock: they open for the morning and start closing by ten, so dawn is not a suggestion, it's the appointment. The boatman cut the engine mid-lake and we sat in pink silence while herons picked between the blooms like inspectors.
+
+    December through February, Udon Thani side, share a boat with strangers and become friends by the turnaround. My journal's entry is smudged because the lake got on it. Or possibly I did. Pink, either way.
 ---
 
 Most of the year, Nong Han is an ordinary shallow lake in rice-farming Isan. Then December arrives, and it turns into one of the strangest sights in Thailand.

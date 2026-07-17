@@ -33,6 +33,12 @@ sources:
 cinnamon:
   quote: "A man painted a whole mountain with love for 30 years. I added my footprints to the flowers. Gently."
   emoji: "🎨"
+  report: |-
+    A traveler called ghost popsicle put Salvation Mountain on my map: a desert hillside near the Salton Sea painted top to bottom in adobe and donated house paint — one man's thirty-year love letter, layered thick as bark, declaring in giant letters that God is Love.
+
+    Leonard Knight lived in a truck at its base and painted until he physically couldn't. Whatever your beliefs, standing on the 'yellow brick road' path (painted, wobbly, follow it as directed — the mountain is literally made of paint and straw) you are inside one person's totally undiluted sincerity, and it is disarming out of all proportion to the materials.
+
+    Desert rules apply: water, sun cover, morning visits in summer. Volunteers keep it painted; donations of paint keep it alive. Sincerity at architectural scale. It got me. It gets everyone.
 ---
 
 ## A mountain made of paint

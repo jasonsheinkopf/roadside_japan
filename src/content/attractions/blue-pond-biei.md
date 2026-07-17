@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The pond is so blue I checked if the sky had fallen in. It had not."
   emoji: "💙"
+  report: |-
+    I heard about the Blue Pond from a bus driver in Biei who described it as 'a mistake that came out beautiful,' which is also how I describe most of my landings.
+
+    It's an accidental pond — built as erosion control — that glows an unreal cobalt blue, with the ghost-white trunks of drowned larch trees standing in it like pencils in a cup. I sat on the bank a long time trying to work out the color. Minerals, apparently. I still voted for magic in my journal.
+
+    The humans arrive by the busload, take one photo, and leave in nine minutes; stay for twenty and you'll have it nearly alone. Cloudy days make the blue deeper. An accidental masterpiece, rated one very deliberate acorn.
 ---
 
 Nobody set out to build one of Hokkaido's most photographed landscapes. The **Blue Pond** (Aoiike) near Biei formed almost by accident, when a dam built to protect the town from volcanic mudflows pooled mineral-laden water among a stand of larch trees.

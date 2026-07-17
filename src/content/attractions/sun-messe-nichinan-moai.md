@@ -52,6 +52,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Seven Easter Island moai by the Pacific, fully authorized by Rapa Nui. I stood in line like the eighth."
   emoji: "🗿"
+  report: |-
+    A road-tripping traveler wrote in about Moai in Miyazaki, which I initially filed under 'jet lag' — but no: Sun Messe Nichinan has seven full-size Moai on a grassy hill above the Pacific, the only replicas ever officially sanctioned by Easter Island, granted as thanks after Japanese engineers helped restore the originals.
+
+    That backstory converts the whole site from kitsch to gift. The seven stand looking out at the ocean exactly as their ancestors do, and the humans line up to pose as the eighth. I sat on a stone head's shoulder (respectfully; we're both professionals) while the Pacific did its enormous blue routine below.
+
+    The hillside park around them is cheerfully odd — butterflies, bells, sun-themed everything. Coastal drive down Nichinan is half the trip. Thank you, roadtripper. Filed under 'real,' with apologies.
 ---
 
 High on a coastal hillside in southern Miyazaki, seven stone giants gaze inland from above the Pacific — a faithful, full-scale recreation of the **Moai of Easter Island (Rapa Nui)**.

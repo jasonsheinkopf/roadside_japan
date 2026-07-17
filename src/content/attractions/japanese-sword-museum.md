@@ -47,6 +47,12 @@ updatedAt: 2026-07-04
 cinnamon:
   quote: "The blades ripple like water. I stood very still and practiced my samurai face."
   emoji: "⚔️"
+  report: |-
+    The Japanese Sword Museum in Ryogoku displays masterwork katana the way other museums display paintings: one blade at a time, lit from below, so the grain of the steel and the wave of the temper line float in the dark.
+
+    I expected weapons. What's actually on display is metallurgy as calligraphy — the museum is run by the foundation that keeps sword-smithing alive, and the placards explain how a smith folds a poem into a bar of steel. I pressed my nose to the glass until it fogged, twice, and a guard politely un-fogged it both times.
+
+    Small, serene, twenty minutes from end to end unless it catches you, in which case ninety. Pair it with the sumo arena next door for a very Ryogoku afternoon. The blades are beautiful and, up close, entirely serious.
 ---
 
 A short walk from the sumo stadium sits one of Tokyo's more specialized — and more quietly intense — small museums: a building devoted entirely to the katana.

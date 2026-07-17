@@ -47,6 +47,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The sea here is called Shakotan Blue. I call it 'whoa' blue."
   emoji: "🌊"
+  report: |-
+    A fish-market auntie in Otaru said the water at Cape Kamui is 'a blue we had to invent a name for,' and I am a sucker for proprietary colors.
+
+    The walk out is a 770-metre ridgeline path to a lighthouse at the very tip of the Shakotan Peninsula, with the sea on both sides doing its Shakotan Blue routine — a turquoise that looks imported from somewhere tropical and expensive. The wind up there treats everyone equally, which for me meant travelling the last stretch as a kind of furry kite anchored by my own dignity.
+
+    Uni season overlaps summer here; the humans eat sea urchin bowls in the village after, glowing with smugness. Earned smugness. Hold onto small children and smaller squirrels.
 ---
 
 Hokkaido isn't supposed to have tropical-looking water — which is exactly why the Shakotan Peninsula's electric turquoise sea earned its own named color, and why the ridge walk at its tip is one of the island's great short hikes.

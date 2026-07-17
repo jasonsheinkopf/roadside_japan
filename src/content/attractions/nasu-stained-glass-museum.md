@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Sunlight through a thousand colors of glass. I stood in a rainbow and became briefly holy."
   emoji: "🪟"
+  report: |-
+    The Nasu Stained Glass Museum is built like an English manor that wandered into the Japanese highlands: little stone chapels glowing with genuine 1800s glass, while pipe-organ and music-box performances run through the day like scheduled weather.
+
+    I timed my visit to the organ. Sitting in colored light while the pipes breathe is a full-body experience even at my body's scale — the reds land on you like warmth, the blues like thoughts. I moved seats three times to be rained on by different colors, which I understand is the whole point of the medium.
+
+    The humans call it 'unexpectedly moving' in reviews and 'so photogenic' to each other; both true. Check the performance times before you go; the glass is lovely silent, but lit up with music it's somewhere else entirely.
 ---
 
 Among the Nasu highlands' string of small museums, one looks like it wandered off the English countryside: the **Nasu Stained Glass Museum**, a honey-stone **manor house** whose rooms are really little **chapels**, each lit by **antique stained glass** salvaged from 19th-century Europe.

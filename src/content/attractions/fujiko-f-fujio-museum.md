@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I looked for a door to anywhere. Found the gift shop. Close enough."
   emoji: "🤖"
+  report: |-
+    A blue robot cat from the future — Socks has strong opinions about Doraemon, mostly jealousy about the pocket — so I went to Kawasaki on assignment for both of us.
+
+    The Fujiko F. Fujio Museum holds the original manga art, drawn small and perfect, plus a rooftop where the empty lot's concrete pipes from the comics sit on real grass and grown adults line up, misty-eyed, to sit in them. I sat in one. The mist got me too.
+
+    Tickets are advance-only by lottery-ish booking, which keeps the crowds humane. The café sells food shaped like memories. If you grew up with these characters you will need a moment on the roof; if you didn't, you'll still leave understanding why Japan did.
 ---
 
 In a leafy corner of **Kawasaki**, just outside Tokyo, is a museum that runs entirely on childhood joy. The **Fujiko·F·Fujio Museum** celebrates the manga artist behind **Doraemon** — the round blue robot cat from the future who is, genuinely, one of the most beloved characters in Japan.

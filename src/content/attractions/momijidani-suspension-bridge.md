@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A long wobbly bridge over a maple valley. I bounced. Everyone bounced. Nobody admits it."
   emoji: "🍁"
+  report: |-
+    The Momijidani suspension bridge is 320 metres of gently swaying footpath strung high over a forested gorge near Shiobara Onsen, and it moves just enough to remind you that you are a decision, not a passenger.
+
+    I crossed it four times: once normally, once at the handrail-cable level (superior), once in autumn imagination (the maples were mid-turn, red creeping down the valley like spilled ink), and once backward, for science. The gorge below runs green and white over boulders; hawks patrol at eye level, which for once means MY eye level.
+
+    Autumn is the headline season and earns it, but a misty morning off-season gives you the whole swaying kilometre-of-air to yourself. Loses one acorn for the wobble-scream of one particular child. Regains it because, fair.
 ---
 
 The **Shiobara Onsen** valley, west of Nasu proper, is gorge country — and the most exhilarating way to feel it is to walk straight out over the void. The **Momijidani Otsuribashi** ("Maple Valley Suspension Bridge") stretches **320 metres** across the river canyon, swaying gently underfoot the whole way.

@@ -28,6 +28,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "A temple swallowed whole by a banyan tree, roots holding the walls up. The tree is the monastery now."
   emoji: "🌳"
+  report: |-
+    Wat Bang Kung is an Ayutthaya-era ordination hall that four enormous banyan and bodhi trees decided to keep: their roots have swallowed the building whole, walls of living wood around the old brick, with a golden Buddha still glowing inside the green.
+
+    As a tree professional, I have inspected many buildings taken by roots; this is the only one that reads as an embrace instead of a demolition. The trees hold the chapel like a relic in four hands. Inside, incense; outside, muay-boran warrior statues mid-strike across the temple grounds, because this was also a historic military camp.
+
+    It's in Samut Songkhram, an easy add to the railway-market and firefly circuits. Go early, go quiet. Buildings fall down. Sometimes, instead, they get adopted. This one got adopted.
 ---
 
 In the orchards of Samut Songkhram stands a temple you can barely see for the trees — literally. The little brick hall of Wat Bang Kung has been gripped for centuries by the roots of four great fig trees, which have grown over and around the walls until building and forest are one.

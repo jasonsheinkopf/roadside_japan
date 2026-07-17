@@ -51,6 +51,12 @@ updatedAt: 2026-07-12
 cinnamon:
   quote: "The water-throwing festival! Fifty buckets found me personally. Best shower of my life."
   emoji: "💦"
+  report: |-
+    Fukagawa's festival has one rule that changes everything: the water goes ON the mikoshi bearers. Fifty-plus portable shrines carried eight kilometres through the neighborhood while the entire route — kids with squirt guns, aunties with buckets, fire brigades with actual hoses — soaks the carriers in continuous, sanctioned, ecstatic ambush.
+
+    I worked the awnings overhead, dry and smug, until a firefighter's arc found me specifically (I respect the aim; I question the necessity) and I finished the parade as damp and happy as everyone below. The bearers chant 'wasshoi,' the water flies, the shrine gold flashes through the spray — Edo's summer spirit, fully preserved, fully soaked.
+
+    The grand version with all shrines runs every third August (next full honmatsuri: check the cycle); off-years still splash. Waterproof everything. Participate. You WILL anyway.
 ---
 
 Ranked alongside the Sanja and Kanda festivals as one of Edo's three great matsuri, the Fukagawa Hachiman Matsuri turns a serious Shinto procession into one of the wettest, most joyfully chaotic events in Tokyo's summer calendar.

@@ -53,6 +53,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Hokusai drew the Great Wave near here. I made a tiny wave in my tea in tribute."
   emoji: "🌊"
+  report: |-
+    Hokusai lived and worked almost his whole life in Sumida — moving house 93 times, which as a person who lives in one hollow I find both alarming and inspiring — and the neighborhood finally built him a museum: a jagged, mirror-clad Sejima building that reflects the streets he drew.
+
+    Inside: his sketchbooks, the manga, the waves and Fujis, and a life-size recreation of his famously chaotic studio, complete with a model Hokusai at work amid honest clutter. An old man who called himself 'mad about drawing' and got better until he died at 89, insisting he'd only be truly good at 110. I stood before The Wave longer than the humans, and I've SEEN waves.
+
+    Small enough for ninety minutes, deep enough for a lifetime. Pair with the sword museum and sumo arena — Ryogoku is Tokyo's best small triangle.
 ---
 
 Toward the Kinshicho end of this walk, a building unlike anything else in the neighborhood appears between low apartment blocks: five interlocking, mirror-bright aluminum volumes designed by Pritzker Prize-winning architect Kazuyo Sejima.

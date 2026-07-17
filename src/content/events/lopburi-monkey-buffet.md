@@ -60,6 +60,12 @@ country: thailand
 cinnamon:
   quote: "A banquet where monkeys eat pyramids of fruit off silk tablecloths. I attended as jealous royalty."
   emoji: "🐒"
+  report: |-
+    Once a year, Lopburi throws a banquet for its actual rulers: towers of fruit, vegetables, and sweets laid on red-clothed tables before the old Khmer shrine, and then the town's thousands of macaques descend to eat, loot, wear, and redistribute the offerings in an hour of gleeful, sanctioned chaos.
+
+    I attended in a strictly observational capacity from a power line, because macaques view a squirrel at a buffet as either competition or garnish and I declined to learn which. Watching a monkey seize an entire pineapple crown and wear it like a war helmet while three others dismantle a fruit pyramid engineering-first is the purest theater Thailand offers.
+
+    Last Sunday of November. Secure your hat, glasses, earrings, snacks, and dignity before arrival — the monkeys collect all five. The town loves its menaces. The menaces know it.
 ---
 
 The old town of **Lopburi** has long shared its streets and crumbling Khmer temples with several thousand **crab-eating macaques**. Once a year, on the last Sunday of November, the town says thank you in the most extravagant way imaginable: the **Monkey Buffet Festival**.

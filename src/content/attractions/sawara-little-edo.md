@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Canal boats glide past Edo merchant houses. I rode one and practiced my old-timey merchant wave."
   emoji: "🛶"
+  report: |-
+    Sawara is the canal town where Ino Tadataka lived — the man who walked all of Japan to draw its first accurate map, starting at age 55, which makes him the patron saint of this atlas and of late starts everywhere. His house still stands on the willow-lined canal, and I paid my respects like a junior colleague.
+
+    The old merchant district survives nearly intact: Edo-period storehouses, sake breweries, and boats poling tourists under little bridges past buildings their great-great-grandparents traded from. I rode the boat with my paws on the gunwale, auditing bridges from below, the best angle for bridges.
+
+    Come for the summer or autumn float festivals if you can — giant dashi floats topped with historical figures. Otherwise: quiet canals, live history, and the map-walker's house. Sawara measured Japan. Least I could do was visit.
 ---
 
 Northern Chiba hides a town that time mostly forgot to modernize. **Sawara** grew rich on river trade in the Edo period, and its old quarter — black-tiled merchant houses and warehouses leaning over a willow-lined **canal** — has survived so intact it's earned the nickname **"Little Edo."**

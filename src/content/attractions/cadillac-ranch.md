@@ -32,6 +32,12 @@ sources:
 cinnamon:
   quote: "Ten buried Cadillacs and everyone gets a spray can. I signed with a paw print."
   emoji: "🚗"
+  report: |-
+    A wrong turn on the endless flat of the Texas Panhandle — my specialty — put ten tail-fins on the horizon, sticking out of the dirt like the world's largest half-buried crayons.
+
+    Cadillac Ranch is ten vintage Cadillacs planted nose-first in a field at the angle of the Great Pyramid, and unlike every other monument in America, you are invited — expected — to spray-paint it. Layers of paint thick as tree bark. I added one small orange pawprint, low on the third car, where the wind can't brag about it.
+
+    The humans leave their rattling cans in the dirt; pack yours out, the cows have opinions. Go at sunset when the paint glows and the plains do their big-sky routine. Loses one acorn for having zero trees in any direction. Gains it back for everything else.
 ---
 
 ## Ten fins in the dirt

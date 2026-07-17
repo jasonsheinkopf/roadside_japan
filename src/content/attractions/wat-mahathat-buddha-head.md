@@ -51,6 +51,12 @@ updatedAt: 2026-07-15
 cinnamon:
   quote: "A Buddha's head cradled in tree roots, patient as rain. Even the tree seems to know it's holding something precious."
   emoji: "🌿"
+  report: |-
+    In the ruins of Ayutthaya's holiest temple, a sandstone Buddha head rests inside the roots of a banyan tree that grew around it — nobody knows exactly when or how — and the tree now holds it at the perfect height for the world to kneel and look it in the eye.
+
+    Rules are posted and right: crouch below the head for photos, keep respect on. I sat by the root-line a long while watching humans arrive loud and go quiet in the same three steps. The face is calm the way only very old, very weathered things are calm — the tree and the head have clearly worked out an arrangement, and we're all just visiting it.
+
+    Go at opening before the heat and the buses. The rest of Wat Mahathat's ruins deserve the extra hour. One image, worth the whole city: this is it.
 ---
 
 For four centuries Ayutthaya was one of the largest cities on earth; in 1767 it was burned and emptied in a single sacking. The banyan trees have been quietly reclaiming it ever since — and one of them picked up a Buddha.

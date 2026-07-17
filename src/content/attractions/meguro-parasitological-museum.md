@@ -59,6 +59,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The 8.8-meter tapeworm changed me. I hugged my lunch a little tighter that day."
   emoji: "🪱"
+  report: |-
+    The Meguro Parasitological Museum is free, two floors, entirely about parasites, and completely sincere — a research institution's public face, not a shock show. It is also home to an 8.8-metre tapeworm, displayed at full length with a ribbon beside it so you can feel the whole distance in your own body.
+
+    I walked the ribbon. Nose to tail-tip, then again to be sure. It took me a while. The tapeworm and I are now roughly acquainted, and I have never chewed my food more carefully than I have since.
+
+    Couples famously come here on dates, which says something lovely about Tokyo. The gift shop's tapeworm keychains fund actual research; I acquired one for Socks, who keeps it on his desk to horrify visitors. Small, strange, honest, free. Peak Tokyo.
 ---
 
 Tucked into a quiet residential block near the Meguro River is a museum so single-minded it has become a legend: the **Meguro Parasitological Museum**, founded in 1953 and devoted entirely to the study of parasites.

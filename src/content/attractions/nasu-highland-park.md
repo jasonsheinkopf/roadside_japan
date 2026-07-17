@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "I rode the Ferris wheel alone like a tiny mysterious tycoon surveying his holdings."
   emoji: "🎡"
+  report: |-
+    Nasu Highland Park scatters ten roller coasters through an actual forest, so between screams you get trees — a woodie that rattles like honest furniture, a spinning 'Camelback' that plays dice with your sense of direction, and zip lines threading the woods.
+
+    Coaster restraints are built for humans, so I rode my usual way: officially, in the staff's care, in a supervised pouch on the family coaster (Nasu staff are good sports and I have credentials). Verdict: the forest setting changes everything — drops feel deeper when trees rush up at you.
+
+    Weekdays are gloriously empty; you can re-ride without dismounting your queue position. The fried-potato stand near the woodie runs the best snack-to-scream logistics in the park. Screams: many. Regrets: none. Trees: the real headliners, as usual.
 ---
 
 Set among the trees below Mt. Nasu, **Nasu Highland Park** is the Kanto countryside's big, cheerful amusement park — a place where roller-coaster screams ricochet off the forest and families spend the whole day chasing rides.

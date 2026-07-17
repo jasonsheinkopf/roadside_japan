@@ -60,6 +60,12 @@ country: thailand
 cinnamon:
   quote: "Ten thousand lanterns rose at once and the sky became a slow golden river. I forgot every word I know."
   emoji: "🏮"
+  report: |-
+    On the twelfth full moon, Chiang Mai holds both of Thailand's lantern festivals at once: Yi Peng sends thousands of glowing paper lanterns up into the night, while Loi Krathong sets the rivers alight with candle-and-flower floats — the sky rising, the water drifting, one city between them saying goodbye to the year's misfortunes.
+
+    I released a krathong (leaf boat, one candle, one acorn aboard as cargo and apology) and watched it join the flotilla. Then the lanterns started lifting from the old city — first dozens, then a sky-full, like the stars had been recalled for maintenance and were reporting in.
+
+    The mass releases at paid events photograph famously, but the bridges and river banks are free and holy enough. Mind the falling lantern wires, book rooms months out, and let the moon run the schedule. The year's best exhale.
 ---
 
 Once a year, on the full moon of the twelfth month in the Thai lunar calendar, Chiang Mai glows. **Loi Krathong** sends candle-lit floats drifting down the rivers and canals, while the northern **Yi Peng** tradition fills the sky with thousands of rising paper lanterns (*khom loi*).

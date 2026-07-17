@@ -49,6 +49,12 @@ updatedAt: 2025-11-20
 cinnamon:
   quote: "A village where dolls outnumber people. They're all very polite. Too polite. I waved anyway."
   emoji: "🧸"
+  report: |-
+    Nagoro is a mountain hamlet where handmade scarecrows outnumber the living residents ten to one: they wait at the bus stop, mend nets, attend a classroom in the closed school, and generally continue the village that left.
+
+    I arrived skeptical and left moved and slightly haunted, which reviews suggest is the standard dosage. One woman, Tsukimi Ayano, made most of them — each modeled on someone real who died or moved away. Sit in the school room a while: an entire class, mid-lesson, forever. I perched on a scarecrow farmer's shoulder for a full minute of silence and he was excellent company.
+
+    It's deep in the Iya Valley — the drive is the commitment. Be gentle here; it's not a spectacle, it's one person's way of keeping everyone. The bus stop crowd waves you off. You'll wave back.
 ---
 
 Deep in the folds of the Iya Valley — one of the most isolated corners of Shikoku — sits Nagoro, a village slowly being abandoned by people and quietly repopulated by **scarecrows**.

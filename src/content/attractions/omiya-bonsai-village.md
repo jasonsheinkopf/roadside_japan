@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Trees hundreds of years old, small enough to hug. I asked one for wisdom. It said: grow slow."
   emoji: "🌳"
+  report: |-
+    Omiya Bonsai Village is a quiet Saitama neighborhood where several working bonsai nurseries and a dedicated museum cluster together — the spiritual home of the art, settled by Tokyo bonsai masters after the 1923 earthquake.
+
+    I have complicated professional feelings about bonsai: these are trees, my infrastructure, kept the size of ME. But walking the nursery rows, watching a craftsman wire a branch with the patience of erosion, I got it. A 500-year-old tree you can hold is not a small tree; it's a long story in a pot. Some of these have been tended by ten generations of the same family.
+
+    The museum explains styles and lets you circle masterpieces slowly. No touching, obviously; I sat on my paws the entire time as a precaution. Spring and autumn show best. Free-ish, hushed, profound.
 ---
 
 After the great Kanto earthquake of 1923, a community of Tokyo's **bonsai growers** sought clean air and good water and resettled together in northern **Omiya**. A century later, the **Bonsai Village** they founded is still here — a hushed grid of streets where the front gardens are nurseries and the residents are master cultivators.

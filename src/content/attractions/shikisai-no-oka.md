@@ -56,6 +56,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Flower stripes rolling over hills like a painted quilt. There's also an alpaca. His name is my secret."
   emoji: "🌈"
+  report: |-
+    Shikisai-no-Oka stripes fifteen hectares of Biei hillside in ribbon-bands of flowers, and the correct way to see it is the way I did: from the Norokko tractor wagon that trundles the paths, then on foot (paw) down the rows themselves, then from the alpaca ranch at the top, where the alpacas observe the colors with the weariness of staff.
+
+    Peak stripes run July through September, and the scale is honest — this is a working flower farm the size of a neighborhood, not a photo set, though it is also unavoidably a photo set. I contributed to three strangers' foregrounds without being asked.
+
+    Biei's blue pond is minutes away; do both. Buy the lavender bun. Greet the alpacas as equals; they will not reciprocate, and that's their right.
 ---
 
 Biei's rolling farmland is famous for looking like a patchwork quilt; Shikisai-no-Oka is where somebody deliberately turned fifteen hectares of it into rainbow stripes.

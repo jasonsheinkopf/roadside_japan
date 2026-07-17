@@ -47,6 +47,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Japan's biggest ranch — cows to the horizon. I moo'd once, quietly, to fit in."
   emoji: "🐄"
+  report: |-
+    Naitai is Japan's largest public dairy ranch: 17 square kilometres of open grass with 2,000 cows scattered across it like commas, and a 7 km road that climbs to a glass-walled terrace where the Tokachi plain runs to the horizon in a checkerboard.
+
+    I rode up on a tour van's wing mirror with the wind doing its best to repossess my tail. Up top: soft-serve made from the milk of the cows you can literally see making more of it — farm-to-cone logistics measured in metres. I audited a cow at close range; she audited me back; we parted as equals.
+
+    It's grand-scale Hokkaido at its most casual — no rides, no shows, just grass, sky, cows, cone. Clear days show the whole plain. My journal entry is one line: 'Big. Good. Cold ears.'
 ---
 
 The Tokachi Plain is Japan's dairy heartland, and its most extreme expression is a single ranch bigger than some Tokyo wards — open to anyone who wants to drive up through it.

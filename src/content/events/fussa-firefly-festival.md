@@ -61,6 +61,12 @@ updatedAt: 2026-06-13
 cinnamon:
   quote: "A thousand fireflies rising over the river at dusk. I glowed a little too, on the inside."
   emoji: "🌟"
+  report: |-
+    The submitter of this one is the atlas's own keeper (with a robot assistant, I'm told — Socks was consulted and approves of robots professionally), and the tip was very west-Tokyo: a tiny neighborhood firefly festival around Hotaru Park in Fussa, where Genji fireflies blink over a small stream while the town turns out in yukata for one June evening.
+
+    It is not a spectacle; it is a NEIGHBORHOOD, and that's the charm — food stalls run by the shopping street, kids with light-up toys imitating the actual attraction, and then the hush along the water when the first real firefly lifts off and every phone mercifully lowers.
+
+    I watched from a streamside reed, glowing with borrowed light. Small festivals keep the big country running. Go local, buy the yakisoba, thank a firefly.
 ---
 
 In western Tokyo, away from the big-name sightseeing loop, **Fussa Firefly Festival** turns a small neighborhood park and its nearby waterways into a summer-night gathering spot. The draw is simple: **Genji fireflies** flashing in the dark, watched by families and local visitors who know to show up after sunset.

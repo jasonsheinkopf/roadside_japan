@@ -26,6 +26,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Prawns bigger than my head. I know because I checked. Twice."
   emoji: "🦐"
+  report: |-
+    I smelled Ayutthaya's river prawns from the back of a longtail boat before I ever saw them, and I would like the record to show I steered the humans toward the smell.
+
+    These prawns are longer than my whole body — I measured, tail to whisker, lying next to one for science before anyone could stop me. They grill them in the shell until the heads fill with rich orange roe, and the riverside restaurants serve them with a view of the water they came from. I was permitted exactly one claw's worth. It was the best claw of my life.
+
+    Everyone argues about which riverside place is best; nobody argues about the roe. Order more than you think you need. The humans never do, and they always regret it.
 ---
 
 Ayutthaya is famous for its temple ruins — and, among Thais, for its river prawns. The giant freshwater prawn (*kung mae nam*) grows to a spectacular size in the rivers around the old island capital, and eating one grilled is a pilgrimage in its own right.

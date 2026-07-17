@@ -50,6 +50,12 @@ updatedAt: 2026-07-16
 cinnamon:
   quote: "You hike a jungle mountain into a cave where a golden pavilion waits in one sunbeam. I lost my tiny mind."
   emoji: "⛩️"
+  report: |-
+    Phraya Nakhon requires everything before it gives you the picture: a boat or a headland hike, then a beach, then a steep jungle climb to a collapsed cave — where a small royal pavilion stands in the sinkhole light, built for a king's visit in 1890.
+
+    Get there mid-morning and a single shaft of sun drops through the ceiling hole and sets the pavilion glowing like the cave is presenting it to you personally. I watched the beam arrive, cross the roof, and move on, and the whole chamber ran on that schedule — fifty humans holding their breath in rotation.
+
+    The climb is sweaty and rooty; wear real shoes, carry water, start early. The dusit-style pavilion in that light is one of Thailand's great single images, and it cannot be drive-thru'd. Earn it. The cave insists, correctly.
 ---
 
 Some places are famous for one photograph. Phraya Nakhon's is a small golden-roofed pavilion standing alone in a vast cave chamber, lit by a single beam of sun from a hole in the mountain — and unlike most one-photograph places, it's even better in person, because you have to earn it.

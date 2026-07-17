@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Old warehouse streets and a candy alley. I did my Edo-period walk. Very dignified."
   emoji: "🏮"
+  report: |-
+    Kawagoe is an hour from Tokyo and about 160 years away: a street of black-walled clay merchant warehouses under heavy tiled roofs, crowned by a wooden bell tower that has rung the hours for centuries — and still does, four times a day.
+
+    I timed my visit to the noon bell and took it from the tower's own roofline, which I do not recommend for your ears but deeply recommend for your soul. Afterward: Candy Alley, a lane of old-fashioned sweet shops where I conducted a rigorous survey of sweet-potato everything (chips, soft-serve, an ambitious purple latte). Kawagoe is sweet-potato country and proud.
+
+    Weekends are packed by eleven; the warehouses look best in early light or after the day-trippers drain out. Old Edo is gone everywhere else. Here it just moved to Saitama.
 ---
 
 Less than an hour from central Tokyo, **Kawagoe** kept the face that the capital itself lost to fires and war. Nicknamed **"Little Edo,"** its old quarter is a street of heavy, fire-resistant **kurazukuri** clay-walled merchant warehouses, dark and dignified, exactly as a prosperous Edo-period town would have looked.

@@ -58,6 +58,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Fireworks every single night, all summer, over a caldera lake. I stayed three nights. Three finales!"
   emoji: "🎇"
+  report: |-
+    Lake Toya solves fireworks scarcity with brute elegance: a show EVERY NIGHT for six months, late April through October — a boat cruising the shoreline launching twenty minutes of shells, visible from every lakeside hotel bath in town.
+
+    I verified the claim across three consecutive nights from three vantages: the lakeside promenade (classic), a hot-spring rooftop (superior; steam plus starbursts), and a pine branch over the water (press seats). The boat moves as it fires, so the show pans across the lake like a slow comet with a work ethic.
+
+    It's twenty minutes, not a grand finale culture — the pleasure is the ritual: bath, yukata, beer or acorn, nightly sky. The humans on multi-night stays start scheduling dinner around it by day two. Consistency as spectacle. Toya gets it.
 ---
 
 Every hanabi festival in Japan is a one-night, plan-your-year-around-it event — except this one. Toyako Onsen fires off a full 20-minute show every single night for six months.

@@ -33,6 +33,12 @@ sources:
 cinnamon:
   quote: "I asked the aliens where they hide the good acorns. They remained diplomatically silent. Suspicious."
   emoji: "👽"
+  report: |-
+    Roswell's International UFO Museum lives in a 1930s movie theater, which is perfect — a building made for stories, now devoted to the town's one great story: whatever fell out of the sky in July 1947.
+
+    The museum plays it straight down the middle: affidavits, newspaper front pages, competing official explanations, life-size alien tableaux, all presented with an earnestness I found disarming. I read every timeline panel. My professional view, as a creature humans also frequently misidentify at dusk: the witnesses saw SOMETHING, and the government's changing answers did the legend's marketing for it.
+
+    The whole town commits — alien streetlamps, saucer McDonald's — and the July festival is peak. Believers, skeptics, and road-trippers all leave happy, which is the museum's quiet genius. I want to believe. I mostly believe in snacks. Both were satisfied.
 ---
 
 ## Ground zero for the little green men

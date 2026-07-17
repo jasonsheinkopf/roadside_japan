@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "I ate cherries until I became approximately 60% cherry. Worth it."
   emoji: "🍒"
+  report: |-
+    A roadside park entirely about cherries, in the town that grows Japan's best cherries, with a cherry Ferris wheel and a cherry museum and cherry soft-serve? Yes. Obviously I went. I went so fast.
+
+    Sagae is Yamagata's cherry heartland, and in June the orchards open for all-you-can-pick — the Sato Nishiki cherries are pale gold-red and taste like a very organized sunrise. I picked. I can. It's the one farm activity I was BORN certified in. The staff watched me work with what I chose to interpret as professional respect.
+
+    Off-season it's a mellow roadside stop; in cherry season it's a pilgrimage. The soft-serve is genuinely cherry-forward. I rate it one perfect cherry, held in two paws, eaten in four bites.
 ---
 
 Yamagata grows roughly **three-quarters of Japan's cherries**, and the town of **Sagae** is its sweet heart. **Cherryland** is the gloriously single-minded result: a roadside park themed, top to bottom, around the cherry.

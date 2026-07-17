@@ -30,6 +30,12 @@ sources:
 cinnamon:
   quote: "I tasted world-champion chocolate ON the farm that grew it. My whiskers curled with joy."
   emoji: "🍫"
+  report: |-
+    A traveler called ghost popsicle wrote in planning a February trip to Kona and asked for chocolate — 'some kind of chocolate farm with unique taste' — and I take requests like that as sacred missions. Hawaii is the only US state that grows cacao, and Kokoleka Lani's hillside farm won 'Best in World' honors in Paris. That's not a farm, that's a champion.
+
+    I toured the orchard, inspected the cacao pods (they grow straight out of the trunk like the tree is showing off), and attended the tasting like a scholar. Single-origin chocolate, fermented and made right there — it tastes of fruit first, then chocolate, then somehow the hillside itself.
+
+    Tours are small and by arrangement, February works beautifully, and yes: unique taste, verified. Mission complete, ghost popsicle. Bring cash for more bars than you planned.
 ---
 
 ## Bean to bar on a Kona hillside

@@ -27,6 +27,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "They hammer bowls by hand here, ding ding ding. My tail kept the beat."
   emoji: "🥣"
+  report: |-
+    I followed a sound through Bangkok — a small, patient hammering, like a woodpecker with a day job — and it led me to Ban Bat, the last alley where monks' alms bowls are still beaten from eight pieces of metal by hand.
+
+    I sat on a workshop shelf for an hour watching a woman hammer a seam until it disappeared. Eight pieces become one bowl; the joins vanish; the bowl rings like a little bell when flicked. She let me flick one. I nearly signed up for an apprenticeship on the spot, but my paws are too soft and my attention span is famously acorn-length.
+
+    This is a tiny, fading craft — a handful of families left. Buy the small bowl. It is the most honest souvenir in the city.
 ---
 
 Two centuries ago a whole district of Bangkok made *bat* — the round alms bowls Buddhist monks carry on their morning rounds. Today only a handful of families on one small soi still craft them by hand, hammering eight separate pieces of metal into a single seamless bowl.

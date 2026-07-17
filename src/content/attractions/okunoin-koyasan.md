@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Two kilometers of mossy graves under giant cedars. I walked softly and thought about everything."
   emoji: "🕯️"
+  report: |-
+    Okunoin is Japan's largest cemetery and nothing about that sentence prepares you: two kilometres of path through cedars centuries old, past 200,000 moss-grown tombs — warlords, monks, company memorials, one for pest insects (an apology from a pesticide firm; I checked twice) — ending at a hall where lanterns have burned for over 900 years.
+
+    I walked it at dawn with the monks' first service, moving tree to tree above the stones. Kobo Daishi is said not to be dead but in eternal meditation past the last bridge; meals are still brought to him twice daily. Past that bridge, no photos, and even the loud humans go quiet.
+
+    Do it as a night tour or at dawn, stay in a temple lodging, eat the monks' vegetarian breakfast. The cedars run this place. Everyone else, including the dead, is a guest.
 ---
 
 On the sacred mountain of **Koyasan**, heartland of Shingon Buddhism, a path leads into the trees and does not feel like it belongs to the ordinary world. This is **Okunoin**, Japan's largest cemetery: roughly two kilometres of forest floor holding more than **200,000 graves** beneath cedars that have stood for centuries.

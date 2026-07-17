@@ -27,6 +27,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Dinner on the floor with dancers spinning past. I ate lying down. Royalty."
   emoji: "🍢"
+  report: |-
+    A khantoke dinner is northern Thailand serving you the old way: cross-legged on the floor around a low pedestal tray, small bowls arriving until the tray disagrees with physics — pork curry, crispy skin, chili dips, sticky rice in lidded baskets — while Lanna music and dancers work the room.
+
+    Seating a squirrel cross-legged is a geometry problem the hosts solved with a cushion the size of a coaster, and I dined at tray level like visiting nobility. Sticky rice, I must tell you, is the perfect squirrel food: it comes pre-clumped for paws.
+
+    Yes, it's a show for visitors; it's also a real feast format with real history, done with pride. Come hungry, sit low, clap on the beat. The dancers' fingernail extensions deserve their own museum.
 ---
 
 *Khantoke* is the traditional way of dining in Lanna, the old northern kingdom centred on Chiang Mai. Guests sit on cushions on the floor around a *khantoke* — a round, waist-high pedestal tray — from which a rotating array of small dishes is shared: sticky rice, *nam prik ong*, crispy pork, Chiang Mai sausage, curries, and more.

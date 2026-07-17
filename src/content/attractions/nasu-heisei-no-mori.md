@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "A forest the Emperor gave back to everyone. The deer act like they signed the paperwork."
   emoji: "🦌"
+  report: |-
+    Nasu Heisei-no-Mori was the Imperial family's private forest until 2011, when it was opened to everyone — and walking it, you can feel the held-breath quality of woods that spent decades left almost entirely alone.
+
+    The boardwalk trails are free and gentle, winding through old-growth to a viewpoint over Komadome Falls, a 20-metre white ribbon in a green bowl. As a forest professional I conducted a full canopy audit: mixed mature broadleaf, immaculate moss, mushroom diversity that made me emotional. This is what a forest sounds like when it's been listened to instead of used.
+
+    Guided walks go deeper into the conservation zone. Come on a weekday, walk slowly, say nothing for ten minutes and let the forest fill the gap. Imperial taste in forests: verified excellent.
 ---
 
 For most of the last century, this stretch of old forest on the flank of Mt. Nasu belonged to the Imperial family and was closed to ordinary visitors. In **2011** it was opened to the public as **Nasu Heisei-no-Mori** — and it remains one of the most beautifully kept, peaceful patches of woodland in the region.

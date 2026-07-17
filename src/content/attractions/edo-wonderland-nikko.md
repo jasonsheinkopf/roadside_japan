@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I trained with ninjas all afternoon. I am now 4% stealthier. Watch out."
   emoji: "🥷"
+  report: |-
+    A whole Edo-period town, rebuilt in the Nikko hills, staffed by townsfolk who never break character? A squirrel could live well there. For one day, a squirrel did.
+
+    At Edo Wonderland the streets are dirt, the roofs are properly thatched (I checked, professionally), ninja shows erupt on schedule, and an oiran procession sweeps through in silks that cost more than my tree. I got recruited into a children's ninja class by a master who addressed me as 'the advanced student.' Finally, an educator who sees talent.
+
+    The humans rent kimono at the gate and get visibly better at strolling within the hour. Yes it's a theme park; it's also the least cynical one I know. The soba is real. The frogs in the pond are method actors.
 ---
 
 Near Kinugawa Onsen, the clock runs back four hundred years at **Edo Wonderland Nikko Edomura**, a theme park that doesn't just display the **Edo period** — it stages it, all day, every day, as a living town.

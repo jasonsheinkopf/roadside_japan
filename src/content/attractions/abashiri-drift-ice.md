@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I rode an icebreaker like a tiny frozen pirate. The sea crunched. I squeaked."
   emoji: "🧊"
+  report: |-
+    A fisherman's radio in Wakkanai kept saying the sea had frozen over at Abashiri, which I refused to believe until I rode three trains north to check. The sea. Frozen. Whole.
+
+    I boarded the big orange icebreaker and stood at the bow while it crunched through the pack ice like I crunch through a walnut, which is to say: loudly, and with visible joy. White plates of ice tipped and slid past below me. An old man next to me cried a little. I understood.
+
+    The humans kept saying 'once in a lifetime,' but they have long lifetimes. For a squirrel this was a once-in-EVER. Wear everything you own. My tail froze into a question mark and stayed that way until Kitami.
 ---
 
 For most of the year Abashiri is an ordinary port on Hokkaido's northeast coast. Then, in deep winter, the **Sea of Okhotsk freezes** — drift ice born off Siberia floats south and packs against the shore until the ocean becomes a groaning white plain. And the way to experience it is to **break through it** on a ship.

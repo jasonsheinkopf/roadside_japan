@@ -59,6 +59,12 @@ country: thailand
 cinnamon:
   quote: "A Khmer temple on a volcano, aligned so the sun shoots through 15 doors at once. Ancient show-offs. I love them."
   emoji: "🌋"
+  report: |-
+    Phanom Rung is a thousand-year-old Khmer temple built on the summit of an extinct volcano, aligned so precisely that four times a year the sun rises or sets clean through all fifteen sanctuary doorways in a single shaft.
+
+    I missed the alignment dates and it still flattened me: the processional walkway climbing the volcano, the naga bridges, the pink sandstone lintels carved to lace. Stand at the first doorway and look through — fifteen frames of shrinking light, a physics demonstration a millennium old.
+
+    On alignment mornings the crowds arrive before dawn and the temple briefly becomes an instrument being played by the sun. Isan is far from the tourist circuits, which means you may share all this with a dozen people. The ancient engineers knew exactly what they were doing. So should you: go.
 ---
 
 Rising from the flat Isan plains on the rim of a **dormant volcano**, **Prasat Phanom Rung** is the finest Khmer temple in Thailand — a pink-sandstone sanctuary built between the 10th and 13th centuries as a shrine to Shiva, contemporary with Angkor.

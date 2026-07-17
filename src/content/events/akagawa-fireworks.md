@@ -59,6 +59,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Two hours of fireworks synced to music over the river. I cried at a firework. It was that good."
   emoji: "🎆"
+  report: |-
+    'Japan's most moving fireworks' sounded like brochure talk until I was lying on the Akagawa riverbank in August with 12,000 fireworks synchronized to music across a 700-metre stretch of sky, and a grown man three blankets over said 'okaasan...' at the finale, and I had to pretend riverbank grit was in my eyes.
+
+    Akagawa is a competition show — Japan's top pyrotechnicians debuting their serious work — which is why the choreography feels composed rather than launched. The wide launch line means the sky isn't a point, it's a STAGE, and the music isn't background, it's the script.
+
+    Shonai in mid-August, paid seats worth it for the axis, trains packed after. Bring a mat, arrive early, surrender completely. I have seen many skies. This one had a director.
 ---
 
 Japan takes its **summer fireworks** seriously, and few shows are more revered than the **Akagawa Fireworks Festival** in Tsuruoka, which openly aims to be **"Japan's most moving fireworks display."**

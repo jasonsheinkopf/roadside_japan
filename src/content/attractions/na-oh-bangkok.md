@@ -31,6 +31,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Fine dining inside an old ice factory. I wore my imaginary bow tie. It killed."
   emoji: "🍽️"
+  report: |-
+    Na Oh is dinner inside a grounded airliner at Chang Chui: a decommissioned plane refitted as a moody 'survival' dining room, where a set menu arrives amid cabin lights, exposed ribs of fuselage, and the pleasant fiction that we've all crash-landed somewhere with an excellent kitchen.
+
+    I dined at a porthole seat — the correct seat; every seat is a window seat when the plane is a restaurant — and the theatrics are matched by real cooking: the tasting courses tell the survival story in food, and the staff commit to the bit like actors who also carry plates.
+
+    Book ahead; the plane is small and Bangkok knows about it. It's the rare concept restaurant where the concept and the food both land. Pun intended, left in deliberately, no apologies.
 ---
 
 Inside the grounded Lockheed airliner that forms the centrepiece of the Chang Chui creative park, Na Oh turns the fuselage into a dining room like no other. The concept is deliberately cinematic — a dim, dystopian "survival" world with a storytelling set menu served among the salvaged cabin fittings.

@@ -32,6 +32,12 @@ sources:
 cinnamon:
   quote: "Stonehenge, but cars. The ancient druids of Nebraska drove automatics."
   emoji: "🚙"
+  report: |-
+    Somewhere in a Nebraska library there is a book about Stonehenge with my pawprints on it, because I read it the week before a farmer mentioned 'the car one, up by Alliance.'
+
+    Carhenge is Stonehenge rebuilt at full scale from 39 gray-painted vintage American cars, planted trunk-down on the High Plains — a son's memorial to his father, which is the detail everyone forgets and the one that matters. I sat on a tailfin lintel at sunset while the shadows did exactly what the real ones do at Salisbury, probably. I haven't been. The pigeons there are said to be unbearable.
+
+    Free, always open, wind included. The humans circle it twice, laugh, go quiet, then circle again slower. Correct procedure. Gray paint on gray sky on gold grass: my journal's favorite page this year.
 ---
 
 ## Stonehenge, but make it Detroit

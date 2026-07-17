@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "I threw a pot. It came out acorn-shaped. The potter said I have 'a signature style.'"
   emoji: "🏺"
+  report: |-
+    Mashiko is a Tochigi town that breathes through its kilns: climbing noborigama on the hillsides, hundreds of studios and shops, and the rustic pottery philosophy that made it famous — beauty in the everyday cup, wobble and all.
+
+    A potter let me watch her trim bowls for an hour, then let me press one pawprint into a scrap of clay 'for the kiln gods.' I have never handed over anything more solemnly. My print is now fired somewhere in Japan, outliving me by ten thousand years. Pottery is time travel for paws.
+
+    The twice-yearly fairs (spring and autumn) fill the streets with stalls and bargains; regular weekends are mellow and better for actually talking to makers. Buy the cup that's slightly wrong. That's the one with the soul in it.
 ---
 
 East of Utsunomiya, the unhurried town of **Mashiko** has made the same thing for over 150 years: honest, earthy **pottery**. It's a place where the craft isn't a museum piece but the everyday business of the streets, the hillsides dotted with old **climbing kilns**.

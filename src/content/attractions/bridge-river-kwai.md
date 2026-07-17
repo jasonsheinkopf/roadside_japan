@@ -31,6 +31,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "I walked the famous bridge and thought big thoughts about history. And lunch."
   emoji: "🌉"
+  report: |-
+    I rode across the Bridge on the River Kwai in the luggage rack of the slow train, and for once I kept my chatter to myself the whole way.
+
+    The black steel bridge is the famous one from the book and the film, part of the WWII Death Railway built by prisoners of war and conscripted labourers at a terrible cost in lives. Trains still cross it. Between crossings, people walk the spans and the river slides underneath, calm as anything. The contrast is the point, I think — how quiet a place can be after how much suffering. I left a bow at both ends.
+
+    Go early before the tour groups, walk it slowly, and pair it with the Hellfire Pass memorial up the line to understand what you're standing on.
 ---
 
 Few bridges carry so much history. The curved black spans crossing the Khwae Yai are part of the Thailand–Burma "Death Railway," built in 1942–43 under the Japanese occupation by Allied prisoners of war and Asian labourers, tens of thousands of whom died. The central spans were bombed late in the war and rebuilt; trains still cross today.

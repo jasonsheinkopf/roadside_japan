@@ -56,6 +56,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "An island of a thousand rabbits. I was briefly mistaken for one. Greatest honor of my life."
   emoji: "🐇"
+  report: |-
+    Okunoshima is a small island completely overrun by friendly wild rabbits — hundreds of them, bounding at visitors like furry solicitors — and, in the same green quiet, the ruins of the poison-gas factory the wartime maps deliberately erased.
+
+    As a fellow small mammal I was received as a colleague, mobbed, sniffed, judged, and eventually accepted into a warren's afternoon lounging session, which I consider a diplomatic achievement of my career. The rabbits are shameless and the humans, laden with pellets from the mainland (buy before the ferry; the island shop sells out), are their willing staff.
+
+    Then the museum, small and unflinching, tells the island's dark first act. Hold both: the joy and the history, one island, thirty minutes apart. That's the visit. That's the point.
 ---
 
 A fifteen-minute ferry from the Hiroshima coast lands you on **Okunoshima**, where the welcoming committee is several hundred wild rabbits that will hop straight into your lap at the rustle of a food bag.

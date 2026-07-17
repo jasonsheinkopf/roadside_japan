@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "A whole center of snakes. I visited as a diplomat. Negotiations were tense."
   emoji: "🐍"
+  report: |-
+    The Japan Snake Center is a delightfully old-school research park in the Gunma hills devoted entirely to snakes, and I cased it for two hours before admitting the fences were excellent and the snakes were, professionally speaking, on their side of them.
+
+    It's a working facility — they make antivenom here — wrapped in a retro park: hundreds of snakes from rat snakes to habu vipers, feeding demonstrations, and a python you can hold. The humans queued to drape it over their shoulders like a scarf with opinions. I observed this ritual from the roof of the vending machine (a silent one, thankfully) and took notes for Socks, who will never believe any of it.
+
+    Weekday afternoons are nearly empty. Respectful, unfancy, quietly heroic. High marks, awarded from altitude.
 ---
 
 In the Gunma countryside near **Ota** sits a place that knows exactly what it is: the **Japan Snake Center**, a wonderfully unfashionable park devoted, completely and unapologetically, to **snakes**.

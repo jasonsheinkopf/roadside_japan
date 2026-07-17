@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A round crater lake that changes color like a mood ring. Today it chose emerald. Show-off."
   emoji: "🌋"
+  report: |-
+    Zao Onsen runs two seasons and both are headliners: winter's famous snow monsters down the mountain, and summer's version — green hiking to the Okama, a perfectly round crater lake of milky emerald that changes color with the light like it's deciding something.
+
+    I went in July: sulfur town air (Zao's springs are seriously acidic and gloriously old), lifts and a ridge walk to the crater rim, and the Okama below doing its five-colors act while clouds dragged shadows across it. The rim wind is a personality. Lean accordingly.
+
+    Down in the village, the public baths run hot and ancient, and the dango are calibrated to post-hike blood sugar exactly. Winter for monsters, green season for the crater and half the crowd. The mountain works year-round; so should your itinerary.
 ---
 
 In winter, Mt. Zao is the realm of the frozen "snow monsters." But come **summer**, the same mountain is a cool green escape from the lowland heat — and its single most jaw-dropping sight is a lake the color of a marble.
