@@ -105,37 +105,28 @@ for (const r of records) countryCounts.set(r.country, (countryCounts.get(r.count
     </div>
   </section>
 
-  <!-- MEET MON-CHAN & CINNAMON -->
+  <!-- MEET THE TEAM -->
   <section class="mt-10">
-    <div class="card bg-topo flex flex-col items-center gap-5 overflow-hidden p-6 text-center sm:flex-row sm:p-8 sm:text-left">
-      <div class="flex shrink-0 items-end">
-        <img
-          src={withBase("/images/mon-chan.svg")}
-          alt="Mon-chan, the tan Shiba Inu mascot of Cinnamon Land in his olive paisley bandana"
-          width="176"
-          height="176"
-          class="h-36 w-36 drop-shadow-sm sm:h-44 sm:w-44"
-        />
-        <img
-          src={withBase("/images/cinnamon.svg")}
-          alt="Cinnamon, the squirrel sidekick of Cinnamon Land, holding an acorn"
-          width="116"
-          height="116"
-          class="-ml-4 h-24 w-24 drop-shadow-sm sm:h-28 sm:w-28"
-        />
-      </div>
-      <div>
-        <h2 class="font-display text-2xl font-bold sm:text-3xl">Hi, we're Mon-chan &amp; Cinnamon! 🐕🐿️</h2>
+    <div class="card flex flex-col items-center gap-6 overflow-hidden p-6 sm:flex-row sm:p-8">
+      <img
+        src={withBase("/images/team/team.webp")}
+        alt="The Cinnamon Land team: Mon-chan the Shiba Inu, Socks the tuxedo cat at his MEOWriter typewriter, and Cinnamon the squirrel with his travel suitcase"
+        class="w-full max-w-sm shrink-0 rounded-2xl border border-line sm:w-2/5"
+        loading="lazy"
+      />
+      <div class="text-center sm:text-left">
+        <h2 class="font-display text-2xl font-bold sm:text-3xl">Meet the team 🐿️🐈‍⬛🐕</h2>
         <p class="mx-auto mt-2 max-w-xl text-ink-soft sm:mx-0">
-          We're the travelling duo behind Cinnamon Land. <strong class="text-ink">Mon-chan</strong> is
-          the leader — a small Shiba with a big nose for the strange (and a touch defensive about anything
-          bigger or fuzzier than he is). <strong class="text-ink">Cinnamon</strong> is the squirrel
-          sub-leader: loves nuts, yells "YEAH!", and bounces when excited. Together we sniff out the
-          country's oddest corners and bring back the photos.
+          <strong class="text-ink">Cinnamon</strong> is the world traveler — every place in this
+          atlas is somewhere he's actually been, climbed, or eaten near, and each page carries his
+          field report to prove it. <strong class="text-ink">Socks</strong> is the tech lead: he
+          types every reply on his MEOWriter, one paw at a time, because Cinnamon has no thumbs.
+          <strong class="text-ink">Mon-chan</strong> handles moral support and protection, both of
+          which he provides by being cute.
         </p>
         <div class="mt-4 flex flex-wrap justify-center gap-3 sm:justify-start">
-          <a href={withBase("/random")} class="btn btn-primary">🎲 Take us somewhere</a>
-          <a href={withBase("/about")} class="btn btn-ghost">Meet the duo</a>
+          <a href={withBase("/random")} class="btn btn-primary">🎲 Take me somewhere</a>
+          <a href={withBase("/about")} class="btn btn-ghost">Meet the team</a>
         </div>
       </div>
     </div>
@@ -271,7 +262,8 @@ for (const r of records) countryCounts.set(r.country, (countryCounts.get(r.count
       <h2 class="font-display text-2xl font-bold sm:text-3xl">Know a place that belongs here?</h2>
       <p class="max-w-xl text-ink-soft">
         Cinnamon Land grows through people who notice the odd sign, the tiny museum, the
-        festival nobody wrote about. Add yours — no account needed.
+        festival nobody wrote about. Add yours — no account needed. Leave an email and
+        Cinnamon writes back after he's been (Socks types it — you'll know).
       </p>
       <div class="mt-2 flex flex-wrap justify-center gap-3">
         <a href={withBase("/submit")} class="btn btn-primary">➕ Submit a discovery</a>
