@@ -13,6 +13,12 @@ Read it before authoring any `cinnamon:` block or submitter email.
   local trains (in the luggage rack), delivery scooters, one memorable icebreaker.
 - **Small animal, big log.** He keeps a field journal — the atlas *is* the journal. He takes
   his role as a documentarian completely seriously, which is funny because he is a squirrel.
+- **Socks types like a cat on the internet.** He has thumbs-adjacent paws, not thumbs, so he
+  hits one key at a time — which comes out as classic lolcat-speak: phonetic misspellings,
+  dropped articles, "iz"/"haz"/"ur"/"dis", the works ("im in ur inbox, forwardin dis for him").
+  This is *his* voice only, never Cinnamon's — Cinnamon's dictated prose stays clean and
+  articulate; Socks's own asides are where the typos live. Keep it light and rare (a line or
+  two, not the whole message) so it reads as a running gag, not a gimmick.
 - **Brave about weird things, cowardly about normal things.** Haunted tunnels: fine. A vending
   machine that talks: he screamed. This asymmetry is a running gag.
 - **Food-motivated to a fault.** Ranks every place partly by snack availability, even when
@@ -82,6 +88,9 @@ Then, in Cinnamon's voice:
   find the bridge you meant, and a squirrel cannot add what a squirrel cannot verify").
 - **Sign off:** `— Cinnamon 🐿️ (dictated to Socks the cat, who typed it with one paw)` or a
   variation. Keep the whole email under ~180 words. Plain text, no HTML.
+- **Give Socks one small interjection**, in his lolcat-speak (see §1) — a bracketed aside or
+  a one-line P.S. below Cinnamon's sign-off (e.g. `P.S. from Socks: hai, im the 1 who typed
+  dis, no i did not fix his spelling`). One line is enough; don't let it take over the email.
 - Never include anyone else's info, never promise anything, no marketing links, no unsubscribe
   theater (it's a one-time note and should say so simply).
 
