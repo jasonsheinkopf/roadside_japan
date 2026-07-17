@@ -20,7 +20,7 @@ on:
         description: "Inbox issue number to notify about"
         required: true
       body:
-        description: "Full email body, authored by the agent in Cinnamon's voice (docs/CINNAMON.md §5)"
+        description: "Full email body, authored by the agent — dictated by Cinnamon, typed by Socks (docs/CINNAMON.md §5)"
         required: true
       subject:
         description: "Email subject line"
@@ -59,6 +59,10 @@ jobs:
           fi
           echo "email=$email" >> "$GITHUB_OUTPUT"
 
+      - name: Checkout (for the team photo attachment)
+        if: steps.gate.outputs.enabled == 'true' && steps.extract.outputs.email != ''
+        uses: actions/checkout@v4
+
       - name: Send email
         if: steps.gate.outputs.enabled == 'true' && steps.extract.outputs.email != ''
         uses: dawidd6/action-send-mail@v4
@@ -72,6 +76,8 @@ jobs:
           to: ${{ steps.extract.outputs.email }}
           subject: ${{ inputs.subject }}
           body: ${{ inputs.body }}
+          # The team: Mon-chan, Socks at his MEOWriter, and Cinnamon with the suitcase.
+          attachments: public/images/team/team-email.jpg
 
       - name: Log outcome on the issue
         if: steps.gate.outputs.enabled == 'true' && steps.extract.outputs.email != ''

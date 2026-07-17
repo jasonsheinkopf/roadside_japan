@@ -38,7 +38,7 @@ const { record, data, related, nearby, comments, jsonLd, event } = Astro.props;
 
 const cat = CATEGORY_META[data.category];
 const pref = getPrefecture(data.prefecture);
-const mapsHref = googleMapsLink(data.lat, data.lng, data.googleMaps);
+const mapsHref = googleMapsLink(data.lat, data.lng, data.googleMaps, data.title, data.city ?? pref?.name);
 const websiteHost = data.website ? new URL(data.website).host.replace(/^www\./, "") : null;
 const updated = new Intl.DateTimeFormat("en-US", { year: "numeric", month: "long", day: "numeric" }).format(
   data.updatedAt,

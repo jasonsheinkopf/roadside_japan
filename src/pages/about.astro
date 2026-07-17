@@ -14,40 +14,48 @@ import { withBase, exploreUrl, mapUrl } from "../lib/url";
         <em>Atlas Obscura</em>, pointed squarely at Japan.
       </p>
 
-      <h2>Your hosts: Mon-chan &amp; Cinnamon 🐕🐿️</h2>
-      <div class="not-prose my-6 flex flex-col items-center gap-5 rounded-2xl border border-line bg-surface p-5 sm:flex-row sm:p-6">
-        <div class="flex shrink-0 items-end">
-          <img
-            src={withBase("/images/mon-chan.svg")}
-            alt="Mon-chan, the tan Shiba Inu mascot of Cinnamon Land in his olive paisley bandana"
-            width="150"
-            height="150"
-            class="h-32 w-32"
-          />
-          <img
-            src={withBase("/images/cinnamon.svg")}
-            alt="Cinnamon, the squirrel sidekick of Cinnamon Land, holding an acorn"
-            width="104"
-            height="104"
-            class="-ml-3 h-20 w-20"
-          />
+      <h2>The team 🐿️🐈‍⬛🐕</h2>
+      <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line bg-surface">
+        <img
+          src={withBase("/images/team/team.webp")}
+          alt="The Cinnamon Land team: Mon-chan the Shiba Inu, Socks the tuxedo cat at his MEOWriter typewriter, and Cinnamon the squirrel with his travel suitcase"
+          class="w-full"
+          loading="lazy"
+        />
+      </div>
+      <div class="not-prose my-6 grid gap-4 sm:grid-cols-3">
+        <div class="card overflow-hidden">
+          <img src={withBase("/images/team/cinnamon.webp")} alt="Cinnamon, a cheerful squirrel in a green neckerchief, waving beside his sticker-covered travel suitcase" class="aspect-square w-full object-cover" loading="lazy" />
+          <div class="p-4">
+            <p class="font-display font-bold">Cinnamon 🐿️</p>
+            <p class="mt-1 text-sm text-ink-soft">
+              The world traveler. A squirrel who cannot stay in his tree — every place in this
+              atlas is somewhere he's been, climbed, or eaten near. He writes the field
+              reports. Well — he <em>dictates</em> them. No thumbs.
+            </p>
+          </div>
         </div>
-        <div class="text-sm text-ink-soft">
-          <p>
-            Every atlas needs guides, and ours are <strong class="text-ink">Mon-chan</strong>, a tan
-            Shiba Inu in an olive paisley bandana, and his best friend <strong class="text-ink">Cinnamon</strong>,
-            a squirrel who never lets go of his acorn. They travel Japan together, photographing every odd
-            corner they can sniff out.
-          </p>
-          <p class="mt-2">
-            <strong class="text-ink">Mon-chan is the leader</strong> — and a little obsessed with it. He's
-            the biggest and fuzziest, so anything bigger or fuzzier (teddy bears, snow monsters, a giant
-            Buddha) makes him insecure: "I don't like him." He was built by a machine and occasionally
-            misses his "big cold metal mother." <strong class="text-ink">Cinnamon is the sub-leader</strong>:
-            he loves nuts, chatters ("chk-chk!"), yells "YEAH!", and bounces up and down when he's excited.
-            Both of them can transform into things, which they do at the worst moments. The camera roll and
-            captions you see across the site? All theirs. ✌️
-          </p>
+        <div class="card overflow-hidden">
+          <img src={withBase("/images/team/socks.webp")} alt="Socks, a tuxedo cat with a white face and a black dot on his nose, typing replies on a green MEOWriter typewriter surrounded by fan mail" class="aspect-square w-full object-cover" loading="lazy" />
+          <div class="p-4">
+            <p class="font-display font-bold">Socks 🐈‍⬛</p>
+            <p class="mt-1 text-sm text-ink-soft">
+              The tech lead. Types up every reply on his MEOWriter, one paw at a time, because
+              Cinnamon has no thumbs and Socks has no fear of keyboards. If you get an email
+              from us, Socks typed it. He does not fix his own spelling. He stands by that.
+            </p>
+          </div>
+        </div>
+        <div class="card overflow-hidden">
+          <img src={withBase("/images/team/mon-chan.webp")} alt="Mon-chan, a smiling Shiba Inu puppy in a green karakusa-patterned bandana, surrounded by sparkles" class="aspect-square w-full object-cover" loading="lazy" />
+          <div class="p-4">
+            <p class="font-display font-bold">Mon-chan 🐕</p>
+            <p class="mt-1 text-sm text-ink-soft">
+              Moral support and protection. He provides both by being cute, which is somehow
+              always enough. Rides along on every trip, bows back at deer alongside Cinnamon,
+              and guards the suitcase with his whole heart.
+            </p>
+          </div>
         </div>
       </div>
 

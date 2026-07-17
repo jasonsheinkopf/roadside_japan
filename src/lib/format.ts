@@ -59,9 +59,35 @@ export const STATUS_LABEL: Record<Status, string> = {
   unknown: "Status unknown",
 };
 
-/** Build a Google Maps link, preferring an explicit one, else generating from coords. */
-export function googleMapsLink(lat: number, lng: number, explicit?: string): string {
+/**
+ * Build a Google Maps link. Priority:
+ * 1. an explicit `googleMaps` URL from the entry's frontmatter (always wins);
+ * 2. a NAME-based place search ("Randy's Donuts, Inglewood") — this lands on the actual
+ *    Google Maps place listing (photos, hours, reviews) instead of a bare GPS pin that
+ *    resolves to "nearby location". The coordinates ride along as a hint so same-named
+ *    places elsewhere don't hijack the result;
+ * 3. raw coordinates, only when no name is available.
+ */
+export function googleMapsLink(
+  lat: number,
+  lng: number,
+  explicit?: string,
+  name?: string,
+  locality?: string,
+): string {
   if (explicit) return explicit;
+  if (name) {
+    // "Name, City" — what a human would type; locality disambiguates same-named places.
+    // Titles often carry an editorial subtitle ("Morinji Temple — Bunbuku Chagama") that
+    // only hurts the search, so drop everything from the first em-dash; and skip the
+    // locality when the name already contains it ("Randy's Donuts — Inglewood").
+    const base = name.split("—")[0].trim();
+    const q =
+      locality && !base.toLowerCase().includes(locality.toLowerCase())
+        ? `${base}, ${locality}`
+        : base;
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+  }
   return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
 }
 
