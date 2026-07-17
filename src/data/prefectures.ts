@@ -133,6 +133,7 @@ export const PREFECTURES: Prefecture[] = [
   { slug: "south-dakota", name: "South Dakota", nameJa: "SD", region: "Midwest US", lat: 44.3668, lng: -100.3364, country: "usa" },
   { slug: "wisconsin", name: "Wisconsin", nameJa: "WI", region: "Midwest US", lat: 43.7844, lng: -88.7879, country: "usa" },
   { slug: "new-jersey", name: "New Jersey", nameJa: "NJ", region: "Northeast US", lat: 40.0583, lng: -74.4057, country: "usa" },
+  { slug: "new-york", name: "New York", nameJa: "NY", region: "Northeast US", lat: 42.1657, lng: -74.9481, country: "usa" },
 ];
 
 export const PREFECTURE_SLUGS = PREFECTURES.map((p) => p.slug) as [string, ...string[]];
