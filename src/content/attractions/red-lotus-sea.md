@@ -38,6 +38,7 @@ photos:
     creditUrl: "https://commons.wikimedia.org/wiki/File:Red_Lotus_Sea_at_Nong_Han_Kumphawapi%2C_Udon_Thani%2C_Thailand.jpg"
 status: seasonal
 approval: published
+website: "https://www.tourismthailand.org/Attraction/red-lotus-sea"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.82

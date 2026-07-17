@@ -20,6 +20,7 @@ cost:
   type: free
 status: open
 approval: published
+website: "https://www.changchuibangkok.com/"
 source: imported
 createdAt: 2026-06-19
 updatedAt: 2026-07-15

@@ -21,6 +21,7 @@ cost:
   note: A resort restaurant on the beach; premium pricing. Open to non-guests by reservation, weather permitting.
 status: open
 approval: published
+website: "https://www.rayavadee.com/"
 source: imported
 createdAt: 2026-06-19
 updatedAt: 2026-07-15

@@ -31,6 +31,7 @@ tips:
   - "It's a working public ranch, not a theme park: roughly 2,000 young dairy cows from farms across the region graze here — established in 1972 and still the largest public ranch in Japan (about 358 Tokyo Domes of grass)."
 status: seasonal
 approval: published
+website: "https://www.visit-hokkaido.jp/en/spot/detail_10448.html"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.84

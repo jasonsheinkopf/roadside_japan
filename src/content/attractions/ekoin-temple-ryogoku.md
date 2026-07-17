@@ -28,6 +28,7 @@ tips:
   - "Kanjin-zumo fundraising tournaments were held here from 1768, and every official tournament took place on these grounds from 1833 to 1909 — 76 years, before sumo moved into the original Kokugikan next door."
 status: open
 approval: published
+website: "https://www.ekoin.or.jp/"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.84

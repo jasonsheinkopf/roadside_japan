@@ -37,6 +37,7 @@ photos:
     creditUrl: "https://commons.wikimedia.org/wiki/File:Katsunuma_vineyard_02.jpg"
 status: seasonal
 approval: published
+website: "https://www.yamanashi-kankou.jp/english/"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.81

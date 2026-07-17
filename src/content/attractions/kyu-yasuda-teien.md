@@ -34,6 +34,7 @@ photos:
     creditUrl: "https://commons.wikimedia.org/wiki/File:Kyu-Yasuda_Teien_Garden_(16179738292).jpg"
 status: open
 approval: published
+website: "https://www.gotokyo.org/en/spot/510/index.html"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.85

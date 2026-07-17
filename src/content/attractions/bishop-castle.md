@@ -13,6 +13,7 @@ tags:
   - one-man-project
 source: ai-agent
 approval: published
+website: "https://thebishopcastle.com/"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bishop_Castle_in_Rye%2C_Colorado.jpg/960px-Bishop_Castle_in_Rye%2C_Colorado.jpg"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bishop_Castle_in_Rye%2C_Colorado.jpg/960px-Bishop_Castle_in_Rye%2C_Colorado.jpg"

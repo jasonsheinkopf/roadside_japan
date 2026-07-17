@@ -14,6 +14,7 @@ tags:
 source: community
 submittedBy: "ghost popsicle"
 approval: published
+website: "https://www.pinballmuseum.org/"
 status: open
 cost:
   type: paid

@@ -36,6 +36,7 @@ photos:
     creditUrl: "https://commons.wikimedia.org/wiki/File:Wat_Rong_Khun_-_Chiang_Rai.jpg"
 status: open
 approval: published
+website: "https://www.watrongkhun.org/"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.86

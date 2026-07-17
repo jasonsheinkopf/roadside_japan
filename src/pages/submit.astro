@@ -40,8 +40,21 @@ const endpoint = import.meta.env.PUBLIC_SUBMIT_ENDPOINT ?? "";
         <li>Your trip: route, cities, and dates — and what kind of places you're hoping to find along it.</li>
         <li>A country we don't cover yet. Cinnamon travels.</li>
         <li><strong>Optional:</strong> your name or handle → you'll be credited on every place we add.</li>
-        <li><strong>Optional:</strong> your email → Cinnamon lets you know once your note has been processed.</li>
+        <li><strong>Optional:</strong> your email → Cinnamon writes you back once he's been. (His friend Socks the cat types the reply — Cinnamon has no thumbs. Socks does not fix his own spelling. You'll see.)</li>
       </ul>
+    </div>
+
+    <div class="mb-6 flex items-center gap-4 rounded-2xl border border-line bg-surface p-4">
+      <img
+        src={withBase("/images/team/socks.webp")}
+        alt="Socks the tuxedo cat at his MEOWriter typewriter, buried in letters"
+        class="h-20 w-20 shrink-0 rounded-xl border border-line object-cover"
+        loading="lazy"
+      />
+      <p class="text-sm italic text-ink-soft">
+        "hi im socks, i handle teh mail. every note gets red. if u leave ur email i will
+        personaly type u back (one paw). ur name gets speled RIGHT, i promise that part."
+      </p>
     </div>
 
     {

@@ -14,6 +14,7 @@ tags:
 source: community
 submittedBy: "ghost popsicle"
 approval: published
+website: "https://www.salvationmountain.us/"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Salvation_Mountain_-_God_is_Love.JPG/960px-Salvation_Mountain_-_God_is_Love.JPG"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Salvation_Mountain_-_God_is_Love.JPG/960px-Salvation_Mountain_-_God_is_Love.JPG"

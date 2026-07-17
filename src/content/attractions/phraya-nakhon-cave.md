@@ -36,6 +36,7 @@ photos:
     creditUrl: "https://commons.wikimedia.org/wiki/File:Phraya-Nakhon-H%C3%B6hle_01.JPG"
 status: open
 approval: published
+website: "https://www.tourismthailand.org/Attraction/phraya-nakhon-cave"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.82

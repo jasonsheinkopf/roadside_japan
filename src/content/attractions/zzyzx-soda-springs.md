@@ -14,6 +14,7 @@ tags:
 source: community
 submittedBy: "ghost popsicle"
 approval: published
+website: "https://www.nps.gov/moja/learn/historyculture/zzyzx.htm"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Zzyzx_Road_Sign_August_2012.JPG/960px-Zzyzx_Road_Sign_August_2012.JPG"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Zzyzx_Road_Sign_August_2012.JPG/960px-Zzyzx_Road_Sign_August_2012.JPG"

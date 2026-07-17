@@ -29,6 +29,7 @@ tips:
   - "Pair it with Chet Si Fountain a short walk upstream — the turquoise spring that feeds the falls. Weekdays are blissfully quiet; weekends bring Chiang Mai picnic crowds."
 status: open
 approval: published
+website: "https://www.tourismthailand.org/Attraction/bua-tong-waterfall"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.83

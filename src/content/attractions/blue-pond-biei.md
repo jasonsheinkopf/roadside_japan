@@ -43,6 +43,7 @@ tips:
   - "Combine with nearby Shirahige Falls and the Shirogane hot springs."
 status: open
 approval: published
+website: "https://www.biei-hokkaido.jp/en/"
 source: editorial
 submittedBy: editorial
 sources:

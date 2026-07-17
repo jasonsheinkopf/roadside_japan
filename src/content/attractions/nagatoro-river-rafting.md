@@ -38,6 +38,7 @@ photos:
     creditUrl: "https://commons.wikimedia.org/wiki/File:Nagatoro_Ara_River_In_Yanase_Section_1.JPG"
 status: open
 approval: published
+website: "https://www.nagatoro.gr.jp/"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.82

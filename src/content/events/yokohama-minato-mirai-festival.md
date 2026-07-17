@@ -39,6 +39,7 @@ photos:
     creditUrl: "https://commons.wikimedia.org/wiki/File:Yokohama_Minato_Mirai_at_night%2C_2008.jpg"
 status: seasonal
 approval: published
+website: "https://yokohama-minatomirai.com/en/"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.78

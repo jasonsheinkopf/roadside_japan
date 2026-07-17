@@ -13,6 +13,7 @@ tags:
   - folk-art
 source: ai-agent
 approval: published
+website: "https://coralcastle.com/"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coral_Castle.JPG/960px-Coral_Castle.JPG"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coral_Castle.JPG/960px-Coral_Castle.JPG"

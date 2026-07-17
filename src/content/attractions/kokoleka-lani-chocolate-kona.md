@@ -14,6 +14,7 @@ tags:
 source: community
 submittedBy: "ghost popsicle"
 approval: published
+website: "https://www.konanaturalsoap.com/pages/kona-coffee-chocolate-farm-tour"
 status: open
 seasons:
   - winter

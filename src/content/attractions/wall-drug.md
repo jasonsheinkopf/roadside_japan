@@ -13,6 +13,7 @@ tags:
   - kitsch
 source: ai-agent
 approval: published
+website: "https://www.walldrug.com/"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wall_Drug.JPG/960px-Wall_Drug.JPG"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wall_Drug.JPG/960px-Wall_Drug.JPG"

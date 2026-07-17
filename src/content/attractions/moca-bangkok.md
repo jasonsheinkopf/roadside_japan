@@ -20,6 +20,7 @@ cost:
   note: About 280 THB.
 status: open
 approval: published
+website: "https://www.mocabangkok.com/"
 source: imported
 createdAt: 2026-06-19
 updatedAt: 2026-07-15

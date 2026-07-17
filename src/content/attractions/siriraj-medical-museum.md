@@ -20,6 +20,7 @@ cost:
   note: About 200 THB.
 status: open
 approval: published
+website: "https://museum.si.mahidol.ac.th/"
 source: imported
 featured: true
 createdAt: 2026-06-19
