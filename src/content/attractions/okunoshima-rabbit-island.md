@@ -44,6 +44,7 @@ tips:
   - "Visit the Poison Gas Museum to understand the island's hidden wartime history."
 status: open
 approval: published
+website: "https://www.qkamura.or.jp/ohkuno/"
 source: editorial
 submittedBy: editorial
 featured: false

@@ -13,6 +13,7 @@ tags:
   - surreal
 source: ai-agent
 approval: published
+website: "https://www.thehouseontherock.com/"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/House_on_the_Rock_automated_instruments.jpg/960px-House_on_the_Rock_automated_instruments.jpg"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/House_on_the_Rock_automated_instruments.jpg/960px-House_on_the_Rock_automated_instruments.jpg"

@@ -13,6 +13,7 @@ tags:
   - landmark
 source: ai-agent
 approval: published
+website: "https://lucytheelephant.org/"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Lucy_the_elephant%2C_Margate_City%2C_Atlantic_City_New_Jersey.jpg/960px-Lucy_the_elephant%2C_Margate_City%2C_Atlantic_City_New_Jersey.jpg"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Lucy_the_elephant%2C_Margate_City%2C_Atlantic_City_New_Jersey.jpg/960px-Lucy_the_elephant%2C_Margate_City%2C_Atlantic_City_New_Jersey.jpg"

@@ -27,6 +27,7 @@ cost:
   note: About 700 THB.
 status: open
 approval: published
+website: "https://www.muangboranmuseum.com/"
 source: imported
 featured: true
 createdAt: 2026-06-19

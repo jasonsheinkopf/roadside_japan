@@ -21,6 +21,7 @@ cost:
   note: A signature experience at a luxury resort — book well ahead; pricing is high-end.
 status: open
 approval: published
+website: "https://kiriprivatereserve.com/experience/treepod-dining/"
 source: imported
 featured: true
 sources:

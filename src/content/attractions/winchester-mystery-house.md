@@ -13,6 +13,7 @@ tags:
   - architecture
 source: ai-agent
 approval: published
+website: "https://winchestermysteryhouse.com/"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Winchester_Mystery_House_exterior.JPG/960px-Winchester_Mystery_House_exterior.JPG"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Winchester_Mystery_House_exterior.JPG/960px-Winchester_Mystery_House_exterior.JPG"

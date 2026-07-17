@@ -33,6 +33,7 @@ tips:
   - "The same cemetery has full-size replicas of Easter Island moai and Stonehenge near the entrance — one of Japan's oddest landscapes, all built by a gravestone company."
 status: open
 approval: published
+website: "https://www.visit-hokkaido.jp/en/spot/detail_11222.html"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.87

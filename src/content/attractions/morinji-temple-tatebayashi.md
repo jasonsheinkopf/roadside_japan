@@ -9,6 +9,7 @@ location: Tatebayashi
 lat: 36.2622
 lng: 139.5353
 approval: published
+website: "https://morinji.com/"
 source: community
 submittedBy: "a fellow traveler"
 createdAt: 2026-07-16

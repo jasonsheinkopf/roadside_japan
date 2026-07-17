@@ -31,6 +31,7 @@ tips:
   - "Pair it with a sea-urchin lunch: Shakotan's uni season runs June-August, and the fishing villages along the cape road are where Sapporo chefs come to eat it."
 status: open
 approval: published
+website: "https://www.visit-hokkaido.jp/en/spot/detail_10342.html"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.84

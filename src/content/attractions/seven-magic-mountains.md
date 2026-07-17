@@ -14,6 +14,7 @@ tags:
 source: community
 submittedBy: "ghost popsicle"
 approval: published
+website: "https://sevenmagicmountains.com/"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Maloney_2019_Rondinone_%22Seven_Magic_Mountains%22.jpg/960px-Maloney_2019_Rondinone_%22Seven_Magic_Mountains%22.jpg"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Maloney_2019_Rondinone_%22Seven_Magic_Mountains%22.jpg/960px-Maloney_2019_Rondinone_%22Seven_Magic_Mountains%22.jpg"

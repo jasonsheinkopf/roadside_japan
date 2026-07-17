@@ -37,6 +37,7 @@ photos:
     creditUrl: "https://commons.wikimedia.org/wiki/File:Kaminoko_ike.JPG"
 status: seasonal
 approval: published
+website: "https://www.kiyosatokankou.com/multilingual_eng/kaminokoike.html"
 source: ai-agent
 submittedBy: "ai:research-agent"
 confidence: 0.83

@@ -19,6 +19,7 @@ cost:
   note: About 350 THB.
 status: open
 approval: published
+website: "https://www.patpongmuseum.com/"
 source: imported
 createdAt: 2026-06-19
 updatedAt: 2026-07-15

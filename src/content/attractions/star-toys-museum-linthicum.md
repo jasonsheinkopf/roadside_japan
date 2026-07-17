@@ -14,6 +14,7 @@ tags:
 source: community
 submittedBy: "ghost popsicle"
 approval: published
+website: "http://www.meerkatmeade.com/"
 status: open
 cost:
   type: free

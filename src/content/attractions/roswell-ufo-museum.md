@@ -13,6 +13,7 @@ tags:
   - quirky
 source: ai-agent
 approval: published
+website: "https://www.roswellufomuseum.com/"
 heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/UFO_Museum%2C_Roswell%2C_NM.JPG/960px-UFO_Museum%2C_Roswell%2C_NM.JPG"
 photos:
   - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/UFO_Museum%2C_Roswell%2C_NM.JPG/960px-UFO_Museum%2C_Roswell%2C_NM.JPG"
