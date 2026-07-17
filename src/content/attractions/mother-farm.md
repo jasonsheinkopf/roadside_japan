@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "I watched the sheep parade and a pig race. Democracy in its purest form."
   emoji: "🐑"
+  report: |-
+    Mother Farm is a whole hilltop of wholesome chaos on the Boso Peninsula: sheep races, hand-feedable capybaras and alpacas, seasonal flower slopes, Tokyo Bay glittering below, and a Ferris wheel to sort your feelings on afterward.
+
+    I entered the sheep race. Unofficially. I rode the fence rail alongside the field, matched the leader stride for stride, and consider myself the moral winner of Heat 3. The capybaras received me as capybaras receive everything: with the serenity of creatures who have never once hurried. I fed an alpaca and was breathed on so hard my fur parted.
+
+    Families swarm it on weekends, and the soft-serve (fresh farm milk) has a permanent queue that moves fast. Petting-zoo diplomacy, flower fields, a genuinely great view — an uncomplicated full acorn.
 ---
 
 High on the hills of the **Boso Peninsula**, with Tokyo Bay glinting below, **Mother Farm** is a sprawling farm-park built for a very specific kind of joy: feeding fuzzy animals, watching sheep do undignified things, and wandering through fields of flowers.

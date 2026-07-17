@@ -36,6 +36,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "All of Thailand in one park. My little legs filed a formal complaint."
   emoji: "🏯"
+  report: |-
+    A traveler's crumpled brochure blew right into my face at a Bangkok bus stop, and by the time I peeled it off I had read the words 'entire country, miniature.' Sold.
+
+    Muang Boran is a park shaped like Thailand itself, scattered with replicas of the country's great monuments. I toured all of Thailand in one afternoon on borrowed bicycle handlebars — north to south, temple to palace, occasionally at great speed downhill. Some replicas are full-size, which stops feeling like cheating the moment you crane your neck.
+
+    The humans around me kept calling it 'empty in the best way,' and they're right — you often get a whole monument to yourself. Bring water. Thailand, even a scale model of it, is enormous.
 ---
 
 On the southern fringe of Bangkok, in Samut Prakan, sprawls one of the most ambitious museums anywhere: a 200-acre park laid out in the rough shape of Thailand, with more than a hundred reconstructed temples, palaces, and pavilions positioned to match their real locations on the national map.

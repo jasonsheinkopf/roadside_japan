@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "A lion looked through the car window at me. I have updated my will. All acorns to charity."
   emoji: "🦁"
+  report: |-
+    At Nasu Safari Park you drive your own car through the enclosures while lions consider you and giraffes lean down to collect tolls in vegetables. I rode the dashboard of a rental hatchback with a family who screamed at appropriate moments, which is to say continuously.
+
+    A giraffe's head filled the entire windshield like a weather system. A rhino paced us with the gravitas of a container ship. In the herbivore zone you feed them from the window; in the carnivore zone the window stays UP and everyone's voice drops an octave, including mine, and I wasn't talking.
+
+    The night safari is the sleeper hit — eyeshine everywhere, lions on the move. Rent their fenced 'lion bus' if your own paint job matters to you; the animals treat cars as furniture. Furniture with snacks.
 ---
 
 Most zoos keep you outside the cage. At **Nasu Safari Park**, you drive your own car straight into the enclosure and let the **lions come to you**. Around **70 species** roam in large free-range zones — giraffes leaning toward your window, rhinos crossing the road, tigers watching from the grass.

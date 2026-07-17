@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A volcano inside a volcano?! That's like an acorn inside an acorn. Incredible."
   emoji: "🌋"
+  report: |-
+    I overheard two ferry workers arguing about whether anyone actually lives on 'the volcano inside the volcano.' Naturally I stowed away to settle it. (They do. About 170 of them. I counted the porch lights.)
+
+    Aogashima is a green island 360 km out in the Pacific with a smaller volcano sitting inside its crater like an acorn in a bowl. I climbed the outer rim at dawn and looked down at the little cone and the village, and my tail did the thing it does when the world shows off. I also steamed a sweet potato in the volcanic vents, because the locals do, and locals are always right.
+
+    Getting there is genuinely hard — boats cancel, the helicopter has nine seats. Everyone I met agreed on one thing: the trying is part of it.
 ---
 
 Three hundred and sixty kilometres south of Tokyo, alone in the open Pacific, sits a green wall of cliffs that turns out to be the rim of a volcano — and inside that volcano lives a village. **Aogashima** is the least-populated municipality in Japan, home to around **170 people**, and one of the strangest, most beautiful places the country administers.

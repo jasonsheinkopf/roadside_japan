@@ -53,6 +53,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "All-you-can-eat grapes, straight off the vine. They had to roll me down the hill."
   emoji: "🍇"
+  report: |-
+    Katsunuma is Japan's wine country an easy trip from Tokyo, and in autumn the hillsides open for grape picking — sixteen-plus varieties, pay by weight, eat off the vine. Pay by weight. They said that to a squirrel. The farm's own pricing model never stood a chance.
+
+    I worked the Kyoho rows like a harvest festival of one: each grape is effectively a wine barrel at my scale, and I am not ashamed of my numbers. The farmer weighed my basket, looked at my cheeks, weighed me, and laughed until she had to sit down. I paid the surcharge. It was fair.
+
+    Go September–October, hit a winery cave after (several do tastings; I sniffed responsibly), and take the slow train home at sunset with purple paws like everyone else.
 ---
 
 Ninety minutes from Tokyo, an entire hillside in Koshu turns over to vineyards each late summer — Japan's original and still-largest wine region, and one of its most reliable late-summer day trips.

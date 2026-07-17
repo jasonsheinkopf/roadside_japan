@@ -31,6 +31,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "The queen of street food cooks in ski goggles over roaring flames. Legend. Icon. Crab."
   emoji: "🦀"
+  report: |-
+    A woman in her seventies, in ski goggles, working two flaming charcoal woks on a Bangkok sidewalk, holding a Michelin star she has repeatedly threatened to give back for the trouble it causes: that is Jay Fai, and the queue outside is a pilgrimage.
+
+    I watched from the awning brace — best seat in the house, don't tell the bookings list — as she turned out her famous crab omelette: a golden log, obscenely stuffed, folded like a secret. The goggles protect her from the oil, which leaps like it's trying to escape the fame.
+
+    Getting a seat takes reservations or heroic queueing, and prices are restaurant-grade, not street-grade — the humans debate this endlessly online while chewing, which settles it. The fire alone is worth the walk past. She cooks like weather.
 ---
 
 On a corner of Maha Chai Road, an octogenarian known as Jay Fai ("Sister Mole") cooks over roaring charcoal in her trademark woollen hat and ski goggles — the goggles protect her eyes from the flames. In 2018 she became one of the world's only street-food cooks to win a Michelin star, and the queues have never let up since.

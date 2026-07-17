@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A shrine older than the killing stone legend next door. I bowed extra. Insurance."
   emoji: "⛩️"
+  report: |-
+    Nasu Onsen Shrine has stood for 1,300 years at the top of the hot-spring village, guarding the waters, wrapped in cedars, right beside the steaming field where the Killing Stone sits. It's the kind of shrine where the moss has seniority.
+
+    I paid respects, circled the giant 'lucky' cedar (impeccable; a tree with a résumé), and walked the stone path where sulfur drifts through the trees like the mountain thinking out loud. The shrine's connection to the legendary nine-tailed fox next door gives the whole hillside a folkloric static charge — Japan does 'sacred and slightly dangerous' better than anywhere.
+
+    Come at dusk when the lanterns go on and the day-trippers have gone down to soak. Bow to the cedar. It's earned it thirteen centuries over.
 ---
 
 At the top of **Nasu Yumoto**, where the road meets the steaming sulfur field, an avenue of towering cedars leads up to **Nasu Onsen Shrine** — the roughly **1,300-year-old** guardian of these hot springs, founded, the story goes, when the healing waters were first discovered.

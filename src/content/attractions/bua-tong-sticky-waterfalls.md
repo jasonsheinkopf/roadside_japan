@@ -43,6 +43,12 @@ updatedAt: 2026-07-15
 cinnamon:
   quote: "A waterfall you can climb UP. My claws finally met their soulmate."
   emoji: "💦"
+  report: |-
+    A guesthouse cook in Chiang Mai told me about a waterfall you climb UP, and I said 'I climb up everything, what's special,' and she said 'barefoot, no ropes, on the water,' and I packed immediately.
+
+    Bua Tong's limestone is coated in minerals so grippy that feet — human feet, squirrel feet, all feet — simply stick, even under flowing water. I walked up a waterfall like it was a staircase. Uphill. IN the water. My whole life as a climbing professional flashed before my eyes and felt suddenly ordinary.
+
+    The humans giggle the entire climb; it is physically impossible not to. Skip the mossy green patches (those DO slip), go on a weekday, bring a snack for the top. The strangest and best twenty minutes in northern Thailand.
 ---
 
 Every waterfall in the world teaches you the same rule — wet rock is slippery. Bua Tong exists to break that rule.

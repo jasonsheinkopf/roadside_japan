@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "25 real old farmhouses saved from all over Japan. I tested every dark cozy corner. Research."
   emoji: "🏘️"
+  report: |-
+    Nihon Minka-en gathers two dozen real thatched farmhouses from across Japan — rescued, dismantled, and rebuilt board by board on a wooded Kawasaki hillside, arranged into a village that never existed but completely convinces.
+
+    As a connoisseur of roofs, I state for the record: thatch is the finest roofing material ever devised, and this park is its Louvre. On hearth-lighting days, smoke curls through the thatch to cure it, volunteers keep the fires, and the houses smell alive. I inspected ridgepoles across four centuries of carpentry, then watched the watermill do its patient work.
+
+    It's beside the Fujiko F. Fujio Museum — pair them for old and new Japan in one afternoon. Go on a smoke day if you can. A village of saved houses: my kind of rescue story.
 ---
 
 Tucked into a wooded park in **Kawasaki**, the **Nihon Minka-en** is a village that never actually existed — and yet every piece of it is real. Some two dozen traditional **folk houses** were dismantled at their original sites across Japan, moved here, and painstakingly rebuilt to save them from disappearing.

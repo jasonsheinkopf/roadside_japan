@@ -34,6 +34,12 @@ sources:
 cinnamon:
   quote: "The carousel has 269 animals and NOT ONE squirrel. I have written a letter."
   emoji: "🎠"
+  report: |-
+    A Wisconsin gas-station attendant described House on the Rock as 'a house, then a museum, then a fever,' and handed me a brochure like a warning. Accurate on all three counts.
+
+    It starts as a 1940s retreat built atop a 60-foot rock chimney — low ceilings, shag carpet, indoor waterfalls — and then it keeps going: an Infinity Room cantilevered 218 feet out over the valley with windows for walls (I walked to the very tip; the floor creaks on purpose, I've decided), then hall after hall of collections — automated orchestras, a sea creature bigger than the Statue of Liberty is tall, and the world's largest carousel: 269 animals, none of them a horse, none of them ridable, all of them watching you.
+
+    Allow three hours. The humans exit blinking like they've surfaced from a dream. So did I. Bring snacks; the fever runs long.
 ---
 
 ## A collection of collections

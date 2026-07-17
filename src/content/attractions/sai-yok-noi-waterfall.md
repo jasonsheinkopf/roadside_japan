@@ -33,6 +33,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "A waterfall right off the road where everyone just wades in. I did a tiny cannonball. Legendary splash."
   emoji: "💦"
+  report: |-
+    Sai Yok Noi is the people's waterfall: right beside the road near Nam Tok at the far end of the Death Railway line, fanning down a limestone face into shallow pools where local families wade, picnic, and conduct the ancient rite of dunking a shrieking cousin.
+
+    I joined a family's picnic perimeter (invited by the youngest member, a girl of about six, via banana chunk diplomacy) and spent the afternoon in the spray zone. It's not remote, not epic, not a secret — it's Sunday, in waterfall form.
+
+    The train from Kanchanaburi drops you practically at the base, over the wooden viaduct at Tham Krasae on the way, which makes the journey half the attraction. Weekdays are quiet; weekends are joyful chaos. Bring food, get wet, dry off on a rock like your ancestors.
 ---
 
 A short walk from Nam Tok station — the present end of the Death Railway — Sai Yok Noi tumbles in a broad sheet over a stepped limestone bluff into a string of shallow pools. It's unpretentious, family-friendly, and beloved by Thai day-trippers.

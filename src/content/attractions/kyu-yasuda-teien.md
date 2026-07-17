@@ -50,6 +50,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A hidden garden with a turtle pond. The turtles move at my nap speed. Kindred spirits."
   emoji: "🐢"
+  report: |-
+    Kyu-Yasuda Teien is a free Edo-period garden behind the sumo arena whose pond used to breathe with the tide — it rose and fell with the Sumida River, redrawing the shoreline twice a day. The river connection is long gone, so pumps now recreate the same slow rhythm, which means this is a garden with a heartbeat on life support, lovingly maintained.
+
+    I did three laps at different water levels and can confirm the stepping stones change character entirely — bridge at low water, dare at high. Turtles run the pond and know the schedule better than the signage.
+
+    It's small, ten minutes end to end, and mostly visited by locals eating lunch. Free gardens this good are a civic miracle. Time your visit to catch the 'tide' turning; the pumps don't advertise, but the turtles will tell you.
 ---
 
 A small, easy-to-miss strolling garden just north of the sumo stadium — free, quiet, and older than almost everything around it.

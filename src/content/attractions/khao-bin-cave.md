@@ -27,6 +27,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "A cave like a stone cathedral. The bats and I have an understanding: we're all just hanging out."
   emoji: "🦇"
+  report: |-
+    Tham Khao Bin is the show cave near Ratchaburi that most tour buses skip, which is precisely why I got a kilometre of dripping stone chambers essentially to myself, plus one family from Bangkok who adopted me as their tour mascot by chamber three.
+
+    It's long, lit, and walkable — named chambers strung one after another, stalactites like frozen waterfalls and flowstone like poured silk. Cool air, patient dark, the occasional bat commuting overhead with the weary professionalism of all commuters.
+
+    As a connoisseur of small spaces I rate the squeeze points 'delicious' and the big chambers 'humbling.' Wear grippy shoes, mind the drips, tip the caretaker with a smile at minimum. Caves are the earth thinking slowly, and this one has been mid-thought for a million years.
 ---
 
 Tham Khao Bin is one of those low-key Thai show caves that locals love and few foreigners find. A lit concrete path winds for several hundred metres through a chain of chambers, each given a fanciful name for the formations it holds.

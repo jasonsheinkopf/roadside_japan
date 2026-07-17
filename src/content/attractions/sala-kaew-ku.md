@@ -58,6 +58,12 @@ country: thailand
 cinnamon:
   quote: "Concrete gods ten stories tall, built from one man's visions. My neck and my imagination both bent backward."
   emoji: "🐉"
+  report: |-
+    Sala Kaew Ku is what happens when one man's visions get a riverside field and unlimited concrete: towering, surreal deities — a seven-headed naga canopy over a meditating Buddha, a wheel of life you walk through, figures blending Hindu and Buddhist iconography into something entirely the founder's own — some of them 25 metres tall.
+
+    Luang Pu Bunleua Sulilat built all this with untrained local helpers after visions he trusted more than convention. The statues have the specific intensity of things made from belief rather than blueprints; walking beneath the naga's seven heads, I felt the exact hush I feel in thousand-year-old temples, which tells you something about where holiness actually comes from.
+
+    It's on the Mekong edge of Nong Khai, easily paired with the riverside promenade. Go in soft evening light. Bring your openness. The concrete believes in itself.
 ---
 
 On the banks of the Mekong near the Lao border, a field bristles with **gigantic concrete gods**. **Sala Kaew Ku** (also spelled Sala Keoku) is the creation of **Luang Pu Bunleua Sulilat**, a charismatic mystic who claimed his cosmology after tumbling into a cave as a young man, and who built sprawling sculpture parks on both sides of the Mekong.

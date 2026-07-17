@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Hell Valley steams and bubbles and smells of sulfur, and the demons are statues. Probably."
   emoji: "😈"
+  report: |-
+    Noboribetsu's Hell Valley is a steaming, hissing volcanic crater in red and ochre that supplies the town's famous hot springs — and instead of playing up the menace, the town made demons the mascots. Cheerful oni statues everywhere: guarding the station, holding clubs, blessing your bath.
+
+    I walked the boardwalk into the crater at dusk when the steam catches the last light and the sulfur smell files its report directly to your hindbrain. Then down to town to see the demon statues lit up, looking less like monsters and more like the local welcoming committee, which they are.
+
+    Soak afterward — the whole point of hell here is that it heats your bath. The humans emerge from the onsen pink and pleased, having bathed in the underworld's runoff. Hokkaido's best-branded geology.
 ---
 
 Hokkaido's grandest hot-spring resort sits directly downstream from a hole in the earth. **Noboribetsu Jigokudani** — yes, another "Hell Valley" — is a 450-metre-wide volcanic crater of rust-red and sulfur-yellow rock that hisses steam from a hundred vents and pipes scalding mineral water down to the baths below.

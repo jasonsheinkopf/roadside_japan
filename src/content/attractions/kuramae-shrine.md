@@ -52,6 +52,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A little shrine that smells like fresh notebooks from the craft shops nearby. Scholarly vibes."
   emoji: "⛩️"
+  report: |-
+    Kuramae Shrine is small enough to miss and too important to skip: founded in 1693 by a shogun, and — this is the part almost nobody outside Tokyo knows — it's the actual birthplace of kanjin-zumo, the fundraising tournaments that grew into professional sumo as it exists today.
+
+    I stood in the modest courtyard trying to hear it: the greatest wrestlers of the Edo period, colliding right here, centuries before the arena down the river. Now it's a neighborhood shrine where locals pray on their way to work and the sumo connection lives on a few quiet plaques.
+
+    Come as a pilgrim, not a tourist — five minutes, a bow, a coin — then walk Kuramae's craft streets after (the notebook shop is nearby; see my Kakimori report and my new journal). History doesn't always keep the big building. Sometimes it keeps the address.
 ---
 
 A modest neighborhood shrine one minute from Kuramae Station, founded in 1693 by the fifth Tokugawa shogun — and quietly one of the more historically loaded small shrines in Tokyo.

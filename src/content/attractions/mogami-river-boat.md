@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The boatman sang down the gorge and the cliffs sang it back. I hummed the squirrel part."
   emoji: "🛶"
+  report: |-
+    The Mogami River boat ride is an hour of drifting through a green gorge in a flat-bottomed wooden boat while the boatman poles, narrates, and then — this is the part — sings. Old river songs, unaccompanied, bouncing off the gorge walls that Bashō once wrote a haiku about hurrying past.
+
+    I rode the prow like a tiny figurehead. Waterfalls thread down the cliffs; herons supervise; the boatman's song has a line where everyone goes 'yoisho!' and I squeaked it on beat, earning a nod I will treasure into old age.
+
+    In winter they run kotatsu boats with blankets and hot stew, which may be the single most civilized cold-weather activity in Japan. The river does the work. You do the marveling. The boatman does the rest.
 ---
 
 The **Mogami** is one of Japan's three great rapid rivers, carving a broad green corridor through the heart of Yamagata. The classic way to experience it isn't from a road but from the water — aboard a **flat-bottomed wooden boat**, poled along by a boatman in the old style.

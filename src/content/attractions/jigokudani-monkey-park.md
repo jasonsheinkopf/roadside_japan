@@ -64,6 +64,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The monkeys have a private hot spring. I asked to join. They said it's a monkey thing."
   emoji: "🐒"
+  report: |-
+    Wild monkeys, soaking in a hot spring, in the snow, with their eyebrows frosted white — I had read about Jigokudani, but no photograph prepares you for the SOUND: contented monkey sighs over the burble of geothermal plumbing.
+
+    The walk in is thirty minutes through cedar forest, snow squeaking underfoot, and then the valley opens and there they are: Japanese macaques lounging in the steaming pool like tiny retired emperors. As a fellow small mammal I kept a diplomatic distance — the monkeys have seniority here and they know it. One made eye contact with me that said 'we both know you want in the bath.' We both knew. I abstained. Barely.
+
+    Deep winter is the postcard season; the monkeys bathe when it's cold, not on command. Do not carry visible snacks. This is monkey law, and it is enforced.
 ---
 
 The name means "Hell Valley" — for the steam that hisses out of the frozen ground here in the Nagano mountains. But **Jigokudani** is famous for something gentler: troops of wild **Japanese macaques** that climb down from the cliffs each winter to soak in a steaming hot-spring pool, snow gathering on their heads while they sit chest-deep in warm water.

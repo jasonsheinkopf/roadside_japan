@@ -54,6 +54,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "We shot the rapids on a wooden boat. I gripped the rail. The rail gripped back. Teamwork."
   emoji: "🚣"
+  report: |-
+    At Nagatoro you ride a wooden raft steered by pole down the Arakawa, alternating lazy drifts with rapids just spicy enough to make the humans grab the gunwale in unison, past Iwadatami — flat, layered rock shelves so distinctive the government designated the whole landscape culturally important.
+
+    I took the bow position, obviously. The boatman calls the rapids in advance ('splash coming, left side!') with the timing of a stand-up comedian, and the river delivers his punchlines. Between rapids: cliffs, herons, and water clear enough to watch fish reconsider their choices.
+
+    Afterward, walk the rock shelves and eat shaved ice from the row of old shops. Summer is splash season; autumn wraps the gorge in color. A river with a sense of pacing — my favorite kind of storyteller.
 ---
 
 Nagatoro, at the northern edge of the Chichibu basin, packs river rapids, swimming, and a striking rock formation into a single afternoon trip that's easily doable from Tokyo without an overnight stay.

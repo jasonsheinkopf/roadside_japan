@@ -32,6 +32,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "The tallest stupa in the world. I circled it clockwise and my neck gave out before my faith did."
   emoji: "🛕"
+  report: |-
+    Phra Pathom Chedi is the tallest Buddhist stupa in the world — 120 metres of orange-gold bell rising over Nakhon Pathom, on ground where Buddhism is believed to have first arrived in this region over two thousand years ago.
+
+    Size like this does something to walking: you circle the terrace and the chedi rotates with you like a planet you're orbiting. Bells ring on the wind, monks cross the courtyard, and the niches hold Buddhas facing the four directions. I did the full circumambulation properly, clockwise, tail down, and it took me the better part of an hour with stops for awe.
+
+    Most tourists blow past Nakhon Pathom on the way to the river market; the ones who stop get the biggest stupa on Earth nearly to themselves at dusk. The night market at its base does excellent khao lam. Orbit, then eat.
 ---
 
 You see it long before you arrive: a vast burnt-orange bell on a circular terraced base, dominating the town of Nakhon Pathom. Phra Pathom Chedi is the tallest stupa in the world, and one of the most sacred sites in Thailand — the present structure encases a much older one beneath.

@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A tiny onsen town in an old crater. The morning market aunties adopted me instantly."
   emoji: "♨️"
+  report: |-
+    Hijiori Onsen sits inside the crater of an ancient volcano, which is the kind of address I'd brag about too. One lantern-lit street of wooden inns, snow walls in winter taller than the buildings, and a morning market where farm grandmothers sell mountain vegetables with intimidating expertise.
+
+    I attended the market at opening (05:30, a squirrel hour) and was assessed, approved, and gifted half a pickled plum by a woman who has clearly run this crater for fifty years. The public bath is one of Japan's oldest springs; I soaked a paw ceremonially.
+
+    This is deep Yamagata — no performance, no gift-shop version of itself. The humans who make it here look pleased with themselves at breakfast, and they should. Come for the crater, stay for the grandmothers.
 ---
 
 Deep in the mountains of central Yamagata, in the **crater of an ancient volcano**, hides one of the country's oldest and most atmospheric hot springs: **Hijiori Onsen**, said to have been discovered some 1,200 years ago.

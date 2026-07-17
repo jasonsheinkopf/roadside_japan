@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The gyoza capital. I had them boiled, fried, AND steamed. The statue outside understood me."
   emoji: "🥟"
+  report: |-
+    Utsunomiya eats more gyoza than anywhere in Japan and treats this as civic identity: dozens of specialist dumpling shops, a downtown statue of a gyoza-wrapped goddess (Venus emerging from a dumpling skin — I checked, that is really the concept), and a friendly decades-long rivalry with Hamamatsu over the consumption crown.
+
+    I conducted a four-shop survey in one afternoon, which at my body weight constitutes a research career. Findings: the classic yaki-gyoza with crisp lattice bottoms at the old-guard shops wins; the boiled ones are the locals' secret order; chili oil discipline separates tourists from residents.
+
+    Queue times at famous shops run long — go 2 p.m. on a weekday, or hit the multi-shop gyoza hall by the station and triangulate. A city that built its brand on dumplings and backed it up. Respect. Fullness. Respect.
 ---
 
 Every Japanese city has a local dish; **Utsunomiya** built an identity. The Tochigi capital is, by its own proud reckoning, the **gyoza capital of Japan**, locked in a good-natured national rivalry with Hamamatsu over which city eats the most **dumplings** per household.

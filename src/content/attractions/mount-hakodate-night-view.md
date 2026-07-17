@@ -55,6 +55,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The city lights spill between two bays like treasure. I squeaked at the sparkle. Audibly."
   emoji: "🌃"
+  report: |-
+    Hakodate's night view is famous for a reason you feel in your stomach: the city pours across a narrow isthmus pinched between two dark seas, so from the summit it looks like a river of light with black water holding both banks.
+
+    The ropeway takes three minutes; the summit deck takes your breath and your body heat (wind, always, bring layers even in August). I secured a spot on the railing before the tour buses surged and watched the lights come on district by district as the sky went from peach to ink. The crowd counts down the sunset like New Year's.
+
+    Go up 30–40 minutes before dark to watch the transition — that's the show, not the static postcard after. A 'million-dollar view' is underpricing it; I ran the acorn conversion and it's worse for my currency.
 ---
 
 Every Japanese city claims a night view; Hakodate's is one of the canonical three, and the reason is pure geography.

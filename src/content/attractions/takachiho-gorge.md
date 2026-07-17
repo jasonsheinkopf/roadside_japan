@@ -56,6 +56,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I rowed under a waterfall between cliffs the gods supposedly carved. My arms filed for overtime."
   emoji: "🚣"
+  report: |-
+    Takachiho Gorge is a crack in Kyushu where the Iwato River runs between walls of basalt columns — rock that cooled into organ pipes — and the Minainotaki waterfall drops seventeen metres straight into the emerald channel. You can row a small boat to the fall's base, which is the closest thing to entering a creation myth Japan offers with a rental counter.
+
+    And it IS creation-myth country: the sun goddess hid in a cave near here and the world went dark, says the oldest story Japan tells about itself. Rowing under the falls with mist on my whiskers, I understood why the gods picked this postcode.
+
+    Boat queues balloon by mid-morning — reserve or arrive at opening. The rim walk above is free and nearly as good. Autumn wraps the basalt in maple. Myth, geology, and a rowboat: complete package.
 ---
 
 In the mountainous heart of Kyushu, the Gokase River has sliced a slot through ancient volcanic rock to create **Takachiho Gorge** — walls of perfectly geometric basalt columns rising over impossibly green water.

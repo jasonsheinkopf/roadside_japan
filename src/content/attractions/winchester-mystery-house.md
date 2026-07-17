@@ -34,6 +34,12 @@ sources:
 cinnamon:
   quote: "I opened a door to a wall, took stairs to a ceiling, and felt right at home. My nest has the same floor plan."
   emoji: "🚪"
+  report: |-
+    The Winchester Mystery House is grief with a construction budget: Sarah Winchester, heiress to the rifle fortune, kept carpenters building for 38 years — 160 rooms, staircases climbing into ceilings, doors opening onto walls or two-storey drops, windows in the floor — by legend to confuse the spirits of everyone her family's rifles killed, by record because she simply never stopped.
+
+    I toured it twice, once with the humans and once by my own routes, and I can report the house is even stranger between the walls: passages that go nowhere honest, a maze built from the inside out. The daisy-pattern windows and 13-count details recur like a signature or a spell.
+
+    San Jose traffic outside, 1906-earthquake scars inside, docents with perfect timing. Whatever she was building — apology, armor, or just motion — it's the most architecturally sincere haunted house in America. I left through a door that opened onto wall, respectfully, via the gap.
 ---
 
 ## The house that grief built

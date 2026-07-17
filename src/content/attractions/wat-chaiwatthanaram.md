@@ -33,6 +33,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Ayutthaya ruins glowing at sunset by the river. I sat very still and let 400 years walk past."
   emoji: "🛕"
+  report: |-
+    Wat Chaiwatthanaram is Ayutthaya's grandest ruin: a Khmer-style central prang ringed by smaller towers on the riverbank, built by a king for his mother in 1630, sacked in 1767, and still standing in the exact proportions that make photographers lose their manners at sunset.
+
+    I climbed to a gallery ledge (the roped zones are for humans and I honor the spirit of ropes) and watched the day end on four centuries of brick. Headless Buddhas line the cloister in rows — the sacking made them; time made them beautiful; both facts stay true at once, which is Ayutthaya's whole lesson.
+
+    Rent the period costume from the shops opposite if you like; the locals do, and the sunset crowd looks like time travel. River breeze, low light, old bricks holding their shape. The empire fell. The geometry didn't.
 ---
 
 Built in 1630 by King Prasat Thong, Wat Chaiwatthanaram was modelled on the Khmer temple-mountain — a soaring central prang surrounded by four smaller towers and a gallery of seated Buddhas, all raised on the bank of the Chao Phraya just west of the old island city.

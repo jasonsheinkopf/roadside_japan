@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The whole world in miniature. I stomped past tiny Tokyo Tower like a very kind kaiju."
   emoji: "🌍"
+  report: |-
+    Tobu World Square rebuilds the planet at 1:25 — a hundred-plus world landmarks in flawless miniature, from the Pyramids to a 26-metre Tokyo Skytree, populated by 140,000 tiny citizens frozen mid-errand.
+
+    Here is the thing: at 1:25 scale, I am a KAIJU. I toured Earth as its largest resident — peering into Versailles' windows, straddling the Nile, looming benevolently over a tiny Times Square whose tiny people remained calm. The modelwork rewards crawling close: miniature weddings, tiny crimes, a window-washer forever half-done with the Empire State.
+
+    It's near Nikko, pairs with Edo Wonderland for a full day of alternate realities, and the humans bring zoom lenses for the detail work. I brought only my size advantage. World tour: one afternoon. Passport: unnecessary. Ego: enormous.
 ---
 
 Near the hot springs of Kinugawa, just shy of Nikko, is a theme park that hands you the whole planet at knee height. **Tobu World Square** packs **over 100 of the world's most famous buildings** into one walkable garden, each rebuilt in painstaking **1:25 miniature**.

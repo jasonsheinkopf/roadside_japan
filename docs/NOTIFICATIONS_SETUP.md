@@ -104,18 +104,32 @@ report follows.
 
 ---
 
-## C. Submitter emails via Gmail — ~5 min *(optional, unchanged)*
+## C. Submitter emails via Gmail — ~5 min
 
-Emails the person who submitted a note, once their submission is processed. Already built as
-`.github/workflows/notify-submitter.yml`; the automated triage triggers it automatically.
+Emails the person who submitted a note, once their submission is processed — a **personalized
+thank-you written in Cinnamon's voice** (per `docs/CINNAMON.md` §5): it references what they
+actually said, tells them what he found when he went, links each place that's now live with
+their name on it, and explains the sender ("my friend Socks the cat is the tech lead — he has
+the thumbs, so the email comes from his address"). The automated triage authors and triggers
+it by itself; `.github/workflows/notify-submitter.yml` only delivers.
 
-GitHub → repo → **Settings → Secrets and variables → Actions**, add two secrets:
+The plan is to send from **Socks's Gmail** (the account you already use for the `sockscam`
+project) — the Socks framing in the email is written for exactly that. Note: the workflow
+sends via **SMTP + App Password**, not the OAuth `credentials.json`/`token.json` files from
+sockscam — those are for Google API clients and can't be used by this Action. The App Password
+takes 2 minutes on the same account:
 
-- `MAIL_USERNAME` — a Gmail address to send from (a dedicated one is fine).
-- `MAIL_PASSWORD` — a Gmail **App Password** (Google Account → Security → 2-Step Verification →
-  App passwords → create one for "Mail"). *Not* your normal password.
+1. Log in to that Google account → [myaccount.google.com](https://myaccount.google.com) →
+   **Security** → make sure **2-Step Verification** is on.
+2. Security → **App passwords** (search for it if hidden) → create one, name it e.g.
+   `cinnamon-land` → copy the 16-character password.
+3. GitHub → repo → **Settings → Secrets and variables → Actions**, add two secrets:
+   - `MAIL_USERNAME` — the Gmail address itself.
+   - `MAIL_PASSWORD` — that 16-character App Password. *Not* the account password.
 
-No secrets → the email step just skips; everything else still works.
+No secrets → the email step just skips; everything else still works. To test after setup:
+Actions → "Notify submitter" → Run workflow, with a real inbox issue number that contains
+your own email and any test body.
 
 ---
 
@@ -141,10 +155,13 @@ Already live in the Claude Code Routines UI. If you ever need to recreate it:
   >    process every OPEN GitHub issue labeled `inbox`, oldest first; verify each place
   >    independently; apply the safety gate; choose PUBLISH (approval: published, clearly-safe +
   >    clearly-verified only), HOLD (approval: pending, anything borderline), or REJECT; author
-  >    full entries for PUBLISH/HOLD using the photo pipeline and a `cinnamon` scene block; leave
-  >    the structured triage comment on each issue, apply labels, and close it; run
-  >    `npm run data:validate && npm run build` and never push a broken build; commit and push to
-  >    `main`; trigger `notify-submitter.yml` for any processed issue that included an email;
+  >    full entries for PUBLISH/HOLD using the photo pipeline and the full Cinnamon block
+  >    (`quote`, `emoji`, `report` field report per `docs/CINNAMON.md`, plus `visitorTip` when
+  >    the note included a recommendation); leave the structured triage comment on each issue,
+  >    apply labels, and close it; run `npm run data:validate && npm run build` and never push a
+  >    broken build; commit and push to `main`; author a personalized Cinnamon-voice thank-you
+  >    email (docs/CINNAMON.md §5) and trigger `notify-submitter.yml` with
+  >    `{ issue_number, body, subject }` for any processed issue that included an email;
   >    update `tools/reports/latest.json`; then author a LINE report per §5 and trigger
   >    `line-notify.yml` (`actions_run_trigger`, `run_workflow`, `inputs: { message: "<report>" }`)
   >    so the maintainer hears about it immediately.

@@ -50,6 +50,12 @@ updatedAt: 2026-07-15
 cinnamon:
   quote: "The fish nibbled my toes at every tier. Seven floors of tickling."
   emoji: "🐟"
+  report: |-
+    Seven tiers of waterfall, each pooling into water so turquoise it looks rendered, climbing a jungle hillside in Kanchanaburi — and you can swim in most of them. I heard about Erawan from a park ranger's daughter who rated the tiers like albums. She was right that tier five is the best one.
+
+    I swam. Well: I fell in with intent. The resident fish immediately began nibbling my feet, which is either a free spa treatment or a taste test, and I have chosen not to investigate further. The hike to the seventh tier is sweaty and worth it; the crowds thin with every tier you climb.
+
+    Go early, wear real shoes, guard your snacks — the macaques here run an organized crime syndicate and they know what's in your bag.
 ---
 
 Thailand has hundreds of waterfalls; Erawan is the one whose photos get accused of being photoshopped.

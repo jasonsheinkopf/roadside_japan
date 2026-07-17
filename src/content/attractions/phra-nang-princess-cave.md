@@ -58,6 +58,12 @@ country: thailand
 cinnamon:
   quote: "A beach cave shrine between cliffs. I arrived by longtail boat like a very small pirate princess."
   emoji: "🛶"
+  report: |-
+    Phra Nang is one of the most beautiful beaches in Krabi, and at one end of it there's a seaside grotto filled — filled — with hundreds of carved wooden phalluses, stacked offerings from fishermen to a sea princess spirit who protects safe passage.
+
+    I am a folklore professional, so let me file this correctly: it's a working shrine, not a joke, and the fishermen's flowers and incense among the carvings make that clear fast. The humans arrive giggling, read the sign, and settle into a respectful fascination that I find very endearing to watch.
+
+    The beach itself is drop-dead: limestone karsts, climbers on the cliffs, longtails nosing the sand. Arrive by boat from Railay, visit the princess politely, swim after. Some places protect their people in unusual ways. All of them count.
 ---
 
 At the far end of impossibly pretty **Phra Nang Beach** on the Railay peninsula, tucked under a towering karst cliff, is a small cave shrine unlike any other in Thailand — filled from floor to ceiling with **brightly painted wooden phalluses**.

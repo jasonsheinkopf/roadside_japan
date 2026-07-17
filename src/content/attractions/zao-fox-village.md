@@ -62,6 +62,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A hundred foxes and me. I have never been so alert in my entire life. New personal record."
   emoji: "🦊"
+  report: |-
+    Zao Fox Village required a formal risk assessment: me, a squirrel, walking into a mountain forest where a hundred-plus foxes roam free. The board (me, Socks by correspondence) approved the mission with conditions, all of which I ignored immediately upon seeing the winter fluff.
+
+    The foxes are magnificent layabouts — red, silver, arctic-white, dozing in heaps like spilled scarves, cheerfully ignoring every posted rule about where foxes should be. Visitors walk marked paths; foxes treat the paths as suggestions and the visitors as scenery. I toured via the elevated walkway and fence tops, which I recommend to all guests of my tax bracket.
+
+    Winter is peak fluff and peak drama (fox squabbles sound like arguments between kettles). Follow the feeding rules; they exist for reasons with teeth. Unforgettable, slightly lawless, deeply fluffy. Four acorns, held at altitude.
 ---
 
 Up a winding road in the Miyagi mountains is a forest that belongs to the foxes. **Zao Fox Village** keeps more than **a hundred foxes** — red, silver, platinum, and snow-white arctic — in a large open enclosure you walk through, surrounded on all sides by tails, ears, and suspiciously knowing eyes.

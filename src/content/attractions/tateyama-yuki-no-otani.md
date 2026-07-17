@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "A road cut through snow walls 17 meters high. I am 0.0002 snow walls tall. I measured."
   emoji: "❄️"
+  report: |-
+    Each spring, plows cut the Tateyama alpine route out of the deepest snow in Japan, and the result is Yuki-no-Otani: a road through a canyon of snow, walls up to twenty metres high — you walk on asphalt between white cliffs taller than the buses that brought you.
+
+    At my scale the wall is a glacier with a queue, and I did what visitors do — pressed a paw into the snow face alongside ten thousand handprints, measured myself against the painted height markers (I am 0.4% of peak wall), and shivered gloriously in June.
+
+    The wall walk opens mid-April and shrinks all summer; go early in the season for maximum canyon. It's one stop on the full Alpine Route crossing, which is its own epic. Bring sunglasses — snow at that scale is LOUD with light. Bring also a warm thing. Trust me. Rented body heat does not exist.
 ---
 
 High on the **Tateyama Kurobe Alpine Route**, at the Murodo plateau, falls some of the heaviest snow on Earth — and every spring, road crews don't just clear it, they sculpt it. The result is **Yuki-no-Otani**, the "Great Snow Valley": a plowed corridor where the road runs between sheer white walls of packed snow that can rise **20 metres** overhead.

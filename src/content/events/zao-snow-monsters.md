@@ -58,6 +58,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The trees freeze into ice monsters that march up the mountain. I made friends with the smallest one. His name is Kevin."
   emoji: "☃️"
+  report: |-
+    In deepest winter on Mt. Zao, the fir forests stop being forests: Siberian wind plasters snow and rime onto every tree until whole slopes become ranks of white giants — juhyo, 'snow monsters,' bent and looming mid-march like an army paused by a spell.
+
+    I rode the ropeway into the monster fields at dusk and walked among them at snow level, one small brown punctuation mark in an all-white sentence. Up close a monster is just a tree wearing armor; at a hundred metres, in blowing snow, in the colored night-illumination lights, they are absolutely something else, and my hindbrain filed several formal complaints.
+
+    Peak monsters: late January through February. Skiers slalom the ranks; the observatory café thaws all species. Go at night once. Be politely terrified. Thank the wind.
 ---
 
 High on Mt. Zao, where wind-driven snow and supercooled fog plaster the fir trees from one side, the forest transforms into an army of hulking white figures the Japanese call **juhyo** — "ice trees," or more evocatively, **snow monsters**.

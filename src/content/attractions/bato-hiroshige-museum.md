@@ -62,6 +62,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Hiroshige drew rain so well I shook my fur dry afterward. Reflex."
   emoji: "🌊"
+  report: |-
+    A librarian in Utsunomiya — librarians are my best sources, they whisper and they know everything — told me about a museum in the hills wrapped entirely in cedar lattice, built to hold Hiroshige's woodblock prints.
+
+    The building is by Kengo Kuma, and it does something sneaky: thousands of thin local-cedar slats turn the light soft and striped, like standing inside one of Hiroshige's rain pictures. I ran one full lap of the eaves (allowed, if you're quick) and then sat with the prints, which are small and quiet and better than almost anything enormous.
+
+    The humans mostly drive past Bato without stopping. Their loss. The cedar smells like my house. Five stars, one for each storey the building doesn't need.
 ---
 
 In the quiet Naka River country east of Nasu, the small town of **Bato** holds a building that architecture pilgrims cross the country to see: the **Nakagawa-machi Bato Hiroshige Museum of Art**, an early masterpiece by **Kengo Kuma**.

@@ -79,10 +79,14 @@ For each candidate place:
 
 Standard authoring rules (AGENTS.md, docs/DATA_MODEL.md), plus:
 
-- **Photos + Cinnamon scene are part of authoring, not optional** — run the photo
+- **Photos + the full Cinnamon block are part of authoring, not optional** — run the photo
   pipeline in `docs/PHOTO_ENRICHMENT.md` (Commons-scoped WebSearch → deterministic URL)
-  and write the entry's `cinnamon: { quote, emoji }` block. No verified photo → the
-  Cinnamon scene serves as the hero; never ship a bare entry.
+  and write the entry's `cinnamon: { quote, emoji, report }` block per `docs/CINNAMON.md`
+  (the `report` is his first-person field report, grounded in your research). If the
+  submitter's note included a genuine recommendation, carry it as `visitorTip: { text, by }`.
+  No verified photo → the Cinnamon scene serves as the hero; never ship a bare entry.
+- `createdAt`/`updatedAt`: use the **full ISO timestamp** of processing (e.g.
+  `2026-07-17T05:32:00Z`) — `/new` orders same-day entries to the minute.
 - `source: community`
 - `submittedBy:` the name/handle from the note (verbatim, lightly cleaned); if none was
   given use `"a fellow traveler"` — never put their email here, it renders publicly.
@@ -112,12 +116,13 @@ the permanent record — make it accurate.
 
 ### 5. Notify the submitter
 
-If the note contains an email address AND anything was processed (added or not), trigger
-the `notify-submitter.yml` workflow (`actions_run_trigger`) with `issue_number` and a
-short human `summary` ("Added 2 of your 3 places — the udon shop and the shrine gate;
-couldn't verify the third."). The workflow extracts the email from the issue itself and
-skips silently if mail secrets aren't configured. Never email anyone about a different
-submission than their own.
+If the note contains an email address AND anything was processed (added or not), author a
+**personalized thank-you email in Cinnamon's voice** — see `docs/CINNAMON.md` §5 for the
+full shape (reference what they said, one detail from his field report, links to the live
+entries, the Socks-the-cat intro, under ~180 words) — then trigger `notify-submitter.yml`
+(`actions_run_trigger`) with `inputs: { issue_number, body, subject }`. The workflow
+extracts the email from the issue itself and skips silently if mail secrets aren't
+configured. Never email anyone about a different submission than their own.
 
 ### 6. Ship
 

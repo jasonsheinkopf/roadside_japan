@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "A German village in Chiba with a winter light sea. I ate a sausage longer than my torso. Photographic evidence exists."
   emoji: "🌭"
+  report: |-
+    Tokyo German Village is in Chiba (not Tokyo) and is mostly a big cheerful farm park (not especially German), and I refuse to hear criticism of either fact because in winter it detonates into one of Kanto's great illuminations — three million LEDs turning the hills into rivers and rainbows of light with an observation wheel to swim your eyes over all of it.
+
+    I attended in January: light tunnels, a glowing pond, sausage stands doing their one Germanic duty. Rode the wheel at apex hour. Squeaked. The illumination changes theme yearly, so the locals rate vintages like wine.
+
+    Off-season it's putt-putt, flower fields, and capacious lawns — pleasant, unhurried, deeply Chiba. But winter nights are the argument. Drive if you can; the shuttle lines say everything about how good it is.
 ---
 
 Let's clear it up front: **Tokyo German Village** is in **Chiba**, not Tokyo, and its German-ness amounts to a windmill and some sausages. The name is part of the charm — a cheerfully confident misnomer for a big countryside **flower-and-amusement park**.

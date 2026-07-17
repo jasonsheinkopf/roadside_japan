@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A fort shaped like a star! Best viewed from the tower, or by being a kite."
   emoji: "⭐"
+  report: |-
+    From the ground, Goryōkaku is a pleasant park with a moat that keeps turning. From the tower next door, it snaps into shape: a perfect five-pointed star drawn in earth and water, a Western-style fortress from the last gasp of the samurai era.
+
+    I took the tower first (correct order, trust me), pressed my face to the glass, and mapped my climbing route like a general. Then I spent the afternoon down in the star itself — in spring, 1,600 cherry trees fill the ramparts and the whole fortification goes pink, which rather undermines its military dignity and improves everything else.
+
+    The shape only exists from above, which feels like a secret the ground-level humans are cheerfully missing. Tower, then star. Sakura season if you can. History with excellent geometry.
 ---
 
 From the ground it looks like an ordinary moat-ringed park. From the air it's a flawless **five-pointed star**. **Goryōkaku** was Japan's first Western-style fortress, built in the 1860s on European principles of geometric defense — and its dramatic star shape has long outlived its guns.

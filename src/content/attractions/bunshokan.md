@@ -59,6 +59,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Fancy hallways! I slid down one in my socks. I don't wear socks. Mysterious."
   emoji: "🏛️"
+  report: |-
+    I ducked into Bunshokan to escape a Yamagata downpour and came out an hour later with strong opinions about staircases.
+
+    It's the old prefectural office from 1916 — English-Renaissance stone, a clock tower that still gets wound by hand, marble stairs built for sweeping up dramatically, and a chandeliered assembly chamber. It is entirely free, which baffles me anew every time I write it. I posed on the balustrade like a small furry governor. Nobody stopped me. Free buildings with this much marble usually have more rules.
+
+    Film crews love it, retirees love it, the guard by the entrance clearly loves it most of all. Rainy-day perfection. The clock tower gonged while I was inside and I felt it in my teeth.
 ---
 
 In the middle of Yamagata City stands a building that looks like it teleported in from a European capital: **Bunshokan**, the **former prefectural office and assembly hall**, completed in **1916** in a confident **English-Renaissance** style and crowned by a landmark **clock tower**.

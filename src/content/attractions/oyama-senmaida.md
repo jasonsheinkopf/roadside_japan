@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A thousand tiny rice terraces catching the sunset like mirror shards. I counted 43 before crying a little."
   emoji: "🌾"
+  report: |-
+    Oyama Senmaida is the closest 'thousand rice terraces' to Tokyo: hundreds of tiny stepped paddies stair-stepping down a Chiba hillside, each one mirroring the sky in spring like the hill is holding up pieces of it.
+
+    I walked the ridges between paddies — squirrel-width infrastructure, finally — while frogs announced my progress paddy by paddy like town criers. Farmers keep this landscape alive by hand and by ownership-share volunteers from the city, which is the only reason it still exists; flat land farms easier, but flat land doesn't do THIS at sunset.
+
+    In winter they line the terraces with thousands of LED candles and the hill becomes a slow constellation. Spring flooding season for mirrors, winter nights for lights. Respect the ridges: it's someone's rice, not a set.
 ---
 
 Tucked into the hills of southern Chiba, **Oyama Senmaida** — "the thousand rice fields of Oyama" — is the nearest classic **rice-terrace** landscape to Tokyo, and one of the prettiest. Some 375 tiny paddies step down the slope in a patchwork of curved banks.

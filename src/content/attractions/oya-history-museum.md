@@ -52,6 +52,12 @@ updatedAt: 2025-12-12
 cinnamon:
   quote: "A cathedral-sized quarry underground, cold as secrets. My squeak echoed six times. Six!"
   emoji: "⛏️"
+  report: |-
+    Under a quiet Tochigi hillside there is a cathedral nobody meant to build: the Oya quarry, 20,000 square metres of underground chambers carved out by hand over a century of stone-cutting, now open to walk as the Oya History Museum.
+
+    You descend stairs into cold, tinted dark, and the ceiling just keeps going up — pick marks on every surface, each one a human arm-swing, millions of them. It's 8°C year-round; concerts and art shows happen down there, and films borrow it whenever they need 'impossible fortress.' I explored ledges no tour reaches and felt like a very small king of a very large hall.
+
+    Bring a jacket in August, I'm serious. Pair with the giant cliff-carved Kannon next door. Humans dug this by hand and then made it beautiful. Full acorns, echoing.
 ---
 
 From the surface it looks modest. Then you walk down the staircase and the ceiling vanishes into darkness overhead: the **Oya History Museum** is the mouth of a hand-dug stone quarry the size of a cathedral, 30 metres deep and roughly 20,000 square metres in floor area.

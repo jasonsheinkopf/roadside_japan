@@ -33,6 +33,12 @@ sources:
 cinnamon:
   quote: "Neon boulders stacked in the desert like giant candy. I climbed nothing. I respected everything. Mostly."
   emoji: "🌈"
+  report: |-
+    Ghost popsicle's list sent me to Seven Magic Mountains: seven totems of boulders painted in fluorescent candy colors, stacked thirty-plus feet high in the empty Mojave ten miles south of Vegas — Ugo Rondinone dropping day-glo exclamation points into a landscape that speaks entirely in beige.
+
+    The joke and the genius are the same thing: there is NOTHING else out there, so the colors detonate. I climbed the orange-pink stack (advisory: art, hot to the touch by 10 a.m., climbing officially discouraged for creatures who show up on security cameras) and surveyed desert in every direction like a very small ranger of a very loud outpost.
+
+    Free, always open, brutal at noon — go at golden hour when the paint and the desert briefly agree. Vegas shimmer on the horizon completes the sentence.
 ---
 
 ## Neon boulders in the Ivanpah Valley

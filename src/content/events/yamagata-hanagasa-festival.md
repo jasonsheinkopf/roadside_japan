@@ -61,6 +61,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Flower hats spinning down the avenue to the drums. I wore a chrysanthemum. I WAS the parade, briefly."
   emoji: "🌼"
+  report: |-
+    For three August nights, Yamagata City's main street becomes a river of straw hats: thousands of dancers in flower-decorated hanagasa sweeping downhill in unison to the festival song, hats spinning and dipping like fields of blossoms learning choreography, to drums and shouts of 'yassho, makasho!'
+
+    I joined the open participation section at the parade's tail — yes, they let anyone in for the final stretch, and yes, a squirrel keeping time on a borrowed miniature hat brim counts, per the delighted troupe captain who adopted me for two blocks. The hat spins are harder than they look. Everything with hats is.
+
+    Early August, right before Sendai's Tanabata — festival-hop them. Street food runs to imoni and cherries. Watch one night, dance the second. The hats forgive beginners. The aunties correct them.
 ---
 
 For three nights every August, the main street of **Yamagata City** turns into a river of flowers and drums. The **Hanagasa Festival** sends **thousands of dancers** — in matching happi coats, each twirling a straw **hanagasa hat** trimmed with bright red safflowers — sweeping down the avenue to the boom of taiko and the rhythmic shout of **"Yassho, makasho!"**

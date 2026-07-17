@@ -53,6 +53,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A waterfall that's a hot spring! I hiked up a warm river like a tiny wet king."
   emoji: "🏞️"
+  report: |-
+    In Shiretoko there is a river that is a hot spring — Kamuiwakka, where you wade in and climb UP the warm stream, over three waterfalls, and the water gets hotter the higher you go until the top pool is bath temperature. A river. That is a bath. Uphill.
+
+    I did the full ascent, half wading, half hydro-parkour, wholly delighted. The volcanic minerals make the rock grippy underfoot — nature installing safety equipment — though the humans still rent water shoes at the bottom and should.
+
+    It's deep in a national park at the end of a gravel road, with seasonal access rules (check before you go; bears also enjoy Shiretoko and have right of way). Soaking in the top pool, warm water arriving endlessly from inside a volcano, I updated my rankings: best bath, all categories, all countries. Sorry to everyone else.
 ---
 
 Mount Io, one of Shiretoko's volcanoes, leaks hot spring water directly into a mountain stream — so the Kamuiwakka river runs warm, and the only way to experience it is to walk up the middle of it.

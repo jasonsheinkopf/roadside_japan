@@ -55,6 +55,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Two million sunflowers all facing me. Finally, the audience I deserve."
   emoji: "🌻"
+  report: |-
+    A town of 1,600 people grows two million sunflowers, which means every resident is personally responsible for 1,250 flowers, and honestly you can tell — Hokuryu's hillside in late July is a solid yellow that looks like a paint spill on the map.
+
+    I ran the sunflower maze at stem level, which I must report is not how mazes are meant to be experienced: down there it's just a forest with one crop. So I did what I do — went UP a stalk — and navigated by head-height, calling turns down to a lost human family until we all emerged victorious and lightly dusted with pollen.
+
+    Free to wander, bikes for rent, sunflower soft-serve at the hut. Small-town Hokkaido doing one thing two million times, perfectly.
 ---
 
 Most of Hokkaido's famous flower fields peak in July; Hokuryu's two million sunflowers hit their stride in August, when a farming town of 1,600 people briefly hosts one of the largest sunflower landscapes in Japan.

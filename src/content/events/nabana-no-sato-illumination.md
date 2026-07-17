@@ -59,6 +59,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Millions of lights and a tunnel that never ends. I walked through winter's jewelry box."
   emoji: "💡"
+  report: |-
+    Nabana no Sato is what happens when a flower park decides winter won't be a dead season: millions of LEDs turning the grounds into glowing tunnels — one gold, one seasonal-themed, both long enough to lose your sense of time in — plus a wall-sized animated light panorama that changes theme yearly like a blockbuster sequel.
+
+    I walked the gold tunnel at rodent height, inside a ceiling of warm stars, and then took the elevated 'Island Fuji' viewing platform ride to see the whole park burning gently below. The theme field's animation runs minutes long and the crowd narrates it involuntarily ('ooh—OOH—').
+
+    Mid-October through spring, busiest at December weekends — weekday late evening thins the crush. It's near Nagoya, pairs with hot food stalls and greenhouse begonias. Electricity as gardening. The bees would be so confused. I loved it.
 ---
 
 When the flowers fade, **Nabana no Sato** flips a switch and becomes something else entirely: one of the country's largest and most elaborate **winter illuminations**, with millions of LEDs strung across a sprawling flower park near Nagoya.

@@ -50,6 +50,12 @@ updatedAt: 2026-07-15
 cinnamon:
   quote: "A temple so white it hums, with hands reaching from the underworld at the bridge. Heavy metal Buddhism. I loved it."
   emoji: "🤍"
+  report: |-
+    Wat Rong Khun is blinding: an all-white temple crusted in mirror fragments so it glitters like frost at noon, built and rebuilt since 1997 by the artist Chalermchai Kositpipat as a lifetime offering — and you enter over a bridge crossing a pit of hundreds of sculpted hands reaching up, which is not subtle and is not supposed to be.
+
+    Cross the bridge (no turning back; that's doctrine AND crowd control) and the interior murals detonate the whole vibe: demons, superheroes, rockets, burning towers — the modern world painted into a Buddhist cosmology, updated continually like a sacred sketchbook.
+
+    I walked the bridge at opening, mirror-light on my fur, properly rattled by the hands. The artist calls it an offering to his king and his faith; the gift shop funds the next wing. White-hot, sincere, completely itself. Chiang Rai's one unmissable.
 ---
 
 Most temples are built by communities over centuries; the White Temple is one man's ongoing argument with eternity, and it looks like nothing else on earth.

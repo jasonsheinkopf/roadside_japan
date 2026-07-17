@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Shrine of the great strategist Kenshin. I planned my next three naps there. Strategically."
   emoji: "⚔️"
+  report: |-
+    Uesugi Shrine sits on the moated site of Yonezawa Castle, honoring Uesugi Kenshin — the warlord so devout and so formidable his rivals called him the God of War, and whose clan motto about virtue over profit still gets quoted at the shrine like standing orders.
+
+    I paid respects in falling snow (Yonezawa does winter seriously; the February snow-lantern festival fills the grounds with hundreds of glowing snow shrines) and walked the moat where the castle used to think. The keep is gone; the dignity is fully intact.
+
+    Then, the other pilgrimage: Yonezawa beef, one of Japan's three great wagyu names, raised in this basin and served every way from steak to a beef ramen that ruined me for lesser broths. Warlord in the morning, wagyu at noon. Yonezawa's two religions, both practicing.
 ---
 
 The castle town of **Yonezawa**, tucked in Yamagata's southern basin, was the seat of the powerful **Uesugi** clan. Where their castle once stood, ringed by a moat and old trees, now sits **Uesugi Shrine**, dedicated to the legendary warlord **Uesugi Kenshin** — calm, dignified, and steeped in samurai history.

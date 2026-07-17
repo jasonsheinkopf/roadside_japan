@@ -52,6 +52,12 @@ updatedAt: 2026-07-15
 cinnamon:
   quote: "A giant temple carved entirely of wood, still being carved. I touched one flower some carver spent a week on."
   emoji: "🛕"
+  report: |-
+    The Sanctuary of Truth is a 100-metre monument on the Pattaya shoreline built entirely of carved wood — no nails, every surface sculpture — under construction since 1981 and deliberately never to be finished, because the building IS the philosophy: impermanence, craft, devotion, repeat.
+
+    Carvers work on site daily, replacing what the sea air takes; you tour beneath hard hats while mallets tick overhead like a slow clock. I climbed among gods and elephants and waves of teak (with permission-ish; the carvers and I developed an understanding based on mutual respect for people who work in trees).
+
+    It's operatic, slightly theme-parked at the edges — horse rides, boat add-ons — but the central hall silences all of it. Wood, at cathedral scale, unfinished on purpose. The sea gnaws, the carvers answer. Best argument I know.
 ---
 
 On a quiet cape north of Pattaya's beach chaos stands a building that has been actively under construction for more than forty years — on purpose, forever.

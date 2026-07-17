@@ -33,6 +33,12 @@ sources:
 cinnamon:
   quote: "The last word in the alphabet, at the end of a dead-end desert road. A quack built a spa here. I toasted him with spring water."
   emoji: "🏜️"
+  report: |-
+    Ghost popsicle sent me to the last word in the atlas: Zzyzx, a name invented in 1944 by radio evangelist and health-tonic impresario Curtis Howe Springer specifically to be the final entry in the English language — attached to a fake spa he built on federal desert land until the government finally repossessed the whole alphabet stunt.
+
+    Now it's a real research station (CSU's Desert Studies Center) at the end of a dead-end road off I-15: palm rows around a spring-fed pond, ruins of the old 'health resort,' desert silence with a soundtrack of wind and one confused coyote. I drank NOTHING Mr. Springer would have bottled, and toasted him with plain water, which is what he was mostly selling anyway.
+
+    Check access before driving in (it's a working field station). The Mojave does the rest. Last word: earned.
 ---
 
 ## The last word in the desert

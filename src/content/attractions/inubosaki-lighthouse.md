@@ -62,6 +62,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "99 steps up the lighthouse. I counted. The view stole the number right out of me."
   emoji: "🗼"
+  report: |-
+    The mainland's earliest sunrise is caught at Inubosaki, on the windblown snout of Chiba, and I am constitutionally incapable of letting a superlative like that go unverified.
+
+    I slept in the lighthouse garden hedge and reported for duty at 04:20. The Pacific went pewter, then peach, then on fire, and the tall white lighthouse stood there taking the credit as lighthouses do. Then I climbed its 99 steps — steep ship-ladder ones at the top — for a horizon that genuinely curves.
+
+    On the way out, wet rice crackers from the shop at the base (the local specialty; chewy, briny, correct) and the little Choshi train home. The humans who came only for sunset had it backwards. Dawn is the show. The lighthouse knows.
 ---
 
 Where the Boso Peninsula runs out into the Pacific, the land ends in a windy headland topped by a tall white tower: the **Inubosaki Lighthouse**, standing at one of the easternmost points of mainland Japan since 1874.

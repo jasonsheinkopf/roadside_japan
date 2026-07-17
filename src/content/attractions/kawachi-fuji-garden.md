@@ -62,6 +62,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Two tunnels of pure hanging wisteria. I walked through both, very slowly, on purpose."
   emoji: "💜"
+  report: |-
+    The Kawachi Fuji Garden wisteria tunnels look computer-generated in photos, so I went to Kitakyushu to confirm reality, and reality showed off: two long arched walkways dripping violet, pink, and white for two weeks a year, a hundred shades hanging low enough to touch.
+
+    I walked the long tunnel at petal height on the trellis wires — a squirrel-only vantage where the colors close over you like weather. Below, the humans moved at the speed of awe, which is roughly 100 metres per hour with stops.
+
+    It's private, ticketed by timed reservation in peak weeks, and remote enough to need planning — that filter is why it stays magical instead of trampled. Late April to early May, early slot, cloudy light is best. Yes it looks like the photos. No, the photos aren't enough.
 ---
 
 For most of the year, **Kawachi Fuji Garden** is a quiet private garden on a hillside above Kitakyushu. Then, for roughly two weeks each spring, it becomes one of the most photographed places in Japan: two long **wisteria tunnels** and a great wisteria dome erupt into cascading curtains of violet, lavender, pink, and white.

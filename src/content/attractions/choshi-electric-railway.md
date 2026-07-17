@@ -59,6 +59,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A tiny train saved by snacks! We are spiritually the same, little train."
   emoji: "🚃"
+  report: |-
+    I ride a lot of trains uninvited, so it felt right to finally pay a fare — and there's no railway that needs it more than the Choshi Electric Railway, the tiny seaside line that famously stays alive by selling rice crackers.
+
+    The carriages are vintage, the pace is a stroll, and the route trundles 6.4 km past cabbage fields to the windy cape at the far tip of Chiba. The wet-rice crackers (nure-senbei) are sold with the urgency of a company that means it: buy crackers, keep the trains running. I bought three. Saved a railway, ate the evidence.
+
+    Rail fans, cabbage fans, and people who like their transport slightly heroic all agree: this is the best worst-business-model in Japan. Sit up front. Bring cracker money.
 ---
 
 At the far eastern tip of Chiba runs one of Japan's most lovable underdogs: the **Choshi Electric Railway**, a 6.4 km line of rattling vintage carriages that has been teetering on the edge of bankruptcy for decades — and keeps itself alive in the most Japanese way imaginable.

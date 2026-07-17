@@ -59,6 +59,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "They stew 30,000 servings in a 6-meter pot stirred by CRANE. I held my bowl up like baby Simba."
   emoji: "🍲"
+  report: |-
+    Every September, Yamagata cooks one pot of stew for thirty thousand people. This is not an exaggeration; it is a SPECIFICATION: a six-metre cauldron on a riverbed, stirred by a construction crane with a dedicated, sanctified bucket, cooking tons of taro, beef, and konnyaku into imoni — the soul dish of Yamagata autumn.
+
+    I queued (bowl rental: adorable; my portion: a thimble, by arrangement) and watched the crane operator work the giant ladle with the precision of a tea master. The riverbank becomes one enormous shared table; strangers compare seasoning opinions like family; the steam column is visible from the bridge.
+
+    First Sunday of September-ish, Mamigasaki riverbed. Arrive early — the pot is huge but so is the province's appetite. One pot, one town, one crane: community, at engineering scale.
 ---
 
 Yamagata's autumn comfort food is **imoni** — a hearty stew of **taro, beef, konnyaku, and green onion** in a sweet-soy broth — and every September the whole region celebrates it in the most over-the-top way imaginable.

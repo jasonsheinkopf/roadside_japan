@@ -58,6 +58,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "A million baby-blue flowers, and me, one small brown dot doing cartwheels."
   emoji: "🌐"
+  report: |-
+    In late April, a whole hillside at Hitachi Seaside Park turns the same color as the sky — 4.5 million nemophila flowers, blue on blue until the horizon gives up drawing a line. I sat mid-slope for an hour, effectively invisible, a brown comma in a blue sentence.
+
+    Come autumn the same hill switches to kochia bushes: thousands of round shrubs blushing from green to blood-red like the hill grew fur. As a fur professional, I approve of the maintenance schedule.
+
+    It's a huge coastal park — rent the smallest bicycle they'll allow and do the full loop, dunes to forest. Bloom weeks are mobbed by lunchtime, so arrive at opening. The humans all take the same photo and every single one of them is right to.
 ---
 
 Twice a year, a single hill in Ibaraki becomes one of the most photographed places in Japan. In spring, **4.5 million nemophila** — tiny "baby blue eyes" flowers — wash Miharashi Hill in a blue so total it blurs the line between flowers, sky, and sea. In autumn, the same hill flushes scarlet as thousands of round **kochia** bushes turn color.

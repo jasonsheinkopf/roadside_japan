@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I designed my own cup noodle. Acorn flavor. The staff were... polite about it."
   emoji: "🍜"
+  report: |-
+    Momofuku Ando invented instant ramen in a backyard shed in Ikeda, and the shed is THERE, rebuilt inside the museum, and I need you to understand I saluted it. A shed that changed dinner for the entire planet.
+
+    The walls carry 800 package designs like a gallery of tiny delicious paintings, and at the workshop you design your own Cup Noodle — I chose every topping they would legally permit and drew a squirrel on the cup with the concentration of a master. The staff called it 'unique.' I heard 'perfect.'
+
+    It's free to enter (the custom cup costs a few coins) and the humans of all ages leave holding their cups like trophies, because that's what they are. Loses zero acorns. The shed alone is worth the trip to Osaka's suburbs.
 ---
 
 In a quiet suburb of Osaka stands a museum dedicated to one of the 20th century's humblest, most world-conquering inventions: **instant noodles**. The **Cup Noodles Museum** sits on the very ground where, in 1958, **Momofuku Ando** perfected the first instant ramen in a backyard shed.

@@ -28,6 +28,12 @@ sources:
 cinnamon:
   quote: "700 machines and my paws hit the flippers perfectly. Multiball is my spiritual state."
   emoji: "🕹️"
+  report: |-
+    A traveler called ghost popsicle sent me to the Pinball Hall of Fame, and I owe them an acorn debt: a nonprofit warehouse on the Vegas Strip's quiet end holding 700-plus playable machines from the 1950s to the '90s — the largest pinball collection on Earth, all of it waiting for your quarters, all proceeds to charity.
+
+    My paws hit the flippers perfectly. I need everyone to understand this. Decades of reflex training in the forest canopy, and it was all preparation for multiball. I ran a 1978 electromechanical machine until a small crowd formed, and when I finally drained, a man in a Metallica shirt said 'respect,' and that is going on my tombstone.
+
+    No slots, no drinks, no nonsense — just chimes, thumps, and concentration. The anti-Vegas hidden in Vegas. Bring quarters. Bring MANY quarters.
 ---
 
 ## A museum you play

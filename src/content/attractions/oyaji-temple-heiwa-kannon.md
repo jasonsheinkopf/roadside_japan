@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "A giant Kannon carved into the cliff by one determined sculptor. The scaffolding was faith."
   emoji: "🗿"
+  report: |-
+    Beside the Oya quarry, Oya-ji temple shelters Japan's oldest stone-carved Buddhas — figures cut into the living cliff a thousand-plus years ago, kept in a cave the temple grew around. And next door, carved straight from the same rock face, the Heiwa Kannon: a 27-metre goddess of peace, made by hand after the war by local stonecutters.
+
+    The pairing is the point: the ancient carvings whispering in their cave, the huge postwar Kannon standing in the open — the same cliff, the same craft, a thousand years apart, both saying roughly the same thing.
+
+    I climbed to the Kannon's viewing ledge (stairs exist; shoulders exist too) and sat by her calm gray jaw a while. Ten minutes from the underground quarry hall. Do all three and Oya becomes a full day of stone with a soul.
 ---
 
 Right beside the cavernous **Oya stone quarry** outside Utsunomiya, the soft local rock has been carved for worship as well as construction. **Oya-ji Temple** tucks its main hall **into a rock overhang**, and behind it, hewn into the living cliff, are some of **Japan's oldest stone Buddhist carvings**.

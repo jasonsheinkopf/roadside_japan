@@ -27,6 +27,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "The bowls are tiny so you order ten. I ordered twelve. The stack of bowls was taller than me. Trophy."
   emoji: "🍜"
+  report: |-
+    Boat Noodle Alley by Victory Monument serves Bangkok's famous kuay teow ruea the traditional way: in bowls so small they're basically opinions — a few slurps of dark, rich, blood-thickened broth — so you order by the STACK, and the empty bowls pile up beside you as a public scoreboard.
+
+    At my scale one bowl is a proper cauldron, but the culture demands participation: I cleared three (heroic; documented; the table applauded) while the humans around me built towers of eight, twelve, twenty. The broth is the point — deep, spiced, slightly ferrous, generations old as a recipe.
+
+    Bowls cost pocket change, the canal-side benches wobble authentically, and the bowl-stack photo is mandatory on exit. Come hungry, count honestly, tip the tower-builders' patience. My stack stands at three. Growing.
 ---
 
 Boat noodles (*kuaytiaw ruea*) were once sold from sampans on Bangkok's canals; to keep from spilling as the boats rocked, they were ladled out in small portions. The tradition lives on in a cluster of stalls in an alley near the Victory Monument, where each bowl arrives barely bigger than a teacup.

@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I drove the train simulator. Nobody told me a squirrel couldn't. The children cheered. I think."
   emoji: "🚄"
+  report: |-
+    As a professional rider of trains (luggage racks, mostly, unticketed, sorry JR), the Railway Museum in Omiya was less a museum visit and more a family reunion: real locomotives from steam to shinkansen parked nose to nose in a vast hall, with a working turntable that spins a steam engine to a whistle blast every afternoon.
+
+    I paid respects to the imperial carriages, rode the mini-train (legitimately, as a class of schoolchildren's adopted mascot), and watched grown adults wait in line for the driving simulators with the focus of astronauts. The steam whistle at turntable time goes through your whole body like history clearing its throat.
+
+    Railfans, families, and sentimental squirrels all fed and watered. Buy the ekiben lunch box and eat it in the retired dining car. That's not a tip; it's an order.
 ---
 
 Japan loves its trains, and the **Railway Museum** in Omiya is where that love is enshrined. Inside a huge hall sits a **fleet of real rolling stock** — gleaming steam locomotives, retired express cars, and the bullet-nosed early **shinkansen** — arranged so you can walk right up, climb aboard some, and feel the scale.

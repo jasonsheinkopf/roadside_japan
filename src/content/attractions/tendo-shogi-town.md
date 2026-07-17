@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "The town that makes Japan's shogi pieces. Even the manhole covers play. I lost to a manhole cover."
   emoji: "♟️"
+  report: |-
+    Tendo carves about 95% of Japan's shogi pieces, and it wears the job everywhere: giant pieces standing on street corners, piece-shaped manhole covers, shogi-piece cakes, and workshops where craftsmen ink kanji onto blessed maple with brushes trimmed to a whisper.
+
+    I watched a master write the same character forty times, each one identical and each one alive, which is calligraphy's whole trick. In spring the town holds Ningen Shogi — HUMAN shogi, played with armored people on a giant hillside board under blossoms — which I regrettably missed and about which my journal contains only the words 'RETURN. APRIL.'
+
+    The humans who stop here are mostly shogi pilgrims; the rest of Japan hurries through to the onsens. Stop. Watch the brushes. Buy a keychain piece with your name inked by a national craftsman for pocket change.
 ---
 
 If a town can have a hobby, **Tendo's** is **shogi** — Japanese chess. It produces roughly **95% of all the shogi pieces in Japan**, and it celebrates that fact with a wholehearted, slightly silly enthusiasm that makes it a delight to wander.

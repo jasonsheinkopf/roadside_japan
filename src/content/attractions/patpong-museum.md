@@ -27,6 +27,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "The neon district has its own museum, scandals and all. I blushed under my fur. Educational!"
   emoji: "🌃"
+  report: |-
+    Above one of Bangkok's most notorious night-market streets there's a museum nobody expects: the Patpong Museum, which tells the district's genuinely wild history — CIA front operations, Vietnam War R&R, neon decades, all the layers under the layer everyone thinks they know.
+
+    I'll be straightforward, as the persona bible requires: this one's for grown-ups, handled thoughtfully. The curation is sharp and surprisingly scholarly — documents, interviews, artifacts — and it reframes the street outside as a piece of Cold War infrastructure that evolved in public.
+
+    I attended in my capacity as a historian and kept my commentary professional, which was a strain, because the CIA-airline exhibit is bananas. An hour, small rooms, strong story. History lives in strange buildings. This is one of the strangest.
 ---
 
 Above the tourist tumult of Patpong's night market sits a small, smartly designed museum that takes its unlikely subject seriously. It traces the soi's history from a family-owned banana plantation to a Cold War nerve centre and, later, the birthplace of Bangkok's modern nightlife.

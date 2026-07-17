@@ -56,6 +56,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "The sun melts into the Sea of Japan here. I buried my toes in the sand and stayed past my bedtime."
   emoji: "🌅"
+  report: |-
+    Yunohama is Yamagata's easygoing beach: long gentle sand on the Japan Sea near Tsuruoka, shallow warm swimming, a torii standing out in the waves collecting sunsets, and an onsen town directly behind the beach so you can go from salt water to spring water in a hundred metres.
+
+    I did the full local protocol — swim (paddle, technically; my breaststroke is a rumor), sunset from the torii-view seawall, then a footbath while the sky finished its show. Japan Sea sunsets commit: the whole horizon goes ember and the torii inks itself in.
+
+    Summer weekends bring families and shave ice; off-season it's you, the fishermen, and a very above-average sky. There's also a legend about a giant turtle, kept alive by a small monument I saluted. Beaches with their own onsen and their own turtle lore: correct beaches.
 ---
 
 When the August heat settles over Yamagata's inland basins, locals head for the coast — and one of the friendliest stretches is **Yunohama Beach**, a long arc of sand on the **Japan Sea** just west of Tsuruoka.

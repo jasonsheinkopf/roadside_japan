@@ -58,6 +58,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "They balance 50 lanterns on a bamboo pole ON THEIR FOREHEADS. I balanced one acorn. Solidarity."
   emoji: "🏮"
+  report: |-
+    At the Kanto Festival, performers balance 12-metre bamboo poles carrying up to 46 lit paper lanterns — fifty kilos of glowing architecture — on their PALMS. Then their FOREHEADS. Then their HIPS, hands spread wide to the crowd, while the whole pole bends like a fishing rod hooked on the moon.
+
+    As a professional balancer (branches, wires, one regrettable clothesline) I attended as a peer and left as a fan. When a gust leans the poles and forty lantern-towers sway together over the street, the crowd's gasp is part of the show's percussion. Drums, flutes, and the balancers' shouted 'dokkoisho!' carry it forward block by block.
+
+    Early August, Akita City. Daytime shows demonstrate technique; night is the cathedral version. Sit street-side, mind falling wax, applaud with your whole body like everyone else.
 ---
 
 On summer nights in early August, the main avenue of Akita fills with hundreds of swaying towers of light. The **Kanto Festival** is a feat of balance: each performer hoists a bamboo pole up to **12 metres tall**, strung with as many as **46 paper lanterns** lit by candle, and balances the whole flexing, glowing mast on a palm, a forehead, a shoulder, or a hip.

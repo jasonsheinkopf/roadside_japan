@@ -59,6 +59,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "A hall of ten thousand glowing jellyfish. I pressed my nose to the glass for one hour."
   emoji: "🪼"
+  report: |-
+    The Kamo Aquarium on the Tsuruoka coast bet its entire existence on jellyfish, and won: a Guinness-record collection, fifty-plus species, ending in the 'Jellyfish Dream' — a five-metre tank where thousands of moon jellies drift in blue light like slow snow.
+
+    I'll be honest about what happened in front of that tank: nothing. For twenty minutes. Me, motionless, tail slack, thoughts gone. A staff member checked on me. The jellies do that to everyone — the bench in front is full of humans in the same condition, ages three to ninety.
+
+    Smaller tanks upstream show jellies like lace, like lanterns, like bad ideas with tentacles. There's jellyfish ice cream; I performed my duty (fine; texturally confusing). The dream tank at closing time, nearly alone, is the version to chase.
 ---
 
 On the coast west of Tsuruoka stands a sleek white building that came back from the brink of closure by betting everything on the most unlikely of stars: **jellyfish**. Today the **Kamo Aquarium** holds the **largest jellyfish collection in the world** — a Guinness-certified **50-plus species** — and it's one of the most quietly mesmerizing places in Tohoku.

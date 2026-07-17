@@ -27,6 +27,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "A puppet show over a canal! I clapped so hard I nearly fell in."
   emoji: "🎭"
+  report: |-
+    A puppeteer's flyer floated down a Thonburi canal and snagged on my log. That is not a metaphor; I was rafting on a log at the time, as one does.
+
+    Baan Silapin is a two-hundred-year-old wooden house on the canal where artists moved in and never got around to being boring. There's a mossy old stupa in the courtyard, coffee, sketchbooks everywhere, and — the reason you come — free traditional Thai puppet shows beside the water. The puppets move like they have opinions. I checked behind the screen. Three humans per puppet. Still not convinced.
+
+    Shows don't happen every day, so check ahead — the visitors who wander in blind and catch one act like they've won something, because they have.
 ---
 
 On a quiet stretch of the old Bang Luang canal in Thonburi, this rambling century-old teak house has been reborn as an artists' collective — part café, part gallery, part workshop — gathered around a small white *chedi* and a wooden stage over the water.

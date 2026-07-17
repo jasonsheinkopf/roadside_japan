@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The nine-tailed fox's stone split open in 2022. I sniffed it once and left VERY politely."
   emoji: "🦊"
+  report: |-
+    The Killing Stone of Nasu has a résumé no rock can match: legend says it holds the spirit of Tamamo-no-Mae, a murderous nine-tailed fox who poisoned everything around it for centuries — and in March 2022 the stone CRACKED IN HALF, prompting the entire internet to half-joke that she was loose again.
+
+    I visited the sulfur field where it sits, steam drifting between rock cairns, the split stone roped with fresh shimenawa. As a forest creature I maintain professional courtesy toward all fox-related phenomena, so I bowed twice: once for the legend, once for whatever came out.
+
+    The volcanic gas is real — heed the posted warnings on bad-air days. Pair with the ancient onsen shrine next door and Shika-no-yu below. Japan's spookiest geology, still writing sequels.
 ---
 
 Above the old hot-spring town of **Nasu Yumoto**, the forest gives way to a barren, hissing field of yellow sulfur called Sai-no-Kawara — and in the middle of it sits the **Sessho-seki**, the "Killing Stone."

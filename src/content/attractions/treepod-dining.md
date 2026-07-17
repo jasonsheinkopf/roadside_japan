@@ -35,6 +35,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Dinner in a birds-nest pod in the canopy, food delivered by zip line. I have peaked. Literally."
   emoji: "🌳"
+  report: |-
+    On Koh Kood, Soneva Kiri serves lunch in a woven bamboo pod shaped like a weaver bird's nest — hoisted metres up into the rainforest canopy with you inside, whereupon a waiter delivers each course BY ZIP LINE, arriving through the leaves like a very well-dressed gibbon.
+
+    I must be honest about my professional feelings: dining in the canopy is my entire lifestyle, and the humans have finally caught up, at resort prices. The pod sways gently, hornbills comment from adjacent branches, and the zip-line waiter releases your soup with a showman's timing.
+
+    It's a splurge inside a splurge (the resort is remote luxury; the pod books ahead), but as a once-in-a-life theater of a meal, it delivers — literally, at speed, on a cable. The trees have the best tables. Always have.
 ---
 
 On the far-flung island of Ko Kut, the Soneva Kiri resort has built what may be the most theatrical restaurant in Thailand. Guests settle into a spacious rattan-and-bamboo pod — modelled on the hanging nest of a weaver bird — which is then raised around seven metres into the treetops, level with the canopy and looking out to the sea.

@@ -74,6 +74,8 @@ const FALLBACK_QUOTES: { [category: string]: string } = {
 };
 const sceneQuote = data.cinnamon?.quote ?? FALLBACK_QUOTES[data.category] ?? "I was here and it was wonderful.";
 const sceneEmoji = data.cinnamon?.emoji ?? cat.emoji;
+// Field report: his first-person story for this place (docs/CINNAMON.md), split into paragraphs.
+const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).map((p: string) => p.trim()).filter(Boolean) : [];
 ---
 
 <BaseLayout title={data.title} description={data.summary} image={record.hero} jsonLd={jsonLd}>
@@ -129,12 +131,28 @@ const sceneEmoji = data.cinnamon?.emoji ?? cat.emoji;
         </div>
 
         {
-          record.hero && (
+          (record.hero || reportParas.length > 0) && (
             <section class="mt-8">
               <h2 class="font-display text-xl font-bold">🐿️ Cinnamon was here</h2>
-              <div class="mt-3">
-                <CinnamonScene title={data.title} emoji={sceneEmoji} quote={sceneQuote} seed={record.id} />
-              </div>
+              {record.hero && (
+                <div class="mt-3">
+                  <CinnamonScene title={data.title} emoji={sceneEmoji} quote={sceneQuote} seed={record.id} />
+                </div>
+              )}
+              {reportParas.length > 0 && (
+                <div class="card mt-4 p-5">
+                  <p class="text-xs font-semibold uppercase tracking-wide text-ink-soft">Field report</p>
+                  {reportParas.map((p) => (
+                    <p class="mt-2 leading-relaxed">{p}</p>
+                  ))}
+                  <p class="mt-3 text-sm font-medium text-sun">— Cinnamon 🐿️</p>
+                  {data.visitorTip && (
+                    <aside class="mt-4 rounded-xl border border-line bg-surface-2 px-4 py-3 text-sm">
+                      <span class="font-semibold">📣 Tip from {data.visitorTip.by}:</span> “{data.visitorTip.text}”
+                    </aside>
+                  )}
+                </div>
+              )}
             </section>
           )
         }

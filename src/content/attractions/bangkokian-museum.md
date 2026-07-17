@@ -32,6 +32,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Old Bangkok in a quiet garden. I napped on a windowsill. Historically."
   emoji: "🏡"
+  report: |-
+    Rain chased me through a Bangkok gate and I came out the other side in the 1940s. The Bangkokian Museum is a garden compound of preserved wooden houses kept exactly as a middle-class family left them — dishes in the cabinet, dresses in the wardrobe, clocks still politely wrong.
+
+    I padded through rooms of dark polished teak while a volunteer guide told stories about the family who lived there. Nobody sells you anything. It's free. It smells like old wood and rain, which is the best smell, and I say that as someone who lives in a tree.
+
+    Visitors call it 'the quietest place in Bangkok' and use words like 'time capsule.' Accurate. Come slow, leave slower.
 ---
 
 Slip off the traffic of Charoen Krung into a shaded garden and you'll find a set of beautifully kept timber houses preserved exactly as a Bangkok family left them in the mid-20th century — furniture, kitchenware, photographs and all.

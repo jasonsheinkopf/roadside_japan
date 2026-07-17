@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "A 41-meter white Kannon watches the plains. I climbed to her shoulder and waved at everything."
   emoji: "🙏"
+  report: |-
+    The White-Robed Kannon of Takasaki is 41.8 metres of serene concrete goddess standing on a wooded hill over the city — and she's hollow: a staircase climbs through her body past little windows, all the way to her shoulder level.
+
+    Climbing inside a giant benevolent statue is a specific experience I recommend to everyone: the stairwell is cool and echoing, small Buddhas wait in alcoves at each landing, and the windows frame Takasaki in slices — a city seen through the eyes, almost literally, of its guardian. I did the ascent twice, once for the view, once for the concept.
+
+    She was built in 1936 and you can feel the era in her calm. Cherry blossoms swarm the hill in spring. Daruma dolls are Takasaki's other specialty; buy one below and make your wish inside the goddess. Layered luck.
 ---
 
 Rising from a wooded hilltop above **Takasaki**, visible from miles across the Gunma plain, stands a calm white giant: the **Byakue Daikannon**, a **41.8-metre** statue of the Buddhist goddess of mercy, finished in **1936** and gazing serenely over the city.

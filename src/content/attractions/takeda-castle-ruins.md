@@ -64,6 +64,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "The castle floats on a sea of clouds at dawn. I arrived at 5 AM, grumpy, then completely forgave the hour."
   emoji: "☁️"
+  report: |-
+    Takeda Castle keeps no buildings, only bones: stone ramparts running along a mountain ridge in Hyogo. But on still autumn dawns, fog fills the valley below until the walls stand on a sea of cloud — Japan's 'castle in the sky,' floating for an hour before the sun burns the illusion off.
+
+    Cloud-sea conditions have requirements (autumn, clear night, humid morning, no wind), so I did it properly: up the trail in the dark, paws frosty, dawn on the ridge with a small congregation of photographers whispering like churchgoers. The fog arrived. The castle floated. A man beside me quietly cried into his lens cloth. Standard, I'm told.
+
+    View it FROM Ritsuunkyo across the valley for the classic shot, or stand ON the ruins inside the cloud. I did both. Do both. Autumn dawns are a lottery; buy the ticket anyway.
 ---
 
 Four hundred years ago, the castle on this ridge in Hyogo was abandoned. What's left — long runs of fitted **stone ramparts** following the spine of the mountain — has earned the nickname "the Machu Picchu of Japan." But its real fame comes at dawn, when a **sea of clouds** wells up from the valley and the ruins appear to float above the world.

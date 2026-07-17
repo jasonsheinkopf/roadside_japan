@@ -58,6 +58,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I peered off the 'View of Hell' cliff. Hell looked back. We nodded respectfully."
   emoji: "🪨"
+  report: |-
+    Nokogiriyama is a sawtooth mountain that used to be a quarry, and its famous stunt is Jigoku Nozoki — 'the Hell Peek' — a railed rock ledge jutting over a sheer drop where humans queue to lean out and feel mortal.
+
+    I walked the ledge rail (the queue is for the railed pen; the rail itself is a public thoroughfare if you're 200 grams) and peeked into hell, which on a clear day looks suspiciously like Tokyo Bay being gorgeous. Then the real treasures: Japan's largest seated stone Buddha carved into the quarry face, and 1,500 mossy arhat statues hidden along shadowed paths, each face different, many beheaded by history, all worth your slowness.
+
+    Ropeway up, walk down. Sturdy shoes. The Peek gets the photos; the arhats get your heart.
 ---
 
 Across the bay from the Boso Peninsula's quiet coast rises **Nokogiriyama** — "Saw-tooth Mountain" — its jagged profile carved by centuries of stone quarrying. The cuts left behind created one of Japan's most photographed thrills.

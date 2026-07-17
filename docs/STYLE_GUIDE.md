@@ -30,6 +30,10 @@ Visit`, `## Getting There`. 2–4 tight paragraphs. Put short actionable nuggets
 Friendly and light, with the occasional wink ("You've wandered off the map."). Buttons are
 verbs ("Open the map", "Surprise me"). Emoji are welcome as accents, not decoration overload.
 
+### Cinnamon's voice
+Everything written *as the mascot* — scene quotes, field reports, thank-you emails — follows
+**[`docs/CINNAMON.md`](./CINNAMON.md)**, the persona bible. Read it before writing him.
+
 ---
 
 ## Visual design

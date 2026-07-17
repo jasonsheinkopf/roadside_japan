@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "An island of empty towers. Quiet enough to hear your own whiskers think."
   emoji: "🏚️"
+  report: |-
+    From the boat, Gunkanjima really does look like a battleship steaming out of the sea — a tiny island so crammed with concrete apartment blocks it reads as a hull and bridge. Then you land, and the metaphor stops being fun and starts being a whole city with nobody in it.
+
+    This was once the most densely populated place on Earth — a coal-mining island of five thousand people, schools and cinemas stacked on top of each other — abandoned almost overnight in 1974. Tours walk a fenced path past the crumbling blocks. I stayed on the path. Even I stayed on the path. The buildings creak in the sea wind like they're still discussing the news from 1974.
+
+    Boats cancel in rough weather, so book flexibly. Haunting in the exact, precise meaning of the word.
 ---
 
 From a distance it really does look like a warship: a low gray slab bristling with towers, riding the swells off the coast of Nagasaki. Up close, **Hashima Island** — nicknamed **Gunkanjima**, "Battleship Island" — is something stranger: an entire abandoned city packed onto a rock barely 480 metres long.

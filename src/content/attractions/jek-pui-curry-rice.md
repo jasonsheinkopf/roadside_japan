@@ -36,6 +36,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "No tables, just stools on the sidewalk. Curry this good needs no furniture."
   emoji: "🍛"
+  report: |-
+    Jek Pui has been serving curry rice in Chinatown for seventy years and has never once owned a table. You get a red plastic stool on the pavement, a plate on your lap, and the company of strangers eating elbow-to-elbow like a spontaneous outdoor family dinner.
+
+    I took my portion (a bottle cap of curry, negotiated in advance) on the curb between a taxi driver and a teenager who both nodded at me like this was normal, because at Jek Pui everything is normal. The curry is old-style Chinese-Thai — gentle, fragrant, poured over rice with a ladle that has clearly outlived governments.
+
+    The stool turnover is fast; the line moves; nobody lingers and everybody comes back. Eat like a local: lap, spoon, silence, gone.
 ---
 
 For more than seven decades, Jek Pui has served rich Thai-Chinese curries from a cart on the corner of Mangkon Road — with one famous quirk: there are no tables. Diners perch on cheap red stools along the pavement, plates balanced on their knees, shuffling for a seat in a nightly game locals nicknamed "musical chairs."

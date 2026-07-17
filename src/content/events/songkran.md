@@ -53,6 +53,12 @@ country: thailand
 cinnamon:
   quote: "The whole country has a water fight for three days. I was soaked in the first four minutes. Blessed, technically."
   emoji: "💦"
+  report: |-
+    For three days in April, Thailand's new year turns the entire country into the world's biggest water fight, and there is no neutrality: I was blessed/soaked within ninety seconds of leaving shelter, by a grandmother, with a copper bowl, who then apologized to the SQUIRREL and did it again.
+
+    Songkran's secret is that the mayhem is layered on tenderness — water pours over Buddha images and elders' hands in the morning, and by noon the same gesture has scaled into super-soakers, pickup-truck water cavalry, and strangers icing each other's spines with glacier water, all screaming with joy in 38-degree heat.
+
+    Chiang Mai's moat is the legendary arena; everywhere is somewhere. Waterproof your phone, wear clothes that agree to be wet for 72 hours, and surrender. Best three days of the year to be alive and absorbent. My fur has never been cleaner.
 ---
 
 Every April, as the **hot season** peaks, Thailand celebrates **Songkran** — the traditional Thai New Year — by throwing water at absolutely everyone. What began as a gentle rite of pouring scented water over Buddha images and the hands of elders has grown into a joyous, nationwide, days-long water battle.

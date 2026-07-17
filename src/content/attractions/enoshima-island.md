@@ -55,6 +55,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Shrines, a lighthouse, and dragon legends on one island. I did it all for a snack."
   emoji: "🗼"
+  report: |-
+    Enoshima is what happens when Japan fits a whole vacation onto one hill you can walk to over a causeway: sea-dragon shrine, candlelit caves, lighthouse garden, and Sagami Bay glittering in every direction.
+
+    I took the escalators up (yes, the island has escalators; no, I will not be taking questions about whether I rode the handrail) and paid respects to Benzaiten, the goddess who — the legend says — married the local five-headed dragon to make it stop misbehaving. The sea caves at the far end drip and echo, and you carry a little candle lantern through them like a very short pilgrim.
+
+    Go on a clear winter day and Fuji floats over the bay. The kites here steal food from human hands — protect your snacks; they show no honor.
 ---
 
 Barely a kilometer around, Enoshima crams a surprising amount into one small tidal island connected to the mainland by a footbridge across Katase River's mouth.

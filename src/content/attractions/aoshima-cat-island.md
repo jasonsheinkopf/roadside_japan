@@ -61,6 +61,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Population: 6 humans, 100 cats, 1 extremely brave squirrel. Me. I'm the squirrel."
   emoji: "🐈"
+  report: |-
+    A traveler wrote to the atlas about an island where cats outnumber the people many times over, and I want it on record that I went anyway, knowingly, a squirrel, to Cat Island.
+
+    I conducted my entire visit from the ferry railing and the tops of fence posts. From this safe altitude I can report: dozens of cats in the harbor, draped over crates and each other, all extremely comfortable and only mildly interested in me. No shops, no cars, one sleepy port. My friend Socks would call it paradise. My nervous system calls it a training exercise.
+
+    Visitors say mornings are calmest, and that you should NOT bring food unless you want to be the day's entertainment. Confirmed, from a fence post.
 ---
 
 Off the coast of Ehime, on Shikoku, sits a speck of an island called **Aoshima** — and it belongs to the cats. A dwindling handful of human residents share the place with many times their number of free-roaming felines, who gather at the little harbor to greet the ferry as it pulls in.

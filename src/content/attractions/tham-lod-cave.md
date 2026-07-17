@@ -57,6 +57,12 @@ country: thailand
 cinnamon:
   quote: "We floated on bamboo through a cathedral cave as swifts poured out at dusk. I forgot I had a body."
   emoji: "🦉"
+  report: |-
+    Tham Lod is a river cave the size of a legend near Pai: you board a bamboo raft with a lantern-bearing guide and float THROUGH the mountain — chambers of stalactites like melted cathedrals, ancient teak coffins on high ledges (people were laid to rest here 1,700 years ago), and fish rising to meet the lantern light like they're auditioning.
+
+    The finale is the exit mouth at dusk, when hundreds of thousands of swifts pour into the cave to roost while bats pour OUT for the night shift — two rivers of wings crossing at the door, rush hour perfected over millennia.
+
+    Guides with lanterns are mandatory and their fee feeds the village; timing the dusk swift-swap is non-negotiable. I rode the raft prow, lantern-lit, feeling like a paragraph from an adventure novel. The cave agreed.
 ---
 
 Deep in the limestone hills of Pang Mapha, a stream called the Nam Lang vanishes straight into a mountain and re-emerges 1.5 km later. To follow it, you climb aboard a **bamboo raft** and drift into **Tham Lod**, one of northern Thailand's great river caves.

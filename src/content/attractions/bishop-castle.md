@@ -33,6 +33,12 @@ sources:
 cinnamon:
   quote: "One man built a whole castle by hand. I once built half a nest. Respect."
   emoji: "🏰"
+  report: |-
+    A trucker at a Pueblo diner said 'one guy built a castle in the mountains, been at it fifty years, there's a dragon.' Truckers do not lie about dragons.
+
+    Bishop Castle is exactly that: a 160-foot stone castle hand-built by one gloriously stubborn man, with iron bridges that sway when the wind so much as thinks about you, and a steel dragon head that breathes actual fire on special occasions. I climbed to the very top ball of the very top tower, because for once the sign said I could — everything is climbable, at your own risk, which is the most honest sign in America.
+
+    The humans below looked terrified and delighted in equal measure, which is the correct ratio. Free to enter. Hold the railings. Mean it.
 ---
 
 ## One man, one castle, fifty years

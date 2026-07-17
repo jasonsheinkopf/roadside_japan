@@ -55,6 +55,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Art that flows over the walls and follows you around. A flower bloomed on my tail. I let it."
   emoji: "✨"
+  report: |-
+    teamLab Borderless has no map because the art won't hold still: projected flowers migrate between rooms, waterfalls of light pour around your body, and whole flocks of luminous crows fly out of one gallery and into another with you chasing them, which I did, professionally, for an hour.
+
+    At squirrel scale the immersion goes total — the Flower Forest grows petals bigger than me, and in the mirror-floored lamp room I existed in six directions at once and had to sit down (on which floor? unclear). The art responds to movement, and I move a LOT, so several installations and I collaborated.
+
+    Book timed tickets ahead, go weekday mornings, wear pale clothes if you want the projections to live on you. Surrender the itinerary. The borderless thing isn't a slogan; it's instructions.
 ---
 
 Not seasonal, not weather-dependent, and unlike almost anything else nearby — teamLab Borderless is the kind of stop that works on literally any day of a Tokyo trip, which makes it an easy anchor for a visiting family member regardless of when exactly they're in town.

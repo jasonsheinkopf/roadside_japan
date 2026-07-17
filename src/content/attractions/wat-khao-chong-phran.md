@@ -29,6 +29,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "At dusk, a million bats spiral out of the temple mountain in one endless ribbon. I counted to 40 and gave up, happily."
   emoji: "🦇"
+  report: |-
+    Every dusk at Wat Khao Chong Phran, a cliff cave beside the temple opens its account: millions of wrinkle-lipped bats pour out in an unbroken ribbon that snakes across the Ratchaburi sky for the better part of an hour — a river of wings with no visible source and no end, off to eat the province's insects.
+
+    I watched from the temple roof with monks who see it nightly and still look up. The stream bends in the wind like calligraphy; hawks raid its edges; the sound is a soft applause that doesn't stop. My tail stood fully vertical for forty minutes and I billed it as exercise.
+
+    Arrive before sunset, position downwind of nothing (trust me), drop a donation — bat guano funds the temple, a sentence I am delighted to publish. Nature's best commute. Attendance mandatory.
 ---
 
 At a limestone hill near Photharam, a hillside temple guards one of Thailand's most reliable natural shows. As the light fades, bats begin to spill from the cave mouth — first a trickle, then a dense, swirling stream that ribbons across the sky toward the rice fields, lasting up to 45 minutes.

@@ -29,6 +29,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Dinner under a limestone overhang while climbers dangle above. I ate spring rolls in a cave. Fancy caveman."
   emoji: "🧗"
+  report: |-
+    The Grotto at Railay is dinner inside geology: a restaurant tucked under a natural limestone overhang right on Phra Nang beach, stalactites overhead, sand underfoot, the Andaman doing its turquoise breathing a few steps away.
+
+    I dined at the cave-mouth rail (grilled prawn commission; the staff at beach restaurants understand a working squirrel) while climbers inched up the cliffs next door and longtail boats swapped tourists at the shore. When the tide and light line up at dusk, the whole cave glows amber and everyone's dinner gets photographed before it gets eaten.
+
+    It's resort-priced and worth it once, at sunset, unhurried. The princess shrine cave is a two-minute walk for after-dinner folklore. Eat in a cave. The ancestors would be proud and confused.
 ---
 
 At the foot of the towering karst cliffs on Phra Nang Beach — one of the most beautiful strands in Thailand — a natural cave has been turned into an open-air restaurant. Tables sit among the stalactites and weathered limestone, sheltered by the rock overhead and opening straight onto the white sand and turquoise water.

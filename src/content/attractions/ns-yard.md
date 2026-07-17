@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "Retired trains sleeping in a quiet yard. I patted a bullet train's nose. It earned this rest."
   emoji: "🚂"
+  report: |-
+    N's YARD is Yoshitomo Nara's own private museum in the Nasu woods: five intimate rooms of his big-eyed, big-headed girls — those faces that look sweet at first glance and stare back harder the longer you stand there — plus his record collection and shelves of toys arranged like evidence.
+
+    The drawings got me. The big canvases are famous, but the small sketches feel like reading someone's pockets. And the record wall explains everything: the paintings are what those songs look like.
+
+    It's deliberately un-signposted and modest — you drive there through the trees, and half the visitors seem like pilgrims who've loved him since art school. The café does a proper coffee. Stay small, stay quiet, let the girls stare you down. They win. They always win.
 ---
 
 Hidden on a green hillside in the **Nasu** woods is a museum that feels more like stepping into an artist's head than visiting a gallery. **N's YARD** is the private museum of **Yoshitomo Nara**, one of Japan's most beloved contemporary artists — the man behind those defiant, big-headed children with enormous eyes.

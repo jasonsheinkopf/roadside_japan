@@ -57,6 +57,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "1,015 steps up the cliff temple. Basho wrote a haiku here. I wrote 'wow' in the snow with my tail."
   emoji: "⛰️"
+  report: |-
+    Yamadera is a thousand stone steps up through cedar and cliff to a temple that has clung to its mountain since 860 — and the poet Bashō stopped here and wrote the haiku about cicada cries soaking into rock, which the whole mountain has been living up to ever since.
+
+    I climbed the thousand steps the human way, step by step, out of respect (fine: mostly; there were three brief canopy shortcuts and I regret being honest). The Godaido hall at the top hangs off the precipice like a held breath, and the valley below arranges itself into the exact view that makes everyone go quiet mid-photo.
+
+    Autumn burns, winter mutes, summer hums with the cicadas Bashō filed his report on. The konnyaku balls at the base are the traditional post-climb reward. Silence, stairs, one perfect ledge: the whole country in one hill.
 ---
 
 The mountain temple of **Risshaku-ji** — everyone calls it **Yamadera**, "mountain temple" — clings to a cliff of weathered rock above a green Yamagata valley. To reach it you climb roughly **a thousand stone steps** through towering cedars, passing tiny halls and moss-covered Buddhas as you go.

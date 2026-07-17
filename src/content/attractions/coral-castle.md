@@ -33,6 +33,12 @@ sources:
 cinnamon:
   quote: "One quiet man moved 1,100 tons of stone and told no one how. My hero."
   emoji: "🪨"
+  report: |-
+    The story reached me before the place did, the way the good ones do: a heartbroken Latvian immigrant, jilted the day before his wedding, spends decades single-handedly carving 1,100 tons of limestone into a castle — and never lets anyone watch him work.
+
+    Coral Castle is megalithic furniture under Florida sun: stone rocking chairs that rock, a stone telescope aimed at the pole star, and the famous nine-ton gate a child could push open with one finger (it balanced perfectly for decades). I pushed it with two paws and my whole heart. It didn't move for me. Rude, but historically consistent.
+
+    The humans whisper theories — levers, magnetism, secret songs. The plaques wisely refuse to settle it. Heartbreak plus stubbornness moves mountains, or at least corals. One solemn acorn, left on a stone chair.
 ---
 
 ## One man, 1,100 tons of rock

@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I rolled in the lavender and smelled fancy for a week. A WEEK."
   emoji: "💜"
+  report: |-
+    In July, Hokkaido's hills at Farm Tomita turn into stripes — purple lavender, then rainbow rows of poppies and lupines — and the whole valley smells like a linen closet run by angels.
+
+    I arrived on the slow Norokko train, which pulls up practically inside the flowers, and spent the morning swimming through lavender at stem level, which is a perspective the standing humans will never know. The bees and I reached a professional understanding: they work, I float.
+
+    Everyone leaves clutching lavender soft-serve, and everyone is right to — it tastes purple in the best way. Peak bloom is mid-July and the crowds peak with it; go before nine or after four. My tail smelled like lavender for a week and I regret nothing.
 ---
 
 For most of the year it's quiet farmland. Then July arrives and **Farm Tomita** detonates into colour: long corduroy stripes of **purple lavender** climbing the hills of the Furano valley, hemmed by ribbons of poppies, salvia, and cosmos in a rainbow of rows.

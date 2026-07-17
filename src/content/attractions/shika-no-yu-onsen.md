@@ -58,6 +58,12 @@ updatedAt: 2026-06-16
 cinnamon:
   quote: "A 1,300-year-old bathhouse. I soaked next to grandpas who have perfected the art of the sigh."
   emoji: "♨️"
+  report: |-
+    Shika-no-yu has been bathing people for 1,300 years, and it has not updated the concept because the concept was finished: a wooden bathhouse over milky sulfur water, six cypress tubs at rising temperatures — 41 up to a legendary 48 degrees — no showers, no shampoo, just water and nerve.
+
+    Bathing culture here comes with instruction: ladle the hot water over your head before entering (kaburi-yu, an old ritual; also just good sense) and sit still, because moving makes 48 degrees discuss you personally. I soaked in tub two like a gentleman scholar and inspected tub six with one paw, which I then reconsidered for several minutes.
+
+    A deer supposedly found the spring; the name honors it. Come early with the local grandpas, who enter tub six like it's a mild bath and exit looking younger. Witchcraft. Tradition. Same thing here.
 ---
 
 At the very top of the **Nasu Yumoto** onsen town, where the road gives way to steaming hillsides, stands a weathered wooden bathhouse that has been in business, in one form or another, for around **1,300 years**: **Shika-no-yu**, the oldest hot spring in Nasu.

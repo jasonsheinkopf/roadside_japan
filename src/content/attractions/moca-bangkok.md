@@ -28,6 +28,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "Five floors of dreamlike Thai art in white marble light. I got lost. Improved me."
   emoji: "🖼️"
+  report: |-
+    MOCA Bangkok is five white marble-ish floors of modern Thai art, and it does not do gentle: surreal, spiritual, sometimes nightmarish paintings — hell scenes with startling craftsmanship, dream cities, hyper-detailed canvases the size of walls — built around one collector's conviction that Thai artists needed a palace.
+
+    I budgeted an hour and stayed four. The Thawan Duchanee floor rearranged something in my chest, and the giant triptychs upstairs made me sit down on a bench like a tired pilgrim. For a museum full of visions, it's remarkably calm — high ceilings, few crowds, light like a courtroom for beauty.
+
+    It's out by Chatuchak-ish nowhere, which keeps it quiet; taxi there, no regrets. The humans who make the trip all post the same astonished reviews. Add mine: astonished.
 ---
 
 Built from one collector's passion, MOCA is the best place to grasp the power and strangeness of modern Thai art. Behind a luminous white façade carved with lotus motifs, five floors climb through surreal, devotional, and provocative work by the country's leading artists.

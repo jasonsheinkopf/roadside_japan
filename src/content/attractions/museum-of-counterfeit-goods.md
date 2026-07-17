@@ -26,6 +26,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "A museum of fakes! Real fakes! Legally certified fakes! My brain did a backflip."
   emoji: "🕵️"
+  report: |-
+    A law firm in Bangkok runs a private museum of fakes: thousands of counterfeit watches, medicines, car parts, liquors, and toys they've helped seize, displayed side by side with the genuine articles so you can test your eye and lose.
+
+    I lost repeatedly. The fake-versus-real game is humbling — some counterfeits are flawless until you learn the one tell, and then you can't unsee it. The sobering rooms are the fake brake pads and fake medicines, where the game stops being a game; people die of counterfeits, which is why a law firm bothers.
+
+    Visits are by appointment (it's inside their offices — the world's most niche field trip), free, and guided by people who genuinely love the hunt. The strangest museum I've filed from Bangkok, and Bangkok has a MEDICAL one.
 ---
 
 Run by one of Thailand's oldest law firms, this one-room museum has been quietly amassing fakes since 1989 — more than 4,000 counterfeit items across every category imaginable, from designer handbags to bogus brake pads and dangerous knock-off pharmaceuticals.

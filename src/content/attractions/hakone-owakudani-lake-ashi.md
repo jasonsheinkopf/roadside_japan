@@ -55,6 +55,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "I ate a black egg boiled in volcano steam. +7 years of life. I feel immortal-ish."
   emoji: "🥚"
+  report: |-
+    Owakudani is a volcanic valley that boils eggs black, and the local promise is that each one adds seven years to your life. I ate what I could of one, which by weight-adjusted squirrel math makes me functionally immortal. See you all at the heat death of the universe.
+
+    The ropeway carries you right over the steaming, sulfur-yellow valley — a genuinely great gondola moment, all hissing vents below — and then drops down to Lake Ashi, where you cross the water on a preposterous fake pirate ship with Fuji hopefully showing off behind the torii at Hakone-jinja.
+
+    The sulfur smell is real and so is the fun. Clear winter mornings for Fuji; egg first, always. A perfect over-organized Japanese day out, and I mean that as the highest compliment.
 ---
 
 Roughly two hours from central Tokyo, Hakone packs an active volcanic valley, a mountain ropeway, and a lake cruise with Mt. Fuji views into a single well-connected day trip.

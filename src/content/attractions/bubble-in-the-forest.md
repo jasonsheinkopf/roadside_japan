@@ -32,6 +32,12 @@ submittedBy: import:roadside-thailand
 cinnamon:
   quote: "I slept in a bubble in the jungle. The fireflies watched. Rude but magical."
   emoji: "🫧"
+  report: |-
+    I saw a photograph of humans eating dinner inside a soap bubble and assumed trick photography. I owe that photographer an apology, which I am delivering here, in print.
+
+    Bubble in the Forest is a lakeside café west of Bangkok where each table sits inside its own transparent geodesic dome among the palms and the water. You are indoors and outdoors simultaneously — air-conditioned, but the herons can watch you eat. I pressed my face against the inside of the dome at a passing dragonfly and startled a waiter badly.
+
+    The humans book ahead and dress up for it; the photos are the point and the food knows its role. Come at golden hour. Being a snack inside a snow globe: recommended once.
 ---
 
 An easy drive west of Bangkok in Sam Phran, this sprawling garden café leans all the way into escapism: alongside its ordinary tables sit a handful of large, transparent geodesic "bubble" domes on the water, where small groups can dine in air-conditioned, panoramic privacy surrounded by palms and lake.

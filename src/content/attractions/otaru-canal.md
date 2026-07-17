@@ -60,6 +60,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Gaslights on the old canal at dusk. I sat on a bollard and felt like a tiny film noir detective."
   emoji: "🏮"
+  report: |-
+    Otaru Canal is short — you can walk it in fifteen minutes — and I still managed to spend two hours, because the old stone warehouses along it hold the light differently every ten steps, and at dusk the gas lamps come on and the whole herring-boom past shows up for one more evening shift.
+
+    I came in light snow (Otaru schedules this; see also Ginzan Onsen, the towns clearly coordinate) and rode a lamppost while the photographers below fought politely for tripod space. The canal was nearly filled in for a road in the sixties; the citizens fought for it and won, which makes every reflected lamp a small civic victory.
+
+    Eat sushi in town after — Otaru's other legacy. Peak romance in February's Snow Light Path festival, when candles float in the canal. Bring someone. Or be me: bring a journal.
 ---
 
 Once, this canal floated barges heavy with herring money. Today the **Otaru Canal** is shorter and quieter, but it has become one of Hokkaido's most beloved postcards: a curve of still water lined with **old stone warehouses**, walked by a promenade of **gas lamps** that flicker on at dusk.

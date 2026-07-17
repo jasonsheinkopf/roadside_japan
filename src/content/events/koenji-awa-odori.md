@@ -57,6 +57,12 @@ updatedAt: 2026-07-13
 cinnamon:
   quote: "Ten thousand dancers chanting 'fools who dance, fools who watch.' I chose dancing fool. Correct choice."
   emoji: "🥁"
+  report: |-
+    Koenji Awa Odori is what happens when a Tokyo train-station neighborhood adopts a 400-year-old Tokushima dance and commits for six decades: ten thousand dancers in eight troupes threading a figure-eight through the shopping streets over one late-August weekend, while a million spectators pack in shoulder to shoulder.
+
+    The dance is a beautiful trick — 'the dancers are fools and the watchers are fools, so you may as well dance' goes the song — and by the second hour the line between the two has fully dissolved. I danced on an awning ridge above the drums, paws in the men's low-lunging style, tail keeping the women's upright elegance: the first documented two-style simultaneous performance, reviews pending.
+
+    Stake a corner spot early where troupes turn — that's where formations bloom. Then eat your way down the arcade. August in Tokyo, forgiven.
 ---
 
 Every year on the last weekend of August, the quiet residential streets around Koenji Station give way to Tokyo's biggest folk-dance festival — a direct transplant of Tokushima's centuries-old Awa Odori tradition.
