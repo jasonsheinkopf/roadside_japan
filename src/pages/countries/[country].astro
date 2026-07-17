@@ -54,8 +54,8 @@ const regionLabel = country.slug === "japan" ? "prefecture" : "province";
         {records.length} discoveries · {provincesWithEntries.filter((p) => p.count > 0).length} {regionLabel}s covered
       </p>
       <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
-        <a href={scoped(mapUrl())} class="btn btn-primary">🗺️ Map of {country.name}</a>
-        <a href={scoped(exploreUrl())} class="btn btn-ghost">🔍 Explore {country.name}</a>
+        <a href={scoped(mapUrl())} class="btn btn-primary">🗺️ Map</a>
+        <a href={scoped(exploreUrl())} class="btn btn-ghost">🔍 Explore</a>
         <a href={`${timelineUrl()}?country=${country.slug}`} class="btn btn-ghost">🗓️ When to go</a>
       </div>
     </section>

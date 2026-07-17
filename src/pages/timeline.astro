@@ -9,6 +9,7 @@
  * without JS, good for SEO); the island below adds month filtering + the toggle.
  */
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ViewTabs from "../components/ViewTabs.astro";
 import { getIndexRecords } from "../lib/content";
 import { activeMonths, isSeasonal } from "../lib/filters";
 import { SEASON_COLOR, SEASON_EMOJI, formatDateRange, monthsLabel } from "../lib/format";
@@ -62,13 +63,16 @@ function cells(months: number[]) {
   description="Plan by the calendar: a year-long timeline of seasonal blooms, festivals, illuminations, and limited-time discoveries. Pick a month to see exactly what's worth catching."
 >
   <div class="py-8">
-    <header class="mb-6 max-w-2xl">
-      <h1 class="font-display text-3xl font-bold sm:text-4xl">When to go</h1>
-      <p class="mt-2 text-ink-soft">
-        The best detours are often on a clock — wisteria tunnels, snow monsters, firefly
-        nights, seas of cloud. Scan the year, pick a month, and find what's actually catchable
-        when you're here.
-      </p>
+    <header class="mb-6 flex flex-wrap items-end justify-between gap-3">
+      <div class="max-w-2xl">
+        <h1 class="font-display text-3xl font-bold sm:text-4xl">When to go</h1>
+        <p class="mt-2 text-ink-soft">
+          The best detours are often on a clock — wisteria tunnels, snow monsters, firefly
+          nights, seas of cloud. Scan the year, pick a month, and find what's actually catchable
+          when you're here.
+        </p>
+      </div>
+      <ViewTabs active="timeline" />
     </header>
 
     <!-- Controls -->

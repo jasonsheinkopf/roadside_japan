@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ViewTabs from "../components/ViewTabs.astro";
 import { getIndexRecords } from "../lib/content";
 import { FILTER_GROUPS } from "../lib/filters";
 import { CATEGORY_META } from "../data/categories";
@@ -9,12 +10,14 @@ const records = await getIndexRecords();
 
 <BaseLayout
   title="Map"
-  description="An interactive map of hidden gems, weird attractions, and seasonal events across Japan."
+  description="An interactive map of hidden gems, weird attractions, and seasonal events across the atlas."
   fullBleed
 >
   <div class="flex flex-col" style="height: calc(100dvh - 6.5rem)">
-    <!-- Control bar -->
-    <div class="relative z-20 flex items-center gap-2 border-b border-line bg-canvas px-3 py-2">
+    <!-- Control bar. z-[1200] keeps the dropdown filter panel above Leaflet's panes
+         (which stack up to ~1000) — without it the panel renders UNDER the map. -->
+    <div class="relative z-[1200] flex items-center gap-2 border-b border-line bg-canvas px-3 py-2">
+      <ViewTabs active="map" />
       <div class="flex min-w-0 flex-1 items-center rounded-full border border-line bg-surface px-3 py-2 focus-within:border-sun">
         <span aria-hidden="true" class="text-ink-soft">🔍</span>
         <input
@@ -31,7 +34,7 @@ const records = await getIndexRecords();
       <span id="map-count" class="hidden shrink-0 text-sm text-ink-soft sm:inline">{records.length} places</span>
 
       <!-- Filter panel -->
-      <div id="map-filters" class="card absolute right-3 top-full mt-2 hidden max-h-[70vh] w-[min(92vw,340px)] overflow-auto p-4 shadow-xl">
+      <div id="map-filters" class="card absolute right-3 top-full z-[1200] mt-2 hidden max-h-[70vh] w-[min(92vw,340px)] overflow-auto p-4 shadow-xl">
         <div class="mb-3 flex items-center justify-between">
           <h2 class="font-display text-lg font-semibold">Filters</h2>
           <button id="map-clear" type="button" class="text-sm text-sun link-underline" hidden>Clear all</button>
@@ -67,8 +70,8 @@ const records = await getIndexRecords();
       </div>
     </div>
 
-    <!-- "When are you visiting?" date-range bar -->
-    <div class="relative z-10 flex flex-wrap items-center gap-x-3 gap-y-2 border-b border-line bg-surface/60 px-3 py-2 text-sm">
+    <!-- "When are you visiting?" date-range bar (kept above Leaflet's panes too) -->
+    <div class="relative z-[1100] flex flex-wrap items-center gap-x-3 gap-y-2 border-b border-line bg-surface/60 px-3 py-2 text-sm">
       <span class="font-medium">📅 When are you visiting?</span>
       <div class="flex items-center gap-2">
         <label class="sr-only" for="trip-from">Arriving</label>

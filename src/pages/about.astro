@@ -1,17 +1,18 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { SITE } from "../data/site";
-import { withBase, exploreUrl, mapUrl } from "../lib/url";
+import { withBase } from "../lib/url";
 ---
 
-<BaseLayout title="About" description="What Cinnamon Land is, why it exists, and how it works.">
+<BaseLayout title="Meet the team" description="Cinnamon, Socks, and Mon-chan — the three animals behind Cinnamon Land.">
   <div class="py-8">
     <div class="prose prose-lg max-w-3xl">
-      <h1 class="font-display">About Cinnamon Land</h1>
+      <h1 class="font-display">Meet the team</h1>
       <p class="lead text-xl text-ink-soft">
-        Cinnamon Land is an open atlas of the strange, the seasonal, and the overlooked —
-        the places most tourists never see. Think <em>Roadside America</em> meets
-        <em>Atlas Obscura</em>, pointed squarely at Japan.
+        Cinnamon Land started in Japan — the team still lives there, in a tree hollow, a mail
+        room, and wherever Mon-chan last fell asleep — but after scouting Japan top to bottom
+        they went international: Thailand, the USA, and wherever travelers send them next.
+        These are the three animals doing the work.
       </p>
 
       <h2>The team 🐿️🐈‍⬛🐕</h2>
@@ -59,22 +60,15 @@ import { withBase, exploreUrl, mapUrl } from "../lib/url";
         </div>
       </div>
 
-      <h2>Why it exists</h2>
+      <h2>What they make</h2>
       <p>
-        Most guides send you to the same temples, castles, and skylines. This is for
-        everything else: the giant roadside Buddha, the museum of parasites, the village of
-        scarecrows, the hillside that turns blue for two weeks a year, the festival nobody
-        wrote about. The goal is a single feeling, over and over:
+        An open atlas of the strange, the seasonal, and the overlooked — the places most
+        tourists never see, each with Cinnamon's field report from the visit. The goal is a
+        single feeling, over and over: <strong>"I had no idea this existed."</strong> How the
+        scouting works — and how to send them your own trip — is on the
+        <a href={withBase("/")}>front page</a>; the short version is you
+        <a href={withBase("/submit")}>write to Cinnamon</a> and he goes.
       </p>
-      <blockquote><strong>"I had no idea this existed."</strong></blockquote>
-
-      <h2>How it works</h2>
-      <ul>
-        <li><strong>Browse & filter.</strong> Combine filters by season, theme, cost, effort, accessibility and more on the <a href={exploreUrl()}>Explore</a> page, or roam the <a href={mapUrl()}>map</a>.</li>
-        <li><strong>Seasonal first.</strong> Many discoveries only exist for a short window. Filter by the current month, a specific season, or what's <a href={withBase("/seasons")}>in season now</a>.</li>
-        <li><strong>Anyone can contribute.</strong> <a href={withBase("/submit")}>Submit a place</a> — no account needed — and it enters a review queue.</li>
-        <li><strong>AI helps curate.</strong> A research assistant can find candidates, draft entries with sources and a confidence score, and propose them for human approval.</li>
-      </ul>
 
       <h2>The repository is the database</h2>
       <p>
