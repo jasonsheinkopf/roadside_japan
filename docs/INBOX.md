@@ -100,6 +100,13 @@ Standard authoring rules (AGENTS.md, docs/DATA_MODEL.md), plus:
 
 ### 4. Record the outcome on the issue
 
+**Post it as a NEW comment (`add_issue_comment`) — never as an edit to the issue's `body`.**
+The body holds the visitor's original raw submission, which is the only place their email
+address lives; overwriting it with the triage report deletes that address and silently
+breaks the thank-you email (`notify-submitter.yml` reads the body — plus every comment, as
+a backup — looking for it). If you use an issue-update tool for labels/state, do not pass a
+`body` argument.
+
 Leave ONE structured triage comment (greppable format — keep the field names exact):
 
 ```
