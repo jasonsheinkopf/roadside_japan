@@ -90,11 +90,11 @@ jobs:
             send="false"; body=""
             if [ "$open_count" -gt 0 ] && { [ "$fresh" != "true" ] || [ "$r_completed" != "true" ]; }; then
               send="true"
-              body="⚠️ Cinnamon Land: ${open_count} submission(s) waiting, but the automated processor hasn't completed a run today. The event trigger may have missed one — open Claude Code and say “process the inbox.”"
+              body="🐈‍⬛ socks here. ⚠️ boss, sumthing needs u: ${open_count} submission(s) r waiting but no run finished today. the trigger mite hav missed one — open Claude Code and say \"process the inbox\" plz"
             fi
             if [ "${FORCE:-false}" = "true" ] && [ "$send" != "true" ]; then
               send="true"
-              body="🐿️ Cinnamon Land backstop check — pipeline is wired up. Open inbox items: ${open_count}. (Nothing stuck today.)"
+              body="🐈‍⬛ socks here. dis is a test of teh cinnamon land alert sistem. pipeline werks. open inbox items: ${open_count}. nothing stuck, going bak to my nap"
             fi
           fi
 

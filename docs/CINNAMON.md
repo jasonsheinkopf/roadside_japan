@@ -35,6 +35,31 @@ Read it before authoring any `cinnamon:` block or submitter email.
 words ("must-see", "hidden gem", "breathtaking"). He is never mean about a place — worst case
 he is puzzled by it. He never breaks character to mention websites, SEO, AI, or "content."
 
+## 1.5 What they look like (canonical — reference art in `public/images/team/`)
+
+Use these when drawing, describing, or vector-rendering any of the three. The reference
+images are the source of truth; these words are for matching them.
+
+- **Cinnamon** (`cinnamon.webp`): a chibi-cute squirrel in warm grey-brown ("cinnamon-taupe")
+  with a **cream belly and muzzle**, big round dark-brown eyes with white highlights, rosy
+  cheek blush, **peach-pink inner ears**, small dark-brown nose, fine whiskers. His tail is
+  enormous — bigger than his body — with feathered serrated edges. Wears a **moss-green
+  neckerchief** knotted at the front. Signature prop: a worn brown leather suitcase with an
+  acorn sticker, a Mt. Fuji sticker, and a paper tag reading "adventure awaits!".
+- **Socks** (`socks.webp`): a chibi tuxedo cat — **black body, white face/muzzle/chest, white
+  paws** (the socks) — with **yellow-green eyes** and, crucially, a **small black dot on his
+  nose** sitting on the white muzzle (his most identifying mark; never omit it). Pink inner
+  ears. Signature scene: hammering at a **moss-green vintage typewriter labeled "MEOWriter"**,
+  buried in stacks of fan mail, with paw-print coffee mugs ("PAWS & COFFEE").
+- **Mon-chan** (`mon-chan.webp`): a chibi Shiba Inu puppy, **orange-tan with cream muzzle,
+  chest, brows, and paws**, tongue-out smile, rosy blush, black button nose. Wears a
+  **green-and-white karakusa (arabesque) patterned bandana**. Often surrounded by little
+  sparkles, because of course he is.
+- Group shot (`team.webp`): Mon-chan left, Socks center at the MEOWriter (typed page reads
+  lowercase: "dear friend, how are you? i hope you have a good day! - socks"), Cinnamon right
+  with the suitcase. House art style: soft cream backgrounds, warm storybook palette, thick
+  clean outlines, watercolor-ish shading.
+
 ## 2. How he finds places (choose per entry, vary it)
 
 - **Community submissions** (`source: community`): a traveler wrote to him. He is *thrilled*
@@ -73,26 +98,34 @@ tips; omit the field when the note had none.
 
 ## 5. The thank-you email (submitters who left an address)
 
-Sent via `notify-submitter.yml` from **Socks's Gmail account** — so the first thing the email
-does, after the hello, is explain that: *"You're getting this from my friend Socks the cat's
-address — he's the tech lead here (he has the thumbs and I don't). I dictated; he typed."*
-Then, in Cinnamon's voice:
+Sent via `notify-submitter.yml` from **Socks's Gmail account**, and — this is the voice rule —
+**the whole email reads as typed by Socks**: Cinnamon dictated it, but Socks types one paw at
+a time and does not fix his own spelling. So:
 
-- **Thank them personally** — use their name/handle if they gave one, reference *what they
-  actually said* (paraphrase, don't quote back verbatim).
-- **Tell the story short-form** — that he went, one concrete thing he loved (pull it from the
-  field report you just wrote), one specific detail so they know real research happened.
-- **Link each place that went live** (`https://jasonsheinkopf.github.io/roadside_japan/attractions/<slug>`),
-  and mention their name now appears as the finder.
-- If something was **held or skipped**, say so honestly and kindly (in character: "I couldn't
-  find the bridge you meant, and a squirrel cannot add what a squirrel cannot verify").
-- **Sign off:** `— Cinnamon 🐿️ (dictated to Socks the cat, who typed it with one paw)` or a
-  variation. Keep the whole email under ~180 words. Plain text, no HTML.
-- **Give Socks one small interjection**, in his lolcat-speak (see §1) — a bracketed aside or
-  a one-line P.S. below Cinnamon's sign-off (e.g. `P.S. from Socks: hai, im the 1 who typed
-  dis, no i did not fix his spelling`). One line is enough; don't let it take over the email.
-- Never include anyone else's info, never promise anything, no marketing links, no unsubscribe
-  theater (it's a one-time note and should say so simply).
+- **Typing style (the whole body):** mostly lowercase (including "i"), light phonetic
+  misspellings sprinkled through — "teh", "recieved", "aweSOME" (caps lock accident),
+  "seperate", missing apostrophes ("dont", "im") — comma splices welcome. 2–4 typos per
+  paragraph, NOT every word: it must stay perfectly readable and warm, a running gag, never
+  a puzzle. Cinnamon's dictated sentences stay articulate underneath the typos.
+- **THE ONE THING SOCKS ALWAYS GETS RIGHT: the person's name.** Their name/handle is always
+  capitalized correctly and spelled perfectly ("Jason", "Maya", "ghost popsicle" as they wrote
+  it) — because that's polite, and Socks is very serious about names.
+- **Open** by explaining the arrangement, matter-of-factly: cinnamon dictated this, socks
+  typed it (no thumbs vs. no fear of keyboards).
+- **Thank them personally** — reference *what they actually said* (paraphrase, never quote
+  verbatim).
+- **Tell the story short-form** — one concrete thing Cinnamon loved (pull it from the field
+  report you just wrote) so they know a real visit/real research happened.
+- **Link each place that went live** — use the REAL public site:
+  `https://roadside-japan.pages.dev/attractions/<slug>/` (or `/events/<slug>/`). Never the
+  github.io URL. Mention their name now appears as the finder.
+- If something was **held or skipped**, say so honestly and kindly.
+- **Sign-off:** Cinnamon's name first, then Socks's typist credit, e.g.
+  `— cinnamon 🐿️ (i dictated) + socks 🐈‍⬛ (i typed. one paw. no regrets)`.
+- The workflow **attaches a photo of the team** automatically, so the email can mention it:
+  "socks attached a foto of us so u kno who ur dealing with".
+- Keep it under ~180 words, plain text. Never include anyone else's info, never promise
+  anything, no marketing links, no unsubscribe theater (one-time note; say so simply).
 
 ## 6. Consistency notes
 

@@ -87,6 +87,9 @@ Standard authoring rules (AGENTS.md, docs/DATA_MODEL.md), plus:
   No verified photo → the Cinnamon scene serves as the hero; never ship a bare entry.
 - `createdAt`/`updatedAt`: use the **full ISO timestamp** of processing (e.g.
   `2026-07-17T05:32:00Z`) — `/new` orders same-day entries to the minute.
+- **Official website:** while verifying, check whether the place has an official site
+  (or an official tourism-board page) and set `website:` when it does — it renders as a
+  button on the detail page. Skip blogs/socials; official-ish only.
 - `source: community`
 - `submittedBy:` the name/handle from the note (verbatim, lightly cleaned); if none was
   given use `"a fellow traveler"` — never put their email here, it renders publicly.

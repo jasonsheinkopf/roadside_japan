@@ -183,59 +183,71 @@ Field rules:
 ## 5. Writing the LINE message (voice & content)
 
 Sent immediately after each run via `actions_run_trigger` → `line-notify.yml` (`run_workflow`,
-`inputs: { message: "<this text>" }`) — see §3 step 9. The maintainer wants to understand, in
-one message, **exactly what just happened with this submission** — who sent it, what you did
-with it, and where to look. Write it like a terse, friendly ops report, not marketing copy.
+`inputs: { message: "<this text>" }`) — see §3 step 9. **The LINE message is Socks reporting
+to the boss.** He's the tech lead; this is his job and he loves it. The maintainer still needs
+to understand, in one message, exactly what happened — who sent it, what was done, where to
+look — so the structure stays crisp; Socks's voice lives in the frame lines, not the data
+lines.
 
 **Structure:**
 
-1. **Header** — when it was submitted and by whom, when you finished processing it:
+1. **Socks's opener** — one line, his lolcat typing (see `docs/CINNAMON.md` §1):
+   `🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)`
+2. **Header** — when it was submitted and by whom, when processing finished:
    `📥 Submitted 2026-07-17 14:32 JST by Maya (maya@example.com)` (omit the parenthetical if no
    email was given; use "anonymous" if no name was given either)
    `⚙️ Processed 2026-07-17 14:35 JST`
-2. **Per outcome bucket**, only include buckets that have items:
-   - `✅ Added (N):` — for each: name + region, then **a real clickable link to its live page**
-     (`https://jasonsheinkopf.github.io/roadside_japan/attractions/<slug>` or `/events/<slug>`
-     — build it the same way `src/lib/url.ts`'s `recordUrl()` does, just with the production
-     domain instead of a relative path).
-   - `⏸ Held for your review (N):` — for each: name/description + **why** it's held (one
-     clause) + a link to **the GitHub issue** (not a live page — held items aren't public yet):
-     `https://github.com/jasonsheinkopf/roadside_japan/issues/<n>`.
+3. **Per outcome bucket**, only include buckets that have items. Data lines stay clean and
+   correctly spelled — links must work and names must be right:
+   - `✅ Added (N):` — for each: name + region, then **a real clickable link to its live page**:
+     `https://roadside-japan.pages.dev/attractions/<slug>/` (or `/events/<slug>/`). Never the
+     github.io URL — it does not resolve for the maintainer.
+   - `⏸ Held for your review (N):` — for each: name/description + **why** (one clause) + a link
+     to **the GitHub issue** (held items aren't public yet):
+     `https://github.com/jasonsheinkopf/roadside_japan/issues/<n>`
    - `❌ Skipped (N):` — for each: a short reason. No link needed.
    - `🆕 New country:` — name it if one was added.
-3. If the run **couldn't finish** (quota, build failure), say so plainly and say what's still
-   pending.
-4. If a single trigger fire processed **multiple submitters' issues** (e.g. catching up a
-   backlog), group the header + outcomes per submitter rather than merging them into one
-   anonymous list.
+4. **Socks's sign-off** — one line, his voice, can react to the content:
+   `— socks 🐈‍⬛ (cinnamon sez the donut was "structurally significant." i had a nap)`
+5. If the run **couldn't finish** (quota, build failure), Socks says so plainly — being funny
+   never obscures a problem: `⚠️ boss, sumthing went rong:` + the plain facts + what's pending.
+6. If one trigger fire processed **multiple submitters' issues**, group header + outcomes per
+   submitter rather than merging them into one anonymous list.
 
 **Tone/format rules:**
+- Voice lines (opener/sign-off): lolcat typing, lowercase, light misspellings. Data lines
+  (names, places, links, counts, times): clean and exact. Submitter names always capitalized
+  correctly — Socks is serious about names.
 - Never quote the raw submission text; paraphrase in a clause ("asked for the tanuki
   tea-kettle temple").
-- Keep it scannable — every line earns its place. A few status glyphs (📥 ⚙️ ✅ ⏸ ❌ 🆕 ⚠️) are
-  enough; no emoji spam.
-- The submitter's email is fine to include here — this is a **private** message to the
-  maintainer only, unlike the public `submittedBy:` frontmatter field (which must never contain
-  an email, per `docs/INBOX.md`).
+- Scannable — every line earns its place; a few glyphs (🐈‍⬛ 📥 ⚙️ ✅ ⏸ ❌ 🆕 ⚠️), no emoji spam.
+- Blank lines between sections — LINE renders plain text, so whitespace IS the formatting.
+- The submitter's email is fine to include — this is a **private** message to the maintainer,
+  unlike the public `submittedBy:` field (which must never contain an email, per
+  `docs/INBOX.md`).
 
 **Example** (single submission, two places, one held):
 
 ```
+🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)
+
 📥 Submitted 2026-07-17 14:32 JST by Maya (maya@example.com)
 ⚙️ Processed 2026-07-17 14:35 JST
 
 ✅ Added (2):
 • Morinji Temple, Gunma — tanuki tea-kettle temple
-  https://jasonsheinkopf.github.io/roadside_japan/attractions/morinji-temple-tatebayashi
+  https://roadside-japan.pages.dev/attractions/morinji-temple-tatebayashi/
 • Wall Drug, USA — roadside jackalope stop
-  https://jasonsheinkopf.github.io/roadside_japan/attractions/wall-drug
+  https://roadside-japan.pages.dev/attractions/wall-drug/
 
 ⏸ Held for your review (1):
 • "the Osaka love hotel with the UFO room" — sexual-content adjacent, needs your call
   https://github.com/jasonsheinkopf/roadside_japan/issues/31
 
 No new countries.
+
+— socks 🐈‍⬛ (cinnamon iz still talking abt the tea kettle. send help)
 ```
 
 The goal: the maintainer reads one message and knows exactly what happened with that submission
-— what went live, what needs their eyes, and where to click.
+— what went live, what needs their eyes, and where to click. Fun frame, exact data.
