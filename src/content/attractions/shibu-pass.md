@@ -44,8 +44,11 @@ aiSummary: "The highest point on Japan's national highway network (2,172m, Route
 aiKeywords: [shibu pass, shibutoge, unkai, sea of clouds, gunma, nagano, route 292, highest road japan]
 related:
   - jigokudani-monkey-park
+  - yokoteyama-skylator
+  - shibu-onsen
+  - onioshidashi-park
 createdAt: 2026-07-17T05:20:00Z
-updatedAt: 2026-07-17T05:20:00Z
+updatedAt: 2026-07-17T08:49:00Z
 cinnamon:
   quote: "The highest road in Japan, and I found it by riding in someone's door pocket. The clouds were BELOW us. I have never felt so important."
   emoji: "☁️"

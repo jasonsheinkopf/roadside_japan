@@ -59,8 +59,11 @@ aiSummary: "A park in the Jigokudani valley near Yamanouchi, Nagano, where wild 
 aiKeywords: [snow monkeys, jigokudani, japanese macaque, nagano, onsen monkeys, yudanaka]
 related:
   - blue-pond-biei
+  - shibu-pass
+  - yokoteyama-skylator
+  - shibu-onsen
 createdAt: 2026-06-13
-updatedAt: 2026-07-13
+updatedAt: 2026-07-17T08:49:00Z
 cinnamon:
   quote: "The monkeys have a private hot spring. I asked to join. They said it's a monkey thing."
   emoji: "🐒"
