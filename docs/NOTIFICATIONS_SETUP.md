@@ -183,28 +183,46 @@ Already live in the Claude Code Routines UI. If you ever need to recreate it:
 your Claude usage was at its cap the instant a submission came in, that event is missed —
 nothing re-tries it later on its own.
 
-**The fix — a free GitHub Actions workflow, not another Claude Routine.** GitHub Actions
-can't call into a Claude Routine directly (no API bridge from a plain workflow to your Claude
-subscription), so instead it re-creates the *GitHub event* the Routine already listens for:
+**The fix — a free GitHub Actions workflow that directly calls the Routine's API endpoint.**
+The watchdog fires the Routine programmatically via its "Call via API" trigger:
 
 - `.github/workflows/inbox-watchdog.yml` runs on a schedule **every 15 minutes** (free — GitHub
   Actions cron costs nothing to run this often).
 - It lists open issues labeled `inbox` that do **not** also have the `processed` label and are
   **older than ~20 minutes** (a grace window so it never races the instant event-trigger path).
-- For each one found, it removes the `inbox` label and immediately re-adds it. That re-add is a
-  genuine "issue labeled" GitHub event — which, because the Routine's trigger (piece D) listens
-  for **Issue opened OR Issue labeled**, fires the same Routine again, on your subscription, the
-  next time you have quota.
+- For each batch found, it fires the Routine's API endpoint directly, passing the stuck issue
+  list as context. The Routine processes them on your subscription, on your time.
 - If nothing is stuck, the workflow does nothing — silent, zero cost either way.
 
 This means: quota was out when someone submitted → their issue sits open, untouched → within
 15–35 minutes of quota returning, the watchdog's next tick notices it's still open and unprocessed
-→ relabels it → the Routine fires and processes it normally, exactly as if it had just arrived.
+→ calls the Routine's API endpoint → the Routine fires and processes it normally, exactly as if
+it had just arrived.
 
-**One-time setup (on you):** the Routine's trigger needs to include **Issue labeled** (not just
-Issue opened) as shown in piece D above — open the Routine in the Claude Code Routines UI and
-add that trigger condition if it isn't already there. The workflow file needs no secrets; it
-uses the repo's built-in `GITHUB_TOKEN` to read/write labels.
+**One-time setup (on you) — two repo secrets (~3 min):**
+
+1. **Get your Routine's API endpoint.**
+   - Open the Claude Code Routines UI → find **"Cinnamon Land Submission Review"**.
+   - Look for the **"Call via API"** trigger section (or **Triggers → Add → API trigger**).
+   - Copy the full **fire URL** and the **authentication token** shown there.
+
+2. **Add two GitHub repo secrets.**
+   - GitHub → this repo → **Settings → Secrets and variables → Actions → New repository secret**.
+   - Add both:
+
+   | Secret | Value |
+   | --- | --- |
+   | `ROUTINE_FIRE_URL` | the full fire URL copied above |
+   | `ROUTINE_FIRE_TOKEN` | the auth token copied above |
+
+3. **Test it (optional).**
+   - GitHub → **Actions → "Inbox watchdog" → Run workflow**.
+   - Leave inputs blank, hit **Run**. The workflow will check for stuck issues; if any exist, it
+     will fire the Routine. You should see the Routine fire in your Claude Code session activity
+     or via the LINE message that follows processing.
+
+**Note:** No changes needed to the Routine's trigger configuration — the API trigger coexists
+peacefully with the "Issue: Opened" event trigger.
 
 ---
 
