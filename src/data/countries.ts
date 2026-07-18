@@ -54,6 +54,16 @@ export const COUNTRY_META: Record<Country, CountryMeta> = {
     zoom: 4,
     currency: "USD $",
   },
+  vietnam: {
+    slug: "vietnam",
+    name: "Vietnam",
+    code: "VN",
+    flag: "🇻🇳",
+    tagline: "Egg coffee in hidden staircases, museums in haunted mansions, and noodle stalls with presidential seals of approval.",
+    center: [16.2, 106.8],
+    zoom: 5,
+    currency: "VND ₫",
+  },
 };
 
 export const COUNTRY_LIST: CountryMeta[] = Object.values(COUNTRY_META);

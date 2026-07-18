@@ -28,6 +28,10 @@ export const REGIONS = [
   "Midwest US",
   "South US",
   "West US",
+  // Vietnam's regions (provinces/municipalities live in the same list — see `country` below)
+  "Northern Vietnam",
+  "Central Vietnam",
+  "Southern Vietnam",
 ] as const;
 export type Region = (typeof REGIONS)[number];
 
@@ -134,6 +138,16 @@ export const PREFECTURES: Prefecture[] = [
   { slug: "wisconsin", name: "Wisconsin", nameJa: "WI", region: "Midwest US", lat: 43.7844, lng: -88.7879, country: "usa" },
   { slug: "new-jersey", name: "New Jersey", nameJa: "NJ", region: "Northeast US", lat: 40.0583, lng: -74.4057, country: "usa" },
   { slug: "new-york", name: "New York", nameJa: "NY", region: "Northeast US", lat: 42.1657, lng: -74.9481, country: "usa" },
+
+  // ---- Vietnam (provinces & municipalities; added as the atlas expands) ----
+  { slug: "hanoi", name: "Hanoi", nameJa: "Hà Nội", region: "Northern Vietnam", lat: 21.0278, lng: 105.8342, country: "vietnam" },
+  { slug: "quang-ninh", name: "Quang Ninh", nameJa: "Quảng Ninh", region: "Northern Vietnam", lat: 21.0064, lng: 107.2925, country: "vietnam" },
+  { slug: "lao-cai", name: "Lao Cai", nameJa: "Lào Cai", region: "Northern Vietnam", lat: 22.3381, lng: 104.1487, country: "vietnam" },
+  { slug: "hue", name: "Hue", nameJa: "Huế", region: "Central Vietnam", lat: 16.4637, lng: 107.5909, country: "vietnam" },
+  { slug: "da-nang", name: "Da Nang", nameJa: "Đà Nẵng", region: "Central Vietnam", lat: 16.0544, lng: 108.2022, country: "vietnam" },
+  { slug: "lam-dong", name: "Lam Dong", nameJa: "Lâm Đồng", region: "Central Vietnam", lat: 11.9404, lng: 108.4583, country: "vietnam" },
+  { slug: "ho-chi-minh-city", name: "Ho Chi Minh City", nameJa: "TP. Hồ Chí Minh", region: "Southern Vietnam", lat: 10.8231, lng: 106.6297, country: "vietnam" },
+  { slug: "can-tho", name: "Can Tho", nameJa: "Cần Thơ", region: "Southern Vietnam", lat: 10.0452, lng: 105.7469, country: "vietnam" },
 ];
 
 export const PREFECTURE_SLUGS = PREFECTURES.map((p) => p.slug) as [string, ...string[]];
