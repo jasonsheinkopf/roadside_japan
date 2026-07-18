@@ -33,8 +33,13 @@ on:
         required: false
         default: "🐿️ Cinnamon went to see the place you told him about"
 
+# issues:write to read the submission + log the outcome comment; contents:read so the
+# checkout step (team-photo attachment) can fetch the repo — an explicit `permissions`
+# block zeroes every scope it doesn't list, and without contents:read the checkout fails
+# with "Repository not found" and the send silently skips.
 permissions:
   issues: write
+  contents: read
 
 jobs:
   notify:
