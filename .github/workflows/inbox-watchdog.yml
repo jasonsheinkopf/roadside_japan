@@ -6,13 +6,13 @@ name: Inbox watchdog
 # instant someone submits. If Claude's usage quota was exhausted at that exact moment, that
 # event is simply missed — nothing re-tries it on its own. This workflow is the free, fully
 # automated fix: it runs on a schedule, and for any `inbox` issue that's been open a while
-# without being processed, it removes and re-adds the `inbox` label. That re-add is a genuine
-# "issue labeled" GitHub event, which re-fires the same Routine (its trigger listens for
-# Issue opened OR Issue labeled) the next time there's quota — no different from a fresh
-# submission arriving.
+# without being processed, it fires the Routine directly via its API endpoint. This retriggers
+# processing without requiring the Routine's trigger configuration to include GitHub events —
+# purely automatic, no manual Routine edits needed.
 #
 # Costs nothing to run this often: GitHub Actions cron is free, and when nothing is stuck the
-# job does one cheap `gh issue list` call and exits.
+# job does one cheap `gh issue list` call and exits. Firing the Routine uses your Claude
+# subscription quota (counted as part of the same run batch as the normal event-driven triage).
 
 on:
   workflow_dispatch: {}
@@ -21,16 +21,18 @@ on:
     - cron: "*/15 * * * *"
 
 permissions:
-  issues: write
+  issues: read
 
 jobs:
   retry-stuck-inbox:
     runs-on: ubuntu-latest
     steps:
-      - name: Relabel stuck inbox issues
+      - name: Fire Routine for stuck inbox issues
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
+          ROUTINE_FIRE_URL: ${{ secrets.ROUTINE_FIRE_URL }}
+          ROUTINE_FIRE_TOKEN: ${{ secrets.ROUTINE_FIRE_TOKEN }}
         run: |
           set -euo pipefail
 
@@ -55,8 +57,18 @@ jobs:
             exit 0
           fi
 
-          for n in $stuck; do
-            echo "::notice::Re-triggering issue #$n (open, unprocessed, older than ${GRACE_MINUTES}m)"
-            gh issue edit "$n" --repo "$REPO" --remove-label inbox
-            gh issue edit "$n" --repo "$REPO" --add-label inbox
-          done
+          if [ -z "$ROUTINE_FIRE_URL" ] || [ -z "$ROUTINE_FIRE_TOKEN" ]; then
+            echo "::error::ROUTINE_FIRE_URL or ROUTINE_FIRE_TOKEN not configured. See docs/NOTIFICATIONS_SETUP.md piece E."
+            exit 1
+          fi
+
+          issue_list=$(echo "$stuck" | tr '\n' ',' | sed 's/,$//')
+          message="Watchdog: found $(($(echo "$stuck" | wc -l))) stuck inbox issues (numbers: $issue_list)"
+
+          echo "::notice::$message"
+
+          curl -f -X POST "$ROUTINE_FIRE_URL" \
+            -H "Authorization: Bearer $ROUTINE_FIRE_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"text\":\"$message\"}" \
+            || { echo "::error::Failed to fire Routine at $ROUTINE_FIRE_URL"; exit 1; }
