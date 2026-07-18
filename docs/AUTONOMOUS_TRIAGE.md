@@ -167,6 +167,11 @@ worth it below a few places.
    unverifiable, or plain confusing → still send: warm, honest, what he tried, why it
    didn't land, invitation to try again. Only obvious spam/abuse gets silence. (The
    workflow self-skips if mail secrets aren't set.)
+   **Before writing the LINE message's email-status line (§5), check whether it actually
+   sent:** the workflow posts `📧 Submitter thanked by email…` as a comment on the issue when
+   it succeeds. Give it a few seconds, then re-check the issue's comments — if that comment
+   appeared, report "sent"; if it didn't (workflow still running, or mail secrets aren't
+   configured), report "requested" / "not sent" honestly rather than assuming success.
 8. **Update the report file** `tools/reports/latest.json` (§4) — this is now just the backstop's
    data source (audit trail + "did today's automation actually run" signal), not the primary
    notification path.
@@ -238,7 +243,18 @@ lines.
    `📥 Submitted 2026-07-17 14:32 JST by Maya (maya@example.com)` (omit the parenthetical if no
    email was given; use "anonymous" if no name was given either)
    `⚙️ Processed 2026-07-17 14:35 JST`
-3. **Per outcome bucket**, only include buckets that have items. Data lines stay clean and
+3. **Email status line** — always present, right after the header, so the maintainer never has
+   to wonder whether a reply actually went out. Confirm via the check in §3 step 7 (look for
+   the workflow's own `📧 Submitter thanked by email…` comment) before claiming success:
+   - Confirmed sent: `📧 Emailed maya@example.com — thank-you sent`
+   - Triggered but not yet confirmed (workflow still running): `📧 Emailed maya@example.com —
+     requested, sending now`
+   - Found but mail secrets aren't configured: `📧 Found maya@example.com — NOT sent (mail
+     secrets not configured)`
+   - No address anywhere (dedicated field or note): `📧 No email given — no reply sent`
+   Get the actual address from whatever you found (dedicated "Submitter email:" field or
+   anywhere in the note) — never just "yes/no."
+4. **Per outcome bucket**, only include buckets that have items. Data lines stay clean and
    correctly spelled — links must work and names must be right:
    - `✅ Added (N):` — for each: name + region, then **a real clickable link to its live page**:
      `https://roadside-japan.pages.dev/attractions/<slug>/` (or `/events/<slug>/`). Never the
@@ -248,7 +264,7 @@ lines.
      `https://github.com/jasonsheinkopf/roadside_japan/issues/<n>`
    - `❌ Skipped (N):` — for each: a short reason. No link needed.
    - `🆕 New country:` — name it if one was added.
-4. **Cost line** — one line reporting this run's own token usage, so the maintainer can compare
+5. **Cost line** — one line reporting this run's own token usage, so the maintainer can compare
    cost across submissions of different sizes over time:
    `📊 ~18K tokens this run · 2 places`
    This is a **token count you observe from the run itself** (rough input+output total for
@@ -256,11 +272,11 @@ lines.
    percentage of any plan/rate-limit cap. You have no way to see the maintainer's actual
    4-hour or weekly usage-limit state from inside a run, so never claim a before/after % —
    report only the number you can actually know.
-5. **Socks's sign-off** — one line, his voice, can react to the content:
+6. **Socks's sign-off** — one line, his voice, can react to the content:
    `— socks 🐈‍⬛ (cinnamon sez the donut was "structurally significant." i had a nap)`
-6. If the run **couldn't finish** (quota, build failure), Socks says so plainly — being funny
+7. If the run **couldn't finish** (quota, build failure), Socks says so plainly — being funny
    never obscures a problem: `⚠️ boss, sumthing went rong:` + the plain facts + what's pending.
-7. If one trigger fire processed **multiple submitters' issues**, group header + outcomes per
+8. If one trigger fire processed **multiple submitters' issues**, group header + outcomes per
    submitter rather than merging them into one anonymous list.
 
 **Tone/format rules:**
@@ -282,6 +298,7 @@ lines.
 
 📥 Submitted 2026-07-17 14:32 JST by Maya (maya@example.com)
 ⚙️ Processed 2026-07-17 14:35 JST
+📧 Emailed maya@example.com — thank-you sent
 
 ✅ Added (2):
 • Morinji Temple, Gunma — tanuki tea-kettle temple
