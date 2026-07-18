@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import ViewTabs from "../components/ViewTabs.astro";
+import ExploreHeader from "../components/ExploreHeader.astro";
 import { getIndexRecords } from "../lib/content";
 import { FILTER_GROUPS } from "../lib/filters";
 import { CATEGORY_META } from "../data/categories";
@@ -13,28 +13,26 @@ const records = await getIndexRecords();
   description="An interactive map of hidden gems, weird attractions, and seasonal events across the atlas."
   fullBleed
 >
-  <div class="flex flex-col" style="height: calc(100dvh - 6.5rem)">
-    <!-- Control bar. z-[1200] keeps the dropdown filter panel above Leaflet's panes
-         (which stack up to ~1000) — without it the panel renders UNDER the map. -->
-    <div class="relative z-[1200] flex items-center gap-2 border-b border-line bg-canvas px-3 py-2">
-      <ViewTabs active="map" />
-      <div class="flex min-w-0 flex-1 items-center rounded-full border border-line bg-surface px-3 py-2 focus-within:border-sun">
-        <span aria-hidden="true" class="text-ink-soft">🔍</span>
-        <input
-          id="map-search"
-          type="search"
-          placeholder="Search the map…"
-          class="w-full bg-transparent px-2 text-sm outline-none placeholder:text-ink-soft"
-          aria-label="Search the map"
-        />
-      </div>
-      <button id="map-filter-toggle" type="button" class="btn btn-ghost shrink-0" aria-expanded="false" aria-controls="map-filters">
-        ⚙️ Filters <span id="map-filter-count" class="ml-1 rounded-full bg-sun px-1.5 text-xs text-white" hidden></span>
-      </button>
-      <span id="map-count" class="hidden shrink-0 text-sm text-ink-soft sm:inline">{records.length} places</span>
+  <div class="flex flex-col" style="height: calc(100dvh - 4rem)">
+    <!-- Identical Explore header (title + full-width view tabs) so switching views never jumps.
+         z-[1200] keeps the dropdown filter panel above Leaflet's panes (which stack to ~1000). -->
+    <div class="relative z-[1200] border-b border-line bg-canvas pb-2">
+      <ExploreHeader active="map" compact>
+        <div class="flex items-center gap-2 px-3">
+          <input
+            id="map-search"
+            type="search"
+            placeholder="Search"
+            class="min-w-0 flex-1 rounded-full border border-line bg-surface px-4 py-2 text-sm outline-none placeholder:text-ink-soft focus:border-sun"
+            aria-label="Search the map"
+          />
+          <div class="relative shrink-0">
+            <button id="map-filter-toggle" type="button" class="btn btn-ghost relative px-3 py-2" aria-label="Filters" aria-expanded="false" aria-controls="map-filters" title="Filters">
+              ⚙️<span id="map-filter-count" class="absolute -right-1 -top-1 rounded-full bg-sun px-1.5 text-xs text-white" hidden></span>
+            </button>
 
       <!-- Filter panel -->
-      <div id="map-filters" class="card absolute right-3 top-full z-[1200] mt-2 hidden max-h-[70vh] w-[min(92vw,340px)] overflow-auto p-4 shadow-xl">
+      <div id="map-filters" class="card absolute right-0 top-full z-[1200] mt-2 hidden max-h-[70vh] w-[min(92vw,340px)] overflow-auto p-4 shadow-xl">
         <div class="mb-3 flex items-center justify-between">
           <h2 class="font-display text-lg font-semibold">Filters</h2>
           <button id="map-clear" type="button" class="text-sm text-sun link-underline" hidden>Clear all</button>
@@ -68,6 +66,10 @@ const records = await getIndexRecords();
           }
         </div>
       </div>
+          </div>
+          <span id="map-count" class="hidden shrink-0 self-center text-sm text-ink-soft sm:inline">{records.length} places</span>
+        </div>
+      </ExploreHeader>
     </div>
 
     <!-- "When are you visiting?" date-range bar (kept above Leaflet's panes too) -->

@@ -1,0 +1,25 @@
+---
+/**
+ * ExploreHeader — the identical top of all three atlas views (List / Map / Timeline).
+ *
+ * Renders the "Explore" title and the full-width view tabs in the SAME place on every
+ * view, so switching tabs never shifts anything above the fold. Pages drop their
+ * view-specific controls (search / sort / filter / dates) into the default slot below.
+ */
+import ViewTabs from "./ViewTabs.astro";
+
+interface Props {
+  active: "list" | "map" | "timeline";
+  /** Full-bleed views (the map) need tighter horizontal padding. */
+  compact?: boolean;
+}
+const { active, compact = false } = Astro.props;
+---
+
+<div class:list={[compact ? "px-3 pt-3" : "pt-6"]}>
+  <h1 class="mb-2 font-display text-2xl font-bold sm:text-3xl">Explore</h1>
+  <ViewTabs active={active} />
+  <div class="mt-3">
+    <slot />
+  </div>
+</div>

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import AttractionCard from "../components/AttractionCard.astro";
-import ViewTabs from "../components/ViewTabs.astro";
+import ExploreHeader from "../components/ExploreHeader.astro";
 import { getIndexRecords } from "../lib/content";
 import { FILTER_GROUPS } from "../lib/filters";
 import { CATEGORY_META } from "../data/categories";
@@ -19,42 +19,67 @@ const initial = [...records].sort(
   title="Explore"
   description="Filter and search every discovery in Cinnamon Land by season, theme, cost, accessibility, and more."
 >
-  <div class="py-8">
-    <header class="mb-5 flex flex-wrap items-end justify-between gap-3">
-      <div>
-        <h1 class="font-display text-3xl font-bold sm:text-4xl">Explore the atlas</h1>
-        <p class="mt-1 text-ink-soft">Filter once — then view the results as a list, a map, or a year timeline.</p>
-      </div>
-      <ViewTabs active="list" />
-    </header>
-
-    <!-- Search + controls -->
-    <div class="mb-3 flex flex-wrap items-center gap-3">
-      <div class="flex min-w-0 flex-1 items-center rounded-full border border-line bg-surface px-4 py-2.5 focus-within:border-sun">
-        <span aria-hidden="true" class="text-ink-soft">🔍</span>
+  <div class="pb-8">
+    <ExploreHeader active="list">
+      <!-- Controls: wide search · sort · gear-only filter — one row, same on every view -->
+      <div class="flex items-center gap-2">
         <input
           id="explore-search"
           type="search"
-          placeholder="Search places, themes, prefectures…"
-          class="w-full bg-transparent px-3 outline-none placeholder:text-ink-soft"
+          placeholder="Search"
+          class="min-w-0 flex-1 rounded-full border border-line bg-surface px-4 py-2.5 outline-none placeholder:text-ink-soft focus:border-sun"
           aria-label="Search discoveries"
         />
-      </div>
-      <label class="flex items-center gap-2 text-sm">
-        <span class="text-ink-soft">Sort</span>
-        <select id="sort" class="rounded-full border border-line bg-surface px-3 py-2 text-sm outline-none focus:border-sun">
+        <select id="sort" class="shrink-0 rounded-full border border-line bg-surface px-3 py-2.5 text-sm outline-none focus:border-sun" aria-label="Sort">
           <option value="featured">Featured</option>
           <option value="newest">Newest</option>
           <option value="title">A–Z</option>
         </select>
-      </label>
-      <button id="filter-toggle" type="button" class="btn btn-ghost lg:hidden" aria-expanded="false" aria-controls="filters">
-        ⚙️ Filters
-      </button>
-    </div>
+        <div class="relative shrink-0">
+          <button id="filter-toggle" type="button" class="btn btn-ghost relative px-3 py-2.5" aria-label="Filters" aria-expanded="false" aria-controls="filters" title="Filters">
+            ⚙️<span id="filter-count" class="absolute -right-1 -top-1 rounded-full bg-sun px-1.5 text-xs text-white" hidden></span>
+          </button>
+          <!-- Filter panel: dropdown on every screen so the top row stays identical to Map -->
+          <div id="filters" class="card absolute right-0 top-full z-30 mt-2 hidden max-h-[70vh] w-[min(92vw,340px)] overflow-auto p-4 shadow-xl">
+            <div class="mb-3 flex items-center justify-between">
+              <h2 class="font-display text-lg font-semibold">Filters</h2>
+              <button id="clear-filters" type="button" class="text-sm text-sun link-underline" hidden>Clear all</button>
+            </div>
+            <div class="space-y-4">
+              <div>
+                <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-soft">Category</h3>
+                <div class="flex flex-wrap gap-1.5">
+                  {
+                    Object.entries(CATEGORY_META).map(([id, c]) => (
+                      <button type="button" class="chip" data-cat={id} aria-pressed="false">
+                        <span aria-hidden="true">{c.emoji}</span> {c.label}
+                      </button>
+                    ))
+                  }
+                </div>
+              </div>
+              {
+                FILTER_GROUPS.map((group) => (
+                  <div>
+                    <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-soft">{group.label}</h3>
+                    <div class="flex flex-wrap gap-1.5">
+                      {group.options.map((opt) => (
+                        <button type="button" class="chip" data-filter={opt.id} aria-pressed="false">
+                          <span aria-hidden="true">{opt.icon}</span> {opt.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </ExploreHeader>
 
     <!-- Trip dates: seasonal windows are the whole point — tell us when, we hide what won't be on. -->
-    <div class="mb-5 flex flex-wrap items-center gap-x-3 gap-y-2 rounded-2xl border border-line bg-surface/60 px-3 py-2 text-sm">
+    <div class="mb-5 mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 rounded-2xl border border-line bg-surface/60 px-3 py-2 text-sm">
       <span class="font-medium">📅 When's your trip?</span>
       <div class="flex items-center gap-2">
         <label class="sr-only" for="trip-from">Arriving</label>
@@ -67,63 +92,21 @@ const initial = [...records].sort(
       <span id="trip-hint" class="text-ink-soft" role="status"></span>
     </div>
 
-    <div class="grid gap-8 lg:grid-cols-[260px_1fr]">
-      <!-- Filters -->
-      <aside id="filters" class="hidden lg:block">
-        <div class="lg:sticky lg:top-20 space-y-5">
-          <div class="flex items-center justify-between">
-            <h2 class="font-display text-lg font-semibold">Filters</h2>
-            <button id="clear-filters" type="button" class="text-sm text-sun link-underline" hidden>Clear all</button>
+    <!-- Results -->
+    <p id="result-count" class="mb-4 text-sm text-ink-soft">{records.length} discoveries</p>
+    <div id="results" class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {
+        initial.map((r) => (
+          <div class="contents" data-id={r.id}>
+            <AttractionCard record={r} />
           </div>
-
-          <div>
-            <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-soft">Category</h3>
-            <div class="flex flex-wrap gap-1.5">
-              {
-                Object.entries(CATEGORY_META).map(([id, c]) => (
-                  <button type="button" class="chip" data-cat={id} aria-pressed="false">
-                    <span aria-hidden="true">{c.emoji}</span> {c.label}
-                  </button>
-                ))
-              }
-            </div>
-          </div>
-
-          {
-            FILTER_GROUPS.map((group) => (
-              <div>
-                <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-soft">{group.label}</h3>
-                <div class="flex flex-wrap gap-1.5">
-                  {group.options.map((opt) => (
-                    <button type="button" class="chip" data-filter={opt.id} aria-pressed="false">
-                      <span aria-hidden="true">{opt.icon}</span> {opt.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            ))
-          }
-        </div>
-      </aside>
-
-      <!-- Results -->
-      <div>
-        <p id="result-count" class="mb-4 text-sm text-ink-soft">{records.length} discoveries</p>
-        <div id="results" class="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
-          {
-            initial.map((r) => (
-              <div class="contents" data-id={r.id}>
-                <AttractionCard record={r} />
-              </div>
-            ))
-          }
-        </div>
-        <div id="empty" class="card mt-4 p-10 text-center" hidden>
-          <p class="text-4xl">🧭</p>
-          <p class="mt-2 font-display text-lg font-semibold">No discoveries match those filters.</p>
-          <p class="text-ink-soft">Try removing a filter or clearing your search.</p>
-        </div>
-      </div>
+        ))
+      }
+    </div>
+    <div id="empty" class="card mt-4 p-10 text-center" hidden>
+      <p class="text-4xl">🧭</p>
+      <p class="mt-2 font-display text-lg font-semibold">No discoveries match those filters.</p>
+      <p class="text-ink-soft">Try removing a filter or clearing your search.</p>
     </div>
   </div>
 
@@ -142,8 +125,9 @@ const initial = [...records].sort(
   const searchInput = document.getElementById("explore-search") as HTMLInputElement;
   const sortSelect = document.getElementById("sort") as HTMLSelectElement;
   const clearBtn = document.getElementById("clear-filters") as HTMLButtonElement;
-  const filterToggle = document.getElementById("filter-toggle");
+  const filterToggle = document.getElementById("filter-toggle") as HTMLButtonElement;
   const filters = document.getElementById("filters");
+  const filterCount = document.getElementById("filter-count") as HTMLElement;
   const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-filter]"));
   const catChips = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-cat]"));
   const fromInput = document.getElementById("trip-from") as HTMLInputElement;
@@ -229,6 +213,9 @@ const initial = [...records].sort(
     if (toInput.value !== to) toInput.value = to;
     tripClear.hidden = !dateRangeActive();
     clearBtn.hidden = !(selected.size || cat || q || dateRangeActive());
+    const active = selected.size + (cat ? 1 : 0) + (dateRangeActive() ? 1 : 0);
+    filterCount.hidden = active === 0;
+    filterCount.textContent = String(active);
   }
 
   chips.forEach((c) =>
@@ -284,6 +271,12 @@ const initial = [...records].sort(
   filterToggle?.addEventListener("click", () => {
     const open = filters?.classList.toggle("hidden") === false;
     filterToggle.setAttribute("aria-expanded", String(open));
+  });
+  document.addEventListener("click", (e) => {
+    if (!filters?.contains(e.target as Node) && !filterToggle?.contains(e.target as Node)) {
+      filters?.classList.add("hidden");
+      filterToggle?.setAttribute("aria-expanded", "false");
+    }
   });
 
   (async () => {

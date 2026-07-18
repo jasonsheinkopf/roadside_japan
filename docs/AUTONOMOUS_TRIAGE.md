@@ -109,9 +109,12 @@ wired). Model: **Sonnet** is fine for this. Steps:
 3. **Process each** per `docs/INBOX.md` §1–§4 **and** the safety gate above, choosing
    PUBLISH / HOLD / REJECT. Author full entries for PUBLISH and HOLD — frontmatter, photo
    pipeline, **and the complete Cinnamon block per `docs/CINNAMON.md`**: `quote`, `emoji`,
-   and the **field report** (`cinnamon.report`, §3 there — his first-person story grounded in
-   your research). If the submitter's note contained a genuine recommendation, carry it as
-   `visitorTip: { text, by }`. Set `createdAt`/`updatedAt` to the **full ISO timestamp** (e.g.
+   the **field report** (`cinnamon.report`, §3 there — his first-person story grounded in
+   your research), **and the comic** (`cinnamon.comic`, §7 — a 4–6 panel "Adventures in
+   Cinnamon Land" strip whose punchline smuggles in the real tips; new entries only). If the
+   submitter's note contained a genuine recommendation, carry it as `visitorTip: { text, by }`.
+   When a real hero photo exists, it's the page's main image — don't also copy it into
+   `photos[]` (the camera roll is for genuinely *additional* photos, not a second hero). Set `createdAt`/`updatedAt` to the **full ISO timestamp** (e.g.
    `2026-07-17T05:32:00Z`), not a bare date — `/new` orders entries to the minute. Leave the
    structured triage comment on each issue **as a new comment, never as a body edit** — see
    `docs/INBOX.md` §4 for why this specific mistake breaks the thank-you email — apply

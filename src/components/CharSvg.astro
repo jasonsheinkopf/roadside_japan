@@ -1,0 +1,102 @@
+---
+/**
+ * CharSvg — one Cinnamon-Land character as inline SVG (no external requests).
+ * The canonical look is documented in docs/CINNAMON.md §1.5; both the scene and the
+ * comic draw the cast from here so they never drift apart.
+ */
+interface Props {
+  who: "cinnamon" | "socks" | "mon";
+  /** Face left (default) or flip to face right. */
+  flip?: boolean;
+  /** Tailwind size classes, e.g. "h-20 w-20". */
+  size?: string;
+  /** Unique suffix so Cinnamon's gradient ids don't collide across instances. */
+  uid?: string;
+}
+const { who, flip = false, size = "h-20 w-20", uid = Math.random().toString(36).slice(2, 8) } = Astro.props;
+const transform = flip ? "scaleX(-1)" : "";
+---
+
+{
+  who === "cinnamon" && (
+    <svg viewBox="0 0 240 240" class:list={["shrink-0 drop-shadow-md", size]} style={`transform:${transform};`} aria-hidden="true">
+      <defs>
+        <linearGradient id={`sq-${uid}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9c7c55" /><stop offset="1" stop-color="#7d6242" /></linearGradient>
+        <linearGradient id={`tl-${uid}`} x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8a6c49" /><stop offset="1" stop-color="#6b5236" /></linearGradient>
+      </defs>
+      <ellipse cx="118" cy="222" rx="56" ry="11" fill="#000" opacity="0.10" />
+      <path d="M150 205 q70 -10 60 -90 q-8 -56 -54 -52 q34 6 38 50 q6 56 -52 70z" fill={`url(#tl-${uid})`} stroke="#5e4a32" stroke-width="2" />
+      <path d="M168 70 q26 8 24 48 q-2 26 -18 40" fill="none" stroke="#a98a63" stroke-width="6" stroke-linecap="round" opacity="0.7" />
+      <path d="M82 205 q-12 -78 42 -82 q54 4 42 82 z" fill={`url(#sq-${uid})`} />
+      <path d="M104 205 q-12 -60 20 -64 q32 4 20 64 z" fill="#e9d8bd" />
+      <ellipse cx="98" cy="206" rx="16" ry="9" fill="#caa97e" />
+      <ellipse cx="146" cy="206" rx="16" ry="9" fill="#caa97e" />
+      <ellipse cx="122" cy="86" rx="42" ry="40" fill={`url(#sq-${uid})`} />
+      <path d="M92 56 q-6 -28 12 -24 q8 4 6 22z" fill="#7d6242" />
+      <path d="M152 56 q6 -28 -12 -24 q-8 4 -6 22z" fill="#7d6242" />
+      <path d="M94 46 q-4 -14 6 -16M150 46 q4 -14 -6 -16" stroke="#5e4a32" stroke-width="3" fill="none" stroke-linecap="round" />
+      <ellipse cx="100" cy="98" rx="8" ry="6" fill="#e7b0a2" opacity="0.55" />
+      <ellipse cx="144" cy="98" rx="8" ry="6" fill="#e7b0a2" opacity="0.55" />
+      <ellipse cx="108" cy="84" rx="6" ry="7.5" fill="#241c16" />
+      <ellipse cx="136" cy="84" rx="6" ry="7.5" fill="#241c16" />
+      <circle cx="110" cy="81" r="2" fill="#fff" /><circle cx="138" cy="81" r="2" fill="#fff" />
+      <path d="M117 96 h10 l-5 6z" fill="#2e2219" />
+      <path d="M122 102 q-7 7 -14 3M122 102 q7 7 14 3" stroke="#3a2c24" stroke-width="2.5" fill="none" stroke-linecap="round" />
+      <path d="M96 118 q26 14 52 0 l-4 12 q-22 10 -44 0 z" fill="#7a8f52" stroke="#5f7040" stroke-width="2" />
+      <path d="M118 128 l8 -2 l2 12 l-9 4 z" fill="#7a8f52" stroke="#5f7040" stroke-width="2" />
+      <ellipse cx="108" cy="152" rx="9" ry="7" fill="#b9966c" />
+      <ellipse cx="140" cy="148" rx="9" ry="7" fill="#b9966c" />
+    </svg>
+  )
+}
+{
+  who === "socks" && (
+    <svg viewBox="0 0 200 200" class:list={["shrink-0 drop-shadow-md", size]} style={`transform:${transform};`} aria-hidden="true">
+      <ellipse cx="100" cy="186" rx="44" ry="8" fill="#000" opacity="0.10" />
+      <path d="M148 172 q30 -4 26 -40 q-3 -22 -20 -26 q10 12 10 30 q0 26 -20 30z" fill="#26221f" stroke="#171412" stroke-width="2" />
+      <path d="M66 172 q-8 -52 34 -55 q42 3 34 55 z" fill="#26221f" />
+      <path d="M84 172 q-6 -36 16 -38 q22 2 16 38 z" fill="#f5f1ea" />
+      <ellipse cx="82" cy="172" rx="12" ry="7" fill="#f5f1ea" />
+      <ellipse cx="118" cy="172" rx="12" ry="7" fill="#f5f1ea" />
+      <ellipse cx="100" cy="82" rx="34" ry="31" fill="#26221f" />
+      <path d="M74 62 q-8 -22 8 -20 q8 2 8 16z" fill="#26221f" />
+      <path d="M126 62 q8 -22 -8 -20 q-8 2 -8 16z" fill="#26221f" />
+      <path d="M77 58 q-4 -12 5 -12M123 58 q4 -12 -5 -12" stroke="#171412" stroke-width="2.5" fill="none" stroke-linecap="round" />
+      <path d="M76 56 q-3 -8 4 -8z" fill="#e8a0a8" /><path d="M124 56 q3 -8 -4 -8z" fill="#e8a0a8" />
+      <path d="M100 60 q22 0 24 24 q2 22 -24 24 q-26 -2 -24 -24 q2 -24 24 -24z" fill="#f5f1ea" />
+      <ellipse cx="88" cy="82" rx="5.5" ry="7" fill="#c8d24e" /><ellipse cx="88" cy="82" rx="3" ry="4.5" fill="#241c16" />
+      <ellipse cx="112" cy="82" rx="5.5" ry="7" fill="#c8d24e" /><ellipse cx="112" cy="82" rx="3" ry="4.5" fill="#241c16" />
+      <circle cx="89.5" cy="79.5" r="1.6" fill="#fff" /><circle cx="113.5" cy="79.5" r="1.6" fill="#fff" />
+      <ellipse cx="100" cy="92" rx="4" ry="3" fill="#171412" />
+      <path d="M100 95 q0 5 0 5 M100 100 q-5 5 -10 2 M100 100 q5 5 10 2" stroke="#3a2c24" stroke-width="2" fill="none" stroke-linecap="round" />
+      <path d="M70 90 h-14 M70 96 h-12 M130 90 h14 M130 96 h12" stroke="#171412" stroke-width="1.5" opacity="0.6" />
+    </svg>
+  )
+}
+{
+  who === "mon" && (
+    <svg viewBox="0 0 200 200" class:list={["shrink-0 drop-shadow-md", size]} style={`transform:${transform};`} aria-hidden="true">
+      <ellipse cx="100" cy="186" rx="46" ry="8" fill="#000" opacity="0.10" />
+      <path d="M144 160 q20 -6 16 -24 q-14 4 -18 14z" fill="#e8973f" stroke="#c67a2c" stroke-width="2" />
+      <path d="M64 172 q-8 -50 36 -53 q44 3 36 53 z" fill="#e8973f" />
+      <path d="M84 172 q-6 -34 16 -36 q22 2 16 36 z" fill="#f7ecd8" />
+      <ellipse cx="80" cy="172" rx="13" ry="7" fill="#f7ecd8" />
+      <ellipse cx="120" cy="172" rx="13" ry="7" fill="#f7ecd8" />
+      <ellipse cx="100" cy="80" rx="36" ry="33" fill="#e8973f" />
+      <path d="M70 58 q-10 -24 10 -22 q9 3 8 18z" fill="#e8973f" stroke="#c67a2c" stroke-width="2" />
+      <path d="M130 58 q10 -24 -10 -22 q-9 3 -8 18z" fill="#e8973f" stroke="#c67a2c" stroke-width="2" />
+      <path d="M74 56 q-5 -12 6 -12z" fill="#e7b8a0" /><path d="M126 56 q5 -12 -6 -12z" fill="#e7b8a0" />
+      <path d="M100 66 q20 -2 24 20 q3 20 -24 22 q-27 -2 -24 -22 q4 -22 24 -20z" fill="#f7ecd8" />
+      <ellipse cx="86" cy="60" rx="4" ry="3" fill="#f7ecd8" /><ellipse cx="114" cy="60" rx="4" ry="3" fill="#f7ecd8" />
+      <ellipse cx="87" cy="80" rx="5.5" ry="7" fill="#241c16" /><ellipse cx="113" cy="80" rx="5.5" ry="7" fill="#241c16" />
+      <circle cx="88.5" cy="77.5" r="1.6" fill="#fff" /><circle cx="114.5" cy="77.5" r="1.6" fill="#fff" />
+      <ellipse cx="80" cy="92" rx="6" ry="4.5" fill="#e7a793" opacity="0.6" /><ellipse cx="120" cy="92" rx="6" ry="4.5" fill="#e7a793" opacity="0.6" />
+      <ellipse cx="100" cy="90" rx="5" ry="4" fill="#241c16" />
+      <path d="M100 94 q0 4 0 4 M100 98 q-6 5 -11 1 M100 98 q6 5 11 1" stroke="#3a2c24" stroke-width="2" fill="none" stroke-linecap="round" />
+      <path d="M94 102 q6 6 12 0 l-2 5 q-4 3 -8 0z" fill="#e05a6b" />
+      <path d="M72 112 q28 16 56 0 l-5 13 q-23 11 -46 0 z" fill="#6f8a4d" stroke="#57703a" stroke-width="2" />
+      <circle cx="88" cy="119" r="2.2" fill="#f7ecd8" opacity="0.8" /><circle cx="102" cy="122" r="2.2" fill="#f7ecd8" opacity="0.8" /><circle cx="116" cy="118" r="2.2" fill="#f7ecd8" opacity="0.8" />
+      <path d="M98 124 l8 -2 l2 11 l-9 4 z" fill="#6f8a4d" stroke="#57703a" stroke-width="2" />
+    </svg>
+  )
+}
