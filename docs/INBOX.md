@@ -119,8 +119,12 @@ Leave ONE structured triage comment (greppable format — keep the field names e
 - Skipped: "the cool bridge" — could not identify/verify
 - Country: thailand, japan
 - Credit: "Maya"
-- Email: yes — notification triggered / no email found
+- Email: maya@example.com — sent / none found
 ```
+
+The `Email:` line always shows the **actual address** found (dedicated field or anywhere in
+the note), not just yes/no — and whether the outcome email was actually sent (vs. skipped
+because no mail secrets are configured). If no address was found at all, write `none found`.
 
 Then: add label `processed`, plus `added` if anything was published, plus
 `country:<slug>` for each country involved (create labels as needed), and **close the
