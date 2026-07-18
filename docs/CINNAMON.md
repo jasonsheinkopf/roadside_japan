@@ -31,7 +31,7 @@ Read it before authoring any `cinnamon:` block or submitter email.
   keyboards). Cinnamon does the traveling; Socks does the IT. Emails to submitters come from
   Socks's account, which Cinnamon always explains matter-of-factly.
 
-### The three personalities (for the comic especially — §7)
+### The three personalities (for the camera-roll snapshots especially — §7)
 
 - **Cinnamon** — the sub-leader who is really the engine. Curious, brave about the weird,
   takes initiative, dives in first, figures the place out. The one who actually goes.
@@ -148,50 +148,48 @@ a time and does not fix his own spelling. So:
   fear of talking vending machines). When you add a *new* recurring detail with legs, record it
   here in §1 in the same change.
 
-## 7. The comic — "Adventures in Cinnamon Land" (`cinnamon.comic`)
+## 7. The camera roll — two snapshots (`cinnamon.snapshots`)
 
-A short comic strip on the detail page (`CinnamonComic.astro`), **new entries only for now**
-— don't retrofit old ones. It's the fun payload of a submission: a little story with a
-punchline whose real job is to smuggle in the practical tips for the place (when to come,
-what to order, the trick everyone misses, the thing that's only on in one season).
+**Replaces the old multi-panel comic strip (retired — it cost too much to make per entry and
+wasn't landing).** Every new entry gets exactly **two** quick vector snapshots
+(`CinnamonSnapshot.astro`) in "📸 Cinnamon's camera roll" — candid, different-angle moments at
+the place, not a sequential story with a punchline.
 
-**Shape.** 4–6 panels. Each panel is:
+**Shape.** Exactly 2 items:
 
 ```yaml
-comic:
-  - cast: [cinnamon]          # who's in the panel: cinnamon / socks / mon (1–3 of them)
-    prop: "🚌"                # the panel's emoji (the thing being interacted with)
-    caption: "Cinnamon eyed the 30-minute trail, then the shuttle. 'Short legs,' he said."
-  - cast: [cinnamon, socks]
+snapshots:
+  - cast: [cinnamon, socks]    # who's in the shot: cinnamon / socks / mon (1–3 of them)
+    prop: "🚌"                 # the shot's emoji (the thing being interacted with)
+    caption: "Waiting on the free shuttle up — Cinnamon's idea, since the trail runs 30 minutes."
+  - cast: [mon]
     prop: "🍃"
-    caption: "..."
-  # ...4 to 6 total
+    caption: "Mon-chan, unimpressed that moss this acidic can out-fluff him."
 ```
 
-The caption is the panel's line — it renders **below the art**, comic-strip style, never a
-speech bubble. Art is auto-composed from the cast + prop on a soft background; you don't draw,
+The caption renders **below the art**, same as the field-report postcard — never a speech
+bubble. Art is auto-composed from the cast + prop on a soft seeded background; you don't draw,
 you cast and caption.
 
 **Writing it:**
 
-- **Tell one small story with a beginning, a turn, and a punchline.** It should be genuinely
-  a little funny, and readable in 4–6 beats.
-- **Hide the real tips in the jokes.** Every comic should leave the reader knowing 1–3 actual
-  useful things about the place — the best month, the food to get, arrive-early, take-the-
-  shuttle, the photo spot — delivered *through* the gag, not as a bullet list. Pull them from
-  your research and the entry's own tips.
-- **Use the three personalities** (§1): Cinnamon dives in first; Socks is the shy, hard-working
-  scaredy-cat who'd rather stay by the typewriter but comes through; Mon-chan thinks he's the
-  leader and gets jealous of anything bigger/fluffier ("…I don't like him"). Not every panel
-  needs all three — vary the cast. A recurring gag: Socks technically came along "to
-  document" and spends the trip terrified; Mon-chan resents the big fluffy thing at the place.
-- **Ground the facts** exactly like the field report — real numbers, real seasonality; the
-  antics are invented, the facts never are.
-- **Punchline last panel.** End on the joke, ideally the one that doubles as the takeaway
-  ("come in October or don't bother — Mon-chan").
-- Keep captions short (a phone shows two columns of small panels). One or two sentences each.
+- **Two different moments, not two beats of one joke.** Think "photo dump," not "comic panel
+  2 of 2" — a selfie with the statue, feet in the spring, the food stall, the view from the
+  top. Each stands alone.
+- **A caption can be funny, but doesn't have to build to anything.** No punchline requirement,
+  no story arc. If a real tip fits naturally in a caption (best month, the shuttle, the dish to
+  order), great — but don't force it the way the old comic did.
+- **Use the three personalities** (§1) when it's natural: Cinnamon dives in first; Socks is the
+  shy, hard-working scaredy-cat; Mon-chan gets jealous of anything bigger/fluffier ("…I don't
+  like him"). Don't force all three into two shots — one or two characters per snapshot is
+  plenty.
+- **Ground it in the entry's real facts** (numbers, seasonality) exactly like the field report;
+  the framing/antics are invented, the facts never are.
+- Keep captions short — one sentence, two at most.
 
-**Relationship to the other visuals:** the comic is *in addition to* the quote + field report.
-When the entry has a real hero photo, that photo is the page's main image — **do not** also
-duplicate it into `photos[]` / "Cinnamon's camera roll" for new entries (the camera roll is
-for genuinely additional photos, not a second copy of the hero).
+**Relationship to the other visuals:** the snapshots are *in addition to* the quote + field
+report. When the entry has a real hero photo, that photo is the page's main image — **do not**
+duplicate it into `photos[]`. The hero itself, when no real photo exists, is now a
+place-representing vector scene (`PlaceScene.astro`, no characters) — Cinnamon's own "was here"
+postcard with his quote always renders separately in the body, regardless of whether the hero
+is a photo or the place scene.

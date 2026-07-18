@@ -139,8 +139,9 @@ Already live in the Claude Code Routines UI. If you ever need to recreate it:
 
 - **Name:** Cinnamon Land Submission Review
 - **Repository:** `jasonsheinkopf/roadside_japan`
-- **Trigger:** GitHub event → **Issue opened**, with a filter: **labels is one of `inbox`**.
-  (Not a schedule — this fires the moment a submission comes in.)
+- **Trigger:** GitHub event → **Issue opened OR Issue labeled**, with a filter: **labels is one
+  of `inbox`**. (Not a schedule — this fires the moment a submission comes in. The "labeled"
+  half is what lets the watchdog below re-fire this same Routine — see piece E.)
 - **Connector:** the repo's GitHub connector (shown as `Claude_Code_Remote` or similar) needs to
   be attached so the agent can read/write issues, commit, and push.
 - **Instructions:**
@@ -154,14 +155,17 @@ Already live in the Claude Code Routines UI. If you ever need to recreate it:
   > 3. Otherwise follow `docs/AUTONOMOUS_TRIAGE.md` exactly, which extends `docs/INBOX.md`:
   >    process every OPEN GitHub issue labeled `inbox`, oldest first; verify each place
   >    independently; apply the safety gate; choose PUBLISH (approval: published, clearly-safe +
-  >    clearly-verified only), HOLD (approval: pending, anything borderline), or REJECT; author
-  >    full entries for PUBLISH/HOLD using the photo pipeline and the full Cinnamon block
-  >    (`quote`, `emoji`, `report` field report per `docs/CINNAMON.md`, plus `visitorTip` when
-  >    the note included a recommendation); leave the structured triage comment on each issue AS
-  >    A NEW COMMENT — NEVER by editing/replacing the issue's body, which holds the submitter's
-  >    original text and email (docs/INBOX.md §4 explains why this specific mistake silently
-  >    breaks the thank-you email); apply labels, and close it; run `npm run data:validate &&
-  >    npm run build` and never push a
+  >    clearly-verified only), HOLD (approval: pending, anything borderline), or REJECT; for
+  >    multi-place submissions, delegate mechanical sub-steps (frontmatter extraction, snapshot
+  >    captions, LINE report data lines) to Haiku subagents per AUTONOMOUS_TRIAGE.md §3's cost
+  >    note, keeping the safety-gate decision, entry prose, field report, and thank-you email on
+  >    Sonnet; author full entries for PUBLISH/HOLD using the photo pipeline and the full
+  >    Cinnamon block (`quote`, `emoji`, `report` field report per `docs/CINNAMON.md`, plus two
+  >    `snapshots` for new entries, plus `visitorTip` when the note included a recommendation);
+  >    leave the structured triage comment on each issue AS A NEW COMMENT — NEVER by
+  >    editing/replacing the issue's body, which holds the submitter's original text and email
+  >    (docs/INBOX.md §4 explains why this specific mistake silently breaks the thank-you email);
+  >    apply labels, and close it; run `npm run data:validate && npm run build` and never push a
   >    broken build; commit and push to `main`; author a personalized Cinnamon-voice thank-you
   >    email (docs/CINNAMON.md §5) and trigger `notify-submitter.yml` with
   >    `{ issue_number, body, subject }` for any processed issue that included an email;
@@ -170,6 +174,37 @@ Already live in the Claude Code Routines UI. If you ever need to recreate it:
   >    so the maintainer hears about it immediately.
   > 4. When in doubt, HOLD — never PUBLISH. Empty inbox → do nothing beyond a short
   >    acknowledgement.
+
+---
+
+## E. The inbox watchdog — catches submissions that arrive while quota is out
+
+**The gap this closes:** the Routine above only fires on the GitHub "issue opened" event. If
+your Claude usage was at its cap the instant a submission came in, that event is missed —
+nothing re-tries it later on its own.
+
+**The fix — a free GitHub Actions workflow, not another Claude Routine.** GitHub Actions
+can't call into a Claude Routine directly (no API bridge from a plain workflow to your Claude
+subscription), so instead it re-creates the *GitHub event* the Routine already listens for:
+
+- `.github/workflows/inbox-watchdog.yml` runs on a schedule **every 15 minutes** (free — GitHub
+  Actions cron costs nothing to run this often).
+- It lists open issues labeled `inbox` that do **not** also have the `processed` label and are
+  **older than ~20 minutes** (a grace window so it never races the instant event-trigger path).
+- For each one found, it removes the `inbox` label and immediately re-adds it. That re-add is a
+  genuine "issue labeled" GitHub event — which, because the Routine's trigger (piece D) listens
+  for **Issue opened OR Issue labeled**, fires the same Routine again, on your subscription, the
+  next time you have quota.
+- If nothing is stuck, the workflow does nothing — silent, zero cost either way.
+
+This means: quota was out when someone submitted → their issue sits open, untouched → within
+15–35 minutes of quota returning, the watchdog's next tick notices it's still open and unprocessed
+→ relabels it → the Routine fires and processes it normally, exactly as if it had just arrived.
+
+**One-time setup (on you):** the Routine's trigger needs to include **Issue labeled** (not just
+Issue opened) as shown in piece D above — open the Routine in the Claude Code Routines UI and
+add that trigger condition if it isn't already there. The workflow file needs no secrets; it
+uses the repo's built-in `GITHUB_TOKEN` to read/write labels.
 
 ---
 

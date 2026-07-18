@@ -96,7 +96,22 @@ the "mildly interesting" bar, duplicate check.
 
 Fires **per submission**: a Routine watches for GitHub issues labeled `inbox` being opened and
 fires within moments of one appearing (see `docs/NOTIFICATIONS_SETUP.md` for exactly how it's
-wired). Model: **Sonnet** is fine for this. Steps:
+wired). Model: **Sonnet** coordinates the run. Steps:
+
+**Cost note — hybrid model, coordinate-and-delegate.** A submission with N candidate places
+costs roughly N× a single-place run (each place needs its own verification + full authoring),
+so for multi-place submissions, delegate the mechanical, non-judgment sub-steps to **Haiku**
+subagents (via the `Agent` tool) to cut cost without touching quality where it matters:
+- **Haiku**: turning verified research into frontmatter fields (tags, seasons, cost, parking,
+  transit — structured extraction, not judgment), writing the two camera-roll `snapshots`
+  captions (§7 of CINNAMON.md — lower creative bar than the field report), and drafting the
+  LINE report's data lines (§5 below).
+- **Keep on Sonnet** (the coordinator, never delegate): the PUBLISH/HOLD/REJECT safety-gate
+  decision, the entry body prose ("Why It's Interesting" etc.), the Cinnamon field report
+  (`cinnamon.report` — needs his voice), and the submitter thank-you email. These are exactly
+  the parts where a mistake is either public-facing or represents you to a real person.
+Skip the delegation entirely for a single-place submission — the coordination overhead isn't
+worth it below a few places.
 
 1. **Guard.** Make sure you're on the latest `main` and that *this file exists*. If it does not
    (e.g. the change hasn't merged yet), **do nothing and exit** — do not process with the old
@@ -110,11 +125,13 @@ wired). Model: **Sonnet** is fine for this. Steps:
    PUBLISH / HOLD / REJECT. Author full entries for PUBLISH and HOLD — frontmatter, photo
    pipeline, **and the complete Cinnamon block per `docs/CINNAMON.md`**: `quote`, `emoji`,
    the **field report** (`cinnamon.report`, §3 there — his first-person story grounded in
-   your research), **and the comic** (`cinnamon.comic`, §7 — a 4–6 panel "Adventures in
-   Cinnamon Land" strip whose punchline smuggles in the real tips; new entries only). If the
+   your research), **and two camera-roll snapshots** (`cinnamon.snapshots`, §7 — two candid
+   vector vignettes, no story arc required; new entries only). If the
    submitter's note contained a genuine recommendation, carry it as `visitorTip: { text, by }`.
    When a real hero photo exists, it's the page's main image — don't also copy it into
-   `photos[]` (the camera roll is for genuinely *additional* photos, not a second hero). Set `createdAt`/`updatedAt` to the **full ISO timestamp** (e.g.
+   `photos[]` (the camera roll is for genuinely *additional* photos, not a second hero); when
+   there's no real photo, the hero is a place-representing vector scene, not Cinnamon himself.
+   Set `createdAt`/`updatedAt` to the **full ISO timestamp** (e.g.
    `2026-07-17T05:32:00Z`), not a bare date — `/new` orders entries to the minute. Leave the
    structured triage comment on each issue **as a new comment, never as a body edit** — see
    `docs/INBOX.md` §4 for why this specific mistake breaks the thank-you email — apply
@@ -170,6 +187,7 @@ Write exactly this shape, overwriting the file each run:
   "skipped_count": 1,
   "new_countries": [],
   "open_inbox_remaining": 0,
+  "approx_tokens": 34000,
   "sms_body": "(kept for audit continuity — the actual message was already sent via line-notify.yml in step 9, see §5)"
 }
 ```
@@ -181,6 +199,8 @@ Field rules:
   This is the field the backstop actually cares about.
 - **`open_inbox_remaining`** — count of `inbox` issues still open after the run (should be 0 on
   a clean run; >0 signals leftover/failed work).
+- **`approx_tokens`** — the same rough token count reported in the LINE message's cost line
+  (§5) — an absolute number for comparing run cost over time, never a percentage of a plan cap.
 - **`sms_body`** — keep populated with whatever message you sent, for audit/debugging purposes,
   but it is **not read** by the notification path anymore (that's the on-demand `message` input
   to `line-notify.yml`, sent directly in step 9 — see §5).
@@ -214,11 +234,19 @@ lines.
      `https://github.com/jasonsheinkopf/roadside_japan/issues/<n>`
    - `❌ Skipped (N):` — for each: a short reason. No link needed.
    - `🆕 New country:` — name it if one was added.
-4. **Socks's sign-off** — one line, his voice, can react to the content:
+4. **Cost line** — one line reporting this run's own token usage, so the maintainer can compare
+   cost across submissions of different sizes over time:
+   `📊 ~18K tokens this run · 2 places`
+   This is a **token count you observe from the run itself** (rough input+output total for
+   everything this run did: verification, authoring, comment/email/report writing) — never a
+   percentage of any plan/rate-limit cap. You have no way to see the maintainer's actual
+   4-hour or weekly usage-limit state from inside a run, so never claim a before/after % —
+   report only the number you can actually know.
+5. **Socks's sign-off** — one line, his voice, can react to the content:
    `— socks 🐈‍⬛ (cinnamon sez the donut was "structurally significant." i had a nap)`
-5. If the run **couldn't finish** (quota, build failure), Socks says so plainly — being funny
+6. If the run **couldn't finish** (quota, build failure), Socks says so plainly — being funny
    never obscures a problem: `⚠️ boss, sumthing went rong:` + the plain facts + what's pending.
-6. If one trigger fire processed **multiple submitters' issues**, group header + outcomes per
+7. If one trigger fire processed **multiple submitters' issues**, group header + outcomes per
    submitter rather than merging them into one anonymous list.
 
 **Tone/format rules:**
@@ -252,6 +280,8 @@ lines.
   https://github.com/jasonsheinkopf/roadside_japan/issues/31
 
 No new countries.
+
+📊 ~34K tokens this run · 2 places
 
 — socks 🐈‍⬛ (cinnamon iz still talking abt the tea kettle. send help)
 ```

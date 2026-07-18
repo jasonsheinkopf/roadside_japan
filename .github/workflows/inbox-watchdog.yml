@@ -1,0 +1,62 @@
+name: Inbox watchdog
+
+# Fallback retry for the event-driven inbox-triage Routine (docs/NOTIFICATIONS_SETUP.md piece E).
+#
+# The Routine (Cinnamon Land Submission Review) fires on the GitHub "issue opened" event, the
+# instant someone submits. If Claude's usage quota was exhausted at that exact moment, that
+# event is simply missed — nothing re-tries it on its own. This workflow is the free, fully
+# automated fix: it runs on a schedule, and for any `inbox` issue that's been open a while
+# without being processed, it removes and re-adds the `inbox` label. That re-add is a genuine
+# "issue labeled" GitHub event, which re-fires the same Routine (its trigger listens for
+# Issue opened OR Issue labeled) the next time there's quota — no different from a fresh
+# submission arriving.
+#
+# Costs nothing to run this often: GitHub Actions cron is free, and when nothing is stuck the
+# job does one cheap `gh issue list` call and exits.
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Every 15 minutes.
+    - cron: "*/15 * * * *"
+
+permissions:
+  issues: write
+
+jobs:
+  retry-stuck-inbox:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Relabel stuck inbox issues
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          # Grace window: never touch an issue younger than this, so we don't race the
+          # instant "issue opened" trigger — give it time to fire and finish normally first.
+          GRACE_MINUTES=20
+          cutoff="$(date -u -d "-${GRACE_MINUTES} minutes" +%s 2>/dev/null || date -u -v-${GRACE_MINUTES}M +%s)"
+
+          issues_json="$(gh issue list --repo "$REPO" --label inbox --state open \
+            --json number,createdAt,updatedAt,labels --limit 100)"
+
+          stuck="$(echo "$issues_json" | jq -r --argjson cutoff "$cutoff" '
+            .[]
+            | select((.labels | map(.name) | index("processed")) == null)
+            | select((.createdAt | fromdateiso8601) < $cutoff)
+            | select((.updatedAt | fromdateiso8601) < $cutoff)
+            | .number
+          ')"
+
+          if [ -z "$stuck" ]; then
+            echo "Nothing stuck — no open, unprocessed inbox issues older than ${GRACE_MINUTES}m."
+            exit 0
+          fi
+
+          for n in $stuck; do
+            echo "::notice::Re-triggering issue #$n (open, unprocessed, older than ${GRACE_MINUTES}m)"
+            gh issue edit "$n" --repo "$REPO" --remove-label inbox
+            gh issue edit "$n" --repo "$REPO" --add-label inbox
+          done

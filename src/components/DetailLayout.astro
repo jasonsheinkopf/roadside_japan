@@ -24,7 +24,8 @@ import {
 } from "../lib/format";
 import { prefectureUrl, tagUrl, withBase, homeUrl } from "../lib/url";
 import CinnamonScene from "./CinnamonScene.astro";
-import CinnamonComic from "./CinnamonComic.astro";
+import PlaceScene from "./PlaceScene.astro";
+import CinnamonSnapshot from "./CinnamonSnapshot.astro";
 
 interface Props {
   record: IndexRecord;
@@ -97,7 +98,7 @@ const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).
           record.hero ? (
             <img src={record.hero} alt={data.title} onerror={IMG_ONERROR} class="h-full w-full object-cover" />
           ) : (
-            <CinnamonScene variant="hero" title={data.title} emoji={sceneEmoji} quote={sceneQuote} seed={record.id} />
+            <PlaceScene title={data.title} emoji={sceneEmoji} seed={record.id} />
           )
         }
       </div>
@@ -132,14 +133,11 @@ const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).
         </div>
 
         {
-          (record.hero || reportParas.length > 0) && (
-            <section class="mt-8">
+          <section class="mt-8">
               <h2 class="font-display text-xl font-bold">🐿️ Cinnamon was here</h2>
-              {record.hero && (
-                <div class="mt-3">
-                  <CinnamonScene title={data.title} emoji={sceneEmoji} quote={sceneQuote} seed={record.id} />
-                </div>
-              )}
+              <div class="mt-3">
+                <CinnamonScene title={data.title} emoji={sceneEmoji} quote={sceneQuote} seed={record.id} />
+              </div>
               {reportParas.length > 0 && (
                 <div class="card mt-4 p-5">
                   <p class="text-xs font-semibold uppercase tracking-wide text-ink-soft">Field report</p>
@@ -154,11 +152,8 @@ const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).
                   )}
                 </div>
               )}
-            </section>
-          )
+          </section>
         }
-
-        {data.cinnamon?.comic && data.cinnamon.comic.length > 0 && <CinnamonComic panels={data.cinnamon.comic} seed={record.id} />}
 
         {
           data.tips.length > 0 && (
@@ -174,11 +169,14 @@ const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).
         }
 
         {
-          data.photos.length > 0 && (
+          (data.cinnamon?.snapshots?.length || data.photos.length > 0) && (
             <section class="mt-8">
               <h2 class="font-display text-xl font-bold">📸 Cinnamon's camera roll</h2>
               <p class="mt-1 text-sm text-ink-soft">Snapshots from our very good boy on the road.</p>
               <div class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
+                {data.cinnamon?.snapshots?.map((snap, i) => (
+                  <CinnamonSnapshot cast={snap.cast} prop={snap.prop} caption={snap.caption} seed={`${record.id}-snap-${i}`} />
+                ))}
                 {data.photos.map((p) => (
                   <figure class="overflow-hidden rounded-xl border border-line bg-surface">
                     <img src={withBase(p.src)} alt={p.alt} loading="lazy" onerror={IMG_ONERROR} class="aspect-square w-full object-cover" />

@@ -1,0 +1,39 @@
+---
+/**
+ * PlaceScene — the hero fallback when no licensed photo could be verified.
+ *
+ * Unlike CinnamonScene (which is always Cinnamon posing with his quote), this is a
+ * character-free vector vignette meant to represent the PLACE itself: the entry's prop
+ * emoji, large, on a deterministic seeded gradient. Cinnamon still gets his "Cinnamon was
+ * here" postcard elsewhere on the page (docs/PHOTO_ENRICHMENT.md) — this is just the hero.
+ */
+import { placeholderStyle } from "../lib/format";
+
+interface Props {
+  /** Entry title, used for accessible labeling only. */
+  title: string;
+  /** The place's icon emoji, e.g. 🛕 🌋 🍜 👽. */
+  emoji: string;
+  /** Deterministic variation seed — pass the entry slug. */
+  seed: string;
+}
+const { title, emoji, seed } = Astro.props;
+
+let h = 0;
+for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+const tilt = ((h >> 3) % 17) - 8; // gentle tilt: -8..8 deg
+const size = 120 + ((h >> 5) % 64); // px, big and centered
+---
+
+<div
+  class="bg-topo relative flex h-full w-full items-center justify-center"
+  style={placeholderStyle(seed)}
+  role="img"
+  aria-label={`Illustration representing ${title}`}
+>
+  <span
+    class="select-none drop-shadow-xl"
+    style={`font-size:${size}px; transform: rotate(${tilt}deg); line-height:1;`}
+    aria-hidden="true">{emoji}</span
+  >
+</div>
