@@ -1,0 +1,41 @@
+---
+/**
+ * CinnamonSnapshot — one candid vignette in Cinnamon's camera roll (docs/CINNAMON.md §7).
+ *
+ * Every entry gets two: quick, different-angle moments with the cast (a selfie with the
+ * statue, feet in the spring), each with a short caption below the art. Not a sequential
+ * story — just a snapshot, same character rendering as CinnamonScene via CharSvg.
+ */
+import CharSvg from "./CharSvg.astro";
+import { placeholderStyle } from "../lib/format";
+
+interface Props {
+  cast: ("cinnamon" | "socks" | "mon")[];
+  prop: string;
+  caption: string;
+  /** Unique per-snapshot seed, e.g. `${entrySlug}-snap-0`. */
+  seed: string;
+}
+const { cast, prop, caption, seed } = Astro.props;
+---
+
+<figure class="overflow-hidden rounded-xl border border-line bg-surface">
+  <div
+    class="bg-topo relative flex aspect-square items-end justify-center gap-1 px-3 pt-4"
+    style={placeholderStyle(seed)}
+  >
+    <span
+      class="select-none self-center drop-shadow-lg"
+      style={`font-size:${cast.length > 1 ? 34 : 44}px; line-height:1;`}
+      aria-hidden="true"
+    >
+      {prop}
+    </span>
+    {cast.map((who, j) => (
+      <CharSvg who={who} flip={j % 2 === 1} size="h-14 w-14 sm:h-16 sm:w-16" uid={`${seed}-${j}`} />
+    ))}
+  </div>
+  <figcaption class="px-2.5 py-1.5 text-xs text-ink-soft">
+    <span class="block leading-snug">{caption}</span>
+  </figcaption>
+</figure>

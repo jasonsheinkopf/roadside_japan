@@ -119,8 +119,8 @@ const commonFields = z.object({
   /**
    * Cinnamon scene — every entry's unique mascot vignette (see docs/PHOTOS.md).
    * `quote` is a hand-written one-liner in Cinnamon's voice about THIS place;
-   * `emoji` is the thing he's engaging with in the scene. Renders in-page on every
-   * detail view, and serves as the hero when no licensed photo could be verified.
+   * `emoji` is the thing he's engaging with in the scene. Renders in-page as the
+   * "Cinnamon was here" postcard on every detail view.
    * `report` is his field report (docs/CINNAMON.md): a short first-person story —
    * how he heard about the place, why it hooked him, what he did there, and his
    * honest squirrel take, grounded in the entry's researched facts.
@@ -131,13 +131,13 @@ const commonFields = z.object({
       emoji: z.string().default("📍"),
       report: z.string().min(40).optional(),
       /**
-       * "Adventures in Cinnamon Land" — a short comic strip (docs/CINNAMON.md §7).
-       * 4–6 panels telling a little story with a punchline that sneaks in the real
-       * tips for this place (when to come, what to eat, the trick everyone misses).
-       * `cast` = which characters are in the panel; `prop` = the panel's emoji;
-       * `caption` = the panel's line, shown BELOW the art (never a speech bubble).
+       * Two candid "camera roll" snapshots (docs/CINNAMON.md §7) — quick vector
+       * vignettes of the cast at the place from a different angle/moment each
+       * (a selfie with the statue, feet in the spring), not a sequential story.
+       * `cast` = who's in the shot; `prop` = the panel's emoji; `caption` = the
+       * short line below the art (never a speech bubble).
        */
-      comic: z
+      snapshots: z
         .array(
           z.object({
             cast: z.array(z.enum(["cinnamon", "socks", "mon"])).min(1).default(["cinnamon"]),
@@ -145,8 +145,8 @@ const commonFields = z.object({
             caption: z.string().min(2),
           }),
         )
-        .min(4)
-        .max(6)
+        .min(2)
+        .max(2)
         .optional(),
     })
     .optional(),

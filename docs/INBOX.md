@@ -81,12 +81,13 @@ Standard authoring rules (AGENTS.md, docs/DATA_MODEL.md), plus:
 
 - **Photos + the full Cinnamon block are part of authoring, not optional** — run the photo
   pipeline in `docs/PHOTO_ENRICHMENT.md` (Commons-scoped WebSearch → deterministic URL)
-  and write the entry's `cinnamon: { quote, emoji, report, comic }` block per
-  `docs/CINNAMON.md` (the `report` is his first-person field report; the `comic` is a 4–6
-  panel "Adventures in Cinnamon Land" strip — §7 — for new entries). If the submitter's note
+  and write the entry's `cinnamon: { quote, emoji, report, snapshots }` block per
+  `docs/CINNAMON.md` (the `report` is his first-person field report; `snapshots` is two
+  candid camera-roll vignettes — §7 — for new entries). If the submitter's note
   included a genuine recommendation, carry it as `visitorTip: { text, by }`. No verified
-  photo → the Cinnamon scene serves as the hero; never ship a bare entry. When there IS a
-  hero photo, don't duplicate it into `photos[]`/the camera roll.
+  photo → a place-representing vector scene serves as the hero (never Cinnamon forced into
+  the hero shot); never ship a bare entry. When there IS a hero photo, don't duplicate it
+  into `photos[]`/the camera roll.
 - `createdAt`/`updatedAt`: use the **full ISO timestamp** of processing (e.g.
   `2026-07-17T05:32:00Z`) — `/new` orders same-day entries to the minute.
 - **Official website:** while verifying, check whether the place has an official site

@@ -99,10 +99,11 @@ src/content/**/*.md  ──(Zod validate)──▶  getCollection()  ──▶  
 4. **Visuals + voice (required):** find a real hero photo via the pipeline in
    `docs/PHOTO_ENRICHMENT.md` (Wikimedia-Commons-scoped WebSearch → deterministic URL +
    credit; don't duplicate the hero into `photos[]`), and write the entry's full
-   `cinnamon: { quote, emoji, report, comic }` block per `docs/CINNAMON.md` — the scene
-   quote, his first-person field report, AND the 4–6 panel "Adventures in Cinnamon Land"
-   comic (§7, new entries) whose punchline hides the real tips. No verified photo → the
-   Cinnamon scene is the hero automatically; never invent or hotlink unlicensed images.
+   `cinnamon: { quote, emoji, report, snapshots }` block per `docs/CINNAMON.md` — the scene
+   quote, his first-person field report, AND two camera-roll snapshots (§7, new entries) —
+   candid vector vignettes of the cast at the place, no story arc needed. No verified photo
+   → a place-representing vector scene (no characters) is the hero automatically; never
+   invent or hotlink unlicensed images.
    Use full ISO timestamps for `createdAt`/`updatedAt`.
 5. `npm run data:validate` → fix any schema errors → `npm run build`.
 

@@ -2,11 +2,15 @@
 
 Every entry gets **two visuals**, no exceptions:
 
-1. **A real photo** as the hero — found and verified through the pipeline below.
-2. **A Cinnamon scene** — a unique vector vignette of Cinnamon "doing the thing" at that
-   place, with a hand-written funny quote (`cinnamon:` frontmatter → `CinnamonScene.astro`).
-   When no licensed photo can be verified, the scene **is** the hero, so no page ever
+1. **A hero image** — a real photo found and verified through the pipeline below, or, when
+   none can be verified, a place-representing vector scene (`PlaceScene.astro`) — no
+   characters, just the entry's prop emoji large on a seeded gradient — so no page ever
    falls back to a bare gradient.
+2. **A Cinnamon scene** — a separate, always-present "Cinnamon was here" postcard: a unique
+   vector vignette of Cinnamon "doing the thing" at that place, with a hand-written funny
+   quote (`cinnamon:` frontmatter → `CinnamonScene.astro`). Unlike the hero, this one always
+   features Cinnamon and renders regardless of whether the hero above is a photo or the
+   place scene.
 
 This is part of entry creation, not an afterthought: **no new entry ships without
 running the photo pipeline and writing a `cinnamon` block.**
@@ -68,8 +72,8 @@ fallback shows. Never remove this from image-rendering components.
 2. Official press/tourism assets explicitly offered for reuse (link the terms page in
    `creditUrl`).
 3. Photos submitted by the community contributor themselves (credit them by name).
-4. **Nothing** → the Cinnamon scene carries the page. Never hotlink blogs, socials, or
-   Google Images results.
+4. **Nothing** → the place-representing vector scene carries the page as the hero. Never
+   hotlink blogs, socials, or Google Images results.
 
 ## The Cinnamon scene (`cinnamon:` frontmatter)
 
@@ -87,10 +91,15 @@ cinnamon:
   Pick the *place's* icon, not a face.
 
 `CinnamonScene.astro` renders these with a deterministic per-slug pose (flip/tilt/prop
-size + background hue), so every entry's scene is unique without hand-drawn art. It
-appears as a "🐿️ Cinnamon was here" postcard on every detail page, and doubles as the
-hero when there's no photo. The component has category-based fallback quotes, but those
-are a safety net — writing the real quote is part of authoring the entry.
+size + background hue), so every entry's scene is unique without hand-drawn art. It always
+appears as a "🐿️ Cinnamon was here" postcard on every detail page — separately from the
+hero, which is either the real photo or `PlaceScene.astro` (no characters) when there's
+none. The component has category-based fallback quotes, but those are a safety net —
+writing the real quote is part of authoring the entry.
+
+Every new entry also gets **two camera-roll snapshots** (`cinnamon.snapshots`,
+`docs/CINNAMON.md` §7) — candid vector vignettes rendered by `CinnamonSnapshot.astro`,
+replacing the retired multi-panel comic strip.
 
 ## Batch process for agents
 
@@ -98,8 +107,9 @@ For every new or photo-less entry:
 
 1. Identify the visual hook; run the scoped Commons search (step 1).
 2. Verified `File:` name → compute URLs → set `heroImage` + prepend `photos[]` with
-   credit; no verified file → skip photo, the scene becomes the hero.
-3. Write the `cinnamon` block (always).
+   credit; no verified file → skip photo, `PlaceScene` becomes the hero automatically.
+3. Write the `cinnamon` block (quote, emoji, report, and — for new entries — two
+   `snapshots`), always.
 4. Bump `updatedAt`; run `npm run data:validate && npm run build`.
 
 ## Review quote rule
