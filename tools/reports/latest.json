@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "ran_at": "2026-07-18T04:21:00Z",
+  "ran_at": "2026-07-18T09:30:00Z",
   "completed": true,
   "changed": true,
   "added_count": 1,
@@ -8,5 +8,6 @@
   "skipped_count": 0,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "sms_body": "🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)\n\n📥 Submitted 2026-07-18 13:15 JST by ghost popsicle\n⚙️ Processed 2026-07-18 13:21 JST\n\n✅ Added (1):\n• Starbucks Reserve Roastery Tokyo, Nakameguro — four-floor Kengo Kuma coffee cathedral with its own roastery, bar, tea room, and bakery\n  https://roadside-japan.pages.dev/attractions/starbucks-reserve-roastery-tokyo/\n\nNo new countries.\n\n— socks 🐈‍⬛ (cinnamon iz stuck on the 4th floor sniffin the roaster. sent backup)"
+  "approx_tokens": 55000,
+  "sms_body": "🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)\n\n📥 Submitted 2026-07-18 18:03 JST by ghost popsicle\n⚙️ Processed 2026-07-18 18:30 JST\n\n✅ Added (1) — pending your merge:\n• ROBO-ONE, Kanagawa — bipedal robot combat tournament, Sept 26-27 2026, free entry\n  PR: (see PR opened against main)\n\nNo new countries.\n\n⚠️ this run shipped via a PR instead of pushing straight to main (this session's branch is locked down) — merge the PR to make it live.\n\n📊 ~55K tokens this run · 1 place\n\n— socks 🐈‍⬛ (cinnamon iz already asking if robots eat acorns)"
 }
