@@ -9,7 +9,7 @@
  * without JS, good for SEO); the island below adds month filtering + the toggle.
  */
 import BaseLayout from "../layouts/BaseLayout.astro";
-import ViewTabs from "../components/ViewTabs.astro";
+import ExploreHeader from "../components/ExploreHeader.astro";
 import { getIndexRecords } from "../lib/content";
 import { activeMonths, isSeasonal } from "../lib/filters";
 import { SEASON_COLOR, SEASON_EMOJI, formatDateRange, monthsLabel } from "../lib/format";
@@ -62,18 +62,23 @@ function cells(months: number[]) {
   title="When to go — timeline"
   description="Plan by the calendar: a year-long timeline of seasonal blooms, festivals, illuminations, and limited-time discoveries. Pick a month to see exactly what's worth catching."
 >
-  <div class="py-8">
-    <header class="mb-6 flex flex-wrap items-end justify-between gap-3">
-      <div class="max-w-2xl">
-        <h1 class="font-display text-3xl font-bold sm:text-4xl">When to go</h1>
-        <p class="mt-2 text-ink-soft">
-          The best detours are often on a clock — wisteria tunnels, snow monsters, firefly
-          nights, seas of cloud. Scan the year, pick a month, and find what's actually catchable
-          when you're here.
-        </p>
-      </div>
-      <ViewTabs active="timeline" />
-    </header>
+  <div class="pb-8">
+    <ExploreHeader active="timeline">
+      <!-- Search matches the other views' top row; the month/country/seasonal controls
+           below are the timeline's own filters (the whole point of this view). -->
+      <input
+        id="tl-search"
+        type="search"
+        placeholder="Search"
+        class="w-full rounded-full border border-line bg-surface px-4 py-2.5 outline-none placeholder:text-ink-soft focus:border-sun"
+        aria-label="Search the timeline"
+      />
+    </ExploreHeader>
+
+    <p class="mb-4 mt-3 text-sm text-ink-soft">
+      The best detours are often on a clock — wisteria tunnels, snow monsters, firefly nights,
+      seas of cloud. Pick a month to see what's actually catchable when you're there.
+    </p>
 
     <!-- Controls -->
     <div class="mb-5 space-y-3">
@@ -268,9 +273,11 @@ function cells(months: number[]) {
   const countEl = document.getElementById("tl-count")!;
   const emptyEl = document.getElementById("tl-empty") as HTMLElement;
   const headCells = Array.from(document.querySelectorAll<HTMLElement>("[data-month-col]"));
+  const searchInput = document.getElementById("tl-search") as HTMLInputElement;
 
   let month: number | null = null; // null = all year
   let country: string | null = null; // null = all countries
+  let q = ""; // free-text title filter
   const countryBtns = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-country-btn]"));
 
   function highlightColumn() {
@@ -285,7 +292,8 @@ function cells(months: number[]) {
       const seasonal = row.dataset.seasonal === "true";
       const months = (row.dataset.months || "").split(",").filter(Boolean).map(Number);
       let visible = true;
-      if (country !== null && row.dataset.country !== country) visible = false;
+      if (q && !(row.textContent || "").toLowerCase().includes(q)) visible = false;
+      if (visible && country !== null && row.dataset.country !== country) visible = false;
       if (visible && seasonalOnly.checked && !seasonal) visible = false;
       if (visible && month !== null) {
         // Year-round rows (no months) count as active every month.
@@ -308,6 +316,15 @@ function cells(months: number[]) {
     });
   }
   seasonalOnly.addEventListener("change", render);
+
+  let sDebounce: ReturnType<typeof setTimeout>;
+  searchInput?.addEventListener("input", () => {
+    clearTimeout(sDebounce);
+    sDebounce = setTimeout(() => {
+      q = searchInput.value.trim().toLowerCase();
+      render();
+    }, 120);
+  });
 
   function setCountry(next: string | null) {
     country = next;

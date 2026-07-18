@@ -58,6 +58,22 @@ cinnamon:
     I rode the shuttle up from the visitor center instead of the 30-minute trail, mostly because I have short legs, and came out at a stream so bright green it looked painted on. The water comes out of the old iron mine acidic enough to sting — I did not drink it, learned my lesson from the paw incident — and the moss just sits there thriving in it anyway, one of maybe two places on the whole island where it grows like this.
 
     Other visitors keep saying it feels like nowhere else in Japan, and I agree — it doesn't look real. My only tip, same as the humans': go in October if you can, when the red-gold hillside makes the green stream look even more impossible.
+  comic:
+    - cast: [cinnamon, socks, mon]
+      prop: "🚌"
+      caption: "The sign said 30-minute uphill trail. Cinnamon looked at his short legs, then at the free shuttle. The shuttle won. (Take the shuttle.)"
+    - cast: [socks]
+      prop: "🌋"
+      caption: "Then Socks read the spring's name — Anajigoku, 'the hell pit' — and quietly decided he had typing to do back at the visitor center."
+    - cast: [cinnamon]
+      prop: "🍃"
+      caption: "The stream was highlighter-green. Cinnamon dipped one paw to test it. It's acidic enough to sting — so, no, you don't drink it. He is still surprised."
+    - cast: [mon]
+      prop: "🍃"
+      caption: "Mon-chan glared at the moss: greener and fluffier than him, thriving in acid like a show-off. 'I don't like him,' he told the plant."
+    - cast: [cinnamon, mon]
+      prop: "🍁"
+      caption: "Verdict: come in October, when the red hillside makes the green look impossible — and check the hours, the whole park shuts for winter."
 ---
 
 **Chatsubomi Moss Park** (チャツボミゴケ公園, *Chatsubomigoke Kōen*) protects one of the strangest wetlands in Japan: a stream bed carpeted in vivid, electric-green moss that thrives in water acidic enough to sting. The moss grows out of **Anajigoku** ("the hell pit"), a spring born of Mt. Shirane's volcanic activity, on the site of a former iron mine deep in the mountains above Nakanojo, Gunma.

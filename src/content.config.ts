@@ -130,6 +130,24 @@ const commonFields = z.object({
       quote: z.string().min(4),
       emoji: z.string().default("📍"),
       report: z.string().min(40).optional(),
+      /**
+       * "Adventures in Cinnamon Land" — a short comic strip (docs/CINNAMON.md §7).
+       * 4–6 panels telling a little story with a punchline that sneaks in the real
+       * tips for this place (when to come, what to eat, the trick everyone misses).
+       * `cast` = which characters are in the panel; `prop` = the panel's emoji;
+       * `caption` = the panel's line, shown BELOW the art (never a speech bubble).
+       */
+      comic: z
+        .array(
+          z.object({
+            cast: z.array(z.enum(["cinnamon", "socks", "mon"])).min(1).default(["cinnamon"]),
+            prop: z.string().default("📍"),
+            caption: z.string().min(2),
+          }),
+        )
+        .min(4)
+        .max(6)
+        .optional(),
     })
     .optional(),
 

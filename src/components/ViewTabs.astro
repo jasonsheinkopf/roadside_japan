@@ -1,11 +1,12 @@
 ---
 /**
- * ViewTabs — List | Map | Timeline as three VIEWS of the same filtered atlas.
+ * ViewTabs — List | Map | When-to-go as three VIEWS of the same filtered atlas.
  *
- * Explore, Map, and Timeline are one mental page with three presentations, so each of
- * those pages renders this segmented control at the top. A tiny inline script copies the
- * current query string onto the other tabs' hrefs, so filters/search/dates survive when
- * switching views (each page simply ignores params it doesn't use).
+ * Explore, Map, and Timeline are one page with three presentations. Each renders this
+ * full-width segmented control in the SAME position (under the "Explore" title), so
+ * switching views never shifts the layout. A tiny inline script copies the current query
+ * string onto the other tabs' hrefs, so filters/search/dates survive the switch (each
+ * page ignores params it doesn't use).
  */
 import { exploreUrl, mapUrl, timelineUrl } from "../lib/url";
 
@@ -21,20 +22,20 @@ const tabs = [
 ] as const;
 ---
 
-<nav class="inline-flex shrink-0 items-center gap-0.5 rounded-full border border-line bg-surface-2 p-0.5" aria-label="View">
+<nav class="grid grid-cols-3 gap-1 rounded-full border border-line bg-surface-2 p-1" aria-label="View">
   {
     tabs.map((t) => (
       <a
         href={t.href}
         data-viewtab
         class:list={[
-          "rounded-full px-2.5 py-1 text-sm font-medium transition sm:px-3",
+          "flex items-center justify-center gap-1.5 rounded-full px-2 py-1.5 text-sm font-medium transition",
           active === t.id ? "bg-surface text-sun shadow-sm" : "text-ink-soft hover:text-ink",
         ]}
         aria-current={active === t.id ? "page" : undefined}
       >
         <span aria-hidden="true">{t.icon}</span>
-        <span class:list={[active === t.id ? "" : "hidden sm:inline"]}> {t.label}</span>
+        <span>{t.label}</span>
       </a>
     ))
   }

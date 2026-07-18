@@ -24,6 +24,7 @@ import {
 } from "../lib/format";
 import { prefectureUrl, tagUrl, withBase, homeUrl } from "../lib/url";
 import CinnamonScene from "./CinnamonScene.astro";
+import CinnamonComic from "./CinnamonComic.astro";
 
 interface Props {
   record: IndexRecord;
@@ -156,6 +157,8 @@ const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).
             </section>
           )
         }
+
+        {data.cinnamon?.comic && data.cinnamon.comic.length > 0 && <CinnamonComic panels={data.cinnamon.comic} seed={record.id} />}
 
         {
           data.tips.length > 0 && (

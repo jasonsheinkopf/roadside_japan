@@ -98,11 +98,12 @@ src/content/**/*.md  ──(Zod validate)──▶  getCollection()  ──▶  
 3. Fill the frontmatter per `docs/DATA_MODEL.md`. Set `approval: published` to make it live.
 4. **Visuals + voice (required):** find a real hero photo via the pipeline in
    `docs/PHOTO_ENRICHMENT.md` (Wikimedia-Commons-scoped WebSearch → deterministic URL +
-   credit), and write the entry's full `cinnamon: { quote, emoji, report }` block per
-   `docs/CINNAMON.md` — the one-liner scene quote AND his first-person field report
-   (how he found it, what he did there, his verdict — grounded in your research). No
-   verified photo → the Cinnamon scene is the hero automatically; never invent or
-   hotlink unlicensed images. Use full ISO timestamps for `createdAt`/`updatedAt`.
+   credit; don't duplicate the hero into `photos[]`), and write the entry's full
+   `cinnamon: { quote, emoji, report, comic }` block per `docs/CINNAMON.md` — the scene
+   quote, his first-person field report, AND the 4–6 panel "Adventures in Cinnamon Land"
+   comic (§7, new entries) whose punchline hides the real tips. No verified photo → the
+   Cinnamon scene is the hero automatically; never invent or hotlink unlicensed images.
+   Use full ISO timestamps for `createdAt`/`updatedAt`.
 5. `npm run data:validate` → fix any schema errors → `npm run build`.
 
 ### Add a seasonal event
