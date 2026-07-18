@@ -143,8 +143,22 @@ worth it below a few places.
    passes, follow AGENTS.md "Add a country." If it's borderline, HOLD the places and note it.
 5. **Verify the build.** `npm run data:validate && npm run build`. If the build fails, **do not
    push broken content** — revert the entries to `pending` or drop them, and report the failure.
-6. **Commit & push** to `main`. Use a clear message, e.g.
+6. **Commit & push, then land it on `main` yourself.** Use a clear commit message, e.g.
    `Automated inbox triage: +2 published, 1 held, 1 skipped`.
+   - If your session can push straight to `main`, do that.
+   - If your session is scoped to a working branch (e.g. a Claude Code Remote session bound
+     to a designated branch, with a "never push to a different branch without explicit
+     permission" rule) — push there, open a PR into `main`, and **merge it yourself
+     immediately**, the same run. **The maintainer has pre-authorized this**: once
+     `data:validate`/`check`/`build` are green on that branch and the safety gate above is
+     clear (i.e. you're in PUBLISH/HOLD/REJECT territory, not stuck on an ambiguous call),
+     merging your own inbox-triage PR is in scope — don't leave it sitting open waiting for
+     manual review. Check the PR's status (`pull_request_read` → `get_check_runs`) before
+     merging so you're not merging over a red CI check.
+   - Only skip the merge, leave the PR open, and clearly flag it in the report + LINE
+     message (§5) when something is genuinely uncertain — the build failed, a safety-gate
+     call was borderline, or the merge itself errors (branch protection, permissions). That's
+     the "needs a human" case; routine successful runs are not.
 7. **Notify submitters — always, whatever the outcome.** For each processed issue that
    contained an email (dedicated "Submitter email:" line or anywhere in the note), **author
    a personalized email in Cinnamon's voice** per `docs/CINNAMON.md` §5 and trigger
