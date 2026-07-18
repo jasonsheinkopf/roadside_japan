@@ -43,6 +43,9 @@ tips:
   - You must hire a local lamp-carrying guide at the entrance — bring small cash.
 status: open
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Bamboo_rafts_in_the_Tham_Lot_cave.JPG/960px-Bamboo_rafts_in_the_Tham_Lot_cave.JPG"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Bamboo_rafts_in_the_Tham_Lot_cave.JPG"
 source: imported
 submittedBy: import:roadside-thailand
 sources:
@@ -52,7 +55,7 @@ related:
   - wat-rong-khun-white-temple
 featured: false
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 country: thailand
 cinnamon:
   quote: "We floated on bamboo through a cathedral cave as swifts poured out at dusk. I forgot I had a body."

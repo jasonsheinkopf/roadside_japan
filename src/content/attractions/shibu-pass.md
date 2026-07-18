@@ -30,6 +30,9 @@ tips:
   - "Route 292 closes for winter roughly mid-November to late April — check current conditions before driving up."
 status: seasonal
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Route_292%2Cshiga-kusatsu-road%2Cshibu_pass%2Cshibu-touge%2Ckusatsu-town%2Cjapan.jpg/960px-Route_292%2Cshiga-kusatsu-road%2Cshibu_pass%2Cshibu-touge%2Ckusatsu-town%2Cjapan.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Route_292%2Cshiga-kusatsu-road%2Cshibu_pass%2Cshibu-touge%2Ckusatsu-town%2Cjapan.jpg"
 source: community
 submittedBy: "a fellow traveler"
 sources:
@@ -48,7 +51,7 @@ related:
   - shibu-onsen
   - onioshidashi-park
 createdAt: 2026-07-17T05:20:00Z
-updatedAt: 2026-07-17T08:49:00Z
+updatedAt: 2026-07-18
 cinnamon:
   quote: "The highest road in Japan, and I found it by riding in someone's door pocket. The clouds were BELOW us. I have never felt so important."
   emoji: "☁️"

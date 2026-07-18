@@ -13,14 +13,14 @@ approval: published
 source: community
 submittedBy: "a fellow traveler"
 createdAt: 2026-07-16
-updatedAt: 2026-07-16
+updatedAt: 2026-07-18
 related: []
-heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Randy%27s_Donuts%2C_Los_Angeles.jpg/960px-Randy%27s_Donuts%2C_Los_Angeles.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Randy%27s_donuts1_edit1.jpg/960px-Randy%27s_donuts1_edit1.jpg"
 photos:
-  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Randy%27s_Donuts%2C_Los_Angeles.jpg/960px-Randy%27s_Donuts%2C_Los_Angeles.jpg"
+  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Randy%27s_donuts1_edit1.jpg/960px-Randy%27s_donuts1_edit1.jpg"
     alt: "Randy's Donuts in Inglewood, CA, with its famous giant donut sign"
     credit: "Photo via Wikimedia Commons"
-    creditUrl: "https://commons.wikimedia.org/wiki/File:Randy%27s_Donuts,_Los_Angeles.jpg"
+    creditUrl: "https://commons.wikimedia.org/wiki/File:Randy%27s_donuts1_edit1.jpg"
 tags:
   - food
   - landmark

@@ -33,6 +33,9 @@ tips:
   - "The lift shares its base with Shibu Pass, so pair the two — you can walk between them."
 status: seasonal
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Colorful_autumn%28Mt.Yokoteyama_Yamanouchitown_Naganopref_Japan%29_%2850518942341%29.jpg/960px-Colorful_autumn%28Mt.Yokoteyama_Yamanouchitown_Naganopref_Japan%29_%2850518942341%29.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Colorful_autumn%28Mt.Yokoteyama_Yamanouchitown_Naganopref_Japan%29_%2850518942341%29.jpg"
 source: community
 submittedBy: "ghost popsicle"
 sources:
@@ -53,7 +56,7 @@ related:
   - shibu-onsen
   - onioshidashi-park
 createdAt: 2026-07-17T08:45:00Z
-updatedAt: 2026-07-17T08:45:00Z
+updatedAt: 2026-07-18
 cinnamon:
   quote: "A sidewalk that climbs a mountain, clouds sitting below my paws like a lake, and a bakery at the top of Japan. I had three kinds of bread up there out of pure scientific curiosity."
   emoji: "🧇"

@@ -19,9 +19,12 @@ cost:
   type: free
 status: open
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Actually_crossing_the_Kwai_river_on_a_train_on_the_timber_trestle_bridge_%2850146654536%29.jpg/960px-Actually_crossing_the_Kwai_river_on_a_train_on_the_timber_trestle_bridge_%2850146654536%29.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Actually_crossing_the_Kwai_river_on_a_train_on_the_timber_trestle_bridge_%2850146654536%29.jpg"
 source: imported
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 country: thailand
 submittedBy: import:roadside-thailand
 cinnamon:

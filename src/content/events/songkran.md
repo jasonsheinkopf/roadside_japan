@@ -38,6 +38,9 @@ tips:
   - Chiang Mai's moat-side celebration is the most famous of all if you want to travel for it.
 status: seasonal
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Chiang-Mai_Thailand_Songkran-Festival-2017-07.jpg/960px-Chiang-Mai_Thailand_Songkran-Festival-2017-07.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Chiang-Mai_Thailand_Songkran-Festival-2017-07.jpg"
 source: imported
 submittedBy: import:roadside-thailand
 startDate: 2026-04-13
@@ -48,7 +51,7 @@ sources:
     url: https://en.wikipedia.org/wiki/Songkran_(Thailand)
 featured: true
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 country: thailand
 cinnamon:
   quote: "The whole country has a water fight for three days. I was soaked in the first four minutes. Blessed, technically."

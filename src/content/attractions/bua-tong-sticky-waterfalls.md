@@ -29,6 +29,9 @@ tips:
   - "Pair it with Chet Si Fountain a short walk upstream — the turquoise spring that feeds the falls. Weekdays are blissfully quiet; weekends bring Chiang Mai picnic crowds."
 status: open
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%A7_%E0%B9%91_-_One_sticky_waterfall_1.jpg/960px-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%A7_%E0%B9%91_-_One_sticky_waterfall_1.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%A7_%E0%B9%91_-_One_sticky_waterfall_1.jpg"
 website: "https://www.tourismthailand.org/Attraction/bua-tong-waterfall"
 source: ai-agent
 submittedBy: "ai:research-agent"
@@ -40,7 +43,7 @@ aiSummary: "Travertine waterfalls in Mae Taeng, north of Chiang Mai, whose calci
 aiKeywords: [bua tong sticky waterfall, bua thong, chiang mai waterfall climb, travertine thailand]
 featured: false
 createdAt: 2026-07-15
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 cinnamon:
   quote: "A waterfall you can climb UP. My claws finally met their soulmate."
   emoji: "💦"

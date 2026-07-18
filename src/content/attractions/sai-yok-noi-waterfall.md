@@ -25,9 +25,12 @@ cost:
   type: free
 status: seasonal
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sai_Yok_Noi_Waterfall_-_Sai_Yok_National_Park.jpg/960px-Sai_Yok_Noi_Waterfall_-_Sai_Yok_National_Park.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Sai_Yok_Noi_Waterfall_-_Sai_Yok_National_Park.jpg"
 source: imported
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 country: thailand
 submittedBy: import:roadside-thailand
 cinnamon:

@@ -31,6 +31,9 @@ tips:
   - "Pair it with a sea-urchin lunch: Shakotan's uni season runs June-August, and the fishing villages along the cape road are where Sapporo chefs come to eat it."
 status: open
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/130823_Cape_Kamui_Shakotan_Hokkaido_Japan06s3.jpg/960px-130823_Cape_Kamui_Shakotan_Hokkaido_Japan06s3.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:130823_Cape_Kamui_Shakotan_Hokkaido_Japan06s3.jpg"
 website: "https://www.visit-hokkaido.jp/en/spot/detail_10342.html"
 source: ai-agent
 submittedBy: "ai:research-agent"
@@ -44,7 +47,7 @@ aiSummary: "Cape Kamui at the tip of Hokkaido's Shakotan Peninsula: a 770m ridge
 aiKeywords: [cape kamui, shakotan blue, shakotan peninsula, charenka path, hokkaido coast]
 featured: false
 createdAt: 2026-07-13
-updatedAt: 2026-07-13
+updatedAt: 2026-07-18
 cinnamon:
   quote: "The sea here is called Shakotan Blue. I call it 'whoa' blue."
   emoji: "🌊"

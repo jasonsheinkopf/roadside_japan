@@ -52,8 +52,9 @@ function commonsUrls(fileTitle, width = 960) {
 }
 ```
 
-Use the **960px thumb** as `heroImage`, with `credit: "Photo via Wikimedia Commons"` and
-`creditUrl` = the file page. **Do not also copy that same image into `photos[]`** — the hero
+Use the **960px thumb** as `heroImage`, with `heroCredit: "Photo via Wikimedia Commons"` and
+`heroCreditUrl` = the file page (top-level frontmatter fields; the credit renders as a small
+overlay on the hero). **Do not also copy that same image into `photos[]`** — the hero
 already shows it, and "Cinnamon's camera roll" (`photos[]`) is for genuinely *additional*
 pictures, not a second copy of the hero. Only add to `photos[]` if you verified a second,
 different Commons image of the place. Non-ASCII filenames are fine (MD5 over UTF-8 bytes) —

@@ -24,9 +24,12 @@ cost:
   type: free
 status: open
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Don_Hoi_Lot_submerged_trees.jpg/960px-Don_Hoi_Lot_submerged_trees.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Don_Hoi_Lot_submerged_trees.jpg"
 source: imported
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 country: thailand
 submittedBy: import:roadside-thailand
 cinnamon:
