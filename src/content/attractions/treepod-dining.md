@@ -42,6 +42,13 @@ cinnamon:
     I must be honest about my professional feelings: dining in the canopy is my entire lifestyle, and the humans have finally caught up, at resort prices. The pod sways gently, hornbills comment from adjacent branches, and the zip-line waiter releases your soup with a showman's timing.
 
     It's a splurge inside a splurge (the resort is remote luxury; the pod books ahead), but as a once-in-a-life theater of a meal, it delivers — literally, at speed, on a cable. The trees have the best tables. Always have.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌳"
+      caption: "Lunch in the woven pod, canopy-height, hornbills commenting from adjacent branches. Dining in trees is my entire lifestyle; the humans have finally caught up, at resort prices."
+    - cast: [cinnamon, socks]
+      prop: "🍜"
+      caption: "The waiter arriving through the leaves by zip line like a very well-dressed gibbon, releasing the soup with a showman's timing. Socks applauded before catching himself."
 ---
 
 On the far-flung island of Ko Kut, the Soneva Kiri resort has built what may be the most theatrical restaurant in Thailand. Guests settle into a spacious rattan-and-bamboo pod — modelled on the hanging nest of a weaver bird — which is then raised around seven metres into the treetops, level with the canopy and looking out to the sea.

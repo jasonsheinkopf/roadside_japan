@@ -19,9 +19,12 @@ cost:
   type: free
 status: open
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Actually_crossing_the_Kwai_river_on_a_train_on_the_timber_trestle_bridge_%2850146654536%29.jpg/960px-Actually_crossing_the_Kwai_river_on_a_train_on_the_timber_trestle_bridge_%2850146654536%29.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Actually_crossing_the_Kwai_river_on_a_train_on_the_timber_trestle_bridge_%2850146654536%29.jpg"
 source: imported
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 country: thailand
 submittedBy: import:roadside-thailand
 cinnamon:
@@ -33,6 +36,13 @@ cinnamon:
     I rode the train across the viaduct at window level, then walked the trackside path after, which is permitted between trains and unforgettable at all times — cliff above, river far below, timbers older than every passenger.
 
     History hangs on this section like humidity; POWs and Asian laborers built it at appalling cost, and the cave Buddha now holds that memory quietly. Check train times (few per day), pair with Hellfire Pass up the road, and let the trestle's creak deliver the lesson its own way.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🚂"
+      caption: "Window level across the wooden trestle bolted to the cliff face, the River Kwai far below, timbers older than every passenger."
+    - cast: [cinnamon, socks]
+      prop: "🕯️"
+      caption: "The cave shrine where laborers once sheltered, holding the memory quietly. We walked the trackside path between trains and said little."
 ---
 
 The most photographed stretch of the surviving Death Railway is the Wang Pho (Wampo) viaduct: a long curve of timber trestle bolted to the face of a riverside cliff, built by Allied POWs and Asian labourers in 1943. Beside it, the small Tham Krasae cave holds a Buddha image right where the line skirts the rock.

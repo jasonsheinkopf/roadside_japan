@@ -38,6 +38,13 @@ cinnamon:
     I padded through rooms of dark polished teak while a volunteer guide told stories about the family who lived there. Nobody sells you anything. It's free. It smells like old wood and rain, which is the best smell, and I say that as someone who lives in a tree.
 
     Visitors call it 'the quietest place in Bangkok' and use words like 'time capsule.' Accurate. Come slow, leave slower.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏡"
+      caption: "Napping on a 1940s windowsill, historically. The family's dishes are still in the cabinet and the clocks are still politely wrong."
+    - cast: [cinnamon, socks]
+      prop: "🌧️"
+      caption: "Waiting out the rain in the garden compound. It's free, nobody sells you anything, and it smells like old wood — the best smell, says the squirrel who lives in a tree."
 ---
 
 Slip off the traffic of Charoen Krung into a shaded garden and you'll find a set of beautifully kept timber houses preserved exactly as a Bangkok family left them in the mid-20th century — furniture, kitchenware, photographs and all.

@@ -61,6 +61,13 @@ cinnamon:
     I took the escalators up (yes, the island has escalators; no, I will not be taking questions about whether I rode the handrail) and paid respects to Benzaiten, the goddess who — the legend says — married the local five-headed dragon to make it stop misbehaving. The sea caves at the far end drip and echo, and you carry a little candle lantern through them like a very short pilgrim.
 
     Go on a clear winter day and Fuji floats over the bay. The kites here steal food from human hands — protect your snacks; they show no honor.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🕯️"
+      caption: "Carrying a little candle lantern through the dripping sea caves like a very short pilgrim."
+    - cast: [cinnamon, mon]
+      prop: "🦅"
+      caption: "Clear winter day, Fuji floating over the bay. Mon-chan faced down a food-stealing kite and calls the draw a win."
 ---
 
 Barely a kilometer around, Enoshima crams a surprising amount into one small tidal island connected to the mainland by a footbridge across Katase River's mouth.

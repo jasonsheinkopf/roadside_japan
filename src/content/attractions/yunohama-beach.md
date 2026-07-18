@@ -62,6 +62,13 @@ cinnamon:
     I did the full local protocol — swim (paddle, technically; my breaststroke is a rumor), sunset from the torii-view seawall, then a footbath while the sky finished its show. Japan Sea sunsets commit: the whole horizon goes ember and the torii inks itself in.
 
     Summer weekends bring families and shave ice; off-season it's you, the fishermen, and a very above-average sky. There's also a legend about a giant turtle, kept alive by a small monument I saluted. Beaches with their own onsen and their own turtle lore: correct beaches.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌅"
+      caption: "Sunset from the seawall as the horizon went ember and the torii in the waves inked itself in. Japan Sea sunsets commit."
+    - cast: [cinnamon, mon]
+      prop: "♨️"
+      caption: "The full protocol: paddle (my breaststroke is a rumor), then the footbath a hundred metres behind the sand while the sky finished its show. Mon-chan's fluff took an hour to dry and he showed everyone."
 ---
 
 When the August heat settles over Yamagata's inland basins, locals head for the coast — and one of the friendliest stretches is **Yunohama Beach**, a long arc of sand on the **Japan Sea** just west of Tsuruoka.

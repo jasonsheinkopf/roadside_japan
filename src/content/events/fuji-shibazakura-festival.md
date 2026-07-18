@@ -64,6 +64,13 @@ cinnamon:
     At petal height (my exclusive press box) the carpet becomes a low pink forest humming with exactly one billion bees, all employed, none interested in me. From human height it's the classic shot: pink foreground, blue mountain, white summit. From the little observation mound: proof the planners knew precisely what they were doing.
 
     Mid-April to late May, morning for clear Fuji before his afternoon clouds arrive (he is reliably shy after lunch). Fuji-view food stalls sell pink everything. Buy the pink thing. It's the law of the festival.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🗻"
+      caption: "The exclusive press box at petal height: a low pink forest humming with one billion employed bees, Fuji arranging its snow behind."
+    - cast: [cinnamon, socks]
+      prop: "🌸"
+      caption: "The observation mound shot — pink foreground, blue mountain, white summit — proof the planners knew precisely what they were doing. Morning, before Fuji's afternoon clouds."
 ---
 
 For about six weeks each spring, the slopes near Lake Motosu erupt in pink, white, and magenta as some **500,000 shibazakura** (moss phlox) flowers bloom into sweeping ribbons of color — all framed by the snow-capped cone of **Mt. Fuji** rising behind.

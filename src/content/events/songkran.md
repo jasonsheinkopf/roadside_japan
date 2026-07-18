@@ -38,6 +38,9 @@ tips:
   - Chiang Mai's moat-side celebration is the most famous of all if you want to travel for it.
 status: seasonal
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Chiang-Mai_Thailand_Songkran-Festival-2017-07.jpg/960px-Chiang-Mai_Thailand_Songkran-Festival-2017-07.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Chiang-Mai_Thailand_Songkran-Festival-2017-07.jpg"
 source: imported
 submittedBy: import:roadside-thailand
 startDate: 2026-04-13
@@ -48,7 +51,7 @@ sources:
     url: https://en.wikipedia.org/wiki/Songkran_(Thailand)
 featured: true
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 country: thailand
 cinnamon:
   quote: "The whole country has a water fight for three days. I was soaked in the first four minutes. Blessed, technically."
@@ -59,6 +62,13 @@ cinnamon:
     Songkran's secret is that the mayhem is layered on tenderness — water pours over Buddha images and elders' hands in the morning, and by noon the same gesture has scaled into super-soakers, pickup-truck water cavalry, and strangers icing each other's spines with glacier water, all screaming with joy in 38-degree heat.
 
     Chiang Mai's moat is the legendary arena; everywhere is somewhere. Waterproof your phone, wear clothes that agree to be wet for 72 hours, and surrender. Best three days of the year to be alive and absorbent. My fur has never been cleaner.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💦"
+      caption: "Blessed/soaked within ninety seconds by a grandmother with a copper bowl, who apologized to the SQUIRREL and then did it again."
+    - cast: [socks, mon]
+      prop: "🔫"
+      caption: "The noon escalation: super-soakers, pickup-truck water cavalry, glacier water down spines in 38-degree heat. Socks found shelter; Mon-chan found a bucket and a calling."
 ---
 
 Every April, as the **hot season** peaks, Thailand celebrates **Songkran** — the traditional Thai New Year — by throwing water at absolutely everyone. What began as a gentle rite of pouring scented water over Buddha images and the hands of elders has grown into a joyous, nationwide, days-long water battle.

@@ -40,6 +40,13 @@ cinnamon:
     Now it's a real research station (CSU's Desert Studies Center) at the end of a dead-end road off I-15: palm rows around a spring-fed pond, ruins of the old 'health resort,' desert silence with a soundtrack of wind and one confused coyote. I drank NOTHING Mr. Springer would have bottled, and toasted him with plain water, which is what he was mostly selling anyway.
 
     Check access before driving in (it's a working field station). The Mojave does the rest. Last word: earned.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏜️"
+      caption: "Toasting Curtis Howe Springer with plain spring water — which is mostly what he was bottling anyway — at the end of the dead-end road he named to end the alphabet."
+    - cast: [cinnamon, socks]
+      prop: "🌴"
+      caption: "Palm rows around the spring-fed pond, spa ruins, desert silence, one confused coyote. Now it's a real research station, which is the alphabet stunt's happiest ending."
 ---
 
 ## The last word in the desert

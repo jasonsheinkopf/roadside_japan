@@ -66,6 +66,13 @@ cinnamon:
     The Fujiko F. Fujio Museum holds the original manga art, drawn small and perfect, plus a rooftop where the empty lot's concrete pipes from the comics sit on real grass and grown adults line up, misty-eyed, to sit in them. I sat in one. The mist got me too.
 
     Tickets are advance-only by lottery-ish booking, which keeps the crowds humane. The café sells food shaped like memories. If you grew up with these characters you will need a moment on the roof; if you didn't, you'll still leave understanding why Japan did.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🤖"
+      caption: "Socks meeting the original Doraemon art. He maintains the jealousy is strictly about the pocket."
+    - cast: [cinnamon]
+      prop: "🌳"
+      caption: "Sitting in the rooftop concrete pipes from the empty lot in the comics, alongside grown adults who lined up misty-eyed. The mist got me too."
 ---
 
 In a leafy corner of **Kawasaki**, just outside Tokyo, is a museum that runs entirely on childhood joy. The **Fujiko·F·Fujio Museum** celebrates the manga artist behind **Doraemon** — the round blue robot cat from the future who is, genuinely, one of the most beloved characters in Japan.

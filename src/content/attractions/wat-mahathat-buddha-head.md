@@ -57,6 +57,13 @@ cinnamon:
     Rules are posted and right: crouch below the head for photos, keep respect on. I sat by the root-line a long while watching humans arrive loud and go quiet in the same three steps. The face is calm the way only very old, very weathered things are calm — the tree and the head have clearly worked out an arrangement, and we're all just visiting it.
 
     Go at opening before the heat and the buses. The rest of Wat Mahathat's ruins deserve the extra hour. One image, worth the whole city: this is it.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌿"
+      caption: "A long sit by the root-line, watching humans arrive loud and go quiet in the same three steps. The tree and the head have clearly worked out an arrangement."
+    - cast: [cinnamon, socks]
+      prop: "📷"
+      caption: "Crouched below the head for the photo, as the posted rules rightly require. Go at opening, before the heat and the buses."
 ---
 
 For four centuries Ayutthaya was one of the largest cities on earth; in 1767 it was burned and emptied in a single sacking. The banyan trees have been quietly reclaiming it ever since — and one of them picked up a Buddha.

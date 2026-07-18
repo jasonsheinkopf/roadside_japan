@@ -64,6 +64,13 @@ cinnamon:
     As a professional balancer (branches, wires, one regrettable clothesline) I attended as a peer and left as a fan. When a gust leans the poles and forty lantern-towers sway together over the street, the crowd's gasp is part of the show's percussion. Drums, flutes, and the balancers' shouted 'dokkoisho!' carry it forward block by block.
 
     Early August, Akita City. Daytime shows demonstrate technique; night is the cathedral version. Sit street-side, mind falling wax, applaud with your whole body like everyone else.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏮"
+      caption: "Attending as a peer (branches, wires, one regrettable clothesline), leaving as a fan: fifty kilos of lit lanterns balanced on a FOREHEAD, the pole bending like a fishing rod hooked on the moon."
+    - cast: [cinnamon, mon]
+      prop: "🥁"
+      caption: "The gust moment, when forty lantern-towers sway together and the crowd's gasp becomes part of the percussion. Mon-chan balanced one acorn on his head. Solidarity."
 ---
 
 On summer nights in early August, the main avenue of Akita fills with hundreds of swaying towers of light. The **Kanto Festival** is a feat of balance: each performer hoists a bamboo pole up to **12 metres tall**, strung with as many as **46 paper lanterns** lit by candle, and balances the whole flexing, glowing mast on a palm, a forehead, a shoulder, or a hip.

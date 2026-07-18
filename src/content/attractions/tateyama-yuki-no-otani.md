@@ -62,6 +62,13 @@ cinnamon:
     At my scale the wall is a glacier with a queue, and I did what visitors do — pressed a paw into the snow face alongside ten thousand handprints, measured myself against the painted height markers (I am 0.4% of peak wall), and shivered gloriously in June.
 
     The wall walk opens mid-April and shrinks all summer; go early in the season for maximum canyon. It's one stop on the full Alpine Route crossing, which is its own epic. Bring sunglasses — snow at that scale is LOUD with light. Bring also a warm thing. Trust me. Rented body heat does not exist.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "❄️"
+      caption: "Pressing a paw print into the snow face beside ten thousand handprints, between walls twenty metres high. I measured against the markers: 0.4% of peak wall."
+    - cast: [cinnamon, mon]
+      prop: "🚌"
+      caption: "Shivering gloriously in June on asphalt between white cliffs taller than the buses. Mon-chan's fluff finally met a wall it couldn't out-volume."
 ---
 
 High on the **Tateyama Kurobe Alpine Route**, at the Murodo plateau, falls some of the heaviest snow on Earth — and every spring, road crews don't just clear it, they sculpt it. The result is **Yuki-no-Otani**, the "Great Snow Valley": a plowed corridor where the road runs between sheer white walls of packed snow that can rise **20 metres** overhead.

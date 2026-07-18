@@ -33,6 +33,13 @@ cinnamon:
     At my scale one bowl is a proper cauldron, but the culture demands participation: I cleared three (heroic; documented; the table applauded) while the humans around me built towers of eight, twelve, twenty. The broth is the point — deep, spiced, slightly ferrous, generations old as a recipe.
 
     Bowls cost pocket change, the canal-side benches wobble authentically, and the bowl-stack photo is mandatory on exit. Come hungry, count honestly, tip the tower-builders' patience. My stack stands at three. Growing.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍜"
+      caption: "Three bowls cleared — heroic, documented, applauded by the table. At my scale each bowl is a proper cauldron and the broth is generations old as a recipe."
+    - cast: [cinnamon, mon]
+      prop: "🥣"
+      caption: "The exit scoreboard: Mon-chan's stack of twelve empty bowls, taller than me. The canal-side benches wobble authentically."
 ---
 
 Boat noodles (*kuaytiaw ruea*) were once sold from sampans on Bangkok's canals; to keep from spilling as the boats rocked, they were ladled out in small portions. The tradition lives on in a cluster of stalls in an alley near the Victory Monument, where each bowl arrives barely bigger than a teacup.

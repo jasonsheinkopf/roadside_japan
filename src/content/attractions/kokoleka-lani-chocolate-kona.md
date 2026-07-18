@@ -37,6 +37,13 @@ cinnamon:
     I toured the orchard, inspected the cacao pods (they grow straight out of the trunk like the tree is showing off), and attended the tasting like a scholar. Single-origin chocolate, fermented and made right there — it tastes of fruit first, then chocolate, then somehow the hillside itself.
 
     Tours are small and by arrangement, February works beautifully, and yes: unique taste, verified. Mission complete, ghost popsicle. Bring cash for more bars than you planned.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍫"
+      caption: "The tasting, attended like a scholar: fruit first, then chocolate, then somehow the hillside itself. 'Best in World' in Paris, tasted on the farm that grew it."
+    - cast: [cinnamon, mon]
+      prop: "🌱"
+      caption: "Cacao pods growing straight out of the trunk, like the tree is showing off. Mon-chan, who also grows straight out and shows off, approved."
 ---
 
 ## Bean to bar on a Kona hillside

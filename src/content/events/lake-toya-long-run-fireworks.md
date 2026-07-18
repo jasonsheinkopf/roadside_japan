@@ -64,6 +64,13 @@ cinnamon:
     I verified the claim across three consecutive nights from three vantages: the lakeside promenade (classic), a hot-spring rooftop (superior; steam plus starbursts), and a pine branch over the water (press seats). The boat moves as it fires, so the show pans across the lake like a slow comet with a work ethic.
 
     It's twenty minutes, not a grand finale culture — the pleasure is the ritual: bath, yukata, beer or acorn, nightly sky. The humans on multi-night stays start scheduling dinner around it by day two. Consistency as spectacle. Toya gets it.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎇"
+      caption: "Night two of three, press seats (a pine branch over the water), as the launch boat panned across the caldera lake like a slow comet with a work ethic."
+    - cast: [cinnamon, socks]
+      prop: "♨️"
+      caption: "Night three, the superior vantage: hot-spring rooftop, steam plus starbursts. The ritual is the pleasure — bath, yukata, acorn, nightly sky, six months a year."
 ---
 
 Every hanabi festival in Japan is a one-night, plan-your-year-around-it event — except this one. Toyako Onsen fires off a full 20-minute show every single night for six months.

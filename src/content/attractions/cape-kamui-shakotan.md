@@ -31,6 +31,9 @@ tips:
   - "Pair it with a sea-urchin lunch: Shakotan's uni season runs June-August, and the fishing villages along the cape road are where Sapporo chefs come to eat it."
 status: open
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/130823_Cape_Kamui_Shakotan_Hokkaido_Japan06s3.jpg/960px-130823_Cape_Kamui_Shakotan_Hokkaido_Japan06s3.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:130823_Cape_Kamui_Shakotan_Hokkaido_Japan06s3.jpg"
 website: "https://www.visit-hokkaido.jp/en/spot/detail_10342.html"
 source: ai-agent
 submittedBy: "ai:research-agent"
@@ -44,7 +47,7 @@ aiSummary: "Cape Kamui at the tip of Hokkaido's Shakotan Peninsula: a 770m ridge
 aiKeywords: [cape kamui, shakotan blue, shakotan peninsula, charenka path, hokkaido coast]
 featured: false
 createdAt: 2026-07-13
-updatedAt: 2026-07-13
+updatedAt: 2026-07-18
 cinnamon:
   quote: "The sea here is called Shakotan Blue. I call it 'whoa' blue."
   emoji: "🌊"
@@ -54,6 +57,13 @@ cinnamon:
     The walk out is a 770-metre ridgeline path to a lighthouse at the very tip of the Shakotan Peninsula, with the sea on both sides doing its Shakotan Blue routine — a turquoise that looks imported from somewhere tropical and expensive. The wind up there treats everyone equally, which for me meant travelling the last stretch as a kind of furry kite anchored by my own dignity.
 
     Uni season overlaps summer here; the humans eat sea urchin bowls in the village after, glowing with smugness. Earned smugness. Hold onto small children and smaller squirrels.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌊"
+      caption: "The 770-metre ridgeline path to the lighthouse, Shakotan Blue on both sides. I traveled the last stretch as a furry kite anchored by my own dignity."
+    - cast: [cinnamon, mon]
+      prop: "🍣"
+      caption: "Post-cape uni bowls in the village, in season, glowing with earned smugness. Mon-chan held my tail on the windy bits. Protection, he says."
 ---
 
 Hokkaido isn't supposed to have tropical-looking water — which is exactly why the Shakotan Peninsula's electric turquoise sea earned its own named color, and why the ridge walk at its tip is one of the island's great short hikes.

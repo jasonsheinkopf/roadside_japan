@@ -33,6 +33,13 @@ cinnamon:
     Baan Silapin is a two-hundred-year-old wooden house on the canal where artists moved in and never got around to being boring. There's a mossy old stupa in the courtyard, coffee, sketchbooks everywhere, and — the reason you come — free traditional Thai puppet shows beside the water. The puppets move like they have opinions. I checked behind the screen. Three humans per puppet. Still not convinced.
 
     Shows don't happen every day, so check ahead — the visitors who wander in blind and catch one act like they've won something, because they have.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🎭"
+      caption: "Front row for the free canal-side puppet show. I clapped so hard I nearly went in; Socks held my tail as a precaution."
+    - cast: [cinnamon]
+      prop: "🛶"
+      caption: "The two-hundred-year-old wooden house from the water, mossy stupa and all. Shows don't run every day — check ahead and feel like you've won something."
 ---
 
 On a quiet stretch of the old Bang Luang canal in Thonburi, this rambling century-old teak house has been reborn as an artists' collective — part café, part gallery, part workshop — gathered around a small white *chedi* and a wooden stage over the water.

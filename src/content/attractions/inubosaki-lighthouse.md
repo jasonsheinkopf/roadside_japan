@@ -68,6 +68,13 @@ cinnamon:
     I slept in the lighthouse garden hedge and reported for duty at 04:20. The Pacific went pewter, then peach, then on fire, and the tall white lighthouse stood there taking the credit as lighthouses do. Then I climbed its 99 steps — steep ship-ladder ones at the top — for a horizon that genuinely curves.
 
     On the way out, wet rice crackers from the shop at the base (the local specialty; chewy, briny, correct) and the little Choshi train home. The humans who came only for sunset had it backwards. Dawn is the show. The lighthouse knows.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌅"
+      caption: "04:20, reporting for the mainland's earliest sunrise. Pewter, then peach, then fire — the lighthouse stood there taking the credit, as lighthouses do."
+    - cast: [cinnamon, socks]
+      prop: "🗼"
+      caption: "The 99 steps, counted, with steep ship-ladders at the top. Then wet rice crackers from the shop at the base — chewy, briny, correct."
 ---
 
 Where the Boso Peninsula runs out into the Pacific, the land ends in a windy headland topped by a tall white tower: the **Inubosaki Lighthouse**, standing at one of the easternmost points of mainland Japan since 1874.

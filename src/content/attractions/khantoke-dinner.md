@@ -34,6 +34,13 @@ cinnamon:
     Seating a squirrel cross-legged is a geometry problem the hosts solved with a cushion the size of a coaster, and I dined at tray level like visiting nobility. Sticky rice, I must tell you, is the perfect squirrel food: it comes pre-clumped for paws.
 
     Yes, it's a show for visitors; it's also a real feast format with real history, done with pride. Come hungry, sit low, clap on the beat. The dancers' fingernail extensions deserve their own museum.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍢"
+      caption: "Dining at tray level from a cushion the size of a coaster, like visiting nobility. Sticky rice is the perfect squirrel food: pre-clumped for paws."
+    - cast: [socks, mon]
+      prop: "💃"
+      caption: "The Lanna dancers working the room. Socks clapped on the beat; Mon-chan believed the fingernail dance was directed at him personally."
 ---
 
 *Khantoke* is the traditional way of dining in Lanna, the old northern kingdom centred on Chiang Mai. Guests sit on cushions on the floor around a *khantoke* — a round, waist-high pedestal tray — from which a rotating array of small dishes is shared: sticky rice, *nam prik ong*, crispy pork, Chiang Mai sausage, curries, and more.

@@ -70,6 +70,13 @@ cinnamon:
     Cloud-sea conditions have requirements (autumn, clear night, humid morning, no wind), so I did it properly: up the trail in the dark, paws frosty, dawn on the ridge with a small congregation of photographers whispering like churchgoers. The fog arrived. The castle floated. A man beside me quietly cried into his lens cloth. Standard, I'm told.
 
     View it FROM Ritsuunkyo across the valley for the classic shot, or stand ON the ruins inside the cloud. I did both. Do both. Autumn dawns are a lottery; buy the ticket anyway.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "☁️"
+      caption: "Dawn on the ridge with a congregation of whispering photographers. The fog arrived, the castle floated, a man quietly cried into his lens cloth. Standard, I'm told."
+    - cast: [cinnamon, socks]
+      prop: "🥾"
+      caption: "Up the trail in the dark, paws frosty, grumpiness fully forgiven by sunrise. Autumn, clear night, humid morning, no wind — the cloud sea has requirements."
 ---
 
 Four hundred years ago, the castle on this ridge in Hyogo was abandoned. What's left — long runs of fitted **stone ramparts** following the spine of the mountain — has earned the nickname "the Machu Picchu of Japan." But its real fame comes at dawn, when a **sea of clouds** wells up from the valley and the ruins appear to float above the world.

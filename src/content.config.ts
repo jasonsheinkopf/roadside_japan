@@ -110,6 +110,13 @@ const commonFields = z.object({
 
   // --- Media & links ---
   heroImage: z.string().optional(),
+  /**
+   * Attribution for heroImage (e.g. "Photo via Wikimedia Commons" + the file page).
+   * Required in practice for Commons-licensed heroes — do NOT duplicate the hero into
+   * `photos[]` just to carry a credit (docs/PHOTO_ENRICHMENT.md).
+   */
+  heroCredit: z.string().optional(),
+  heroCreditUrl: z.string().url().optional(),
   photos: z.array(photo).default([]),
   website: z.string().url().optional(),
 

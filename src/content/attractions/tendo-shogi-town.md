@@ -62,6 +62,13 @@ cinnamon:
     I watched a master write the same character forty times, each one identical and each one alive, which is calligraphy's whole trick. In spring the town holds Ningen Shogi — HUMAN shogi, played with armored people on a giant hillside board under blossoms — which I regrettably missed and about which my journal contains only the words 'RETURN. APRIL.'
 
     The humans who stop here are mostly shogi pilgrims; the rest of Japan hurries through to the onsens. Stop. Watch the brushes. Buy a keychain piece with your name inked by a national craftsman for pocket change.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "♟️"
+      caption: "Watching a master ink the same character forty times, each one identical and each one alive — calligraphy's whole trick, on blessed maple."
+    - cast: [cinnamon, mon]
+      prop: "🏘️"
+      caption: "Losing to a manhole cover. My journal on the spring HUMAN shogi festival — armored people on a hillside board under blossoms — reads, in full: 'RETURN. APRIL.'"
 ---
 
 If a town can have a hobby, **Tendo's** is **shogi** — Japanese chess. It produces roughly **95% of all the shogi pieces in Japan**, and it celebrates that fact with a wholehearted, slightly silly enthusiasm that makes it a delight to wander.

@@ -62,6 +62,13 @@ cinnamon:
     Peak stripes run July through September, and the scale is honest — this is a working flower farm the size of a neighborhood, not a photo set, though it is also unavoidably a photo set. I contributed to three strangers' foregrounds without being asked.
 
     Biei's blue pond is minutes away; do both. Buy the lavender bun. Greet the alpacas as equals; they will not reciprocate, and that's their right.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌈"
+      caption: "Down in the ribbon-bands from the Norokko tractor wagon, then on paw through the rows. I contributed to three strangers' foregrounds without being asked."
+    - cast: [cinnamon, mon]
+      prop: "🦙"
+      caption: "The alpaca ranch at the top, where staff-weary alpacas observe the flowers. Mon-chan greeted the fluffiest as an equal and was noticed, which he counts as a win."
 ---
 
 Biei's rolling farmland is famous for looking like a patchwork quilt; Shikisai-no-Oka is where somebody deliberately turned fifteen hectares of it into rainbow stripes.

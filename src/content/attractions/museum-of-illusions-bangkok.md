@@ -34,6 +34,13 @@ cinnamon:
     As a creature whose survival depends on accurately judging distances, I found the tilted room PERSONALLY OFFENSIVE and did four laps. In the Ames room I achieved, briefly, the size of a large dog, and I want witnesses to know I used the power benevolently.
 
     It's small-ish, air-conditioned, and best with at least one other person to photograph and betray. Rainy-afternoon perfect. The vending machine outside spoke and I left at speed, but that's on me, not the museum.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌀"
+      caption: "Lap three of the tilted room, which as a professional judge of distances I found PERSONALLY OFFENSIVE. My tail could not cope. There are photos."
+    - cast: [cinnamon, mon]
+      prop: "📐"
+      caption: "The Ames room, where I briefly achieved the size of a large dog and used the power benevolently. Mon-chan walked to the shrinking corner and refuses to discuss it."
 ---
 
 Part of an international chain but reliably good fun, the Museum of Illusions packs a couple of floors with holograms, perspective tricks, a vortex tunnel, an infinity room, and the classic Ames room that makes one person tower over another.

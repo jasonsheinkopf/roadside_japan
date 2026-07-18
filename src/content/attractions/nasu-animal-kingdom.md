@@ -63,6 +63,13 @@ cinnamon:
     Elsewhere the park runs generous: hand-feeding, free-roaming birds and alpacas in the walk-through zones, and a raptor show where a hawk buzzes the crowd low enough to part hair. During the flight demonstration I experienced a moment of ancient, cellular panic (hawk! HAWK!) followed by professional admiration. Both accurate.
 
     It's spread over a highland hillside — shuttle between the two zones, wear real shoes. Winter for the bathing capybaras, any season for the general attitude, which is: animals first, humans lucky. Correct attitude. Full acorns.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦫"
+      caption: "Certifying the winter headline: capybaras in their own onsen, yuzu bobbing around their enormous calm faces. Better with the sound on — they hum."
+    - cast: [cinnamon, socks]
+      prop: "🦅"
+      caption: "The raptor show, where a hawk parted the crowd's hair. I experienced ancient cellular panic (HAWK!) followed by professional admiration. Socks experienced only the panic."
 ---
 
 Up in the cool **Nasu highlands**, a short hop from the volcano and the hot springs, sprawls one of Tochigi's most enjoyable family stops: **Nasu Animal Kingdom**, a zoo built around getting **close** to the animals.

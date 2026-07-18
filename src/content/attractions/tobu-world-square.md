@@ -67,6 +67,13 @@ cinnamon:
     Here is the thing: at 1:25 scale, I am a KAIJU. I toured Earth as its largest resident — peering into Versailles' windows, straddling the Nile, looming benevolently over a tiny Times Square whose tiny people remained calm. The modelwork rewards crawling close: miniature weddings, tiny crimes, a window-washer forever half-done with the Empire State.
 
     It's near Nikko, pairs with Edo Wonderland for a full day of alternate realities, and the humans bring zoom lenses for the detail work. I brought only my size advantage. World tour: one afternoon. Passport: unnecessary. Ego: enormous.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌍"
+      caption: "Touring Earth at 1:25 scale as its largest resident — peering into Versailles' windows, looming benevolently over a tiny Times Square that remained calm."
+    - cast: [cinnamon, mon]
+      prop: "🗼"
+      caption: "Mon-chan beside the 26-metre mini Skytree, finally taller than a landmark. The detail work rewards crawling close: tiny weddings, tiny crimes, one window-washer forever half-done."
 ---
 
 Near the hot springs of Kinugawa, just shy of Nikko, is a theme park that hands you the whole planet at knee height. **Tobu World Square** packs **over 100 of the world's most famous buildings** into one walkable garden, each rebuilt in painstaking **1:25 miniature**.

@@ -33,6 +33,13 @@ cinnamon:
     It's a proper, genuinely good Thai restaurant decorated entirely in condoms — mannequins dressed in them, lampshades made of them, a Captain Condom standing guard. The gimmick has a spine: all profits fund a long-running family-planning and rural-development NGO, which has been quietly doing serious work for decades. Dinner as public health. The garden seating is lovely and the tom yum means business.
 
     The humans arrive smirking and leave making donations. Instead of after-dinner mints, you get — well. You'll see. I took one for Socks as a joke and he did not find it funny, which made it funnier.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🥗"
+      caption: "Garden seating, serious tom yum, Captain Condom standing guard. Socks read the NGO's story twice and left a donation at the till."
+    - cast: [cinnamon]
+      prop: "🎁"
+      caption: "The famous after-dinner not-a-mint. I took one for Socks as a joke. He did not find it funny."
 ---
 
 The slogan says it all: "Our food is guaranteed not to cause pregnancy." Cabbages & Condoms is a leafy garden restaurant serving solid, well-priced Thai food — and every inch of it is decorated with condoms, from chandelier-like installations to a superhero mannequin in the lobby.

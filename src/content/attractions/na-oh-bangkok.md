@@ -37,6 +37,13 @@ cinnamon:
     I dined at a porthole seat — the correct seat; every seat is a window seat when the plane is a restaurant — and the theatrics are matched by real cooking: the tasting courses tell the survival story in food, and the staff commit to the bit like actors who also carry plates.
 
     Book ahead; the plane is small and Bangkok knows about it. It's the rare concept restaurant where the concept and the food both land. Pun intended, left in deliberately, no apologies.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🍽️"
+      caption: "Porthole seats — the correct seats; every seat is a window seat when the plane is a restaurant. The tasting courses tell the survival story in food."
+    - cast: [cinnamon]
+      prop: "✈️"
+      caption: "Cabin lights on, fuselage ribs exposed, imaginary bow tie deployed. Book ahead; the plane is small and Bangkok knows about it."
 ---
 
 Inside the grounded Lockheed airliner that forms the centrepiece of the Chang Chui creative park, Na Oh turns the fuselage into a dining room like no other. The concept is deliberately cinematic — a dim, dystopian "survival" world with a storytelling set menu served among the salvaged cabin fittings.

@@ -60,6 +60,13 @@ cinnamon:
     The water is a blue I have no ink for (I tried; see Kakimori). Trout hang above the sunken trunks as if levitating. I sat on the viewing rail for a long while doing my best thinking, which is what the pond is for — it's small, there's no 'more' of it, just deeper.
 
     The gravel road discourages the tour buses, which is the pond's whole security system. Go mid-morning when the light gets in. Leave the drone home; leave everything home, really. Bring the quiet you want to have.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💎"
+      caption: "Long sit on the viewing rail over water I have no ink for, fallen trees preserved on the blue bottom like specimens the forest is keeping."
+    - cast: [cinnamon, socks]
+      prop: "🐟"
+      caption: "Trout hanging over the sunken trunks as if levitating. The gravel road in is the pond's whole security system — leave everything home, really."
 ---
 
 Biei's Blue Pond gets the tour buses; eastern Hokkaido keeps a smaller, stranger blue pond at the end of a forest road, and most visitors never hear about it.

@@ -103,6 +103,17 @@ const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).
         }
       </div>
       <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+      {
+        record.hero && data.heroCredit && (
+          <p class="absolute right-2 top-2 rounded bg-black/50 px-2 py-0.5 text-[10px] text-white/80">
+            {data.heroCreditUrl ? (
+              <a href={data.heroCreditUrl} class="hover:underline">{data.heroCredit}</a>
+            ) : (
+              data.heroCredit
+            )}
+          </p>
+        )
+      }
       <div class="absolute bottom-0 left-0 right-0 p-5 text-white sm:p-7">
         <div class="mb-2 flex flex-wrap items-center gap-2">
           <span class="chip border-transparent bg-white/90 text-ink">{cat.emoji} {cat.label}</span>

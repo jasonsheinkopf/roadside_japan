@@ -63,6 +63,13 @@ cinnamon:
     The DIC Kawamura Memorial Museum is a world-class collection hidden on a corporate campus in the woods — swans outside, silence inside. The Rothko Room is the heart of it: seven murals, low light, benches. I sat still for eleven whole minutes, which for a squirrel is a monastic feat.
 
     Come for the Rothkos, stay to walk the gardens. The humans leave quieter than they arrived. So did I.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🖼️"
+      caption: "Eleven whole minutes of sitting still in the Rothko Room — seven murals, low light, benches. For a squirrel, a monastic feat."
+    - cast: [cinnamon, mon]
+      prop: "🦢"
+      caption: "The garden swans critique you on the way in. Mon-chan tried to out-fluff one and lost on points. \"…I don't like him.\""
 ---
 
 Deep in the woods of inland Chiba, reached by a free shuttle and a walk through gardens, sits an art museum that holds its own against anything in Tokyo. The **DIC Kawamura Memorial Museum of Art** pairs a serious collection of modern and contemporary work with a setting of ponds, lawns, and sculpture.

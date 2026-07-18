@@ -64,6 +64,13 @@ cinnamon:
     Luang Pu Bunleua Sulilat built all this with untrained local helpers after visions he trusted more than convention. The statues have the specific intensity of things made from belief rather than blueprints; walking beneath the naga's seven heads, I felt the exact hush I feel in thousand-year-old temples, which tells you something about where holiness actually comes from.
 
     It's on the Mekong edge of Nong Khai, easily paired with the riverside promenade. Go in soft evening light. Bring your openness. The concrete believes in itself.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐉"
+      caption: "Beneath the seven-headed naga canopy, feeling the exact hush of thousand-year-old temples — which tells you something about where holiness actually comes from."
+    - cast: [cinnamon, socks]
+      prop: "🗿"
+      caption: "Walking through the wheel of life among 25-metre concrete gods built from one man's visions. Socks stayed close and read every plaque twice."
 ---
 
 On the banks of the Mekong near the Lao border, a field bristles with **gigantic concrete gods**. **Sala Kaew Ku** (also spelled Sala Keoku) is the creation of **Luang Pu Bunleua Sulilat**, a charismatic mystic who claimed his cosmology after tumbling into a cave as a young man, and who built sprawling sculpture parks on both sides of the Mekong.

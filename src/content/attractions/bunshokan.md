@@ -65,6 +65,13 @@ cinnamon:
     It's the old prefectural office from 1916 — English-Renaissance stone, a clock tower that still gets wound by hand, marble stairs built for sweeping up dramatically, and a chandeliered assembly chamber. It is entirely free, which baffles me anew every time I write it. I posed on the balustrade like a small furry governor. Nobody stopped me. Free buildings with this much marble usually have more rules.
 
     Film crews love it, retirees love it, the guard by the entrance clearly loves it most of all. Rainy-day perfection. The clock tower gonged while I was inside and I felt it in my teeth.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏛️"
+      caption: "Posing on the marble balustrade like a small furry governor. Nobody stopped me — free buildings with this much 1916 marble usually have more rules."
+    - cast: [cinnamon, socks]
+      prop: "🕰️"
+      caption: "The clock tower — still wound by hand — gonged while we were inside and I felt it in my teeth. Socks now wants a chandelier for the office."
 ---
 
 In the middle of Yamagata City stands a building that looks like it teleported in from a European capital: **Bunshokan**, the **former prefectural office and assembly hall**, completed in **1916** in a confident **English-Renaissance** style and crowned by a landmark **clock tower**.

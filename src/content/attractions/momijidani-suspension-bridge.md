@@ -67,6 +67,13 @@ cinnamon:
     I crossed it four times: once normally, once at the handrail-cable level (superior), once in autumn imagination (the maples were mid-turn, red creeping down the valley like spilled ink), and once backward, for science. The gorge below runs green and white over boulders; hawks patrol at eye level, which for once means MY eye level.
 
     Autumn is the headline season and earns it, but a misty morning off-season gives you the whole swaying kilometre-of-air to yourself. Loses one acorn for the wobble-scream of one particular child. Regains it because, fair.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍁"
+      caption: "Crossing number two of four, taken at handrail-cable level (superior), maples mid-turn below like spilled red ink."
+    - cast: [cinnamon, socks]
+      prop: "🌉"
+      caption: "320 metres of gentle sway that reminds you you're a decision, not a passenger. Everyone bounces. Nobody admits it. Socks admitted it."
 ---
 
 The **Shiobara Onsen** valley, west of Nasu proper, is gorge country — and the most exhilarating way to feel it is to walk straight out over the void. The **Momijidani Otsuribashi** ("Maple Valley Suspension Bridge") stretches **320 metres** across the river canyon, swaying gently underfoot the whole way.

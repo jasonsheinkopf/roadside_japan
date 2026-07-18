@@ -65,6 +65,13 @@ cinnamon:
     I missed the alignment dates and it still flattened me: the processional walkway climbing the volcano, the naga bridges, the pink sandstone lintels carved to lace. Stand at the first doorway and look through — fifteen frames of shrinking light, a physics demonstration a millennium old.
 
     On alignment mornings the crowds arrive before dawn and the temple briefly becomes an instrument being played by the sun. Isan is far from the tourist circuits, which means you may share all this with a dozen people. The ancient engineers knew exactly what they were doing. So should you: go.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌋"
+      caption: "First doorway, looking down fifteen frames of shrinking light — a physics demonstration a millennium old, on the summit of an extinct volcano."
+    - cast: [cinnamon, socks]
+      prop: "🌅"
+      caption: "The naga bridges and pink sandstone lintels carved to lace. On alignment mornings the temple becomes an instrument played by the sun; we shared the whole summit with almost no one."
 ---
 
 Rising from the flat Isan plains on the rim of a **dormant volcano**, **Prasat Phanom Rung** is the finest Khmer temple in Thailand — a pink-sandstone sanctuary built between the 10th and 13th centuries as a shrine to Shiva, contemporary with Angkor.

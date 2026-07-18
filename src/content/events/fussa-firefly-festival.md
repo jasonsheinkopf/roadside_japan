@@ -67,6 +67,13 @@ cinnamon:
     It is not a spectacle; it is a NEIGHBORHOOD, and that's the charm — food stalls run by the shopping street, kids with light-up toys imitating the actual attraction, and then the hush along the water when the first real firefly lifts off and every phone mercifully lowers.
 
     I watched from a streamside reed, glowing with borrowed light. Small festivals keep the big country running. Go local, buy the yakisoba, thank a firefly.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌟"
+      caption: "Streamside reed seat, glowing with borrowed light, as the first Genji firefly lifted off and every phone mercifully lowered."
+    - cast: [cinnamon, socks]
+      prop: "🏮"
+      caption: "The shopping-street stalls before dusk — kids with light-up toys imitating the main attraction. Not a spectacle, a NEIGHBORHOOD, and that's the charm. Socks approved of the robots involved. Professionally."
 ---
 
 In western Tokyo, away from the big-name sightseeing loop, **Fussa Firefly Festival** turns a small neighborhood park and its nearby waterways into a summer-night gathering spot. The draw is simple: **Genji fireflies** flashing in the dark, watched by families and local visitors who know to show up after sunset.

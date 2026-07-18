@@ -32,6 +32,13 @@ cinnamon:
     The Chamchuri Giant is a monkeypod more than a century old whose canopy spreads so wide it makes its own weather: a cool green room the size of a plaza, on the outskirts of Kanchanaburi. As a professional resident of trees, I inspected the buttress roots, the moss balance, the branch architecture. My finding: this is one of the finest trees I have ever climbed, and I have climbed nations' worth.
 
     The humans stay ten minutes and take one photo of a person looking small. Stay longer. Lie down. Let the tree do the talking. Full acorns. All of them.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌳"
+      caption: "Peer review, mid-canopy. Finding: one of the finest trees I have ever climbed, and I have climbed nations' worth."
+    - cast: [cinnamon, socks]
+      prop: "🍃"
+      caption: "Lying under the century-old canopy that makes its own weather — a cool green room the size of a plaza. Most humans stay ten minutes. Stay longer."
 ---
 
 On the edge of Kanchanaburi stands one enormous *chamchuri* — a monkeypod or rain tree — whose vast umbrella of branches has spread so far that a raised walkway now circles beneath it to protect the roots while letting visitors stand in its shade.

@@ -69,6 +69,13 @@ cinnamon:
     One hell has crocodiles. I have notes about this decision but respect the commitment. The correct souvenir is an egg boiled in the spring steam; I ate a third of one and felt volcanic for hours.
 
     Visitors debate which hells are worth it — consensus says the blue Umi Jigoku and the red Chinoike are the headliners. Agreed. The hells are a show-off, and I am pro-show-off.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "♨️"
+      caption: "Touring the seven hells — cobalt, blood-red, milk-white, all boiling, none bathable. Socks kept a professional distance from the one with crocodiles."
+    - cast: [cinnamon]
+      prop: "🥚"
+      caption: "A third of an egg boiled in spring steam; I felt volcanic for hours. The blue Umi Jigoku and red Chinoike are the headliners, and consensus is right."
 ---
 
 In the steam-wreathed town of **Beppu**, the earth doesn't politely warm your bath — it boils, hisses, and glows in colors no hot spring has any right to be. The **Jigoku Meguri**, or "Hell Tour," strings together seven of these geothermal spectacles, each too hot and too strange to bathe in.

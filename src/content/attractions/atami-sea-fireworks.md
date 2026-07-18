@@ -61,6 +61,13 @@ cinnamon:
     Atami runs about fifteen shows a year, so unlike most fireworks you don't have to plan your whole summer around one rainy night. I watched from a hot-spring town rooftop with my paws over my ears and my mouth open. The sound comes off the water, hits the mountains, and comes back through your ribs. I vibrated like a struck bell for a full minute.
 
     Locals say the late-summer shows are busiest and the off-season ones are the secret. Either way: the roar is the show. Bring something to grip.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🎆"
+      caption: "Rooftop seats above the bay. The sound comes off the water, hits the mountains, and comes back through your ribs — Socks made it through two shells before retreating."
+    - cast: [cinnamon]
+      prop: "♨️"
+      caption: "Recovering in hot-spring steam afterward. With about fifteen shows a year, you don't have to plan a whole summer around one rainy night."
 ---
 
 Most cities hold one big summer fireworks night; Atami holds around fifteen a year — and its bay's odd shape turns every one of them into an unusually intense show.

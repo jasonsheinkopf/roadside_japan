@@ -58,6 +58,13 @@ cinnamon:
     You descend stairs into cold, tinted dark, and the ceiling just keeps going up — pick marks on every surface, each one a human arm-swing, millions of them. It's 8°C year-round; concerts and art shows happen down there, and films borrow it whenever they need 'impossible fortress.' I explored ledges no tour reaches and felt like a very small king of a very large hall.
 
     Bring a jacket in August, I'm serious. Pair with the giant cliff-carved Kannon next door. Humans dug this by hand and then made it beautiful. Full acorns, echoing.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⛏️"
+      caption: "A ledge no tour reaches, in the hand-carved underground cathedral — pick marks on every surface, each one a human arm-swing, millions of them. My squeak echoed six times."
+    - cast: [cinnamon, socks]
+      prop: "🧥"
+      caption: "8°C year-round, jackets in August, I'm serious. Socks brought two and lent me neither until the second chamber."
 ---
 
 From the surface it looks modest. Then you walk down the staircase and the ceiling vanishes into darkness overhead: the **Oya History Museum** is the mouth of a hand-dug stone quarry the size of a cathedral, 30 metres deep and roughly 20,000 square metres in floor area.

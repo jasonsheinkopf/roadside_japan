@@ -62,6 +62,13 @@ cinnamon:
     The pairing is the point: the ancient carvings whispering in their cave, the huge postwar Kannon standing in the open — the same cliff, the same craft, a thousand years apart, both saying roughly the same thing.
 
     I climbed to the Kannon's viewing ledge (stairs exist; shoulders exist too) and sat by her calm gray jaw a while. Ten minutes from the underground quarry hall. Do all three and Oya becomes a full day of stone with a soul.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🗿"
+      caption: "Sitting by the 27-metre Kannon's calm gray jaw — carved by hand from the cliff after the war, ten minutes from the underground quarry her stone came from."
+    - cast: [cinnamon, socks]
+      prop: "🕯️"
+      caption: "The thousand-year-old cliff Buddhas in their cave, whispering-quiet. Same cliff, same craft, a millennium apart, both saying roughly the same thing."
 ---
 
 Right beside the cavernous **Oya stone quarry** outside Utsunomiya, the soft local rock has been carved for worship as well as construction. **Oya-ji Temple** tucks its main hall **into a rock overhang**, and behind it, hewn into the living cliff, are some of **Japan's oldest stone Buddhist carvings**.

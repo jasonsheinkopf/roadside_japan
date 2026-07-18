@@ -67,6 +67,13 @@ cinnamon:
     The kid was right. In winter, Japan's northernmost zoo lets its king penguins out for a waddle down a snow path, twice a day, right through the crowd. I stood in the front row — technically on a stranger's boot — as a dozen enormous formal birds shuffled by at exactly my eye level. One looked at me. I bowed. It did not bow back, but royalty is like that.
 
     Go at the 11:00 walk, arrive early, stand on the downhill side. The penguins are faster than you'd think and funnier than anyone admits.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐧"
+      caption: "Front row of the 11:00 walk — technically on a stranger's boot — as a dozen enormous formal birds shuffled past at exactly my eye level."
+    - cast: [mon]
+      prop: "❄️"
+      caption: "Mon-chan sizing up a king penguin. It was bigger AND waddled better. \"…I don't like him.\""
 ---
 
 Most zoos keep the animals behind glass. **Asahiyama Zoo**, the northernmost in Japan, had a better idea for winter: open the gate and let the **penguins go for a walk**. Twice a day in the snow season, a line of **king penguins** waddles out along a roped path, straight through the watching crowd.

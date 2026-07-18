@@ -66,6 +66,13 @@ cinnamon:
     I boarded the big orange icebreaker and stood at the bow while it crunched through the pack ice like I crunch through a walnut, which is to say: loudly, and with visible joy. White plates of ice tipped and slid past below me. An old man next to me cried a little. I understood.
 
     The humans kept saying 'once in a lifetime,' but they have long lifetimes. For a squirrel this was a once-in-EVER. Wear everything you own. My tail froze into a question mark and stayed that way until Kitami.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🧊"
+      caption: "Bow of the icebreaker, mid-crunch. My tail froze into a question mark somewhere around here and stayed that way until Kitami."
+    - cast: [socks, mon]
+      prop: "🚢"
+      caption: "Socks watched the ice from inside the heated cabin the whole way. Mon-chan claims the sea only froze because it saw his winter coat and gave up."
 ---
 
 For most of the year Abashiri is an ordinary port on Hokkaido's northeast coast. Then, in deep winter, the **Sea of Okhotsk freezes** — drift ice born off Siberia floats south and packs against the shore until the ocean becomes a groaning white plain. And the way to experience it is to **break through it** on a ship.

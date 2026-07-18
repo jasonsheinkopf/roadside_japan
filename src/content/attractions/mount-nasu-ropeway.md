@@ -67,6 +67,13 @@ cinnamon:
     I rode the gondola roof-rail (window seats are for those who fit in them) and did the summit loop with a chain-grabbing section that the humans treat as drama and I treat as furniture. Up top, the wind auditioned me for a kite role again. The crater breathes. You can hear it if you stop crunching gravel.
 
     Autumn turns the slopes to embers and doubles the crowd; early gondola beats it. An active volcano with public transit to the door — Japan remains undefeated.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🚠"
+      caption: "Gondola roof-rail up the live volcano — window seats are for those who fit in them. My courage swayed with the cabin."
+    - cast: [cinnamon, socks]
+      prop: "🌋"
+      caption: "Crater rim, steam vents hissing, the whole Kanto plain unrolled below. Stop crunching gravel and you can hear the crater breathe. Socks heard it once and that was plenty."
 ---
 
 The **Nasu highlands** rise to a cluster of peaks topped by **Chausu-dake**, an **active volcano** that still vents sulfur from its summit. A **ropeway** does the hard early work, lifting you high up the mountain's flank in a few smooth minutes.

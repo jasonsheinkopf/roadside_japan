@@ -65,6 +65,13 @@ cinnamon:
     I walked the gold tunnel at rodent height, inside a ceiling of warm stars, and then took the elevated 'Island Fuji' viewing platform ride to see the whole park burning gently below. The theme field's animation runs minutes long and the crowd narrates it involuntarily ('ooh—OOH—').
 
     Mid-October through spring, busiest at December weekends — weekday late evening thins the crush. It's near Nagoya, pairs with hot food stalls and greenhouse begonias. Electricity as gardening. The bees would be so confused. I loved it.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💡"
+      caption: "The gold tunnel at rodent height, inside a ceiling of warm stars, long enough to lose your sense of time in."
+    - cast: [cinnamon, mon]
+      prop: "✨"
+      caption: "The wall-sized light panorama, involuntarily narrated by the crowd ('ooh—OOH—'). Mon-chan joined the narration. Loudly. Weekday late evening thins the crowds."
 ---
 
 When the flowers fade, **Nabana no Sato** flips a switch and becomes something else entirely: one of the country's largest and most elaborate **winter illuminations**, with millions of LEDs strung across a sprawling flower park near Nagoya.

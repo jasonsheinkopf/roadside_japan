@@ -61,6 +61,13 @@ cinnamon:
     The ropeway takes three minutes; the summit deck takes your breath and your body heat (wind, always, bring layers even in August). I secured a spot on the railing before the tour buses surged and watched the lights come on district by district as the sky went from peach to ink. The crowd counts down the sunset like New Year's.
 
     Go up 30–40 minutes before dark to watch the transition — that's the show, not the static postcard after. A 'million-dollar view' is underpricing it; I ran the acorn conversion and it's worse for my currency.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🌃"
+      caption: "Railing spot secured 40 minutes before dark, watching the lights come on district by district between two black seas. The crowd counts down the sunset like New Year's."
+    - cast: [mon]
+      prop: "🚡"
+      caption: "Mon-chan on the three-minute ropeway up, fluffed to double size against the summit wind. Functional AND fashionable, he notes. Bring layers even in August."
 ---
 
 Every Japanese city claims a night view; Hakodate's is one of the canonical three, and the reason is pure geography.

@@ -19,9 +19,12 @@ cost:
   type: free
 status: open
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Wat_Tham_Suea%2CKanchanaburi_%2818%29.jpg/960px-Wat_Tham_Suea%2CKanchanaburi_%2818%29.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Wat_Tham_Suea%2CKanchanaburi_%2818%29.jpg"
 source: imported
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 country: thailand
 submittedBy: import:roadside-thailand
 cinnamon:
@@ -33,6 +36,13 @@ cinnamon:
     I took the dragon rail itself, hand over hand up the balustrade — the builders left a perfect squirrel route and I choose to believe it was intentional. Up top, the Buddha's gold catches the afternoon like a second sun, and the wind arrives with field-smell and temple bells.
 
     It pairs with the Death Railway sites for a Kanchanaburi day of very different altitudes, historical and literal. Late afternoon light is the one you want. The cave itself, below, keeps its shrines cool and its bats opinionated.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐅"
+      caption: "Hand over hand up the dragon balustrade itself — the builders left a perfect squirrel route and I choose to believe it was intentional."
+    - cast: [cinnamon, socks]
+      prop: "🌾"
+      caption: "Late afternoon on the terrace, the giant Buddha's gold catching the light like a second sun over the rice-field quilt. Socks took the funicular, for the honest."
 ---
 
 Not to be confused with Krabi's temple of the same name, Kanchanaburi's Wat Tham Suea sits on a hill above the Mae Klong, dominated by a vast golden seated Buddha that can be seen for miles across the plain.

@@ -62,6 +62,13 @@ cinnamon:
     Fujishiro's 'kage-e' are cut-paper worlds lit from behind: jewel-colored fairytale scenes with silhouetted children, foxes, and cathedrals of light. It sounds gentle and it is, but stand in the dark hall where the big panoramas glow and it goes right past gentle into quietly overwhelming. He worked into his nineties. It shows — the late rooms are the brightest.
 
     The humans here whisper without being asked. Water lilies float in the entrance pools. Loses one acorn only because the gift shop postcards cannot glow, an unfair standard, but I hold it.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🌈"
+      caption: "The dark hall where the big glowing panoramas go right past gentle into quietly overwhelming. Socks whispered without being asked; everyone here does."
+    - cast: [cinnamon]
+      prop: "🐈"
+      caption: "The cat statue in the garden whose gaze led me here. Always follow a cat statue's gaze — they place those deliberately."
 ---
 
 Of all the Nasu highland museums, the **Fujishiro Seiji Museum** is the most quietly enchanting. It's devoted to **Seiji Fujishiro**, a master of **kage-e** — backlit cut-paper "shadow pictures" — whose fairytale scenes glow with the saturated color of stained glass.

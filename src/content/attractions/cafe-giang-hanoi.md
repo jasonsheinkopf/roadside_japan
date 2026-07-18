@@ -55,6 +55,13 @@ cinnamon:
     The story hooked me before the drink did: in 1946, Mr. Nguyễn Văn Giảng, a bartender at the Metropole hotel, couldn't get fresh milk, so he whisked egg yolk and sugar into a custard cloud and floated it on dark Vietnamese coffee. His family still makes it the same way. I sat on a low stool upstairs, licked foam off my whiskers for a good ten minutes, and apologized to nobody.
 
     The humans around me all did the same thing: one sip, then a stunned little laugh. My tip — order it hot, and let it sit in its warm-water bowl a minute; rushing a seventy-year-old recipe felt rude even to me.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "☕"
+      caption: "Egg coffee on a low stool upstairs at the birthplace itself — yolk whisked into a custard cloud since 1946, when the Metropole's milk ran out."
+    - cast: [cinnamon, socks]
+      prop: "🥚"
+      caption: "Ten solid minutes of licking foam off whiskers, no apologies. Watch the humans: one sip, then a stunned little laugh, every time."
 sources:
   - title: "Café Giảng — official site (Egg coffee since 1946)"
     url: "https://cafegiang.vn/about-us/"

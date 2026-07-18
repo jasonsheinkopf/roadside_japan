@@ -52,6 +52,13 @@ cinnamon:
     I keep the atlas's field journals, so this was less shopping and more equipment procurement. I chose a bark-brown cover, mixed-weight pages (sketching AND ranting), and a copper ring binding. For the ink I mixed acorn-cap brown with a drop of torii red, and the ink man held it to the light and said 'autumn.' I nearly wept into the sample jar.
 
     Budget an hour and more money than seems sane for paper; the humans all overspend and float out happy. My notebook is the one this report was drafted in. It performs beautifully.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "📓"
+      caption: "Equipment procurement: bark-brown cover, mixed-weight pages for sketching AND ranting, copper ring binding, bound while I waited."
+    - cast: [cinnamon, socks]
+      prop: "🖋️"
+      caption: "Mixing my personal ink — acorn-cap brown, one drop of torii red. The ink man held it to the light and said 'autumn.' I nearly wept into the sample jar."
 ---
 
 Kuramae has quietly become one of Tokyo's best "old warehouse district turned maker's neighborhood" walks, and Kakimori — open since 2010 — is the anchor most people come for.

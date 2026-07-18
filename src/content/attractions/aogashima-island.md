@@ -67,6 +67,13 @@ cinnamon:
     Aogashima is a green island 360 km out in the Pacific with a smaller volcano sitting inside its crater like an acorn in a bowl. I climbed the outer rim at dawn and looked down at the little cone and the village, and my tail did the thing it does when the world shows off. I also steamed a sweet potato in the volcanic vents, because the locals do, and locals are always right.
 
     Getting there is genuinely hard — boats cancel, the helicopter has nine seats. Everyone I met agreed on one thing: the trying is part of it.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌋"
+      caption: "Dawn on the outer rim, looking down at the little volcano sitting inside the big one like an acorn in a bowl. All 170 porch lights still on below."
+    - cast: [cinnamon, mon]
+      prop: "🍠"
+      caption: "Steaming sweet potatoes in the volcanic vents, like the locals do. Mon-chan supervised from a safe, dignified distance."
 ---
 
 Three hundred and sixty kilometres south of Tokyo, alone in the open Pacific, sits a green wall of cliffs that turns out to be the rim of a volcano — and inside that volcano lives a village. **Aogashima** is the least-populated municipality in Japan, home to around **170 people**, and one of the strangest, most beautiful places the country administers.

@@ -66,6 +66,13 @@ cinnamon:
     I visited the sulfur field where it sits, steam drifting between rock cairns, the split stone roped with fresh shimenawa. As a forest creature I maintain professional courtesy toward all fox-related phenomena, so I bowed twice: once for the legend, once for whatever came out.
 
     The volcanic gas is real — heed the posted warnings on bad-air days. Pair with the ancient onsen shrine next door and Shika-no-yu below. Japan's spookiest geology, still writing sequels.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦊"
+      caption: "Two bows at the split stone, roped with fresh shimenawa: one for the legend, once for whatever came out in March 2022."
+    - cast: [cinnamon, socks]
+      prop: "💨"
+      caption: "Steam drifting between the rock cairns in the sulfur field. The volcanic gas is real — heed the bad-air-day warnings. Socks read the sign three times, aloud."
 ---
 
 Above the old hot-spring town of **Nasu Yumoto**, the forest gives way to a barren, hissing field of yellow sulfur called Sai-no-Kawara — and in the middle of it sits the **Sessho-seki**, the "Killing Stone."

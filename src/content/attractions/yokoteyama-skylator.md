@@ -33,6 +33,9 @@ tips:
   - "The lift shares its base with Shibu Pass, so pair the two — you can walk between them."
 status: seasonal
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Colorful_autumn%28Mt.Yokoteyama_Yamanouchitown_Naganopref_Japan%29_%2850518942341%29.jpg/960px-Colorful_autumn%28Mt.Yokoteyama_Yamanouchitown_Naganopref_Japan%29_%2850518942341%29.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Colorful_autumn%28Mt.Yokoteyama_Yamanouchitown_Naganopref_Japan%29_%2850518942341%29.jpg"
 source: community
 submittedBy: "ghost popsicle"
 sources:
@@ -53,7 +56,7 @@ related:
   - shibu-onsen
   - onioshidashi-park
 createdAt: 2026-07-17T08:45:00Z
-updatedAt: 2026-07-17T08:45:00Z
+updatedAt: 2026-07-18
 cinnamon:
   quote: "A sidewalk that climbs a mountain, clouds sitting below my paws like a lake, and a bakery at the top of Japan. I had three kinds of bread up there out of pure scientific curiosity."
   emoji: "🧇"
@@ -63,6 +66,13 @@ cinnamon:
     I rode up folded into someone's backpack pocket, which felt appropriate for a machine that has been quietly moving people uphill since 1967 — one of the oldest working moving walkways anywhere, they tell me, though it certainly doesn't creak like it. At the top the valley had vanished under a flat white sea, only the far peaks showing, and I sat on the terrace railing with a crumpet the size of my own head from the cafe up there, then found the bakery that claims to be the highest in Japan and sampled its case with what I'd call professional thoroughness.
 
     Other visitors keep saying the same thing: get there for sunrise, because the clouds start burning off within an hour or two — matching exactly what ghost popsicle had already guessed about the 9am cutoff. Shibu Pass shares the same parking area, so the two are one stop, not two, and it's a short drive down to Jigokudani or Shibu Onsen once the clouds are gone and the day is still young.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🧇"
+      caption: "Terrace railing above a flat white cloud sea, crumpet the size of my own head in paw, from the bakery that claims to be Japan's highest. Three breads tested. Scientific curiosity."
+    - cast: [cinnamon, socks]
+      prop: "☁️"
+      caption: "Riding the mountain-climbing sidewalk — quietly moving people uphill since 1967 — folded into a backpack pocket. Socks timed the September dawn right and the valley had vanished."
 ---
 
 The **Yokoteyama Skylator** (横手山スカイレーター) is an outdoor moving walkway — a 200-metre "sidewalk that climbs a mountain" — installed in 1967 on the slope of Mt. Yokote (2,307m) in the Shiga Kōgen ski area, straddling the Nagano side of the Gunma–Nagano border. Paired with a short chairlift, it carries visitors the rest of the way to the summit without a hike, making it one of the easiest ways in Japan to stand above the clouds.

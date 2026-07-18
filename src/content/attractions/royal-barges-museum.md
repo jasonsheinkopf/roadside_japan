@@ -40,6 +40,13 @@ cinnamon:
     They rest in their shed like sleeping dragons in dock — that's not decorative writing, that's the literal scene. Gold leaf, glass mosaic, hulls carved from single enormous trees. Royal processions happen rarely (years apart), so the museum is how you'll meet them, and it's enough to make you gasp in the dark.
 
     It's slightly awkward to reach — canal boat or a walk through back lanes — which keeps it quiet. I perched on a rafter and drew the swan prow for an hour. My sketch is bad. The barge is not.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🚣"
+      caption: "Rafter view of the gilded barges sleeping in their shed like dragons in dock — 45 metres of gold leaf and glass mosaic, hulls carved from single enormous trees."
+    - cast: [cinnamon, socks]
+      prop: "🦢"
+      caption: "Under the great swan-bird Suphannahong prow. Processions happen years apart, so this dark boathouse is how you meet them. We gasped on schedule."
 ---
 
 In a long shed beside a Thonburi canal rest some of the most spectacular boats on earth: the royal barges, brought out only for the rarest ceremonial processions down the Chao Phraya. The grandest, Suphannahong, is carved from a single trunk and crowned with a mythical golden swan.

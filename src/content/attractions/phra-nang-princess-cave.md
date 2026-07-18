@@ -64,6 +64,13 @@ cinnamon:
     I am a folklore professional, so let me file this correctly: it's a working shrine, not a joke, and the fishermen's flowers and incense among the carvings make that clear fast. The humans arrive giggling, read the sign, and settle into a respectful fascination that I find very endearing to watch.
 
     The beach itself is drop-dead: limestone karsts, climbers on the cliffs, longtails nosing the sand. Arrive by boat from Railay, visit the princess politely, swim after. Some places protect their people in unusual ways. All of them count.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🛶"
+      caption: "Arriving by longtail from Railay like a very small pirate princess, limestone karsts standing guard over the sand."
+    - cast: [cinnamon, socks]
+      prop: "🌺"
+      caption: "Filing the shrine correctly: a working one, not a joke — the fishermen's flowers and incense make that clear fast. The humans arrive giggling and settle into respectful fascination."
 ---
 
 At the far end of impossibly pretty **Phra Nang Beach** on the Railay peninsula, tucked under a towering karst cliff, is a small cave shrine unlike any other in Thailand — filled from floor to ceiling with **brightly painted wooden phalluses**.

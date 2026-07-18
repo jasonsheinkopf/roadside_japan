@@ -57,6 +57,13 @@ cinnamon:
     I came the way I hope visitors do: unhurried, in the morning, with nothing else planned after. The hall's paintings and the small museum tell it plainly; the flower stands outside are never empty; the pigeons conduct themselves, somehow, appropriately.
 
     It's ten minutes from the sumo arena and the museums, and it belongs on the same walk — the neighborhood's joy and its memory hold hands here. Bow, learn, sit under the ginkgos a while. Some parks are parks. This one is a promise.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🕊️"
+      caption: "Morning, unhurried, nothing planned after — the way this park should be visited. The flower stands outside the Memorial Hall are never empty."
+    - cast: [cinnamon, socks]
+      prop: "🌸"
+      caption: "Sitting with the pigeons, who conduct themselves, somehow, appropriately. One small park keeping Tokyo's two worst nights, ten minutes from the sumo arena's joy."
 ---
 
 A green, unassuming park a few minutes from the sumo stadium that turns out to sit on one of the heaviest pieces of ground in Tokyo.

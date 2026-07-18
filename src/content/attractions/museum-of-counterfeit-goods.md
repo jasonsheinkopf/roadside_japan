@@ -33,6 +33,13 @@ cinnamon:
     I lost repeatedly. The fake-versus-real game is humbling — some counterfeits are flawless until you learn the one tell, and then you can't unsee it. The sobering rooms are the fake brake pads and fake medicines, where the game stops being a game; people die of counterfeits, which is why a law firm bothers.
 
     Visits are by appointment (it's inside their offices — the world's most niche field trip), free, and guided by people who genuinely love the hunt. The strangest museum I've filed from Bangkok, and Bangkok has a MEDICAL one.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🕵️"
+      caption: "The fake-versus-real game, lost repeatedly. Some counterfeits are flawless until you learn the one tell, and then you can't unsee it. Socks went 3 for 20 and called it humbling."
+    - cast: [cinnamon]
+      prop: "⚖️"
+      caption: "Inside the law firm's offices — the world's most niche field trip, by appointment, free. The fake brake pads room is where the game stops being a game."
 ---
 
 Run by one of Thailand's oldest law firms, this one-room museum has been quietly amassing fakes since 1989 — more than 4,000 counterfeit items across every category imaginable, from designer handbags to bogus brake pads and dangerous knock-off pharmaceuticals.

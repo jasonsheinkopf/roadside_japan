@@ -66,6 +66,13 @@ cinnamon:
     On the clear day I got, Sakhalin sat right there on the horizon — another country, visible from a bus stop. I stood on the monument's tip (four seconds, personal record, wind-adjusted) and squeaked the squeak of geographic completion.
 
     There's a little shop that sells 'northernmost' everything and a surprising number of very serious motorcyclists having very emotional moments; this is apparently where every rider in Japan finishes something. I get it. I finished something too. The wind kept the receipt.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🧭"
+      caption: "Four seconds standing on the tip of Japan's northernmost monument — personal record, wind-adjusted. Sakhalin sat right there on the horizon."
+    - cast: [cinnamon, socks]
+      prop: "🏍️"
+      caption: "Among the very serious motorcyclists having very emotional moments — this is where every rider in Japan finishes something. Socks saluted each one."
 ---
 
 Drive to the very end of the road at the very top of Japan and you arrive at **Cape Sōya**, where the land runs out into the cold Sea of Okhotsk. A stark, pointed monument marks the **northernmost point of mainland Japan** — and on the right day, you can see another country across the water.

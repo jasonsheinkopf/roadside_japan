@@ -68,6 +68,13 @@ cinnamon:
     I walked the long tunnel at petal height on the trellis wires — a squirrel-only vantage where the colors close over you like weather. Below, the humans moved at the speed of awe, which is roughly 100 metres per hour with stops.
 
     It's private, ticketed by timed reservation in peak weeks, and remote enough to need planning — that filter is why it stays magical instead of trampled. Late April to early May, early slot, cloudy light is best. Yes it looks like the photos. No, the photos aren't enough.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💜"
+      caption: "The long tunnel from the trellis wires at petal height — a squirrel-only vantage where a hundred shades of wisteria close over you like weather."
+    - cast: [socks, mon]
+      prop: "🎟️"
+      caption: "Moving at the speed of awe (roughly 100 metres per hour, with stops). Timed tickets in peak weeks — late April, early slot, cloudy light."
 ---
 
 For most of the year, **Kawachi Fuji Garden** is a quiet private garden on a hillside above Kitakyushu. Then, for roughly two weeks each spring, it becomes one of the most photographed places in Japan: two long **wisteria tunnels** and a great wisteria dome erupt into cascading curtains of violet, lavender, pink, and white.

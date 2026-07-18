@@ -66,6 +66,13 @@ cinnamon:
     This was once the most densely populated place on Earth — a coal-mining island of five thousand people, schools and cinemas stacked on top of each other — abandoned almost overnight in 1974. Tours walk a fenced path past the crumbling blocks. I stayed on the path. Even I stayed on the path. The buildings creak in the sea wind like they're still discussing the news from 1974.
 
     Boats cancel in rough weather, so book flexibly. Haunting in the exact, precise meaning of the word.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏚️"
+      caption: "On the fenced path through the city with nobody in it. Even I stayed on the path. The buildings creak like they're still discussing the news from 1974."
+    - cast: [cinnamon, socks]
+      prop: "🚢"
+      caption: "From the boat, the island really does read as a battleship — hull, bridge and all. Book flexibly; rough weather cancels the crossing."
 ---
 
 From a distance it really does look like a warship: a low gray slab bristling with towers, riding the swells off the coast of Nagasaki. Up close, **Hashima Island** — nicknamed **Gunkanjima**, "Battleship Island" — is something stranger: an entire abandoned city packed onto a rock barely 480 metres long.

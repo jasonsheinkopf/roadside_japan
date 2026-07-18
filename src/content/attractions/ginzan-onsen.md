@@ -66,6 +66,13 @@ cinnamon:
     It's one street, really — a river with inns for banks — and that's the secret of it: nothing to do but walk slowly, soak, eat curry bread from the little bakery (I was rationed one bite; it deserved its queue), and walk slowly back.
 
     Day-trippers leave by five. Stay past then, or come in deep winter when the snow piles on the lamps. The whole place looks like a memory you haven't had yet.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🏮"
+      caption: "Dusk, light snow, the gas lamps coming on one by one along the river. Every human on the bridge made the same soft sound at the same time. So did we."
+    - cast: [cinnamon]
+      prop: "🍛"
+      caption: "My rationed single bite of the little bakery's curry bread. It deserved its queue. Stay past five, when the day-trippers drain away."
 ---
 
 Deep in the hills of Obanazawa, around a narrow river, sits a hot-spring village that time agreed to leave alone. **Ginzan Onsen** lines both banks with three- and four-story **wooden inns from the Taisho era** (the 1910s–20s), their plaster facades and balconies facing each other across the water.

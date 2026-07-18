@@ -63,6 +63,13 @@ cinnamon:
     Climbing inside a giant benevolent statue is a specific experience I recommend to everyone: the stairwell is cool and echoing, small Buddhas wait in alcoves at each landing, and the windows frame Takasaki in slices — a city seen through the eyes, almost literally, of its guardian. I did the ascent twice, once for the view, once for the concept.
 
     She was built in 1936 and you can feel the era in her calm. Cherry blossoms swarm the hill in spring. Daruma dolls are Takasaki's other specialty; buy one below and make your wish inside the goddess. Layered luck.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🙏"
+      caption: "Ascent number two of the staircase inside the 41-metre goddess — once for the view, once for the concept. Small Buddhas wait in alcoves at each landing."
+    - cast: [cinnamon, mon]
+      prop: "🪆"
+      caption: "Shoulder level, waving at everything, Takasaki framed in window slices below. Mon-chan bought the biggest daruma the shop had. It is now furniture."
 ---
 
 Rising from a wooded hilltop above **Takasaki**, visible from miles across the Gunma plain, stands a calm white giant: the **Byakue Daikannon**, a **41.8-metre** statue of the Buddhist goddess of mercy, finished in **1936** and gazing serenely over the city.

@@ -55,6 +55,13 @@ cinnamon:
     I arrived skeptical and left moved and slightly haunted, which reviews suggest is the standard dosage. One woman, Tsukimi Ayano, made most of them — each modeled on someone real who died or moved away. Sit in the school room a while: an entire class, mid-lesson, forever. I perched on a scarecrow farmer's shoulder for a full minute of silence and he was excellent company.
 
     It's deep in the Iya Valley — the drive is the commitment. Be gentle here; it's not a spectacle, it's one person's way of keeping everyone. The bus stop crowd waves you off. You'll wave back.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🧸"
+      caption: "A full minute of silence on a scarecrow farmer's shoulder. He was excellent company. Each one is modeled on someone real who died or moved away."
+    - cast: [cinnamon, socks]
+      prop: "🏫"
+      caption: "The classroom in the closed school — an entire class, mid-lesson, forever. We sat in the back row a while. Be gentle here; it's not a spectacle."
 ---
 
 Deep in the folds of the Iya Valley — one of the most isolated corners of Shikoku — sits Nagoro, a village slowly being abandoned by people and quietly repopulated by **scarecrows**.

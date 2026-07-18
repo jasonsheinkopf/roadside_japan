@@ -64,6 +64,13 @@ cinnamon:
     The lava came down in 1783, one violent push from Mt. Asama, and it never got the memo to melt back into anything gentle — it just sits there, block on block, silent and enormous. I hopped the marked paths between the rock rather than the rock itself, which the humans around me were sensible enough to do too, and ended at a little temple built on a rise for the people the eruption killed, with the whole black field and the mountain itself laid out below it.
 
     Other visitors say mid-May is the trick — that's when tiny alpine flowers start pushing straight up out of the cracks in the rock, which sounds like exactly the kind of stubbornness I respect. Even without the flowers, it's a strange, sober, worthwhile hour on the way home.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌋"
+      caption: "Rock to rock across the 1783 lava field like giant cooled marshmallows. Fell in a crack once, which the local squirrels tell me is a personal best."
+    - cast: [cinnamon, socks]
+      prop: "🛕"
+      caption: "The temple on the rise, built for the people the eruption killed, with the whole black field and Mt. Asama laid out below. Mid-May is the trick, the visitors say."
 ---
 
 **Onioshidashi Park** (鬼押出し園, *Onioshidashi-en*) preserves one of the most dramatic lava fields in Japan: a stretch of rugged black rock, roughly 5km long, left behind when Mt. Asama's catastrophic 1783 eruption sent lava and pyroclastic material pouring across the landscape and cooling in place. Walking paths wind between the formations to a hillside temple with views back over the whole field.

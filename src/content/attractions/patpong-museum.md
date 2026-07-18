@@ -34,6 +34,13 @@ cinnamon:
     I'll be straightforward, as the persona bible requires: this one's for grown-ups, handled thoughtfully. The curation is sharp and surprisingly scholarly — documents, interviews, artifacts — and it reframes the street outside as a piece of Cold War infrastructure that evolved in public.
 
     I attended in my capacity as a historian and kept my commentary professional, which was a strain, because the CIA-airline exhibit is bananas. An hour, small rooms, strong story. History lives in strange buildings. This is one of the strangest.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌃"
+      caption: "Attending in my capacity as a historian, commentary kept professional (a strain — the CIA-airline exhibit is bananas)."
+    - cast: [cinnamon, socks]
+      prop: "📜"
+      caption: "Documents, interviews, Cold War layers under the layer everyone thinks they know. Grown-ups only, handled thoughtfully; Socks took notes for the archive."
 ---
 
 Above the tourist tumult of Patpong's night market sits a small, smartly designed museum that takes its unlikely subject seriously. It traces the soi's history from a family-owned banana plantation to a Cold War nerve centre and, later, the birthplace of Bangkok's modern nightlife.

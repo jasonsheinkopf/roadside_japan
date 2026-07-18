@@ -57,6 +57,13 @@ cinnamon:
     Get there mid-morning and a single shaft of sun drops through the ceiling hole and sets the pavilion glowing like the cave is presenting it to you personally. I watched the beam arrive, cross the roof, and move on, and the whole chamber ran on that schedule — fifty humans holding their breath in rotation.
 
     The climb is sweaty and rooty; wear real shoes, carry water, start early. The dusit-style pavilion in that light is one of Thailand's great single images, and it cannot be drive-thru'd. Earn it. The cave insists, correctly.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⛩️"
+      caption: "The beam arriving on schedule: one shaft of mid-morning sun through the ceiling hole, setting the 1890 royal pavilion glowing like the cave is presenting it to you personally."
+    - cast: [cinnamon, socks]
+      prop: "🥾"
+      caption: "The sweaty, rooty jungle climb in. Real shoes, water, early start — fifty humans held their breath in rotation at the top, and so did we."
 ---
 
 Some places are famous for one photograph. Phraya Nakhon's is a small golden-roofed pavilion standing alone in a vast cave chamber, lit by a single beam of sun from a hole in the mountain — and unlike most one-photograph places, it's even better in person, because you have to earn it.

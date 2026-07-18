@@ -66,6 +66,13 @@ cinnamon:
     I attended the fire ritual (from a rafter; fire and fur have a history) and felt the drums in my ribs. Then the eel street: smoke like incense's delicious cousin, fans flapping, skewers turning. I was granted one glistening morsel and briefly understood everything.
 
     If you have four hours at Narita, you have Naritasan. The humans who nap in the terminal instead are making a choice I respect and pity.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🔥"
+      caption: "The goma fire ritual from a rafter (fire and fur have a history) — drums rolling in my ribs while priests blessed everything from health to new cars."
+    - cast: [cinnamon, mon]
+      prop: "🍱"
+      caption: "Unagi street, where the smoke is incense's delicious cousin. One glistening morsel each and Mon-chan briefly understood everything. Spirit first, eel second. Balance."
 ---
 
 Most travelers rush past Narita on the way to or from the airport, never realizing that one of the great temple complexes of the Kanto region sits **ten minutes away**. **Naritasan Shinshoji**, founded in the year 940, is a sprawling, living temple that makes a perfect bookend to a trip to Japan.

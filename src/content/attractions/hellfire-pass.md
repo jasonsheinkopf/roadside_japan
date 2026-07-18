@@ -67,6 +67,13 @@ cinnamon:
     It's a deep cutting through solid rock on the WWII Death Railway, dug by hand — hammer, tap, blast — by Allied prisoners of war and Asian labourers worked past all human limits. The name comes from the torchlight on night shifts. The rails are gone; a walking trail follows the old bed through the cutting and out along the ridge, and the audio guide gives you the voices of the men who survived it.
 
     The forest is loud with birds and the cutting is very quiet; nobody talks in it, not even the tour groups, not even the teenagers. Go early, take the full walk, take water. Some places you visit. This one you owe.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🕯️"
+      caption: "Inside the hand-dug cutting, where nobody talks — not the tour groups, not the teenagers, not me."
+    - cast: [cinnamon, socks]
+      prop: "🎧"
+      caption: "The audio guide carries the voices of the men who survived it. Go early, take the full ridge walk, take water."
 ---
 
 In the hills west of Kanchanaburi, a corridor of raw rock slices through the forest. **Hellfire Pass** (Konyu Cutting) is the deepest and most infamous section of the **Thailand–Burma "Death Railway,"** built in 1943 by Allied prisoners of war and conscripted Asian labourers for the Japanese military.

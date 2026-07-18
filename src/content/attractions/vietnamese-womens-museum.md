@@ -46,6 +46,13 @@ cinnamon:
     Inside are some 25,000 artifacts across four floors, run by the Vietnam Women's Union since 1987. I lingered longest at the street-vendor stories — recordings of women who rise before dawn, balance a shoulder pole heavier than me times a hundred, and walk the city all day. I tried to lift a display pole's rope. I did not move it. I bowed to it instead.
 
     The humans around me kept saying the same thing: they came for an hour and stayed three. Budget a half day, and go before the 4:30 last admission — the top-floor costumes from Vietnam's 54 ethnic groups deserve unhurried whisker-time.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏛️"
+      caption: "Trying to lift a street vendor's display shoulder pole by its rope. It did not move. I bowed to it instead."
+    - cast: [cinnamon, socks]
+      prop: "🎧"
+      caption: "The recordings of vendors who rise before dawn and walk the city all day under a pole heavier than me times a hundred. As professional carriers, we saluted."
 sources:
   - title: "Vietnamese Women's Museum — entrance fee and opening hours"
     url: "https://vietnamdiscovery.com/hanoi/attractions/vietnamese-womens-museum/"

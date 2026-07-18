@@ -62,6 +62,13 @@ cinnamon:
     Trick art is calibrated for human height, so at squirrel scale some illusions collapse and others get STRONGER, which effectively means I toured a secret second museum no one else can see. The shark ate me convincingly. The 'floating' room made me grip a floor that was, embarrassingly, fine.
 
     Bring a companion to take photos or the whole exercise is philosophy. Families and teens shriek through it; couples get competitive about angles. Silly, cheerful, genuinely clever craft. The Mona Lisa and I shook hands. Her grip is painted, but firm.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎨"
+      caption: "Holding up the painted pyramid with one paw. Photographic proof of my enormous strength exists and will be produced on request."
+    - cast: [cinnamon, socks]
+      prop: "🦈"
+      caption: "The shark ate me convincingly. At squirrel scale some illusions collapse and others get STRONGER — I toured a secret second museum no one else can see. Socks declined the shark."
 ---
 
 Among the cluster of quirky **Nasu highland** museums is one built entirely around fooling your eyes: the **Nasu Trick Art Museum**, where flat paintings leap into apparent 3D the moment you stand on the right spot and point a camera.

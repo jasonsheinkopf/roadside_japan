@@ -67,6 +67,13 @@ cinnamon:
     It's an accidental pond — built as erosion control — that glows an unreal cobalt blue, with the ghost-white trunks of drowned larch trees standing in it like pencils in a cup. I sat on the bank a long time trying to work out the color. Minerals, apparently. I still voted for magic in my journal.
 
     The humans arrive by the busload, take one photo, and leave in nine minutes; stay for twenty and you'll have it nearly alone. Cloudy days make the blue deeper. An accidental masterpiece, rated one very deliberate acorn.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💙"
+      caption: "Twenty minutes on the bank working out the color. Minerals, apparently. I still voted for magic in my journal."
+    - cast: [cinnamon, socks]
+      prop: "📷"
+      caption: "The bus crowds take one photo and leave in nine minutes — stay twenty and you get the drowned white larches nearly to yourselves. Cloudy days make the blue deeper."
 ---
 
 Nobody set out to build one of Hokkaido's most photographed landscapes. The **Blue Pond** (Aoiike) near Biei formed almost by accident, when a dam built to protect the town from volcanic mudflows pooled mineral-laden water among a stand of larch trees.

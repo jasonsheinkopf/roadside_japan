@@ -66,6 +66,13 @@ cinnamon:
     I released a krathong (leaf boat, one candle, one acorn aboard as cargo and apology) and watched it join the flotilla. Then the lanterns started lifting from the old city — first dozens, then a sky-full, like the stars had been recalled for maintenance and were reporting in.
 
     The mass releases at paid events photograph famously, but the bridges and river banks are free and holy enough. Mind the falling lantern wires, book rooms months out, and let the moon run the schedule. The year's best exhale.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏮"
+      caption: "My krathong joining the flotilla — leaf boat, one candle, one acorn aboard as cargo and apology — while the year's misfortunes drifted downstream."
+    - cast: [cinnamon, socks]
+      prop: "🌕"
+      caption: "The moment the lanterns started lifting from the old city — first dozens, then a sky-full, like the stars had been recalled for maintenance and were reporting in. We forgot every word we know."
 ---
 
 Once a year, on the full moon of the twelfth month in the Thai lunar calendar, Chiang Mai glows. **Loi Krathong** sends candle-lit floats drifting down the rivers and canals, while the northern **Yi Peng** tradition fills the sky with thousands of rising paper lanterns (*khom loi*).

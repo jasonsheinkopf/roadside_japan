@@ -40,6 +40,13 @@ cinnamon:
     Coral Castle is megalithic furniture under Florida sun: stone rocking chairs that rock, a stone telescope aimed at the pole star, and the famous nine-ton gate a child could push open with one finger (it balanced perfectly for decades). I pushed it with two paws and my whole heart. It didn't move for me. Rude, but historically consistent.
 
     The humans whisper theories — levers, magnetism, secret songs. The plaques wisely refuse to settle it. Heartbreak plus stubbornness moves mountains, or at least corals. One solemn acorn, left on a stone chair.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🪨"
+      caption: "Pushing the famous nine-ton gate with two paws and my whole heart. It didn't move for me. Rude, but historically consistent."
+    - cast: [cinnamon, socks]
+      prop: "🔭"
+      caption: "The stone telescope, still aimed at the pole star. Socks whispered his levitation theory; the plaques wisely refuse to settle it."
 ---
 
 ## One man, 1,100 tons of rock

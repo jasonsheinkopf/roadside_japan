@@ -51,6 +51,13 @@ cinnamon:
     I paid my respects properly, and then I visited the grave of Nezumi Kozo, the Edo thief nicknamed 'Rat Kid' who stole from samurai mansions. Gamblers still shave chips off his tombstone for luck. As a rodent-adjacent professional I left him an acorn instead. Take, don't always shave.
 
     Quiet, ten minutes from the sumo arena, and holding more Tokyo history per square metre than places ten times its size.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐾"
+      caption: "An acorn left at the grave of Nezumi Kozo, the 'Rat Kid' thief whose tombstone gamblers still shave for luck. From one rodent-adjacent professional to another."
+    - cast: [cinnamon, socks]
+      prop: "🕯️"
+      caption: "Paying respects at the temple founded for everyone who had no one to mourn them, after the great fire of 1657. Quiet, and ten minutes from the sumo arena."
 ---
 
 Tucked a few minutes from the sumo stadium, Ekoin is easy to walk past — and packed with more layered history than almost anywhere else in Ryogoku.

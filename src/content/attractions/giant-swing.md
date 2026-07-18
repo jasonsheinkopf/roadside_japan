@@ -38,6 +38,13 @@ cinnamon:
     I stood at the base of Sao Ching Cha doing the math in tail-lengths. The answer was: no. Even I, a creature whose entire career is swinging from tall wooden things, looked up and said no. And they did it in ceremonial dress.
 
     The swing seat itself is long gone — just the frame remains, towering over the traffic by Wat Suthat (go inside; the Buddha there is magnificent). Respect to the ancestors of daredevilry. From the ground.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⛩️"
+      caption: "Doing the math in tail-lengths at the base of the 21-metre arch. The answer, from a career swinger of tall wooden things: no."
+    - cast: [cinnamon, mon]
+      prop: "🛕"
+      caption: "Wat Suthat next door, which too many swing-photographers skip. The Buddha inside is magnificent, and Mon-chan bowed the extra bow."
 ---
 
 Standing in a quiet square in front of Wat Suthat, the Giant Swing is one of Bangkok's most striking and least-understood landmarks. The current red teak structure is a careful reconstruction, but the ceremony it commemorates was real — and genuinely dangerous.

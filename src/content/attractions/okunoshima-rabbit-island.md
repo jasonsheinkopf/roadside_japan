@@ -63,6 +63,13 @@ cinnamon:
     As a fellow small mammal I was received as a colleague, mobbed, sniffed, judged, and eventually accepted into a warren's afternoon lounging session, which I consider a diplomatic achievement of my career. The rabbits are shameless and the humans, laden with pellets from the mainland (buy before the ferry; the island shop sells out), are their willing staff.
 
     Then the museum, small and unflinching, tells the island's dark first act. Hold both: the joy and the history, one island, thirty minutes apart. That's the visit. That's the point.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐇"
+      caption: "Accepted into a warren's afternoon lounging session after being mobbed, sniffed, and judged — the diplomatic achievement of my career. I was briefly mistaken for a rabbit. Greatest honor of my life."
+    - cast: [cinnamon, socks]
+      prop: "🏭"
+      caption: "The small, unflinching museum on the island's dark first act — the poison-gas factory the wartime maps erased. Hold both: the joy and the history."
 ---
 
 A fifteen-minute ferry from the Hiroshima coast lands you on **Okunoshima**, where the welcoming committee is several hundred wild rabbits that will hop straight into your lap at the rustle of a food bag.

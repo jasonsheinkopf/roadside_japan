@@ -36,6 +36,13 @@ cinnamon:
     I filed this one carefully, per my own rules: the specimens are real, including the infamous preserved figure of a mid-century criminal, and the parasitology wing made even ME flinch, and I have a tapeworm keychain from Meguro. But medical students study here for real reasons, and the forensics section quietly honors the work of understanding how people die so others don't.
 
     Go only if you know yourself. No photos. Eat after, not before. I emerged solemn, and gave the parasitology ward the slow nod of a colleague from a rival institution.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🫀"
+      caption: "Filed carefully: real specimens, real education, not for everyone. The parasitology wing made even ME flinch, and I own a tapeworm keychain."
+    - cast: [cinnamon, socks]
+      prop: "🏥"
+      caption: "Reading how forensics quietly honors the work of understanding how people die so others don't. Go only if you know yourself. Eat after, not before."
 ---
 
 If your idea of a great museum runs toward the macabre and the genuinely educational, Siriraj is Bangkok's answer to Tokyo's parasite museum — and then some. Tucked inside the country's oldest hospital, it's actually several museums in one: forensic medicine, pathology, anatomy, and parasitology.

@@ -35,6 +35,13 @@ cinnamon:
     My paws hit the flippers perfectly. I need everyone to understand this. Decades of reflex training in the forest canopy, and it was all preparation for multiball. I ran a 1978 electromechanical machine until a small crowd formed, and when I finally drained, a man in a Metallica shirt said 'respect,' and that is going on my tombstone.
 
     No slots, no drinks, no nonsense — just chimes, thumps, and concentration. The anti-Vegas hidden in Vegas. Bring quarters. Bring MANY quarters.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🕹️"
+      caption: "Running a 1978 electromechanical machine until a small crowd formed. When I finally drained, a man in a Metallica shirt said 'respect.' That is going on my tombstone."
+    - cast: [cinnamon, socks]
+      prop: "🪙"
+      caption: "700-plus machines, all quarters to charity. Socks worked the '90s row with the focus of a tech lead; multiball is our shared spiritual state."
 ---
 
 ## A museum you play

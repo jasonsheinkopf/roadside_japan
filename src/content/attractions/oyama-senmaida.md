@@ -66,6 +66,13 @@ cinnamon:
     I walked the ridges between paddies — squirrel-width infrastructure, finally — while frogs announced my progress paddy by paddy like town criers. Farmers keep this landscape alive by hand and by ownership-share volunteers from the city, which is the only reason it still exists; flat land farms easier, but flat land doesn't do THIS at sunset.
 
     In winter they line the terraces with thousands of LED candles and the hill becomes a slow constellation. Spring flooding season for mirrors, winter nights for lights. Respect the ridges: it's someone's rice, not a set.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌾"
+      caption: "Walking the paddy ridges — squirrel-width infrastructure, finally — while frogs announced my progress terrace by terrace like town criers."
+    - cast: [cinnamon, socks]
+      prop: "🕯️"
+      caption: "Winter, when thousands of LED candles line the terraces and the hill becomes a slow constellation. I counted 43 sunset mirrors in spring before crying a little; Socks counted my count."
 ---
 
 Tucked into the hills of southern Chiba, **Oyama Senmaida** — "the thousand rice fields of Oyama" — is the nearest classic **rice-terrace** landscape to Tokyo, and one of the prettiest. Some 375 tiny paddies step down the slope in a patchwork of curved banks.

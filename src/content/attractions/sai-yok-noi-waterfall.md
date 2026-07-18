@@ -25,9 +25,12 @@ cost:
   type: free
 status: seasonal
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sai_Yok_Noi_Waterfall_-_Sai_Yok_National_Park.jpg/960px-Sai_Yok_Noi_Waterfall_-_Sai_Yok_National_Park.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Sai_Yok_Noi_Waterfall_-_Sai_Yok_National_Park.jpg"
 source: imported
 createdAt: 2026-06-19
-updatedAt: 2026-07-15
+updatedAt: 2026-07-18
 country: thailand
 submittedBy: import:roadside-thailand
 cinnamon:
@@ -39,6 +42,13 @@ cinnamon:
     I joined a family's picnic perimeter (invited by the youngest member, a girl of about six, via banana chunk diplomacy) and spent the afternoon in the spray zone. It's not remote, not epic, not a secret — it's Sunday, in waterfall form.
 
     The train from Kanchanaburi drops you practically at the base, over the wooden viaduct at Tham Krasae on the way, which makes the journey half the attraction. Weekdays are quiet; weekends are joyful chaos. Bring food, get wet, dry off on a rock like your ancestors.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💦"
+      caption: "The tiny cannonball. Legendary splash. Admitted to the picnic perimeter beforehand via banana-chunk diplomacy with a six-year-old."
+    - cast: [cinnamon, socks]
+      prop: "🚂"
+      caption: "Arriving on the Death Railway line over the Tham Krasae viaduct, which makes the journey half the attraction. It's not remote or epic — it's Sunday, in waterfall form."
 ---
 
 A short walk from Nam Tok station — the present end of the Death Railway — Sai Yok Noi tumbles in a broad sheet over a stepped limestone bluff into a string of shallow pools. It's unpretentious, family-friendly, and beloved by Thai day-trippers.

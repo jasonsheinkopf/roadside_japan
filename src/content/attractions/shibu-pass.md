@@ -30,6 +30,9 @@ tips:
   - "Route 292 closes for winter roughly mid-November to late April — check current conditions before driving up."
 status: seasonal
 approval: published
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Route_292%2Cshiga-kusatsu-road%2Cshibu_pass%2Cshibu-touge%2Ckusatsu-town%2Cjapan.jpg/960px-Route_292%2Cshiga-kusatsu-road%2Cshibu_pass%2Cshibu-touge%2Ckusatsu-town%2Cjapan.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Route_292%2Cshiga-kusatsu-road%2Cshibu_pass%2Cshibu-touge%2Ckusatsu-town%2Cjapan.jpg"
 source: community
 submittedBy: "a fellow traveler"
 sources:
@@ -48,7 +51,7 @@ related:
   - shibu-onsen
   - onioshidashi-park
 createdAt: 2026-07-17T05:20:00Z
-updatedAt: 2026-07-17T08:49:00Z
+updatedAt: 2026-07-18
 cinnamon:
   quote: "The highest road in Japan, and I found it by riding in someone's door pocket. The clouds were BELOW us. I have never felt so important."
   emoji: "☁️"
@@ -58,6 +61,13 @@ cinnamon:
     I rode the last stretch in a delivery van's door pocket and got out at 2,172m with my fur standing straight up from the cold. Route 292 was empty and silent, and below the ridge the whole valley had filled overnight with cloud, flat and white as a lake, while the peak stood in clear morning sun. I sat on the guardrail eating a pinecone and felt, briefly, like the tallest creature in Japan.
 
     Other visitors say the same thing every time: come before sunrise, because the cloud lake can be gone within the hour, and dress like it's winter even in September — the valley floor and the pass can be 15 degrees apart. The road shuts for snow by mid-November, so a September visit, like the traveler's, is close to ideal timing. Jigokudani's monkeys are about forty minutes down the mountain if you want warm water after all that cold air.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "☁️"
+      caption: "2,172 metres, guardrail seat, pinecone breakfast — the cloud sea flat and white as a lake below, and me briefly the tallest creature in Japan."
+    - cast: [cinnamon, socks]
+      prop: "🌄"
+      caption: "Before sunrise on the highest road in Japan, dressed like it's winter, because it is. The cloud lake can be gone within the hour; ours held just long enough."
 ---
 
 At 2,172 metres above sea level, **Shibu Pass** (渋峠, *Shibu-tōge*) carries National Route 292 over the shoulder between Mt. Yokote and Mt. Kusatsu-Shirane — the highest point reached by any national highway in Japan. It sits directly on the border between **Nakanojo, Gunma** and **Yamanouchi, Nagano**; the Shibutoge Hotel at the pass is famously built two-thirds in one prefecture and one-third in the other, with a line marked across the floor.

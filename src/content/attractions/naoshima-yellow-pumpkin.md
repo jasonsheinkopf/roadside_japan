@@ -64,6 +64,13 @@ cinnamon:
     I came over on the ferry with the art pilgrims and waited out the photo queue like everyone else (a squirrel does not cut lines; a squirrel transcends them via pier piling). Up close the dots read like a language. The sea behind does its blue work. It should be silly — a big fiberglass vegetable — and instead it's somehow the whole island distilled.
 
     Go at first light before the queue forms, then spend the day in Naoshima's museums. The pumpkin is the doorbell. The island is the house.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎃"
+      caption: "Transcending the photo queue via pier piling (a squirrel does not cut lines). Up close, Kusama's dots read like a language."
+    - cast: [cinnamon, socks]
+      prop: "⛴️"
+      caption: "First light, before the queue forms, two round icons and the Inland Sea doing its blue work. When a typhoon took the original in 2021, the island simply had a new one made."
 ---
 
 At the end of a plain concrete pier, against the blue of the Seto Inland Sea, sits one of the most photographed objects in Japan: a fat, cheerful, **polka-dotted yellow pumpkin** by the artist **Yayoi Kusama**. It has greeted visitors to the art island of **Naoshima** since 1994.

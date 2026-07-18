@@ -64,6 +64,13 @@ cinnamon:
     I rode the ropeway into the monster fields at dusk and walked among them at snow level, one small brown punctuation mark in an all-white sentence. Up close a monster is just a tree wearing armor; at a hundred metres, in blowing snow, in the colored night-illumination lights, they are absolutely something else, and my hindbrain filed several formal complaints.
 
     Peak monsters: late January through February. Skiers slalom the ranks; the observatory café thaws all species. Go at night once. Be politely terrified. Thank the wind.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "☃️"
+      caption: "At snow level among the juhyo ranks at dusk, one small brown punctuation mark in an all-white sentence. This is Kevin, the smallest monster. We're friends now."
+    - cast: [cinnamon, mon]
+      prop: "❄️"
+      caption: "The night illumination, when the white giants stop being trees in armor and become absolutely something else. Mon-chan stood very still and hoped to be mistaken for one of them."
 ---
 
 High on Mt. Zao, where wind-driven snow and supercooled fog plaster the fir trees from one side, the forest transforms into an army of hulking white figures the Japanese call **juhyo** — "ice trees," or more evocatively, **snow monsters**.

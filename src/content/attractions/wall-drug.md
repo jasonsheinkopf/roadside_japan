@@ -40,6 +40,13 @@ cinnamon:
     I followed the signs like everyone since 1936; by the fifth billboard you are going, and that's physics. Inside I audited the essentials: the free ice water still flows (I drank ceremonially), the cake donuts are honestly good, and the giant jackalope accepted my presence between its antlers with taxidermied grace.
 
     It's gleefully, knowingly too much — a tourist trap that earned tenure. Badlands are next door; pair them. Five cents for coffee. FIVE CENTS.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🥤"
+      caption: "Ceremonial drink of the free ice water that saved a Depression-era drugstore and built a billboard empire. Still flows. Still free."
+    - cast: [cinnamon, mon]
+      prop: "🦌"
+      caption: "Between the giant jackalope's antlers, accepted with taxidermied grace. Mon-chan circled it twice — a creature with antlers AND fluff required assessment. \"…I don't like him.\""
 ---
 
 ## Free ice water built an empire

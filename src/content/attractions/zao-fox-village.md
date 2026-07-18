@@ -68,6 +68,13 @@ cinnamon:
     The foxes are magnificent layabouts — red, silver, arctic-white, dozing in heaps like spilled scarves, cheerfully ignoring every posted rule about where foxes should be. Visitors walk marked paths; foxes treat the paths as suggestions and the visitors as scenery. I toured via the elevated walkway and fence tops, which I recommend to all guests of my tax bracket.
 
     Winter is peak fluff and peak drama (fox squabbles sound like arguments between kettles). Follow the feeding rules; they exist for reasons with teeth. Unforgettable, slightly lawless, deeply fluffy. Four acorns, held at altitude.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦊"
+      caption: "Touring via elevated walkway and fence tops, recommended for all guests of my tax bracket. A hundred-plus foxes below, dozing in heaps like spilled scarves. New alertness record."
+    - cast: [socks]
+      prop: "📋"
+      caption: "Socks, who approved this mission by correspondence with conditions (all ignored upon sighting of winter fluff), reviewing my incident-free return with visible relief."
 ---
 
 Up a winding road in the Miyagi mountains is a forest that belongs to the foxes. **Zao Fox Village** keeps more than **a hundred foxes** — red, silver, platinum, and snow-white arctic — in a large open enclosure you walk through, surrounded on all sides by tails, ears, and suspiciously knowing eyes.

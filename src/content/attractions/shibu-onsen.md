@@ -66,6 +66,13 @@ cinnamon:
     I trailed a guest in a borrowed yukata as she worked her way down the stone lane, unlocking one steaming wooden bathhouse after another with a single shared key, nine in total, ending at a little shrine where tradition says finishing the set washes your troubles away. I did not bathe — a wet squirrel is a sad squirrel — but I sat on a lantern post and watched steam curl up between buildings that have stood since the Taisho era, which felt like enough.
 
     Visitors keep saying the full nine-bath circuit is really a perk of staying the night, since only the ninth bath opens to day-trippers — worth knowing before you plan around it. Even without a room booked, though, the walk itself, all wood and stone and steam under paper lanterns, is worth the detour off Route 292.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🔑"
+      caption: "Following a yukata-clad guest through all nine bathhouse doors with the shared key half my body length. Zero gutter incidents, which I am choosing to be proud of."
+    - cast: [cinnamon, socks]
+      prop: "🏮"
+      caption: "Steam curling between Taisho-era buildings from a lantern post. The ninth door ends at a shrine where finishing the set washes your troubles away."
 ---
 
 **Shibu Onsen** (渋温泉) is a small hot-spring town in Yamanouchi, Nagano, at the base of the road up to Shiga Kōgen — the same mountain road that leads to Shibu Pass and the Yokoteyama Skylator. Its narrow stone streets are lined with wooden ryokan dating largely from the Taisho and early Showa periods, and its signature ritual is the **nine-bath crawl** (九湯めぐり): nine separate public bathhouses, each fed by a different spring, unlocked in sequence with a single master key.

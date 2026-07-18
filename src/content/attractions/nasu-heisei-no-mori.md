@@ -62,6 +62,13 @@ cinnamon:
     The boardwalk trails are free and gentle, winding through old-growth to a viewpoint over Komadome Falls, a 20-metre white ribbon in a green bowl. As a forest professional I conducted a full canopy audit: mixed mature broadleaf, immaculate moss, mushroom diversity that made me emotional. This is what a forest sounds like when it's been listened to instead of used.
 
     Guided walks go deeper into the conservation zone. Come on a weekday, walk slowly, say nothing for ten minutes and let the forest fill the gap. Imperial taste in forests: verified excellent.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦌"
+      caption: "Full canopy audit of the Imperial family's former private forest: mixed mature broadleaf, immaculate moss, mushroom diversity that made me emotional."
+    - cast: [cinnamon, socks]
+      prop: "🏞️"
+      caption: "Komadome Falls, a 20-metre white ribbon in a green bowl. We said nothing for ten minutes, per my own advice. It held."
 ---
 
 For most of the last century, this stretch of old forest on the flank of Mt. Nasu belonged to the Imperial family and was closed to ordinary visitors. In **2011** it was opened to the public as **Nasu Heisei-no-Mori** — and it remains one of the most beautifully kept, peaceful patches of woodland in the region.

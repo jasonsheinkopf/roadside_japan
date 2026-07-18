@@ -38,6 +38,13 @@ cinnamon:
     He's eighteen feet of concrete crouched under the Aurora Bridge, one hubcap eye gleaming, one enormous hand crushing an actual Volkswagen Beetle — a real car, entombed. The neighborhood built him in 1990 to fix a dumping ground, which is the best municipal decision I have ever documented. I sat in his hair. He didn't mind. We're colleagues now.
 
     The humans climb all over him for photos, which he tolerates with stony grace (his one weakness: he is stone). Free, always there, best in low fog. Bring nothing; he takes VWs, not acorns.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "👹"
+      caption: "Sitting in the troll's hair, as colleagues do. Eighteen feet of concrete, one hubcap eye, one real Volkswagen entombed in his grip since 1990."
+    - cast: [socks]
+      prop: "🚗"
+      caption: "Socks inspecting the crushed Beetle from a cautious angle. Best visited in low fog; bring nothing — he takes VWs, not acorns."
 ---
 
 ## The thing under the bridge

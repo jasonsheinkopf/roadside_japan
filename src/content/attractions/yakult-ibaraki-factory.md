@@ -52,6 +52,13 @@ cinnamon:
     The tour walks past the big cultivation tanks growing the Shirota strain, the specific lactic acid bacterium Yakult has used since the company started in 1935, then the bottling line where the tiny plastic bottles come rattling through in the thousands. I pressed my whole face to the viewing glass and got scolded, gently, by a guide who had clearly seen worse from human toddlers. Small victory.
 
     Families online report it's an easy, genuinely fun hour, and that the free tasting and souvenirs at the end make it worth the drive even without kids in tow. Book online well ahead — reservations open 60 days out and the good slots go first — and note it's closed Sundays, unlike some of its sister factories.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦠"
+      caption: "Whole face pressed to the viewing glass over the bottling line, thousands of tiny bottles rattling through. Scolded gently by a guide who has seen worse from toddlers. Small victory."
+    - cast: [cinnamon, mon]
+      prop: "🥛"
+      caption: "The free tasting: the Shirota strain, cultivated since 1935, in the tiniest bottle made — which at squirrel scale is a keg. Mon-chan asked for seconds. Denied, politely."
 ---
 
 Yakult's **Ibaraki Factory**, in the small town of Goka near the Ibaraki–Saitama border, is one of several plants across Japan offering free public tours of how the probiotic drink is actually made — from the tanks growing its signature **Shirota-strain** lactic acid bacteria to the line bottling the finished product.

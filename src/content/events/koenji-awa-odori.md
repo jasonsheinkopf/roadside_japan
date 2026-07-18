@@ -63,6 +63,13 @@ cinnamon:
     The dance is a beautiful trick — 'the dancers are fools and the watchers are fools, so you may as well dance' goes the song — and by the second hour the line between the two has fully dissolved. I danced on an awning ridge above the drums, paws in the men's low-lunging style, tail keeping the women's upright elegance: the first documented two-style simultaneous performance, reviews pending.
 
     Stake a corner spot early where troupes turn — that's where formations bloom. Then eat your way down the arcade. August in Tokyo, forgiven.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🥁"
+      caption: "The first documented two-style simultaneous performance: paws in the men's low lunge, tail keeping the women's upright elegance, on an awning ridge above the drums."
+    - cast: [cinnamon, mon]
+      prop: "🏮"
+      caption: "'Fools who dance, fools who watch — you may as well dance.' By hour two the line dissolved and Mon-chan was leading a troupe that had not agreed to be led."
 ---
 
 Every year on the last weekend of August, the quiet residential streets around Koenji Station give way to Tokyo's biggest folk-dance festival — a direct transplant of Tokushima's centuries-old Awa Odori tradition.

@@ -34,6 +34,13 @@ cinnamon:
     I ate (a commissioned morsel of grilled snakehead, herb-stuffed, excellent) with my tail hanging over the edge, watching the water breathe under the slats. Longtails pass, the whole restaurant curtsies, the diners' drinks tilt in unison like a toast nobody called. Downstream, the famous bridge does its history thing; up here, the river is just dinner's landlord.
 
     Sunset seating, order the whole fish, let the karaoke raft float past without judgment. Buildings that float: approved. Dinner that moves: highly approved.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🛟"
+      caption: "Tail over the raft's edge, commissioned morsel of herb-stuffed grilled snakehead in paw, watching the water breathe under the slats."
+    - cast: [cinnamon, mon]
+      prop: "🐟"
+      caption: "A longtail passes, the whole restaurant curtsies, every drink tilts in unison like a toast nobody called. Mon-chan let the karaoke raft float past without judgment. Mostly."
 ---
 
 Kanchanaburi's rivers are famous for the Death Railway — but also for a much gentler tradition: floating raft houses. Lashed onto bamboo and steel-drum pontoons and tethered to the bank, entire open-sided restaurants (and guesthouses) drift on the Kwai, rising and falling with the water.

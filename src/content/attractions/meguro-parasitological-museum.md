@@ -65,6 +65,13 @@ cinnamon:
     I walked the ribbon. Nose to tail-tip, then again to be sure. It took me a while. The tapeworm and I are now roughly acquainted, and I have never chewed my food more carefully than I have since.
 
     Couples famously come here on dates, which says something lovely about Tokyo. The gift shop's tapeworm keychains fund actual research; I acquired one for Socks, who keeps it on his desk to horrify visitors. Small, strange, honest, free. Peak Tokyo.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🪱"
+      caption: "Walking the 8.8-metre ribbon beside the full-length tapeworm, nose to tail-tip, twice to be sure. We are now roughly acquainted."
+    - cast: [socks]
+      prop: "🔑"
+      caption: "The tapeworm keychain I acquired for Socks, which funds actual research and now lives on his desk to horrify visitors. He pretends to mind."
 ---
 
 Tucked into a quiet residential block near the Meguro River is a museum so single-minded it has become a legend: the **Meguro Parasitological Museum**, founded in 1953 and devoted entirely to the study of parasites.
