@@ -18,7 +18,10 @@
     "agent": "node --experimental-strip-types tools/agent/cli.ts",
     "agent:server": "node --experimental-strip-types tools/agent/server.ts",
     "assets": "node --experimental-strip-types tools/build/gen-assets.ts",
-    "data:validate": "astro sync"
+    "data:validate": "astro sync",
+    "adventures:validate": "python3 scripts/validate-adventures.py",
+    "adventures:capture": "node scripts/capture-adventures.mjs",
+    "adventures:gif": "python3 scripts/validate-adventures.py && SITE_BASE=/ astro build && node scripts/capture-adventures.mjs && python3 scripts/assemble-gifs.py"
   },
   "dependencies": {
     "astro": "^6.4.6",

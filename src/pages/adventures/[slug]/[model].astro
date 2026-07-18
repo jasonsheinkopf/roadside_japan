@@ -1,0 +1,46 @@
+---
+/**
+ * Standalone player for one Adventures film (docs/ADVENTURES.md §6).
+ *
+ * Deliberately a bare page (no site header/footer): it doubles as the capture target
+ * for the GIF recorder (scripts/capture-adventures.mjs), which needs the film to be the
+ * only animated thing on the page. Noindexed; humans normally watch films on the entry's
+ * detail page.
+ */
+import "../../../styles/global.css";
+import { getCollection } from "astro:content";
+import { ADVENTURES, MODEL_LABEL } from "../../../lib/adventures";
+import AdventureFilm from "../../../components/AdventureFilm.astro";
+import AdventureCastDefs from "../../../components/AdventureCastDefs.astro";
+import { attractionUrl } from "../../../lib/url";
+
+export async function getStaticPaths() {
+  const attractions = await getCollection("attractions");
+  const titles = new Map(attractions.map((a) => [a.id, a.data.title]));
+  return ADVENTURES.map((v) => ({
+    params: { slug: v.slug, model: v.model },
+    props: { variant: v, entryTitle: titles.get(v.slug) ?? v.slug },
+  }));
+}
+const { variant, entryTitle } = Astro.props;
+const label = `${MODEL_LABEL[variant.model]} · live SVG`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>{entryTitle} — Adventures in Cinnamon Land</title>
+  </head>
+  <body style="margin:0;background:#0f0c08;min-height:100vh;display:grid;place-items:center;padding:1rem">
+    <main style="width:min(720px,100%)">
+      <AdventureCastDefs />
+      <AdventureFilm raw={variant.raw} slug={variant.slug} model={variant.model} entryTitle={entryTitle} label={label} />
+      <p style="text-align:center;margin-top:0.75rem">
+        <a href={attractionUrl(variant.slug)} style="color:#c9b391;font-size:0.8rem">← back to {entryTitle}</a>
+      </p>
+    </main>
+  </body>
+</html>

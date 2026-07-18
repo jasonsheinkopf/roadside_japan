@@ -1,0 +1,207 @@
+---
+/**
+ * AdventureFilm — plays one "Adventures in Cinnamon Land" film (docs/ADVENTURES.md).
+ *
+ * The authored film is a single SVG document (src/data/adventures/<slug>.<model>.svg)
+ * whose top-level <g class="scene"> groups carry data-dur / data-caption. This component
+ * supplies everything around it: the branded title card, the scene timeline (hard cuts,
+ * generated as CSS keyframes so the whole film is one deterministic CSS timeline the GIF
+ * recorder can seek), the persistent subtitle bar, and the loop restart.
+ *
+ * Pages that render this must include <AdventureCastDefs/> once (shared cast symbols).
+ */
+interface Props {
+  /** Raw authored SVG source (import ?raw). */
+  raw: string;
+  slug: string;
+  model: string;
+  /** Entry title for the title card. */
+  entryTitle: string;
+  /** Optional label chip, e.g. "Sonnet · live SVG". */
+  label?: string;
+}
+const { raw, slug, model, entryTitle, label } = Astro.props;
+
+const TITLE_S = 2.6; // title-card seconds (documented contract — docs/ADVENTURES.md §4)
+
+// --- parse the authored film -------------------------------------------------------
+const attr = (tag: string, name: string) => tag.match(new RegExp(`${name}="([^"]*)"`))?.[1];
+const rootTag = raw.match(/<svg\b[^>]*>/)?.[0] ?? "";
+const episode = attr(rootTag, "data-episode") ?? "";
+const sceneTags = [...raw.matchAll(/<g\b[^>]*class="scene"[^>]*>/g)].map((m) => m[0]);
+const scenes = sceneTags.map((tag) => ({
+  dur: Number(attr(tag, "data-dur") ?? 3),
+  caption: attr(tag, "data-caption") ?? "",
+}));
+
+// Absolute start time of each scene (title card first), and the loop total.
+const starts: number[] = [];
+let t = TITLE_S;
+for (const s of scenes) {
+  starts.push(t);
+  t += s.dur;
+}
+const total = t;
+const totalMs = Math.round(total * 1000);
+
+// Subtitle parsing: `SPEAKER: “line”` → colored speaker chip + line.
+const SPEAKERS: Record<string, { name: string; color: string }> = {
+  CINNAMON: { name: "Cinnamon", color: "#d9b98c" },
+  SOCKS: { name: "Socks", color: "#c8d24e" },
+  "MON-CHAN": { name: "Mon-chan", color: "#f0a860" },
+};
+const captions = scenes.map((s) => {
+  const m = s.caption.match(/^(CINNAMON|SOCKS|MON-CHAN):\s*(.*)$/);
+  return m ? { speaker: SPEAKERS[m[1]], text: m[2] } : { speaker: null, text: s.caption };
+});
+
+// --- generated timeline CSS --------------------------------------------------------
+const uid = `${slug}-${model}`.replace(/[^a-z0-9-]/gi, "");
+const pct = (sec: number) => `${((sec / total) * 100).toFixed(3)}%`;
+const EPS = total * 0.0004; // ~6ms ramp → hard cut
+
+let css = `#adv-${uid}{${starts.map((s, i) => `--t${i + 1}:${s}s;`).join("")}}\n`;
+// Title card: visible [0, TITLE_S).
+css += `@keyframes advw-${uid}-0{0%,${pct(TITLE_S - EPS)}{opacity:1;visibility:visible}${pct(TITLE_S)},100%{opacity:0;visibility:hidden}}\n`;
+for (let i = 0; i < scenes.length; i++) {
+  const a = starts[i];
+  const b = a + scenes[i].dur;
+  const last = i === scenes.length - 1;
+  // Last scene holds through 100% so a slightly-late loop restart never flashes blank.
+  css +=
+    `@keyframes advw-${uid}-${i + 1}{0%,${pct(a - EPS)}{opacity:0;visibility:hidden}` +
+    `${pct(a)}{opacity:1;visibility:visible}` +
+    (last ? `100%{opacity:1;visibility:visible}}` : `${pct(b - EPS)}{opacity:1;visibility:visible}${pct(b)},100%{opacity:0;visibility:hidden}}`) +
+    `\n`;
+}
+css += `#adv-${uid} .adv-title{animation:advw-${uid}-0 ${total}s linear both}\n`;
+for (let i = 1; i <= scenes.length; i++) {
+  css += `#adv-${uid} .adv-stage>svg>g.scene:nth-of-type(${i}),#adv-${uid} .adv-cap-${i}{animation:advw-${uid}-${i} ${total}s linear both}\n`;
+}
+css += `@media (prefers-reduced-motion:reduce){#adv-${uid},#adv-${uid} *{animation-play-state:paused !important}}`;
+---
+
+<figure class="adv-film overflow-hidden rounded-2xl border border-line bg-surface" id={`adv-${uid}`} data-total-ms={totalMs} data-slug={slug} data-model={model}>
+  {label && (
+    <figcaption class="flex items-center justify-between gap-2 border-b border-line px-3 py-1.5">
+      <span class="text-[0.65rem] font-semibold uppercase tracking-wider text-ink-soft">🎬 {label}</span>
+      <span class="text-[0.65rem] text-ink-soft">{Math.round(total)}s loop</span>
+    </figcaption>
+  )}
+  <div class="adv-restart">
+    <div class="adv-viewport">
+      <div class="adv-stage" set:html={raw} />
+      <!-- runtime-branded title card -->
+      <div class="adv-title" aria-hidden="true">
+        <svg viewBox="0 0 200 44" class="adv-title-cast">
+          <use href="#advc-socks" x="20" y="4" width="40" height="40"></use>
+          <use href="#advc-cinnamon" x="76" y="-2" width="48" height="48"></use>
+          <use href="#advc-mon" x="138" y="4" width="40" height="40"></use>
+        </svg>
+        <p class="adv-title-kicker">Adventures in Cinnamon Land</p>
+        <p class="adv-title-name">{entryTitle}</p>
+        {episode && <p class="adv-title-ep">“{episode}”</p>}
+      </div>
+    </div>
+    <!-- persistent subtitle bar -->
+    <div class="adv-capbar" aria-hidden="true">
+      {captions.map((c, i) => (
+        <p class={`adv-cap adv-cap-${i + 1}`}>
+          {c.speaker && <b style={`color:${c.speaker.color}`}>{c.speaker.name}</b>}
+          <span>{c.text}</span>
+        </p>
+      ))}
+    </div>
+  </div>
+</figure>
+<Fragment set:html={`<style>${css}</style>`} />
+
+<style>
+  .adv-viewport {
+    position: relative;
+    aspect-ratio: 480 / 270;
+    background: #17120d;
+    overflow: hidden;
+  }
+  .adv-stage :global(> svg) {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .adv-title {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.15rem;
+    text-align: center;
+    padding: 0 1rem;
+    background: radial-gradient(ellipse at 50% 35%, #3a2c1e 0%, #1c150e 70%, #120d08 100%);
+  }
+  .adv-title-cast {
+    width: clamp(120px, 42%, 220px);
+    margin-bottom: 0.35rem;
+    filter: drop-shadow(0 2px 4px rgb(0 0 0 / 0.4));
+  }
+  .adv-title-kicker {
+    font-size: clamp(0.5rem, 1.8vw, 0.7rem);
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #d9b98c;
+  }
+  .adv-title-name {
+    font-family: var(--font-display, inherit);
+    font-size: clamp(1rem, 3.6vw, 1.5rem);
+    font-weight: 800;
+    line-height: 1.15;
+    color: #f5ecdc;
+  }
+  .adv-title-ep {
+    font-size: clamp(0.7rem, 2.2vw, 0.9rem);
+    font-style: italic;
+    color: #c9b391;
+  }
+  .adv-capbar {
+    position: relative;
+    min-height: 3.4rem;
+    background: #14100b;
+    border-top: 1px solid rgb(255 255 255 / 0.08);
+  }
+  .adv-cap {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    padding: 0.35rem 0.9rem;
+    text-align: center;
+    font-size: clamp(0.72rem, 2.1vw, 0.88rem);
+    line-height: 1.3;
+    color: #f2e9d8;
+  }
+  .adv-cap b {
+    flex: none;
+    font-size: 0.72em;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+</style>
+
+<script is:inline define:vars={{ uid, totalMs }}>
+  // Restart the whole film at the top of each loop: every CSS animation inside runs
+  // once (fill both); remounting the subtree resets them all to t=0 in lockstep.
+  // The GIF recorder loads with ?noloop and drives the timeline itself instead.
+  if (!new URLSearchParams(location.search).has("noloop")) {
+    setInterval(() => {
+      const el = document.getElementById(`adv-${uid}`);
+      if (!el || document.hidden) return;
+      const box = el.querySelector(".adv-restart");
+      if (box) box.replaceWith(box.cloneNode(true));
+    }, totalMs);
+  }
+</script>
