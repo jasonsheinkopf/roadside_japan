@@ -42,6 +42,13 @@ cinnamon:
     I took my portion (a bottle cap of curry, negotiated in advance) on the curb between a taxi driver and a teenager who both nodded at me like this was normal, because at Jek Pui everything is normal. The curry is old-style Chinese-Thai — gentle, fragrant, poured over rice with a ladle that has clearly outlived governments.
 
     The stool turnover is fast; the line moves; nobody lingers and everybody comes back. Eat like a local: lap, spoon, silence, gone.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍛"
+      caption: "My bottle-cap portion on the curb between a taxi driver and a teenager, both of whom nodded like this was normal. At Jek Pui everything is normal."
+    - cast: [cinnamon, socks]
+      prop: "🪑"
+      caption: "Seventy years of curry, zero years of tables. Red stools, laps, a ladle that has outlived governments. Nobody lingers; everybody comes back."
 ---
 
 For more than seven decades, Jek Pui has served rich Thai-Chinese curries from a cart on the corner of Mangkon Road — with one famous quirk: there are no tables. Diners perch on cheap red stools along the pavement, plates balanced on their knees, shuffling for a seat in a nightly game locals nicknamed "musical chairs."

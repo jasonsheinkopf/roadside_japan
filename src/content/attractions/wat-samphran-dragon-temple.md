@@ -54,6 +54,13 @@ cinnamon:
     I have climbed many things for this atlas. Climbing a dragon remains the résumé line. (See my quote: I did it twice. I have since returned and made it three.) The interior is raw and echoing, dragon-rib windows lighting the spiral; the roof gives you the dragon's head at eye level, jaws open over the countryside, plus a giant bell and the general feeling of having ascended inside a myth.
 
     It's a working temple with monks and worshippers — dress and behave accordingly; the pink is festive, the faith is real. An hour from Bangkok. No notes. Flawless beast.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐉"
+      caption: "Ascent number three through the hollow dragon — the interior raw and echoing, dragon-rib windows lighting the spiral. Climbing a dragon remains the résumé line."
+    - cast: [cinnamon, mon]
+      prop: "🔔"
+      caption: "The roof: dragon's head at eye level, jaws open over the countryside, giant bell rung once, respectfully. Mon-chan measured himself against the dragon and called it 'close.'"
 ---
 
 There is no gentle way to describe Wat Samphran: it is a seventeen-story pink cylinder with a dragon the size of a train wrapped around it, forty minutes from Bangkok, and hardly any tourists know it exists.

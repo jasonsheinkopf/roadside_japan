@@ -62,6 +62,13 @@ cinnamon:
     As infrastructure goes it's almost embarrassingly photogenic; the zelkova lane behind the warehouses is one of Tohoku's great short walks, made famous by an NHK drama and kept famous by every camera since. I took it at golden hour, branch-level, with the light coming through the leaves onto the black walls in stripes.
 
     Part of the row still works as actual rice storage; part is museum and shops (the local rice and sake purchases make themselves). Free, flat, twenty minutes or two hours. Trees doing a building's job: my favorite genre of architecture.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌾"
+      caption: "The zelkova lane at golden hour, branch-level, light striping the black warehouse walls. The shade here is 150 years deep."
+    - cast: [cinnamon, mon]
+      prop: "🍶"
+      caption: "The museum wing, where the local rice and sake purchases make themselves. Mon-chan carried the bag and considers himself essential personnel."
 ---
 
 The port city of **Sakata** grew rich shipping the rice of the fertile Shonai plain, and the most photogenic relic of that trade still stands: **Sankyo Soko**, a long row of **black-walled wooden rice warehouses** built in **1893** and in use for over a century.

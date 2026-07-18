@@ -63,6 +63,13 @@ cinnamon:
     Coaster restraints are built for humans, so I rode my usual way: officially, in the staff's care, in a supervised pouch on the family coaster (Nasu staff are good sports and I have credentials). Verdict: the forest setting changes everything — drops feel deeper when trees rush up at you.
 
     Weekdays are gloriously empty; you can re-ride without dismounting your queue position. The fried-potato stand near the woodie runs the best snack-to-scream logistics in the park. Screams: many. Regrets: none. Trees: the real headliners, as usual.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎢"
+      caption: "The supervised-pouch ride on the family coaster (Nasu staff are good sports; I have credentials). Drops feel deeper when the forest rushes up at you."
+    - cast: [mon]
+      prop: "🎡"
+      caption: "Mon-chan on the Ferris wheel alone, a tiny mysterious tycoon surveying his holdings. Weekdays are gloriously empty — re-ride without losing your queue position."
 ---
 
 Set among the trees below Mt. Nasu, **Nasu Highland Park** is the Kanto countryside's big, cheerful amusement park — a place where roller-coaster screams ricochet off the forest and families spend the whole day chasing rides.

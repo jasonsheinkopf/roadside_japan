@@ -62,6 +62,13 @@ cinnamon:
     I walked in as a professional (mammal, fur, museum credentials) and left as a fan. The antique bears have the dignity of old soldiers — glass eyes, mended paws, a century of being loved to pieces and repaired. Then the Totoro floor detonates all that composure. Children queue for the Catbus. I queued too. The attendant pretended not to see me board. Nasu staff remain the best in Japan.
 
     Small, sweet, an hour at most — perfect rainy-day Nasu. The gift shop is a financial hazard for the soft-hearted. I am soft-hearted.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🧸"
+      caption: "Ten minutes watching an antique bear fish and catch nothing. Glass eyes, mended paws, a century of being loved to pieces and repaired."
+    - cast: [cinnamon, mon]
+      prop: "🚌"
+      caption: "Queuing for the Catbus with the children (the attendant pretended not to see us board). Mon-chan surveyed a room of bears fluffier than him and needed to sit down. \"…I don't like them.\""
 ---
 
 The **Nasu highlands** are dotted with small, eccentric museums, and few are as purely sweet as the **Nasu Teddy Bear Museum**, an English-cottage building filled, floor to ceiling, with **teddy bears**.

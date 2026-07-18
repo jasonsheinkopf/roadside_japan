@@ -67,6 +67,13 @@ cinnamon:
     I paid respects, circled the giant 'lucky' cedar (impeccable; a tree with a résumé), and walked the stone path where sulfur drifts through the trees like the mountain thinking out loud. The shrine's connection to the legendary nine-tailed fox next door gives the whole hillside a folkloric static charge — Japan does 'sacred and slightly dangerous' better than anywhere.
 
     Come at dusk when the lanterns go on and the day-trippers have gone down to soak. Bow to the cedar. It's earned it thirteen centuries over.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⛩️"
+      caption: "Circling the giant lucky cedar — impeccable, a tree with a résumé — where the moss has seniority after 1,300 years."
+    - cast: [cinnamon, socks]
+      prop: "🦊"
+      caption: "Dusk, lanterns on, sulfur drifting through the cedars like the mountain thinking out loud. The nine-tailed fox legend next door kept Socks exactly one pace closer to me than usual."
 ---
 
 At the top of **Nasu Yumoto**, where the road meets the steaming sulfur field, an avenue of towering cedars leads up to **Nasu Onsen Shrine** — the roughly **1,300-year-old** guardian of these hot springs, founded, the story goes, when the healing waters were first discovered.

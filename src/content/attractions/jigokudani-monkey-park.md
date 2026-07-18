@@ -73,6 +73,13 @@ cinnamon:
     The walk in is thirty minutes through cedar forest, snow squeaking underfoot, and then the valley opens and there they are: Japanese macaques lounging in the steaming pool like tiny retired emperors. As a fellow small mammal I kept a diplomatic distance — the monkeys have seniority here and they know it. One made eye contact with me that said 'we both know you want in the bath.' We both knew. I abstained. Barely.
 
     Deep winter is the postcard season; the monkeys bathe when it's cold, not on command. Do not carry visible snacks. This is monkey law, and it is enforced.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐒"
+      caption: "Diplomatic distance from the tiny retired emperors in their private bath. One made eye contact that said 'we both know you want in.' We both knew. I abstained. Barely."
+    - cast: [cinnamon, socks]
+      prop: "❄️"
+      caption: "The thirty-minute cedar-forest walk in, snow squeaking underfoot. Deep winter is the postcard season, frosted monkey eyebrows included."
 ---
 
 The name means "Hell Valley" — for the steam that hisses out of the frozen ground here in the Nagano mountains. But **Jigokudani** is famous for something gentler: troops of wild **Japanese macaques** that climb down from the cliffs each winter to soak in a steaming hot-spring pool, snow gathering on their heads while they sit chest-deep in warm water.

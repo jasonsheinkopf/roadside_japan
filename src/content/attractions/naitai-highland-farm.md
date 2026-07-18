@@ -54,6 +54,13 @@ cinnamon:
     I rode up on a tour van's wing mirror with the wind doing its best to repossess my tail. Up top: soft-serve made from the milk of the cows you can literally see making more of it — farm-to-cone logistics measured in metres. I audited a cow at close range; she audited me back; we parted as equals.
 
     It's grand-scale Hokkaido at its most casual — no rides, no shows, just grass, sky, cows, cone. Clear days show the whole plain. My journal entry is one line: 'Big. Good. Cold ears.'
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐄"
+      caption: "Auditing a cow at close range. She audited me back. We parted as equals, with the Tokachi plain running to the horizon in a checkerboard behind us."
+    - cast: [cinnamon, mon]
+      prop: "🍦"
+      caption: "Farm-to-cone logistics measured in metres: soft-serve from the milk of cows you can literally see making more of it. Mon-chan moo'd once, quietly, to fit in."
 ---
 
 The Tokachi Plain is Japan's dairy heartland, and its most extreme expression is a single ranch bigger than some Tokyo wards — open to anyone who wants to drive up through it.

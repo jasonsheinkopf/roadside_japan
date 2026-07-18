@@ -66,6 +66,13 @@ cinnamon:
     I paid respects to the imperial carriages, rode the mini-train (legitimately, as a class of schoolchildren's adopted mascot), and watched grown adults wait in line for the driving simulators with the focus of astronauts. The steam whistle at turntable time goes through your whole body like history clearing its throat.
 
     Railfans, families, and sentimental squirrels all fed and watered. Buy the ekiben lunch box and eat it in the retired dining car. That's not a tip; it's an order.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🚄"
+      caption: "Riding the mini-train legitimately, as a class of schoolchildren's adopted mascot. A professional rider of trains, finally ticketed."
+    - cast: [cinnamon, socks]
+      prop: "🚂"
+      caption: "Turntable time, when the steam whistle goes through your whole body like history clearing its throat. Socks queued for the driving simulator with the focus of an astronaut."
 ---
 
 Japan loves its trains, and the **Railway Museum** in Omiya is where that love is enshrined. Inside a huge hall sits a **fleet of real rolling stock** — gleaming steam locomotives, retired express cars, and the bullet-nosed early **shinkansen** — arranged so you can walk right up, climb aboard some, and feel the scale.

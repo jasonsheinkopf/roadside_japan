@@ -66,6 +66,13 @@ cinnamon:
     I took the tower first (correct order, trust me), pressed my face to the glass, and mapped my climbing route like a general. Then I spent the afternoon down in the star itself — in spring, 1,600 cherry trees fill the ramparts and the whole fortification goes pink, which rather undermines its military dignity and improves everything else.
 
     The shape only exists from above, which feels like a secret the ground-level humans are cheerfully missing. Tower, then star. Sakura season if you can. History with excellent geometry.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⭐"
+      caption: "Face pressed to the tower glass, mapping the five-pointed star like a general. The shape only exists from above — tower first, always."
+    - cast: [cinnamon, mon]
+      prop: "🌸"
+      caption: "Down in the star itself in spring, 1,600 cherry trees turning the ramparts pink. Undermines the military dignity, improves everything else."
 ---
 
 From the ground it looks like an ordinary moat-ringed park. From the air it's a flawless **five-pointed star**. **Goryōkaku** was Japan's first Western-style fortress, built in the 1860s on European principles of geometric defense — and its dramatic star shape has long outlived its guns.

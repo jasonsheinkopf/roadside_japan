@@ -69,6 +69,13 @@ cinnamon:
     Sand is a professional problem for me — no purchase, no branches, hostile to paws — so I did what the landscape demanded and became a sledder: down the big ridge on a discarded postcard, three runs, top speeds unrecorded but FELT. The wind redraws the ripples hourly; your footprints have the lifespan of a rumor.
 
     The Sand Museum next door carves world-class sculptures from the stuff (a new theme yearly, absurdly good), which completes the joke: Japan got a desert and immediately made it an art venue. Sunset from the ridge line, sea on one side, dunes on the other: geography showing off.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐪"
+      caption: "Camelback over the fifty-metre ridges, a raisin-sized Lawrence of Arabia. Sand offers no branches; one adapts."
+    - cast: [cinnamon, mon]
+      prop: "🛷"
+      caption: "Run three of three down the big ridge on a discarded postcard — top speed unrecorded but FELT. The wind redraws your tracks within the hour; Mon-chan's took slightly longer."
 ---
 
 Most people don't picture a **desert** when they picture Japan. Then they crest the ridge at the **Tottori Sand Dunes** and find kilometers of rippling, wind-sculpted sand running right up to the edge of the Sea of Japan. It's the country's largest dune field, and it has quietly become one of its most surprising landscapes.

@@ -58,6 +58,13 @@ cinnamon:
     Carvers work on site daily, replacing what the sea air takes; you tour beneath hard hats while mallets tick overhead like a slow clock. I climbed among gods and elephants and waves of teak (with permission-ish; the carvers and I developed an understanding based on mutual respect for people who work in trees).
 
     It's operatic, slightly theme-parked at the edges — horse rides, boat add-ons — but the central hall silences all of it. Wood, at cathedral scale, unfinished on purpose. The sea gnaws, the carvers answer. Best argument I know.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🛕"
+      caption: "Climbing among gods and elephants and waves of teak, permission-ish — the carvers and I developed an understanding based on mutual respect for people who work in trees."
+    - cast: [cinnamon, socks]
+      prop: "🔨"
+      caption: "Hard hats on while mallets tick overhead like a slow clock. Built since 1981, deliberately never to be finished — the building IS the philosophy."
 ---
 
 On a quiet cape north of Pattaya's beach chaos stands a building that has been actively under construction for more than forty years — on purpose, forever.

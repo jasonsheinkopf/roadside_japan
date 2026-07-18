@@ -63,6 +63,13 @@ cinnamon:
     I attended in January: light tunnels, a glowing pond, sausage stands doing their one Germanic duty. Rode the wheel at apex hour. Squeaked. The illumination changes theme yearly, so the locals rate vintages like wine.
 
     Off-season it's putt-putt, flower fields, and capacious lawns — pleasant, unhurried, deeply Chiba. But winter nights are the argument. Drive if you can; the shuttle lines say everything about how good it is.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌭"
+      caption: "The sausage longer than my torso. Photographic evidence exists and is under seal."
+    - cast: [cinnamon, socks]
+      prop: "✨"
+      caption: "Apex of the observation wheel over three million LEDs turning the Chiba hills into rivers of light. The locals rate each winter's theme like wine vintages."
 ---
 
 Let's clear it up front: **Tokyo German Village** is in **Chiba**, not Tokyo, and its German-ness amounts to a windmill and some sausages. The name is part of the charm — a cheerfully confident misnomer for a big countryside **flower-and-amusement park**.

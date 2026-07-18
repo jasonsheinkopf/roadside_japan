@@ -35,6 +35,13 @@ cinnamon:
     I budgeted an hour and stayed four. The Thawan Duchanee floor rearranged something in my chest, and the giant triptychs upstairs made me sit down on a bench like a tired pilgrim. For a museum full of visions, it's remarkably calm — high ceilings, few crowds, light like a courtroom for beauty.
 
     It's out by Chatuchak-ish nowhere, which keeps it quiet; taxi there, no regrets. The humans who make the trip all post the same astonished reviews. Add mine: astonished.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🖼️"
+      caption: "Bench, tired-pilgrim position, beneath the giant triptychs. Budgeted an hour, stayed four; the Thawan Duchanee floor rearranged something in my chest."
+    - cast: [cinnamon, socks]
+      prop: "🏛️"
+      caption: "Light like a courtroom for beauty, five floors, few crowds. It's out by nowhere, which is exactly why it stays this calm — taxi there, no regrets."
 ---
 
 Built from one collector's passion, MOCA is the best place to grasp the power and strangeness of modern Thai art. Behind a luminous white façade carved with lotus motifs, five floors climb through surreal, devotional, and provocative work by the country's leading artists.

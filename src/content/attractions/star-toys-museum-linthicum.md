@@ -35,6 +35,13 @@ cinnamon:
     Appointment-only means you get the tour from the collector, which is the real exhibit — every shelf has a story, every variant a hunt behind it. I toured shelf-level (obviously) through ranks of stormtroopers arranged with military correctness and found the single most relatable object in the galaxy: a tiny Ewok, my size, my energy, my people.
 
     Book ahead, be gracious, leave a donation — houses like this run on love and electricity. Museums built by institutions impress me. Museums built by one person's whole heart undo me. This is the second kind.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🚀"
+      caption: "Touring shelf-level through stormtrooper ranks arranged with military correctness, guided by the collector himself — every variant has a hunt behind it."
+    - cast: [cinnamon, mon]
+      prop: "🧸"
+      caption: "The single most relatable object in the galaxy: a tiny Ewok. My size, my energy, my people. Mon-chan claims Chewbacca as his people and will not be argued with."
 ---
 
 ## A galaxy in a suburban home

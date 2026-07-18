@@ -66,6 +66,13 @@ cinnamon:
     I attended the market at opening (05:30, a squirrel hour) and was assessed, approved, and gifted half a pickled plum by a woman who has clearly run this crater for fifty years. The public bath is one of Japan's oldest springs; I soaked a paw ceremonially.
 
     This is deep Yamagata — no performance, no gift-shop version of itself. The humans who make it here look pleased with themselves at breakfast, and they should. Come for the crater, stay for the grandmothers.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🥬"
+      caption: "The 05:30 morning market — a squirrel hour — where I was assessed, approved, and gifted half a pickled plum by the woman who has run this crater for fifty years."
+    - cast: [cinnamon, socks]
+      prop: "♨️"
+      caption: "Ceremonial paw-soak in one of Japan's oldest springs, inside an actual volcano crater. In winter the snow walls stand taller than the inns."
 ---
 
 Deep in the mountains of central Yamagata, in the **crater of an ancient volcano**, hides one of the country's oldest and most atmospheric hot springs: **Hijiori Onsen**, said to have been discovered some 1,200 years ago.

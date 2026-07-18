@@ -63,6 +63,13 @@ cinnamon:
     I rode up folded into someone's backpack pocket, which felt appropriate for a machine that has been quietly moving people uphill since 1967 — one of the oldest working moving walkways anywhere, they tell me, though it certainly doesn't creak like it. At the top the valley had vanished under a flat white sea, only the far peaks showing, and I sat on the terrace railing with a crumpet the size of my own head from the cafe up there, then found the bakery that claims to be the highest in Japan and sampled its case with what I'd call professional thoroughness.
 
     Other visitors keep saying the same thing: get there for sunrise, because the clouds start burning off within an hour or two — matching exactly what ghost popsicle had already guessed about the 9am cutoff. Shibu Pass shares the same parking area, so the two are one stop, not two, and it's a short drive down to Jigokudani or Shibu Onsen once the clouds are gone and the day is still young.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🧇"
+      caption: "Terrace railing above a flat white cloud sea, crumpet the size of my own head in paw, from the bakery that claims to be Japan's highest. Three breads tested. Scientific curiosity."
+    - cast: [cinnamon, socks]
+      prop: "☁️"
+      caption: "Riding the mountain-climbing sidewalk — quietly moving people uphill since 1967 — folded into a backpack pocket. Socks timed the September dawn right and the valley had vanished."
 ---
 
 The **Yokoteyama Skylator** (横手山スカイレーター) is an outdoor moving walkway — a 200-metre "sidewalk that climbs a mountain" — installed in 1967 on the slope of Mt. Yokote (2,307m) in the Shiga Kōgen ski area, straddling the Nagano side of the Gunma–Nagano border. Paired with a short chairlift, it carries visitors the rest of the way to the summit without a hike, making it one of the easiest ways in Japan to stand above the clouds.

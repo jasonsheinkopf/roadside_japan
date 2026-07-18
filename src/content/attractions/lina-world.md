@@ -63,6 +63,13 @@ cinnamon:
     I rode the Ferris wheel with a farm family who shared rice crackers at the apex — apex crackers taste better, this is science — and surveyed the Yamagata basin from the top: orchards to the mountains in every direction. The kiddie coaster is, for a squirrel, a legitimately scaled thrill ride, and I logged four laps.
 
     No hour-long lines, no surge pricing, soft-serve at regular intervals. The humans here are all locals, which tells you what you need to know. Big parks impress; Lina World relaxes. Both are amusement. This one naps after.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎢"
+      caption: "Lap four of the kiddie coaster — a legitimately scaled thrill ride for a squirrel. The operator saluted. Honor."
+    - cast: [cinnamon, mon]
+      prop: "🎡"
+      caption: "Apex rice crackers on the Ferris wheel with a farm family, orchards to the mountains in every direction. Apex crackers taste better. This is science."
 ---
 
 Every region needs a hometown amusement park, and Yamagata's is **Lina World** — a cheerful, unpretentious spread of rides in the hills near Nakayama that has been making local kids happy for decades.

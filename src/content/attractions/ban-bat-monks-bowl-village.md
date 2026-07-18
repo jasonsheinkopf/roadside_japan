@@ -33,6 +33,13 @@ cinnamon:
     I sat on a workshop shelf for an hour watching a woman hammer a seam until it disappeared. Eight pieces become one bowl; the joins vanish; the bowl rings like a little bell when flicked. She let me flick one. I nearly signed up for an apprenticeship on the spot, but my paws are too soft and my attention span is famously acorn-length.
 
     This is a tiny, fading craft — a handful of families left. Buy the small bowl. It is the most honest souvenir in the city.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🥣"
+      caption: "An hour on a workshop shelf, watching a seam get hammered until it disappeared. Eight pieces of metal become one bowl."
+    - cast: [cinnamon, socks]
+      prop: "🔨"
+      caption: "She let me flick a finished bowl — it rings like a little bell. A handful of families still do this; buy the small one, it's the most honest souvenir in Bangkok."
 ---
 
 Two centuries ago a whole district of Bangkok made *bat* — the round alms bowls Buddhist monks carry on their morning rounds. Today only a handful of families on one small soi still craft them by hand, hammering eight separate pieces of metal into a single seamless bowl.

@@ -62,6 +62,13 @@ cinnamon:
     I paid respects in falling snow (Yonezawa does winter seriously; the February snow-lantern festival fills the grounds with hundreds of glowing snow shrines) and walked the moat where the castle used to think. The keep is gone; the dignity is fully intact.
 
     Then, the other pilgrimage: Yonezawa beef, one of Japan's three great wagyu names, raised in this basin and served every way from steak to a beef ramen that ruined me for lesser broths. Warlord in the morning, wagyu at noon. Yonezawa's two religions, both practicing.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⚔️"
+      caption: "Respects to the God of War in falling snow, then a strategic walk of the moat where the castle used to think. The keep is gone; the dignity is fully intact."
+    - cast: [cinnamon, mon]
+      prop: "🥩"
+      caption: "The other pilgrimage: Yonezawa beef ramen that ruined me for lesser broths. Mon-chan ordered as if Kenshin's motto about virtue over profit did not apply to wagyu."
 ---
 
 The castle town of **Yonezawa**, tucked in Yamagata's southern basin, was the seat of the powerful **Uesugi** clan. Where their castle once stood, ringed by a moat and old trees, now sits **Uesugi Shrine**, dedicated to the legendary warlord **Uesugi Kenshin** — calm, dignified, and steeped in samurai history.

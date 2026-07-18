@@ -66,6 +66,13 @@ cinnamon:
     I took the boat across the caldera lake to the observation center where the big marimo live in tanks like sleeping planets. I pressed a paw to the glass. They did not react. Three hundred years old and above small talk — I respect it completely.
 
     The lake sits in Ainu country, and the village on the shore is one of the best places to encounter living Ainu culture and carving. Winter freezes the lake into another world entirely. Go for the algae, stay for everything the algae never told you about.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🟢"
+      caption: "Paw to the glass with the big marimo — sleeping planets, three hundred years old and above small talk. I respect it completely."
+    - cast: [cinnamon, mon]
+      prop: "⛴️"
+      caption: "The boat across the caldera lake. Mon-chan met an algae ball rounder and fluffier than him and needed a moment at the railing."
 ---
 
 In the clear water of **Lake Akan**, deep in eastern Hokkaido, grows something that sounds invented: **marimo**, soft spheres of green algae that form naturally into velvety balls and roll gently across the lakebed. Akan is one of the very few places on Earth where they grow this big and this round.

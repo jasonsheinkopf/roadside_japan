@@ -59,6 +59,13 @@ cinnamon:
     The on-site museum is small and dense — championship banners, ukiyo-e of wrestlers past, embroidered kesho-mawashi aprons stitched like treasure. During tournaments (Tokyo hosts three a year) the whole building hums; I attended a day session from the rafter seats, natural squirrel territory, and the moment two 150-kilo men collide below you, you understand why the roof is built like a shrine.
 
     Book tournament tickets early, or come off-season for the museum and chanko lunch. Respect the sport. It's older than most countries and twice as serious.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🤼"
+      caption: "Tournament day from the rafter seats — natural squirrel territory. When two 150-kilo men collide below you, you understand why the roof is built like a shrine."
+    - cast: [cinnamon, mon]
+      prop: "🍲"
+      caption: "Post-match chanko-nabe in the neighborhood, where an actual rikishi passed on a bicycle and recalibrated Mon-chan's understanding of bicycles. He's been practicing his stomp since."
 ---
 
 The building that anchors the entire neighborhood — a 10,000-plus-seat arena that's hosted Japan's national sport since 1985, standing on ground that's been sumo territory since long before that.

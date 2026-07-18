@@ -32,6 +32,13 @@ cinnamon:
     These prawns are longer than my whole body — I measured, tail to whisker, lying next to one for science before anyone could stop me. They grill them in the shell until the heads fill with rich orange roe, and the riverside restaurants serve them with a view of the water they came from. I was permitted exactly one claw's worth. It was the best claw of my life.
 
     Everyone argues about which riverside place is best; nobody argues about the roe. Order more than you think you need. The humans never do, and they always regret it.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦐"
+      caption: "Lying next to a river prawn for science. It is longer than my whole body, tail to whisker — I measured twice."
+    - cast: [cinnamon, mon]
+      prop: "🔥"
+      caption: "Grilled in the shell until the heads fill with orange roe. Order more than you think you need; the humans never do and always regret it."
 ---
 
 Ayutthaya is famous for its temple ruins — and, among Thais, for its river prawns. The giant freshwater prawn (*kung mae nam*) grows to a spectacular size in the rivers around the old island capital, and eating one grilled is a pilgrimage in its own right.

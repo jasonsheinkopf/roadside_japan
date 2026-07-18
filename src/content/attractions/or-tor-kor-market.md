@@ -32,6 +32,13 @@ cinnamon:
     I did my rounds at counter height. The mango vendors trim samples with surgical flourish, and one handed me a sliver of nam dok mai so perfect I had to sit down on a crate. The durian section announces itself two aisles early; I filed my objection and then, reader, I tried some. The tribunal is still out.
 
     It's across from Chatuchak — do this first, or you'll have no appetite budget left. Cleaner and pricier than street markets, worth every baht. Champions play like champions.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🥭"
+      caption: "The nam dok mai sliver so perfect I had to sit down on a crate. The vendors trim samples with surgical flourish."
+    - cast: [cinnamon, mon]
+      prop: "🍈"
+      caption: "The durian section, which announces itself two aisles early. I filed my objection, then tried some. The tribunal is still out. Mon-chan's verdict was immediate and loud."
 ---
 
 If Khlong Toei is Bangkok's raw side, Or Tor Kor is its polished one — a spacious, spotless market renowned for premium produce and ready-to-eat Thai food. It's regularly ranked among the finest fresh markets on the planet.

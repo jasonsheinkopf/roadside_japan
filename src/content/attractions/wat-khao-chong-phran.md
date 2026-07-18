@@ -35,6 +35,13 @@ cinnamon:
     I watched from the temple roof with monks who see it nightly and still look up. The stream bends in the wind like calligraphy; hawks raid its edges; the sound is a soft applause that doesn't stop. My tail stood fully vertical for forty minutes and I billed it as exercise.
 
     Arrive before sunset, position downwind of nothing (trust me), drop a donation — bat guano funds the temple, a sentence I am delighted to publish. Nature's best commute. Attendance mandatory.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦇"
+      caption: "Temple roof with the monks who see it nightly and still look up: millions of bats in one unbroken ribbon for the better part of an hour. My tail stood vertical for forty minutes. Exercise."
+    - cast: [cinnamon, socks]
+      prop: "🌆"
+      caption: "The stream bending in the wind like calligraphy, hawks raiding its edges. Arrive before sunset and drop a donation — bat guano funds the temple, a sentence I love."
 ---
 
 At a limestone hill near Photharam, a hillside temple guards one of Thailand's most reliable natural shows. As the light fades, bats begin to spill from the cave mouth — first a trickle, then a dense, swirling stream that ribbons across the sky toward the rice fields, lasting up to 45 minutes.

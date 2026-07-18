@@ -66,6 +66,13 @@ cinnamon:
     I joined the incense ritual (waved smoke onto my tail; ancient wisdom, glossier tail, no notes) and then stood in front of the candy choppers for three full cycles of their routine. They know it's a show. You know it's a show. Everyone buys the candy anyway, because the show is honest and the candy is good.
 
     New Year here is one of Japan's biggest temple crowds; any regular weekday is calm. Come for the smoke, stay for the drumline of knives.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💨"
+      caption: "Waving the incense smoke onto my tail. Ancient wisdom, glossier tail, no notes."
+    - cast: [cinnamon, socks]
+      prop: "🍬"
+      caption: "Three full cycles of the candy-choppers' clacking routine. They know it's a show, you know it's a show, everyone buys the candy anyway — the show is honest and the candy is good."
 ---
 
 Just across the river from Tokyo, **Kawasaki Daishi** is one of the busiest, most cheerful temples in the Kanto region — a working place of worship wrapped in the smell of incense and the sound of candy being chopped.

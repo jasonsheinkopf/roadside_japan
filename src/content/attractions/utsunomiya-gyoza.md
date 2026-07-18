@@ -66,6 +66,13 @@ cinnamon:
     I conducted a four-shop survey in one afternoon, which at my body weight constitutes a research career. Findings: the classic yaki-gyoza with crisp lattice bottoms at the old-guard shops wins; the boiled ones are the locals' secret order; chili oil discipline separates tourists from residents.
 
     Queue times at famous shops run long — go 2 p.m. on a weekday, or hit the multi-shop gyoza hall by the station and triangulate. A city that built its brand on dumplings and backed it up. Respect. Fullness. Respect.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🥟"
+      caption: "Shop three of the four-shop survey, which at my body weight constitutes a research career. The crisp-lattice yaki-gyoza of the old guard wins."
+    - cast: [cinnamon, mon]
+      prop: "🗿"
+      caption: "With the downtown statue of Venus emerging from a dumpling skin (I checked — that is really the concept). Mon-chan ordered the locals' secret boiled ones and used chili oil with discipline."
 ---
 
 Every Japanese city has a local dish; **Utsunomiya** built an identity. The Tochigi capital is, by its own proud reckoning, the **gyoza capital of Japan**, locked in a good-natured national rivalry with Hamamatsu over which city eats the most **dumplings** per household.

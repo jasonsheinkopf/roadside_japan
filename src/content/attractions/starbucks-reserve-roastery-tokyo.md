@@ -78,6 +78,13 @@ cinnamon:
     - cast: [cinnamon, socks, mon]
       prop: "🌸"
       caption: "Verdict, unanimous: come on a weekday morning, and walk the river out front — free cherry trees, no line at all. — Cinnamon"
+  snapshots:
+    - cast: [cinnamon]
+      prop: "☕"
+      caption: "Riding the roasting-bean smell up two floors before finding the stairs, to where the machinery clanks away like a small, delicious factory."
+    - cast: [cinnamon, socks]
+      prop: "🥐"
+      caption: "The Saturday line took nearly an hour and we regretted no seconds. Squirrel tip anyway: weekday morning, then walk the Meguro River out front."
 ---
 
 Rising four floors over the Meguro River in Nakameguro is **Starbucks Reserve Roastery Tokyo**, one of only a handful of Reserve Roasteries in the world and, by most measures, the largest. It opened on **28 February 2019**, designed by architect **Kengo Kuma**, whose signature timber lattice work wraps the building in a wave of pale wood meant to echo the cherry trees lining the river outside.

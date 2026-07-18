@@ -65,6 +65,13 @@ cinnamon:
     I queued (bowl rental: adorable; my portion: a thimble, by arrangement) and watched the crane operator work the giant ladle with the precision of a tea master. The riverbank becomes one enormous shared table; strangers compare seasoning opinions like family; the steam column is visible from the bridge.
 
     First Sunday of September-ish, Mamigasaki riverbed. Arrive early — the pot is huge but so is the province's appetite. One pot, one town, one crane: community, at engineering scale.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍲"
+      caption: "Bowl held up like baby Simba as the construction crane worked the six-metre cauldron's ladle with the precision of a tea master. My portion: a thimble, by arrangement."
+    - cast: [cinnamon, mon]
+      prop: "🥘"
+      caption: "The riverbank as one enormous shared table, strangers comparing seasoning opinions like family. Mon-chan's bowl was regulation size. He is not regulation size. He managed."
 ---
 
 Yamagata's autumn comfort food is **imoni** — a hearty stew of **taro, beef, konnyaku, and green onion** in a sweet-soy broth — and every September the whole region celebrates it in the most over-the-top way imaginable.

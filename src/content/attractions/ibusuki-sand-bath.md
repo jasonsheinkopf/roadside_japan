@@ -63,6 +63,13 @@ cinnamon:
     At Ibusuki, on a black-sand beach at Japan's southern toe, attendants with shovels bury you up to the neck in sand that's naturally heated by hot-spring water rising beneath the beach. They've been doing it for 300 years. For a human it's ten minutes of geothermal weighted blanket; for a squirrel it took one teacup of sand and a very careful attendant with a soup ladle and a sense of humor.
 
     You can feel your own heartbeat in your ears — the sand hugs back, that's the strange part. Then you rinse off and float in the regular baths. The humans emerged pink and philosophical. I emerged pre-warmed for a nap I took immediately.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏖️"
+      caption: "Buried to the neck in geothermal sand — my portion took one teacup and an attendant with a soup ladle and a sense of humor. You can hear your own heartbeat."
+    - cast: [socks, mon]
+      prop: "⛱️"
+      caption: "Mon-chan declined burial on the grounds that the fluff must stay dry. Socks timed our ten minutes with great seriousness. They've done this here for 300 years."
 ---
 
 At the southern end of Kyushu, where the ground itself runs hot with geothermal heat, the town of **Ibusuki** has turned its beach into a bath. Attendants in conical hats dig a shallow trench in the black volcanic sand, you lie down in a yukata, and they shovel the steaming sand over you until only your head is free.

@@ -46,6 +46,13 @@ cinnamon:
     The shop had already fed its neighborhood for over twenty years before that dinner. Upstairs, the exact table is sealed inside a glass case — bowls, chopsticks, beer bottles, even the stools tucked underneath, like a still life titled "Lunch, Interrupted by History." I ordered the Combo Obama, dragged my noodles through the smoky-sweet dipping broth, and understood diplomacy for the first time.
 
     The humans around me debated whether it's still the city's best bún chả or just its most famous; every single one of them finished their bowl. My tip: come off-peak, and go upstairs to pay respects to the table. I bowed. It seemed right.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍜"
+      caption: "The Combo Obama: noodles dragged through smoky-sweet dipping broth at the shop where a president and Bourdain split a six-dollar tab on plastic stools."
+    - cast: [cinnamon, mon]
+      prop: "🥢"
+      caption: "Upstairs with the glass case holding the exact 2016 table — bowls, beer bottles, stools and all. Mon-chan asked if he'd get a case someday. We said probably."
 sources:
   - title: "What happened to the table where Bourdain ate with Obama — Bravo"
     url: "https://www.bravotv.com/jetset/what-happened-to-table-where-bourdain-ate-with-obama-at-bun-cha-huong-lien-restaurant-in-vietnam"

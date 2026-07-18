@@ -60,6 +60,13 @@ cinnamon:
     I operated the lantern shop for several minutes (no customers, poor hours, five-star location) and rang the shop bell with both paws. The volunteer guides grew up in neighborhoods like these and narrate them like family albums, because they are.
 
     It's small, cheap, and sits at the edge of Shinobazu Pond — an hour that recalibrates every other Tokyo hour around it. The city's soul kept in one small building, staffed by people who remember it. Go before your Ueno museum day, not after. Context first.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏮"
+      caption: "Operating the Meiji-era lantern shop for several minutes. No customers, poor hours, five-star location. Rang the shop bell with both paws."
+    - cast: [cinnamon, socks]
+      prop: "🏘️"
+      caption: "The tenement alley you walk INTO — no rope lines. The volunteer guides grew up in neighborhoods like these and narrate them like family albums, because they are."
 ---
 
 Right where Ueno Park spills down to Shinobazu Pond sits a museum with no grand facade and no gift-shop sprawl — just two floors built to recreate the vanished world of Tokyo's *shitamachi*, the low-lying merchant-and-artisan downtown that stood in contrast to the hilltop samurai districts.

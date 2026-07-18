@@ -67,6 +67,13 @@ cinnamon:
     I walked the boardwalk into the crater at dusk when the steam catches the last light and the sulfur smell files its report directly to your hindbrain. Then down to town to see the demon statues lit up, looking less like monsters and more like the local welcoming committee, which they are.
 
     Soak afterward — the whole point of hell here is that it heats your bath. The humans emerge from the onsen pink and pleased, having bathed in the underworld's runoff. Hokkaido's best-branded geology.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "😈"
+      caption: "The boardwalk into the crater at dusk, steam catching the last light, the sulfur filing its report directly to my hindbrain."
+    - cast: [cinnamon, mon]
+      prop: "♨️"
+      caption: "Down in town with the lit-up demon statues — less monsters, more welcoming committee. Mon-chan posed with the biggest oni and called it a fair fight."
 ---
 
 Hokkaido's grandest hot-spring resort sits directly downstream from a hole in the earth. **Noboribetsu Jigokudani** — yes, another "Hell Valley" — is a 450-metre-wide volcanic crater of rust-red and sulfur-yellow rock that hisses steam from a hundred vents and pipes scalding mineral water down to the baths below.

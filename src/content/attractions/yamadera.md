@@ -63,6 +63,13 @@ cinnamon:
     I climbed the thousand steps the human way, step by step, out of respect (fine: mostly; there were three brief canopy shortcuts and I regret being honest). The Godaido hall at the top hangs off the precipice like a held breath, and the valley below arranges itself into the exact view that makes everyone go quiet mid-photo.
 
     Autumn burns, winter mutes, summer hums with the cicadas Bashō filed his report on. The konnyaku balls at the base are the traditional post-climb reward. Silence, stairs, one perfect ledge: the whole country in one hill.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⛰️"
+      caption: "Step 1,015, taken the human way out of respect (fine: minus three brief canopy shortcuts). Bashō filed his cicada report here in 860-something; I wrote 'wow' in the snow with my tail."
+    - cast: [cinnamon, socks]
+      prop: "🏯"
+      caption: "The Godaido hall hanging off the precipice like a held breath. The valley view made even the mid-photo humans go quiet, and Socks forgot to be scared of the drop."
 ---
 
 The mountain temple of **Risshaku-ji** — everyone calls it **Yamadera**, "mountain temple" — clings to a cliff of weathered rock above a green Yamagata valley. To reach it you climb roughly **a thousand stone steps** through towering cedars, passing tiny halls and moss-covered Buddhas as you go.

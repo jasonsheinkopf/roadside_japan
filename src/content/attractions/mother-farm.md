@@ -63,6 +63,13 @@ cinnamon:
     I entered the sheep race. Unofficially. I rode the fence rail alongside the field, matched the leader stride for stride, and consider myself the moral winner of Heat 3. The capybaras received me as capybaras receive everything: with the serenity of creatures who have never once hurried. I fed an alpaca and was breathed on so hard my fur parted.
 
     Families swarm it on weekends, and the soft-serve (fresh farm milk) has a permanent queue that moves fast. Petting-zoo diplomacy, flower fields, a genuinely great view — an uncomplicated full acorn.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐑"
+      caption: "Heat 3 of the sheep race, contested from the fence rail, stride for stride with the leader. Moral winner: me."
+    - cast: [cinnamon, socks]
+      prop: "🦙"
+      caption: "Fed an alpaca; was breathed on so hard my fur parted. The capybaras received Socks with the serenity of creatures who have never once hurried."
 ---
 
 High on the hills of the **Boso Peninsula**, with Tokyo Bay glinting below, **Mother Farm** is a sprawling farm-park built for a very specific kind of joy: feeding fuzzy animals, watching sheep do undignified things, and wandering through fields of flowers.

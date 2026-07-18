@@ -33,6 +33,13 @@ cinnamon:
     I did the backflip off the sign's lower rim (see my quote; it remains the most pastry-based moment of my life) and then, crucially, went inside — because this is a real 24-hour donut shop, not a monument with a gift counter. The glazed is honest. The apple fritter is the size of my torso and I treated it like terrain.
 
     Movie cameos beyond counting, morning light for photos, LAX ten minutes away for a layover pilgrimage. The giant donut economy has a capital. This is it. Thank you, fellow traveler.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍩"
+      caption: "The backflip off the 32-foot donut's lower rim — the most pastry-based moment of my life, freeway audience included."
+    - cast: [cinnamon, mon]
+      prop: "🥐"
+      caption: "Inside the actual 24-hour shop, treating an apple fritter the size of my torso like terrain. Mon-chan ordered by pointing at the roof."
 website: "https://randysdonuts.com/locations/inglewood-ca/"
 cost:
   type: paid

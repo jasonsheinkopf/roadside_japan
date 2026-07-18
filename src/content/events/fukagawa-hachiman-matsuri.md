@@ -57,6 +57,13 @@ cinnamon:
     I worked the awnings overhead, dry and smug, until a firefighter's arc found me specifically (I respect the aim; I question the necessity) and I finished the parade as damp and happy as everyone below. The bearers chant 'wasshoi,' the water flies, the shrine gold flashes through the spray — Edo's summer spirit, fully preserved, fully soaked.
 
     The grand version with all shrines runs every third August (next full honmatsuri: check the cycle); off-years still splash. Waterproof everything. Participate. You WILL anyway.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💦"
+      caption: "Working the awnings, dry and smug, until a firefighter's arc found me specifically. I respect the aim. I question the necessity."
+    - cast: [cinnamon, mon]
+      prop: "⛩️"
+      caption: "Shrine gold flashing through the spray as the whole route soaks the bearers — kids with squirt guns, aunties with buckets. Mon-chan absorbed three buckets and doubled in apparent size."
 ---
 
 Ranked alongside the Sanja and Kanda festivals as one of Edo's three great matsuri, the Fukagawa Hachiman Matsuri turns a serious Shinto procession into one of the wettest, most joyfully chaotic events in Tokyo's summer calendar.

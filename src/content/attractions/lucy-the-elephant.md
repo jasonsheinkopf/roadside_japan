@@ -40,6 +40,13 @@ cinnamon:
     You enter through a spiral staircase in her hind leg (my second favorite leg-staircase after Bangkok's Erawan elephant — yes, I keep a list; yes, it has two entries; yes, both are elephants) and come out in the howdah on her back for an Atlantic view. Her ribs creak in the sea wind like a ship that decided to be an animal.
 
     The guided tour is short and full of her deaths and rescues — she's survived lightning, hurricanes, and developers, the last being the most dangerous. Buy something at the shop. Keep Lucy fed.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐘"
+      caption: "Up the spiral staircase in her hind leg — my second favorite leg-staircase (yes, I keep a list; yes, both entries are elephants) — to the Atlantic view from her howdah."
+    - cast: [cinnamon, socks]
+      prop: "⚡"
+      caption: "The tour's roll call of her survivals since 1881: lightning, hurricanes, demolition threats. Her ribs creak like a ship that decided to be an animal. Socks patted a rib gently."
 ---
 
 ## Six stories of pachyderm

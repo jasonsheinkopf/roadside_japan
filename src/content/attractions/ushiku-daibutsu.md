@@ -64,6 +64,13 @@ cinnamon:
     There's an elevator inside. You ride up through the interior — floors of scripture, thousands of small golden Buddhas glowing in the dark — to a viewing level in the chest, where windows the size of postage stamps (his scale, not mine) frame the plain. I looked out of a Buddha's ribcage at flower gardens shaped like his own silhouette below. Architecture as theology as engineering.
 
     Spring wraps the base in cherry blossoms and baby animals (there's a small petting zoo, tonal whiplash included free). Clear days from the chest: Skytree and Fuji. Big everything. Bring your smallness.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🧘"
+      caption: "Looking out of a 120-metre Buddha's ribcage at flower gardens shaped like his own silhouette. Architecture as theology as engineering."
+    - cast: [cinnamon, socks]
+      prop: "🛗"
+      caption: "The elevator ride up through floors of scripture, thousands of small golden Buddhas glowing in the dark. Socks pressed the button and called it the holiest thing he's ever operated."
 ---
 
 You see it long before you arrive: a serene bronze face rising **120 metres** over the rice fields of Ibaraki, three times the height of New York's Statue of Liberty. Completed in 1993, the **Ushiku Daibutsu** held the record as the world's tallest statue for years and remains one of the tallest bronze figures anywhere.

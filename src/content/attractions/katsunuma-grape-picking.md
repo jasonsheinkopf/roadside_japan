@@ -60,6 +60,13 @@ cinnamon:
     I worked the Kyoho rows like a harvest festival of one: each grape is effectively a wine barrel at my scale, and I am not ashamed of my numbers. The farmer weighed my basket, looked at my cheeks, weighed me, and laughed until she had to sit down. I paid the surcharge. It was fair.
 
     Go September–October, hit a winery cave after (several do tastings; I sniffed responsibly), and take the slow train home at sunset with purple paws like everyone else.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍇"
+      caption: "Working the Kyoho rows like a harvest festival of one. Each grape is a wine barrel at my scale, and I am not ashamed of my numbers."
+    - cast: [cinnamon, mon]
+      prop: "⚖️"
+      caption: "The weigh-in: basket, cheeks, then me. The farmer laughed until she had to sit down. I paid the surcharge. It was fair. Mon-chan paid double."
 ---
 
 Ninety minutes from Tokyo, an entire hillside in Koshu turns over to vineyards each late summer — Japan's original and still-largest wine region, and one of its most reliable late-summer day trips.

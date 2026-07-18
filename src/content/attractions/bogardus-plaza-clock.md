@@ -51,6 +51,13 @@ cinnamon:
     It turned out to be a seventeen-foot, 1,500-pound cast-iron tower clock, built in 1910 for a jeweler's storefront in Lansing, Michigan, rescued by a collector in Ontario decades later, and installed here in 2020 — named for James Bogardus, the inventor who built the first cast-iron building in America two blocks from this very spot. I counted the thirteen granite "eggs" set into the plaza, a nod to the neighborhood's old butter-and-egg wholesale days, and sat on one disappointed all over again that "egg" meant "rock" and not "snack." A volunteer from Friends of Bogardus Plaza cranked the mechanism by hand while I watched, both of us pretending it wasn't a little moving.
 
     Everyone who stopped agreed on one thing: nice that something in this city still runs because a person bothered. My verdict — visit on a weekend morning, when the winding tends to happen, and give the volunteer a nod. Costs nothing, and for once nobody made me pay in acorns.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🕰️"
+      caption: "Leaning my whole body on the winding crank of 1,500 pounds of 1910 Michigan iron. It did not move a millimeter. The winder's arm has my respect."
+    - cast: [cinnamon, mon]
+      prop: "🥚"
+      caption: "Counting the thirteen granite eggs set into the plaza — a nod to the old butter-and-egg district. Mon-chan guarded them like they might hatch."
 sources:
   - title: "1910 Clock Rises Over Chambers St., an Instant Landmark for Tribeca"
     url: "https://tribecatrib.com/content/1910-clock-rises-over-chambers-st-instant-landmark-tribeca"

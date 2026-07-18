@@ -51,6 +51,13 @@ cinnamon:
     The ground floor is retail; the fourth floor is the secret: an exhibition room of museum-grade Hina and Gogatsu dolls that most visitors never learn about, faces painted with brushes of a few hairs, silks older than prefectures. As a small furred person I have complicated feelings about rooms full of watching dolls, and I want it known I maintained composure for the full visit, minus one incident involving a suit of miniature armor and my own reflection.
 
     Come before the seasonal festivals to watch serious grandparents commission serious heirlooms. Three centuries of one craft, one address. The dolls watch. They've earned it.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎎"
+      caption: "The secret fourth floor: museum-grade dolls with faces painted by brushes of a few hairs, silks older than prefectures. I bowed to the oldest one."
+    - cast: [cinnamon, socks]
+      prop: "🗡️"
+      caption: "Composure maintained for the full visit, minus one incident involving a suit of miniature armor and my own reflection. Socks has agreed not to elaborate."
 ---
 
 Asakusabashi is Tokyo's low-key doll capital — block after block of wholesalers selling ornate Hina and Gogatsu dolls — and Yoshitoku, trading continuously since 1711, is the district's anchor.

@@ -41,6 +41,13 @@ cinnamon:
     I toured it twice, once with the humans and once by my own routes, and I can report the house is even stranger between the walls: passages that go nowhere honest, a maze built from the inside out. The daisy-pattern windows and 13-count details recur like a signature or a spell.
 
     San Jose traffic outside, 1906-earthquake scars inside, docents with perfect timing. Whatever she was building — apology, armor, or just motion — it's the most architecturally sincere haunted house in America. I left through a door that opened onto wall, respectfully, via the gap.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🚪"
+      caption: "Tour two, by my own routes between the walls: passages that go nowhere honest, a maze built from the inside out. My nest has the same floor plan."
+    - cast: [cinnamon, socks]
+      prop: "🪜"
+      caption: "The staircase into the ceiling, contemplated together. The 13-count details and daisy windows recur like a signature or a spell; Socks counted thirteen of everything twice."
 ---
 
 ## The house that grief built

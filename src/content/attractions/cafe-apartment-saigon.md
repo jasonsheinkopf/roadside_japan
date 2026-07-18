@@ -50,6 +50,13 @@ cinnamon:
     The block was built in the mid-1960s as housing for officials, later shipyard workers, and by the 2000s it was mostly forgotten — until around 2015, when young café owners started moving into the old apartments one by one. I climbed the stairwell the whole way, poking my nose through doors: a vintage-tea room here, a vinyl-records café there. My tail fluffed a full size from the caffeine fumes alone.
 
     The humans' consensus, floor after floor: grab a balcony seat and watch the boulevard glitter. Do what I did — pick the floor with the best snack display, not the best view. The view is the same everywhere. The cakes are not.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏢"
+      caption: "Climbing the stairwell of all nine floors, poking my nose through doors — a vintage-tea room here, a vinyl café there. A bento box of coffee."
+    - cast: [socks, mon]
+      prop: "☕"
+      caption: "Socks found the quietest balcony café and Mon-chan found the one with the biggest cake. From the walking street below, every balcony is a different signboard."
 sources:
   - title: "The Cafe Apartment on Saigon's walking street — Vietnam Coracle"
     url: "https://www.vietnamcoracle.com/the-cafe-apartment-on-saigons-walking-street/"

@@ -67,6 +67,13 @@ cinnamon:
     You stand on the top deck with 360 degrees of bay — tankers gliding, Fuji on a clear evening, the bridge vanishing into the water behind you like a magic trick with civil engineering. There's a monument to the tunnel diggers, decent ramen, asari clam everything (the local specialty), and the giant cutter-head disc from the boring machine displayed like the trophy it is.
 
     It's only reachable by car or bus, which makes it a destination disguised as a pause. Sunset slot, clam bun in paw, boats below: the roadside genre, perfected, at sea.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌊"
+      caption: "Top deck, 360 degrees of Tokyo Bay, watching the highway vanish into the sea behind us like a magic trick with civil engineering."
+    - cast: [cinnamon, socks]
+      prop: "🍜"
+      caption: "Asari clam ramen beside the tunnel-boring machine's giant cutter head, displayed like the trophy it is. Socks saluted the diggers' monument. A rest stop in the middle of the ocean. Casually."
 ---
 
 Halfway across **Tokyo Bay**, the **Aqua-Line** highway does something extraordinary: it stops being a bridge and plunges into a tunnel under the sea. At exactly that transition floats **Umihotaru** ("Sea Firefly"), a five-story **rest stop on an artificial island** in the middle of the water.

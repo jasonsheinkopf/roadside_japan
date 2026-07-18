@@ -58,6 +58,13 @@ cinnamon:
     That backstory converts the whole site from kitsch to gift. The seven stand looking out at the ocean exactly as their ancestors do, and the humans line up to pose as the eighth. I sat on a stone head's shoulder (respectfully; we're both professionals) while the Pacific did its enormous blue routine below.
 
     The hillside park around them is cheerfully odd — butterflies, bells, sun-themed everything. Coastal drive down Nichinan is half the trip. Thank you, roadtripper. Filed under 'real,' with apologies.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🗿"
+      caption: "On a stone shoulder (respectfully; we're both professionals) while the Pacific did its enormous blue routine below the seven."
+    - cast: [cinnamon, mon]
+      prop: "🌊"
+      caption: "The only Moai ever officially sanctioned by Easter Island — a thank-you gift after Japanese engineers helped restore the originals. Mon-chan lined up as the eighth and held the pose."
 ---
 
 High on a coastal hillside in southern Miyazaki, seven stone giants gaze inland from above the Pacific — a faithful, full-scale recreation of the **Moai of Easter Island (Rapa Nui)**.

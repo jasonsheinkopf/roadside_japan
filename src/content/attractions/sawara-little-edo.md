@@ -62,6 +62,13 @@ cinnamon:
     The old merchant district survives nearly intact: Edo-period storehouses, sake breweries, and boats poling tourists under little bridges past buildings their great-great-grandparents traded from. I rode the boat with my paws on the gunwale, auditing bridges from below, the best angle for bridges.
 
     Come for the summer or autumn float festivals if you can — giant dashi floats topped with historical figures. Otherwise: quiet canals, live history, and the map-walker's house. Sawara measured Japan. Least I could do was visit.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🛶"
+      caption: "Paws on the gunwale, auditing Sawara's little bridges from below — the best angle for bridges — while the boatman poles past Edo storehouses."
+    - cast: [cinnamon, socks]
+      prop: "🗾"
+      caption: "Respects paid at Ino Tadataka's house — the man who walked all of Japan to draw its first accurate map, starting at 55. Patron saint of this atlas and of late starts everywhere."
 ---
 
 Northern Chiba hides a town that time mostly forgot to modernize. **Sawara** grew rich on river trade in the Edo period, and its old quarter — black-tiled merchant houses and warehouses leaning over a willow-lined **canal** — has survived so intact it's earned the nickname **"Little Edo."**

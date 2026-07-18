@@ -59,6 +59,13 @@ cinnamon:
     I went at 6 a.m., which is when the lotus punch their clock: they open for the morning and start closing by ten, so dawn is not a suggestion, it's the appointment. The boatman cut the engine mid-lake and we sat in pink silence while herons picked between the blooms like inspectors.
 
     December through February, Udon Thani side, share a boat with strangers and become friends by the turnaround. My journal's entry is smudged because the lake got on it. Or possibly I did. Pink, either way.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌺"
+      caption: "Engine cut, mid-lake, 6 a.m. — pink silence to the horizon while herons picked between the blooms like inspectors. Dawn is not a suggestion; it's the appointment."
+    - cast: [cinnamon, socks]
+      prop: "🛥️"
+      caption: "Sharing the longtail with strangers who were friends by the turnaround. December through February only; by ten the lotus punch out."
 ---
 
 Most of the year, Nong Han is an ordinary shallow lake in rice-farming Isan. Then December arrives, and it turns into one of the strangest sights in Thailand.

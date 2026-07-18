@@ -36,6 +36,13 @@ cinnamon:
     I dined at the cave-mouth rail (grilled prawn commission; the staff at beach restaurants understand a working squirrel) while climbers inched up the cliffs next door and longtail boats swapped tourists at the shore. When the tide and light line up at dusk, the whole cave glows amber and everyone's dinner gets photographed before it gets eaten.
 
     It's resort-priced and worth it once, at sunset, unhurried. The princess shrine cave is a two-minute walk for after-dinner folklore. Eat in a cave. The ancestors would be proud and confused.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🧗"
+      caption: "Cave-mouth rail seat with a commissioned grilled prawn, climbers inching up the cliffs next door. The staff at beach restaurants understand a working squirrel."
+    - cast: [cinnamon, socks]
+      prop: "🌅"
+      caption: "Dusk, when tide and light line up and the whole cave glows amber. Every dinner got photographed before it got eaten, ours included."
 ---
 
 At the foot of the towering karst cliffs on Phra Nang Beach — one of the most beautiful strands in Thailand — a natural cave has been turned into an open-air restaurant. Tables sit among the stalactites and weathered limestone, sheltered by the rock overhead and opening straight onto the white sand and turquoise water.

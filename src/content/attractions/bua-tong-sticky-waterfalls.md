@@ -50,6 +50,13 @@ cinnamon:
     Bua Tong's limestone is coated in minerals so grippy that feet — human feet, squirrel feet, all feet — simply stick, even under flowing water. I walked up a waterfall like it was a staircase. Uphill. IN the water. My whole life as a climbing professional flashed before my eyes and felt suddenly ordinary.
 
     The humans giggle the entire climb; it is physically impossible not to. Skip the mossy green patches (those DO slip), go on a weekday, bring a snack for the top. The strangest and best twenty minutes in northern Thailand.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "💦"
+      caption: "Walking UP a waterfall like it's a staircase — the mineral coating grips even underwater. Socks tested one paw for ten minutes, then passed everybody."
+    - cast: [cinnamon]
+      prop: "🧗"
+      caption: "Skip the mossy green patches (those DO slip), go on a weekday, bring a snack for the top. My claws have met their soulmate."
 ---
 
 Every waterfall in the world teaches you the same rule — wet rock is slippery. Bua Tong exists to break that rule.

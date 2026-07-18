@@ -66,6 +66,13 @@ cinnamon:
     I counted them four times. I got 74, 76, 74, and 71, and I am a professional counter of things (acorns, primarily; my winter depends on it). I don't wish to alarm anyone but the legend is operational.
 
     The gorge itself is a lovely dark rush of river over volcanic rock, fifteen minutes' walk from the crowds at the shrines, and mostly empty. The bibs are re-knitted by locals for the souls of children, which will sit in your chest a while, as it should. Count. Report your numbers. Add to the mystery.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🗿"
+      caption: "Count attempt three of four along the red-bibbed Bake Jizo: 74, 76, 74, 71. I am a professional counter of things. The legend is operational."
+    - cast: [cinnamon, socks]
+      prop: "🌊"
+      caption: "The dark rush of river over volcanic rock, fifteen minutes from the shrine crowds and mostly empty. The bibs are re-knitted by locals for the souls of children — that one sits in your chest a while."
 ---
 
 Away from Nikko's grand shrines, a quiet path follows the **Daiya River** into a small basalt gorge formed by an old lava flow. This is the **Kanmangafuchi Abyss**, and its real draw stands in a long, silent row along the bank.

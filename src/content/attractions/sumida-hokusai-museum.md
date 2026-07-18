@@ -59,6 +59,13 @@ cinnamon:
     Inside: his sketchbooks, the manga, the waves and Fujis, and a life-size recreation of his famously chaotic studio, complete with a model Hokusai at work amid honest clutter. An old man who called himself 'mad about drawing' and got better until he died at 89, insisting he'd only be truly good at 110. I stood before The Wave longer than the humans, and I've SEEN waves.
 
     Small enough for ninety minutes, deep enough for a lifetime. Pair with the sword museum and sumo arena — Ryogoku is Tokyo's best small triangle.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌊"
+      caption: "Standing before The Wave longer than the humans, and I've SEEN waves. He moved house 93 times; I live in one hollow. Both alarming and inspiring."
+    - cast: [cinnamon, socks]
+      prop: "🖌️"
+      caption: "The recreated studio, honest clutter and all — a man 'mad about drawing' who insisted he'd only be truly good at 110. Socks found the mess deeply validating."
 ---
 
 Toward the Kinshicho end of this walk, a building unlike anything else in the neighborhood appears between low apartment blocks: five interlocking, mirror-bright aluminum volumes designed by Pritzker Prize-winning architect Kazuyo Sejima.

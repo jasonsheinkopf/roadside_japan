@@ -66,6 +66,13 @@ cinnamon:
     I came in light snow (Otaru schedules this; see also Ginzan Onsen, the towns clearly coordinate) and rode a lamppost while the photographers below fought politely for tripod space. The canal was nearly filled in for a road in the sixties; the citizens fought for it and won, which makes every reflected lamp a small civic victory.
 
     Eat sushi in town after — Otaru's other legacy. Peak romance in February's Snow Light Path festival, when candles float in the canal. Bring someone. Or be me: bring a journal.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏮"
+      caption: "On a bollard at dusk as the gas lamps came on, feeling like a tiny film noir detective. The warehouses hold the light differently every ten steps."
+    - cast: [cinnamon, socks]
+      prop: "🍣"
+      caption: "Otaru's other legacy, honored properly in town afterward. Every reflected lamp on this canal is a small civic victory — the citizens fought the sixties road plan and won."
 ---
 
 Once, this canal floated barges heavy with herring money. Today the **Otaru Canal** is shorter and quieter, but it has become one of Hokkaido's most beloved postcards: a curve of still water lined with **old stone warehouses**, walked by a promenade of **gas lamps** that flicker on at dusk.

@@ -64,6 +64,13 @@ cinnamon:
     Come autumn the same hill switches to kochia bushes: thousands of round shrubs blushing from green to blood-red like the hill grew fur. As a fur professional, I approve of the maintenance schedule.
 
     It's a huge coastal park — rent the smallest bicycle they'll allow and do the full loop, dunes to forest. Bloom weeks are mobbed by lunchtime, so arrive at opening. The humans all take the same photo and every single one of them is right to.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌐"
+      caption: "Mid-slope in 4.5 million nemophila, effectively invisible — one brown comma in a blue sentence."
+    - cast: [cinnamon, mon]
+      prop: "🚲"
+      caption: "The full loop, dunes to forest, on the smallest bicycle they'd allow. In autumn this same hill grows red kochia fur — Mon-chan rates the maintenance schedule highly."
 ---
 
 Twice a year, a single hill in Ibaraki becomes one of the most photographed places in Japan. In spring, **4.5 million nemophila** — tiny "baby blue eyes" flowers — wash Miharashi Hill in a blue so total it blurs the line between flowers, sky, and sea. In autumn, the same hill flushes scarlet as thousands of round **kochia** bushes turn color.

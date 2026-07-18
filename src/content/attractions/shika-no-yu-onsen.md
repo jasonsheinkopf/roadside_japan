@@ -64,6 +64,13 @@ cinnamon:
     Bathing culture here comes with instruction: ladle the hot water over your head before entering (kaburi-yu, an old ritual; also just good sense) and sit still, because moving makes 48 degrees discuss you personally. I soaked in tub two like a gentleman scholar and inspected tub six with one paw, which I then reconsidered for several minutes.
 
     A deer supposedly found the spring; the name honors it. Come early with the local grandpas, who enter tub six like it's a mild bath and exit looking younger. Witchcraft. Tradition. Same thing here.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "♨️"
+      caption: "Tub two, gentleman-scholar posture, among grandpas who have perfected the art of the sigh over 1,300 years of practice."
+    - cast: [cinnamon, mon]
+      prop: "🌡️"
+      caption: "One paw into the legendary 48-degree tub six, then several minutes of reconsidering. Mon-chan performed the kaburi-yu head-ladle ritual with unearned confidence."
 ---
 
 At the very top of the **Nasu Yumoto** onsen town, where the road gives way to steaming hillsides, stands a weathered wooden bathhouse that has been in business, in one form or another, for around **1,300 years**: **Shika-no-yu**, the oldest hot spring in Nasu.

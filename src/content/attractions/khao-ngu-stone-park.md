@@ -34,6 +34,13 @@ cinnamon:
     I climbed to the relief carving (stairs for the humans, the direct route for me) and sat with a Buddha that has watched this valley since before anyone alive can trace. Below, teenagers fed catfish the size of dachshunds and monkeys ran the picnic tables like a protection racket.
 
     It's a local park, not a polished attraction — small entry fee, big sky, snack stands. Guard your bags from the monkeys; they have a system. The quarry-to-sanctuary arc gets a full acorn salute from me.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🧗"
+      caption: "Up at the ancient Dvaravati Buddha carving — stairs for the humans, the direct route for me — with the flooded quarry's emerald pools below."
+    - cast: [cinnamon, mon]
+      prop: "🐒"
+      caption: "Observing the picnic-table protection racket. The monkeys unzipped a tourist's bag in four seconds flat; Mon-chan guarded ours by sitting on it."
 ---
 
 Where stone was once blasted out for cement, Ratchaburi has made something unexpectedly lovely: a quiet park of jade-green quarry lakes ringed by pale cliffs, dotted with picnic spots and walking paths.

@@ -65,6 +65,13 @@ cinnamon:
     Akagawa is a competition show — Japan's top pyrotechnicians debuting their serious work — which is why the choreography feels composed rather than launched. The wide launch line means the sky isn't a point, it's a STAGE, and the music isn't background, it's the script.
 
     Shonai in mid-August, paid seats worth it for the axis, trains packed after. Bring a mat, arrive early, surrender completely. I have seen many skies. This one had a director.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎆"
+      caption: "Riverbank, mid-finale, pretending riverbank grit was in my eyes. 12,000 fireworks synced to music across a 700-metre stage — composed, not launched."
+    - cast: [cinnamon, socks]
+      prop: "🧺"
+      caption: "Mat down early, control surrendered completely, per protocol. Japan's top pyrotechnicians debut their serious work here; the man three blankets over said 'okaasan…' and we understood."
 ---
 
 Japan takes its **summer fireworks** seriously, and few shows are more revered than the **Akagawa Fireworks Festival** in Tsuruoka, which openly aims to be **"Japan's most moving fireworks display."**

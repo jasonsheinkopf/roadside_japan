@@ -34,6 +34,13 @@ cinnamon:
     Inside: past-life therapy literature, gloriously hand-made cosmic art, a model of the coming landing site, and volunteers of great sincerity and courtesy who will explain interdimensional physics to anyone, including, it turns out, a squirrel. The founders' films (available online, sequined, unmissable) are outsider cinema treasures.
 
     Visit as a guest, not a gawker — they're kind people with a fascinating archive. The starships remain scheduled. I checked the sky on the way out. You do too. That's the effect.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🛸"
+      caption: "Receiving a courteous explanation of interdimensional physics beneath the flying-saucer mural. The 33 crystal starships land when humanity is ready. I checked the sky twice. Nothing yet. YET."
+    - cast: [cinnamon, socks]
+      prop: "🎬"
+      caption: "The founders' sequined films — outsider cinema treasures. We visited as guests, not gawkers, and the volunteers' sincerity outshone the mural."
 ---
 
 ## The last word in flying-saucer optimism

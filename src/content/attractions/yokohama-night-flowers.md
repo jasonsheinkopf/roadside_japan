@@ -59,6 +59,13 @@ cinnamon:
     I caught one from the Osanbashi pier deck, wedged between a couple on a date and a man walking a beagle who howled the finale in harmony. Five minutes is the genius of it: long enough to gasp, short enough to leave everyone mid-smile, and the Minato Mirai skyline does the afterglow.
 
     Check the schedule online, arrive fifteen minutes early, anywhere with harbor sightlines works. It's the anti-Atami — a whisper instead of a roar — and Yokohama's way of keeping Friday nights slightly enchanted. City-planning by sparkle.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🎆"
+      caption: "Osanbashi pier deck, wedged between a couple on a date and a beagle who howled the finale in harmony. Five minutes: long enough to gasp, short enough to leave mid-smile."
+    - cast: [cinnamon]
+      prop: "🌃"
+      caption: "The Minato Mirai skyline doing the afterglow. Check the schedule, arrive fifteen minutes early, any harbor sightline works — fireworks as a habit, not an event."
 ---
 
 Yokohama's answer to a single big annual fireworks night is the opposite approach: a dozen small, free shows scattered across the year, so there's a good chance one lands on whatever weekend you happen to be in town.

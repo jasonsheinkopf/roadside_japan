@@ -66,6 +66,13 @@ cinnamon:
     I took a seat in row two, which for a creature my size is not a splash zone but a full weather event. An orca the size of a bus did a barrel roll, the ocean came to visit, and I finished the show as a much smaller-looking, extremely alive squirrel gripping a stranger's umbrella spoke. Worth it. WORTH IT.
 
     Between shows: belugas squeaking like rusty doors (relatable), a walk-through polar exhibit, and the actual sea right there behind the tanks, which keeps the whole thing honest. Families mob it on weekends. Dry seats exist for cowards, and I say that with love, from experience, while wringing out my tail.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐋"
+      caption: "Row two of the orca stadium — for a creature my size, not a splash zone but a full weather event. I finished the show gripping a stranger's umbrella spoke. WORTH IT."
+    - cast: [socks, mon]
+      prop: "🐳"
+      caption: "Socks and the belugas squeaking at each other like rusty doors. Relatable, he says. Mon-chan requested the dry seats, which do exist."
 ---
 
 On the Pacific edge of the Boso Peninsula, **Kamogawa Sea World** does what few aquariums can: it stages a full-power **orca show** with the real ocean shimmering just beyond the pool, so the leaping killer whales seem to launch straight out of the sea.

@@ -38,6 +38,13 @@ cinnamon:
     I rode out on the shoulder of a clam auntie who has been doing this for forty years and has forearms like ship rope. She showed me how to spot the keyhole burrows. I found four, and she took them with the nod that is the highest honor in any harvesting profession.
 
     The shacks along the shore cook what the tide surrendered — the razor clams stir-fried with basil are the point. Check the tide table first; at high water the whole stage is underwater and the show is a rumor.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐚"
+      caption: "Low tide, riding the shoulder of a clam auntie with forty years of practice, learning to spot keyhole burrows. I found four. She kept them. The nod was the honor."
+    - cast: [cinnamon, mon]
+      prop: "🍳"
+      caption: "Razor clams stir-fried with basil at the shore shacks — the point of the whole trip. Check the tide table first or the sandbar stage is underwater."
 ---
 
 Don Hoi Lot is a quietly strange natural phenomenon: a huge bank of fine shell-sand exposed at the river mouth, riddled with the burrows of *hoi lot*, the razor clam. It's both an ecological curiosity and a beloved weekend eating destination for Thai families.

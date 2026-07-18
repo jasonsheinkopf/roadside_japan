@@ -67,6 +67,13 @@ cinnamon:
     As a connoisseur of roofs, I state for the record: thatch is the finest roofing material ever devised, and this park is its Louvre. On hearth-lighting days, smoke curls through the thatch to cure it, volunteers keep the fires, and the houses smell alive. I inspected ridgepoles across four centuries of carpentry, then watched the watermill do its patient work.
 
     It's beside the Fujiko F. Fujio Museum — pair them for old and new Japan in one afternoon. Go on a smoke day if you can. A village of saved houses: my kind of rescue story.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏘️"
+      caption: "Inspecting ridgepoles across four centuries of carpentry. Thatch is the finest roofing material ever devised, and this park is its Louvre."
+    - cast: [cinnamon, socks]
+      prop: "🔥"
+      caption: "A hearth-lighting day, smoke curling through the thatch to cure it. The houses smell alive. Socks sat by the fire like he'd lived there in a previous century."
 ---
 
 Tucked into a wooded park in **Kawasaki**, the **Nihon Minka-en** is a village that never actually existed — and yet every piece of it is real. Some two dozen traditional **folk houses** were dismantled at their original sites across Japan, moved here, and painstakingly rebuilt to save them from disappearing.

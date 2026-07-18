@@ -53,6 +53,13 @@ cinnamon:
     I expected weapons. What's actually on display is metallurgy as calligraphy — the museum is run by the foundation that keeps sword-smithing alive, and the placards explain how a smith folds a poem into a bar of steel. I pressed my nose to the glass until it fogged, twice, and a guard politely un-fogged it both times.
 
     Small, serene, twenty minutes from end to end unless it catches you, in which case ninety. Pair it with the sumo arena next door for a very Ryogoku afternoon. The blades are beautiful and, up close, entirely serious.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⚔️"
+      caption: "Nose to the glass — fogged it twice, politely un-fogged both times — over a temper line that ripples like water. Metallurgy as calligraphy."
+    - cast: [cinnamon, socks]
+      prop: "🥋"
+      caption: "Practicing our samurai faces in the dim hall. Twenty minutes end to end, unless it catches you, in which case ninety. It caught us."
 ---
 
 A short walk from the sumo stadium sits one of Tokyo's more specialized — and more quietly intense — small museums: a building devoted entirely to the katana.

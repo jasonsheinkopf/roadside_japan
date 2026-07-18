@@ -46,6 +46,13 @@ cinnamon:
     The bread is the trick: crackly, light, baked constantly so the queue never catches up to a stale loaf. I watched the counter women build sandwiches faster than I can bury acorns — pâté, grilled pork, a full herb garden, that secret sauce — and I timed them. Under thirty seconds. I ordered the mixed one and needed both paws and a strategy.
 
     Fair warning from your honest field squirrel: the shop was closed for three months in late 2023 after a food-safety incident, and reopened to the same long lines. The humans in today's queue clearly voted with their feet. Mine says: morning visit, extra herbs, eat it hot by the river.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🥖"
+      caption: "Timing the counter women: under thirty seconds per sandwich, faster than I bury acorns. The bread stays crackly all day because the queue never catches up to a stale loaf."
+    - cast: [cinnamon, mon]
+      prop: "🥪"
+      caption: "The mixed bánh mì required both paws and a strategy. Mon-chan queued twenty humans deep and reports nobody looked like they regretted a minute of it."
 sources:
   - title: "Anthony Bourdain in Hội An: 3 Spots Where Tony Ate"
     url: "https://eatlikebourdain.com/anthony-bourdain-in-hoi-an/"

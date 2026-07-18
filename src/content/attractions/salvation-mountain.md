@@ -40,6 +40,13 @@ cinnamon:
     Leonard Knight lived in a truck at its base and painted until he physically couldn't. Whatever your beliefs, standing on the 'yellow brick road' path (painted, wobbly, follow it as directed — the mountain is literally made of paint and straw) you are inside one person's totally undiluted sincerity, and it is disarming out of all proportion to the materials.
 
     Desert rules apply: water, sun cover, morning visits in summer. Volunteers keep it painted; donations of paint keep it alive. Sincerity at architectural scale. It got me. It gets everyone.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎨"
+      caption: "Following the painted yellow brick road as directed — the mountain is literally paint and straw, thirty years of one man's love letter, layered thick as bark."
+    - cast: [cinnamon, socks]
+      prop: "🌵"
+      caption: "Morning desert rules: water, sun cover, gentleness. Standing inside someone's totally undiluted sincerity is disarming out of all proportion to the materials."
 ---
 
 ## A mountain made of paint

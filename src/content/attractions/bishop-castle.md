@@ -40,6 +40,13 @@ cinnamon:
     Bishop Castle is exactly that: a 160-foot stone castle hand-built by one gloriously stubborn man, with iron bridges that sway when the wind so much as thinks about you, and a steel dragon head that breathes actual fire on special occasions. I climbed to the very top ball of the very top tower, because for once the sign said I could — everything is climbable, at your own risk, which is the most honest sign in America.
 
     The humans below looked terrified and delighted in equal measure, which is the correct ratio. Free to enter. Hold the railings. Mean it.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏰"
+      caption: "Top ball of the top tower, 160 feet up, because for once the sign said I could. Everything is climbable, at your own risk — the most honest sign in America."
+    - cast: [socks]
+      prop: "🐉"
+      caption: "Socks meeting the fire-breathing steel dragon head. The iron bridges sway when the wind so much as thinks about you; he thought about the typewriter the whole time."
 ---
 
 ## One man, one castle, fifty years

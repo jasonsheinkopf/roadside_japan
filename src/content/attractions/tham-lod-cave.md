@@ -63,6 +63,13 @@ cinnamon:
     The finale is the exit mouth at dusk, when hundreds of thousands of swifts pour into the cave to roost while bats pour OUT for the night shift — two rivers of wings crossing at the door, rush hour perfected over millennia.
 
     Guides with lanterns are mandatory and their fee feeds the village; timing the dusk swift-swap is non-negotiable. I rode the raft prow, lantern-lit, feeling like a paragraph from an adventure novel. The cave agreed.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦉"
+      caption: "Raft prow, lantern light, fish rising like they're auditioning. Ancient teak coffins rest on the high ledges — people were laid here 1,700 years ago."
+    - cast: [cinnamon, socks]
+      prop: "🦇"
+      caption: "The dusk swift-swap at the cave mouth: hundreds of thousands pouring in to roost while the bats pour OUT for night shift. Two rivers of wings crossing at the door. Socks did not blink."
 ---
 
 Deep in the limestone hills of Pang Mapha, a stream called the Nam Lang vanishes straight into a mountain and re-emerges 1.5 km later. To follow it, you climb aboard a **bamboo raft** and drift into **Tham Lod**, one of northern Thailand's great river caves.

@@ -66,6 +66,13 @@ cinnamon:
     I attended in a strictly observational capacity from a power line, because macaques view a squirrel at a buffet as either competition or garnish and I declined to learn which. Watching a monkey seize an entire pineapple crown and wear it like a war helmet while three others dismantle a fruit pyramid engineering-first is the purest theater Thailand offers.
 
     Last Sunday of November. Secure your hat, glasses, earrings, snacks, and dignity before arrival — the monkeys collect all five. The town loves its menaces. The menaces know it.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐒"
+      caption: "Strictly observational capacity, from a power line — macaques view a squirrel at a buffet as competition or garnish, and I declined to learn which."
+    - cast: [cinnamon, socks]
+      prop: "🍍"
+      caption: "A monkey seizing an entire pineapple crown and wearing it like a war helmet while three colleagues dismantled a fruit pyramid engineering-first. Socks called it the purest theater in Thailand. He's right."
 ---
 
 The old town of **Lopburi** has long shared its streets and crumbling Khmer temples with several thousand **crab-eating macaques**. Once a year, on the last Sunday of November, the town says thank you in the most extravagant way imaginable: the **Monkey Buffet Festival**.

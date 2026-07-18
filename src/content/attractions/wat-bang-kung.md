@@ -34,6 +34,13 @@ cinnamon:
     As a tree professional, I have inspected many buildings taken by roots; this is the only one that reads as an embrace instead of a demolition. The trees hold the chapel like a relic in four hands. Inside, incense; outside, muay-boran warrior statues mid-strike across the temple grounds, because this was also a historic military camp.
 
     It's in Samut Songkhram, an easy add to the railway-market and firefly circuits. Go early, go quiet. Buildings fall down. Sometimes, instead, they get adopted. This one got adopted.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌳"
+      caption: "Professional tree inspection: the only root-taken building I've seen that reads as an embrace, not a demolition. The banyans hold the chapel like a relic in four hands."
+    - cast: [cinnamon, socks]
+      prop: "🥋"
+      caption: "The muay-boran warrior statues mid-strike across the grounds — this was a military camp too. Socks copied one stance and held it until a tour group noticed."
 ---
 
 In the orchards of Samut Songkhram stands a temple you can barely see for the trees — literally. The little brick hall of Wat Bang Kung has been gripped for centuries by the roots of four great fig trees, which have grown over and around the walls until building and forest are one.

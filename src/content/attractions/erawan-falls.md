@@ -56,6 +56,13 @@ cinnamon:
     I swam. Well: I fell in with intent. The resident fish immediately began nibbling my feet, which is either a free spa treatment or a taste test, and I have chosen not to investigate further. The hike to the seventh tier is sweaty and worth it; the crowds thin with every tier you climb.
 
     Go early, wear real shoes, guard your snacks — the macaques here run an organized crime syndicate and they know what's in your bag.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐟"
+      caption: "Tier five — the ranger's daughter rates the tiers like albums and she's right. I fell in with intent; the fish began the toe-nibbling immediately."
+    - cast: [cinnamon, socks]
+      prop: "🐒"
+      caption: "Guarding the snacks on the hike up. The macaques here run an organized crime syndicate, and Socks made himself very small near the seventh tier."
 ---
 
 Thailand has hundreds of waterfalls; Erawan is the one whose photos get accused of being photoshopped.

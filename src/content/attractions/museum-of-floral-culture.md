@@ -33,6 +33,13 @@ cinnamon:
     I expected pleasant. I got precise: garlands here are engineering — thousands of petals folded, pinned, and strung into geometry meant to be given away. The guide showed a jasmine cluster technique passed down four generations, her hands moving too fast to follow. I ate zero exhibits, a personal record in a building full of flowers.
 
     The garden serves tea after. It's niche, it's quiet, it's one of Bangkok's gentlest hours — the kind of museum a city keeps like a pressed flower. Book the tour; the rooms don't explain themselves.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌸"
+      caption: "Watching a jasmine cluster technique passed down four generations, hands moving too fast to follow. Garlands here are engineering meant to be given away."
+    - cast: [cinnamon, socks]
+      prop: "🍵"
+      caption: "Tea in the garden of the century-old teak mansion afterward. I ate zero exhibits — a personal record in a building full of flowers."
 ---
 
 Founded by a celebrated Thai floral artist, this tranquil museum occupies a graceful old teak house in the leafy Dusit district. Visits are by guided tour through rooms devoted to the art and ritual of flowers — Thai garlands, royal offerings, and floral traditions from across Asia.

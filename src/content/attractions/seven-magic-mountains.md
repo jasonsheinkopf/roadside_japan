@@ -40,6 +40,13 @@ cinnamon:
     The joke and the genius are the same thing: there is NOTHING else out there, so the colors detonate. I climbed the orange-pink stack (advisory: art, hot to the touch by 10 a.m., climbing officially discouraged for creatures who show up on security cameras) and surveyed desert in every direction like a very small ranger of a very loud outpost.
 
     Free, always open, brutal at noon — go at golden hour when the paint and the desert briefly agree. Vegas shimmer on the horizon completes the sentence.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌈"
+      caption: "Atop the orange-pink stack (art, hot by 10 a.m., officially discouraged for creatures on security cameras) — a very small ranger of a very loud outpost."
+    - cast: [cinnamon, mon]
+      prop: "🏜️"
+      caption: "Golden hour, when the day-glo totems detonate against a landscape that speaks entirely in beige. Mon-chan matched the pink boulder and demanded documentation."
 ---
 
 ## Neon boulders in the Ivanpah Valley

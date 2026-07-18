@@ -58,6 +58,13 @@ cinnamon:
     I stood in the modest courtyard trying to hear it: the greatest wrestlers of the Edo period, colliding right here, centuries before the arena down the river. Now it's a neighborhood shrine where locals pray on their way to work and the sumo connection lives on a few quiet plaques.
 
     Come as a pilgrim, not a tourist — five minutes, a bow, a coin — then walk Kuramae's craft streets after (the notebook shop is nearby; see my Kakimori report and my new journal). History doesn't always keep the big building. Sometimes it keeps the address.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⛩️"
+      caption: "Standing in the modest 1693 courtyard trying to hear it: the greatest Edo wrestlers colliding right here, centuries before the arena down the river."
+    - cast: [cinnamon, socks]
+      prop: "🪙"
+      caption: "Pilgrim protocol: five minutes, a bow, a coin. Then the craft streets after — the shrine already smells like fresh notebooks."
 ---
 
 A modest neighborhood shrine one minute from Kuramae Station, founded in 1693 by the fifth Tokugawa shogun — and quietly one of the more historically loaded small shrines in Tokyo.

@@ -61,6 +61,13 @@ cinnamon:
     At squirrel scale the immersion goes total — the Flower Forest grows petals bigger than me, and in the mirror-floored lamp room I existed in six directions at once and had to sit down (on which floor? unclear). The art responds to movement, and I move a LOT, so several installations and I collaborated.
 
     Book timed tickets ahead, go weekday mornings, wear pale clothes if you want the projections to live on you. Surrender the itinerary. The borderless thing isn't a slogan; it's instructions.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "✨"
+      caption: "Chasing the luminous crows from gallery to gallery, professionally, for an hour. A flower bloomed on my tail. I let it."
+    - cast: [cinnamon, socks]
+      prop: "🪞"
+      caption: "The mirror-floored lamp room, where I existed in six directions at once and had to sit down (on which floor? unclear). Socks exited early and guarded the shoes."
 ---
 
 Not seasonal, not weather-dependent, and unlike almost anything else nearby — teamLab Borderless is the kind of stop that works on literally any day of a Tokyo trip, which makes it an easy anchor for a visiting family member regardless of when exactly they're in town.

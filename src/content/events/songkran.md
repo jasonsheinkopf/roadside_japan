@@ -59,6 +59,13 @@ cinnamon:
     Songkran's secret is that the mayhem is layered on tenderness — water pours over Buddha images and elders' hands in the morning, and by noon the same gesture has scaled into super-soakers, pickup-truck water cavalry, and strangers icing each other's spines with glacier water, all screaming with joy in 38-degree heat.
 
     Chiang Mai's moat is the legendary arena; everywhere is somewhere. Waterproof your phone, wear clothes that agree to be wet for 72 hours, and surrender. Best three days of the year to be alive and absorbent. My fur has never been cleaner.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💦"
+      caption: "Blessed/soaked within ninety seconds by a grandmother with a copper bowl, who apologized to the SQUIRREL and then did it again."
+    - cast: [socks, mon]
+      prop: "🔫"
+      caption: "The noon escalation: super-soakers, pickup-truck water cavalry, glacier water down spines in 38-degree heat. Socks found shelter; Mon-chan found a bucket and a calling."
 ---
 
 Every April, as the **hot season** peaks, Thailand celebrates **Songkran** — the traditional Thai New Year — by throwing water at absolutely everyone. What began as a gentle rite of pouring scented water over Buddha images and the hands of elders has grown into a joyous, nationwide, days-long water battle.

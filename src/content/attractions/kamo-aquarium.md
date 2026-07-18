@@ -65,6 +65,13 @@ cinnamon:
     I'll be honest about what happened in front of that tank: nothing. For twenty minutes. Me, motionless, tail slack, thoughts gone. A staff member checked on me. The jellies do that to everyone — the bench in front is full of humans in the same condition, ages three to ninety.
 
     Smaller tanks upstream show jellies like lace, like lanterns, like bad ideas with tentacles. There's jellyfish ice cream; I performed my duty (fine; texturally confusing). The dream tank at closing time, nearly alone, is the version to chase.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🪼"
+      caption: "Twenty motionless minutes at the Jellyfish Dream tank — thousands of moon jellies falling like slow snow. A staff member checked on me. They do that to everyone."
+    - cast: [cinnamon, socks]
+      prop: "🍦"
+      caption: "Performing our jellyfish ice-cream duty. Verdict: texturally confusing, spiritually necessary. Socks finished his. Slowly."
 ---
 
 On the coast west of Tsuruoka stands a sleek white building that came back from the brink of closure by betting everything on the most unlikely of stars: **jellyfish**. Today the **Kamo Aquarium** holds the **largest jellyfish collection in the world** — a Guinness-certified **50-plus species** — and it's one of the most quietly mesmerizing places in Tohoku.

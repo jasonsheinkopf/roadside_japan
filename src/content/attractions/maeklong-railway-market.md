@@ -56,6 +56,13 @@ cinnamon:
     I watched the first pass from a rooftop, the second from under a vegetable cart at rail level, where you feel the train in your molars and the basil scent gets pressure-washed over you as the cars pass. The instant it's gone: awnings down, market reassembled, as if the train were a rumor.
 
     The humans crowd the famous photo spots; the real show is the vendors' choreography — decades of practice disguised as no big deal. Check the timetable, arrive early, buy some mangosteen from the rails you'll be standing on. It's their shop floor, after all.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🚂"
+      caption: "Pass two, taken from under a vegetable cart at rail level, where you feel the train in your molars and the basil scent gets pressure-washed over you."
+    - cast: [cinnamon, socks]
+      prop: "🧺"
+      caption: "The real show: forty seconds of vendor choreography, awnings snapping back, baskets sliding, change still being counted. Then the market reassembles like the train was a rumor."
 ---
 
 The railway came first; the market grew over it anyway. A century later, neither side has budged — so eight times a day, a full-size train threads a wet market at walking pace.

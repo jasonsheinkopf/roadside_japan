@@ -64,6 +64,13 @@ cinnamon:
     I walked the ledge rail (the queue is for the railed pen; the rail itself is a public thoroughfare if you're 200 grams) and peeked into hell, which on a clear day looks suspiciously like Tokyo Bay being gorgeous. Then the real treasures: Japan's largest seated stone Buddha carved into the quarry face, and 1,500 mossy arhat statues hidden along shadowed paths, each face different, many beheaded by history, all worth your slowness.
 
     Ropeway up, walk down. Sturdy shoes. The Peek gets the photos; the arhats get your heart.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🪨"
+      caption: "The Hell Peek from the rail itself (a public thoroughfare if you're 200 grams). Hell, on a clear day, looks suspiciously like Tokyo Bay being gorgeous."
+    - cast: [cinnamon, socks]
+      prop: "🗿"
+      caption: "Among the 1,500 mossy arhat statues on the shadowed paths, each face different, many beheaded by history. We went slowly, as they deserve."
 ---
 
 Across the bay from the Boso Peninsula's quiet coast rises **Nokogiriyama** — "Saw-tooth Mountain" — its jagged profile carved by centuries of stone quarrying. The cuts left behind created one of Japan's most photographed thrills.

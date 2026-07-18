@@ -57,6 +57,13 @@ cinnamon:
     I did three laps at different water levels and can confirm the stepping stones change character entirely — bridge at low water, dare at high. Turtles run the pond and know the schedule better than the signage.
 
     It's small, ten minutes end to end, and mostly visited by locals eating lunch. Free gardens this good are a civic miracle. Time your visit to catch the 'tide' turning; the pumps don't advertise, but the turtles will tell you.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐢"
+      caption: "Lap two of three at a different water level — stepping stones that are a bridge at low water, a dare at high. The turtles know the schedule better than the signage."
+    - cast: [socks]
+      prop: "🍱"
+      caption: "Socks lunching with the locals behind the sumo arena. Free gardens this good are a civic miracle, he says, and he does not say that lightly."
 ---
 
 A small, easy-to-miss strolling garden just north of the sumo stadium — free, quiet, and older than almost everything around it.

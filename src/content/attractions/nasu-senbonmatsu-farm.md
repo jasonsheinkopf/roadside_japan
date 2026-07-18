@@ -66,6 +66,13 @@ cinnamon:
     I took the balloon. A squirrel in a wicker basket at 30 metres experiences several revelations, chief among them: this is how hawks see me, and I forgive them slightly less now. The fields quilt out beneath, Nasu's ridge stands behind, and the burner roars like a polite dragon.
 
     Back on the ground: archery, fishing, and the soft-serve, which tastes like the cows are showing off. Weekend mornings for the balloon (weather permitting), any time for the cone. Farm-simple, done right.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎈"
+      caption: "A squirrel in a wicker basket at 30 metres, having revelations. Chief among them: this is how hawks see me, and I forgive them slightly less now."
+    - cast: [cinnamon, mon]
+      prop: "🍦"
+      caption: "The famous soft-serve, metres from the cows that made it. The goats and Mon-chan negotiated over his cone. He won. Barely."
 ---
 
 Out on the open Nasu plain, **Nasu Senbonmatsu Farm** is a working dairy turned breezy farm-park — the kind of place where the headline attraction is a really, really good **soft-serve ice cream** made from that morning's milk.

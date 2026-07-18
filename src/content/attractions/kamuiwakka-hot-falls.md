@@ -59,6 +59,13 @@ cinnamon:
     I did the full ascent, half wading, half hydro-parkour, wholly delighted. The volcanic minerals make the rock grippy underfoot — nature installing safety equipment — though the humans still rent water shoes at the bottom and should.
 
     It's deep in a national park at the end of a gravel road, with seasonal access rules (check before you go; bears also enjoy Shiretoko and have right of way). Soaking in the top pool, warm water arriving endlessly from inside a volcano, I updated my rankings: best bath, all categories, all countries. Sorry to everyone else.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏞️"
+      caption: "Mid-ascent of the river that is a bath — half wading, half hydro-parkour, water warming with every waterfall. The volcanic minerals make the rock grippy: nature installing safety equipment."
+    - cast: [cinnamon, socks]
+      prop: "🐻"
+      caption: "The top pool, bath temperature, warm water arriving endlessly. Socks kept watch for bears, who also enjoy Shiretoko and have right of way."
 ---
 
 Mount Io, one of Shiretoko's volcanoes, leaks hot spring water directly into a mountain stream — so the Kamuiwakka river runs warm, and the only way to experience it is to walk up the middle of it.

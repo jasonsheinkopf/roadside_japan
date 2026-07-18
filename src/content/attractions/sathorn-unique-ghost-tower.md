@@ -39,6 +39,13 @@ cinnamon:
     Let me be the responsible squirrel here: it's closed, climbing it is illegal and genuinely dangerous, and the era of paying a 'guard fee' to sneak up is over. I observed from adjacent rooftops and the river — the tower reads differently at different hours, corporate gray at noon, genuinely eerie at dusk when the window holes go black.
 
     The humans love it precisely because the city pretends it isn't there. View it from a Chao Phraya boat or the Saphan Taksin area, tell its story, leave it be. Some ruins are best read from across the street.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏚️"
+      caption: "The 49-storey skeleton from an adjacent rooftop — corporate gray at noon, genuinely eerie at dusk when the window holes go black. FROM THE GROUND, as promised."
+    - cast: [cinnamon, socks]
+      prop: "⛴️"
+      caption: "The responsible viewing method: a Chao Phraya boat, where the monument to 1997's paused boom slides past like a thought the city pretends isn't there."
 ---
 
 Designed as an opulent riverside condominium, Sathorn Unique was around 80% complete when Thailand's 1997 economic collapse froze the project forever. Decades on, its grey skeleton still towers over the city — empty balconies, dangling rebar, and an eerie silence amid the traffic below.

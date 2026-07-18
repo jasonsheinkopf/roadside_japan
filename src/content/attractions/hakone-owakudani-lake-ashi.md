@@ -61,6 +61,13 @@ cinnamon:
     The ropeway carries you right over the steaming, sulfur-yellow valley — a genuinely great gondola moment, all hissing vents below — and then drops down to Lake Ashi, where you cross the water on a preposterous fake pirate ship with Fuji hopefully showing off behind the torii at Hakone-jinja.
 
     The sulfur smell is real and so is the fun. Clear winter mornings for Fuji; egg first, always. A perfect over-organized Japanese day out, and I mean that as the highest compliment.
+  snapshots:
+    - cast: [cinnamon, mon]
+      prop: "🥚"
+      caption: "The black egg boiled in volcano steam, +7 years each. By weight-adjusted squirrel math I am now functionally immortal. Mon-chan ate two."
+    - cast: [cinnamon, socks]
+      prop: "🏴‍☠️"
+      caption: "Crossing Lake Ashi on the preposterous fake pirate ship, Fuji showing off behind the torii. Socks gripped the rail the entire, entirely calm voyage."
 ---
 
 Roughly two hours from central Tokyo, Hakone packs an active volcanic valley, a mountain ropeway, and a lake cruise with Mt. Fuji views into a single well-connected day trip.

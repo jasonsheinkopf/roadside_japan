@@ -33,6 +33,13 @@ cinnamon:
     Morinji has been here since 1426, and it commits: 21 tanuki statues line the approach in various states of mischief, and the legendary kettle itself — 11.2 kg of purple gilt bronze — sits on display like it might still have opinions. I addressed it politely. (See my quote on this page. Flawless prank, no notes.)
 
     Tatebayashi's local udon is the right lunch after. Quiet, funny, five hundred years sincere — the exact kind of place this atlas exists for. Thank you, fellow traveler, whoever you are.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🫖"
+      caption: "Addressing the legendary 11.2 kg kettle politely, colleague to colleague. It sat there like it might still have opinions."
+    - cast: [cinnamon, mon]
+      prop: "🦝"
+      caption: "Reviewing the 21 tanuki statues along the approach, each in a different state of mischief. Mon-chan found the fluffiest one and stood next to it for comparison. It went unresolved."
 ---
 
 ## The temple and the folktale

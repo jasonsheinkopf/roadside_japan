@@ -62,6 +62,13 @@ cinnamon:
     I timed my visit to the organ. Sitting in colored light while the pipes breathe is a full-body experience even at my body's scale — the reds land on you like warmth, the blues like thoughts. I moved seats three times to be rained on by different colors, which I understand is the whole point of the medium.
 
     The humans call it 'unexpectedly moving' in reviews and 'so photogenic' to each other; both true. Check the performance times before you go; the glass is lovely silent, but lit up with music it's somewhere else entirely.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🪟"
+      caption: "Moving seats three times during the organ performance, to be rained on by different colors. The reds land like warmth, the blues like thoughts."
+    - cast: [cinnamon, socks]
+      prop: "🎼"
+      caption: "The 1800s glass chapels between music-box performances. Check the schedule before you drive up — the organ is the show. Socks stayed for two encores."
 ---
 
 Among the Nasu highlands' string of small museums, one looks like it wandered off the English countryside: the **Nasu Stained Glass Museum**, a honey-stone **manor house** whose rooms are really little **chapels**, each lit by **antique stained glass** salvaged from 19th-century Europe.

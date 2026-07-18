@@ -67,6 +67,13 @@ cinnamon:
     I went in July: sulfur town air (Zao's springs are seriously acidic and gloriously old), lifts and a ridge walk to the crater rim, and the Okama below doing its five-colors act while clouds dragged shadows across it. The rim wind is a personality. Lean accordingly.
 
     Down in the village, the public baths run hot and ancient, and the dango are calibrated to post-hike blood sugar exactly. Winter for monsters, green season for the crater and half the crowd. The mountain works year-round; so should your itinerary.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌋"
+      caption: "Crater rim in July, the Okama below doing its five-colors act while clouds dragged shadows across it. Today it chose emerald. Show-off. The rim wind is a personality; lean accordingly."
+    - cast: [cinnamon, mon]
+      prop: "🍡"
+      caption: "Village dango calibrated to post-hike blood sugar exactly, outside baths that run hot and ancient. Mon-chan is saving up his jealousy for winter's snow monsters."
 ---
 
 In winter, Mt. Zao is the realm of the frozen "snow monsters." But come **summer**, the same mountain is a cool green escape from the lowland heat — and its single most jaw-dropping sight is a lake the color of a marble.

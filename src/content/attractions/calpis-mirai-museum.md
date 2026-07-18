@@ -53,6 +53,13 @@ cinnamon:
     I stowed away in a tour group's bag past the fermentation tanks, where the whole building smelled faintly sour-sweet in a way I couldn't stop sniffing at. The exhibits walk through Calpis's invention back in 1919 and the calf-and-stripes mascot's whole design history, which is more backstory than I expected from a drink. At the end everyone gets a little cup of the real thing, and I will admit I drank mine faster than a squirrel with actual manners.
 
     Visitors online say the same two things every time: it's genuinely a fun family morning, and the booking window fills up fast once next month's slots go live — reserve the moment they open rather than waiting.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🥛"
+      caption: "Riding through the fermentation-tank hall in a tour group's bag. The whole building smells faintly sour-sweet and I could not stop sniffing."
+    - cast: [cinnamon, mon]
+      prop: "🐄"
+      caption: "The free tasting cup at the end, drunk faster than a squirrel with manners would. Mon-chan is now emotionally attached to the calf mascot."
 ---
 
 Inside Asahi Beverages' **Gunma Factory** in Tatebayashi is a small, free museum built around a single product: **Calpis**, the milky, lightly fermented soft drink invented in Japan in 1919. The "Mirai" ("future") Museum walks visitors through that history and the modern production line before ending, appropriately, with a taste of what was just made.

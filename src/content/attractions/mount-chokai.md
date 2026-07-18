@@ -66,6 +66,13 @@ cinnamon:
     I climbed with the sunrise crowd from the fifth station: alpine meadows buzzing, snow patches squeaking underpaw, and near the top a view that includes your own morning shadow cast onto the SEA. The mountain makes its own weather; mine included one cloud that parked on us for an hour like a rude guest, then left without apologizing.
 
     The humans do it as a long day hike or an overnight at the hut; either way, start early. Between the flowers, the snow-in-summer, and the ocean underfoot, my journal called it 'Fuji, but yours alone.' Keeping that line.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🗻"
+      caption: "Near the summit, where your own morning shadow gets cast onto the SEA. Snow patches squeaking underpaw in July."
+    - cast: [cinnamon, socks]
+      prop: "☁️"
+      caption: "The cloud that parked on us for an hour like a rude guest, then left without apologizing. Start early; the mountain makes its own weather."
 ---
 
 Rising almost straight out of the **Japan Sea** at Yamagata's northern edge, **Mount Chokai** is so beautifully symmetrical that locals nicknamed it **"Dewa Fuji."** At **2,236 metres**, it's the second-highest peak in Tohoku and one of its most striking sights from miles around.

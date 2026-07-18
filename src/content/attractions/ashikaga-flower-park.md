@@ -68,6 +68,13 @@ cinnamon:
     I climbed nothing. I want that noted. You do not climb a 160-year-old wisteria; you sit under it and let it happen to you. Violet everywhere, bees the size of my head conducting business, the whole thing dripping light. At night they illuminate it and the crowd goes church-quiet.
 
     The humans queue badly here — go on a weekday, go at opening, or go at night. Loses one acorn for the food stalls selling wisteria ice cream that tastes mostly of purple. Still worth every step.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "💜"
+      caption: "Sitting under the 160-year-old wisteria and letting it happen to us. You do not climb a national treasure; I want that noted."
+    - cast: [cinnamon]
+      prop: "🌙"
+      caption: "The night illumination, when the whole crowd goes church-quiet. Come on a weekday, at opening or after dark."
 ---
 
 Some flowers you admire; the **Great Wisteria of Ashikaga** you stand *beneath*, mouth open. **Ashikaga Flower Park** is built around a single **160-year-old wisteria** whose trained canopy spreads over **more than a thousand square metres**, raining violet blossom from a trellis held up like a sky.

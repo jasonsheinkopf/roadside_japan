@@ -41,6 +41,13 @@ cinnamon:
     I took the tour twice — once for the house, once for the guide's delivery of the disappearance, which she has honed to a blade. The koi in the garden are the size of my whole extended family.
 
     The silk shop attached is dangerous to wallets; the humans go in 'just to look' and come out wearing scarves. Go early, take the guided tour, form your own theory. Mine involves tigers and is unpublishable.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🧵"
+      caption: "Tour number two, taken purely for the guide's delivery of the 1967 disappearance — she has honed it to a blade. Socks has a theory he won't publish."
+    - cast: [cinnamon, mon]
+      prop: "🐟"
+      caption: "The garden koi are the size of my whole extended family. Mon-chan attempted to befriend the largest one and was ignored with grace."
 ---
 
 Jim Thompson was an American architect and former intelligence officer who, after WWII, single-handedly revived Thailand's flagging silk industry and became a Bangkok legend. His home — six antique teak houses reassembled into one, filled with Southeast Asian art — is now a museum and a green oasis beside a city canal.

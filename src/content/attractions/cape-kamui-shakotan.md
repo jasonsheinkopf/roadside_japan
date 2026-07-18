@@ -54,6 +54,13 @@ cinnamon:
     The walk out is a 770-metre ridgeline path to a lighthouse at the very tip of the Shakotan Peninsula, with the sea on both sides doing its Shakotan Blue routine — a turquoise that looks imported from somewhere tropical and expensive. The wind up there treats everyone equally, which for me meant travelling the last stretch as a kind of furry kite anchored by my own dignity.
 
     Uni season overlaps summer here; the humans eat sea urchin bowls in the village after, glowing with smugness. Earned smugness. Hold onto small children and smaller squirrels.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌊"
+      caption: "The 770-metre ridgeline path to the lighthouse, Shakotan Blue on both sides. I traveled the last stretch as a furry kite anchored by my own dignity."
+    - cast: [cinnamon, mon]
+      prop: "🍣"
+      caption: "Post-cape uni bowls in the village, in season, glowing with earned smugness. Mon-chan held my tail on the windy bits. Protection, he says."
 ---
 
 Hokkaido isn't supposed to have tropical-looking water — which is exactly why the Shakotan Peninsula's electric turquoise sea earned its own named color, and why the ridge walk at its tip is one of the island's great short hikes.

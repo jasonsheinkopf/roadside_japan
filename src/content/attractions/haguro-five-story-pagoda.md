@@ -66,6 +66,13 @@ cinnamon:
     I have climbed more impressive things by the numbers. I have climbed nothing that asked me not to. I circled it once at ground level, bowed to it — it's that kind of building — and did the rest of the steps with my thoughts unusually quiet.
 
     The humans who turn back after the pagoda miss the summit shrine, but I understand them: the pagoda feels like the point. Go early, in mist if offered. Wear the mist home.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌲"
+      caption: "One slow circle at ground level and a bow. Six hundred years alone among thousand-year cedars — it's that kind of building. I did not climb it."
+    - cast: [cinnamon, socks]
+      prop: "🪨"
+      caption: "Somewhere around step 1,200 of 2,446. Socks counted every one; the pagoda near the bottom is the point, but the summit shrine finishes the sentence."
 ---
 
 **Mt. Haguro** is the most accessible of the **Dewa Sanzan**, the three sacred mountains at the heart of Yamagata's mountain-worship tradition. The pilgrim's path begins at the **Zuishinmon gate** and climbs **2,446 stone steps** through a cathedral of cedars — and just a few minutes up stands the prize.

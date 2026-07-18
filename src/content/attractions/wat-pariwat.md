@@ -34,6 +34,13 @@ cinnamon:
     Finding him is a proper hunt — the temple's carvings are dense with hundreds of figures, and the search reveals more cameos the guides will point out with glee (superheroes, cartoon characters, a whole visual argument that devotion absorbs its century).
 
     I found Beckham in eleven minutes, a time I am told is competitive. The temple itself is lovely and quietly proud of its fame. Faith with a sense of humor and an archive of its own era: Bangkok in one lower-left corner.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⚽"
+      caption: "Beckham located in eleven minutes — a competitive time, I'm told — small and gilded among the guardians at the altar's base."
+    - cast: [cinnamon, mon]
+      prop: "🔍"
+      caption: "The extended cameo hunt with a gleeful guide: superheroes, cartoons, a whole argument that devotion absorbs its century. Mon-chan looked for himself among the carvings. Next renovation, maybe."
 ---
 
 Most visitors come to Bangkok's temples for serenity. Wat Pariwat offers that too — plus a treasure hunt. Look closely at the riot of carved and gilded detail around the ordination hall and you'll start finding cartoon characters, superheroes, and a tiny golden David Beckham, added by craftsmen with a sense of humour.

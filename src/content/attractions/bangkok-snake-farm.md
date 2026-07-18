@@ -35,6 +35,13 @@ cinnamon:
     The Queen Saovabha Institute is the world's second-oldest antivenom facility — a working Red Cross research centre where scientists milk venom from snakes to save human lives. I watched the extraction show from the highest rafter in the room, gripping the beam so hard I left marks. King cobras are exactly as long as my worst dreams suggested. The handlers are calm the way mountains are calm.
 
     The humans around me went from giggling to dead silent to applauding. Educational, genuinely heroic, and I have never loved a rafter more. One full acorn rating, awarded from a safe distance.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐍"
+      caption: "My viewing position for the venom-milking show: the highest rafter in the room. King cobras are exactly as long as my worst dreams suggested."
+    - cast: [socks]
+      prop: "🏥"
+      caption: "Socks — who DARED me to come — reading about the antivenom program from behind a pillar. It's the world's second-oldest, and the handlers are calm the way mountains are calm."
 ---
 
 Founded in 1923, the Queen Saovabha Memorial Institute is no roadside reptile show — it's a serious arm of the Thai Red Cross that produces antivenom and treats snakebite. It also happens to be one of the most genuinely educational stops in Bangkok, with daily handling and venom-milking demonstrations.

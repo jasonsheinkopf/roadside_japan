@@ -39,6 +39,13 @@ cinnamon:
     I went at 1 a.m., riding a delivery cart in through the front like a pallet of orchids. The whole district smells like a wedding. Vendors build meter-tall marigold pyramids for temple offerings; the petals that escape carpet the gutters in gold, and I waded them like autumn leaves that forgot to be brown.
 
     Daytime works for a normal visit, but the night market is the real organism. Buy a garland for wherever you're staying. At these prices, buy three.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "💐"
+      caption: "1 a.m., arriving on a delivery cart like a pallet of orchids. The escaped marigold petals carpet the gutters in gold and I waded them like autumn leaves that forgot to be brown."
+    - cast: [cinnamon, socks]
+      prop: "🌼"
+      caption: "Watching garland women whose fingers move faster than card dealers. Buy one for wherever you're staying — at these prices there's no excuse."
 ---
 
 Near the river at the edge of the old town, Pak Khlong Talat is Thailand's most important flower market and one of the few corners of Bangkok that truly never sleeps. By day it's busy; in the small hours it transforms, as wholesalers unload tonnes of fresh blooms destined for temples, shrines, hotels and homes across the city.

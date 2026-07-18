@@ -66,6 +66,13 @@ cinnamon:
     I have been to loud sacred places and quiet ones. Osorezan is the quietest. The pinwheels tick in the wind and that's the whole soundtrack. I added a pebble to a cairn with both paws and it felt like the most important thing I'd done all month.
 
     Itako mediums channel the dead at the summer festival; the temple bath is free with entry (sulfurous, ancient, real). Go respectfully or not at all. Some borders you visit only as a guest.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌫️"
+      caption: "Adding a pebble to a cairn with both paws. The pinwheels tick in the wind and that's the whole soundtrack. It felt like the most important thing I'd done all month."
+    - cast: [cinnamon, socks]
+      prop: "♨️"
+      caption: "The free temple bath — sulfurous, ancient. By the milky-blue lake at the world's edge, even Socks's typewriter thoughts went still."
 ---
 
 At the top of Aomori's lonely Shimokita Peninsula, the land turns the color of brimstone and the air fills with the rotten-egg reek of sulfur. The Japanese named this place **Osorezan** — "Mount Dread" — and for over a thousand years it has been considered one of the gateways between this world and the next.

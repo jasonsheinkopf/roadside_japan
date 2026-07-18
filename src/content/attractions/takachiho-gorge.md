@@ -62,6 +62,13 @@ cinnamon:
     And it IS creation-myth country: the sun goddess hid in a cave near here and the world went dark, says the oldest story Japan tells about itself. Rowing under the falls with mist on my whiskers, I understood why the gods picked this postcode.
 
     Boat queues balloon by mid-morning — reserve or arrive at opening. The rim walk above is free and nearly as good. Autumn wraps the basalt in maple. Myth, geology, and a rowboat: complete package.
+  snapshots:
+    - cast: [cinnamon, socks]
+      prop: "🚣"
+      caption: "Rowing to the base of Minainotaki between basalt organ pipes, mist on whiskers. My arms filed for overtime; Socks filed the paperwork."
+    - cast: [cinnamon]
+      prop: "⛩️"
+      caption: "Creation-myth country — the sun goddess hid in a cave near here and the world went dark. Rowing under the falls, I understood why the gods picked this postcode."
 ---
 
 In the mountainous heart of Kyushu, the Gokase River has sliced a slot through ancient volcanic rock to create **Takachiho Gorge** — walls of perfectly geometric basalt columns rising over impossibly green water.

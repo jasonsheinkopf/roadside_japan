@@ -67,6 +67,13 @@ cinnamon:
     I crossed on the morning ferry (deck rail, wind in the whiskers, one professional-grade wave of nausea) and spent the day on island time: fishermen mending nets who nodded me aboard their crates, grilled just-caught fish at the harbor shack, a walk to the cliffs where black-tailed gulls run their colonies like loud municipalities.
 
     There's not a list of 'sights' and that's the sight: an island that simply continues, ferry by ferry. Check sailing times (weather cancels), book the minshuku if staying, and let your phone die honorably. My tail smelled of salt for days. Five acorns, sea-rated.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐟"
+      caption: "Nodded aboard the fishermen's crates to supervise net-mending, then grilled just-caught fish at the harbor shack. Island time, measured in tides."
+    - cast: [cinnamon, socks]
+      prop: "⛴️"
+      caption: "Deck rail on the morning ferry, wind in the whiskers, one professional-grade wave of nausea between us. The harbor cats supervised our arrival; I supervised the cats."
 ---
 
 Out in the Japan Sea, about **75 minutes by ferry** from the port of Sakata, floats **Tobishima** — Yamagata's only inhabited offshore island, and one of its best-kept summer secrets.

@@ -57,6 +57,13 @@ cinnamon:
     Cross the bridge (no turning back; that's doctrine AND crowd control) and the interior murals detonate the whole vibe: demons, superheroes, rockets, burning towers — the modern world painted into a Buddhist cosmology, updated continually like a sacred sketchbook.
 
     I walked the bridge at opening, mirror-light on my fur, properly rattled by the hands. The artist calls it an offering to his king and his faith; the gift shop funds the next wing. White-hot, sincere, completely itself. Chiang Rai's one unmissable.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🤍"
+      caption: "The bridge at opening, mirror-light on my fur, properly rattled by the hundreds of sculpted hands reaching up from the pit. No turning back — doctrine AND crowd control."
+    - cast: [cinnamon, socks]
+      prop: "🎨"
+      caption: "Inside, where the murals detonate the vibe: demons, superheroes, rockets, painted into Buddhist cosmology like a sacred sketchbook, updated continually. Socks found the typewriter. There's always one."
 ---
 
 Most temples are built by communities over centuries; the White Temple is one man's ongoing argument with eternity, and it looks like nothing else on earth.

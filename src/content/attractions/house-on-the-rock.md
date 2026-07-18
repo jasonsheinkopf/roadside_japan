@@ -41,6 +41,13 @@ cinnamon:
     It starts as a 1940s retreat built atop a 60-foot rock chimney — low ceilings, shag carpet, indoor waterfalls — and then it keeps going: an Infinity Room cantilevered 218 feet out over the valley with windows for walls (I walked to the very tip; the floor creaks on purpose, I've decided), then hall after hall of collections — automated orchestras, a sea creature bigger than the Statue of Liberty is tall, and the world's largest carousel: 269 animals, none of them a horse, none of them ridable, all of them watching you.
 
     Allow three hours. The humans exit blinking like they've surfaced from a dream. So did I. Bring snacks; the fever runs long.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🎠"
+      caption: "Auditing the world's largest carousel: 269 animals, no horses, no riders, and — I checked twice — not one squirrel. The letter is drafted."
+    - cast: [cinnamon, socks]
+      prop: "🪟"
+      caption: "The very tip of the Infinity Room, 218 feet out over the valley. The floor creaks on purpose, I've decided. Socks stayed by the shag carpet."
 ---
 
 ## A collection of collections

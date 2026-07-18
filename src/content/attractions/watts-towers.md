@@ -33,6 +33,13 @@ cinnamon:
     Every surface is embedded with what the neighborhood threw away: green 7-Up glass, blue milk-of-magnesia bottles, seashells, broken pottery, tile shards — trash turned into glitter at architectural scale. Rodia called it 'Nuestro Pueblo,' our town. When he finished, he gave the deed to a neighbor and left, and never came back to see it become a National Historic Landmark.
 
     In 1959 the city tried to demolish the towers and agreed to a stress test: a crane pulled with ten thousand pounds of force, and the tower did not move. The crane's equipment broke instead. I sat on a mosaic ledge and told that story to two pigeons who did not deserve it. Take the guided tour for the interior; the arts center next door keeps the neighborhood's creative flame. One man, thirty-three years, zero doubt.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🗼"
+      caption: "On the tallest spire's lattice — built by one man over 33 years with a window-washer's belt, no welds, no blueprints. I climbed a masterpiece and squeaked from the top."
+    - cast: [cinnamon, socks]
+      prop: "🍾"
+      caption: "Reading the mosaic up close: green 7-Up glass, blue medicine bottles, seashells, the neighborhood's trash turned to glitter. Socks identified bottle vintages like a sommelier."
 visitorTip:
   text: "There's a place called Watts Tower — worth seeing in Los Angeles."
   by: "ghost popsicle"

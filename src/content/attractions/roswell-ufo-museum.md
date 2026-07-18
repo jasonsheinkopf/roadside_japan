@@ -40,6 +40,13 @@ cinnamon:
     The museum plays it straight down the middle: affidavits, newspaper front pages, competing official explanations, life-size alien tableaux, all presented with an earnestness I found disarming. I read every timeline panel. My professional view, as a creature humans also frequently misidentify at dusk: the witnesses saw SOMETHING, and the government's changing answers did the legend's marketing for it.
 
     The whole town commits — alien streetlamps, saucer McDonald's — and the July festival is peak. Believers, skeptics, and road-trippers all leave happy, which is the museum's quiet genius. I want to believe. I mostly believe in snacks. Both were satisfied.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "👽"
+      caption: "Reading every timeline panel in the old movie theater. My professional view, as a creature humans also misidentify at dusk: the witnesses saw SOMETHING."
+    - cast: [cinnamon, socks]
+      prop: "🛸"
+      caption: "Interviewing the life-size alien tableau about acorn storage. Diplomatically silent. Suspicious. Socks photographed the affidavits for the files."
 ---
 
 ## Ground zero for the little green men

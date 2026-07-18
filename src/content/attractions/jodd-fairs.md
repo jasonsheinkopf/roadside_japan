@@ -33,6 +33,13 @@ cinnamon:
     I summited the leng saap. I want that on my record. A party of office workers adopted me as their mascot, and I worked the peak bones where their forks couldn't reach — a symbiosis as old as time, or at least as old as night markets.
 
     Beyond the volcano: hundreds of stalls, vintage clothes, live music, fruit smoothies in bags. It's photogenic and knows it, but the food is real and the crowd is Bangkok out having fun on a Tuesday. Go hungry, wear the gloves, respect the mountain.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌋"
+      caption: "Summiting the leng saap — a literal volcano of pork spine bones under chili and lime. The office workers adopted me for the peak bones their forks couldn't reach."
+    - cast: [socks, mon]
+      prop: "🥤"
+      caption: "Fruit smoothies in bags among the glowing tents. It's photogenic and knows it, but the crowd is just Bangkok out having fun on a Tuesday."
 ---
 
 Bangkok's night-market scene shifts constantly, and Jodd Fairs is the current crowd favourite — a dense, energetic grid of food stalls, bars, dessert stands, and vintage-clothing tents that fills up after dark behind the Rama IX business district.

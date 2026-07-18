@@ -68,6 +68,13 @@ cinnamon:
     The building is by Kengo Kuma, and it does something sneaky: thousands of thin local-cedar slats turn the light soft and striped, like standing inside one of Hiroshige's rain pictures. I ran one full lap of the eaves (allowed, if you're quick) and then sat with the prints, which are small and quiet and better than almost anything enormous.
 
     The humans mostly drive past Bato without stopping. Their loss. The cedar smells like my house. Five stars, one for each storey the building doesn't need.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌊"
+      caption: "One quick lap of the eaves around Kengo Kuma's cedar lattice — thousands of thin slats turning the light soft and striped, like standing inside one of Hiroshige's rain prints."
+    - cast: [socks]
+      prop: "🖼️"
+      caption: "Socks with the woodblock prints, which are small and quiet and better than almost anything enormous. Most humans drive right past Bato. Their loss."
 ---
 
 In the quiet Naka River country east of Nasu, the small town of **Bato** holds a building that architecture pilgrims cross the country to see: the **Nakagawa-machi Bato Hiroshige Museum of Art**, an early masterpiece by **Kengo Kuma**.

@@ -48,6 +48,13 @@ cinnamon:
     The house went up between 1929 and 1934, U-shaped and enormous, designed with 100 doors for feng-shui completeness — until the authorities objected to one, so 99 it is. Just off the entrance stands what's said to be Saigon's first elevator, a wooden cabin carved like a palanquin. I rode nothing (a squirrel respects a museum's ropes) but I did press my nose to the stained glass until a guard politely un-nosed me. I apologized. He nodded. We understood each other.
 
     Visitors kept whispering that the building outshines the art, which is unfair to the lacquer paintings upstairs but not entirely wrong. Go on a hot afternoon — 4,000 square meters of tiled colonial shade, and the door-counting is free with admission.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🚪"
+      caption: "Counting the mansion's doors. Lost track at sixty-something — designed for 100, built with 99 after the authorities objected to one."
+    - cast: [cinnamon, socks]
+      prop: "🛗"
+      caption: "Staring at what's said to be Saigon's first elevator, a wooden cabin carved like a tiny palace. I pressed my nose to the stained glass until a guard politely un-nosed me."
 sources:
   - title: "Ho Chi Minh City Fine Arts Museum: A Mansion With 99 Doors & 21,000 Artworks — The Smart Local"
     url: "https://thesmartlocal.com/vietnam/hcmc-city-fine-arts-museum/"

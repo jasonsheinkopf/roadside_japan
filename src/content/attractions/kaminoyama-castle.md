@@ -67,6 +67,13 @@ cinnamon:
     I took the castle first — the keep is a reconstruction with a museum inside and a fine view of the Zao range from the top floor, where I pressed against the glass doing mountain inventory. Then down into the 560-year-old onsen town for the footbath circuit. A row of farmers, two tourists, and one squirrel, all sighing at different registers. My tail floated. Nobody made it weird.
 
     It's a low-key stop on the way to bigger Yamagata names, which is exactly its charm. Castles: good. Free hot water: better. Both in one afternoon: Kaminoyama.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🏯"
+      caption: "Top floor of the keep, pressed to the glass, doing mountain inventory of the Zao range."
+    - cast: [cinnamon, mon]
+      prop: "♨️"
+      caption: "The free footbath circuit below: a row of farmers, two tourists, one squirrel, one very fluffy Mon-chan, all sighing at different registers. My tail floated. Nobody made it weird."
 ---
 
 On the Yamagata Shinkansen line, the town of **Kaminoyama** pairs two very pleasant things: a **white castle** on a hill and a **560-year-old hot spring** in the streets below.

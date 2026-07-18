@@ -63,6 +63,13 @@ cinnamon:
     I ran a full stripe end to end at stem height (poppy row; excellent canopy, chaotic petals) and then climbed the fence post for the wide view, which is the one the flowers are performing for. The color bands change with the calendar, so the field is never the same twice — the gardeners are effectively slow-motion painters.
 
     It's pay-per-view flowers and worth it in peak weeks; check what's blooming before the drive. Wind comes off the ridge with opinions. Hold your hat, or in my case, your entire body.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌷"
+      caption: "One full poppy stripe, end to end, at stem height — excellent canopy, chaotic petals — with the bare Nasu ridge standing behind for contrast."
+    - cast: [socks, mon]
+      prop: "🌬️"
+      caption: "The wide view from the fence post, which is what the color bands are performing for. The ridge wind has opinions; Mon-chan's fluff had counter-opinions."
 ---
 
 High on the **Nasu plateau**, where the air is cool and the volcano looms close, **Nasu Flower World** drapes a hillside in stripes of color. The terraced fields are planted in broad bands that, in season, read like a painter's palette laid across the slope.

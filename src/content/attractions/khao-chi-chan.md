@@ -64,6 +64,13 @@ cinnamon:
     The backstory is my favorite kind: the cliff was scarred by quarrying, and instead of hiding it, they made it holy. I attempted to climb high enough to touch the gold line (research purposes) and was turned back by a whistle, a wagging finger, and my own conscience, in that order. Fair. Some art you measure in tail-lengths from a respectful distance: approximately 2,180.
 
     Go late afternoon when the gold catches fire. The lotus pond frames it; the cows in the field beside it remain unimpressed, which is cows for you.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🖼️"
+      caption: "Measuring the 109-metre gold-line Buddha in tail-lengths from a respectful distance: approximately 2,180. The whistle and my conscience agreed."
+    - cast: [cinnamon, socks]
+      prop: "🌅"
+      caption: "Late afternoon, when the gold catches fire above the lotus pond. The cows in the next field remain unmoved; Socks does not."
 ---
 
 Drive inland from Pattaya and a grey limestone mountain suddenly reveals an enormous **seated Buddha carved into its cliff face** — 109 metres tall and outlined in gold leaf and gold mosaic that glints for kilometres.

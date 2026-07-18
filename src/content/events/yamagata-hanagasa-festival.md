@@ -67,6 +67,13 @@ cinnamon:
     I joined the open participation section at the parade's tail — yes, they let anyone in for the final stretch, and yes, a squirrel keeping time on a borrowed miniature hat brim counts, per the delighted troupe captain who adopted me for two blocks. The hat spins are harder than they look. Everything with hats is.
 
     Early August, right before Sendai's Tanabata — festival-hop them. Street food runs to imoni and cherries. Watch one night, dance the second. The hats forgive beginners. The aunties correct them.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🌼"
+      caption: "Adopted by a delighted troupe captain for two blocks of the open section, keeping time on a borrowed miniature hat brim. The spins are harder than they look. Everything with hats is."
+    - cast: [cinnamon, socks]
+      prop: "🥁"
+      caption: "Thousands of flower hats dipping downhill in unison to 'yassho, makasho!' — fields of blossoms learning choreography. Socks clapped from the curb, on beat, all three nights."
 ---
 
 For three nights every August, the main street of **Yamagata City** turns into a river of flowers and drums. The **Hanagasa Festival** sends **thousands of dancers** — in matching happi coats, each twirling a straw **hanagasa hat** trimmed with bright red safflowers — sweeping down the avenue to the boom of taiko and the rhythmic shout of **"Yassho, makasho!"**

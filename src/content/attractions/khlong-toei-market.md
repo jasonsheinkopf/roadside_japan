@@ -32,6 +32,13 @@ cinnamon:
     I travelled at ankle height, which at Khlong Toei is the expressway — a whole under-layer of crates, drains, and dropped herbs where a squirrel moves like mail. The smells arrive in paragraphs: basil, blood, durian, diesel, jasmine, repeat.
 
     It is not cute and does not want to be; sensitive humans should know the meat section is frank. Go at dawn when it roars, wear closed shoes, buy fruit on the way out. This is the city's engine room with the hood up.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🍍"
+      caption: "Dawn at ankle height, which here is the expressway — a whole under-layer of crates and dropped herbs where a squirrel moves like mail."
+    - cast: [cinnamon, socks]
+      prop: "🛵"
+      caption: "Motorbikes threading the produce mountains with whole pig legs riding pillion. This is where Bangkok's restaurants actually shop; it does not perform for anyone."
 ---
 
 This is where Bangkok actually shops. Khlong Toei is the city's biggest wet market — a vast, dense warren of stalls selling everything from mountains of chillies and unfamiliar fruit to live fish, frogs, and cuts of meat, often at wholesale dawn prices.

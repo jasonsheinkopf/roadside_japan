@@ -65,6 +65,13 @@ cinnamon:
     The carriages are vintage, the pace is a stroll, and the route trundles 6.4 km past cabbage fields to the windy cape at the far tip of Chiba. The wet-rice crackers (nure-senbei) are sold with the urgency of a company that means it: buy crackers, keep the trains running. I bought three. Saved a railway, ate the evidence.
 
     Rail fans, cabbage fans, and people who like their transport slightly heroic all agree: this is the best worst-business-model in Japan. Sit up front. Bring cracker money.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🚃"
+      caption: "Front seat of the vintage carriage, 6.4 km of cabbage fields at strolling pace, fare actually paid for once."
+    - cast: [cinnamon, socks]
+      prop: "🍘"
+      caption: "Buying the wet-rice crackers that famously keep the trains running. Three for me, two for Socks. Saved a railway, ate the evidence."
 ---
 
 At the far eastern tip of Chiba runs one of Japan's most lovable underdogs: the **Choshi Electric Railway**, a 6.4 km line of rattling vintage carriages that has been teetering on the edge of bankruptcy for decades — and keeps itself alive in the most Japanese way imaginable.

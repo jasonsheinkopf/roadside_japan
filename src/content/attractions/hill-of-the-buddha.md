@@ -56,6 +56,13 @@ cinnamon:
     You walk a long concrete tunnel toward it — cool, dim, your footsteps suddenly formal — and come out at the statue's feet, inside a circle of sky. In July the whole hill goes purple and the bees hold what I can only call services.
 
     It's inside a working cemetery south of Sapporo, so behave like a guest, because you are one. The humans mostly gasp at the tunnel exit; I did my gasping on the walk in, when the head first rose over the lavender. Both moments are the design. Ando knew.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🗿"
+      caption: "The walk in, when the Buddha's head first rises over 150,000 lavender plants. I did my gasping early; the humans save theirs for the tunnel exit. Both are correct."
+    - cast: [cinnamon, socks]
+      prop: "💜"
+      caption: "July, when the whole mound goes purple and the bees hold services. It's a working cemetery — we behaved like guests, because we were."
 ---
 
 A gravestone company built a cemetery in the hills south of Sapporo, filled it with full-size replica moai statues and a concrete Stonehenge — and then, in 2016, hired Tadao Ando to do something even stranger with their 13.5-meter stone Buddha.

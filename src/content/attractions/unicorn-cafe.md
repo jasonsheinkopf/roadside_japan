@@ -34,6 +34,13 @@ cinnamon:
     I, a dignified brown woodland professional, was placed among the plush unicorns by a delighted staff member and photographed by four tables simultaneously. I have made peace with this. The rainbow crepe cake is structurally impressive and chromatically alarming; the candy-floss drinks glow with intent.
 
     It is not subtle, cheap, or gourmet — it's a mood with a menu, and it executes flawlessly. Come with a friend who owns glitter. Wear the onesie. Resistance reads as cowardice here, and the unicorns can tell.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦄"
+      caption: "A dignified brown woodland professional, placed among the plush unicorns and photographed by four tables simultaneously. I have made peace with this."
+    - cast: [cinnamon, mon]
+      prop: "🌈"
+      caption: "The rainbow crepe cake: structurally impressive, chromatically alarming. Mon-chan wore the onesie. He has not made peace with this."
 ---
 
 For maximum-sugar, maximum-glitter absurdity, few places on earth compete with the Unicorn Café. Every surface is pastel; shelves heave with plush unicorns; and you're encouraged to pull on a shiny unicorn onesie before tucking into rainbow-coloured spaghetti, glittery lattes, and candy-bright shakes.

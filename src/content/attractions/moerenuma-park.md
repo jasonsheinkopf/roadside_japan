@@ -66,6 +66,13 @@ cinnamon:
     I summited Mt. Moere (62 metres of former trash wearing a green suit so convincing the larks nest on it) and rolled partway down the play mountain because the design demanded it. Noguchi died before it opened; the park is his last work, executed from his model like a promise kept.
 
     Rent a bike — the site is enormous and the shapes reveal themselves at speed. Winter buries it in snow and the humans ski the sculpture. A dump became this. Keep that sentence somewhere you can reach it on bad days.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "⛰️"
+      caption: "Summit of Mt. Moere: 62 metres of former landfill in a green suit so convincing the larks nest on it. Noguchi's last work, kept like a promise."
+    - cast: [cinnamon, mon]
+      prop: "⛲"
+      caption: "The sea fountain doing its slow fireworks made of water. Mon-chan rolled down the play mountain because the design demanded it, he says."
 ---
 
 On the edge of Sapporo, a former waste-treatment site has become one of Japan's most quietly astonishing artworks. **Moerenuma Park** was designed in its entirety by the sculptor **Isamu Noguchi** as a single, walk-through piece of land art — the whole landscape is the sculpture.

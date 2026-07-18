@@ -37,6 +37,13 @@ cinnamon:
     I watched from the awning brace — best seat in the house, don't tell the bookings list — as she turned out her famous crab omelette: a golden log, obscenely stuffed, folded like a secret. The goggles protect her from the oil, which leaps like it's trying to escape the fame.
 
     Getting a seat takes reservations or heroic queueing, and prices are restaurant-grade, not street-grade — the humans debate this endlessly online while chewing, which settles it. The fire alone is worth the walk past. She cooks like weather.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🦀"
+      caption: "Best seat in the house: the awning brace, watching the queen in ski goggles fold the famous crab omelette like a secret. Don't tell the bookings list."
+    - cast: [cinnamon, mon]
+      prop: "🔥"
+      caption: "The twin charcoal woks, flames leaping like they're trying to escape the fame. Mon-chan queued heroically and considers the Michelin star underpowered."
 ---
 
 On a corner of Maha Chai Road, an octogenarian known as Jay Fai ("Sister Mole") cooks over roaring charcoal in her trademark woollen hat and ski goggles — the goggles protect her eyes from the flames. In 2018 she became one of the world's only street-food cooks to win a Michelin star, and the queues have never let up since.

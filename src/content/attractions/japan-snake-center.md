@@ -63,6 +63,13 @@ cinnamon:
     It's a working facility — they make antivenom here — wrapped in a retro park: hundreds of snakes from rat snakes to habu vipers, feeding demonstrations, and a python you can hold. The humans queued to drape it over their shoulders like a scarf with opinions. I observed this ritual from the roof of the vending machine (a silent one, thankfully) and took notes for Socks, who will never believe any of it.
 
     Weekday afternoons are nearly empty. Respectful, unfancy, quietly heroic. High marks, awarded from altitude.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "🐍"
+      caption: "Observing the hold-a-python ritual from the roof of the vending machine. The humans drape it on like a scarf with opinions."
+    - cast: [cinnamon, socks]
+      prop: "🔬"
+      caption: "Socks reading about the antivenom lab from maximum distance. Weekday afternoons the whole retro park is nearly empty."
 ---
 
 In the Gunma countryside near **Ota** sits a place that knows exactly what it is: the **Japan Snake Center**, a wonderfully unfashionable park devoted, completely and unapologetically, to **snakes**.

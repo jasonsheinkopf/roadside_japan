@@ -56,6 +56,13 @@ cinnamon:
     I hit it on a 'full sea' morning (roughly a one-in-three chance; the resort posts forecasts) and walked the Cloud Walk out over the white. The clouds move like slow water. The sun comes up and dyes the whole ocean peach. Nobody talks much. A man in hotel slippers stood next to me weeping gently into his coffee, which reviews confirm is a standard occurrence.
 
     Gondolas run from before dawn, summer through early autumn. Book the night at Tomamu, set the alarm that hurts, gamble. The mornings it pays, it pays in oceans.
+  snapshots:
+    - cast: [cinnamon]
+      prop: "☁️"
+      caption: "A full-sea morning (one-in-three odds, and we hit it): the Cloud Walk out over slow white water while the sunrise dyed the whole ocean peach."
+    - cast: [cinnamon, socks]
+      prop: "☕"
+      caption: "Cocoa above the clouds, next to a man in hotel slippers weeping gently into his coffee — which reviews confirm is a standard occurrence. Socks refilled his cup."
 ---
 
 Unkai means "sea of clouds," and this terrace on the flank of Mt. Tomamu exists for exactly one purpose: putting you above that sea at sunrise.
