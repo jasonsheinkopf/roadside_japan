@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270"
+     data-episode="Metallurgy as Calligraphy" data-prefix="swors">
+  <style>
+    .swors-walk1 { animation: swors-walkin 1.3s cubic-bezier(.3,.9,.4,1) both; animation-delay: calc(var(--t1) + .2s); }
+    .swors-bob { animation: swors-bob 2.7s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+    .swors-glint { animation: swors-glint 2.4s ease-in-out infinite; }
+    .swors-lean { animation: swors-lean 1.2s ease-out both; animation-delay: calc(var(--t2) + .3s); transform-box: fill-box; transform-origin: 50% 100%; }
+    .swors-ripple { animation: swors-ripple 2.6s ease-in-out infinite; }
+    .swors-fogin { animation: swors-fogin 2.4s ease-in-out both; animation-delay: calc(var(--t3) + .3s); }
+    .swors-cam4 { animation: swors-push 2.6s ease-out both; animation-delay: var(--t4); transform-box: fill-box; transform-origin: 50% 55%; }
+    .swors-scrunch { animation: swors-scrunch 1.4s cubic-bezier(.3,1.3,.5,1) both; animation-delay: calc(var(--t4) + .3s); transform-box: fill-box; transform-origin: 50% 100%; }
+    .swors-scrunch2 { animation: swors-scrunch 1.4s cubic-bezier(.3,1.3,.5,1) both; animation-delay: calc(var(--t4) + .5s); transform-box: fill-box; transform-origin: 50% 100%; }
+    .swors-exitwalk { animation: swors-exitwalk 1.5s cubic-bezier(.3,.9,.4,1) both; animation-delay: calc(var(--t5) + .2s); }
+    .swors-flag { animation: swors-flag 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: 0% 0%; }
+
+    @keyframes swors-walkin { from { transform: translateX(-140px); } to { transform: translateX(0); } }
+    @keyframes swors-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes swors-glint { 0%,100% { opacity: .15; } 50% { opacity: .65; } }
+    @keyframes swors-lean { from { transform: rotate(0deg) translateY(0); } to { transform: rotate(5deg) translateY(-2px); } }
+    @keyframes swors-ripple { 0%,100% { opacity: .3; transform: scaleX(1); } 50% { opacity: .8; transform: scaleX(1.05); } }
+    @keyframes swors-fogin { 0% { opacity: 0; } 25% { opacity: .6; } 65% { opacity: .55; } 100% { opacity: 0; } }
+    @keyframes swors-push { from { transform: scale(1); } to { transform: scale(1.06); } }
+    @keyframes swors-scrunch { 0% { transform: scale(1); } 60% { transform: scale(.9,1.08) translateY(-3px); } 100% { transform: scale(.94,1.05) translateY(-2px); } }
+    @keyframes swors-exitwalk { from { transform: translateX(-50px); opacity: .3; } to { transform: translateX(0); opacity: 1; } }
+    @keyframes swors-flag { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+  </style>
+  <defs>
+    <linearGradient id="swors-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe0ea"/><stop offset="1" stop-color="#eef0e6"/>
+    </linearGradient>
+    <linearGradient id="swors-build" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6e1d2"/><stop offset="1" stop-color="#c9c1a8"/>
+    </linearGradient>
+    <linearGradient id="swors-hall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#20180f"/><stop offset="1" stop-color="#0c0906"/>
+    </linearGradient>
+    <linearGradient id="swors-blade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f4f0"/><stop offset="0.5" stop-color="#c6cdc4"/><stop offset="1" stop-color="#8f978c"/>
+    </linearGradient>
+    <linearGradient id="swors-sqg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9c7c55"/><stop offset="1" stop-color="#7d6242"/>
+    </linearGradient>
+    <radialGradient id="swors-spot" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff7dc" stop-opacity="0.9"/><stop offset="1" stop-color="#fff7dc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Scene 1: wide establishing — Ryogoku street, museum exterior -->
+  <g class="scene" data-dur="3.0" data-caption="CINNAMON: “¥1,000 to get in. For a good samurai face, worth it.”">
+    <rect x="0" y="0" width="480" height="270" fill="url(#swors-sky)"/>
+    <path d="M0,150 L480,150 L480,270 L0,270 Z" fill="#d4cdb8"/>
+    <path d="M70,150 L70,70 Q130,50 190,70 L190,150 Z" fill="url(#swors-build)" stroke="#a89a76" stroke-width="2"/>
+    <g fill="#79604a"><rect x="90" y="95" width="20" height="28"/><rect x="130" y="95" width="20" height="28"/><rect x="150" y="95" width="0" height="0"/></g>
+    <g fill="#bcd8de"><rect x="93" y="98" width="14" height="22"/><rect x="133" y="98" width="14" height="22"/></g>
+    <rect x="115" y="122" width="30" height="28" fill="#4a3a2c"/>
+    <rect x="60" y="76" width="140" height="12" fill="#2c2420"/>
+    <text x="130" y="85" font-size="6.5" fill="#e8e2d2" text-anchor="middle" font-family="sans-serif">JAPANESE SWORD MUSEUM</text>
+    <path d="M230,150 L230,90 Q290,65 350,90 L350,150 Z" fill="#dcd4bc" stroke="#a89a76" stroke-width="2"/>
+    <path d="M225,90 Q290,58 355,90 L355,98 Q290,68 225,98 Z" fill="#8a5a34"/>
+    <g fill="#4a3a2c"><rect x="250" y="115" width="18" height="22"/><rect x="280" y="112" width="18" height="26"/><rect x="312" y="115" width="18" height="22"/></g>
+    <path d="M390,150 L390,110 Q420,95 450,110 L450,150 Z" fill="#c9c1a8"/>
+    <path d="M420,60 Q424,90 420,110" stroke="#8a5a34" stroke-width="3" fill="none"/>
+    <g class="swors-flag" style="transform-box:view-box;transform-origin:420px 60px"><path d="M420,60 L420,42 L448,48 L420,54 Z" fill="#6f8a4d"/></g>
+    <g fill="#3f6b4a"><ellipse cx="30" cy="160" rx="16" ry="20"/><rect x="26" y="160" width="8" height="20"/></g>
+    <g fill="#3f6b4a"><ellipse cx="460" cy="158" rx="16" ry="20"/><rect x="456" y="158" width="8" height="20"/></g>
+    <path d="M0,205 Q120,195 240,201 T480,197 L480,270 L0,270 Z" fill="#9c9482"/>
+    <g stroke="#7d745f" stroke-width="1.5" opacity="0.5"><line x1="40" y1="208" x2="40" y2="270"/><line x1="140" y1="205" x2="140" y2="270"/><line x1="300" y1="200" x2="300" y2="270"/><line x1="400" y1="199" x2="400" y2="270"/></g>
+    <g class="swors-walk1">
+      <use href="#advc-cinnamon" x="140" y="155" width="78" height="78"/>
+      <use href="#advc-socks" x="210" y="168" width="62" height="62"/>
+    </g>
+  </g>
+
+  <!-- Scene 2: medium interior — dim gallery, katana lit from below -->
+  <g class="scene" data-dur="3.2" data-caption="SOCKS: “I did not expect metal to look like water.”">
+    <rect x="0" y="0" width="480" height="270" fill="url(#swors-hall)"/>
+    <path d="M0,0 L0,60 Q240,30 480,60 L480,0 Z" fill="#0c0906"/>
+    <path d="M0,220 Q240,205 480,215 L480,270 L0,270 Z" fill="#171310"/>
+    <g stroke="#33291d" stroke-width="1" opacity="0.6"><line x1="0" y1="235" x2="480" y2="230"/><line x1="0" y1="250" x2="480" y2="245"/></g>
+    <g>
+      <rect x="60" y="90" width="20" height="130" fill="#171310" stroke="#33291d" stroke-width="1.5"/>
+      <ellipse class="swors-spot" cx="70" cy="88" rx="34" ry="10" fill="url(#swors-spot)"/>
+      <rect x="180" y="70" width="24" height="150" fill="#171310" stroke="#33291d" stroke-width="1.5"/>
+      <ellipse class="swors-spot" cx="192" cy="68" rx="40" ry="12" fill="url(#swors-spot)"/>
+      <rect x="330" y="95" width="20" height="125" fill="#171310" stroke="#33291d" stroke-width="1.5"/>
+      <ellipse class="swors-spot" cx="340" cy="93" rx="34" ry="10" fill="url(#swors-spot)"/>
+      <rect x="420" y="105" width="18" height="115" fill="#171310" stroke="#33291d" stroke-width="1.5"/>
+      <ellipse class="swors-spot" cx="429" cy="103" rx="30" ry="9" fill="url(#swors-spot)"/>
+    </g>
+    <g stroke="url(#swors-blade)" stroke-width="4" fill="none" stroke-linecap="round">
+      <path d="M62,205 Q66,150 74,100"/>
+      <path d="M186,208 Q194,140 198,80"/>
+      <path d="M334,208 Q338,155 344,105"/>
+      <path d="M424,206 Q428,160 432,113"/>
+    </g>
+    <path class="swors-glint" d="M66,150 Q70,148 74,150" stroke="#fff" stroke-width="1.5" fill="none"/>
+    <path class="swors-glint" d="M190,120 Q194,118 198,120" stroke="#fff" stroke-width="1.5" fill="none" style="animation-delay:.5s"/>
+    <path class="swors-glint" d="M337,150 Q340,148 344,150" stroke="#fff" stroke-width="1.5" fill="none" style="animation-delay:1s"/>
+    <g class="swors-bob">
+      <use href="#advc-cinnamon" x="220" y="168" width="70" height="70"/>
+    </g>
+    <g class="swors-lean">
+      <use href="#advc-socks" x="290" y="180" width="58" height="58"/>
+    </g>
+  </g>
+
+  <!-- Scene 3: close-up insert — nose to the glass, fog and un-fog -->
+  <g class="scene" data-dur="2.8" data-caption="He pressed his nose to the glass until it fogged, twice.">
+    <rect x="0" y="0" width="480" height="270" fill="url(#swors-hall)"/>
+    <rect x="60" y="20" width="360" height="230" rx="6" fill="#1c1712" stroke="#33291d" stroke-width="3"/>
+    <rect x="76" y="36" width="328" height="198" rx="3" fill="#0f0c09"/>
+    <path stroke="url(#swors-blade)" stroke-width="10" fill="none" stroke-linecap="round" d="M110,210 Q180,90 370,60"/>
+    <path class="swors-ripple" d="M130,190 Q220,130 340,90" stroke="#fff" stroke-width="2" fill="none" opacity="0.4"/>
+    <path class="swors-ripple" d="M150,175 Q230,120 330,85" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.3" style="animation-delay:.6s"/>
+    <ellipse class="swors-fogin" cx="240" cy="195" rx="38" ry="26" fill="#e8f0ee" opacity="0"/>
+    <g>
+      <ellipse cx="240" cy="240" rx="30" ry="8" fill="#000" opacity="0.3"/>
+      <ellipse cx="240" cy="205" rx="27" ry="25" fill="url(#swors-sqg)"/>
+      <path d="M220,182 q-6,-18 8,-16 q6,2 4,15z" fill="#7d6242"/>
+      <path d="M260,182 q6,-18 -8,-16 q-6,2 -4,15z" fill="#7d6242"/>
+      <ellipse cx="228" cy="200" rx="4.5" ry="5.5" fill="#241c16"/><ellipse cx="252" cy="200" rx="4.5" ry="5.5" fill="#241c16"/>
+      <circle cx="229" cy="197" r="1.4" fill="#fff"/><circle cx="253" cy="197" r="1.4" fill="#fff"/>
+      <ellipse cx="240" cy="222" rx="7" ry="5" fill="#b9966c"/>
+    </g>
+  </g>
+
+  <!-- Scene 4: reaction — practicing samurai faces in the dim hall -->
+  <g class="scene" data-dur="2.8" data-caption="CINNAMON: “Practicing our samurai faces. It caught us — ninety minutes, easily.”">
+    <g class="swors-cam4">
+      <rect x="0" y="0" width="480" height="270" fill="url(#swors-hall)"/>
+      <path d="M0,0 L0,50 Q240,25 480,50 L480,0 Z" fill="#0c0906" opacity="0.85"/>
+      <ellipse cx="240" cy="130" rx="240" ry="140" fill="url(#swors-spot)" opacity="0.25"/>
+      <rect x="360" y="60" width="20" height="150" fill="#171310" opacity="0.7"/>
+      <g class="swors-scrunch">
+        <ellipse cx="180" cy="235" rx="60" ry="12" fill="#000" opacity="0.3"/>
+        <ellipse cx="180" cy="172" rx="58" ry="55" fill="url(#swors-sqg)"/>
+        <path d="M150,132 q-12,-30 12,-27 q9,4 6,25z" fill="#7d6242"/>
+        <path d="M210,132 q12,-30 -12,-27 q-9,4 -6,25z" fill="#7d6242"/>
+        <path d="M156,158 q10,-8 20,0" stroke="#241c16" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+        <path d="M184,158 q10,-8 20,0" stroke="#241c16" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+        <path d="M180,182 h0" stroke="#3a2c24" stroke-width="1"/>
+        <path d="M168,190 h24" stroke="#3a2c24" stroke-width="3.5" stroke-linecap="round"/>
+        <ellipse cx="150" cy="222" rx="10" ry="8" fill="#b9966c"/>
+        <ellipse cx="210" cy="218" rx="10" ry="8" fill="#b9966c"/>
+      </g>
+      <g class="swors-scrunch2">
+        <ellipse cx="300" cy="230" rx="46" ry="10" fill="#000" opacity="0.3"/>
+        <ellipse cx="300" cy="180" rx="42" ry="40" fill="#26221f"/>
+        <path d="M278,146 q-6,-16 8,-14 q6,2 4,12z" fill="#26221f"/>
+        <path d="M322,146 q6,-16 -8,-14 q-6,2 -4,12z" fill="#26221f"/>
+        <path d="M300,158 q16,0 18,16 q1,16 -18,17 q-19,-1 -18,-17 q2,-16 18,-16z" fill="#f5f1ea"/>
+        <path d="M286,172 q6,-6 14,0" stroke="#171412" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+        <path d="M300,172 q6,-6 14,0" stroke="#171412" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+        <path d="M292,190 h16" stroke="#3a2c24" stroke-width="2.6" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Scene 5: payoff wide — leaving Ryogoku, sumo stadium next door -->
+  <g class="scene" data-dur="3.0" data-caption="Closed Mondays. Twenty minutes end to end — unless it catches you.">
+    <rect x="0" y="0" width="480" height="270" fill="url(#swors-sky)"/>
+    <path d="M0,150 L480,150 L480,270 L0,270 Z" fill="#d4cdb8"/>
+    <path d="M70,150 L70,70 Q130,50 190,70 L190,150 Z" fill="url(#swors-build)" stroke="#a89a76" stroke-width="2"/>
+    <rect x="115" y="122" width="30" height="28" fill="#4a3a2c"/>
+    <path d="M280,150 L280,60 Q340,20 420,50 Q450,62 450,150 Z" fill="#cfc6ac" stroke="#a89a76" stroke-width="2"/>
+    <path d="M280,68 Q360,30 450,66" fill="none" stroke="#8a5a34" stroke-width="4"/>
+    <circle cx="365" cy="45" r="10" fill="#c9772f"/>
+    <text x="365" y="49" font-size="9" text-anchor="middle">🥋</text>
+    <g fill="#3f6b4a"><ellipse cx="30" cy="160" rx="16" ry="20"/><rect x="26" y="160" width="8" height="20"/></g>
+    <g fill="#3f6b4a"><ellipse cx="460" cy="158" rx="16" ry="20"/><rect x="456" y="158" width="8" height="20"/></g>
+    <path d="M0,205 Q120,195 240,201 T480,197 L480,270 L0,270 Z" fill="#9c9482"/>
+    <g stroke="#7d745f" stroke-width="1.5" opacity="0.5"><line x1="40" y1="208" x2="40" y2="270"/><line x1="300" y1="200" x2="300" y2="270"/></g>
+    <g class="swors-exitwalk">
+      <use href="#advc-socks" x="180" y="170" width="60" height="60"/>
+      <use href="#advc-cinnamon" x="230" y="156" width="76" height="76"/>
+    </g>
+  </g>
+</svg>

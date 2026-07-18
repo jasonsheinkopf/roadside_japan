@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270"
+     data-episode="Six Stories of Pachyderm" data-prefix="lucys">
+  <style>
+    .lucys-walk1 { animation: lucys-walkin 1.3s cubic-bezier(.3,.9,.4,1) both; animation-delay: calc(var(--t1) + .2s); }
+    .lucys-wave { animation: lucys-wave 3.2s ease-in-out infinite; }
+    .lucys-bob { animation: lucys-bob 2.7s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+    .lucys-climb { animation: lucys-climb 2.4s ease-in-out both; animation-delay: calc(var(--t2) + .2s); }
+    .lucys-flag2 { animation: lucys-flag 2s ease-in-out infinite; transform-box: fill-box; transform-origin: 0% 50%; }
+    .lucys-arrive { animation: lucys-arrive 1.3s ease-out both; animation-delay: calc(var(--t3) + .2s); }
+    .lucys-windtail { animation: lucys-windtail 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: 100% 30%; }
+    .lucys-gust { animation: lucys-gust 2.6s ease-in-out infinite; }
+    .lucys-cam4 { animation: lucys-push 2.6s ease-out both; animation-delay: var(--t4); transform-box: fill-box; transform-origin: 50% 55%; }
+    .lucys-creak { animation: lucys-creak 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: 0% 50%; }
+    .lucys-pat { animation: lucys-pat 1s ease-in-out both; animation-delay: calc(var(--t4) + .4s); transform-box: fill-box; transform-origin: 50% 100%; }
+    .lucys-exitwalk { animation: lucys-exitwalk 1.6s cubic-bezier(.3,.9,.4,1) both; animation-delay: calc(var(--t5) + .2s); }
+    .lucys-glow { animation: lucys-glow 3s ease-in-out infinite; }
+
+    @keyframes lucys-walkin { from { transform: translateX(-140px); } to { transform: translateX(0); } }
+    @keyframes lucys-wave { 0%,100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
+    @keyframes lucys-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes lucys-climb { 0% { transform: translateY(40px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; } }
+    @keyframes lucys-flag { 0%,100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+    @keyframes lucys-arrive { from { transform: translateY(24px) scale(.85); opacity: 0; } to { transform: translateY(0) scale(1); opacity: 1; } }
+    @keyframes lucys-windtail { 0%,100% { transform: rotate(-6deg); } 50% { transform: rotate(6deg); } }
+    @keyframes lucys-gust { 0%,100% { opacity: .2; transform: translateX(0); } 50% { opacity: .55; transform: translateX(10px); } }
+    @keyframes lucys-push { from { transform: scale(1); } to { transform: scale(1.06); } }
+    @keyframes lucys-creak { 0%,100% { transform: rotate(-1.5deg); } 50% { transform: rotate(1.5deg); } }
+    @keyframes lucys-pat { 0%,40%,100% { transform: translateY(0); } 20% { transform: translateY(6px); } }
+    @keyframes lucys-exitwalk { from { transform: translateX(-40px); opacity: .3; } to { transform: translateX(0); opacity: 1; } }
+    @keyframes lucys-glow { 0%,100% { opacity: .5; } 50% { opacity: .85; } }
+  </style>
+  <defs>
+    <linearGradient id="lucys-sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3f2"/><stop offset="1" stop-color="#eef4e6"/>
+    </linearGradient>
+    <linearGradient id="lucys-sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e79a6a"/><stop offset="0.55" stop-color="#f0c088"/><stop offset="1" stop-color="#f6dca0"/>
+    </linearGradient>
+    <linearGradient id="lucys-sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4d9fc4"/><stop offset="1" stop-color="#2c6f96"/>
+    </linearGradient>
+    <linearGradient id="lucys-sea2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0906a"/><stop offset="1" stop-color="#8a5c78"/>
+    </linearGradient>
+    <linearGradient id="lucys-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9b8ae"/><stop offset="1" stop-color="#7f8f84"/>
+    </linearGradient>
+    <linearGradient id="lucys-sqg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9c7c55"/><stop offset="1" stop-color="#7d6242"/>
+    </linearGradient>
+    <linearGradient id="lucys-wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9805a"/><stop offset="1" stop-color="#7c5a3c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Scene 1: wide establishing — Lucy on the beach, six stories tall -->
+  <g class="scene" data-dur="3.2" data-caption="CINNAMON: “Six stories of elephant. Built in 1881. I approve entirely.”">
+    <rect x="0" y="0" width="480" height="270" fill="url(#lucys-sky1)"/>
+    <circle cx="60" cy="45" r="24" fill="#fff6d8" opacity="0.9"/>
+    <path d="M0,50 q20,-13 40,0 q18,-9 34,4 q-4,9 -20,8 q-29,6 -54,-2 q-8,0 0,-10z" fill="#fff" opacity="0.85"/>
+    <rect x="0" y="150" width="480" height="45" fill="url(#lucys-sea)"/>
+    <path class="lucys-wave" d="M0,158 q60,-6 120,0 q60,6 120,-2 q60,-7 120,2 q60,6 120,-3" fill="none" stroke="#cfeaf3" stroke-width="2" opacity="0.5"/>
+    <path class="lucys-wave" d="M0,178 q70,6 140,-2 q70,-8 150,3 q60,7 190,-3" fill="none" stroke="#bfe0ea" stroke-width="2" opacity="0.4" style="animation-delay:.6s"/>
+    <path d="M0,192 Q120,182 240,188 T480,184 L480,270 L0,270 Z" fill="#e8d9ac"/>
+    <path d="M0,192 Q120,182 240,188 T480,184" fill="none" stroke="#cbb885" stroke-width="2" opacity="0.5"/>
+    <g fill="#6f8a4d" opacity="0.85"><path d="M20,192 q4,-16 8,0z"/><path d="M30,190 q4,-14 8,0z"/><path d="M420,190 q4,-15 8,0z"/><path d="M440,192 q4,-16 8,0z"/></g>
+    <!-- Lucy the elephant, front elevation -->
+    <g>
+      <ellipse cx="240" cy="230" rx="90" ry="12" fill="#000" opacity="0.15"/>
+      <path d="M196,225 L196,148 L174,148 L174,225 Z" fill="url(#lucys-body)" stroke="#5e6c62" stroke-width="2"/>
+      <path d="M284,225 L284,148 L306,148 L306,225 Z" fill="url(#lucys-body)" stroke="#5e6c62" stroke-width="2"/>
+      <path d="M168,100 Q132,94 122,124 Q116,150 148,154 Q168,146 166,116 Z" fill="url(#lucys-body)" stroke="#5e6c62" stroke-width="2"/>
+      <path d="M312,100 Q348,94 358,124 Q364,150 332,154 Q312,146 314,116 Z" fill="url(#lucys-body)" stroke="#5e6c62" stroke-width="2"/>
+      <path d="M166,148 Q160,72 240,52 Q320,72 314,148 Q320,166 240,172 Q160,166 166,148 Z" fill="url(#lucys-body)" stroke="#5e6c62" stroke-width="2.5"/>
+      <path d="M240,52 Q200,60 178,100 M240,52 Q280,60 302,100" fill="none" stroke="#c3d0c8" stroke-width="2" opacity="0.5"/>
+      <circle cx="216" cy="98" r="5.5" fill="#241c16"/><circle cx="264" cy="98" r="5.5" fill="#241c16"/>
+      <circle cx="217.5" cy="96" r="1.6" fill="#fff"/><circle cx="265.5" cy="96" r="1.6" fill="#fff"/>
+      <path d="M220,158 Q211,176 218,192" fill="none" stroke="#eee8d8" stroke-width="6" stroke-linecap="round"/>
+      <path d="M260,158 Q269,176 262,192" fill="none" stroke="#eee8d8" stroke-width="6" stroke-linecap="round"/>
+      <path d="M240,160 Q233,188 240,206 Q247,220 238,228" fill="none" stroke="#5e6c62" stroke-width="15" stroke-linecap="round"/>
+      <path d="M240,160 Q233,188 240,206 Q247,220 238,228" fill="none" stroke="#8fa198" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+      <rect x="203" y="36" width="74" height="28" rx="6" fill="url(#lucys-wood)" stroke="#5c4128" stroke-width="2"/>
+      <g stroke="#5c4128" stroke-width="2"><line x1="203" y1="45" x2="277" y2="45"/><line x1="203" y1="55" x2="277" y2="55"/></g>
+      <rect x="10" y="150" width="46" height="34" fill="#8a5a34" stroke="#5c4128" stroke-width="2"/>
+      <path d="M5,150 L61,150 L52,136 L14,136Z" fill="#6b3f22"/>
+      <text x="33" y="169" font-size="6" fill="#f3ead4" text-anchor="middle" font-family="sans-serif">LUCY THE</text>
+      <text x="33" y="177" font-size="6" fill="#f3ead4" text-anchor="middle" font-family="sans-serif">ELEPHANT · 1881</text>
+      <rect x="177" y="203" width="16" height="22" rx="8" fill="#41504a" stroke="#5e6c62" stroke-width="1.5"/>
+      <rect x="180" y="208" width="10" height="17" rx="5" fill="#241c16"/>
+    </g>
+    <g class="lucys-walk1">
+      <use href="#advc-cinnamon" x="90" y="192" width="52" height="52"/>
+      <use href="#advc-socks" x="145" y="200" width="42" height="42"/>
+    </g>
+  </g>
+
+  <!-- Scene 2: medium interior — the spiral staircase in her hind leg -->
+  <g class="scene" data-dur="3.2" data-caption="SOCKS: “We're inside her LEG. This is fine. This is completely fine.”">
+    <rect x="0" y="0" width="480" height="270" fill="#3a2c22"/>
+    <path d="M110,270 L110,20 Q240,0 370,20 L370,270 Z" fill="#4a382a" stroke="#2a1e16" stroke-width="3"/>
+    <ellipse cx="240" cy="20" rx="130" ry="18" fill="#241a12"/>
+    <g stroke="#5c4128" stroke-width="6" fill="none">
+      <path d="M130,255 Q240,235 350,255"/>
+      <path d="M130,205 Q240,185 350,205"/>
+      <path d="M130,155 Q240,135 350,155"/>
+      <path d="M130,105 Q240,85 350,105"/>
+      <path d="M130,55 Q240,35 350,55"/>
+    </g>
+    <path d="M140,270 Q160,240 145,205 Q130,170 155,140 Q175,110 160,75 Q150,45 175,20" fill="none" stroke="#8a5a34" stroke-width="10" stroke-linecap="round"/>
+    <g stroke="#a9805a" stroke-width="4" opacity="0.7">
+      <line x1="150" y1="230" x2="170" y2="222"/><line x1="140" y1="180" x2="162" y2="174"/>
+      <line x1="152" y1="128" x2="174" y2="122"/><line x1="158" y1="80" x2="180" y2="74"/>
+    </g>
+    <ellipse class="lucys-glow" cx="240" cy="18" rx="60" ry="10" fill="#ffe9b0" opacity="0.6"/>
+    <g class="lucys-climb">
+      <use href="#advc-cinnamon" x="185" y="188" width="66" height="66"/>
+      <use href="#advc-socks" x="255" y="200" width="54" height="54"/>
+    </g>
+  </g>
+
+  <!-- Scene 3: close-up insert — nose over the rail, the Atlantic wind -->
+  <g class="scene" data-dur="2.8" data-caption="The howdah opens onto a full view of the Atlantic.">
+    <rect x="0" y="0" width="480" height="270" fill="url(#lucys-sky1)"/>
+    <rect x="0" y="30" width="480" height="90" fill="url(#lucys-sea)"/>
+    <path class="lucys-wave" d="M0,45 q80,-8 160,0 q80,8 160,-3 q60,-6 160,3" fill="none" stroke="#cfeaf3" stroke-width="2" opacity="0.55"/>
+    <path class="lucys-wave" d="M0,75 q80,7 160,-2 q80,-8 160,2 q60,7 160,-2" fill="none" stroke="#bfe0ea" stroke-width="2" opacity="0.4" style="animation-delay:.6s"/>
+    <path class="lucys-gust" d="M60,20 q26,-9 18,-24" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path class="lucys-gust" d="M400,16 q-26,-8 -16,-22" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" style="animation-delay:.9s"/>
+    <path d="M0,215 L0,180 Q240,158 480,180 L480,215 Z" fill="url(#lucys-wood)" stroke="#5c4128" stroke-width="3"/>
+    <g stroke="#5c4128" stroke-width="6"><line x1="20" y1="182" x2="20" y2="215"/><line x1="140" y1="167" x2="140" y2="215"/><line x1="340" y1="167" x2="340" y2="215"/><line x1="460" y1="182" x2="460" y2="215"/></g>
+    <path d="M0,270 Q240,246 480,270 L480,270 Z" fill="#8a5a34"/>
+    <g class="lucys-arrive">
+      <ellipse cx="240" cy="240" rx="86" ry="14" fill="#000" opacity="0.2"/>
+      <g class="lucys-windtail" style="transform-box:fill-box;transform-origin:100% 20%">
+        <path d="M310,205 q56,-4 60,-46 q3,-32 -22,-40 q22,10 20,36 q-3,38 -58,44z" fill="#26221f" stroke="#171412" stroke-width="2"/>
+      </g>
+      <ellipse cx="240" cy="150" rx="72" ry="68" fill="url(#lucys-sqg)"/>
+      <path d="M204,102 q-14,-38 16,-33 q11,5 8,30z" fill="#7d6242"/>
+      <path d="M276,102 q14,-38 -16,-33 q-11,5 -8,30z" fill="#7d6242"/>
+      <ellipse cx="196" cy="140" rx="13" ry="10.5" fill="#e7b0a2" opacity="0.55"/>
+      <ellipse cx="284" cy="140" rx="13" ry="10.5" fill="#e7b0a2" opacity="0.55"/>
+      <ellipse cx="218" cy="122" rx="9" ry="11" fill="#241c16"/><ellipse cx="262" cy="122" rx="9" ry="11" fill="#241c16"/>
+      <circle cx="221" cy="117" r="3" fill="#fff"/><circle cx="265" cy="117" r="3" fill="#fff"/>
+      <path d="M235,144 h10 l-5,6z" fill="#2e2219"/>
+      <path d="M240,155 q-11,10 -21,4 M240,155 q11,10 21,4" stroke="#3a2c24" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <ellipse cx="196" cy="195" rx="14" ry="11" fill="#b9966c"/>
+      <ellipse cx="284" cy="195" rx="14" ry="11" fill="#b9966c"/>
+    </g>
+  </g>
+
+  <!-- Scene 4: reaction — her ribs creak in the sea wind -->
+  <g class="scene" data-dur="2.8" data-caption="Her ribs creak in the sea wind like a ship that decided to be an animal.">
+    <g class="lucys-cam4">
+      <rect x="0" y="0" width="480" height="270" fill="#3a2c22"/>
+      <path d="M0,0 L480,0 L480,60 L0,60 Z" fill="#2c2118" opacity="0.8"/>
+      <path d="M0,270 L480,270 L480,225 L0,225 Z" fill="#2c2118" opacity="0.8"/>
+      <g class="lucys-creak" stroke="#8a5a34" stroke-width="10" fill="none" stroke-linecap="round">
+        <path d="M40,270 Q22,140 100,10"/>
+      </g>
+      <g class="lucys-creak" stroke="#8a5a34" stroke-width="10" fill="none" stroke-linecap="round" style="animation-delay:.4s">
+        <path d="M440,270 Q458,140 380,10"/>
+      </g>
+      <g class="lucys-pat">
+        <ellipse cx="120" cy="238" rx="60" ry="12" fill="#000" opacity="0.3"/>
+        <ellipse cx="120" cy="172" rx="60" ry="56" fill="url(#lucys-sqg)"/>
+        <path d="M90,128 q-12,-32 12,-28 q10,4 6,26z" fill="#7d6242"/>
+        <path d="M150,128 q12,-32 -12,-28 q-10,4 -6,26z" fill="#7d6242"/>
+        <ellipse cx="76" cy="164" rx="10" ry="8" fill="#e7b0a2" opacity="0.55"/>
+        <ellipse cx="164" cy="164" rx="10" ry="8" fill="#e7b0a2" opacity="0.55"/>
+        <ellipse cx="100" cy="150" rx="7.5" ry="9" fill="#241c16"/><ellipse cx="140" cy="150" rx="7.5" ry="9" fill="#241c16"/>
+        <circle cx="102" cy="146" r="2.4" fill="#fff"/><circle cx="142" cy="146" r="2.4" fill="#fff"/>
+        <path d="M120,166 h8 l-4,5z" fill="#2e2219"/>
+        <path d="M124,174 q-9,7 -17,3 M124,174 q9,7 17,3" stroke="#3a2c24" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+        <ellipse cx="66" cy="200" rx="12" ry="9.5" fill="#b9966c"/>
+        <ellipse cx="174" cy="196" rx="12" ry="9.5" fill="#b9966c"/>
+      </g>
+      <g class="lucys-bob">
+        <ellipse cx="330" cy="222" rx="46" ry="10" fill="#000" opacity="0.3"/>
+        <ellipse cx="330" cy="172" rx="42" ry="40" fill="#26221f"/>
+        <path d="M308,138 q-6,-16 8,-14 q6,2 4,12z" fill="#26221f"/>
+        <path d="M352,138 q6,-16 -8,-14 q-6,2 -4,12z" fill="#26221f"/>
+        <path d="M330,150 q16,0 18,16 q1,16 -18,17 q-19,-1 -18,-17 q2,-16 18,-16z" fill="#f5f1ea"/>
+        <ellipse cx="318" cy="162" rx="4.5" ry="5.5" fill="#c8d24e"/><ellipse cx="342" cy="162" rx="4.5" ry="5.5" fill="#c8d24e"/>
+        <circle cx="317" cy="160" r="1.6" fill="#241c16"/><circle cx="341" cy="160" r="1.6" fill="#241c16"/>
+        <ellipse cx="330" cy="172" rx="3" ry="2.2" fill="#171412"/>
+        <path d="M330,175 q-8,7 -14,2 M330,175 q8,7 14,2" stroke="#3a2c24" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Scene 5: payoff wide — beach at dusk, Lucy behind them -->
+  <g class="scene" data-dur="3.2" data-caption="Since 1881: lightning, hurricanes, and developers. She's outlasted them all.">
+    <rect x="0" y="0" width="480" height="270" fill="url(#lucys-sky2)"/>
+    <circle cx="380" cy="60" r="30" fill="#fff1c9" opacity="0.9"/>
+    <rect x="0" y="150" width="480" height="45" fill="url(#lucys-sea2)"/>
+    <path class="lucys-wave" d="M0,160 q60,-6 120,0 q60,6 120,-2 q60,-7 120,2 q60,6 120,-3" fill="none" stroke="#f6cf9e" stroke-width="2" opacity="0.5"/>
+    <path d="M0,192 Q120,182 240,188 T480,184 L480,270 L0,270 Z" fill="#d9b980"/>
+    <g fill="#4a5c53" stroke="#33453c" stroke-width="2">
+      <path d="M296,225 L296,150 L280,150 L280,225 Z"/>
+      <path d="M360,225 L360,150 L376,150 L376,225 Z"/>
+      <path d="M275,112 Q250,108 244,130 Q240,148 262,150 Q276,144 275,122 Z"/>
+      <path d="M381,112 Q406,108 412,130 Q416,148 394,150 Q380,144 381,122 Z"/>
+      <path d="M274,150 Q270,96 328,80 Q386,96 382,150 Q386,164 328,168 Q270,164 274,150 Z"/>
+      <path d="M310,155 Q305,175 310,188" fill="none" stroke-width="8" stroke-linecap="round"/>
+      <rect x="298" y="66" width="60" height="22" rx="5" fill="#5c4128" stroke="#3a2c1e"/>
+    </g>
+    <g class="lucys-exitwalk">
+      <use href="#advc-socks" x="90" y="196" width="46" height="46"/>
+      <use href="#advc-cinnamon" x="140" y="188" width="58" height="58"/>
+    </g>
+  </g>
+</svg>
