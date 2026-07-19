@@ -88,7 +88,9 @@ for (const film of films) {
     window.__anims = document.getAnimations();
     for (const a of window.__anims) a.pause();
   });
-  const box = await page.locator(".adv-film").boundingBox();
+  // Record the film itself (stage + subtitle bar) — not the label chrome above it,
+  // which describes the *player* and would be wrong baked into a GIF.
+  const box = await page.locator(".adv-film .adv-restart").boundingBox();
   const clip = { x: Math.floor(box.x), y: Math.floor(box.y), width: Math.ceil(box.width), height: Math.ceil(box.height) };
 
   const frames = Math.ceil(totalMs / STEP_MS);
