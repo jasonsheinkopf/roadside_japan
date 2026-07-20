@@ -123,3 +123,38 @@ the files in and they appear.
 | cape-hachiman-park | ✅ | ✅ | ✅ | |
 
 Entries not listed still use the parametric template (`PlaceScene` / `CinnamonSnapshot`).
+
+## 7. The standard for every entry (new + backfill)
+
+This is now the house style — the old emoji `CinnamonScene` "Cinnamon was here" postcard has
+been **retired** (removed from the detail page; only the written field report remains).
+
+For any entry, new submission or backfill:
+
+1. **If there is no verified photo, drawing a `hero` scene is the top priority** — it becomes
+   the entry's main image instead of the emoji `PlaceScene`. Do this *before* snapshots.
+2. `snap1` (close-up) and `snap2` (different/high angle) come after, when there's budget.
+3. On a **no-photo** entry the drawn `hero` is also shown as an extra tile in "Cinnamon's
+   camera roll" (it's good art — worth showing twice). On a **photo** entry the hero slot is
+   the photo, so only the drawn snapshots appear in the roll. `DetailLayout.astro` handles
+   this automatically from the files present — no per-entry code.
+
+### Tracking the rollout
+
+`scripts/scene-status.py` is the ledger. It scans every published entry and writes
+`docs/SCENE_STATUS.md` (photo? drawn hero/snap1/snap2?) and prints the **priority queue**:
+no-photo entries that still lack a drawn hero, most-recent first.
+
+```
+python3 scripts/scene-status.py            # regenerate docs/SCENE_STATUS.md + summary
+python3 scripts/scene-status.py --queue 5  # next 5 slugs needing a hero (most-recent first)
+```
+
+Regenerate the ledger after adding scenes so `docs/SCENE_STATUS.md` stays current.
+
+### Backfill loop (hero-first)
+
+To work through the backlog: take the next slugs from `--queue`, draw each one's `hero.svg`
+per §1–§4, `python3 scripts/validate-scenes.py`, preview with `scripts/preview-scene.mjs` and
+eyeball it, then regenerate the ledger, commit, and push. Give each hero a unique
+`data-prefix` (e.g. a short slug abbreviation). Rerun `--queue` and repeat.

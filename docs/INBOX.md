@@ -85,9 +85,11 @@ Standard authoring rules (AGENTS.md, docs/DATA_MODEL.md), plus:
   `docs/CINNAMON.md` (the `report` is his first-person field report; `snapshots` is two
   candid camera-roll vignettes — §7 — for new entries). If the submitter's note
   included a genuine recommendation, carry it as `visitorTip: { text, by }`. No verified
-  photo → a place-representing vector scene serves as the hero (never Cinnamon forced into
-  the hero shot); never ship a bare entry. When there IS a hero photo, don't duplicate it
-  into `photos[]`/the camera roll.
+  photo → **draw a Scene Art `hero`** (`docs/SCENE_ART.md`) as the main image — a real
+  illustration of the place, no characters (the emoji `PlaceScene` is only the last-resort
+  fallback until that hero exists). Drawing the hero is the priority for a photo-less entry.
+  When there IS a hero photo, don't duplicate it into `photos[]`/the camera roll. The old
+  emoji "Cinnamon was here" postcard is retired — keep the `report` (field report) only.
 - `createdAt`/`updatedAt`: use the **full ISO timestamp** of processing (e.g.
   `2026-07-17T05:32:00Z`) — `/new` orders same-day entries to the minute.
 - **Official website:** while verifying, check whether the place has an official site
