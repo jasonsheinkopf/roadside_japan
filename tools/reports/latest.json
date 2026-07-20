@@ -1,13 +1,13 @@
 {
   "date": "2026-07-20",
-  "ran_at": "2026-07-20T03:35:00Z",
+  "ran_at": "2026-07-20T01:35:00Z",
   "completed": true,
   "changed": true,
-  "added_count": 4,
+  "added_count": 1,
   "pending_count": 0,
   "skipped_count": 0,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "approx_tokens": 140000,
-  "sms_body": "🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)\n\n📥 Submitted 2026-07-20 09:53 JST by anonymous\n⚙️ Processed 2026-07-20 12:35 JST\n📧 No email given — no reply sent\n\n✅ Added (4):\n• Cape Hachiman Park, Chiba — old castle cape with a sea view and a playground\n  https://roadside-japan.pages.dev/attractions/cape-hachiman-park/\n• Katsuura Morning Market, Chiba — 430-year-old open-air market, one of Japan's three biggest\n  https://roadside-japan.pages.dev/attractions/katsuura-morning-market/\n• Uwara Beach, Chiba — shallow swim cove with a white torii standing in the sea\n  https://roadside-japan.pages.dev/attractions/uwara-beach/\n• Uwara Risokyo, Chiba — 2.3km clifftop hiking loop with a hand-carved tunnel\n  https://roadside-japan.pages.dev/attractions/uwara-risokyo/\n\nNo new countries.\n\n⚠️ note: issue #69, a near-duplicate 'katsuura with kids' request, was already processed a few hours earlier and added the space center + undersea observation tower — those covered the indoor/hot-weather ask, so this run picked 4 different, complementary spots (beach, hiking, market, park) instead of repeating them.\n\n📊 ~140K tokens this run · 4 places\n\n— socks 🐈‍⬛ (cinnamon rang a bell twice at uwara and wont stop talking abt luck. i had a nap)"
+  "approx_tokens": 55000,
+  "sms_body": "🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)\n\n📥 Submitted 2026-07-20 10:25 JST by anonymous\n⚙️ Processed 2026-07-20 10:35 JST\n📧 No email given — no reply sent\n\n✅ Added (1):\n• Mount Omuro, Shizuoka — chairlift-only volcano with a crater-rim walk and archery inside the crater\n  https://roadside-japan.pages.dev/attractions/mount-omuro-izu/\n\nNo new countries.\n\n📊 ~55K tokens this run · 1 place\n\n— socks 🐈‍⬛ (cinnamon wont stop talkin abt shootin arrows inside a vulcano. mon-chan iz jealous he didnt get a turn)"
 }
