@@ -1,13 +1,13 @@
 {
-  "date": "2026-07-18",
-  "ran_at": "2026-07-18T11:51:00Z",
+  "date": "2026-07-20",
+  "ran_at": "2026-07-20T02:20:00Z",
   "completed": true,
   "changed": true,
-  "added_count": 1,
+  "added_count": 2,
   "pending_count": 0,
   "skipped_count": 0,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "approx_tokens": 46000,
-  "sms_body": "🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)\n\n📥 Submitted 2026-07-18 20:44 JST by ghost popsicle (jasonsheinkopf@gmail.com)\n⚙️ Processed 2026-07-18 20:51 JST\n📧 Emailed jasonsheinkopf@gmail.com — thank-you sent\n\n✅ Added (1):\n• Hoshi no Mieru Oka Nouen, Nakagawa (near Nasu) — pay-by-the-kilo grape picking, 14 varieties\n  https://roadside-japan.pages.dev/attractions/hoshi-no-mieru-oka-farm/\n\nNo new countries.\n\n📊 ~46K tokens this run · 1 place\n\n— socks 🐈‍⬛ (cinnamon sez the shine muscat was \"structurally superior.\" i had a nap)"
+  "approx_tokens": 85000,
+  "sms_body": "🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)\n\n📥 Submitted 2026-07-20 09:19 JST by anonymous\n⚙️ Processed 2026-07-20 11:20 JST\n📧 No email given — no reply sent\n\n✅ Added (2):\n• Katsuura Undersea Park, Chiba — underwater observation tower 8m below the Pacific\n  https://roadside-japan.pages.dev/attractions/katsuura-undersea-park/\n• JAXA Katsuura Space Communication Center, Chiba — free walk-in space museum under giant tracking antennas\n  https://roadside-japan.pages.dev/attractions/jaxa-katsuura-space-center/\n\nNo new countries.\n\n📊 ~85K tokens this run · 2 places\n\n— socks 🐈‍⬛ (cinnamon iz still mad he lost to a asteroid simulator twice. i had a nap)"
 }
