@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="ubea" data-title="Bowing to the white torii facing out to sea">
+  <defs>
+    <linearGradient id="ubea-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fa8c9"/>
+      <stop offset="0.45" stop-color="#8fc7cd"/>
+      <stop offset="1" stop-color="#bfe6d6"/>
+    </linearGradient>
+    <linearGradient id="ubea-pillar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f7f6ee"/>
+      <stop offset="0.5" stop-color="#e7e4d6"/>
+      <stop offset="1" stop-color="#c9c6b8"/>
+    </linearGradient>
+    <radialGradient id="ubea-glint" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ubea-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd6c9" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#d8efdf" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" fill="url(#ubea-bg)"/>
+  <circle cx="400" cy="46" r="70" fill="url(#ubea-glint)"/>
+  <ellipse cx="120" cy="40" rx="60" ry="14" fill="#ffffff" opacity="0.35"/>
+  <ellipse cx="230" cy="26" rx="46" ry="10" fill="#ffffff" opacity="0.28"/>
+
+  <!-- distant blurred headland, out of focus behind the torii -->
+  <path d="M0 130 Q60 96 130 112 Q170 120 180 140 L0 150 Z" fill="#3f6b56" opacity="0.4"/>
+  <path d="M340 118 Q400 92 480 108 L480 150 L330 150 Z" fill="#3a6350" opacity="0.35"/>
+
+  <!-- the torii pillar filling the frame, cropped tight -->
+  <path d="M64 300 L44 44 L96 44 L102 300 Z" fill="url(#ubea-pillar)" stroke="#9b988c" stroke-width="2"/>
+  <path d="M340 300 L358 60 L406 60 L414 300 Z" fill="url(#ubea-pillar)" stroke="#9b988c" stroke-width="2"/>
+  <path d="M30 44 Q235 10 420 60 L410 88 Q235 44 40 76 Z" fill="url(#ubea-pillar)" stroke="#9b988c" stroke-width="2"/>
+  <rect x="70" y="98" width="270" height="14" fill="url(#ubea-pillar)" stroke="#9b988c" stroke-width="1.4" transform="rotate(-1.2 205 105)"/>
+  <path d="M58 108 Q60 190 56 300" stroke="#a8a596" stroke-width="1.4" opacity="0.5" fill="none"/>
+  <path d="M84 108 Q86 190 82 300" stroke="#a8a596" stroke-width="1.4" opacity="0.5" fill="none"/>
+  <path d="M366 118 Q368 200 364 300" stroke="#a8a596" stroke-width="1.4" opacity="0.5" fill="none"/>
+  <path d="M392 118 Q394 200 390 300" stroke="#a8a596" stroke-width="1.4" opacity="0.5" fill="none"/>
+
+  <!-- weathered grain and salt-stain texture on the near pillar -->
+  <path d="M50 130 q10 4 20 0" stroke="#8f8c7e" stroke-width="1" opacity="0.5" fill="none"/>
+  <path d="M48 200 q12 5 24 0" stroke="#8f8c7e" stroke-width="1" opacity="0.5" fill="none"/>
+  <path d="M52 260 q10 4 18 0" stroke="#8f8c7e" stroke-width="1" opacity="0.45" fill="none"/>
+
+  <!-- shallow water at the base with ripples spreading from the pillar -->
+  <path d="M0 250 Q120 236 240 248 Q360 260 480 246 L480 300 L0 300 Z" fill="url(#ubea-water)"/>
+  <ellipse cx="80" cy="260" rx="70" ry="10" fill="none" stroke="#eef8f0" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="80" cy="266" rx="100" ry="13" fill="none" stroke="#eef8f0" stroke-width="1.6" opacity="0.4"/>
+  <path d="M0 278 Q60 270 120 278 Q180 286 240 278 Q300 270 360 278 Q420 286 480 278" stroke="#f4fbf1" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- Cinnamon, bowed forward toward the gate, paws in the shallows -->
+  <ellipse cx="252" cy="278" rx="32" ry="7" fill="#274a3f" opacity="0.2"/>
+  <g transform="translate(200 176) scale(0.66) rotate(11 120 120)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <path d="M220 270 q16 9 34 2" stroke="#eef8f0" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- a small shell and pebble in the close foreground for texture -->
+  <path d="M300 288 q6 -10 12 0 q-6 4 -12 0z" fill="#e9d9c2" stroke="#c7b493" stroke-width="1"/>
+  <circle cx="330" cy="292" r="4" fill="#b7c9c0"/>
+  <circle cx="120" cy="294" r="3" fill="#a9bcb2"/>
+</svg>

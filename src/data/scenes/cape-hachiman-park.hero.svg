@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="chph" data-title="The cape's stone castle terraces look out over Katsuura Bay">
+  <defs>
+    <linearGradient id="chph-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a9bd0"/>
+      <stop offset="0.5" stop-color="#9fcbe6"/>
+      <stop offset="0.82" stop-color="#dcedec"/>
+      <stop offset="1" stop-color="#eef6ea"/>
+    </linearGradient>
+    <radialGradient id="chph-sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffdf0" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#fff3cf" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#fff3cf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chph-sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f7fa3"/>
+      <stop offset="0.3" stop-color="#3f96b3"/>
+      <stop offset="0.65" stop-color="#5cb2b6"/>
+      <stop offset="1" stop-color="#7fc6b8"/>
+    </linearGradient>
+    <linearGradient id="chph-cliff" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#5c7c46"/>
+      <stop offset="0.55" stop-color="#3c5c34"/>
+      <stop offset="1" stop-color="#26401f"/>
+    </linearGradient>
+    <linearGradient id="chph-rock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8b7f6e"/>
+      <stop offset="1" stop-color="#4a4038"/>
+    </linearGradient>
+    <linearGradient id="chph-stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3a48e"/>
+      <stop offset="1" stop-color="#8a7a63"/>
+    </linearGradient>
+    <linearGradient id="chph-grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7f9c52"/>
+      <stop offset="1" stop-color="#5a7838"/>
+    </linearGradient>
+    <linearGradient id="chph-torii" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c14b34"/>
+      <stop offset="1" stop-color="#8f3221"/>
+    </linearGradient>
+    <linearGradient id="chph-lhouse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfdf6"/>
+      <stop offset="1" stop-color="#c9c8b8"/>
+    </linearGradient>
+    <symbol id="chph-pine" viewBox="0 0 40 60">
+      <rect x="17" y="40" width="6" height="20" fill="#33301f"/>
+      <path d="M20 0 L34 27 L6 27 Z" fill="#233a22"/>
+      <path d="M20 13 L32 40 L8 40 Z" fill="#2e4d2c"/>
+      <path d="M20 26 L30 50 L10 50 Z" fill="#3a6135"/>
+    </symbol>
+    <symbol id="chph-gull" viewBox="0 0 24 12">
+      <path d="M0 8 Q6 0 12 8 Q18 0 24 8" fill="none" stroke="#2c2a24" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="480" height="150" fill="url(#chph-sky)"/>
+  <circle cx="368" cy="58" r="42" fill="url(#chph-sun)"/>
+  <path d="M120 40 Q142 32 164 40 Q182 35 198 42" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M40 66 Q60 60 78 66" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <use href="#chph-gull" x="230" y="52" width="20" height="10"/>
+  <use href="#chph-gull" x="258" y="40" width="16" height="8"/>
+  <use href="#chph-gull" x="284" y="60" width="14" height="7"/>
+
+  <!-- the bay and the open Pacific beyond it -->
+  <rect x="0" y="140" width="480" height="160" fill="url(#chph-sea)"/>
+  <ellipse cx="368" cy="146" rx="70" ry="7" fill="#fdeec0" opacity="0.4"/>
+
+  <!-- far shoreline and the Katsuura Lighthouse across the bay -->
+  <path d="M330 150 Q365 138 402 148 Q430 155 470 150 L480 170 L480 190 Q430 178 400 182 Q360 186 330 172 Z" fill="#7fa19a" opacity="0.55"/>
+  <path d="M412 150 Q420 168 412 182 Q404 168 412 150 Z" fill="#7a6f5f"/>
+  <rect x="407" y="112" width="10" height="42" rx="2" fill="url(#chph-lhouse)" stroke="#8f8a76" stroke-width="1"/>
+  <rect x="405" y="106" width="14" height="8" fill="#c1362a"/>
+  <rect x="404" y="153" width="16" height="6" fill="#8f8a76"/>
+  <path d="M409 112 h4 M409 122 h4 M409 132 h4" stroke="#8f8a76" stroke-width="1.5"/>
+
+  <!-- wave texture across the water -->
+  <path d="M60 176 Q120 172 180 176 Q240 180 300 176 Q360 172 420 176" stroke="#eaf7f0" stroke-width="1.6" fill="none" opacity="0.4"/>
+  <path d="M40 202 Q110 197 180 202 Q250 207 320 202 Q380 197 440 202" stroke="#eaf7f0" stroke-width="1.6" fill="none" opacity="0.35"/>
+  <path d="M80 232 Q150 227 220 232 Q290 237 360 232" stroke="#eaf7f0" stroke-width="1.6" fill="none" opacity="0.32"/>
+
+  <!-- the little torii standing offshore, off the point of the cape -->
+  <ellipse cx="266" cy="214" rx="30" ry="6" fill="#123a3a" opacity="0.22"/>
+  <path d="M235 152 L230 210 L241 210 L245 158 Z" fill="url(#chph-torii)" stroke="#5e2116" stroke-width="1.4"/>
+  <path d="M296 152 L301 210 L290 210 L286 158 Z" fill="url(#chph-torii)" stroke="#5e2116" stroke-width="1.4"/>
+  <path d="M226 152 Q266 138 306 152 L303 162 Q266 150 229 162 Z" fill="url(#chph-torii)" stroke="#5e2116" stroke-width="1.4"/>
+  <rect x="233" y="166" width="66" height="6" fill="url(#chph-torii)" stroke="#5e2116" stroke-width="1"/>
+  <path d="M228 208 Q266 216 304 208 L303 213 Q266 221 229 213 Z" fill="#123a3a" opacity="0.2"/>
+  <path d="M250 218 Q266 226 282 218" stroke="#eaf7f0" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- Cape Hachiman's wooded headland, the old castle site, jutting into the bay -->
+  <path d="M0 300 L0 60 Q40 44 66 72 Q86 96 78 126 Q70 154 92 178 Q106 194 96 214 L0 214 Z" fill="url(#chph-cliff)"/>
+  <path d="M0 214 L96 214 Q100 224 88 236 Q64 250 40 244 L0 244 Z" fill="url(#chph-rock)"/>
+  <path d="M18 236 Q34 244 50 238" stroke="#2c2620" stroke-width="2" fill="none" opacity="0.5"/>
+  <ellipse cx="30" cy="248" rx="14" ry="5" fill="#eaf7f0" opacity="0.5"/>
+  <ellipse cx="66" cy="252" rx="10" ry="4" fill="#eaf7f0" opacity="0.4"/>
+
+  <!-- pines along the cliff-top ridge -->
+  <use href="#chph-pine" x="8" y="14" width="22" height="34"/>
+  <use href="#chph-pine" x="30" y="26" width="20" height="30"/>
+  <use href="#chph-pine" x="48" y="44" width="17" height="26"/>
+  <use href="#chph-pine" x="16" y="46" width="18" height="27"/>
+
+  <!-- the observation plaza and old castle-ruin terraces, foreground -->
+  <path d="M0 300 L0 240 Q60 224 130 234 Q210 246 280 236 Q340 228 400 240 L480 250 L480 300 Z" fill="url(#chph-grass)"/>
+  <path d="M0 262 Q70 246 140 256 Q220 268 290 258 Q350 250 420 262 L480 268" stroke="#3e5527" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- stacked stone-block retaining wall, the old castle foundations -->
+  <rect x="0" y="272" width="52" height="14" fill="url(#chph-stone)" stroke="#6b5e49" stroke-width="1"/>
+  <rect x="50" y="272" width="46" height="14" fill="url(#chph-stone)" stroke="#6b5e49" stroke-width="1"/>
+  <rect x="94" y="276" width="50" height="14" fill="url(#chph-stone)" stroke="#6b5e49" stroke-width="1"/>
+  <rect x="0" y="286" width="46" height="14" fill="url(#chph-stone)" stroke="#6b5e49" stroke-width="1"/>
+  <rect x="44" y="288" width="52" height="12" fill="url(#chph-stone)" stroke="#6b5e49" stroke-width="1"/>
+  <rect x="140" y="290" width="54" height="10" fill="url(#chph-stone)" stroke="#6b5e49" stroke-width="1"/>
+
+  <!-- a low bronze memorial figure on the terrace, kimono-draped, facing the sea -->
+  <ellipse cx="351" cy="266" rx="11" ry="3.5" fill="#1c1a12" opacity="0.35"/>
+  <rect x="339" y="252" width="24" height="12" fill="#6b6248" stroke="#463f2c" stroke-width="1"/>
+  <path d="M345 252 Q340 226 344 206 Q351 200 358 206 Q362 226 357 252 Z" fill="#5f7a5a" stroke="#3c4e39" stroke-width="1.2"/>
+  <path d="M344 230 Q351 235 358 230" stroke="#3c4e39" stroke-width="1" fill="none" opacity="0.5"/>
+  <circle cx="351" cy="198" r="7" fill="#5f7a5a" stroke="#3c4e39" stroke-width="1.2"/>
+  <path d="M344 195 Q351 187 358 195 Q359 190 355 187 Q351 183 347 187 Q343 190 344 195Z" fill="#4a5c40" stroke="#3c4e39" stroke-width="1"/>
+
+  <!-- grass tufts along the terrace edge, close to camera -->
+  <path d="M120 300 q2 -12 6 0" stroke="#4a6530" stroke-width="2" fill="none"/>
+  <path d="M180 300 q2 -14 6 0" stroke="#4a6530" stroke-width="2" fill="none"/>
+  <path d="M420 300 q2 -12 6 0" stroke="#4a6530" stroke-width="2" fill="none"/>
+</svg>

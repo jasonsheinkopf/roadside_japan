@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="ubeh" data-title="Uwara Beach's white torii stands in the shallows facing the sea">
+  <defs>
+    <linearGradient id="ubeh-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f8fc4"/>
+      <stop offset="0.55" stop-color="#8ec3e0"/>
+      <stop offset="0.85" stop-color="#d9edf0"/>
+      <stop offset="1" stop-color="#f1f7e9"/>
+    </linearGradient>
+    <radialGradient id="ubeh-sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffef2" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#fff6cf" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#fff6cf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ubeh-sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f7fa0"/>
+      <stop offset="0.25" stop-color="#59a6b8"/>
+      <stop offset="0.55" stop-color="#7ecdc4"/>
+      <stop offset="1" stop-color="#a9e0cf"/>
+    </linearGradient>
+    <radialGradient id="ubeh-shallow" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#cdf0dd" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#bdeadb" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#bdeadb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ubeh-sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2e2b8"/>
+      <stop offset="0.4" stop-color="#e8d29e"/>
+      <stop offset="1" stop-color="#d3b982"/>
+    </linearGradient>
+    <linearGradient id="ubeh-cliffL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4d6b46"/>
+      <stop offset="1" stop-color="#233524"/>
+    </linearGradient>
+    <linearGradient id="ubeh-cliffR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#587a52"/>
+      <stop offset="1" stop-color="#28402a"/>
+    </linearGradient>
+    <linearGradient id="ubeh-torii" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fefefb"/>
+      <stop offset="1" stop-color="#d8d6cc"/>
+    </linearGradient>
+    <symbol id="ubeh-pine" viewBox="0 0 40 60">
+      <rect x="17" y="40" width="6" height="20" fill="#2e3a24"/>
+      <path d="M20 0 L34 26 L6 26 Z" fill="#243b25"/>
+      <path d="M20 12 L32 38 L8 38 Z" fill="#2f4e2f"/>
+      <path d="M20 24 L30 48 L10 48 Z" fill="#3c6138"/>
+    </symbol>
+    <symbol id="ubeh-gull" viewBox="0 0 24 12">
+      <path d="M0 8 Q6 0 12 8 Q18 0 24 8" fill="none" stroke="#33302a" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="118" fill="url(#ubeh-sky)"/>
+  <circle cx="345" cy="46" r="46" fill="url(#ubeh-sun)"/>
+  <path d="M100 34 Q120 26 142 34 Q160 30 176 36" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.55" stroke-linecap="round"/>
+  <path d="M210 22 Q230 16 250 22 Q266 18 280 24" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <use href="#ubeh-gull" x="150" y="52" width="20" height="10"/>
+  <use href="#ubeh-gull" x="180" y="42" width="16" height="8"/>
+  <use href="#ubeh-gull" x="205" y="60" width="14" height="7"/>
+
+  <rect x="0" y="112" width="480" height="188" fill="url(#ubeh-sea)"/>
+  <ellipse cx="345" cy="118" rx="80" ry="8" fill="#fff2c9" opacity="0.4"/>
+
+  <!-- shallow water glow, feathered so it fades into the surrounding sea with no hard edge -->
+  <ellipse cx="240" cy="195" rx="220" ry="78" fill="url(#ubeh-shallow)"/>
+  <path d="M100 160 Q150 156 200 160 Q250 164 300 160 Q350 156 390 160" stroke="#eef8ee" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M90 180 Q140 176 190 180 Q240 184 290 180 Q340 176 400 180" stroke="#eef8ee" stroke-width="2" fill="none" opacity="0.48"/>
+  <path d="M84 200 Q132 196 180 200 Q230 204 280 200 Q330 196 396 200" stroke="#f4fbee" stroke-width="2.2" fill="none" opacity="0.5"/>
+
+  <!-- headlands framing the cove -->
+  <path d="M0 300 L0 40 Q34 30 58 62 Q78 90 62 122 Q48 150 66 176 L0 176 Z" fill="url(#ubeh-cliffL)"/>
+  <use href="#ubeh-pine" x="6" y="6" width="22" height="34"/>
+  <use href="#ubeh-pine" x="26" y="16" width="20" height="30"/>
+  <use href="#ubeh-pine" x="42" y="30" width="16" height="24"/>
+  <path d="M480 300 L480 66 Q452 56 432 82 Q416 104 430 128 Q444 150 424 168 L480 168 Z" fill="url(#ubeh-cliffR)"/>
+  <use href="#ubeh-pine" x="440" y="30" width="20" height="30"/>
+  <use href="#ubeh-pine" x="458" y="44" width="16" height="24"/>
+
+  <!-- swim-zone rope with small buoys, 120m roped-off area -->
+  <path d="M96 208 Q200 202 300 208 Q340 210 372 208" stroke="#c94f3f" stroke-width="1.3" fill="none" opacity="0.6"/>
+  <circle cx="96" cy="208" r="3" fill="#e0e0d8"/>
+  <circle cx="150" cy="205" r="3" fill="#d64a3a"/>
+  <circle cx="204" cy="204" r="3" fill="#e0e0d8"/>
+  <circle cx="258" cy="205" r="3" fill="#d64a3a"/>
+  <circle cx="312" cy="207" r="3" fill="#e0e0d8"/>
+  <circle cx="366" cy="208" r="3" fill="#d64a3a"/>
+
+  <!-- the white torii standing at the water's edge, facing out to sea -->
+  <ellipse cx="245" cy="222" rx="46" ry="9" fill="#1f3b3a" opacity="0.22"/>
+  <path d="M203 150 L196 224 L210 224 L216 158 Z" fill="url(#ubeh-torii)" stroke="#9b988c" stroke-width="1.5"/>
+  <path d="M280 150 L287 224 L273 224 L267 158 Z" fill="url(#ubeh-torii)" stroke="#9b988c" stroke-width="1.5"/>
+  <path d="M192 150 Q242 132 294 150 L290 162 Q242 146 196 162 Z" fill="url(#ubeh-torii)" stroke="#9b988c" stroke-width="1.5"/>
+  <rect x="200" y="166" width="86" height="8" fill="url(#ubeh-torii)" stroke="#9b988c" stroke-width="1"/>
+  <rect x="234" y="152" width="18" height="16" fill="#e7e4d6" stroke="#9b988c" stroke-width="1"/>
+  <path d="M210 224 Q245 232 279 224 L279 231 Q245 239 210 231 Z" fill="#1f3b3a" opacity="0.18"/>
+
+  <!-- lifeguard watch tower on the sand -->
+  <rect x="392" y="228" width="4" height="30" fill="#7a5a3a"/>
+  <rect x="432" y="228" width="4" height="30" fill="#7a5a3a"/>
+  <rect x="388" y="216" width="52" height="14" fill="#e6e6de" stroke="#8d8d80" stroke-width="1"/>
+  <path d="M388 216 L414 202 L440 216 Z" fill="#c94f3f"/>
+
+  <!-- foreground sand -->
+  <path d="M0 300 L0 244 Q120 258 240 250 Q360 244 480 254 L480 300 Z" fill="url(#ubeh-sand)"/>
+  <path d="M0 250 Q120 262 240 254 Q360 249 480 258" stroke="#c7a768" stroke-width="1.6" fill="none" opacity="0.6"/>
+  <path d="M20 268 Q130 278 250 270 Q370 264 460 274" stroke="#c7a768" stroke-width="1.2" fill="none" opacity="0.4"/>
+
+  <!-- beach umbrellas and small figures for scale -->
+  <path d="M90 252 L90 236" stroke="#7a5a3a" stroke-width="2"/>
+  <path d="M70 238 Q90 222 110 238 Q90 230 70 238 Z" fill="#d6584a"/>
+  <path d="M78 238 Q90 232 102 238" fill="none" stroke="#f4e9d8" stroke-width="2"/>
+  <path d="M370 258 L370 240" stroke="#7a5a3a" stroke-width="2"/>
+  <path d="M350 242 Q370 226 390 242 Q370 234 350 242 Z" fill="#3e7fae"/>
+  <path d="M358 242 Q370 236 382 242" fill="none" stroke="#f4e9d8" stroke-width="2"/>
+
+  <ellipse cx="130" cy="272" rx="7" ry="4" fill="#3a2c22" opacity="0.75"/>
+  <circle cx="130" cy="263" r="4" fill="#3a2c22" opacity="0.75"/>
+  <ellipse cx="330" cy="278" rx="7" ry="4" fill="#3a2c22" opacity="0.7"/>
+  <circle cx="330" cy="269" r="4" fill="#3a2c22" opacity="0.7"/>
+  <ellipse cx="300" cy="290" rx="6" ry="3.5" fill="#3a2c22" opacity="0.6"/>
+  <circle cx="300" cy="282" r="3.5" fill="#3a2c22" opacity="0.6"/>
+
+  <!-- wet-sand tide line reflecting the torii's light -->
+  <path d="M180 236 Q245 244 310 236" stroke="#fdf6e0" stroke-width="2.5" fill="none" opacity="0.5"/>
+</svg>

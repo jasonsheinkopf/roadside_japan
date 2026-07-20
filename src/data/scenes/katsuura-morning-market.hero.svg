@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmmh" data-title="Katsuura Morning Market at dawn — stalls lining the old street">
+  <defs>
+    <linearGradient id="kmmh-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d4f68"/>
+      <stop offset="0.45" stop-color="#c98a5e"/>
+      <stop offset="1" stop-color="#ffdda0"/>
+    </linearGradient>
+    <radialGradient id="kmmh-sun" cx="0.5" cy="0.36" r="0.55">
+      <stop offset="0" stop-color="#fff3d2" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#ffb768" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffb768" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kmmh-street" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a7c68"/>
+      <stop offset="1" stop-color="#443c30"/>
+    </linearGradient>
+    <radialGradient id="kmmh-ground" cx="0.5" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#ffcf8c" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#ffcf8c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kmmh-roofL" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#372615"/>
+      <stop offset="1" stop-color="#20150c"/>
+    </linearGradient>
+    <linearGradient id="kmmh-roofR" x1="1" y1="0" x2="0" y2="0.3">
+      <stop offset="0" stop-color="#372615"/>
+      <stop offset="1" stop-color="#20150c"/>
+    </linearGradient>
+    <linearGradient id="kmmh-awnR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9503c"/>
+      <stop offset="1" stop-color="#8a2e22"/>
+    </linearGradient>
+    <linearGradient id="kmmh-awnB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3e7188"/>
+      <stop offset="1" stop-color="#1f4256"/>
+    </linearGradient>
+    <linearGradient id="kmmh-wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a1815a"/>
+      <stop offset="1" stop-color="#725636"/>
+    </linearGradient>
+    <linearGradient id="kmmh-fish" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#eef4f6"/>
+      <stop offset="1" stop-color="#8ea6b4"/>
+    </linearGradient>
+    <linearGradient id="kmmh-leaf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#94b25a"/>
+      <stop offset="1" stop-color="#5c7434"/>
+    </linearGradient>
+    <symbol id="kmmh-person" viewBox="0 0 20 50">
+      <ellipse cx="10" cy="9" rx="8" ry="3" fill="currentColor"/>
+      <path d="M10 5 Q17 5 16 12.5 Q15 17 10 17 Q5 17 4 12.5 Q3 5 10 5z" fill="currentColor"/>
+      <path d="M3 48 Q1 20 10 17.5 Q19 20 17 48Z" fill="currentColor"/>
+    </symbol>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" fill="url(#kmmh-sky)"/>
+  <ellipse cx="240" cy="105" rx="150" ry="90" fill="url(#kmmh-sun)"/>
+
+  <!-- far sliver of harbor glimpsed at the street's vanishing point: hills, masts, gulls -->
+  <path d="M205 100 Q240 88 275 100 L275 128 L205 128 Z" fill="#7c93a0" opacity="0.65"/>
+  <path d="M214 118 L214 100 M226 118 L226 96 M238 118 L238 102" stroke="#3a3228" stroke-width="1.5" opacity="0.6"/>
+  <path d="M198 76 q6 -5 11 0 M258 80 q6 -5 11 0" stroke="#2c2318" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- near building facades framing the street, old-town wood -->
+  <rect x="-10" y="26" width="96" height="274" fill="#2a1d12"/>
+  <polygon points="-14,26 88,26 74,4 0,4" fill="url(#kmmh-roofL)"/>
+  <rect x="6" y="150" width="22" height="30" fill="#4a3520" opacity="0.8"/>
+  <rect x="46" y="150" width="18" height="30" fill="#3a2818" opacity="0.7"/>
+
+  <rect x="394" y="26" width="96" height="274" fill="#2a1d12"/>
+  <polygon points="392,26 494,26 480,4 406,4" fill="url(#kmmh-roofR)"/>
+  <rect x="452" y="150" width="22" height="30" fill="#4a3520" opacity="0.8"/>
+  <rect x="416" y="150" width="18" height="30" fill="#3a2818" opacity="0.7"/>
+
+  <!-- street pavement, converging toward the market's far end -->
+  <polygon points="212,100 268,100 452,300 28,300" fill="url(#kmmh-street)"/>
+  <ellipse cx="240" cy="220" rx="150" ry="60" fill="url(#kmmh-ground)"/>
+
+  <!-- mid-distance stalls, small, receding toward the vanishing point -->
+  <path d="M222 108 h30 v10 q-4 4 -8 0 q-4 4 -8 0 q-4 4 -8 0 q-4 4 -6 0z" fill="#8a2e22" opacity="0.7"/>
+  <path d="M228 118 v14 M244 118 v14" stroke="#2c2015" stroke-width="1.5" opacity="0.6"/>
+  <path d="M226 108 h32 v10 q-4 4 -8 0 q-4 4 -8 0 q-4 4 -8 0 q-4 4 -8 0z" fill="#1f4256" opacity="0.65" transform="translate(0 -2)"/>
+  <use href="#kmmh-person" x="230" y="118" width="6" height="16" color="#1a130c" opacity="0.8"/>
+  <use href="#kmmh-person" x="248" y="120" width="6" height="15" color="#1a130c" opacity="0.75"/>
+
+  <!-- near-mid stalls, left: bigger awning over a table of crates -->
+  <path d="M78 96 L204 116 L204 150 q-10 6 -20 0 q-10 6 -20 0 q-10 6 -20 0 q-10 6 -20 0 q-10 6 -20 0 q-10 6 -20 0 z" fill="url(#kmmh-awnR)"/>
+  <path d="M78 96 L204 116" stroke="#4a1c14" stroke-width="2"/>
+  <path d="M90 100 L200 118" stroke="#e17a5c" stroke-width="1.2" opacity="0.55"/>
+  <rect x="84" y="150" width="112" height="10" fill="url(#kmmh-wood)"/>
+  <ellipse cx="112" cy="172" rx="22" ry="10" fill="url(#kmmh-fish)"/>
+  <path d="M132 172 l14 -7 l-2 14z" fill="#8ea6b4"/>
+  <circle cx="102" cy="168" r="1.8" fill="#26323a"/>
+  <ellipse cx="160" cy="180" rx="19" ry="9" fill="url(#kmmh-fish)" opacity="0.92"/>
+  <path d="M177 180 l13 -6 l-2 13z" fill="#8ea6b4"/>
+  <circle cx="151" cy="176" r="1.6" fill="#26323a"/>
+  <rect x="86" y="186" width="24" height="18" rx="3" fill="url(#kmmh-wood)" opacity="0.95"/>
+  <rect x="166" y="190" width="22" height="16" rx="3" fill="url(#kmmh-wood)" opacity="0.95"/>
+
+  <!-- near-mid stalls, right: blue tarp -->
+  <path d="M402 96 L276 116 L276 150 q10 6 20 0 q10 6 20 0 q10 6 20 0 q10 6 20 0 q10 6 20 0 q10 6 20 0 z" fill="url(#kmmh-awnB)"/>
+  <path d="M402 96 L276 116" stroke="#152c38" stroke-width="2"/>
+  <path d="M392 100 L282 118" stroke="#6fb0c4" stroke-width="1.2" opacity="0.5"/>
+  <rect x="284" y="150" width="112" height="10" fill="url(#kmmh-wood)"/>
+  <ellipse cx="322" cy="174" rx="20" ry="9" fill="url(#kmmh-leaf)"/>
+  <ellipse cx="322" cy="169" rx="14" ry="6" fill="#a7c46c"/>
+  <ellipse cx="368" cy="180" rx="18" ry="8" fill="#d9c15a" opacity="0.9"/>
+  <ellipse cx="368" cy="180" rx="18" ry="8" fill="none" stroke="#8a6a30" stroke-width="1.2" opacity="0.5"/>
+  <rect x="290" y="188" width="22" height="16" rx="3" fill="url(#kmmh-wood)" opacity="0.95"/>
+  <rect x="372" y="192" width="20" height="14" rx="3" fill="url(#kmmh-wood)" opacity="0.95"/>
+
+  <!-- strings of dried squid hung along the left awning's edge -->
+  <path d="M92 152 q4 14 -2 24 q6 -2 8 -14z" fill="#c9a876"/>
+  <path d="M112 152 q4 15 -3 26 q7 -2 8 -15z" fill="#b8956a"/>
+  <path d="M132 152 q4 13 -2 23 q6 -2 7 -13z" fill="#c9a876"/>
+  <path d="M152 152 q4 14 -3 25 q7 -2 8 -14z" fill="#b8956a"/>
+  <path d="M172 152 q3 12 -2 21 q6 -2 7 -12z" fill="#c9a876"/>
+
+  <!-- vendor and shopper silhouettes along the street -->
+  <use href="#kmmh-person" x="112" y="182" width="12" height="30" color="#1c1712" opacity="0.88"/>
+  <use href="#kmmh-person" x="330" y="184" width="12" height="30" color="#1c1712" opacity="0.85"/>
+  <use href="#kmmh-person" x="200" y="200" width="14" height="34" color="#241a12" opacity="0.9"/>
+  <use href="#kmmh-person" x="250" y="204" width="13" height="33" color="#241a12" opacity="0.88"/>
+  <use href="#kmmh-person" x="160" y="230" width="17" height="42" color="#171310"/>
+
+  <!-- foreground left: crate of fresh catch, closest to the viewer -->
+  <path d="M6 236 h150 l-10 60 h-132z" fill="url(#kmmh-wood)"/>
+  <path d="M6 236 h150 l6 12 h-162z" fill="#8a6a44"/>
+  <ellipse cx="52" cy="252" rx="26" ry="11" fill="url(#kmmh-fish)"/>
+  <path d="M78 252 l16 -8 l-2 16z" fill="#8ea6b4"/>
+  <path d="M60 244 q-2 8 0 16" stroke="#6f8896" stroke-width="1.2" opacity="0.6" fill="none"/>
+  <circle cx="42" cy="249" r="2" fill="#26323a"/>
+  <ellipse cx="94" cy="258" rx="24" ry="10" fill="url(#kmmh-fish)"/>
+  <path d="M118 258 l15 -7 l-2 15z" fill="#8ea6b4"/>
+  <path d="M100 251 q-2 7 0 14" stroke="#6f8896" stroke-width="1.2" opacity="0.6" fill="none"/>
+  <circle cx="85" cy="255" r="2" fill="#26323a"/>
+  <ellipse cx="60" cy="270" rx="22" ry="9" fill="url(#kmmh-fish)" opacity="0.9"/>
+  <circle cx="52" cy="267" r="1.8" fill="#26323a"/>
+
+  <!-- foreground right: baskets of vegetables and pickles -->
+  <path d="M330 240 h146 l-8 56 h-132z" fill="url(#kmmh-wood)"/>
+  <path d="M330 240 h146 l6 10 h-158z" fill="#8a6a44"/>
+  <path d="M352 244 q-4 -20 8 -22 q10 2 6 22z" fill="#f2ecdd"/>
+  <path d="M356 224 q6 -10 14 -2 q-6 4 -14 2z" fill="#7a9a48"/>
+  <path d="M378 246 q-3 -18 7 -20 q9 2 5 20z" fill="#f2ecdd"/>
+  <path d="M382 228 q5 -9 12 -2 q-5 4 -12 2z" fill="#7a9a48"/>
+  <ellipse cx="430" cy="252" rx="30" ry="14" fill="url(#kmmh-leaf)"/>
+  <ellipse cx="430" cy="248" rx="22" ry="9" fill="#a7c46c"/>
+  <ellipse cx="405" cy="270" rx="18" ry="9" fill="#d9c15a" opacity="0.9"/>
+  <ellipse cx="405" cy="270" rx="18" ry="9" fill="none" stroke="#8a6a30" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- low morning mist along the street floor -->
+  <path d="M40 290 q200 -18 400 0 v10 h-400z" fill="#fff2d8" opacity="0.18"/>
+  <path d="M80 278 q160 -12 320 0" stroke="#fff2d8" stroke-width="3" opacity="0.2" fill="none"/>
+
+  <!-- gulls in the pale morning sky -->
+  <path d="M330 46 q6 -6 12 0 q6 -6 12 0" stroke="#3a3228" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M360 34 q5 -5 10 0 q5 -5 10 0" stroke="#3a3228" stroke-width="1.5" fill="none" opacity="0.4"/>
+</svg>

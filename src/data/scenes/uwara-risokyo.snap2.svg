@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="urib" data-title="The loop trail from above, threading a rocky finger of the rias coast">
+  <defs>
+    <linearGradient id="urib-water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fd0d6"/>
+      <stop offset="0.5" stop-color="#3f93ab"/>
+      <stop offset="1" stop-color="#1c5a78"/>
+    </linearGradient>
+    <linearGradient id="urib-land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5c7c47"/>
+      <stop offset="0.6" stop-color="#3f5c37"/>
+      <stop offset="1" stop-color="#2a4030"/>
+    </linearGradient>
+    <linearGradient id="urib-tunnel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b0805"/>
+      <stop offset="1" stop-color="#22190f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- aerial sea -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#urib-water)"/>
+  <path d="M340 10 Q400 40 420 90" stroke="#eaf7f3" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M360 60 Q420 90 440 140" stroke="#eaf7f3" stroke-width="1.5" fill="none" opacity="0.28"/>
+  <path d="M300 120 Q380 150 460 170" stroke="#eaf7f3" stroke-width="1.4" fill="none" opacity="0.25"/>
+  <path d="M260 190 Q360 210 460 220" stroke="#eaf7f3" stroke-width="1.4" fill="none" opacity="0.25"/>
+  <path d="M240 250 Q340 265 460 270" stroke="#eaf7f3" stroke-width="1.3" fill="none" opacity="0.22"/>
+  <path d="M0 40 Q30 70 20 110" stroke="#eaf7f3" stroke-width="1.3" fill="none" opacity="0.25"/>
+  <path d="M10 150 Q40 175 30 210" stroke="#eaf7f3" stroke-width="1.3" fill="none" opacity="0.22"/>
+  <path d="M0 250 Q30 265 60 280" stroke="#eaf7f3" stroke-width="1.2" fill="none" opacity="0.2"/>
+
+  <!-- hazy distant coastline, upper corner -->
+  <path d="M300 0 Q360 4 400 0 L420 0 Q380 18 340 14 Z" fill="#bcdfe0" opacity="0.4"/>
+
+  <!-- the wooded headland, seen from above: a rocky finger of the rias coast -->
+  <path d="M0 300 L0 232 Q46 202 92 224 Q132 244 152 202 Q170 162 150 128 Q130 94 166 68 Q200 44 194 8 L300 0 Q266 42 232 78 Q198 112 214 152 Q230 190 194 226 Q160 262 172 300 Z" fill="url(#urib-land)"/>
+  <path d="M0 232 Q46 202 92 224 Q132 244 152 202 Q170 162 150 128 Q130 94 166 68 Q200 44 194 8" fill="none" stroke="#eaf7f3" stroke-width="2" opacity="0.35"/>
+
+  <!-- tree-canopy texture over the headland -->
+  <ellipse cx="24" cy="258" rx="13" ry="9" fill="#4a6b3a"/>
+  <ellipse cx="52" cy="240" rx="12" ry="8" fill="#587c42"/>
+  <ellipse cx="80" cy="252" rx="11" ry="8" fill="#3f5c34"/>
+  <ellipse cx="60" cy="216" rx="10" ry="7" fill="#4a6b3a"/>
+  <ellipse cx="110" cy="230" rx="12" ry="8" fill="#587c42"/>
+  <ellipse cx="140" cy="200" rx="11" ry="8" fill="#3f5c34"/>
+  <ellipse cx="126" cy="168" rx="10" ry="7" fill="#4a6b3a"/>
+  <ellipse cx="152" cy="110" rx="12" ry="8" fill="#587c42"/>
+  <ellipse cx="180" cy="82" rx="11" ry="7" fill="#3f5c34"/>
+  <ellipse cx="210" cy="52" rx="12" ry="8" fill="#4a6b3a"/>
+  <ellipse cx="238" cy="30" rx="10" ry="7" fill="#587c42"/>
+
+  <!-- the hand-carved tunnel, a dark slot cut through the narrowest point -->
+  <path d="M118 208 Q140 186 168 176 Q176 194 158 214 Q136 232 118 208 Z" fill="url(#urib-tunnel)" stroke="#100b07" stroke-width="2"/>
+
+  <!-- the sandy trail, winding from the beach entrance up through the tunnel to Taoyame-daira -->
+  <path d="M20 296 Q60 260 100 240 Q130 224 143 197 Q152 178 168 176 Q186 168 200 140 Q214 108 205 78 Q198 56 212 42" fill="none" stroke="#d9c79a" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <path d="M20 296 Q60 260 100 240 Q130 224 143 197 Q152 178 168 176 Q186 168 200 140 Q214 108 205 78 Q198 56 212 42" fill="none" stroke="#7a6440" stroke-width="1" opacity="0.5"/>
+
+  <!-- tiny bell-stand at Taoyame-daira clearing near the top of the loop -->
+  <line x1="208" y1="42" x2="208" y2="30" stroke="#1c140c" stroke-width="1.3"/>
+  <line x1="218" y1="42" x2="218" y2="30" stroke="#1c140c" stroke-width="1.3"/>
+  <line x1="206" y1="30" x2="220" y2="30" stroke="#1c140c" stroke-width="1.3"/>
+  <circle cx="213" cy="35" r="2.6" fill="#3a2c1a"/>
+
+  <!-- Cinnamon and Socks, small on the trail right at the tunnel mouth -->
+  <ellipse cx="112" cy="222" rx="9" ry="3.5" fill="#0c0906" opacity="0.35"/>
+  <ellipse cx="132" cy="230" rx="7" ry="3" fill="#0c0906" opacity="0.3"/>
+  <g transform="translate(96 196) scale(0.24)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <g transform="translate(120 210) scale(0.2)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+
+  <!-- a small fishing boat out on the bay for scale -->
+  <path d="M368 168 Q384 164 400 168 Q394 176 374 176 Z" fill="#2a231c"/>
+  <line x1="384" y1="168" x2="384" y2="150" stroke="#2a231c" stroke-width="1.4"/>
+  <path d="M384 152 Q392 158 384 164 Z" fill="#e9dcc0" opacity="0.8"/>
+</svg>

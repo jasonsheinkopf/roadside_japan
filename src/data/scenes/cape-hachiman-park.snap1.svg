@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="chpa" data-title="Nose to nose with bronze O-Man no Kata on the castle terrace">
+  <defs>
+    <linearGradient id="chpa-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe0e8"/>
+      <stop offset="0.55" stop-color="#7fbfc4"/>
+      <stop offset="1" stop-color="#4c8f8a"/>
+    </linearGradient>
+    <linearGradient id="chpa-bronze" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8c9a6e"/>
+      <stop offset="0.5" stop-color="#5f7350"/>
+      <stop offset="1" stop-color="#3c4c34"/>
+    </linearGradient>
+    <linearGradient id="chpa-pedestal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a99a83"/>
+      <stop offset="1" stop-color="#7a6c57"/>
+    </linearGradient>
+    <radialGradient id="chpa-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8e0" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff8e0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- soft, blurred bay behind the terrace: bay water, torii bokeh, headland -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#chpa-bg)"/>
+  <ellipse cx="400" cy="60" rx="90" ry="60" fill="#eaf7f2" opacity="0.35"/>
+  <ellipse cx="60" cy="230" rx="110" ry="80" fill="#2c584f" opacity="0.4"/>
+  <rect x="0" y="150" width="480" height="30" fill="#3f8a9a" opacity="0.35"/>
+  <path d="M210 96 L206 150 L216 150 L220 100 Z" fill="#a8483a" opacity="0.4"/>
+  <path d="M256 96 L260 150 L250 150 L246 100 Z" fill="#a8483a" opacity="0.4"/>
+  <path d="M204 96 Q233 86 262 96" stroke="#a8483a" stroke-width="5" fill="none" opacity="0.4"/>
+  <circle cx="392" cy="46" r="90" fill="url(#chpa-glow)"/>
+
+  <!-- the bronze statue of O-Man no Kata, close and looming, facing the sea -->
+  <ellipse cx="330" cy="252" rx="30" ry="8" fill="#1a1710" opacity="0.3"/>
+  <rect x="300" y="222" width="60" height="32" fill="url(#chpa-pedestal)" stroke="#5a4f3d" stroke-width="1.5"/>
+  <rect x="305" y="214" width="50" height="10" fill="url(#chpa-pedestal)" stroke="#5a4f3d" stroke-width="1.5"/>
+  <rect x="316" y="217" width="30" height="4" fill="#3a3222" opacity="0.5"/>
+
+  <!-- kimono-draped body, tapering from narrow shoulders to a flared hem -->
+  <path d="M316 222 Q306 172 313 120 Q320 94 338 90 Q356 94 363 120 Q370 172 360 222 Z" fill="url(#chpa-bronze)" stroke="#2c3826" stroke-width="2"/>
+  <path d="M300 114 Q289 156 296 206" stroke="#4a5c40" stroke-width="7" fill="none" opacity="0.5"/>
+  <path d="M317 120 Q338 110 359 120" stroke="#2c3826" stroke-width="1.6" fill="none" opacity="0.4"/>
+  <path d="M320 202 Q338 210 356 202" stroke="#2c3826" stroke-width="1.6" fill="none" opacity="0.5"/>
+
+  <!-- obi sash cinched at the waist -->
+  <path d="M312 158 Q338 168 364 158 L362 172 Q338 182 314 172 Z" fill="#4a5c40" stroke="#2c3826" stroke-width="1.5"/>
+  <circle cx="338" cy="165" r="4" fill="#2c3826" opacity="0.6"/>
+
+  <!-- hands clasped quietly at the waist -->
+  <ellipse cx="338" cy="140" rx="9" ry="6" fill="#54684a" stroke="#2c3826" stroke-width="1.2"/>
+
+  <!-- head, hair swept up into a formal knot, eyes downcast toward the water -->
+  <ellipse cx="338" cy="70" rx="18" ry="20" fill="url(#chpa-bronze)" stroke="#2c3826" stroke-width="2"/>
+  <path d="M322 58 Q338 40 354 58 Q357 49 350 43 Q338 35 326 43 Q319 49 322 58Z" fill="#4a5c40" stroke="#2c3826" stroke-width="1.4"/>
+  <ellipse cx="338" cy="36" rx="8" ry="6" fill="#4a5c40" stroke="#2c3826" stroke-width="1.2"/>
+  <path d="M338 56 L338 76" stroke="#2c3826" stroke-width="1" opacity="0.3"/>
+  <path d="M328 66 Q332 69 336 66" stroke="#2c3826" stroke-width="1.4" fill="none" opacity="0.6"/>
+  <path d="M340 66 Q344 69 348 66" stroke="#2c3826" stroke-width="1.4" fill="none" opacity="0.6"/>
+  <path d="M334 74 Q338 76 342 74" stroke="#2c3826" stroke-width="1.2" fill="none" opacity="0.45"/>
+
+  <!-- a weathered stone plaque set in the pedestal -->
+  <rect x="318" y="230" width="24" height="14" rx="1" fill="#2e2a20" opacity="0.55"/>
+
+  <!-- old castle-terrace stone blocks, right up against the lens -->
+  <rect x="-10" y="256" width="90" height="30" fill="#a9998a" stroke="#6b5e49" stroke-width="1.5"/>
+  <rect x="70" y="262" width="80" height="30" fill="#9c8c78" stroke="#6b5e49" stroke-width="1.5"/>
+  <rect x="-10" y="286" width="70" height="20" fill="#8a7a63" stroke="#6b5e49" stroke-width="1.5"/>
+  <path d="M20 260 q6 -8 4 -18" stroke="#5a4d3a" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M110 268 q6 -8 2 -20" stroke="#5a4d3a" stroke-width="1.2" fill="none" opacity="0.5"/>
+
+  <!-- Cinnamon, close in frame, looking up at the statue -->
+  <ellipse cx="140" cy="270" rx="42" ry="12" fill="#1a1710" opacity="0.28"/>
+  <g transform="translate(60 84) scale(0.86)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+</svg>

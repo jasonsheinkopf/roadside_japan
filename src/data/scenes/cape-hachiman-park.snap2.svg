@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="chpb" data-title="Monkey bars with a bay view, and Mon-chan short a few rungs">
+  <defs>
+    <linearGradient id="chpb-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6aa8d6"/>
+      <stop offset="1" stop-color="#cfe7e6"/>
+    </linearGradient>
+    <linearGradient id="chpb-sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f8fac"/>
+      <stop offset="1" stop-color="#78c2b8"/>
+    </linearGradient>
+    <linearGradient id="chpb-plaza" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdbf9e"/>
+      <stop offset="1" stop-color="#a99a78"/>
+    </linearGradient>
+    <linearGradient id="chpb-grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa858"/>
+      <stop offset="1" stop-color="#5f7c3c"/>
+    </linearGradient>
+    <linearGradient id="chpb-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2843a"/>
+      <stop offset="1" stop-color="#a8562a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- high, wide view: sky, bay, and the lighthouse point across the water -->
+  <rect x="0" y="0" width="480" height="70" fill="url(#chpb-sky)"/>
+  <rect x="0" y="60" width="480" height="46" fill="url(#chpb-sea)"/>
+  <path d="M360 62 Q400 52 440 62 L460 78 Q420 88 380 80 Q356 74 360 62Z" fill="#6f9186" opacity="0.6"/>
+  <rect x="404" y="46" width="7" height="18" rx="1.5" fill="#f4f2e6"/>
+  <rect x="402" y="43" width="11" height="5" fill="#c1362a"/>
+  <path d="M30 66 Q90 60 150 66 Q210 72 270 66" stroke="#eaf7f0" stroke-width="1.4" fill="none" opacity="0.4"/>
+  <path d="M310 82 Q360 76 400 82" stroke="#eaf7f0" stroke-width="1.4" fill="none" opacity="0.4"/>
+
+  <!-- the wooded rim of the cape, framing the plaza from above -->
+  <path d="M0 106 Q60 92 130 100 Q100 112 60 120 Q20 126 0 122 Z" fill="#3c5c34"/>
+  <path d="M480 106 Q420 90 360 100 Q400 112 440 120 Q470 126 480 122 Z" fill="#33512c"/>
+  <ellipse cx="40" cy="102" rx="16" ry="8" fill="#2e4d2c"/>
+  <ellipse cx="90" cy="98" rx="14" ry="7" fill="#3a6135"/>
+  <ellipse cx="430" cy="100" rx="16" ry="8" fill="#2e4d2c"/>
+  <ellipse cx="390" cy="98" rx="14" ry="7" fill="#3a6135"/>
+
+  <!-- the plaza, seen from a raised angle looking down over the play area -->
+  <rect x="0" y="106" width="480" height="194" fill="url(#chpb-plaza)"/>
+  <path d="M0 122 L40 106 L440 106 L480 122 L480 190 L0 190 Z" fill="#000000" opacity="0.06"/>
+  <path d="M120 300 Q130 200 170 130" stroke="#8a7a5e" stroke-width="1.4" fill="none" opacity="0.4"/>
+  <path d="M360 300 Q350 200 310 130" stroke="#8a7a5e" stroke-width="1.4" fill="none" opacity="0.4"/>
+  <path d="M0 260 Q240 240 480 260" stroke="#8a7a5e" stroke-width="1.4" fill="none" opacity="0.35"/>
+
+  <!-- a grass border around the play equipment -->
+  <path d="M150 150 Q240 138 330 150 Q340 210 330 260 Q240 276 150 260 Q140 210 150 150Z" fill="url(#chpb-grass)"/>
+
+  <!-- the monkey bars, seen at an angle from above -->
+  <path d="M172 168 L308 168" stroke="#8a562a" stroke-width="5"/>
+  <path d="M172 168 L160 210" stroke="#8a562a" stroke-width="5"/>
+  <path d="M308 168 L320 210" stroke="#8a562a" stroke-width="5"/>
+  <line x1="182" y1="168" x2="182" y2="184" stroke="url(#chpb-bar)" stroke-width="4"/>
+  <line x1="202" y1="168" x2="202" y2="184" stroke="url(#chpb-bar)" stroke-width="4"/>
+  <line x1="222" y1="168" x2="222" y2="184" stroke="url(#chpb-bar)" stroke-width="4"/>
+  <line x1="242" y1="168" x2="242" y2="184" stroke="url(#chpb-bar)" stroke-width="4"/>
+  <line x1="262" y1="168" x2="262" y2="184" stroke="url(#chpb-bar)" stroke-width="4"/>
+  <line x1="282" y1="168" x2="282" y2="184" stroke="url(#chpb-bar)" stroke-width="4"/>
+  <line x1="300" y1="168" x2="300" y2="184" stroke="url(#chpb-bar)" stroke-width="4"/>
+
+  <!-- the slide, tucked beside the monkey bars -->
+  <path d="M336 150 Q368 168 372 214" fill="none" stroke="#3f7fae" stroke-width="10" stroke-linecap="round"/>
+  <path d="M336 150 Q368 168 372 214" fill="none" stroke="#dfeef7" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <rect x="326" y="126" width="20" height="26" rx="3" fill="#e8973f" stroke="#a8562a" stroke-width="2"/>
+  <line x1="332" y1="126" x2="332" y2="112" stroke="#a8562a" stroke-width="3"/>
+  <line x1="340" y1="126" x2="340" y2="112" stroke="#a8562a" stroke-width="3"/>
+
+  <!-- Cinnamon crossing the monkey bars, Mon-chan below her, short a few rungs -->
+  <ellipse cx="230" cy="196" rx="20" ry="6" fill="#1a1710" opacity="0.28"/>
+  <g transform="translate(198 148) scale(0.36)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="184" cy="220" rx="18" ry="6" fill="#1a1710" opacity="0.28"/>
+  <g transform="translate(156 178) scale(0.32)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+
+  <!-- a scatter of dropped acorns and a small ball on the plaza -->
+  <circle cx="120" cy="240" r="5" fill="#c9432e"/>
+  <circle cx="98" cy="230" r="3" fill="#7a5a36"/>
+  <circle cx="106" cy="225" r="3" fill="#7a5a36"/>
+</svg>

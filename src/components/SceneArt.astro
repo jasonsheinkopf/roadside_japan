@@ -1,0 +1,64 @@
+---
+/**
+ * SceneArt — renders one bespoke, hand-composed place illustration (docs/SCENE_ART.md).
+ *
+ * Two modes:
+ *  - variant="hero": cover-fills its container (the hero frame). The authored 8:5 SVG is
+ *    sliced (preserveAspectRatio xMidYMid slice) so it behaves like object-fit:cover.
+ *  - variant="card" (default): a captioned 8:5 card for the camera roll; the caption is the
+ *    SVG's data-title.
+ *
+ * The SVG may reference the shared cast symbols via <use>, so any page rendering SceneArt must
+ * include <AdventureCastDefs/> once (DetailLayout already does).
+ */
+interface Props {
+  /** Raw authored SVG source (import ?raw). */
+  raw: string;
+  /** Accessible label / caption for the illustration. */
+  title: string;
+  variant?: "hero" | "card";
+}
+const { raw, title, variant = "card" } = Astro.props;
+
+// For the hero we need cover behavior: force a slice preserveAspectRatio + full size onto the
+// authored root <svg>. (Snapshots keep their natural 8:5 meet scaling.)
+const svg =
+  variant === "hero"
+    ? raw.replace(
+        /<svg\b([^>]*)>/,
+        (_m, attrs) =>
+          `<svg${attrs.replace(/\s+preserveAspectRatio="[^"]*"/, "")} preserveAspectRatio="xMidYMid slice">`,
+      )
+    : raw;
+---
+
+{
+  variant === "hero" ? (
+    <div class="scene-hero h-full w-full" role="img" aria-label={title} set:html={svg} />
+  ) : (
+    <figure class="overflow-hidden rounded-xl border border-line bg-surface">
+      <div class="scene-card w-full" role="img" aria-label={title} set:html={svg} />
+      <figcaption class="px-2.5 py-1.5 text-xs text-ink-soft">
+        <span class="block leading-snug">{title}</span>
+      </figcaption>
+    </figure>
+  )
+}
+
+<style>
+  /* Hero: the sliced SVG fills the fixed-height hero frame like object-fit:cover. */
+  .scene-hero {
+    display: block;
+  }
+  .scene-hero :global(> svg) {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  /* Card: the authored 8:5 viewBox drives the height responsively. */
+  .scene-card :global(> svg) {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+</style>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmma" data-title="A dried-squid sample, handed over 'for the road'">
+  <defs>
+    <linearGradient id="kmma-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#caa06a"/>
+      <stop offset="1" stop-color="#8a6a44"/>
+    </linearGradient>
+    <radialGradient id="kmma-glow" cx="0.3" cy="0.25" r="0.7">
+      <stop offset="0" stop-color="#fff3d2" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#fff3d2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kmma-awn" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#c9503c"/>
+      <stop offset="1" stop-color="#7a2a1e"/>
+    </linearGradient>
+    <linearGradient id="kmma-crate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a1815a"/>
+      <stop offset="1" stop-color="#6b5136"/>
+    </linearGradient>
+    <linearGradient id="kmma-squid" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0" stop-color="#e8c79a"/>
+      <stop offset="1" stop-color="#c9986a"/>
+    </linearGradient>
+    <linearGradient id="kmma-skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0cba0"/>
+      <stop offset="1" stop-color="#d9a877"/>
+    </linearGradient>
+    <linearGradient id="kmma-fish" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#e4ecf0"/>
+      <stop offset="1" stop-color="#8ea6b4"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" fill="url(#kmma-bg)"/>
+  <circle cx="120" cy="70" r="90" fill="url(#kmma-glow)"/>
+
+  <!-- soft out-of-focus awning behind, blurred sense of the busy stall -->
+  <path d="M-20 20 L200 44 L200 82 q-14 8 -28 0 q-14 8 -28 0 q-14 8 -28 0 q-14 8 -28 0 q-14 8 -28 0 v-90z" fill="url(#kmma-awn)" opacity="0.85"/>
+  <path d="M-20 40 L200 62" stroke="#4a1c14" stroke-width="2" opacity="0.6"/>
+  <circle cx="380" cy="50" r="34" fill="#fff3d2" opacity="0.35"/>
+  <circle cx="420" cy="90" r="20" fill="#fff3d2" opacity="0.3"/>
+
+  <!-- blurred crate stack in the deep background, upper right -->
+  <rect x="330" y="10" width="130" height="70" rx="4" fill="#6b5136" opacity="0.55"/>
+  <rect x="330" y="10" width="130" height="14" fill="#8a6a44" opacity="0.5"/>
+
+  <!-- the crate of the day's catch, front and center, close and in focus -->
+  <path d="M40 178 h300 l-16 92 h-268z" fill="url(#kmma-crate)"/>
+  <path d="M40 178 h300 l10 18 h-320z" fill="#8a6a44"/>
+  <path d="M60 178 v90 M120 178 v92 M300 178 v92" stroke="#4a3520" stroke-width="2" opacity="0.4"/>
+
+  <ellipse cx="90" cy="212" rx="34" ry="14" fill="url(#kmma-fish)"/>
+  <path d="M124 212 l20 -10 l-3 20z" fill="#8ea6b4"/>
+  <circle cx="76" cy="207" r="2.4" fill="#26221a"/>
+  <ellipse cx="170" cy="222" rx="30" ry="12" fill="url(#kmma-fish)" opacity="0.95"/>
+  <path d="M200 222 l18 -9 l-3 18z" fill="#8ea6b4"/>
+  <circle cx="158" cy="217" r="2.2" fill="#26221a"/>
+  <ellipse cx="250" cy="230" rx="28" ry="11" fill="url(#kmma-fish)" opacity="0.9"/>
+  <circle cx="238" cy="225" r="2" fill="#26221a"/>
+
+  <!-- the vendor's hand, offering the sliver of dried squid right at the lens -->
+  <path d="M198 150 q-18 4 -22 18 q-2 10 6 14 q26 6 46 -2 q6 -14 -4 -24 q-12 -8 -26 -6z" fill="url(#kmma-skin)"/>
+  <path d="M182 168 q-4 8 2 14 M198 172 q-3 9 2 15 M214 170 q-2 9 3 14" stroke="#b8875a" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M228 160 q14 -6 20 4 q4 8 -4 12 q-12 4 -22 -4z" fill="url(#kmma-squid)" stroke="#a97a4c" stroke-width="1.5"/>
+  <path d="M232 164 q8 -2 12 4" stroke="#a97a4c" stroke-width="1" opacity="0.7" fill="none"/>
+
+  <!-- Cinnamon, leaning in close for the sample, filling the near-frame -->
+  <g transform="translate(232 30) scale(1.02)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="352" cy="256" rx="70" ry="14" fill="#000" opacity="0.22"/>
+
+  <!-- steam / grill warmth drifting off the squid -->
+  <path d="M244 148 q4 -12 -2 -20" stroke="#fff3d2" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M256 146 q4 -10 -1 -18" stroke="#fff3d2" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- scattered coins / small change on the crate edge, market-day detail -->
+  <circle cx="46" cy="200" r="4" fill="#d8c27a" stroke="#a5883f" stroke-width="1"/>
+  <circle cx="56" cy="204" r="4" fill="#d8c27a" stroke="#a5883f" stroke-width="1"/>
+</svg>
