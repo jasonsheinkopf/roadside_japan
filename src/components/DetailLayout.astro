@@ -30,7 +30,7 @@ import AdventureFilm from "./AdventureFilm.astro";
 import AdventureCastDefs from "./AdventureCastDefs.astro";
 import SceneArt from "./SceneArt.astro";
 import { adventuresFor, MODEL_LABEL } from "../lib/adventures";
-import { scenesFor } from "../lib/scenes";
+import { heroScene, snapScenes } from "../lib/scenes";
 
 interface Props {
   record: IndexRecord;
@@ -83,11 +83,14 @@ const sceneQuote = data.cinnamon?.quote ?? FALLBACK_QUOTES[data.category] ?? "I 
 // Adventures in Cinnamon Land films (docs/ADVENTURES.md) — currently an A/B experiment,
 // so each variant is labeled with its authoring model and shown in both formats.
 const adventures = adventuresFor(record.id);
-// Bespoke Scene Art (docs/SCENE_ART.md) — hand-composed place illustrations, authored per
-// model as an A/B upgrade over the parametric CinnamonScene template.
-const scenes = scenesFor(record.id);
-// Cast <symbol> defs are shared; include them once if anything on the page uses <use>.
-const needsCast = adventures.length > 0 || scenes.length > 0;
+// Bespoke Scene Art (docs/SCENE_ART.md) — hand-composed, Sonnet-drawn illustrations that
+// replace the emoji templates: `hero` (place only) stands in for a missing photo, and
+// `snap1`/`snap2` replace the emoji camera-roll snapshots.
+const drawnHero = heroScene(record.id);
+const drawnSnaps = snapScenes(record.id);
+// Cast <symbol> defs are shared; include them once if anything on the page uses <use>
+// (adventures and drawn snapshots do; the drawn hero never references the cast).
+const needsCast = adventures.length > 0 || drawnSnaps.length > 0;
 const sceneEmoji = data.cinnamon?.emoji ?? cat.emoji;
 // Field report: his first-person story for this place (docs/CINNAMON.md), split into paragraphs.
 const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).map((p: string) => p.trim()).filter(Boolean) : [];
@@ -111,6 +114,8 @@ const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).
         {
           record.hero ? (
             <img src={record.hero} alt={data.title} onerror={IMG_ONERROR} class="h-full w-full object-cover" />
+          ) : drawnHero ? (
+            <SceneArt raw={drawnHero.raw} title={drawnHero.title} variant="hero" />
           ) : (
             <PlaceScene title={data.title} emoji={sceneEmoji} seed={record.id} />
           )
@@ -194,47 +199,45 @@ const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).
         }
 
         {
-          (data.cinnamon?.snapshots?.length || data.photos.length > 0) && (
+          (drawnSnaps.length || data.cinnamon?.snapshots?.length || data.photos.length > 0) && (
             <section class="mt-8">
               <h2 class="font-display text-xl font-bold">📸 Cinnamon's camera roll</h2>
               <p class="mt-1 text-sm text-ink-soft">Snapshots from our very good boy on the road.</p>
-              <div class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
-                {data.cinnamon?.snapshots?.map((snap, i) => (
-                  <CinnamonSnapshot cast={snap.cast} prop={snap.prop} caption={snap.caption} seed={`${record.id}-snap-${i}`} />
-                ))}
-                {data.photos.map((p) => (
-                  <figure class="overflow-hidden rounded-xl border border-line bg-surface">
-                    <img src={withBase(p.src)} alt={p.alt} loading="lazy" onerror={IMG_ONERROR} class="aspect-square w-full object-cover" />
-                    {(p.caption || p.credit) && (
-                      <figcaption class="px-2.5 py-1.5 text-xs text-ink-soft">
-                        {p.caption && <span class="block leading-snug">{p.caption}</span>}
-                        {p.credit && (
-                          <span class="mt-0.5 block text-[11px] opacity-70">
-                            {p.creditUrl ? <a href={p.creditUrl} class="link-underline">{p.credit}</a> : p.credit}
-                          </span>
-                        )}
-                      </figcaption>
-                    )}
-                  </figure>
-                ))}
-              </div>
-            </section>
-          )
-        }
-
-        {
-          scenes.length > 0 && (
-            <section class="mt-8">
-              <h2 class="font-display text-xl font-bold">🎨 Cinnamon's sketchbook</h2>
-              <p class="mt-1 text-sm text-ink-soft">
-                Hand-composed art of the place — an upgrade over the emoji placeholder, shown
-                as authored by each model so you can compare (docs/SCENE_ART.md).
-              </p>
-              <div class="mt-3 grid gap-5 sm:grid-cols-2">
-                {scenes.map((v) => (
-                  <SceneArt raw={v.raw} title={v.title} model={v.model} />
-                ))}
-              </div>
+              {/* Drawn scenes (Sonnet) replace the emoji snapshots when present. */}
+              {drawnSnaps.length > 0 ? (
+                <div class="mt-3 grid gap-3 sm:grid-cols-2">
+                  {drawnSnaps.map((s) => (
+                    <SceneArt raw={s.raw} title={s.title} variant="card" />
+                  ))}
+                </div>
+              ) : (
+                data.cinnamon?.snapshots?.length && (
+                  <div class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
+                    {data.cinnamon.snapshots.map((snap, i) => (
+                      <CinnamonSnapshot cast={snap.cast} prop={snap.prop} caption={snap.caption} seed={`${record.id}-snap-${i}`} />
+                    ))}
+                  </div>
+                )
+              )}
+              {data.photos.length > 0 && (
+                <div class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
+                  {data.photos.map((p) => (
+                    <figure class="overflow-hidden rounded-xl border border-line bg-surface">
+                      <img src={withBase(p.src)} alt={p.alt} loading="lazy" onerror={IMG_ONERROR} class="aspect-square w-full object-cover" />
+                      {(p.caption || p.credit) && (
+                        <figcaption class="px-2.5 py-1.5 text-xs text-ink-soft">
+                          {p.caption && <span class="block leading-snug">{p.caption}</span>}
+                          {p.credit && (
+                            <span class="mt-0.5 block text-[11px] opacity-70">
+                              {p.creditUrl ? <a href={p.creditUrl} class="link-underline">{p.credit}</a> : p.credit}
+                            </span>
+                          )}
+                        </figcaption>
+                      )}
+                    </figure>
+                  ))}
+                </div>
+              )}
             </section>
           )
         }

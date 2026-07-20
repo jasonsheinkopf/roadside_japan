@@ -2,48 +2,61 @@
 /**
  * SceneArt — renders one bespoke, hand-composed place illustration (docs/SCENE_ART.md).
  *
- * Takes the raw authored SVG (viewBox 0 0 480 300) and drops it into a framed figure that
- * scales to its container. The SVG references the shared cast symbols via <use>, so any page
- * that renders SceneArt must include <AdventureCastDefs/> once (DetailLayout already does).
+ * Two modes:
+ *  - variant="hero": cover-fills its container (the hero frame). The authored 8:5 SVG is
+ *    sliced (preserveAspectRatio xMidYMid slice) so it behaves like object-fit:cover.
+ *  - variant="card" (default): a captioned 8:5 card for the camera roll; the caption is the
+ *    SVG's data-title.
  *
- * Used both for the A/B comparison block and — once a winning model is chosen — as the real
- * hero/postcard art in place of the parametric CinnamonScene template.
+ * The SVG may reference the shared cast symbols via <use>, so any page rendering SceneArt must
+ * include <AdventureCastDefs/> once (DetailLayout already does).
  */
-import { SCENE_MODEL_LABEL, type SceneModel } from "../lib/scenes";
-
 interface Props {
   /** Raw authored SVG source (import ?raw). */
   raw: string;
-  /** Accessible label for the illustration. */
+  /** Accessible label / caption for the illustration. */
   title: string;
-  /** When set, shows a model chip (Sonnet / Opus) for the A/B comparison. */
-  model?: SceneModel;
+  variant?: "hero" | "card";
 }
-const { raw, title, model } = Astro.props;
+const { raw, title, variant = "card" } = Astro.props;
+
+// For the hero we need cover behavior: force a slice preserveAspectRatio + full size onto the
+// authored root <svg>. (Snapshots keep their natural 8:5 meet scaling.)
+const svg =
+  variant === "hero"
+    ? raw.replace(
+        /<svg\b([^>]*)>/,
+        (_m, attrs) =>
+          `<svg${attrs.replace(/\s+preserveAspectRatio="[^"]*"/, "")} preserveAspectRatio="xMidYMid slice">`,
+      )
+    : raw;
 ---
 
-<figure class="overflow-hidden rounded-2xl border border-line bg-surface">
-  <div
-    class="scene-art relative w-full"
-    role="img"
-    aria-label={title}
-    set:html={raw}
-  />
-  {
-    model && (
-      <figcaption class="flex items-center gap-2 border-t border-line px-3 py-2 text-xs">
-        <span class="chip border-transparent bg-sun/15 font-semibold text-sun">
-          {SCENE_MODEL_LABEL[model]}
-        </span>
-        <span class="text-ink-soft">{title}</span>
+{
+  variant === "hero" ? (
+    <div class="scene-hero h-full w-full" role="img" aria-label={title} set:html={svg} />
+  ) : (
+    <figure class="overflow-hidden rounded-xl border border-line bg-surface">
+      <div class="scene-card w-full" role="img" aria-label={title} set:html={svg} />
+      <figcaption class="px-2.5 py-1.5 text-xs text-ink-soft">
+        <span class="block leading-snug">{title}</span>
       </figcaption>
-    )
-  }
-</figure>
+    </figure>
+  )
+}
 
 <style>
-  /* The authored SVG carries its own 8:5 viewBox; make it fill the frame responsively. */
-  .scene-art :global(> svg) {
+  /* Hero: the sliced SVG fills the fixed-height hero frame like object-fit:cover. */
+  .scene-hero {
+    display: block;
+  }
+  .scene-hero :global(> svg) {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  /* Card: the authored 8:5 viewBox drives the height responsively. */
+  .scene-card :global(> svg) {
     display: block;
     width: 100%;
     height: auto;

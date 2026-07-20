@@ -1,27 +1,22 @@
 /**
  * scenes.ts — discovery for bespoke Scene Art (docs/SCENE_ART.md).
  *
- * Scenes are authored as src/data/scenes/<slug>.<model>.svg and auto-discovered at build
- * time. This module is Vite-glob based (build-time only) and imports nothing from
- * astro:content/Node, so it stays isomorphic-safe like src/lib/adventures.ts.
+ * Scenes are authored (by Sonnet) as src/data/scenes/<slug>.<role>.svg and auto-discovered
+ * at build time. role ∈ { hero, snap1, snap2 }: `hero` replaces the PlaceScene hero fallback
+ * (place only, no cast); `snap1`/`snap2` replace the emoji camera-roll snapshots. Vite-glob
+ * based (build-time only), imports nothing from astro:content/Node — stays isomorphic-safe.
  */
 
-export type SceneModel = "sonnet" | "opus";
+export type SceneRole = "hero" | "snap1" | "snap2";
 
 export interface SceneVariant {
   slug: string;
-  model: SceneModel;
+  role: SceneRole;
   /** Raw authored SVG source. */
   raw: string;
-  /** data-title from the SVG root, for accessible labeling. */
+  /** data-title — accessible label, and the caption for snapshots. */
   title: string;
 }
-
-/** Display labels for the A/B comparison chips. */
-export const SCENE_MODEL_LABEL: Record<SceneModel, string> = {
-  sonnet: "Sonnet",
-  opus: "Opus",
-};
 
 const scenes = import.meta.glob<string>("../data/scenes/*.svg", {
   query: "?raw",
@@ -29,24 +24,28 @@ const scenes = import.meta.glob<string>("../data/scenes/*.svg", {
   eager: true,
 });
 
-const MODEL_ORDER: SceneModel[] = ["sonnet", "opus"];
+const SNAP_ORDER: SceneRole[] = ["snap1", "snap2"];
 
-export const SCENES: SceneVariant[] = Object.entries(scenes)
+const ALL: SceneVariant[] = Object.entries(scenes)
   .map(([path, raw]): SceneVariant | null => {
-    const m = path.match(/\/([^/]+)\.(sonnet|opus)\.svg$/);
+    const m = path.match(/\/([^/]+)\.(hero|snap[12])\.svg$/);
     if (!m) return null;
-    const [, slug, model] = m;
+    const [, slug, role] = m;
     return {
       slug,
-      model: model as SceneModel,
+      role: role as SceneRole,
       raw,
       title: raw.match(/data-title="([^"]*)"/)?.[1] ?? "",
     };
   })
-  .filter((v): v is SceneVariant => v !== null)
-  .sort(
-    (a, b) =>
-      a.slug.localeCompare(b.slug) || MODEL_ORDER.indexOf(a.model) - MODEL_ORDER.indexOf(b.model),
-  );
+  .filter((v): v is SceneVariant => v !== null);
 
-export const scenesFor = (slug: string): SceneVariant[] => SCENES.filter((v) => v.slug === slug);
+/** The drawn hero scene for an entry, if one exists (place only, no cast). */
+export const heroScene = (slug: string): SceneVariant | undefined =>
+  ALL.find((v) => v.slug === slug && v.role === "hero");
+
+/** The drawn camera-roll snapshots for an entry, ordered snap1, snap2. */
+export const snapScenes = (slug: string): SceneVariant[] =>
+  ALL.filter((v) => v.slug === slug && v.role !== "hero").sort(
+    (a, b) => SNAP_ORDER.indexOf(a.role) - SNAP_ORDER.indexOf(b.role),
+  );

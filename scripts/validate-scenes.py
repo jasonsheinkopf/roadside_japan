@@ -27,9 +27,10 @@ def check_file(path, prefixes):
     errs = []
     name = os.path.basename(path)
 
-    m = re.match(r"^([a-z0-9-]+)\.(sonnet|opus)\.svg$", name)
+    m = re.match(r"^([a-z0-9-]+)\.(hero|snap[12])\.svg$", name)
     if not m:
-        return [f"{name}: filename must be <slug>.<sonnet|opus>.svg"]
+        return [f"{name}: filename must be <slug>.<hero|snap1|snap2>.svg"]
+    role = m.group(2)
 
     raw = open(path, encoding="utf-8").read()
     if len(raw.encode("utf-8")) > MAX_BYTES:
@@ -46,8 +47,8 @@ def check_file(path, prefixes):
         errs.append(f'{name}: root viewBox must be exactly "0 0 480 300"')
 
     title = root.get("data-title") or ""
-    if not (2 <= len(title) <= 60):
-        errs.append(f"{name}: data-title required on root, 2-60 chars (got {title!r})")
+    if not (2 <= len(title) <= 70):
+        errs.append(f"{name}: data-title required on root, 2-70 chars (got {title!r})")
 
     prefix = root.get("data-prefix") or ""
     if not re.match(r"^[a-z][a-z0-9]{2,11}$", prefix):
@@ -70,6 +71,8 @@ def check_file(path, prefixes):
                 frag = href[1:]
                 if not (frag in CAST_IDS or (prefix and frag.startswith(f"{prefix}-"))):
                     errs.append(f"{name}: <use> target {href!r} is neither a cast symbol nor {prefix}-prefixed")
+                if role == "hero" and frag in CAST_IDS:
+                    errs.append(f"{name}: hero scene must not use the cast ({href!r}) — draw the place only")
 
     if re.search(r"<animate|<animateTransform|<animateMotion|<set\b", raw):
         errs.append(f"{name}: SMIL animation elements forbidden — static art (optional CSS only)")
