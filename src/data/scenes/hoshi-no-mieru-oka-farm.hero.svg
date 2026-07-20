@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="hshf" data-title="Grape rows climb the star-viewing hill at dusk near Nasu">
+  <defs>
+    <linearGradient id="hshf-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#11173a"/>
+      <stop offset="0.36" stop-color="#3a4570"/>
+      <stop offset="0.56" stop-color="#dd875c"/>
+      <stop offset="0.78" stop-color="#f6c78a"/>
+      <stop offset="1" stop-color="#ffe3b8"/>
+    </linearGradient>
+    <linearGradient id="hshf-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9c47c"/>
+      <stop offset="0.45" stop-color="#a7ae57"/>
+      <stop offset="1" stop-color="#4c6a33"/>
+    </linearGradient>
+    <radialGradient id="hshf-leaf" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#aed17e"/>
+      <stop offset="1" stop-color="#4d7a39"/>
+    </radialGradient>
+    <radialGradient id="hshf-leaf2" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#cfe69c"/>
+      <stop offset="1" stop-color="#6f9a4d"/>
+    </radialGradient>
+    <radialGradient id="hshf-grapeP" cx="0.38" cy="0.32" r="0.75">
+      <stop offset="0" stop-color="#9d6ec4"/>
+      <stop offset="1" stop-color="#3b1f50"/>
+    </radialGradient>
+    <radialGradient id="hshf-grapeG" cx="0.38" cy="0.32" r="0.75">
+      <stop offset="0" stop-color="#ecf28e"/>
+      <stop offset="1" stop-color="#8bab3d"/>
+    </radialGradient>
+    <linearGradient id="hshf-basket" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8ad6e"/>
+      <stop offset="1" stop-color="#93693c"/>
+    </linearGradient>
+    <filter id="hshf-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <symbol id="hshf-post" viewBox="0 0 6 22">
+      <line x1="3" y1="0" x2="3" y2="22" stroke="#5c4630" stroke-width="3" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="hshf-cluster" viewBox="0 0 140 40">
+      <ellipse cx="68" cy="12" rx="68" ry="13" fill="url(#hshf-leaf)"/>
+      <ellipse cx="98" cy="7" rx="28" ry="8" fill="url(#hshf-leaf2)" opacity="0.85"/>
+      <line x1="32" y1="19" x2="32" y2="28" stroke="#3d5c2e" stroke-width="1.4"/>
+      <line x1="100" y1="16" x2="100" y2="26" stroke="#3d5c2e" stroke-width="1.4"/>
+      <ellipse cx="32" cy="28" rx="7.5" ry="10.5" fill="url(#hshf-grapeP)"/>
+      <ellipse cx="100" cy="26" rx="7.5" ry="10.5" fill="url(#hshf-grapeG)"/>
+      <circle cx="29" cy="24" r="1.4" fill="#ffffff" opacity="0.55"/>
+      <circle cx="97" cy="22" r="1.4" fill="#ffffff" opacity="0.55"/>
+    </symbol>
+    <symbol id="hshf-bird" viewBox="0 0 24 12">
+      <path d="M0 8 Q6 2 12 8 Q18 2 24 8" stroke="#232a4a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <style>
+      .hshf-tw{animation:hshf-twinkle 4.5s ease-in-out infinite;}
+      @keyframes hshf-twinkle{0%,100%{opacity:0.35;}50%{opacity:1;}}
+    </style>
+  </defs>
+
+  <!-- dusk sky: the "star-viewing hill" bridging day's grape-picking and night's stargazing -->
+  <rect x="0" y="0" width="480" height="210" fill="url(#hshf-sky)"/>
+
+  <!-- stars, gently twinkling -->
+  <circle class="hshf-tw" cx="55" cy="38" r="1.3" fill="#fdf6e3" style="animation-delay:0s"/>
+  <circle class="hshf-tw" cx="135" cy="22" r="1.1" fill="#fdf6e3" style="animation-delay:0.6s"/>
+  <circle class="hshf-tw" cx="215" cy="52" r="1.4" fill="#fdf6e3" style="animation-delay:1.2s"/>
+  <circle class="hshf-tw" cx="300" cy="30" r="1.0" fill="#fdf6e3" style="animation-delay:1.8s"/>
+  <circle class="hshf-tw" cx="250" cy="68" r="1.2" fill="#fdf6e3" style="animation-delay:2.4s"/>
+
+  <!-- a rising crescent moon, high over the vineyard -->
+  <circle cx="400" cy="42" r="20" fill="#f5ecc9" opacity="0.3" filter="url(#hshf-glow)"/>
+  <path d="M400 28 A14 14 0 1 0 400 56 A10 10 0 1 1 400 28 Z" fill="#f5ecc9"/>
+
+  <!-- two distant birds -->
+  <use href="#hshf-bird" x="150" y="55" width="20" height="10"/>
+  <use href="#hshf-bird" x="190" y="44" width="16" height="8"/>
+
+  <!-- far and mid hills of the Nasu highlands, hazy with distance -->
+  <path d="M0 168 C90 142 170 152 250 136 C330 122 410 142 480 132 L480 190 L0 190 Z" fill="#6b6f9e" opacity="0.8"/>
+  <path d="M0 182 C110 158 200 168 290 152 C370 140 430 156 480 150 L480 205 L0 205 Z" fill="#4f7a5b" opacity="0.88"/>
+
+  <!-- the hillside field the farm sits on -->
+  <path d="M0 175 L480 155 L480 300 L0 300 Z" fill="url(#hshf-ground)"/>
+
+  <!-- a dirt track winding up between the rows -->
+  <path d="M245 300 Q225 255 255 220 Q285 190 270 170" stroke="#d0b585" stroke-width="9" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- a small farm shed at the crest of the hill -->
+  <polygon points="395,148 435,148 415,131" fill="#7a3b2e"/>
+  <rect x="398" y="148" width="34" height="20" fill="#a9865f" stroke="#6b4a33" stroke-width="0.8"/>
+  <rect x="410" y="158" width="8" height="10" fill="#4a3524"/>
+
+  <!-- Row A: farthest trellis, hazy with distance -->
+  <line x1="20" y1="206.5" x2="460" y2="188.5" stroke="#8a7256" stroke-width="0.85"/>
+  <use href="#hshf-post" x="58.05" y="199.13" width="3.9" height="14.3"/>
+  <use href="#hshf-post" x="238.05" y="191.68" width="3.9" height="14.3"/>
+  <use href="#hshf-post" x="418.05" y="184.23" width="3.9" height="14.3"/>
+  <use href="#hshf-cluster" x="67.75" y="195.55" width="84.5" height="24.1" opacity="0.68"/>
+  <use href="#hshf-cluster" x="197.75" y="190.17" width="84.5" height="24.1" opacity="0.68"/>
+  <use href="#hshf-cluster" x="307.75" y="185.62" width="84.5" height="24.1" opacity="0.68"/>
+
+  <!-- Row B -->
+  <line x1="20" y1="232.5" x2="460" y2="214.5" stroke="#8a7256" stroke-width="1.0"/>
+  <use href="#hshf-post" x="57.69" y="224.07" width="4.62" height="16.94"/>
+  <use href="#hshf-post" x="237.69" y="216.62" width="4.62" height="16.94"/>
+  <use href="#hshf-post" x="417.69" y="209.17" width="4.62" height="16.94"/>
+  <use href="#hshf-cluster" x="59.95" y="220.20" width="100.1" height="28.6" opacity="0.82"/>
+  <use href="#hshf-cluster" x="189.95" y="214.82" width="100.1" height="28.6" opacity="0.82"/>
+  <use href="#hshf-cluster" x="299.95" y="210.27" width="100.1" height="28.6" opacity="0.82"/>
+
+  <!-- Row C -->
+  <line x1="20" y1="258.5" x2="460" y2="240.5" stroke="#8a7256" stroke-width="1.16"/>
+  <use href="#hshf-post" x="57.33" y="249.02" width="5.34" height="19.58"/>
+  <use href="#hshf-post" x="237.33" y="241.57" width="5.34" height="19.58"/>
+  <use href="#hshf-post" x="417.33" y="234.12" width="5.34" height="19.58"/>
+  <use href="#hshf-cluster" x="52.15" y="244.86" width="115.7" height="33.05" opacity="0.94"/>
+  <use href="#hshf-cluster" x="182.15" y="239.48" width="115.7" height="33.05" opacity="0.94"/>
+  <use href="#hshf-cluster" x="292.15" y="234.93" width="115.7" height="33.05" opacity="0.94"/>
+
+  <!-- Row D: nearest trellis, richest color, closest to the camera -->
+  <line x1="20" y1="284.5" x2="460" y2="266.5" stroke="#8a7256" stroke-width="1.31"/>
+  <use href="#hshf-post" x="236.97" y="266.51" width="6.06" height="22.22"/>
+  <use href="#hshf-post" x="416.97" y="259.06" width="6.06" height="22.22"/>
+  <use href="#hshf-cluster" x="174.35" y="264.15" width="131.3" height="37.5"/>
+  <use href="#hshf-cluster" x="284.35" y="259.60" width="131.3" height="37.5"/>
+
+  <!-- a wicker basket of the day's pick, left in the grass -->
+  <path d="M20 258 Q18 290 30 298 L95 298 Q107 290 105 258 Q63 268 20 258 Z" fill="url(#hshf-basket)" stroke="#7a5a34" stroke-width="1.2"/>
+  <ellipse cx="62" cy="258" rx="44" ry="9" fill="#c79a5e" stroke="#7a5a34" stroke-width="1.2"/>
+  <ellipse cx="45" cy="250" rx="14" ry="11" fill="url(#hshf-grapeP)"/>
+  <ellipse cx="76" cy="248" rx="13" ry="10" fill="url(#hshf-grapeG)"/>
+  <circle cx="40" cy="245" r="2.2" fill="#ffffff" opacity="0.5"/>
+  <circle cx="71" cy="243" r="2.2" fill="#ffffff" opacity="0.5"/>
+
+  <!-- a few grass tufts close to the camera -->
+  <path d="M150 300 q2 -10 5 0" stroke="#5a7838" stroke-width="1.6" fill="none"/>
+  <path d="M180 300 q2 -12 5 0" stroke="#5a7838" stroke-width="1.6" fill="none"/>
+  <path d="M405 300 q2 -10 5 0" stroke="#5a7838" stroke-width="1.6" fill="none"/>
+</svg>
