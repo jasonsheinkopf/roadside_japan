@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="koen" data-title="Koenji Awa Odori — a lantern-lit night street dance">
+  <defs>
+    <linearGradient id="koen-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141031"/>
+      <stop offset="0.55" stop-color="#372554"/>
+      <stop offset="1" stop-color="#7a4653"/>
+    </linearGradient>
+    <linearGradient id="koen-streetg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c2140"/>
+      <stop offset="1" stop-color="#181227"/>
+    </linearGradient>
+    <radialGradient id="koen-glow" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#ffcf85" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffcf85" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="koen-lanterng" cx="0.5" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#ffe4a0"/>
+      <stop offset="0.5" stop-color="#ff8a3c"/>
+      <stop offset="1" stop-color="#d63a2a"/>
+    </radialGradient>
+    <radialGradient id="koen-lanternglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb85a" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffb85a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="koen-drumg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a4a2a"/>
+      <stop offset="1" stop-color="#5a2e18"/>
+    </linearGradient>
+
+    <!-- one paper chōchin lantern, reused along the wire -->
+    <g id="koen-lantern">
+      <circle r="19" fill="url(#koen-lanternglow)"/>
+      <path d="M-9 -12 q9 -5 18 0 q4 12 0 24 q-9 5 -18 0 q-4 -12 0 -24z" fill="url(#koen-lanterng)" stroke="#7a1f1f" stroke-width="1"/>
+      <rect x="-6.5" y="-15" width="13" height="4" rx="1" fill="#33240f"/>
+      <rect x="-6.5" y="11" width="13" height="4" rx="1" fill="#33240f"/>
+      <path d="M-9 -3 h18 M-9 4 h18" stroke="#8a2020" stroke-width="0.8" opacity="0.55"/>
+      <path d="M0 15 l0 5" stroke="#33240f" stroke-width="1"/>
+    </g>
+
+    <!-- Awa Odori woman dancer: tiptoe, arms high, amigasa straw hat -->
+    <g id="koen-odoriko">
+      <path d="M-13 0 q-3 -42 13 -60 q16 18 13 60 z" fill="#33407e"/>
+      <path d="M0 -60 q13 18 13 60 l-8 0 q1 -38 -5 -58z" fill="#28325f"/>
+      <path d="M-12 -30 q12 6 24 0 l-2 9 q-10 5 -20 0z" fill="#cf3b3b"/>
+      <path d="M-4 -58 l4 10 l4 -10z" fill="#e7dccb"/>
+      <path d="M-6 -54 q-16 -8 -20 -26" fill="none" stroke="#33407e" stroke-width="5" stroke-linecap="round"/>
+      <path d="M6 -54 q16 -8 20 -26" fill="none" stroke="#33407e" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="-26" cy="-80" r="3" fill="#ecc9a2"/>
+      <circle cx="26" cy="-80" r="3" fill="#ecc9a2"/>
+      <ellipse cx="0" cy="-59" rx="6" ry="6.5" fill="#ecc9a2"/>
+      <path d="M-17 -66 q17 -13 34 0 q-8 7 -17 7 q-9 0 -17 -7z" fill="#dcb567" stroke="#a9822f" stroke-width="1.5"/>
+      <path d="M-14 -65 q14 -8 28 0" fill="none" stroke="#b8934a" stroke-width="1"/>
+      <path d="M-5 0 l3 6 M5 0 l-3 6" stroke="#1c1730" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Awa Odori man dancer: low wide lunge, happi coat, headband -->
+    <g id="koen-otoko">
+      <path d="M3 0 q10 -10 15 -26" fill="none" stroke="#28325f" stroke-width="8" stroke-linecap="round"/>
+      <path d="M-3 0 q-14 -6 -14 -22 q0 -6 5 -11" fill="none" stroke="#28325f" stroke-width="8" stroke-linecap="round"/>
+      <path d="M-14 -30 q14 -12 28 -2 l-4 20 q-10 6 -20 0z" fill="#2b3566"/>
+      <path d="M-12 -30 q5 8 5 19 M12 -32 q-3 8 -2 17" stroke="#e7dccb" stroke-width="2.5" fill="none"/>
+      <path d="M-12 -30 q-16 4 -24 -4" fill="none" stroke="#2b3566" stroke-width="5" stroke-linecap="round"/>
+      <path d="M14 -30 q16 6 24 -2" fill="none" stroke="#2b3566" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="-36" cy="-34" r="3" fill="#ecc9a2"/>
+      <circle cx="38" cy="-32" r="3" fill="#ecc9a2"/>
+      <circle cx="2" cy="-40" r="7" fill="#ecc9a2"/>
+      <path d="M-5 -43 q7 -4 14 0 l-1 3 q-6 -3 -12 0z" fill="#cf3b3b"/>
+      <path d="M9 -42 q6 2 8 8" stroke="#cf3b3b" stroke-width="2" fill="none"/>
+    </g>
+  </defs>
+
+  <!-- sky + moon -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#koen-sky)"/>
+  <circle cx="410" cy="52" r="34" fill="#ffdf9c" opacity="0.18"/>
+  <circle cx="410" cy="52" r="22" fill="#f4e7c2" opacity="0.92"/>
+
+  <!-- Koenji storefront skyline -->
+  <g fill="#201a3c">
+    <rect x="0" y="182" width="98" height="30"/>
+    <rect x="96" y="168" width="66" height="44"/>
+    <rect x="160" y="192" width="74" height="20"/>
+    <rect x="232" y="198" width="70" height="14"/>
+    <rect x="300" y="176" width="72" height="36"/>
+    <rect x="370" y="186" width="110" height="26"/>
+  </g>
+  <g fill="#ffd07a" opacity="0.8">
+    <rect x="14" y="190" width="10" height="9"/><rect x="34" y="190" width="10" height="9"/><rect x="60" y="190" width="10" height="9"/>
+    <rect x="108" y="178" width="11" height="10"/><rect x="128" y="178" width="11" height="10"/><rect x="118" y="196" width="11" height="9"/>
+    <rect x="316" y="186" width="11" height="10"/><rect x="340" y="186" width="11" height="10"/>
+    <rect x="388" y="194" width="10" height="9"/><rect x="410" y="194" width="10" height="9"/><rect x="432" y="194" width="10" height="9"/>
+  </g>
+
+  <!-- street + warm lantern glow -->
+  <rect x="0" y="210" width="480" height="90" fill="url(#koen-streetg)"/>
+  <rect x="0" y="150" width="480" height="150" fill="url(#koen-glow)"/>
+  <path d="M120 300 l40 -74 M240 300 l0 -74 M360 300 l-40 -74" stroke="#ffcf85" stroke-width="1" opacity="0.12"/>
+
+  <!-- strung chōchin lanterns across the top -->
+  <path d="M4 44 q118 34 236 30 q118 -4 236 -30" fill="none" stroke="#2a2440" stroke-width="2"/>
+  <path d="M4 44 q118 34 236 30 q118 -4 236 -30" fill="none" stroke="#4a3a2a" stroke-width="0.8" opacity="0.5"/>
+  <g transform="translate(44 62)"><use href="#koen-lantern"/></g>
+  <g transform="translate(112 72)"><use href="#koen-lantern"/></g>
+  <g transform="translate(180 76)"><use href="#koen-lantern"/></g>
+  <g transform="translate(248 74)"><use href="#koen-lantern"/></g>
+  <g transform="translate(316 66)"><use href="#koen-lantern"/></g>
+  <g transform="translate(400 50)"><use href="#koen-lantern"/></g>
+
+  <!-- shop awning with Cinnamon dancing on its ridge, above the drums -->
+  <g transform="translate(24 150)">
+    <path d="M0 0 h104 v13 l-104 11 z" fill="#b23b46"/>
+    <path d="M0 0 h104" stroke="#7a2530" stroke-width="2.5"/>
+    <path d="M18 1 l-1 21 M38 1 l-1 22 M58 1 l0 23 M78 1 l1 23 M96 1 l1 22" stroke="#f0e3d0" stroke-width="7" opacity="0.85"/>
+    <path d="M0 24 q9 8 17 0 q9 8 17 0 q9 8 17 0 q9 8 17 0 q9 8 17 0 q9 8 19 0" fill="none" stroke="#8a2f3a" stroke-width="3"/>
+  </g>
+  <g transform="translate(70 62) rotate(-7) scale(0.4)"><use href="#advc-cinnamon" width="240" height="240"/></g>
+
+  <!-- taiko drum, bachi mid-strike -->
+  <g transform="translate(74 240)">
+    <path d="M-16 40 l7 -34 M16 40 l-7 -34" stroke="#3a2012" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="0" cy="0" rx="27" ry="22" fill="url(#koen-drumg)" stroke="#3a2012" stroke-width="2"/>
+    <ellipse cx="0" cy="-2" rx="18" ry="15" fill="#e8d6b0" stroke="#c9a86e" stroke-width="2"/>
+    <circle cx="-14" cy="-2" r="1.5" fill="#c9a86e"/><circle cx="14" cy="-2" r="1.5" fill="#c9a86e"/>
+    <circle cx="0" cy="-15" r="1.5" fill="#c9a86e"/><circle cx="0" cy="11" r="1.5" fill="#c9a86e"/>
+    <path d="M-34 -32 l42 22 M32 -34 l-40 24" stroke="#f0e6d2" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- the dancing line -->
+  <g transform="translate(168 256)"><use href="#koen-otoko"/></g>
+  <g transform="translate(224 254)"><use href="#koen-odoriko"/></g>
+  <g transform="translate(292 250) scale(-1,1)"><use href="#koen-odoriko"/></g>
+  <!-- Mon-chan leading a troupe that had not agreed to be led -->
+  <g transform="translate(345 208) scale(0.34)"><use href="#advc-mon" width="200" height="200"/></g>
+
+  <!-- foreground crowd silhouettes -->
+  <path d="M-12 300 q30 -40 60 -6 q30 -34 62 -2 q30 -42 62 -6 q30 -32 60 -2 q30 -42 62 -6 q30 -32 62 -2 q28 -40 60 -6 l26 30 l-528 0 z" fill="#120d24"/>
+</svg>

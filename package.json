@@ -20,6 +20,7 @@
     "assets": "node --experimental-strip-types tools/build/gen-assets.ts",
     "data:validate": "astro sync",
     "adventures:validate": "python3 scripts/validate-adventures.py",
+    "scenes:validate": "python3 scripts/validate-scenes.py",
     "adventures:capture": "node scripts/capture-adventures.mjs",
     "adventures:gif": "python3 scripts/validate-adventures.py && SITE_BASE=/ astro build && node scripts/capture-adventures.mjs && python3 scripts/assemble-gifs.py"
   },

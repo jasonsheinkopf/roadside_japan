@@ -28,7 +28,9 @@ import PlaceScene from "./PlaceScene.astro";
 import CinnamonSnapshot from "./CinnamonSnapshot.astro";
 import AdventureFilm from "./AdventureFilm.astro";
 import AdventureCastDefs from "./AdventureCastDefs.astro";
+import SceneArt from "./SceneArt.astro";
 import { adventuresFor, MODEL_LABEL } from "../lib/adventures";
+import { scenesFor } from "../lib/scenes";
 
 interface Props {
   record: IndexRecord;
@@ -81,12 +83,18 @@ const sceneQuote = data.cinnamon?.quote ?? FALLBACK_QUOTES[data.category] ?? "I 
 // Adventures in Cinnamon Land films (docs/ADVENTURES.md) — currently an A/B experiment,
 // so each variant is labeled with its authoring model and shown in both formats.
 const adventures = adventuresFor(record.id);
+// Bespoke Scene Art (docs/SCENE_ART.md) — hand-composed place illustrations, authored per
+// model as an A/B upgrade over the parametric CinnamonScene template.
+const scenes = scenesFor(record.id);
+// Cast <symbol> defs are shared; include them once if anything on the page uses <use>.
+const needsCast = adventures.length > 0 || scenes.length > 0;
 const sceneEmoji = data.cinnamon?.emoji ?? cat.emoji;
 // Field report: his first-person story for this place (docs/CINNAMON.md), split into paragraphs.
 const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).map((p: string) => p.trim()).filter(Boolean) : [];
 ---
 
 <BaseLayout title={data.title} description={data.summary} image={record.hero} jsonLd={jsonLd}>
+  {needsCast && <AdventureCastDefs />}
   <article class="py-6">
     <!-- Breadcrumb -->
     <nav class="mb-4 text-sm text-ink-soft" aria-label="Breadcrumb">
@@ -215,13 +223,29 @@ const reportParas = data.cinnamon?.report ? data.cinnamon.report.split(/\n\n+/).
         }
 
         {
+          scenes.length > 0 && (
+            <section class="mt-8">
+              <h2 class="font-display text-xl font-bold">🎨 Cinnamon's sketchbook</h2>
+              <p class="mt-1 text-sm text-ink-soft">
+                Hand-composed art of the place — an upgrade over the emoji placeholder, shown
+                as authored by each model so you can compare (docs/SCENE_ART.md).
+              </p>
+              <div class="mt-3 grid gap-5 sm:grid-cols-2">
+                {scenes.map((v) => (
+                  <SceneArt raw={v.raw} title={v.title} model={v.model} />
+                ))}
+              </div>
+            </section>
+          )
+        }
+
+        {
           adventures.length > 0 && (
             <section class="mt-8">
               <h2 class="font-display text-xl font-bold">🎬 Adventures in Cinnamon Land</h2>
               <p class="mt-1 text-sm text-ink-soft">
                 Animated shorts from the trip — each shown as authored (model label) in both live-SVG and recorded-GIF form.
               </p>
-              <AdventureCastDefs />
               <div class="mt-3 grid gap-5 xl:grid-cols-2">
                 {adventures.map((v) => (
                   <>
