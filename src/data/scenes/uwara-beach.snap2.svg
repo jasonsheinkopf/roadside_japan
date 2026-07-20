@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="ubeb" data-title="Wading the calm, roped-off 120-meter swim zone">
+  <defs>
+    <linearGradient id="ubeb-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f6f8f"/>
+      <stop offset="0.35" stop-color="#57a3ae"/>
+      <stop offset="0.7" stop-color="#8fd2c4"/>
+      <stop offset="1" stop-color="#cdeed9"/>
+    </linearGradient>
+    <linearGradient id="ubeb-sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9d59d"/>
+      <stop offset="1" stop-color="#cdae74"/>
+    </linearGradient>
+    <radialGradient id="ubeb-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7d8" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fff7d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- looking down over the cove from the headland trail -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#ubeb-water)"/>
+  <ellipse cx="380" cy="40" rx="120" ry="46" fill="url(#ubeb-glow)"/>
+
+  <!-- sand crescent wrapping the top of the frame (the far shore, seen from above) -->
+  <path d="M0 0 L480 0 L480 30 Q300 54 160 34 Q70 22 0 40 Z" fill="url(#ubeb-sand)"/>
+  <path d="M0 34 Q70 18 160 30 Q300 48 480 26" stroke="#b9975f" stroke-width="1.6" fill="none" opacity="0.6"/>
+
+  <!-- the white torii, small and distant at the edge of the swim zone -->
+  <g transform="translate(388 56) scale(0.42)">
+    <path d="M0 0 L-4 78 L10 78 L14 6 Z" fill="#f2f0e6" stroke="#9b988c" stroke-width="3"/>
+    <path d="M60 0 L64 78 L50 78 L46 6 Z" fill="#f2f0e6" stroke="#9b988c" stroke-width="3"/>
+    <path d="M-14 0 Q30 -14 74 0 L70 12 Q30 0 -10 12 Z" fill="#f2f0e6" stroke="#9b988c" stroke-width="3"/>
+    <rect x="-2" y="16" width="64" height="8" fill="#f2f0e6" stroke="#9b988c" stroke-width="2"/>
+  </g>
+  <ellipse cx="405" cy="94" rx="20" ry="5" fill="#173a3a" opacity="0.25"/>
+
+  <!-- swim-zone rope curving across the bay, buoys alternating color -->
+  <path d="M60 100 Q200 88 340 96 Q380 98 410 92" stroke="#c94f3f" stroke-width="2" fill="none" opacity="0.8"/>
+  <circle cx="60" cy="100" r="5" fill="#e7e4d6"/>
+  <circle cx="130" cy="94" r="5" fill="#d64a3a"/>
+  <circle cx="200" cy="90" r="5" fill="#e7e4d6"/>
+  <circle cx="270" cy="92" r="5" fill="#d64a3a"/>
+  <circle cx="340" cy="96" r="5" fill="#e7e4d6"/>
+  <circle cx="405" cy="93" r="5" fill="#d64a3a"/>
+
+  <!-- gentle ripple bands reading the water's calm shallow-to-deep gradient -->
+  <path d="M0 130 Q120 122 240 130 Q360 138 480 128" stroke="#eaf7ef" stroke-width="1.6" fill="none" opacity="0.45"/>
+  <path d="M0 168 Q120 160 240 168 Q360 176 480 166" stroke="#eaf7ef" stroke-width="1.6" fill="none" opacity="0.4"/>
+  <path d="M0 210 Q120 202 240 210 Q360 218 480 208" stroke="#eaf7ef" stroke-width="1.8" fill="none" opacity="0.4"/>
+  <path d="M0 250 Q120 242 240 250 Q360 258 480 248" stroke="#f2fbf4" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- scattered swimmers, small and distant, dotted through the roped zone -->
+  <circle cx="150" cy="140" r="4" fill="#2e2822" opacity="0.6"/>
+  <circle cx="230" cy="160" r="4" fill="#2e2822" opacity="0.55"/>
+  <circle cx="300" cy="150" r="3.5" fill="#2e2822" opacity="0.55"/>
+  <circle cx="90" cy="180" r="4" fill="#2e2822" opacity="0.5"/>
+  <circle cx="350" cy="176" r="3.5" fill="#2e2822" opacity="0.5"/>
+
+  <!-- beach umbrellas dotting the crescent shore above -->
+  <path d="M55 14 Q70 2 85 14 Q70 8 55 14Z" fill="#d6584a"/>
+  <path d="M70 14 L70 26" stroke="#7a5a3a" stroke-width="1.6"/>
+  <path d="M230 8 Q245 -2 260 8 Q245 2 230 8Z" fill="#3e7fae"/>
+  <path d="M245 8 L245 20" stroke="#7a5a3a" stroke-width="1.6"/>
+
+  <!-- Cinnamon and Mon-chan wading close to shore, footprints trailing behind -->
+  <circle cx="128" cy="188" r="2.5" fill="#274a3f" opacity="0.35"/>
+  <circle cx="142" cy="196" r="2.5" fill="#274a3f" opacity="0.3"/>
+  <circle cx="156" cy="204" r="2.5" fill="#274a3f" opacity="0.25"/>
+  <ellipse cx="230" cy="288" rx="36" ry="7" fill="#173a3a" opacity="0.2"/>
+  <ellipse cx="322" cy="278" rx="30" ry="6" fill="#173a3a" opacity="0.18"/>
+  <g transform="translate(178 158) scale(0.56)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <g transform="translate(292 175) scale(0.44)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+  <path d="M170 220 Q220 234 270 224" stroke="#eef8f0" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
