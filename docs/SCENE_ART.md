@@ -113,8 +113,13 @@ the files in and they appear.
 
 ## 6. Roster & tracking
 
-| slug | hero | snap1 | snap2 |
-| --- | --- | --- | --- |
-| koenji-awa-odori | ✅ | ✅ | ✅ |
+| slug | hero | snap1 | snap2 | notes |
+| --- | --- | --- | --- | --- |
+| koenji-awa-odori | ✅ | ✅ | ✅ | hero is a fallback (entry has a real photo); camera roll uses the drawn snaps |
+| tachikawa-yokai-bon-odori | ✅ | ✅ | ✅ | |
+| uwara-risokyo | ✅ | ✅ | ✅ | |
+| uwara-beach | ✅ | ✅ | ✅ | |
+| katsuura-morning-market | ✅ | ✅ | ✅ | |
+| cape-hachiman-park | ✅ | ✅ | ✅ | |
 
 Entries not listed still use the parametric template (`PlaceScene` / `CinnamonSnapshot`).
