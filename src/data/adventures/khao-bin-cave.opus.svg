@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270"
+     data-episode="The Earth Thinking Slowly" data-prefix="khaoo">
+  <style>
+    .khaoo-walk1 { animation: khaoo-walkin 1.6s cubic-bezier(.32,.9,.4,1) both; animation-delay: calc(var(--t1) + .15s); }
+    .khaoo-bobA { animation: khaoo-bob 2.6s ease-in-out infinite; }
+    .khaoo-bobB { animation: khaoo-bob 3.1s ease-in-out infinite; }
+    .khaoo-flit { animation: khaoo-flit 3.4s ease-in-out infinite; transform-origin: 50% 50%; }
+    .khaoo-circle { animation: khaoo-circle 4.2s ease-in-out infinite; }
+    .khaoo-cam2 { transform-box: fill-box; transform-origin: 55% 62%; animation: khaoo-push 3.6s ease-out both; animation-delay: var(--t2); }
+    .khaoo-batx { animation: khaoo-batx 4.6s linear infinite; }
+    .khaoo-flick { animation: khaoo-flick 2.4s ease-in-out infinite; }
+    .khaoo-drip { animation: khaoo-drip 2.3s ease-in infinite; }
+    .khaoo-glow { animation: khaoo-glow 3s ease-in-out infinite; }
+    .khaoo-lookbob { animation: khaoo-lookbob 3.4s ease-in-out infinite; transform-origin: 50% 90%; }
+    .khaoo-cam4 { transform-box: fill-box; transform-origin: 50% 55%; animation: khaoo-drift 4s ease-out both; animation-delay: var(--t4); }
+    .khaoo-mote { animation: khaoo-rise 5s linear infinite; }
+    .khaoo-mote2 { animation: khaoo-rise 6.2s linear infinite; animation-delay: -2s; }
+    .khaoo-ray { animation: khaoo-ray 3.4s ease-in-out infinite; }
+    .khaoo-step5 { animation: khaoo-step5 1.7s cubic-bezier(.3,.85,.4,1) both; animation-delay: calc(var(--t5) + .2s); }
+    @keyframes khaoo-walkin { from { transform: translateX(-96px); } to { transform: translateX(0); } }
+    @keyframes khaoo-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
+    @keyframes khaoo-flit { 0%,100% { transform: translate(0,0) rotate(-6deg); } 50% { transform: translate(14px,-10px) rotate(8deg); } }
+    @keyframes khaoo-circle { 0%,100% { transform: translate(0,0); } 25% { transform: translate(9px,-7px); } 50% { transform: translate(2px,-12px); } 75% { transform: translate(-9px,-6px); } }
+    @keyframes khaoo-push { from { transform: scale(1); } to { transform: scale(1.08); } }
+    @keyframes khaoo-batx { 0% { transform: translate(60px,0); } 100% { transform: translate(-300px,34px); } }
+    @keyframes khaoo-flick { 0%,100% { opacity: .85; } 45% { opacity: .5; } 70% { opacity: .95; } }
+    @keyframes khaoo-drip { 0% { transform: translateY(-46px); opacity: 0; } 18% { opacity: 1; } 88% { transform: translateY(70px); opacity: 1; } 100% { transform: translateY(70px); opacity: 0; } }
+    @keyframes khaoo-glow { 0%,100% { opacity: .25; } 50% { opacity: .7; } }
+    @keyframes khaoo-lookbob { 0%,100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-3px) rotate(1deg); } }
+    @keyframes khaoo-drift { from { transform: scale(1.06) translateY(6px); } to { transform: scale(1) translateY(0); } }
+    @keyframes khaoo-rise { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: .55; } 100% { transform: translateY(-46px); opacity: 0; } }
+    @keyframes khaoo-ray { 0%,100% { opacity: .18; } 50% { opacity: .42; } }
+    @keyframes khaoo-step5 { from { transform: translateX(70px) scale(1.05); } to { transform: translateX(0) scale(1); } }
+  </style>
+  <defs>
+    <linearGradient id="khaoo-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfeee0"/><stop offset=".55" stop-color="#eae3c9"/><stop offset="1" stop-color="#e7cfa0"/>
+    </linearGradient>
+    <linearGradient id="khaoo-fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9c7c55"/><stop offset="1" stop-color="#7d6242"/>
+    </linearGradient>
+    <radialGradient id="khaoo-deep" cx="52%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#1c4147"/><stop offset=".55" stop-color="#123035"/><stop offset="1" stop-color="#08181b"/>
+    </radialGradient>
+    <radialGradient id="khaoo-glowr" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f4c977" stop-opacity=".9"/><stop offset="1" stop-color="#f4c977" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ============ SCENE 1 — WIDE ESTABLISHING: the cave mouth ============ -->
+  <g class="scene" data-dur="3.2" data-caption="CINNAMON: “Thirty baht to walk inside a mountain. Cheapest cathedral on the continent.”">
+    <rect width="480" height="270" fill="url(#khaoo-sky)"/>
+    <circle cx="86" cy="52" r="46" fill="#fdf3d6" opacity=".7"/>
+    <!-- far limestone karst peaks -->
+    <path d="M0 150 L46 78 L92 128 L150 62 L214 132 L214 175 L0 175 Z" fill="#b9c6ac" opacity=".55"/>
+    <path d="M300 150 L360 84 L410 130 L462 96 L480 128 L480 175 L300 175 Z" fill="#b9c6ac" opacity=".55"/>
+    <!-- jungle hill band -->
+    <path d="M0 158 Q120 138 240 156 T480 150 L480 200 L0 200 Z" fill="#7fa15c"/>
+    <path d="M0 172 Q140 156 280 172 T480 168 L480 210 L0 210 Z" fill="#688a48"/>
+    <!-- the mountain mass holding the cave -->
+    <path d="M150 210 Q160 70 300 52 Q446 66 470 210 Z" fill="#4f6f3d"/>
+    <path d="M182 210 Q220 96 300 84 Q392 96 430 210 Z" fill="#5c7d47"/>
+    <!-- cave mouth (dark arch) -->
+    <path d="M266 232 Q262 150 306 148 Q352 150 350 232 Z" fill="#0f2226"/>
+    <path d="M278 232 Q276 164 306 162 Q338 164 338 232 Z" fill="#08181b"/>
+    <!-- hanging vines over the mouth -->
+    <path d="M282 150 q-3 22 4 40 M298 148 q2 30 -3 52 M320 149 q5 26 -2 44 M334 152 q-2 20 3 34" stroke="#3c5a2f" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".85"/>
+    <!-- ticket hut -->
+    <rect x="196" y="188" width="46" height="34" rx="2" fill="#c98f4f"/>
+    <path d="M190 188 L219 172 L248 188 Z" fill="#8a5a2c"/>
+    <rect x="204" y="200" width="16" height="22" fill="#6b4526"/>
+    <rect x="226" y="198" width="12" height="12" fill="#f3e2bd"/>
+    <rect x="198" y="226" width="52" height="12" rx="2" fill="#efe3c2" stroke="#8a5a2c" stroke-width="1.5"/>
+    <text x="224" y="235" font-family="Verdana, sans-serif" font-size="7" font-weight="700" text-anchor="middle" fill="#6b4526">THAM KHAO BIN · 30฿</text>
+    <!-- ground / path -->
+    <rect x="0" y="228" width="480" height="42" fill="#c9a86e"/>
+    <path d="M0 268 Q120 236 250 234 L330 232 L330 270 L0 270 Z" fill="#b6935a"/>
+    <path d="M60 262 Q160 244 262 240" stroke="#a9854e" stroke-width="3" fill="none" opacity=".6"/>
+    <!-- grass tufts + foreground plants -->
+    <path d="M40 250 l4 -12 l4 12 M50 252 l3 -10 l4 10" stroke="#5c7d47" stroke-width="2.4" fill="none"/>
+    <path d="M360 246 l5 -14 l5 14 M372 248 l4 -12 l5 12" stroke="#4f6f3d" stroke-width="2.4" fill="none"/>
+    <path d="M-6 270 q40 -60 30 -96 q26 40 16 96 Z" fill="#3c5a2f"/>
+    <path d="M486 270 q-46 -50 -30 -92 q-30 46 -14 92 Z" fill="#3c5a2f"/>
+    <!-- bats near the mouth -->
+    <g class="khaoo-circle">
+      <path d="M300 128 q4 -5 8 0 q4 -5 8 0 q-4 6 -8 3 q-4 3 -8 -3z" fill="#20160f"/>
+      <path d="M322 138 q3 -4 6 0 q3 -4 6 0 q-3 4 -6 2 q-3 2 -6 -2z" fill="#2a1d13"/>
+    </g>
+    <!-- butterfly -->
+    <g class="khaoo-flit" transform="translate(140,150)">
+      <path d="M0 0 q-9 -8 -12 0 q3 8 12 3z" fill="#e88c3a"/>
+      <path d="M0 0 q9 -8 12 0 q-3 8 -12 3z" fill="#e88c3a"/>
+      <line x1="0" y1="-3" x2="0" y2="5" stroke="#3a2c24" stroke-width="1.4"/>
+    </g>
+    <!-- cast approaching up the path -->
+    <g class="khaoo-walk1">
+      <g class="khaoo-bobB"><use href="#advc-socks" x="88" y="196" width="38" height="38"/></g>
+      <g class="khaoo-bobA"><use href="#advc-cinnamon" x="120" y="188" width="48" height="48"/></g>
+    </g>
+  </g>
+
+  <!-- ============ SCENE 2 — MEDIUM: the lit chamber path, going in ============ -->
+  <g class="scene" data-dur="3.4" data-caption="SOCKS: “A whole kilometre of dripping dark. One paw stays on the handrail. For science.”">
+    <rect width="480" height="270" fill="url(#khaoo-deep)"/>
+    <g class="khaoo-cam2">
+      <!-- ceiling stalactites -->
+      <path d="M40 0 l14 66 l10 -62z" fill="#2b4a4e"/>
+      <path d="M96 0 l10 88 l12 -84z" fill="#244247"/>
+      <path d="M150 0 l16 52 l8 -50z" fill="#2b4a4e"/>
+      <path d="M330 0 l12 74 l14 -70z" fill="#244247"/>
+      <path d="M392 0 l18 60 l8 -58z" fill="#2b4a4e"/>
+      <path d="M440 0 l10 96 l14 -92z" fill="#1e3a3e"/>
+      <!-- flowstone drapes on the side walls -->
+      <path d="M0 40 q52 6 56 66 q6 66 -14 132 q-20 32 -42 32 L0 270 Z" fill="#1c4a4e"/>
+      <path d="M0 70 q34 6 38 58 q4 52 -10 104 L0 270 Z" fill="#123c40"/>
+      <path d="M480 46 q-48 6 -52 64 q-6 60 12 122 q18 32 40 32 L480 270 Z" fill="#1c4a4e"/>
+      <path d="M480 76 q-30 6 -34 56 q-4 50 10 100 L480 270 Z" fill="#123c40"/>
+      <!-- receding passage behind, getting darker into the deep -->
+      <path d="M188 270 Q186 150 248 116 Q310 150 308 270 Z" fill="#0e2b2f"/>
+      <path d="M210 270 Q208 172 248 146 Q288 172 286 270 Z" fill="#0a2023"/>
+      <path d="M226 270 Q224 190 248 170 Q272 190 270 270 Z" fill="#061518"/>
+      <!-- towering stalagmites flanking the passage -->
+      <path d="M150 270 l16 -130 l26 128z" fill="#173236"/>
+      <path d="M330 270 l24 -138 l18 136z" fill="#173236"/>
+      <path d="M120 270 l10 -70 l16 68z" fill="#1d3a3e"/>
+      <path d="M362 270 l12 -80 l14 78z" fill="#1d3a3e"/>
+      <!-- the lit walkway leading into the passage -->
+      <path d="M132 270 L214 200 L282 200 L364 270 Z" fill="#33291f"/>
+      <path d="M156 270 L218 208 L278 208 L342 270 Z" fill="#5b4a34"/>
+      <path d="M186 270 L222 218 L274 218 L312 270 Z" fill="#6b563b"/>
+      <g class="khaoo-flick">
+        <ellipse cx="248" cy="256" rx="86" ry="16" fill="url(#khaoo-glowr)"/>
+      </g>
+      <!-- handrail down the left of the walkway -->
+      <path d="M168 250 L216 210" stroke="#7a5c34" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M170 254 l0 -12 M184 243 l0 -12 M198 231 l0 -12 M212 220 l0 -11" stroke="#8a6a3c" stroke-width="2.6" stroke-linecap="round"/>
+      <!-- cast walking in (Cinnamon leads, Socks trails with a paw at the rail) -->
+      <g class="khaoo-bobA"><use href="#advc-cinnamon" x="250" y="196" width="56" height="56"/></g>
+      <g class="khaoo-bobB"><use href="#advc-socks" x="198" y="214" width="44" height="44"/></g>
+      <!-- a bat commuting across -->
+      <g class="khaoo-batx"><path d="M300 70 q6 -8 12 0 q6 -8 12 0 q-6 9 -12 5 q-6 4 -12 -5z" fill="#0e1a1a"/></g>
+    </g>
+  </g>
+
+  <!-- ============ SCENE 3 — CLOSE-UP: Cinnamon looks up, a drip falls ============ -->
+  <g class="scene" data-dur="2.6" data-caption="CINNAMON: “Frozen waterfalls. Squeeze points: delicious. The big chambers: humbling.”">
+    <rect width="480" height="270" fill="url(#khaoo-deep)"/>
+    <!-- soft stalactite behind, glowing -->
+    <path d="M120 0 l26 150 l30 -144z" fill="#1c4045" class="khaoo-glow"/>
+    <path d="M330 0 l24 120 l34 -116z" fill="#173236"/>
+    <ellipse cx="240" cy="250" rx="150" ry="30" fill="#0a1f22"/>
+    <!-- the falling water drop -->
+    <g class="khaoo-drip"><path d="M240 26 q-6 10 0 18 q6 -8 0 -18z" fill="#bfe4e8" opacity=".9"/></g>
+    <!-- big custom Cinnamon head, tilted up in awe -->
+    <g class="khaoo-lookbob">
+      <!-- ears -->
+      <path d="M182 88 q-14 -44 20 -40 q14 8 8 40z" fill="#7d6242"/>
+      <path d="M298 88 q14 -44 -20 -40 q-14 8 -8 40z" fill="#7d6242"/>
+      <path d="M192 76 q-6 -22 12 -24 M288 76 q6 -22 -12 -24" stroke="#5e4a32" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M190 82 q-6 -22 14 -22 q6 4 4 18z" fill="#e7b0a2" opacity=".7"/>
+      <path d="M290 82 q6 -22 -14 -22 q-6 4 -4 18z" fill="#e7b0a2" opacity=".7"/>
+      <!-- head -->
+      <ellipse cx="240" cy="150" rx="102" ry="94" fill="url(#khaoo-fur)"/>
+      <!-- cream muzzle -->
+      <ellipse cx="240" cy="184" rx="66" ry="52" fill="#e9d8bd"/>
+      <!-- blush -->
+      <ellipse cx="184" cy="164" rx="17" ry="12" fill="#e7b0a2" opacity=".55"/>
+      <ellipse cx="296" cy="164" rx="17" ry="12" fill="#e7b0a2" opacity=".55"/>
+      <!-- eyes looking up -->
+      <ellipse cx="206" cy="132" rx="16" ry="20" fill="#241c16"/>
+      <ellipse cx="274" cy="132" rx="16" ry="20" fill="#241c16"/>
+      <circle cx="211" cy="123" r="5.5" fill="#fff"/><circle cx="279" cy="123" r="5.5" fill="#fff"/>
+      <circle cx="201" cy="138" r="2.6" fill="#fff" opacity=".5"/><circle cx="269" cy="138" r="2.6" fill="#fff" opacity=".5"/>
+      <!-- nose + mouth -->
+      <path d="M230 168 h20 l-10 12z" fill="#2e2219"/>
+      <path d="M240 180 q-13 12 -26 5 M240 180 q13 12 26 5" stroke="#3a2c24" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+      <!-- whiskers -->
+      <path d="M178 176 l-34 -6 M180 186 l-34 4 M302 176 l34 -6 M300 186 l34 4" stroke="#cbb894" stroke-width="1.6" opacity=".8"/>
+      <!-- neckerchief -->
+      <path d="M182 220 q58 30 116 0 l6 30 q-64 34 -128 0z" fill="#7a8f52" stroke="#5f7040" stroke-width="3"/>
+      <path d="M236 244 l14 -4 l4 22 l-16 6z" fill="#7a8f52" stroke="#5f7040" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- ============ SCENE 4 — WIDE CATHEDRAL CHAMBER: cast tiny, humbled ============ -->
+  <g class="scene" data-dur="2.8" data-caption="SOCKS: “Chamber three. A Bangkok family just adopted Cinnamon as their tour mascot.”">
+    <rect width="480" height="270" fill="url(#khaoo-deep)"/>
+    <g class="khaoo-cam4">
+      <!-- vast dark behind -->
+      <ellipse cx="240" cy="150" rx="180" ry="150" fill="#0b2226"/>
+      <!-- towering ceiling stalactites (organ pipes) -->
+      <path d="M60 0 l16 150 l18 -144z" fill="#1e3f43"/>
+      <path d="M110 0 l12 190 l22 -184z" fill="#16343a"/>
+      <path d="M170 0 l20 128 l14 -124z" fill="#1e3f43"/>
+      <path d="M300 0 l14 210 l26 -204z" fill="#16343a"/>
+      <path d="M356 0 l22 150 l16 -146z" fill="#1e3f43"/>
+      <path d="M414 0 l14 176 l24 -170z" fill="#16343a"/>
+      <!-- column joining floor+ceiling -->
+      <path d="M240 0 l-10 130 q-6 60 6 140 l24 0 q10 -80 4 -140 l-8 -130z" fill="#245055" opacity=".85"/>
+      <!-- massive floor flowstone -->
+      <path d="M0 210 q120 -40 240 -8 q120 -34 240 6 L480 270 L0 270 Z" fill="#123035"/>
+      <path d="M40 270 l30 -150 l40 148z" fill="#1a3a3f"/>
+      <path d="M380 270 l36 -170 l46 168z" fill="#1a3a3f"/>
+      <!-- warm lantern pools on the floor -->
+      <ellipse cx="240" cy="248" rx="120" ry="18" fill="url(#khaoo-glowr)" opacity=".6"/>
+      <!-- distant Bangkok family (silhouettes) -->
+      <g opacity=".8">
+        <ellipse cx="196" cy="248" rx="10" ry="4" fill="#000" opacity=".2"/>
+        <path d="M192 246 q-3 -18 4 -18 q7 0 5 18z" fill="#1a2b2c"/><circle cx="196" cy="224" r="5" fill="#243b3c"/>
+        <path d="M206 247 q-2 -14 3 -14 q6 0 4 14z" fill="#1a2b2c"/><circle cx="209" cy="231" r="4" fill="#243b3c"/>
+        <path d="M182 247 q-2 -13 3 -13 q6 0 4 13z" fill="#1a2b2c"/><circle cx="185" cy="232" r="4" fill="#243b3c"/>
+      </g>
+      <!-- our cast, tiny, dwarfed by the chamber -->
+      <g class="khaoo-bobA"><use href="#advc-cinnamon" x="248" y="216" width="34" height="34"/></g>
+      <g class="khaoo-bobB"><use href="#advc-socks" x="272" y="222" width="28" height="28"/></g>
+      <!-- dust motes -->
+      <circle class="khaoo-mote" cx="150" cy="230" r="2" fill="#f4c977"/>
+      <circle class="khaoo-mote2" cx="330" cy="238" r="1.6" fill="#f4c977"/>
+      <circle class="khaoo-mote" cx="420" cy="226" r="1.8" fill="#f4c977"/>
+    </g>
+  </g>
+
+  <!-- ============ SCENE 5 — PAYOFF: stepping back into daylight ============ -->
+  <g class="scene" data-dur="3.0" data-caption="CINNAMON: “The bats commute overhead like weary professionals. We have an understanding.”">
+    <rect width="480" height="270" fill="url(#khaoo-deep)"/>
+    <!-- cave interior framing (we look out toward a bright mouth) -->
+    <path d="M0 0 L0 270 L150 270 Q120 150 150 40 Z" fill="#0a1f22"/>
+    <path d="M480 0 L480 270 L330 270 Q360 150 330 40 Z" fill="#0a1f22"/>
+    <path d="M150 40 Q240 20 330 40 L330 40 L150 40 Z" fill="#0a1f22"/>
+    <!-- the bright mouth of daylight -->
+    <path d="M158 270 Q150 120 240 62 Q330 120 322 270 Z" fill="#dfe0c4"/>
+    <path d="M176 270 Q170 140 240 92 Q310 140 304 270 Z" fill="#eef0d8"/>
+    <!-- light rays -->
+    <g class="khaoo-ray">
+      <path d="M240 92 L150 270 L200 270 Z" fill="#fff" opacity=".5"/>
+      <path d="M240 92 L300 270 L340 270 Z" fill="#fff" opacity=".4"/>
+    </g>
+    <!-- stalactite silhouettes framing the exit -->
+    <path d="M150 40 l10 70 l14 -66z" fill="#0a1f22"/>
+    <path d="M320 44 l12 60 l16 -56z" fill="#0a1f22"/>
+    <path d="M240 34 l-8 46 l18 -44z" fill="#0a1f22"/>
+    <!-- ground of the passage -->
+    <rect x="0" y="242" width="480" height="28" fill="#12292d"/>
+    <path d="M172 270 L184 250 L296 250 L308 270 Z" fill="#b7b089" opacity=".85"/>
+    <!-- bats commuting out into the light -->
+    <g class="khaoo-batx"><path d="M330 96 q7 -9 14 0 q7 -9 14 0 q-7 10 -14 5 q-7 5 -14 -5z" fill="#241c16"/></g>
+    <g class="khaoo-circle" transform="translate(60,-10)">
+      <path d="M300 120 q5 -6 10 0 q5 -6 10 0 q-5 7 -10 4 q-5 3 -10 -4z" fill="#2a1d13"/>
+    </g>
+    <!-- cast, silhouetted, stepping toward the light -->
+    <g class="khaoo-step5">
+      <g class="khaoo-bobB"><use href="#advc-socks" x="196" y="200" width="46" height="46"/></g>
+      <g class="khaoo-bobA"><use href="#advc-cinnamon" x="228" y="190" width="56" height="56"/></g>
+    </g>
+  </g>
+</svg>

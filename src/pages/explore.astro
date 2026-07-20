@@ -5,6 +5,7 @@ import ExploreHeader from "../components/ExploreHeader.astro";
 import { getIndexRecords } from "../lib/content";
 import { FILTER_GROUPS } from "../lib/filters";
 import { CATEGORY_META } from "../data/categories";
+import { withBase } from "../lib/url";
 
 const records = await getIndexRecords();
 // Initial server-rendered order: featured first, then most recently updated.
@@ -106,7 +107,16 @@ const initial = [...records].sort(
     <div id="empty" class="card mt-4 p-10 text-center" hidden>
       <p class="text-4xl">🧭</p>
       <p class="mt-2 font-display text-lg font-semibold">No discoveries match those filters.</p>
-      <p class="text-ink-soft">Try removing a filter or clearing your search.</p>
+      <p class="text-ink-soft">
+        Search only filters what's already in the atlas — it won't look anything up for you.
+        Try removing a filter or clearing your search.
+      </p>
+      <p class="mt-4">
+        <a href={withBase("/submit")} class="btn btn-primary">
+          Looking for something specific? Tell Cinnamon →
+        </a>
+      </p>
+      <p class="mt-2 text-xs text-ink-soft">Thanks to Andreas for this feature idea 🙌</p>
     </div>
   </div>
 
