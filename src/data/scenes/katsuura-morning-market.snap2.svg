@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmmb" data-title="The count from above: sixty-some stalls down Shimohonmachi street">
+  <defs>
+    <linearGradient id="kmmb-street" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a49574"/>
+      <stop offset="1" stop-color="#6b5d44"/>
+    </linearGradient>
+    <linearGradient id="kmmb-roofA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a2e22"/>
+      <stop offset="1" stop-color="#5e1e16"/>
+    </linearGradient>
+    <linearGradient id="kmmb-roofB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3e7188"/>
+      <stop offset="1" stop-color="#20465a"/>
+    </linearGradient>
+    <linearGradient id="kmmb-roofC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8ddc0"/>
+      <stop offset="1" stop-color="#bfb08a"/>
+    </linearGradient>
+    <radialGradient id="kmmb-sun" cx="0.5" cy="0" r="0.9">
+      <stop offset="0" stop-color="#ffe3ad" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ffe3ad" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" fill="#3a3324"/>
+  <ellipse cx="240" cy="30" rx="220" ry="90" fill="url(#kmmb-sun)"/>
+
+  <!-- the street itself, seen from high above, running the length of the frame -->
+  <polygon points="150,0 330,0 460,300 20,300" fill="url(#kmmb-street)"/>
+  <path d="M240 0 v300" stroke="#8a7c5e" stroke-width="1" opacity="0.35" stroke-dasharray="3 6"/>
+
+  <!-- rooftop stall canopies, checkerboarding down both sides, smaller toward the top -->
+  <rect x="8" y="6" width="70" height="24" rx="3" fill="url(#kmmb-roofA)"/>
+  <rect x="392" y="6" width="72" height="24" rx="3" fill="url(#kmmb-roofB)"/>
+  <rect x="4" y="34" width="80" height="26" rx="3" fill="url(#kmmb-roofC)"/>
+  <rect x="386" y="34" width="82" height="26" rx="3" fill="url(#kmmb-roofA)"/>
+  <rect x="0" y="64" width="90" height="30" rx="3" fill="url(#kmmb-roofB)"/>
+  <rect x="378" y="64" width="92" height="30" rx="3" fill="url(#kmmb-roofC)"/>
+  <rect x="-6" y="98" width="98" height="32" rx="3" fill="url(#kmmb-roofC)"/>
+  <rect x="372" y="98" width="100" height="32" rx="3" fill="url(#kmmb-roofB)"/>
+  <rect x="-8" y="134" width="106" height="36" rx="3" fill="url(#kmmb-roofA)"/>
+  <rect x="366" y="134" width="108" height="36" rx="3" fill="url(#kmmb-roofC)"/>
+  <rect x="-10" y="174" width="116" height="40" rx="3" fill="url(#kmmb-roofC)"/>
+  <rect x="358" y="174" width="118" height="40" rx="3" fill="url(#kmmb-roofA)"/>
+  <rect x="-12" y="218" width="128" height="46" rx="3" fill="url(#kmmb-roofB)"/>
+  <rect x="348" y="218" width="130" height="46" rx="3" fill="url(#kmmb-roofC)"/>
+  <rect x="-14" y="268" width="140" height="40" rx="3" fill="url(#kmmb-roofA)"/>
+  <rect x="338" y="268" width="142" height="40" rx="3" fill="url(#kmmb-roofB)"/>
+
+  <!-- ridge seams on the canopies -->
+  <line x1="42" y1="6" x2="42" y2="30" stroke="#2a1a14" stroke-width="1" opacity="0.4"/>
+  <line x1="44" y1="98" x2="46" y2="130" stroke="#2a1a14" stroke-width="1" opacity="0.4"/>
+  <line x1="52" y1="218" x2="56" y2="264" stroke="#2a1a14" stroke-width="1" opacity="0.4"/>
+  <line x1="430" y1="34" x2="428" y2="60" stroke="#2a1a14" stroke-width="1" opacity="0.4"/>
+  <line x1="420" y1="174" x2="416" y2="214" stroke="#2a1a14" stroke-width="1" opacity="0.4"/>
+
+  <!-- crates and baskets glimpsed in the narrow gaps between canopies -->
+  <ellipse cx="105" cy="70" rx="10" ry="6" fill="#e8dcc4" opacity="0.85"/>
+  <ellipse cx="365" cy="150" rx="12" ry="6" fill="#94b25a" opacity="0.85"/>
+  <ellipse cx="112" cy="200" rx="11" ry="6" fill="#8ea6b4" opacity="0.8"/>
+  <ellipse cx="352" cy="240" rx="10" ry="6" fill="#d9c15a" opacity="0.8"/>
+
+  <!-- small shopper heads dotting the lane, seen from directly above -->
+  <circle cx="200" cy="90" r="6" fill="#241a12"/>
+  <ellipse cx="200" cy="98" rx="9" ry="5" fill="#3a2a1a" opacity="0.8"/>
+  <circle cx="285" cy="150" r="6" fill="#1c1712"/>
+  <ellipse cx="285" cy="158" rx="9" ry="5" fill="#2e241a" opacity="0.8"/>
+  <circle cx="215" cy="220" r="6.5" fill="#241a12"/>
+  <ellipse cx="215" cy="229" rx="10" ry="5" fill="#3a2a1a" opacity="0.8"/>
+
+  <!-- Cinnamon and Socks, small on the long street, tallying stalls from above -->
+  <ellipse cx="248" cy="182" rx="20" ry="7" fill="#000" opacity="0.25"/>
+  <g transform="translate(210 122) scale(0.28)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="292" cy="176" rx="15" ry="6" fill="#000" opacity="0.22"/>
+  <g transform="translate(270 128) scale(0.22)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+
+  <!-- a scatter of pickle-jar lids and produce crates trailing behind them -->
+  <circle cx="255" cy="195" r="4" fill="#d9c15a" opacity="0.75"/>
+  <circle cx="266" cy="200" r="4" fill="#94b25a" opacity="0.75"/>
+  <circle cx="243" cy="203" r="3.5" fill="#c9986a" opacity="0.7"/>
+</svg>
