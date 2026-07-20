@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="urih" data-title="The hand-carved tunnel opens onto Uwara Risokyo's rias coast">
+  <defs>
+    <linearGradient id="urih-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d6f92"/>
+      <stop offset="0.5" stop-color="#8ec2d6"/>
+      <stop offset="0.82" stop-color="#f6dba8"/>
+      <stop offset="1" stop-color="#fceac7"/>
+    </linearGradient>
+    <radialGradient id="urih-sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6de" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#ffdf9a" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffdf9a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="urih-sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3dc"/>
+      <stop offset="0.18" stop-color="#78bcc4"/>
+      <stop offset="0.55" stop-color="#337c96"/>
+      <stop offset="1" stop-color="#15455e"/>
+    </linearGradient>
+    <linearGradient id="urih-cliff" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#6d7a55"/>
+      <stop offset="0.25" stop-color="#4c4736"/>
+      <stop offset="1" stop-color="#231f19"/>
+    </linearGradient>
+    <radialGradient id="urih-tunnel" cx="0.5" cy="0.62" r="0.7">
+      <stop offset="0" stop-color="#050403"/>
+      <stop offset="0.7" stop-color="#0c0906"/>
+      <stop offset="1" stop-color="#1c150e"/>
+    </radialGradient>
+    <linearGradient id="urih-step" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9c8f79"/>
+      <stop offset="1" stop-color="#6e6350"/>
+    </linearGradient>
+    <symbol id="urih-pine" viewBox="0 0 40 60">
+      <rect x="17" y="42" width="6" height="18" fill="#3c2c1e"/>
+      <path d="M20 0 L34 26 L6 26 Z" fill="#233d29"/>
+      <path d="M20 13 L32 39 L8 39 Z" fill="#2d4d31"/>
+      <path d="M20 25 L30 49 L10 49 Z" fill="#3a5f3a"/>
+    </symbol>
+  </defs>
+
+  <!-- sky + dawn light -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#urih-sky)"/>
+  <circle cx="392" cy="52" r="62" fill="url(#urih-sun)"/>
+  <path d="M330 40 q10 -4 18 0" stroke="#fff3d6" stroke-width="1.5" fill="none" opacity="0.55"/>
+  <path d="M334 62 q14 6 26 0" stroke="#fff3d6" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <!-- sea -->
+  <rect x="0" y="152" width="480" height="148" fill="url(#urih-sea)"/>
+  <ellipse cx="392" cy="150" rx="70" ry="10" fill="#fff2cf" opacity="0.35"/>
+  <ellipse cx="95" cy="192" rx="18" ry="2.2" fill="#eaf7f3" opacity="0.4"/>
+  <ellipse cx="210" cy="205" rx="24" ry="2.4" fill="#eaf7f3" opacity="0.35"/>
+  <ellipse cx="330" cy="220" rx="30" ry="2.6" fill="#eaf7f3" opacity="0.3"/>
+  <ellipse cx="150" cy="245" rx="34" ry="3" fill="#eaf7f3" opacity="0.3"/>
+  <ellipse cx="300" cy="262" rx="40" ry="3.2" fill="#eaf7f3" opacity="0.28"/>
+  <ellipse cx="220" cy="284" rx="46" ry="3.4" fill="#eaf7f3" opacity="0.24"/>
+
+  <!-- distant rias headlands, atmospheric perspective -->
+  <path d="M300 172 Q345 152 385 162 Q415 168 460 158 L480 165 L480 178 L300 178 Z" fill="#a8c4cf" opacity="0.55"/>
+  <path d="M228 182 Q258 152 288 149 Q312 147 322 167 Q331 178 362 174 L362 190 L228 190 Z" fill="#5c93a0"/>
+  <use href="#urih-pine" x="272" y="132" width="16" height="24"/>
+  <use href="#urih-pine" x="288" y="136" width="13" height="20"/>
+  <path d="M148 198 Q176 156 212 150 Q238 146 248 170 Q258 186 294 183 L294 205 L148 205 Z" fill="#3a6b4d"/>
+  <!-- distant bell-stand on the far headland, echo of Taoyame-daira across the bay -->
+  <line x1="200" y1="150" x2="200" y2="137" stroke="#221a12" stroke-width="1.4"/>
+  <line x1="213" y1="150" x2="213" y2="137" stroke="#221a12" stroke-width="1.4"/>
+  <line x1="198" y1="137" x2="215" y2="137" stroke="#221a12" stroke-width="1.4"/>
+  <circle cx="206.5" cy="143" r="3.2" fill="#3a2e20"/>
+
+  <!-- foreground cliff mass carrying the carved tunnel -->
+  <path d="M0 300 L0 96 Q30 58 78 55 Q128 52 158 88 Q178 112 168 145 Q158 178 176 205 Q192 228 174 260 Q166 282 182 300 Z" fill="url(#urih-cliff)"/>
+  <path d="M14 158 Q70 148 150 168" stroke="#181410" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M10 210 Q66 200 140 218" stroke="#181410" stroke-width="2" fill="none" opacity="0.25"/>
+  <path d="M6 250 Q60 244 152 258" stroke="#181410" stroke-width="1.5" fill="none" opacity="0.2"/>
+
+  <!-- grassy ridge cap -->
+  <ellipse cx="26" cy="58" rx="14" ry="5" fill="#5d7a44"/>
+  <ellipse cx="52" cy="52" rx="16" ry="5.5" fill="#69884c"/>
+  <ellipse cx="82" cy="53" rx="15" ry="5" fill="#5d7a44"/>
+  <ellipse cx="112" cy="60" rx="14" ry="5" fill="#69884c"/>
+  <ellipse cx="142" cy="72" rx="12" ry="4.5" fill="#5d7a44"/>
+
+  <!-- pines along the ridge, receding scale -->
+  <use href="#urih-pine" x="16" y="30" width="22" height="32"/>
+  <use href="#urih-pine" x="42" y="24" width="26" height="38"/>
+  <use href="#urih-pine" x="70" y="26" width="24" height="35"/>
+  <use href="#urih-pine" x="98" y="34" width="20" height="30"/>
+  <use href="#urih-pine" x="124" y="46" width="16" height="24"/>
+
+  <!-- hand-carved tunnel mouth -->
+  <path d="M56 262 L54 188 Q52 146 96 140 Q140 146 138 188 L136 262 Z" fill="#463f33" stroke="#221d16" stroke-width="2.5"/>
+  <path d="M65 260 L63 190 Q62 156 96 151 Q130 156 129 190 L127 260 Z" fill="url(#urih-tunnel)"/>
+  <ellipse cx="97" cy="240" rx="14" ry="9" fill="#f3e6ae" opacity="0.4"/>
+  <path d="M58 210 l-6 3M60 232 l-7 2M134 208 l6 3M132 230 l7 2M78 148 l-4 -6M116 148 l4 -6" stroke="#150f0a" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- carved stone steps down from the tunnel toward the cliff-edge trail -->
+  <polygon points="82,264 112,264 110,274 80,274" fill="url(#urih-step)"/>
+  <polygon points="76,275 118,275 122,287 70,287" fill="url(#urih-step)"/>
+  <polygon points="68,289 128,289 136,300 58,300" fill="url(#urih-step)" opacity="0.9"/>
+
+  <!-- the cliff-edge trail underfoot, a grassy ledge the viewer stands on -->
+  <path d="M118 300 L118 264 Q170 244 222 250 Q270 255 318 246 Q368 238 420 246 Q452 251 480 244 L480 300 Z" fill="url(#urih-cliff)"/>
+  <path d="M120 264 Q170 244 222 250 Q270 255 318 246 Q368 238 420 246 Q452 251 480 244" fill="none" stroke="#7d8c5f" stroke-width="2" opacity="0.6"/>
+
+  <!-- trail rope-fence along the cliff edge, receding toward the open view -->
+  <rect x="196" y="228" width="5" height="26" fill="#4a3a26"/>
+  <rect x="248" y="234" width="4.5" height="23" fill="#4a3a26"/>
+  <rect x="300" y="240" width="4" height="20" fill="#4a3a26"/>
+  <rect x="350" y="244" width="3.5" height="17" fill="#4a3a26"/>
+  <path d="M198 231 Q225 236 250 237 Q278 239 302 244 Q328 247 352 249" stroke="#6b5233" stroke-width="1.6" fill="none" opacity="0.75"/>
+
+  <!-- near foreground rocks and grass for grounding -->
+  <path d="M188 296 Q206 278 232 288 Q250 294 244 300 L186 300 Z" fill="#3a3826" opacity="0.85"/>
+  <path d="M400 300 Q408 282 430 286 Q452 290 448 300 Z" fill="#3a3826" opacity="0.8"/>
+  <path d="M0 300 Q10 292 24 297 Q30 300 24 300 Z" fill="#201d18" opacity="0.7"/>
+
+  <!-- birds over the bay -->
+  <path d="M250 40 q6 -6 12 0 q6 -6 12 0" stroke="#2a2420" stroke-width="1.4" fill="none" opacity="0.55"/>
+  <path d="M290 58 q5 -5 10 0 q5 -5 10 0" stroke="#2a2420" stroke-width="1.3" fill="none" opacity="0.5"/>
+
+  <!-- low grass tufts along the very front edge -->
+  <path d="M210 298 q4 -8 8 0" stroke="#425c33" stroke-width="2" fill="none"/>
+  <path d="M320 297 q4 -9 8 0" stroke="#425c33" stroke-width="2" fill="none"/>
+  <path d="M370 299 q3 -7 7 0" stroke="#425c33" stroke-width="2" fill="none"/>
+</svg>
