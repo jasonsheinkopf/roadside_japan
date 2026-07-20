@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="tyba" data-title="Nose to nose with a chōchin-obake, one lantern-glow away">
+  <defs>
+    <linearGradient id="tyba-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1030"/>
+      <stop offset="1" stop-color="#301a28"/>
+    </linearGradient>
+    <radialGradient id="tyba-bokeh" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffcf85" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ffcf85" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tyba-lant" cx="0.35" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#fff6de"/>
+      <stop offset="0.5" stop-color="#ffb452"/>
+      <stop offset="1" stop-color="#dd5b1f"/>
+    </radialGradient>
+    <radialGradient id="tyba-halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe2a8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffe2a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" fill="url(#tyba-sky)"/>
+  <circle cx="60" cy="50" r="34" fill="url(#tyba-bokeh)"/>
+  <circle cx="440" cy="230" r="26" fill="url(#tyba-bokeh)"/>
+  <circle cx="30" cy="220" r="18" fill="url(#tyba-bokeh)"/>
+  <circle cx="450" cy="40" r="22" fill="url(#tyba-bokeh)"/>
+
+  <!-- soft out-of-focus lantern strand receding behind the pair -->
+  <path d="M0 40 Q120 16 260 34" fill="none" stroke="#5c3d24" stroke-width="1.4" opacity="0.5"/>
+  <ellipse cx="70" cy="46" rx="7" ry="9" fill="url(#tyba-lant)" opacity="0.55"/>
+  <ellipse cx="150" cy="34" rx="7" ry="9" fill="url(#tyba-lant)" opacity="0.5"/>
+  <ellipse cx="220" cy="38" rx="6" ry="8" fill="url(#tyba-lant)" opacity="0.45"/>
+
+  <!-- dark blurred lantern edge framing the bottom-left corner -->
+  <path d="M-20 300 Q10 210 90 236 Q40 270 0 300Z" fill="#150a10" opacity="0.65"/>
+
+  <!-- warm halo binding the two faces together -->
+  <ellipse cx="230" cy="150" rx="170" ry="140" fill="url(#tyba-halo)"/>
+
+  <!-- ground contact shadows -->
+  <ellipse cx="126" cy="266" rx="70" ry="14" fill="#000" opacity="0.3"/>
+  <ellipse cx="330" cy="278" rx="66" ry="14" fill="#000" opacity="0.32"/>
+
+  <!-- Cinnamon, mid-bow, nose to nose with the lantern spirit -->
+  <g transform="translate(4 40) scale(0.92)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+
+  <!-- the chōchin-obake, big and close, leaning in -->
+  <path d="M345 46 Q436 46 436 168 Q436 286 345 296 Q254 286 254 168 Q254 46 345 46Z" fill="url(#tyba-lant)"/>
+  <path d="M262 100 Q345 112 428 100 M258 168 Q345 184 432 168 M262 232 Q345 246 428 232" stroke="#c9601e" stroke-width="1.6" fill="none" opacity="0.6"/>
+  <ellipse cx="345" cy="42" rx="16" ry="8" fill="#3a2416"/>
+  <ellipse cx="345" cy="296" rx="16" ry="8" fill="#3a2416"/>
+  <path d="M345 24 L345 42" stroke="#3a2416" stroke-width="4"/>
+  <circle cx="290" cy="158" r="22" fill="#fff8e0"/>
+  <circle cx="290" cy="158" r="12" fill="#231208"/>
+  <circle cx="296" cy="150" r="4" fill="#fff"/>
+  <path d="M310 192 Q346 232 322 262 Q334 226 308 202Z" fill="#c23a3a"/>
+  <path d="M270 196 Q248 214 256 240" stroke="#8a3a1a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="256" cy="242" r="9" fill="#8a3a1a"/>
+  <path d="M400 190 Q422 200 418 226" stroke="#8a3a1a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="418" cy="228" r="9" fill="#8a3a1a"/>
+
+  <!-- sparkle between the two faces -->
+  <circle cx="196" cy="112" r="2.6" fill="#ffe6b0"/>
+  <circle cx="216" cy="150" r="2.2" fill="#ffe6b0"/>
+  <circle cx="204" cy="188" r="2" fill="#ffe6b0"/>
+  <circle cx="230" cy="94" r="1.8" fill="#ffe6b0"/>
+</svg>
