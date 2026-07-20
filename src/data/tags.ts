@@ -54,6 +54,7 @@ export const TAGS: TagMeta[] = [
   { slug: "culture", label: "Culture", icon: "🎎", group: "theme" },
   { slug: "river", label: "River", icon: "🛶", group: "theme" },
   { slug: "experience", label: "Experience", icon: "✨", group: "theme" },
+  { slug: "hiking", label: "Hiking", icon: "🥾", group: "theme" },
 
   // season highlights
   { slug: "cherry-blossom", label: "Cherry Blossoms", icon: "🌸", group: "season" },
