@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="jxsp" data-title="Twilight over JAXA Katsuura's tracking dishes on the coastal hilltop">
+  <defs>
+    <linearGradient id="jxsp-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141d40"/>
+      <stop offset="0.35" stop-color="#3a4f7c"/>
+      <stop offset="0.62" stop-color="#c97a4a"/>
+      <stop offset="0.85" stop-color="#f2c186"/>
+      <stop offset="1" stop-color="#fbe2b6"/>
+    </linearGradient>
+    <radialGradient id="jxsp-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6da" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#ffcf8a" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#ffcf8a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="jxsp-sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4c8a94"/>
+      <stop offset="1" stop-color="#245467"/>
+    </linearGradient>
+    <linearGradient id="jxsp-hillfar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#66739c"/>
+      <stop offset="1" stop-color="#4a5678"/>
+    </linearGradient>
+    <linearGradient id="jxsp-hillmid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#456b57"/>
+      <stop offset="1" stop-color="#2c4e3d"/>
+    </linearGradient>
+    <linearGradient id="jxsp-hillnear" x1="0.2" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#5c8944"/>
+      <stop offset="1" stop-color="#2e4d24"/>
+    </linearGradient>
+    <linearGradient id="jxsp-tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e4e7e8"/>
+      <stop offset="1" stop-color="#8b9296"/>
+    </linearGradient>
+    <linearGradient id="jxsp-dish" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#fefefa"/>
+      <stop offset="1" stop-color="#cdd2cc"/>
+    </linearGradient>
+    <linearGradient id="jxsp-dishin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aab2ab"/>
+      <stop offset="1" stop-color="#7d8680"/>
+    </linearGradient>
+    <linearGradient id="jxsp-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f1e4"/>
+      <stop offset="1" stop-color="#d7d0ba"/>
+    </linearGradient>
+    <linearGradient id="jxsp-roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#75859a"/>
+      <stop offset="1" stop-color="#485468"/>
+    </linearGradient>
+    <linearGradient id="jxsp-road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdba8d"/>
+      <stop offset="1" stop-color="#a48d5c"/>
+    </linearGradient>
+    <linearGradient id="jxsp-shrub" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f7440"/>
+      <stop offset="1" stop-color="#31502a"/>
+    </linearGradient>
+
+    <symbol id="jxsp-dishsym" viewBox="0 0 120 150">
+      <path d="M38 150 L46 118 L74 118 L82 150 Z" fill="url(#jxsp-tower)" stroke="#5c6266" stroke-width="1.4"/>
+      <rect x="54" y="62" width="12" height="58" fill="url(#jxsp-tower)" stroke="#5c6266" stroke-width="1.2"/>
+      <path d="M60 70 L100 100" stroke="#7d8388" stroke-width="2.2" stroke-linecap="round"/>
+      <ellipse cx="60" cy="52" rx="53" ry="35" fill="url(#jxsp-dish)" stroke="#8f958f" stroke-width="1.6"/>
+      <ellipse cx="60" cy="57" rx="40" ry="23" fill="url(#jxsp-dishin)" opacity="0.85"/>
+      <path d="M14 46 Q60 22 106 46" stroke="#ffffff" stroke-width="2.6" fill="none" opacity="0.75" stroke-linecap="round"/>
+      <path d="M14 55 Q60 68 106 55" stroke="#5c6660" stroke-width="1.2" fill="none" opacity="0.6"/>
+      <line x1="60" y1="55" x2="60" y2="14" stroke="#7d8388" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="60" cy="12" r="6" fill="#4a5054" stroke="#2e3235" stroke-width="1"/>
+    </symbol>
+
+    <symbol id="jxsp-bird" viewBox="0 0 24 12">
+      <path d="M0 8 Q6 0 12 8 Q18 0 24 8" fill="none" stroke="#20182c" stroke-width="1.5" stroke-linecap="round" opacity="0.55"/>
+    </symbol>
+  </defs>
+
+  <!-- dusk sky over the Boso hills -->
+  <rect x="0" y="0" width="480" height="192" fill="url(#jxsp-sky)"/>
+  <circle cx="352" cy="118" r="58" fill="url(#jxsp-glow)"/>
+
+  <!-- first stars in the darker upper sky -->
+  <circle cx="46" cy="24" r="1.2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="98" cy="42" r="0.9" fill="#ffffff" opacity="0.6"/>
+  <circle cx="150" cy="20" r="1.1" fill="#ffffff" opacity="0.75"/>
+  <circle cx="210" cy="46" r="0.8" fill="#ffffff" opacity="0.55"/>
+  <circle cx="70" cy="60" r="0.9" fill="#ffffff" opacity="0.6"/>
+  <circle cx="270" cy="24" r="1" fill="#ffffff" opacity="0.65"/>
+
+  <use href="#jxsp-bird" x="188" y="70" width="20" height="10"/>
+  <use href="#jxsp-bird" x="216" y="58" width="16" height="8"/>
+  <use href="#jxsp-bird" x="240" y="80" width="14" height="7"/>
+
+  <!-- a sliver of the Pacific glimpsed through a dip in the far ridge -->
+  <path d="M330 156 Q380 148 430 158 L480 152 L480 172 Q430 168 382 176 Q346 182 320 174 Z" fill="url(#jxsp-sea)" opacity="0.85"/>
+
+  <!-- the far ridgeline -->
+  <path d="M0 300 L0 150 Q60 132 130 146 Q210 162 290 144 Q360 128 430 148 Q460 154 480 148 L480 300 Z" fill="url(#jxsp-hillfar)"/>
+
+  <!-- the tiniest, farthest tracking dish, half over the ridge -->
+  <g transform="translate(398 172) rotate(9) scale(0.42)">
+    <use href="#jxsp-dishsym" x="-60" y="-150" width="120" height="150"/>
+  </g>
+
+  <!-- the mid ridge, wooded -->
+  <path d="M0 300 L0 188 Q90 170 170 186 Q260 204 340 182 Q400 166 480 184 L480 300 Z" fill="url(#jxsp-hillmid)"/>
+
+  <!-- the JAXA hilltop itself, foreground grass -->
+  <path d="M0 300 L0 222 Q70 200 150 214 Q250 230 330 210 Q400 194 480 216 L480 300 Z" fill="url(#jxsp-hillnear)"/>
+  <path d="M0 250 Q80 232 160 244 Q250 258 330 240 Q400 226 480 246" stroke="#3c5c2e" stroke-width="2" fill="none" opacity="0.45"/>
+
+  <!-- gravel path climbing to the exhibition hall -->
+  <path d="M0 296 Q55 278 108 266 Q140 258 152 244" stroke="url(#jxsp-road)" stroke-width="15" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M0 296 Q55 278 108 266 Q140 258 152 244" stroke="#8a7548" stroke-width="1.4" fill="none" opacity="0.4"/>
+
+  <!-- scrubby coastal shrubs along the slope -->
+  <ellipse cx="40" cy="256" rx="12" ry="8" fill="url(#jxsp-shrub)"/>
+  <rect x="38" y="262" width="4" height="7" fill="#4a3a26"/>
+  <ellipse cx="440" cy="248" rx="14" ry="9" fill="url(#jxsp-shrub)"/>
+  <rect x="437" y="255" width="4" height="8" fill="#4a3a26"/>
+  <ellipse cx="200" cy="222" rx="10" ry="7" fill="url(#jxsp-shrub)"/>
+  <rect x="198" y="228" width="3" height="6" fill="#4a3a26"/>
+
+  <!-- the small free exhibition hall -->
+  <rect x="150" y="248" width="72" height="34" fill="url(#jxsp-wall)" stroke="#a99f85" stroke-width="1.2"/>
+  <path d="M144 248 L186 224 L228 248 Z" fill="url(#jxsp-roof)" stroke="#374252" stroke-width="1.2"/>
+  <rect x="160" y="260" width="11" height="12" fill="#7fa3c2" stroke="#5c6a52" stroke-width="1"/>
+  <rect x="181" y="260" width="11" height="12" fill="#7fa3c2" stroke="#5c6a52" stroke-width="1"/>
+  <rect x="202" y="260" width="11" height="12" fill="#7fa3c2" stroke="#5c6a52" stroke-width="1"/>
+  <rect x="180" y="266" width="14" height="16" fill="#5c4c34" stroke="#3a3022" stroke-width="1"/>
+
+  <!-- flagpole beside the hall -->
+  <line x1="236" y1="248" x2="236" y2="196" stroke="#c9c4b4" stroke-width="2"/>
+  <path d="M236 197 L256 203 L236 209 Z" fill="#c1362a"/>
+
+  <!-- the great parabolic antennas, largest nearest camera -->
+  <g transform="translate(348 232) rotate(-4) scale(0.82)">
+    <use href="#jxsp-dishsym" x="-60" y="-150" width="120" height="150"/>
+  </g>
+  <g transform="translate(248 266) rotate(7) scale(1.22)">
+    <use href="#jxsp-dishsym" x="-60" y="-150" width="120" height="150"/>
+  </g>
+  <g transform="translate(96 272) rotate(-7) scale(1.5)">
+    <use href="#jxsp-dishsym" x="-60" y="-150" width="120" height="150"/>
+  </g>
+
+  <!-- foreground grass tufts, close to the camera -->
+  <path d="M18 300 q3 -14 7 0" stroke="#3c5a28" stroke-width="2" fill="none"/>
+  <path d="M60 300 q3 -16 7 0" stroke="#3c5a28" stroke-width="2" fill="none"/>
+  <path d="M300 300 q3 -13 7 0" stroke="#3c5a28" stroke-width="2" fill="none"/>
+  <path d="M420 300 q3 -15 7 0" stroke="#3c5a28" stroke-width="2" fill="none"/>
+</svg>
