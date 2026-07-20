@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="koes2" data-title="Figure-eight from above — Mon-chan cuts a line no one agreed to">
+  <defs>
+    <linearGradient id="koes2-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171325"/>
+      <stop offset="1" stop-color="#1e1a2e"/>
+    </linearGradient>
+    <radialGradient id="koes2-waist" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb457" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffb457" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="koes2-lant" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset="1" stop-color="#e2621f"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" fill="url(#koes2-bg)"/>
+
+  <!-- rooftop corners framing the crossing, seen straight down -->
+  <polygon points="0,0 170,0 0,112" fill="#221e34"/>
+  <polygon points="0,0 90,0 0,58" fill="#191728"/>
+  <line x1="20" y1="0" x2="0" y2="20" stroke="#141222" stroke-width="2"/>
+  <line x1="55" y1="0" x2="0" y2="55" stroke="#141222" stroke-width="2"/>
+  <rect x="20" y="14" width="16" height="12" fill="#131120"/>
+
+  <polygon points="480,0 310,0 480,112" fill="#221e34"/>
+  <polygon points="480,0 390,0 480,58" fill="#191728"/>
+  <line x1="460" y1="0" x2="480" y2="20" stroke="#141222" stroke-width="2"/>
+  <line x1="425" y1="0" x2="480" y2="55" stroke="#141222" stroke-width="2"/>
+  <rect x="444" y="14" width="16" height="12" fill="#131120"/>
+
+  <polygon points="0,300 170,300 0,188" fill="#221e34"/>
+  <polygon points="0,300 90,300 0,242" fill="#191728"/>
+  <line x1="20" y1="300" x2="0" y2="280" stroke="#141222" stroke-width="2"/>
+  <rect x="20" y="270" width="16" height="12" fill="#131120"/>
+
+  <polygon points="480,300 310,300 480,188" fill="#221e34"/>
+  <polygon points="480,300 390,300 480,242" fill="#191728"/>
+  <line x1="460" y1="300" x2="480" y2="280" stroke="#141222" stroke-width="2"/>
+  <rect x="444" y="270" width="16" height="12" fill="#131120"/>
+
+  <!-- the figure-eight route, lit pavement seen from above -->
+  <ellipse cx="170" cy="152" rx="88" ry="48" fill="none" stroke="#5c4326" stroke-width="20" opacity="0.55"/>
+  <ellipse cx="170" cy="152" rx="88" ry="48" fill="none" stroke="#8a6a3e" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="322" cy="150" rx="88" ry="48" fill="none" stroke="#5c4326" stroke-width="20" opacity="0.55"/>
+  <ellipse cx="322" cy="150" rx="88" ry="48" fill="none" stroke="#8a6a3e" stroke-width="3" opacity="0.6"/>
+  <ellipse cx="248" cy="151" rx="46" ry="42" fill="url(#koes2-waist)"/>
+
+  <!-- troupe A, blue happi, ringing the left loop -->
+  <circle cx="87" cy="168" r="5" fill="#2e3d6b"/>
+  <circle cx="87" cy="136" r="5" fill="#2e3d6b"/>
+  <circle cx="126" cy="110" r="5" fill="#2e3d6b"/>
+  <circle cx="185" cy="105" r="5" fill="#2e3d6b"/>
+  <circle cx="126" cy="194" r="5" fill="#2e3d6b"/>
+  <circle cx="185" cy="199" r="5" fill="#2e3d6b"/>
+  <circle cx="63" cy="152" r="5" fill="#2e3d6b"/>
+
+  <!-- troupe B, red happi, ringing the right loop -->
+  <circle cx="410" cy="150" r="5" fill="#b23a2e"/>
+  <circle cx="389" cy="181" r="5" fill="#b23a2e"/>
+  <circle cx="337" cy="197" r="5" fill="#b23a2e"/>
+  <circle cx="389" cy="119" r="5" fill="#b23a2e"/>
+  <circle cx="337" cy="103" r="5" fill="#b23a2e"/>
+  <circle cx="278" cy="108" r="5" fill="#b23a2e"/>
+  <circle cx="278" cy="192" r="5" fill="#b23a2e"/>
+
+  <!-- lanterns strung along both loops, glowing dots from above -->
+  <circle cx="105" cy="120" r="4" fill="url(#koes2-lant)"/>
+  <circle cx="150" cy="200" r="4" fill="url(#koes2-lant)"/>
+  <circle cx="60" cy="180" r="4" fill="url(#koes2-lant)"/>
+  <circle cx="215" cy="115" r="4" fill="url(#koes2-lant)"/>
+  <circle cx="365" cy="130" r="4" fill="url(#koes2-lant)"/>
+  <circle cx="405" cy="175" r="4" fill="url(#koes2-lant)"/>
+  <circle cx="310" cy="195" r="4" fill="url(#koes2-lant)"/>
+  <circle cx="355" cy="98" r="4" fill="url(#koes2-lant)"/>
+
+  <!-- the crossing at the waist: two troupes tangle, and Mon-chan cuts his own diagonal through it -->
+  <circle cx="228" cy="170" r="5" fill="#2e3d6b"/>
+  <circle cx="266" cy="128" r="5" fill="#b23a2e"/>
+  <circle cx="212" cy="132" r="5" fill="#b23a2e"/>
+  <circle cx="278" cy="176" r="5" fill="#2e3d6b"/>
+
+  <ellipse cx="250" cy="156" rx="24" ry="10" fill="#000" opacity="0.3"/>
+  <g transform="translate(226 128) rotate(-22) scale(0.34)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+  <path d="M196 178 q30 -34 62 -34" fill="none" stroke="#e8973f" stroke-width="2" opacity="0.7" stroke-dasharray="2 4"/>
+</svg>
