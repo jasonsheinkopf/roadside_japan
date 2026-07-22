@@ -1,13 +1,13 @@
 {
-  "date": "2026-07-21",
-  "ran_at": "2026-07-21T03:34:00Z",
+  "date": "2026-07-22",
+  "ran_at": "2026-07-22T05:29:00Z",
   "completed": true,
-  "changed": false,
-  "added_count": 0,
+  "changed": true,
+  "added_count": 3,
   "pending_count": 0,
-  "skipped_count": 1,
+  "skipped_count": 0,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "approx_tokens": 26000,
-  "sms_body": "🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)\n\n📥 Submitted 2026-07-21 12:31 JST by anonymous (jasonsheinkopf@gmail.com)\n⚙️ Processed 2026-07-21 12:34 JST\n📧 Emailed jasonsheinkopf@gmail.com — thank-you sent\n\n❌ Skipped (1):\n• Vague Nagasaki/Hiroshima trip note — Gunkanjima's already on the map, no specific cycling spot or Hiroshima place was named to add\n  https://github.com/jasonsheinkopf/roadside_japan/issues/82\n\nNo new countries.\n\n📊 ~26K tokens this run · 1 note, 0 places added\n\n— socks 🐈‍⬛ (cinnamon says come back wif a real cycling shop name and he'll go sniff it out)"
+  "approx_tokens": 95000,
+  "sms_body": "🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)\n\n📥 Submitted 2026-07-22 14:17 JST by anonymous (jasonsheinkopf@gmail.com)\n⚙️ Processed 2026-07-22 14:29 JST\n📧 Emailed jasonsheinkopf@gmail.com — thank-you sent\n\n✅ Added (3):\n• Columbia Gorge Museum, Stevenson WA — world's largest rosary collection\n  https://roadside-japan.pages.dev/attractions/columbia-gorge-museum-stevenson/\n• Fort Vancouver National Historic Site, Vancouver WA — rebuilt 1825 fur-trade fort, cannons + musket demos\n  https://roadside-japan.pages.dev/attractions/fort-vancouver-national-historic-site/\n• Fort Cascades National Historic Site, North Bonneville WA — 1855 army fort ruins on a quiet loop trail\n  https://roadside-japan.pages.dev/attractions/fort-cascades-national-historic-site/\n\nNo new countries.\n\n📊 ~95K tokens this run · 3 places\n\n— socks 🐈‍⬛ (cinnamon iz still measuring that 16-foot rosary in tail-lengths)"
 }
