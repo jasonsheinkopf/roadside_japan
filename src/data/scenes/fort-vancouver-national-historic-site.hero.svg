@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="ftvc" data-title="Fort Vancouver's log stockade, cannons flanking the open gate">
+  <defs>
+    <linearGradient id="ftvc-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f9dd4"/>
+      <stop offset="0.55" stop-color="#a7cfe5"/>
+      <stop offset="1" stop-color="#e6ecdd"/>
+    </linearGradient>
+    <radialGradient id="ftvc-sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffaf0" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#fff0cf" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff0cf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ftvc-grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ba055" stop-opacity="1"/>
+      <stop offset="1" stop-color="#496b34"/>
+    </linearGradient>
+    <linearGradient id="ftvc-dirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c6c47"/>
+      <stop offset="1" stop-color="#5b4229"/>
+    </linearGradient>
+    <linearGradient id="ftvc-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9c7c53"/>
+      <stop offset="1" stop-color="#6a4d30"/>
+    </linearGradient>
+    <linearGradient id="ftvc-wallb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a6c48"/>
+      <stop offset="1" stop-color="#5c4429"/>
+    </linearGradient>
+    <linearGradient id="ftvc-beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b4e30"/>
+      <stop offset="1" stop-color="#41301c"/>
+    </linearGradient>
+    <linearGradient id="ftvc-roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4d3f2d"/>
+      <stop offset="1" stop-color="#2c2317"/>
+    </linearGradient>
+    <linearGradient id="ftvc-roof2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6c5738"/>
+      <stop offset="1" stop-color="#463a20"/>
+    </linearGradient>
+    <linearGradient id="ftvc-door" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#97723f"/>
+      <stop offset="1" stop-color="#5c4123"/>
+    </linearGradient>
+    <linearGradient id="ftvc-iron" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5a5a56"/>
+      <stop offset="1" stop-color="#1c1c1a"/>
+    </linearGradient>
+    <linearGradient id="ftvc-carriage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#775638"/>
+      <stop offset="1" stop-color="#493420"/>
+    </linearGradient>
+    <linearGradient id="ftvc-flag" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b6402f"/>
+      <stop offset="1" stop-color="#7c2419"/>
+    </linearGradient>
+    <radialGradient id="ftvc-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe4a3"/>
+      <stop offset="0.5" stop-color="#ff9d3d" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ff9d3d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ftvc-chim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c8474"/>
+      <stop offset="1" stop-color="#5c5648"/>
+    </linearGradient>
+    <linearGradient id="ftvc-gap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1e14"/>
+      <stop offset="1" stop-color="#120c08"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="480" height="160" fill="url(#ftvc-sky)"/>
+  <circle cx="398" cy="46" r="46" fill="url(#ftvc-sun)"/>
+  <path d="M96 46 Q118 36 140 44 Q158 38 174 45" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M228 68 Q248 60 266 68" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M18 30 Q24 22 30 30 Q36 22 42 30" stroke="#2b2a26" stroke-width="1.8" fill="none" opacity="0.45" stroke-linecap="round"/>
+  <path d="M320 22 Q326 15 332 22 Q338 15 344 22" stroke="#2b2a26" stroke-width="1.6" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- far tree-covered ridge, hazy -->
+  <path d="M0 140 Q60 112 120 128 Q180 104 240 124 Q300 100 360 122 Q420 108 480 126 L480 158 L0 158 Z" fill="#7f9d8a" opacity="0.55"/>
+
+  <!-- near forest edge, dense conifer skyline right behind the stockade -->
+  <path d="M0 156 L0 132 L16 144 L30 114 L44 140 L58 110 L72 142 L86 116 L100 144 L114 118 L128 146 L142 120 L156 148 L170 122
+           L200 146 L214 120 L228 148 L242 122
+           L300 146 L314 120 L328 148 L342 122 L356 148 L370 118 L384 144 L398 114 L412 142 L426 112 L440 140 L454 116 L468 144 L480 128
+           L480 158 L0 158 Z" fill="#2f4a35"/>
+
+  <!-- forest floor continuing behind the stockade, so no gap shows past the bastions -->
+  <rect x="0" y="150" width="480" height="106" fill="#2c4632"/>
+
+  <!-- foreground pines flanking the fort, closer and taller (stacked triangle silhouettes) -->
+  <path d="M10 254 L18 254 L18 150 L10 150 Z" fill="#3a2c1c"/>
+  <path d="M2 176 L14 150 L26 176 Z" fill="#1e3624"/>
+  <path d="M0 200 L14 168 L28 200 Z" fill="#254530"/>
+  <path d="M-3 228 L14 190 L31 228 Z" fill="#2c5138"/>
+  <path d="M462 258 L470 258 L470 158 L462 158 Z" fill="#382a1a"/>
+  <path d="M452 182 L466 156 L480 182 Z" fill="#1a3220"/>
+  <path d="M448 206 L466 174 L480 206 Z" fill="#20402a"/>
+  <path d="M444 234 L466 196 L480 234 Z" fill="#274a32"/>
+
+  <!-- interior blacksmith shop roof + chimney, peeking above the left wall -->
+  <path d="M96 152 L124 116 L152 152 Z" fill="url(#ftvc-roof)"/>
+  <rect x="130" y="94" width="12" height="32" fill="url(#ftvc-chim)" stroke="#453f34" stroke-width="1"/>
+  <rect x="129" y="90" width="14" height="6" fill="#453f34"/>
+  <ellipse cx="139" cy="82" rx="7" ry="5" fill="#e9e6dc" opacity="0.45"/>
+  <ellipse cx="146" cy="68" rx="9" ry="6" fill="#e9e6dc" opacity="0.32"/>
+  <ellipse cx="152" cy="52" rx="11" ry="7" fill="#e9e6dc" opacity="0.2"/>
+
+  <!-- interior warehouse roof, peeking above the right wall -->
+  <path d="M322 152 L348 122 L374 152 Z" fill="url(#ftvc-roof2)"/>
+  <path d="M330 152 L348 130 L366 152" stroke="#2e2515" stroke-width="1.4" fill="none" opacity="0.5"/>
+
+  <!-- ground -->
+  <rect x="0" y="252" width="480" height="48" fill="url(#ftvc-grass)"/>
+  <path d="M0 252 L480 252" stroke="#2f4a2a" stroke-width="2" opacity="0.4"/>
+  <path d="M204 252 L276 252 L322 300 L158 300 Z" fill="url(#ftvc-dirt)"/>
+  <path d="M212 258 Q210 278 190 300" stroke="#6e5030" stroke-width="1.6" fill="none" opacity="0.5"/>
+  <path d="M268 258 Q272 278 292 300" stroke="#6e5030" stroke-width="1.6" fill="none" opacity="0.5"/>
+
+  <!-- left palisade run -->
+  <rect x="76" y="214" width="118" height="12" fill="url(#ftvc-beam)"/>
+  <path d="M76 158 L84 148 L92 158 L92 254 L76 254 Z" fill="url(#ftvc-wall)"/>
+  <path d="M92 158 L100 148 L108 158 L108 254 L92 254 Z" fill="url(#ftvc-wallb)"/>
+  <path d="M108 158 L116 148 L124 158 L124 254 L108 254 Z" fill="url(#ftvc-wall)"/>
+  <path d="M124 158 L132 148 L140 158 L140 254 L124 254 Z" fill="url(#ftvc-wallb)"/>
+  <path d="M140 156 L148 146 L156 156 L156 254 L140 254 Z" fill="url(#ftvc-wall)"/>
+  <path d="M156 156 L164 146 L172 156 L172 254 L156 254 Z" fill="url(#ftvc-wallb)"/>
+  <path d="M172 154 L180 144 L188 154 L188 254 L172 254 Z" fill="url(#ftvc-wall)"/>
+  <path d="M188 154 L196 144 L204 154 L204 254 L188 254 Z" fill="url(#ftvc-wallb)"/>
+
+  <!-- right palisade run -->
+  <rect x="286" y="214" width="118" height="12" fill="url(#ftvc-beam)"/>
+  <path d="M276 154 L284 144 L292 154 L292 254 L276 254 Z" fill="url(#ftvc-wallb)"/>
+  <path d="M292 154 L300 144 L308 154 L308 254 L292 254 Z" fill="url(#ftvc-wall)"/>
+  <path d="M308 156 L316 146 L324 156 L324 254 L308 254 Z" fill="url(#ftvc-wallb)"/>
+  <path d="M324 156 L332 146 L340 156 L340 254 L324 254 Z" fill="url(#ftvc-wall)"/>
+  <path d="M340 158 L348 148 L356 158 L356 254 L340 254 Z" fill="url(#ftvc-wallb)"/>
+  <path d="M356 158 L364 148 L372 158 L372 254 L356 254 Z" fill="url(#ftvc-wall)"/>
+  <path d="M372 158 L380 148 L388 158 L388 254 L372 254 Z" fill="url(#ftvc-wallb)"/>
+  <path d="M388 158 L396 148 L404 158 L404 254 L388 254 Z" fill="url(#ftvc-wall)"/>
+
+  <!-- left corner bastion -->
+  <rect x="22" y="112" width="54" height="142" fill="url(#ftvc-wall)"/>
+  <path d="M18 114 L49 80 L80 114 Z" fill="url(#ftvc-roof)"/>
+  <rect x="40" y="140" width="18" height="10" fill="#241c12"/>
+  <path d="M38 254 L38 130" stroke="#4a3520" stroke-width="1.4" opacity="0.5"/>
+  <path d="M60 254 L60 130" stroke="#4a3520" stroke-width="1.4" opacity="0.5"/>
+
+  <!-- right corner bastion -->
+  <rect x="404" y="112" width="54" height="142" fill="url(#ftvc-wallb)"/>
+  <path d="M400 114 L431 80 L462 114 Z" fill="url(#ftvc-roof)"/>
+  <rect x="422" y="140" width="18" height="10" fill="#241c12"/>
+  <path d="M422 254 L422 130" stroke="#3a2a18" stroke-width="1.4" opacity="0.5"/>
+  <path d="M444 254 L444 130" stroke="#3a2a18" stroke-width="1.4" opacity="0.5"/>
+
+  <!-- gate structure -->
+  <path d="M196 150 L240 122 L284 150 Z" fill="url(#ftvc-roof2)"/>
+  <rect x="200" y="148" width="80" height="12" fill="url(#ftvc-beam)"/>
+  <rect x="237" y="66" width="3" height="94" fill="#7a766a"/>
+  <path d="M240 70 L276 79 L267 88 L276 97 L240 90 Z" fill="url(#ftvc-flag)" stroke="#5c1c12" stroke-width="1"/>
+
+  <!-- open doorway, glimpse of the forge-lit interior -->
+  <rect x="240" y="160" width="38" height="94" fill="url(#ftvc-gap)"/>
+  <circle cx="258" cy="228" r="10" fill="url(#ftvc-glow)"/>
+  <rect x="253" y="232" width="6" height="20" fill="#1c130c"/>
+
+  <!-- left gate door, closed -->
+  <rect x="200" y="160" width="38" height="94" fill="url(#ftvc-door)" stroke="#432f19" stroke-width="1.2"/>
+  <path d="M203 163 L235 251 M235 163 L203 251" stroke="#432f19" stroke-width="1.6" opacity="0.55"/>
+  <circle cx="211" cy="180" r="2.2" fill="#2c2a26"/>
+  <circle cx="227" cy="180" r="2.2" fill="#2c2a26"/>
+  <circle cx="211" cy="234" r="2.2" fill="#2c2a26"/>
+  <circle cx="227" cy="234" r="2.2" fill="#2c2a26"/>
+
+  <!-- right door, swung open against the frame -->
+  <rect x="279" y="158" width="9" height="96" fill="url(#ftvc-door)" stroke="#432f19" stroke-width="1"/>
+  <circle cx="283" cy="178" r="1.8" fill="#2c2a26"/>
+  <circle cx="283" cy="232" r="1.8" fill="#2c2a26"/>
+
+  <!-- left iron cannon, angled outward from the gate -->
+  <path d="M104 240 L146 240 L142 254 L110 254 Z" fill="url(#ftvc-carriage)" stroke="#3a2a18" stroke-width="1"/>
+  <circle cx="114" cy="256" r="9" fill="url(#ftvc-iron)" stroke="#141412" stroke-width="1.4"/>
+  <circle cx="138" cy="256" r="9" fill="url(#ftvc-iron)" stroke="#141412" stroke-width="1.4"/>
+  <rect x="82" y="226" width="58" height="13" rx="6" fill="url(#ftvc-iron)" transform="rotate(-16 111 232)"/>
+  <ellipse cx="82" cy="215" rx="5" ry="5.5" fill="#0f0f0e" transform="rotate(-16 111 232)"/>
+
+  <!-- right iron cannon, mirrored -->
+  <path d="M334 240 L376 240 L370 254 L338 254 Z" fill="url(#ftvc-carriage)" stroke="#3a2a18" stroke-width="1"/>
+  <circle cx="342" cy="256" r="9" fill="url(#ftvc-iron)" stroke="#141412" stroke-width="1.4"/>
+  <circle cx="366" cy="256" r="9" fill="url(#ftvc-iron)" stroke="#141412" stroke-width="1.4"/>
+  <rect x="340" y="226" width="58" height="13" rx="6" fill="url(#ftvc-iron)" transform="rotate(16 369 232)"/>
+  <ellipse cx="398" cy="215" rx="5" ry="5.5" fill="#0f0f0e" transform="rotate(16 369 232)"/>
+
+  <!-- stacked iron cannonballs -->
+  <circle cx="404" cy="266" r="5.5" fill="#2b2a26"/>
+  <circle cx="415" cy="266" r="5.5" fill="#2b2a26"/>
+  <circle cx="409.5" cy="257" r="5.5" fill="#37352f"/>
+
+  <!-- supply crate, foreground -->
+  <rect x="52" y="262" width="24" height="18" fill="url(#ftvc-carriage)" stroke="#3a2a18" stroke-width="1"/>
+  <path d="M52 271 L76 271" stroke="#3a2a18" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- grass tufts, close to camera -->
+  <path d="M46 300 q2 -12 6 0" stroke="#385224" stroke-width="2" fill="none"/>
+  <path d="M430 300 q2 -13 6 0" stroke="#385224" stroke-width="2" fill="none"/>
+  <path d="M130 300 q2 -10 6 0" stroke="#385224" stroke-width="2" fill="none"/>
+</svg>
