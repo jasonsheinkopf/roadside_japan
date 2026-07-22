@@ -7,8 +7,8 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 
 ## Summary
 
-- Entries (published): **244**  ·  with real photo: **153**  ·  no photo: **91**
-- Drawn hero present: **9**  ·  full set (hero+snap1+snap2): **6**
+- Entries (published): **247**  ·  with real photo: **153**  ·  no photo: **94**
+- Drawn hero present: **12**  ·  full set (hero+snap1+snap2): **6**
 - **Priority queue (no photo, no drawn hero): 84** — listed first below.
 
 ## Priority queue — no photo, still needs a drawn hero (most-recent first)
@@ -104,6 +104,9 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
+| 2026-07-22 | Fort Cascades National Historic Site | `fort-cascades-national-historic-site` | — | ✅ | — | — |
+| 2026-07-22 | Fort Vancouver National Historic Site | `fort-vancouver-national-historic-site` | — | ✅ | — | — |
+| 2026-07-22 | Columbia Gorge Museum | `columbia-gorge-museum-stevenson` | — | ✅ | — | — |
 | 2026-07-20 | Tachikawa Yokai Bon Odori | `tachikawa-yokai-bon-odori` | — | ✅ | ✅ | ✅ |
 | 2026-07-20 | Uwara Risokyo | `uwara-risokyo` | — | ✅ | ✅ | ✅ |
 | 2026-07-20 | Uwara Beach | `uwara-beach` | — | ✅ | ✅ | ✅ |

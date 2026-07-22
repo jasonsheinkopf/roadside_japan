@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="ftcs" data-title="The fishwheel replica turns over the Cascade Rapids at Fort Cascades">
+  <defs>
+    <linearGradient id="ftcs-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fa3ac"/>
+      <stop offset="0.55" stop-color="#c3d2d2"/>
+      <stop offset="1" stop-color="#e4e8dd"/>
+    </linearGradient>
+    <radialGradient id="ftcs-haze" cx="0.74" cy="0.28" r="0.5">
+      <stop offset="0" stop-color="#fdf6df" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#fdf6df" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ftcs-cliffL" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#6b7a68"/>
+      <stop offset="1" stop-color="#3a453a"/>
+    </linearGradient>
+    <linearGradient id="ftcs-cliffR" x1="1" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#77887a"/>
+      <stop offset="1" stop-color="#414d40"/>
+    </linearGradient>
+    <linearGradient id="ftcs-river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9db7ae"/>
+      <stop offset="0.3" stop-color="#5e8b8a"/>
+      <stop offset="1" stop-color="#2f5a63"/>
+    </linearGradient>
+    <linearGradient id="ftcs-bank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b6b40"/>
+      <stop offset="1" stop-color="#333e26"/>
+    </linearGradient>
+    <linearGradient id="ftcs-sign" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a6a45"/>
+      <stop offset="1" stop-color="#5c4429"/>
+    </linearGradient>
+    <radialGradient id="ftcs-splash" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f3f9f6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f3f9f6" stop-opacity="0"/>
+    </radialGradient>
+    <symbol id="ftcs-pine" viewBox="0 0 40 60">
+      <rect x="17" y="40" width="6" height="20" fill="#31281a"/>
+      <path d="M20 0 L34 24 L6 24 Z" fill="#26382a"/>
+      <path d="M20 11 L33 34 L7 34 Z" fill="#2d4530"/>
+      <path d="M20 22 L31 46 L9 46 Z" fill="#39543a"/>
+    </symbol>
+  </defs>
+
+  <!-- overcast gorge sky -->
+  <rect x="0" y="0" width="480" height="150" fill="url(#ftcs-sky)"/>
+  <circle cx="356" cy="60" r="66" fill="url(#ftcs-haze)"/>
+  <path d="M60 34 Q100 24 140 34" stroke="#eef2ea" stroke-width="10" fill="none" opacity="0.3"/>
+  <path d="M180 22 Q225 12 270 24" stroke="#eef2ea" stroke-width="12" fill="none" opacity="0.25"/>
+
+  <!-- Columbia Gorge basalt walls, left -->
+  <path d="M0 150 L0 40 Q34 14 66 30 Q86 42 78 66 Q70 90 92 108 L96 150 Z" fill="url(#ftcs-cliffL)"/>
+  <path d="M8 60 Q40 50 74 60" stroke="#242e22" stroke-width="1.6" opacity="0.4" fill="none"/>
+  <path d="M6 88 Q42 80 88 92" stroke="#242e22" stroke-width="1.6" opacity="0.35" fill="none"/>
+  <path d="M10 116 Q46 110 94 122" stroke="#242e22" stroke-width="1.4" opacity="0.3" fill="none"/>
+  <line x1="20" y1="34" x2="14" y2="106" stroke="#232c20" stroke-width="1.2" opacity="0.3"/>
+  <line x1="46" y1="24" x2="40" y2="118" stroke="#232c20" stroke-width="1.2" opacity="0.25"/>
+
+  <!-- Columbia Gorge basalt walls, right, receding into haze -->
+  <path d="M480 150 L480 46 Q444 20 404 38 Q380 50 392 74 Q402 96 378 116 L372 150 Z" fill="url(#ftcs-cliffR)" opacity="0.92"/>
+  <path d="M472 66 Q436 56 400 68" stroke="#242e22" stroke-width="1.6" opacity="0.35" fill="none"/>
+  <path d="M474 94 Q438 86 388 98" stroke="#242e22" stroke-width="1.4" opacity="0.3" fill="none"/>
+  <path d="M470 122 Q432 114 378 128" stroke="#242e22" stroke-width="1.3" opacity="0.25" fill="none"/>
+
+  <!-- forested ridgelines, pines along both walls -->
+  <use href="#ftcs-pine" x="6" y="10" width="20" height="30"/>
+  <use href="#ftcs-pine" x="26" y="4" width="24" height="34"/>
+  <use href="#ftcs-pine" x="52" y="8" width="18" height="26"/>
+  <use href="#ftcs-pine" x="410" y="18" width="20" height="30"/>
+  <use href="#ftcs-pine" x="434" y="12" width="22" height="32"/>
+  <use href="#ftcs-pine" x="458" y="20" width="17" height="24"/>
+
+  <!-- far treeline across the river, soft atmospheric distance -->
+  <path d="M92 150 Q160 132 230 140 Q300 148 372 132 L372 150 Z" fill="#4b5f45" opacity="0.85"/>
+
+  <!-- the Columbia, cutting the gorge -->
+  <rect x="0" y="150" width="480" height="90" fill="url(#ftcs-river)"/>
+  <path d="M0 170 Q60 176 120 170 Q180 164 240 172 Q300 180 360 170 Q420 162 480 172" stroke="#cfe8e2" stroke-width="2" fill="none" opacity="0.3"/>
+
+  <!-- Cascade Rapids whitewater, churning past the old portage -->
+  <path d="M18 196 Q26 190 34 194 Q42 189 50 195 Q58 191 64 198 Q56 204 46 200 Q38 206 30 201 Q22 205 16 200 Q12 198 18 196 Z" fill="#eef7f2" opacity="0.62"/>
+  <path d="M64 210 Q74 203 84 209 Q94 204 102 211 Q110 207 116 214 Q106 220 96 215 Q88 221 78 216 Q70 219 64 214 Q60 212 64 210 Z" fill="#eef7f2" opacity="0.56"/>
+  <path d="M118 220 Q128 214 138 220 Q148 215 156 222 Q148 228 138 223 Q130 229 120 224 Q114 226 118 220 Z" fill="#eef7f2" opacity="0.5"/>
+  <path d="M20 222 Q30 217 40 222 Q50 218 58 224 Q48 230 38 226 Q30 231 20 226 Q16 224 20 222 Z" fill="#eef7f2" opacity="0.42"/>
+  <path d="M160 192 Q180 184 200 194" stroke="#eef7f2" stroke-width="2.4" fill="none" opacity="0.48" stroke-linecap="round"/>
+  <path d="M198 208 Q220 200 244 210" stroke="#eef7f2" stroke-width="2.2" fill="none" opacity="0.42" stroke-linecap="round"/>
+  <path d="M244 224 Q266 218 288 226" stroke="#eef7f2" stroke-width="2" fill="none" opacity="0.36" stroke-linecap="round"/>
+  <path d="M70 232 Q94 227 112 234" stroke="#dcefe8" stroke-width="1.8" fill="none" opacity="0.35" stroke-linecap="round"/>
+  <circle cx="96" cy="212" r="1.5" fill="#eef7f2" opacity="0.5"/>
+  <circle cx="140" cy="222" r="1.3" fill="#eef7f2" opacity="0.45"/>
+  <circle cx="48" cy="206" r="1.4" fill="#eef7f2" opacity="0.5"/>
+  <circle cx="180" cy="200" r="1.3" fill="#eef7f2" opacity="0.4"/>
+
+  <!-- fishwheel replica, the focal point, spinning over the rapids -->
+  <g>
+    <rect x="330" y="188" width="7" height="54" fill="#4a3826"/>
+    <rect x="394" y="188" width="7" height="54" fill="#4a3826"/>
+    <path d="M328 196 L401 192" stroke="#4a3826" stroke-width="5"/>
+    <circle cx="365" cy="204" r="34" fill="none" stroke="#5c452c" stroke-width="4"/>
+    <line x1="365" y1="204" x2="399" y2="204" stroke="#5c452c" stroke-width="3"/>
+    <line x1="365" y1="204" x2="382" y2="233" stroke="#5c452c" stroke-width="3"/>
+    <line x1="365" y1="204" x2="348" y2="233" stroke="#5c452c" stroke-width="3"/>
+    <line x1="365" y1="204" x2="331" y2="204" stroke="#5c452c" stroke-width="3"/>
+    <line x1="365" y1="204" x2="348" y2="175" stroke="#5c452c" stroke-width="3"/>
+    <line x1="365" y1="204" x2="382" y2="175" stroke="#5c452c" stroke-width="3"/>
+    <path d="M389 180 Q400 174 400 186 Q397 195 388 191 Q383 186 389 180 Z" fill="#6d5334"/>
+    <path d="M389 228 Q400 234 396 244 Q387 247 385 236 Q384 230 389 228 Z" fill="#6d5334"/>
+    <path d="M341 228 Q330 234 333 245 Q342 248 345 237 Q346 230 341 228 Z" fill="#6d5334"/>
+    <path d="M341 180 Q330 174 333 163 Q342 160 345 171 Q346 178 341 180 Z" fill="#6d5334"/>
+    <circle cx="365" cy="204" r="5.5" fill="#2f2214"/>
+    <ellipse cx="392" cy="240" rx="17" ry="6" fill="url(#ftcs-splash)"/>
+    <ellipse cx="339" cy="240" rx="15" ry="5.5" fill="url(#ftcs-splash)"/>
+  </g>
+
+  <!-- near riverbank, grassy and shaded -->
+  <path d="M0 300 L0 224 Q60 210 130 222 Q190 232 250 220 Q310 212 372 224 Q430 234 480 222 L480 300 Z" fill="url(#ftcs-bank)"/>
+
+  <!-- the interpretive loop trail, winding underfoot rather than a bare road -->
+  <path d="M10 302 Q66 276 124 270 Q168 266 200 250 Q234 236 284 234 Q344 232 402 244 Q444 252 484 240" stroke="#6b5b3c" stroke-width="34" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M10 302 Q66 276 124 270 Q168 266 200 250 Q234 236 284 234 Q344 232 402 244 Q444 252 484 240" stroke="#93815a" stroke-width="25" fill="none" stroke-linecap="round"/>
+  <path d="M10 302 Q66 276 124 270 Q168 266 200 250 Q234 236 284 234 Q344 232 402 244 Q444 252 484 240" stroke="#a9976c" stroke-width="3" fill="none" opacity="0.4"/>
+  <circle cx="150" cy="257" r="2.2" fill="#5f5138" opacity="0.55"/>
+  <circle cx="260" cy="235" r="2" fill="#5f5138" opacity="0.5"/>
+  <circle cx="365" cy="238" r="2.2" fill="#5f5138" opacity="0.55"/>
+
+  <!-- remnant timbers of one of the old portage roads, crossing the trail -->
+  <g opacity="0.85">
+    <rect x="352" y="228" width="30" height="5" rx="1.5" fill="#463a24" transform="rotate(-8 367 230)"/>
+    <rect x="368" y="238" width="32" height="5" rx="1.5" fill="#3e3320" transform="rotate(-6 384 240)"/>
+    <rect x="386" y="248" width="30" height="5" rx="1.5" fill="#463a24" transform="rotate(-8 401 250)"/>
+  </g>
+
+  <!-- stone footings of the vanished blockhouse, traced out as a foundation corner in the grass above the trail -->
+  <g opacity="0.95">
+    <rect x="86" y="238" width="18" height="7" fill="#8b8b80" stroke="#63635a" stroke-width="0.6"/>
+    <rect x="104" y="238" width="18" height="7" fill="#818177" stroke="#63635a" stroke-width="0.6"/>
+    <rect x="122" y="238" width="17" height="7" fill="#8b8b80" stroke="#63635a" stroke-width="0.6"/>
+    <rect x="86" y="245" width="9" height="16" fill="#818177" stroke="#63635a" stroke-width="0.6"/>
+    <path d="M84 254 q4 -3 7 0" stroke="#3d4a2c" stroke-width="1.4" fill="none" opacity="0.7"/>
+    <path d="M132 236 q4 -3 7 0" stroke="#3d4a2c" stroke-width="1.4" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- the fort's quiet grave site, set apart beside the trail -->
+  <g opacity="0.92">
+    <ellipse cx="28" cy="253" rx="12" ry="3" fill="#333d24" opacity="0.5"/>
+    <path d="M23 252 L23 236 Q23 232 28 232 Q33 232 33 236 L33 252 Z" fill="#9a9a8e" stroke="#63635a" stroke-width="0.8"/>
+    <path d="M25 240 L31 240" stroke="#5f5f56" stroke-width="0.9" opacity="0.6"/>
+    <path d="M25 245 L31 245" stroke="#5f5f56" stroke-width="0.9" opacity="0.5"/>
+    <path d="M14 255 q3 -6 7 0" stroke="#3d4a2c" stroke-width="1.4" fill="none"/>
+    <path d="M34 255 q3 -6 7 0" stroke="#3d4a2c" stroke-width="1.4" fill="none"/>
+  </g>
+
+  <!-- weathered interpretive sign along the trail -->
+  <g>
+    <rect x="196" y="234" width="4.5" height="30" fill="#3f3220"/>
+    <path d="M182 216 L216 214 L218 236 L184 238 Z" fill="url(#ftcs-sign)" stroke="#3f3220" stroke-width="1.4"/>
+    <rect x="190" y="221" width="20" height="3" fill="#e8dfc6" opacity="0.75"/>
+    <rect x="190" y="227" width="15" height="2.4" fill="#e8dfc6" opacity="0.6"/>
+    <rect x="190" y="232" width="18" height="2.4" fill="#e8dfc6" opacity="0.55"/>
+  </g>
+
+  <!-- ferns and undergrowth along the shaded trail -->
+  <path d="M156 292 q4 -14 10 -2 q2 -12 8 0" stroke="#3f5a34" stroke-width="2" fill="none"/>
+  <path d="M260 288 q3 -12 9 -2 q2 -10 7 1" stroke="#3f5a34" stroke-width="2" fill="none"/>
+  <path d="M300 294 q4 -13 10 -2" stroke="#3f5a34" stroke-width="2" fill="none"/>
+  <path d="M70 296 q3 -10 8 -1" stroke="#33472a" stroke-width="1.8" fill="none"/>
+  <path d="M400 292 q4 -12 9 -2 q3 -9 7 1" stroke="#3f5a34" stroke-width="2" fill="none"/>
+
+  <!-- foreground conifers framing the scene -->
+  <g>
+    <rect x="10" y="216" width="9" height="70" fill="#2c2216"/>
+    <path d="M14 150 L44 214 L-16 214 Z" fill="#233524"/>
+    <path d="M14 172 L40 226 L-12 226 Z" fill="#2b422c"/>
+    <path d="M14 196 L36 240 L-8 240 Z" fill="#385238"/>
+  </g>
+  <g>
+    <rect x="452" y="200" width="10" height="86" fill="#2c2216"/>
+    <path d="M457 128 L490 200 L424 200 Z" fill="#213222"/>
+    <path d="M457 152 L486 212 L428 212 Z" fill="#293f2a"/>
+    <path d="M457 176 L482 226 L432 226 Z" fill="#354e36"/>
+  </g>
+
+  <!-- birds over the gorge -->
+  <path d="M148 46 q6 -6 12 0 q6 -6 12 0" stroke="#2a2f28" stroke-width="1.3" fill="none" opacity="0.5"/>
+  <path d="M300 74 q5 -5 10 0 q5 -5 10 0" stroke="#2a2f28" stroke-width="1.2" fill="none" opacity="0.45"/>
+
+  <!-- low grass tufts at the very front edge -->
+  <path d="M240 298 q4 -8 8 0" stroke="#4a5c33" stroke-width="2" fill="none"/>
+  <path d="M170 299 q4 -8 8 0" stroke="#4a5c33" stroke-width="2" fill="none"/>
+  <path d="M370 298 q4 -8 8 0" stroke="#4a5c33" stroke-width="2" fill="none"/>
+</svg>
