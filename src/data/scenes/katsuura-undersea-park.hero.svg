@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kusp" data-title="Katsuura Undersea Park — offshore tower above and below the waves">
+  <defs>
+    <linearGradient id="kusp-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4c86bb"/>
+      <stop offset="0.45" stop-color="#8dc3de"/>
+      <stop offset="0.8" stop-color="#d7ebe2"/>
+      <stop offset="1" stop-color="#f4ecce"/>
+    </linearGradient>
+    <radialGradient id="kusp-sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffdf0" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#fff2c8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#fff2c8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kusp-seaSurface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eadfb4"/>
+      <stop offset="0.3" stop-color="#8fc9c4"/>
+      <stop offset="1" stop-color="#2f8fa8"/>
+    </linearGradient>
+    <linearGradient id="kusp-seaDeep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b8aa6"/>
+      <stop offset="0.35" stop-color="#166485"/>
+      <stop offset="0.7" stop-color="#0c405e"/>
+      <stop offset="1" stop-color="#062338"/>
+    </linearGradient>
+    <linearGradient id="kusp-tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4f2e8"/>
+      <stop offset="0.55" stop-color="#d8d5c4"/>
+      <stop offset="1" stop-color="#a9a692"/>
+    </linearGradient>
+    <linearGradient id="kusp-rock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d5c44"/>
+      <stop offset="1" stop-color="#3a4230"/>
+    </linearGradient>
+    <linearGradient id="kusp-seabed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f3a4e"/>
+      <stop offset="1" stop-color="#04202f"/>
+    </linearGradient>
+    <radialGradient id="kusp-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff2b0" stop-opacity="0.95"/>
+      <stop offset="0.6" stop-color="#ffdf8a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffdf8a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="kusp-clip-below">
+      <rect x="0" y="150" width="480" height="150"/>
+    </clipPath>
+    <symbol id="kusp-fish" viewBox="0 0 24 14">
+      <path d="M2,7 C2,3 8,1 14,3 C13,5 13,9 14,11 C8,13 2,11 2,7 Z" fill="#dfeaee"/>
+      <path d="M14,3 L22,0 L19,7 L22,14 L14,11 Z" fill="#bcd3da"/>
+      <path d="M6,6.2 Q9,5.1 12,6.2" stroke="#7e97a1" stroke-width="0.8" fill="none"/>
+      <circle cx="5.3" cy="6.4" r="0.9" fill="#33424a"/>
+    </symbol>
+    <symbol id="kusp-gull" viewBox="0 0 20 8">
+      <path d="M0,6 Q5,0 10,6 Q15,0 20,6" fill="none" stroke="#3f5062" stroke-width="1.4" stroke-linecap="round"/>
+    </symbol>
+    <style>
+      .kusp-sparkle { animation: kusp-twinkle 3.2s ease-in-out infinite alternate; }
+      .kusp-sparkle2 { animation: kusp-twinkle 2.5s ease-in-out infinite alternate; animation-delay: 0.6s; }
+      @keyframes kusp-twinkle { from { opacity: 0.3; } to { opacity: 0.9; } }
+    </style>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="480" height="132" fill="url(#kusp-sky)"/>
+  <circle cx="398" cy="54" r="52" fill="url(#kusp-sun)"/>
+  <circle cx="398" cy="54" r="17" fill="#fff7dd"/>
+  <path d="M96 36 Q118 28 140 36 Q158 31 174 38" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.45" stroke-linecap="round"/>
+  <path d="M300 24 Q318 19 335 24" stroke="#ffffff" stroke-width="4" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <use href="#kusp-gull" x="200" y="46" width="20" height="8"/>
+  <use href="#kusp-gull" x="228" y="34" width="16" height="7"/>
+  <use href="#kusp-gull" x="150" y="60" width="14" height="6"/>
+
+  <!-- distant coastline, far left, where the pier begins -->
+  <path d="M0 150 L0 84 Q16 66 32 76 Q46 84 42 102 Q56 100 62 116 Q68 132 54 144 Q46 150 40 150 Z" fill="url(#kusp-rock)"/>
+  <path d="M0 150 L0 112 Q20 104 36 114 Q30 128 40 140 L38 150 Z" fill="#41522f" opacity="0.65"/>
+  <path d="M0 148 Q22 142 44 148" stroke="#eef8f4" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- hazy far headland across the bay -->
+  <path d="M150 132 Q172 120 198 128 Q216 122 230 130 L230 140 L150 140 Z" fill="#7fa19a" opacity="0.4"/>
+
+  <!-- sea surface band -->
+  <rect x="0" y="120" width="480" height="32" fill="url(#kusp-seaSurface)"/>
+  <ellipse cx="398" cy="136" rx="64" ry="7" fill="#ffeec0" opacity="0.4"/>
+  <path d="M40 140 Q110 136 180 140 Q250 144 320 140 Q380 136 460 141" stroke="#eef8f4" stroke-width="1.4" fill="none" opacity="0.4"/>
+  <path d="M20 148 Q90 144 160 148 Q230 152 300 148" stroke="#eef8f4" stroke-width="1.3" fill="none" opacity="0.32"/>
+  <circle class="kusp-sparkle" cx="356" cy="130" r="1.8" fill="#fffaf0"/>
+  <circle class="kusp-sparkle2" cx="374" cy="140" r="1.4" fill="#fffaf0"/>
+  <circle class="kusp-sparkle" cx="424" cy="133" r="1.6" fill="#fffaf0"/>
+  <circle class="kusp-sparkle2" cx="440" cy="126" r="1.3" fill="#fffaf0"/>
+
+  <!-- underwater cross-section: the open Pacific below the waterline -->
+  <g clip-path="url(#kusp-clip-below)">
+    <rect x="0" y="150" width="480" height="150" fill="url(#kusp-seaDeep)"/>
+    <path d="M330 150 L420 150 L470 300 L400 300 Z" fill="#ffffff" opacity="0.06"/>
+    <path d="M280 150 L322 150 L340 300 L288 300 Z" fill="#ffffff" opacity="0.05"/>
+
+    <!-- the tower's foundation, standing on the seabed -->
+    <path d="M256 150 L256 230 Q256 248 274 252 L308 252 Q326 248 326 230 L326 150 Z" fill="url(#kusp-tower)"/>
+    <path d="M256 150 L256 230 Q256 248 274 252 L308 252 Q326 248 326 230 L326 150 Z" fill="#0e5d80" opacity="0.32"/>
+
+    <!-- ring of viewing windows, glowing from the lamps inside -->
+    <circle cx="273" cy="176" r="7.5" fill="url(#kusp-glow)"/>
+    <circle cx="273" cy="176" r="7.5" fill="none" stroke="#e7e3d2" stroke-width="1.4"/>
+    <circle cx="309" cy="176" r="7.5" fill="url(#kusp-glow)"/>
+    <circle cx="309" cy="176" r="7.5" fill="none" stroke="#e7e3d2" stroke-width="1.4"/>
+    <circle cx="273" cy="204" r="7" fill="url(#kusp-glow)"/>
+    <circle cx="273" cy="204" r="7" fill="none" stroke="#e7e3d2" stroke-width="1.4"/>
+    <circle cx="309" cy="204" r="7" fill="url(#kusp-glow)"/>
+    <circle cx="309" cy="204" r="7" fill="none" stroke="#e7e3d2" stroke-width="1.4"/>
+    <circle cx="291" cy="226" r="6" fill="url(#kusp-glow)"/>
+    <circle cx="291" cy="226" r="6" fill="none" stroke="#e7e3d2" stroke-width="1.3"/>
+
+    <!-- wild fish, drawn to the light of the windows -->
+    <use href="#kusp-fish" x="222" y="168" width="26" height="15" opacity="0.95"/>
+    <use href="#kusp-fish" x="228" y="184" width="20" height="12" opacity="0.9"/>
+    <use href="#kusp-fish" x="332" y="172" width="24" height="14" transform="scale(-1,1) translate(-712,0)"/>
+    <use href="#kusp-fish" x="340" y="196" width="18" height="11" transform="scale(-1,1) translate(-716,0)"/>
+    <use href="#kusp-fish" x="90" y="220" width="22" height="13"/>
+    <use href="#kusp-fish" x="70" y="248" width="16" height="10"/>
+    <use href="#kusp-fish" x="392" y="238" width="20" height="12" transform="scale(-1,1) translate(-812,0)"/>
+    <use href="#kusp-fish" x="150" y="270" width="17" height="10"/>
+
+    <!-- kelp fronds swaying from the seabed -->
+    <path d="M54 268 Q42 226 60 184" stroke="#2e6b4a" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <path d="M436 262 Q448 218 430 176" stroke="#2e6b4a" stroke-width="3" fill="none" opacity="0.55" stroke-linecap="round"/>
+
+    <!-- rocky seabed -->
+    <path d="M0 300 L0 268 Q80 250 160 266 Q260 284 360 262 Q420 250 480 266 L480 300 Z" fill="url(#kusp-seabed)"/>
+    <ellipse cx="112" cy="270" rx="24" ry="10" fill="#123048" opacity="0.85"/>
+    <ellipse cx="398" cy="266" rx="20" ry="9" fill="#123048" opacity="0.8"/>
+
+    <!-- dark rock framing the foreground corners -->
+    <path d="M0 300 L0 236 Q22 232 30 254 Q36 276 14 292 Q6 300 0 300 Z" fill="#0a2233" opacity="0.9"/>
+  </g>
+
+  <!-- footbridge pier reaching 60 meters out to the tower -->
+  <rect x="86" y="120.5" width="3" height="16" fill="#7a6142"/>
+  <rect x="122" y="123" width="3" height="16" fill="#7a6142"/>
+  <rect x="158" y="126" width="3" height="16" fill="#6f5a3c"/>
+  <rect x="194" y="129" width="3" height="16" fill="#6f5a3c"/>
+  <rect x="230" y="132" width="3" height="16" fill="#655236"/>
+  <path d="M55 115 L258 132 L258 139 L55 122 Z" fill="#8a6a45"/>
+  <path d="M55 115 L258 132" stroke="#5b4a30" stroke-width="0.8" opacity="0.6" fill="none"/>
+  <path d="M55 108 L258 125 M60 108 L60 115 M100 111 L100 118 M140 114 L140 121 M180 118 L180 125 M220 121 L220 128 M255 124 L255 131" stroke="#3f4a52" stroke-width="1.3" fill="none" opacity="0.7"/>
+
+  <!-- the tower rising above the waves, roof and lookout deck -->
+  <rect x="256" y="66" width="70" height="84" fill="url(#kusp-tower)"/>
+  <rect x="266" y="66" width="10" height="84" fill="#ffffff" opacity="0.16"/>
+  <rect x="306" y="66" width="12" height="84" fill="#000000" opacity="0.1"/>
+  <path d="M256 66 L291 42 L326 66 Z" fill="#7a3b32" stroke="#552620" stroke-width="1"/>
+  <rect x="286" y="38" width="8" height="8" fill="#552620"/>
+  <line x1="291" y1="38" x2="291" y2="24" stroke="#554636" stroke-width="1.6"/>
+  <path d="M291 24 L305 28 L291 32 Z" fill="#c1362a"/>
+  <rect x="264" y="88" width="10" height="14" rx="1" fill="#20343c" stroke="#e7e3d2" stroke-width="1"/>
+  <rect x="281" y="88" width="10" height="14" rx="1" fill="#20343c" stroke="#e7e3d2" stroke-width="1"/>
+  <rect x="298" y="88" width="10" height="14" rx="1" fill="#20343c" stroke="#e7e3d2" stroke-width="1"/>
+  <rect x="280" y="132" width="20" height="18" fill="#4a3222" stroke="#33231a" stroke-width="1"/>
+  <circle cx="296" cy="141" r="1.4" fill="#d8c48a"/>
+</svg>

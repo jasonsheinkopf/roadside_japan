@@ -1,16 +1,20 @@
 # Photos & the Cinnamon scene
 
+> **Update (Scene Art):** the emoji `CinnamonScene` "Cinnamon was here" postcard is retired
+> (only the written field report remains on the page). The house style for visuals is now
+> **hand-composed Scene Art** — see **[`docs/SCENE_ART.md`](./SCENE_ART.md)**. In particular,
+> when no photo can be verified, the priority is to draw a **`hero` scene** (a real
+> illustration of the place) instead of leaning on the emoji `PlaceScene`. The photo pipeline
+> below still governs finding a real photo first; PlaceScene remains only the last-resort
+> fallback until a drawn hero exists.
+
 Every entry gets **two visuals**, no exceptions:
 
-1. **A hero image** — a real photo found and verified through the pipeline below, or, when
-   none can be verified, a place-representing vector scene (`PlaceScene.astro`) — no
-   characters, just the entry's prop emoji large on a seeded gradient — so no page ever
-   falls back to a bare gradient.
-2. **A Cinnamon scene** — a separate, always-present "Cinnamon was here" postcard: a unique
-   vector vignette of Cinnamon "doing the thing" at that place, with a hand-written funny
-   quote (`cinnamon:` frontmatter → `CinnamonScene.astro`). Unlike the hero, this one always
-   features Cinnamon and renders regardless of whether the hero above is a photo or the
-   place scene.
+1. **A hero image** — a real photo found and verified through the pipeline below; else a drawn
+   **Scene Art `hero`** (docs/SCENE_ART.md) representing the place; else, as a last resort, the
+   `PlaceScene.astro` emoji scene — so no page ever falls back to a bare gradient.
+2. **The field report** — Cinnamon's first-person `cinnamon.report`, shown under the
+   "Cinnamon was here" heading. (The old emoji postcard that used to sit here is gone.)
 
 This is part of entry creation, not an afterthought: **no new entry ships without
 running the photo pipeline and writing a `cinnamon` block.**
