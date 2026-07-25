@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="cmlf2" data-title="The wall of cat portraits, and a shy tuxedo watching from her box">
+  <defs>
+    <linearGradient id="cmlf2-wallg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d5a34"/>
+      <stop offset="1" stop-color="#573f22"/>
+    </linearGradient>
+    <linearGradient id="cmlf2-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f5230"/>
+      <stop offset="1" stop-color="#4c371f"/>
+    </linearGradient>
+    <linearGradient id="cmlf2-boxg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c99a5c"/>
+      <stop offset="1" stop-color="#a97a3e"/>
+    </linearGradient>
+    <linearGradient id="cmlf2-tuxg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2622"/>
+      <stop offset="1" stop-color="#151310"/>
+    </linearGradient>
+    <radialGradient id="cmlf2-lamp" cx="0.5" cy="0" r="0.9">
+      <stop offset="0" stop-color="#ffdf9c" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffdf9c" stop-opacity="0"/>
+    </radialGradient>
+
+    <symbol id="cmlf2-frame" viewBox="0 0 60 46">
+      <rect x="0" y="0" width="60" height="46" rx="2" fill="#3f2c18" stroke="#241a0e" stroke-width="2.5"/>
+      <rect x="6" y="6" width="48" height="34" fill="#e4d6b4"/>
+      <ellipse cx="30" cy="24" rx="14" ry="10" fill="#c7a877"/>
+      <circle cx="25" cy="20" r="2.2" fill="#4a3520"/>
+      <circle cx="35" cy="20" r="2.2" fill="#4a3520"/>
+    </symbol>
+
+    <!-- a seated lucky-cat figurine, one raised paw; body takes currentColor so each
+         <use> can be tinted via a wrapping style="color:…" -->
+    <symbol id="cmlf2-luckycat" viewBox="0 0 48 46">
+      <path d="M4 44 q-4 -30 20 -32 q24 2 20 32 z" fill="currentColor" stroke="#00000030" stroke-width="1.4"/>
+      <ellipse cx="12" cy="41" rx="7" ry="4.5" fill="currentColor" stroke="#00000030" stroke-width="1"/>
+      <ellipse cx="36" cy="41" rx="7" ry="4.5" fill="currentColor" stroke="#00000030" stroke-width="1"/>
+      <circle cx="24" cy="16" r="13" fill="currentColor" stroke="#00000030" stroke-width="1.4"/>
+      <path d="M13 8 q-3 -9 6 -8 q5 1 3 8z" fill="currentColor" stroke="#00000030" stroke-width="1"/>
+      <path d="M35 8 q3 -9 -6 -8 q-5 1 -3 8z" fill="currentColor" stroke="#00000030" stroke-width="1"/>
+      <path d="M40 4 q7 -6 5 6 q-1 5 -6 3z" fill="#e8974a" stroke="#c26a20" stroke-width="1"/>
+      <circle cx="19" cy="16" r="1.6" fill="#00000060"/>
+      <circle cx="29" cy="16" r="1.6" fill="#00000060"/>
+    </symbol>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" fill="url(#cmlf2-wallg)"/>
+  <rect x="0" y="220" width="480" height="80" fill="url(#cmlf2-floor)"/>
+  <ellipse cx="240" cy="0" rx="260" ry="150" fill="url(#cmlf2-lamp)"/>
+
+  <!-- wall of framed cat portraits and lucky-cat trinkets, exactly like the real room -->
+  <g transform="translate(18 24)"><use href="#cmlf2-frame" width="58" height="44"/></g>
+  <g transform="translate(84 14)"><use href="#cmlf2-frame" width="50" height="38"/></g>
+  <g transform="translate(142 30)"><use href="#cmlf2-frame" width="64" height="48"/></g>
+  <g transform="translate(30 78)"><use href="#cmlf2-frame" width="46" height="36"/></g>
+  <g transform="translate(340 20)"><use href="#cmlf2-frame" width="60" height="44"/></g>
+  <g transform="translate(410 70)"><use href="#cmlf2-frame" width="50" height="40"/></g>
+
+  <!-- a low shelf of seated lucky-cat figurines under the frames -->
+  <g transform="translate(180 96)">
+    <rect x="-10" y="0" width="180" height="10" fill="#3f2c18"/>
+    <g transform="translate(6 -50)" style="color:#f2ece0">
+      <use href="#cmlf2-luckycat" width="48" height="46"/>
+    </g>
+    <g transform="translate(56 -44) scale(0.85)" style="color:#e8974a">
+      <use href="#cmlf2-luckycat" width="48" height="46"/>
+    </g>
+    <g transform="translate(100 -47) scale(0.9)" style="color:#2a2622">
+      <use href="#cmlf2-luckycat" width="48" height="46"/>
+    </g>
+  </g>
+
+  <!-- the decorated box the tuxedo cat sits in -->
+  <g transform="translate(230 168)">
+    <path d="M-4 40 h176 v42 h-176 z" fill="url(#cmlf2-boxg)" stroke="#7a5a30" stroke-width="2.5"/>
+    <path d="M-4 40 q88 -14 176 0" fill="none" stroke="#7a5a30" stroke-width="2.5"/>
+    <path d="M0 46 q84 10 168 0 M10 58 q78 8 156 0" stroke="#7a5a30" stroke-width="1.4" opacity="0.6" fill="none"/>
+    <path d="M14 40 q10 -16 24 0z M120 40 q10 -16 24 0z" fill="#5f7040" opacity="0.85"/>
+
+    <!-- tuxedo cat, curled loaf-style inside the box, head clearly attached at the shoulders -->
+    <g transform="translate(14 -30)">
+      <ellipse cx="70" cy="88" rx="76" ry="12" fill="#000" opacity="0.16"/>
+      <path d="M8 84 q-6 -38 36 -44 q54 -8 86 12 q22 14 18 34 q-4 14 -26 18 q-58 10 -100 -2 q-16 -6 -14 -18z" fill="url(#cmlf2-tuxg)"/>
+      <path d="M6 78 q40 24 96 4 q4 12 -6 18 q-52 18 -96 -4 q-6 -8 6 -18z" fill="#151310"/>
+      <!-- head, sitting up at the front-left of the loaf, attached at the neck -->
+      <ellipse cx="30" cy="24" rx="24" ry="23" fill="url(#cmlf2-tuxg)"/>
+      <path d="M13 4 q-5 -15 9 -13 q7 2 5 14z" fill="#151310"/>
+      <path d="M48 4 q5 -15 -9 -13 q-7 2 -5 14z" fill="#151310"/>
+      <path d="M16 6 q-2 -8 6 -8 M45 6 q2 -8 -6 -8" stroke="#000" stroke-width="1.4" fill="none"/>
+      <path d="M8 20 q18 -3 22 13 q3 13 -22 14 q-22 -1 -22 -14 q2 -13 22 -13z" fill="#f5f1ea"/>
+      <ellipse cx="10" cy="17" rx="4.6" ry="5.6" fill="#c8d24e"/><ellipse cx="10" cy="17" rx="2.5" ry="3.4" fill="#171412"/>
+      <ellipse cx="32" cy="17" rx="4.6" ry="5.6" fill="#c8d24e"/><ellipse cx="32" cy="17" rx="2.5" ry="3.4" fill="#171412"/>
+      <circle cx="8.6" cy="15.2" r="1.2" fill="#fff"/><circle cx="30.6" cy="15.2" r="1.2" fill="#fff"/>
+      <ellipse cx="19" cy="12" rx="3.4" ry="2.6" fill="#171412"/>
+      <path d="M19 15 q0 4 0 4 M19 19 q-6 5 -12 1 M19 19 q6 5 12 1" stroke="#3a2c24" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Mon-chan sniffing the air near the box, keeping a polite distance -->
+  <g transform="translate(342 176) rotate(-4) scale(0.66)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+
+  <!-- Socks, peeking shyly from behind Mon-chan, not quite ready either -->
+  <g transform="translate(288 190) scale(0.5)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+
+  <!-- warm floor shadows for grounding -->
+  <ellipse cx="360" cy="252" rx="60" ry="10" fill="#000" opacity="0.16"/>
+</svg>

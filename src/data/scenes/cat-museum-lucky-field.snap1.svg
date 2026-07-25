@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="cmlf1" data-title="A respectful distance from the orange tabby, still not ready to be pet">
+  <defs>
+    <linearGradient id="cmlf1-wallg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a6339"/>
+      <stop offset="1" stop-color="#5f4526"/>
+    </linearGradient>
+    <linearGradient id="cmlf1-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a5a34"/>
+      <stop offset="1" stop-color="#5a3f22"/>
+    </linearGradient>
+    <radialGradient id="cmlf1-glow" cx="0.5" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#ffe2a8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffe2a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cmlf1-cushion" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8dcc4"/>
+      <stop offset="1" stop-color="#cdbd9c"/>
+    </linearGradient>
+    <linearGradient id="cmlf1-catg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eb9d51"/>
+      <stop offset="1" stop-color="#c9762f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- warm wood-cabin backdrop -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#cmlf1-wallg)"/>
+  <rect x="0" y="205" width="480" height="95" fill="url(#cmlf1-floor)"/>
+  <rect x="0" y="0" width="480" height="300" fill="url(#cmlf1-glow)"/>
+  <path d="M0 44 h480 M0 92 h480 M0 140 h480" stroke="#4a3520" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- a cat picture frame on the wall -->
+  <g>
+    <rect x="34" y="28" width="92" height="64" rx="3" fill="#4a3520" stroke="#2f2213" stroke-width="3"/>
+    <rect x="43" y="37" width="74" height="46" fill="#e4d6b4"/>
+    <ellipse cx="80" cy="62" rx="24" ry="17" fill="#c7a877"/>
+    <path d="M62 48 q-3 -8 6 -7 q4 1 3 8z" fill="#c7a877"/>
+    <path d="M96 48 q3 -8 -6 -7 q-4 1 -3 8z" fill="#c7a877"/>
+    <circle cx="72" cy="58" r="2.6" fill="#4a3520"/>
+    <circle cx="88" cy="58" r="2.6" fill="#4a3520"/>
+    <path d="M80 66 q3 3 6 0" stroke="#4a3520" stroke-width="1.3" fill="none"/>
+  </g>
+
+  <!-- little shelf with a seated lucky-cat figurine -->
+  <g transform="translate(356 46)">
+    <rect x="0" y="52" width="86" height="9" fill="#3f2c18"/>
+    <g transform="translate(20 6)">
+      <ellipse cx="24" cy="46" rx="18" ry="6" fill="#000" opacity="0.15"/>
+      <path d="M4 44 q-4 -30 20 -32 q24 2 20 32 z" fill="#f2ece0" stroke="#c7bba0" stroke-width="1.4"/>
+      <ellipse cx="12" cy="42" rx="7" ry="4.5" fill="#f2ece0" stroke="#c7bba0" stroke-width="1"/>
+      <ellipse cx="36" cy="42" rx="7" ry="4.5" fill="#f2ece0" stroke="#c7bba0" stroke-width="1"/>
+      <circle cx="24" cy="16" r="13" fill="#f2ece0" stroke="#c7bba0" stroke-width="1.4"/>
+      <path d="M13 8 q-3 -9 6 -8 q5 1 3 8z" fill="#f2ece0" stroke="#c7bba0" stroke-width="1"/>
+      <path d="M35 8 q3 -9 -6 -8 q-5 1 -3 8z" fill="#f2ece0" stroke="#c7bba0" stroke-width="1"/>
+      <circle cx="19" cy="16" r="1.6" fill="#2f2213"/>
+      <circle cx="29" cy="16" r="1.6" fill="#2f2213"/>
+      <path d="M24 19 q2 2 4 0" stroke="#2f2213" stroke-width="1" fill="none"/>
+      <path d="M40 4 q7 -6 5 6 q-1 5 -6 3z" fill="#e8974a" stroke="#c26a20" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- side table with two cat-patterned mugs (kept fully in frame) -->
+  <g transform="translate(238 214)">
+    <ellipse cx="52" cy="60" rx="60" ry="9" fill="#000" opacity="0.16"/>
+    <rect x="0" y="0" width="104" height="13" rx="3" fill="#6b4c2a" stroke="#4a3520" stroke-width="2"/>
+    <rect x="6" y="13" width="8" height="42" fill="#4a3520"/>
+    <rect x="90" y="13" width="8" height="42" fill="#4a3520"/>
+    <g transform="translate(14 -26)">
+      <path d="M2 6 h22 l-2 22 q-1 3 -4 3 h-10 q-3 0 -4 -3 z" fill="#f2ece0" stroke="#a99a7d" stroke-width="1"/>
+      <path d="M24 10 q9 0 8 8 q-1 7 -9 6" fill="none" stroke="#a99a7d" stroke-width="2.5"/>
+      <ellipse cx="13" cy="6" rx="11" ry="2.4" fill="#e2d8c2"/>
+      <circle cx="9" cy="16" r="1.8" fill="#3a3a3a"/>
+    </g>
+    <g transform="translate(58 -22) scale(0.88)">
+      <path d="M2 6 h22 l-2 22 q-1 3 -4 3 h-10 q-3 0 -4 -3 z" fill="#f2ece0" stroke="#a99a7d" stroke-width="1"/>
+      <path d="M24 10 q9 0 8 8 q-1 7 -9 6" fill="none" stroke="#a99a7d" stroke-width="2.5"/>
+      <ellipse cx="13" cy="6" rx="11" ry="2.4" fill="#e2d8c2"/>
+      <circle cx="16" cy="20" r="1.6" fill="#3a3a3a"/>
+    </g>
+  </g>
+
+  <!-- the cushion -->
+  <path d="M40 244 q10 -20 66 -20 q62 0 72 20 q4 13 -8 19 q-60 11 -122 0 q-12 -6 -8 -19z" fill="url(#cmlf1-cushion)" stroke="#a99a7d" stroke-width="2"/>
+
+  <!-- the orange tabby: a curled "loaf" pose — body, wrapped tail, tucked paw, then head -->
+  <g transform="translate(60 168)">
+    <ellipse cx="76" cy="98" rx="86" ry="14" fill="#000" opacity="0.16"/>
+    <!-- body loaf -->
+    <path d="M10 96 q-6 -44 40 -50 q60 -8 96 14 q26 16 20 40 q-4 16 -30 20 q-64 12 -112 -2 q-18 -6 -14 -22z" fill="url(#cmlf1-catg)"/>
+    <!-- tail, wrapped forward around the loaf -->
+    <path d="M150 60 q28 6 24 34 q-3 18 -26 20 q-14 1 -20 -8 q14 2 20 -8 q5 -10 -6 -18 q-10 -8 -22 -4z" fill="#c9762f"/>
+    <!-- tabby stripes on the back -->
+    <path d="M60 46 q10 -6 22 0 M92 48 q10 -4 20 4 M120 58 q9 -2 16 6" stroke="#a85f22" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <!-- one tucked front paw, resting on the floor in front -->
+    <ellipse cx="46" cy="104" rx="15" ry="9" fill="#eb9d51" stroke="#c9762f" stroke-width="1"/>
+    <ellipse cx="46" cy="104" rx="15" ry="9" fill="#f5ead9" opacity="0.25"/>
+    <!-- head, sitting up and attached at the shoulders -->
+    <ellipse cx="34" cy="26" rx="27" ry="26" fill="url(#cmlf1-catg)"/>
+    <path d="M15 5 q-6 -17 10 -15 q8 2 6 16z" fill="#c9762f"/>
+    <path d="M53 5 q6 -17 -10 -15 q-8 2 -6 16z" fill="#c9762f"/>
+    <path d="M19 7 q-2 -9 7 -10 M49 7 q2 -9 -7 -10" stroke="#8a5222" stroke-width="1.8" fill="none"/>
+    <ellipse cx="25" cy="24" rx="4.6" ry="5.6" fill="#3a2c16"/>
+    <ellipse cx="43" cy="24" rx="4.6" ry="5.6" fill="#3a2c16"/>
+    <circle cx="26.4" cy="21.6" r="1.3" fill="#fff"/><circle cx="44.4" cy="21.6" r="1.3" fill="#fff"/>
+    <path d="M31 33 q3 2.6 6 0" stroke="#5a3a1c" stroke-width="1.3" fill="none"/>
+    <path d="M34 35 q-8 5 -15 1 M34 35 q8 5 15 1" stroke="#5a3a1c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M5 20 h-19 M5 27 h-18 M63 18 h19 M63 25 h18" stroke="#8a5222" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- Cinnamon, sitting a little apart on the floor, paw offered but not reaching in -->
+  <g transform="translate(304 158) rotate(3) scale(0.66)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="378" cy="278" rx="66" ry="9" fill="#000" opacity="0.14"/>
+</svg>
