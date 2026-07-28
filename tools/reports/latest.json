@@ -1,13 +1,13 @@
 {
-  "date": "2026-07-22",
-  "ran_at": "2026-07-22T05:29:00Z",
+  "date": "2026-07-28",
+  "ran_at": "2026-07-28T10:45:00Z",
   "completed": true,
   "changed": true,
-  "added_count": 3,
+  "added_count": 2,
   "pending_count": 0,
-  "skipped_count": 0,
-  "new_countries": [],
+  "skipped_count": 2,
+  "new_countries": ["germany"],
   "open_inbox_remaining": 0,
-  "approx_tokens": 95000,
-  "sms_body": "🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)\n\n📥 Submitted 2026-07-22 14:17 JST by anonymous (jasonsheinkopf@gmail.com)\n⚙️ Processed 2026-07-22 14:29 JST\n📧 Emailed jasonsheinkopf@gmail.com — thank-you sent\n\n✅ Added (3):\n• Columbia Gorge Museum, Stevenson WA — world's largest rosary collection\n  https://roadside-japan.pages.dev/attractions/columbia-gorge-museum-stevenson/\n• Fort Vancouver National Historic Site, Vancouver WA — rebuilt 1825 fur-trade fort, cannons + musket demos\n  https://roadside-japan.pages.dev/attractions/fort-vancouver-national-historic-site/\n• Fort Cascades National Historic Site, North Bonneville WA — 1855 army fort ruins on a quiet loop trail\n  https://roadside-japan.pages.dev/attractions/fort-cascades-national-historic-site/\n\nNo new countries.\n\n📊 ~95K tokens this run · 3 places\n\n— socks 🐈‍⬛ (cinnamon iz still measuring that 16-foot rosary in tail-lengths)"
+  "approx_tokens": 190000,
+  "sms_body": "(kept for audit continuity — the actual message was already sent via line-notify.yml in step 9, see §5)"
 }
