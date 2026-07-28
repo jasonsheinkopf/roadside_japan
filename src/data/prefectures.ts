@@ -32,6 +32,8 @@ export const REGIONS = [
   "Northern Vietnam",
   "Central Vietnam",
   "Southern Vietnam",
+  // Germany's regions (states live in the same list — see `country` below)
+  "Southern Germany",
 ] as const;
 export type Region = (typeof REGIONS)[number];
 
@@ -148,6 +150,9 @@ export const PREFECTURES: Prefecture[] = [
   { slug: "lam-dong", name: "Lam Dong", nameJa: "Lâm Đồng", region: "Central Vietnam", lat: 11.9404, lng: 108.4583, country: "vietnam" },
   { slug: "ho-chi-minh-city", name: "Ho Chi Minh City", nameJa: "TP. Hồ Chí Minh", region: "Southern Vietnam", lat: 10.8231, lng: 106.6297, country: "vietnam" },
   { slug: "can-tho", name: "Can Tho", nameJa: "Cần Thơ", region: "Southern Vietnam", lat: 10.0452, lng: 105.7469, country: "vietnam" },
+
+  // ---- Germany (states; added as the atlas expands beyond Asia/the Americas) ----
+  { slug: "baden-wurttemberg", name: "Baden-Württemberg", nameJa: "BW", region: "Southern Germany", lat: 48.6616, lng: 9.3501, country: "germany" },
 ];
 
 export const PREFECTURE_SLUGS = PREFECTURES.map((p) => p.slug) as [string, ...string[]];

@@ -136,5 +136,5 @@ export const MONTH_LABEL: Record<number, string> = {
  * Add a country here first, then give it metadata in src/data/countries.ts and regions/
  * provinces in src/data/prefectures.ts.
  */
-export const COUNTRIES = ["japan", "thailand", "usa", "vietnam"] as const;
+export const COUNTRIES = ["japan", "thailand", "usa", "vietnam", "germany"] as const;
 export type Country = (typeof COUNTRIES)[number];
