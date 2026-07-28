@@ -7,8 +7,8 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 
 ## Summary
 
-- Entries (published): **248**  ·  with real photo: **153**  ·  no photo: **95**
-- Drawn hero present: **12**  ·  full set (hero+snap1+snap2): **6**
+- Entries (published): **250**  ·  with real photo: **154**  ·  no photo: **96**
+- Drawn hero present: **13**  ·  full set (hero+snap1+snap2): **6**
 - **Priority queue (no photo, no drawn hero): 85** — listed first below.
 
 ## Priority queue — no photo, still needs a drawn hero (most-recent first)
@@ -105,6 +105,8 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
+| 2026-07-28 | The Rällinge of Abstatt | `raellinge-abstatt` | — | ✅ | — | — |
+| 2026-07-28 | Burg Wildeck | `burg-wildeck-abstatt` | ✅ | — | — | — |
 | 2026-07-25 | Cat Museum Lucky Field | `cat-museum-lucky-field` | — | — | ✅ | ✅ |
 | 2026-07-22 | Fort Cascades National Historic Site | `fort-cascades-national-historic-site` | — | ✅ | — | — |
 | 2026-07-22 | Fort Vancouver National Historic Site | `fort-vancouver-national-historic-site` | — | ✅ | — | — |

@@ -64,6 +64,16 @@ export const COUNTRY_META: Record<Country, CountryMeta> = {
     zoom: 5,
     currency: "VND ₫",
   },
+  germany: {
+    slug: "germany",
+    name: "Germany",
+    code: "DE",
+    flag: "🇩🇪",
+    tagline: "Hilltop castles turned wine labs, half-timbered villages, and a town full of painted tomcats.",
+    center: [51.1657, 10.4515],
+    zoom: 6,
+    currency: "EUR €",
+  },
 };
 
 export const COUNTRY_LIST: CountryMeta[] = Object.values(COUNTRY_META);
