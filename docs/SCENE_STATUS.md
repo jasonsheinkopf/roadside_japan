@@ -7,7 +7,7 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 
 ## Summary
 
-- Entries (published): **250**  ·  with real photo: **154**  ·  no photo: **96**
+- Entries (published): **252**  ·  with real photo: **156**  ·  no photo: **96**
 - Drawn hero present: **13**  ·  full set (hero+snap1+snap2): **6**
 - **Priority queue (no photo, no drawn hero): 85** — listed first below.
 
@@ -105,6 +105,8 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
+| 2026-07-29 | Solardraisine Überwaldbahn | `solardraisine-ueberwaldbahn` | ✅ | — | — | — |
+| 2026-07-29 | Deutsches Elfenbeinmuseum (German Ivory Museum) | `deutsches-elfenbeinmuseum-erbach` | ✅ | — | — | — |
 | 2026-07-28 | The Rällinge of Abstatt | `raellinge-abstatt` | — | ✅ | — | — |
 | 2026-07-28 | Burg Wildeck | `burg-wildeck-abstatt` | ✅ | — | — | — |
 | 2026-07-25 | Cat Museum Lucky Field | `cat-museum-lucky-field` | — | — | ✅ | ✅ |
