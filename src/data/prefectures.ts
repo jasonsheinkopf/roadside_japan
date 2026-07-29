@@ -153,6 +153,7 @@ export const PREFECTURES: Prefecture[] = [
 
   // ---- Germany (states; added as the atlas expands beyond Asia/the Americas) ----
   { slug: "baden-wurttemberg", name: "Baden-Württemberg", nameJa: "BW", region: "Southern Germany", lat: 48.6616, lng: 9.3501, country: "germany" },
+  { slug: "hesse", name: "Hesse", nameJa: "HE", region: "Southern Germany", lat: 50.6521, lng: 9.1624, country: "germany" },
 ];
 
 export const PREFECTURE_SLUGS = PREFECTURES.map((p) => p.slug) as [string, ...string[]];
