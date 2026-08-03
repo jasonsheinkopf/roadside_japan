@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="galb" data-title="Socks reads every label twice; Mon-chan sulks at a fluffier fox">
+<defs>
+  <linearGradient id="galb-wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0e6cc"/>
+    <stop offset="1" stop-color="#dfcda3"/>
+  </linearGradient>
+  <linearGradient id="galb-floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c79063"/>
+    <stop offset="1" stop-color="#8a5a35"/>
+  </linearGradient>
+  <linearGradient id="galb-frame" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6b5136"/>
+    <stop offset="1" stop-color="#3d2a1a"/>
+  </linearGradient>
+  <radialGradient id="galb-bulb" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#fff3d2" stop-opacity="0.8"/>
+    <stop offset="1" stop-color="#fff3d2" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- the whole small room, seen from further back and wider than the close-up -->
+<rect x="0" y="0" width="480" height="190" fill="url(#galb-wall)"/>
+<rect x="0" y="186" width="480" height="114" fill="url(#galb-floor)"/>
+<rect x="0" y="182" width="480" height="8" fill="#4a3324"/>
+<line x1="0" y1="6" x2="480" y2="6" stroke="#8a7a5e" stroke-width="2" opacity="0.35"/>
+<polygon points="400,6 480,6 480,190 430,190" fill="#000000" opacity="0.1"/>
+<rect x="462" y="40" width="18" height="140" fill="#2a1f15" opacity="0.55"/>
+
+<!-- floor perspective seams, receding toward the back wall -->
+<line x1="0" y1="300" x2="200" y2="188" stroke="#5c3d22" stroke-width="1.5" opacity="0.2"/>
+<line x1="480" y1="300" x2="280" y2="188" stroke="#5c3d22" stroke-width="1.5" opacity="0.2"/>
+<line x1="240" y1="300" x2="240" y2="188" stroke="#5c3d22" stroke-width="1.5" opacity="0.15"/>
+
+<!-- two little pendant lamps hung low over the tiny room -->
+<line x1="140" y1="6" x2="140" y2="26" stroke="#3a2a1c" stroke-width="1.4"/>
+<circle cx="140" cy="30" r="9" fill="url(#galb-bulb)"/>
+<circle cx="140" cy="30" r="3" fill="#fff3d2"/>
+<line x1="340" y1="6" x2="340" y2="26" stroke="#3a2a1c" stroke-width="1.4"/>
+<circle cx="340" cy="30" r="9" fill="url(#galb-bulb)"/>
+<circle cx="340" cy="30" r="3" fill="#fff3d2"/>
+
+<!-- a second, farther piece hazy in the back-left corner, just for depth -->
+<rect x="20" y="55" width="70" height="55" rx="2" fill="#4a3324" opacity="0.55"/>
+<ellipse cx="55" cy="82" rx="24" ry="18" fill="#7a8fa0" opacity="0.4"/>
+<rect x="20" y="55" width="70" height="55" rx="2" fill="#f0e6cc" opacity="0.12"/>
+
+<!-- a small potted plant tucked in the corner -->
+<path d="M6 176 L26 176 L23 192 L9 192 Z" fill="#7a4a34"/>
+<path d="M16 176 c-8,-5 -11,-14 -8,-22 c6,2 11,8 11,16 c5,-6 11,-9 16,-6 c-2,8 -10,12 -19,12 Z" fill="#3f6b45"/>
+
+<!-- the framed fox portrait, suspiciously fluffy -->
+<rect x="300" y="40" width="110" height="90" fill="url(#galb-frame)"/>
+<rect x="306" y="46" width="98" height="78" fill="#efe3c8"/>
+<rect x="312" y="52" width="86" height="66" fill="#f2ddc0"/>
+<polygon points="335,64 345,44 352,66" fill="#e8973f"/>
+<polygon points="378,64 372,44 366,66" fill="#e8973f"/>
+<ellipse cx="356" cy="90" rx="30" ry="26" fill="#e8973f"/>
+<path d="M330 84 q-10 -6 -18 2 M382 84 q10 -6 18 2 M334 100 q-8 4 -14 12 M378 100 q8 4 14 12" stroke="#e8973f" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.85"/>
+<path d="M356 96 q22 -2 26 20 q2 18 -26 20 q-24 -2 -26 -20 q2 -20 26 -20z" fill="#faf1de"/>
+<circle cx="345" cy="88" r="4" fill="#241c16"/>
+<circle cx="367" cy="88" r="4" fill="#241c16"/>
+<circle cx="346" cy="86.5" r="1.2" fill="#fff"/>
+<circle cx="368" cy="86.5" r="1.2" fill="#fff"/>
+<circle cx="356" cy="98" r="2.6" fill="#241c16"/>
+
+<!-- the fox's own little wall label -->
+<rect x="320" y="136" width="70" height="20" rx="1" fill="#f5ead2" stroke="#5c4630" stroke-width="1"/>
+<rect x="326" y="141" width="50" height="2.5" fill="#8a7a5e"/>
+<rect x="326" y="147" width="40" height="2.5" fill="#8a7a5e"/>
+
+<!-- the label Socks is parked in front of, close enough to reread it -->
+<circle cx="124" cy="176" r="1.6" fill="#3a2a1c"/>
+<rect x="95" y="176" width="58" height="34" rx="1" fill="#f5ead2" stroke="#5c4630" stroke-width="1"/>
+<rect x="101" y="183" width="46" height="2.6" fill="#8a7a5e"/>
+<rect x="101" y="190" width="40" height="2.6" fill="#8a7a5e"/>
+<rect x="101" y="197" width="44" height="2.6" fill="#8a7a5e"/>
+<rect x="101" y="204" width="30" height="2.6" fill="#8a7a5e"/>
+
+<!-- a low gallery bench between them -->
+<ellipse cx="235" cy="262" rx="46" ry="7" fill="#2a241c" opacity="0.16"/>
+<rect x="196" y="246" width="78" height="8" rx="2" fill="url(#galb-frame)"/>
+<path d="M204 254 v10 M266 254 v10" stroke="#3d2a1a" stroke-width="4" stroke-linecap="round"/>
+
+<!-- Socks, parked just beside the label so every line stays legible -->
+<ellipse cx="162" cy="268" rx="26" ry="6" fill="#2a241c" opacity="0.2"/>
+<g transform="translate(100 150) scale(0.62)">
+  <use href="#advc-socks" width="200" height="200"/>
+</g>
+
+<!-- Mon-chan, arms-crossed jealous of the fox's fur -->
+<ellipse cx="365" cy="268" rx="28" ry="6" fill="#2a241c" opacity="0.2"/>
+<g transform="translate(300 145) scale(0.65)">
+  <use href="#advc-mon" width="200" height="200"/>
+</g>
+<path d="M345 176 l7 -5 M344 183 l8 1" stroke="#c0392b" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+</svg>
