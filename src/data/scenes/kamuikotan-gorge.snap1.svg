@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmka" data-title="By the retired steam locomotive — Mon-chan insists he's driving">
+  <defs>
+    <linearGradient id="kmka-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6e2b3"/>
+      <stop offset="55%" stop-color="#e3c193"/>
+      <stop offset="100%" stop-color="#b9d0bd"/>
+    </linearGradient>
+    <linearGradient id="kmka-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a89778"/>
+      <stop offset="100%" stop-color="#7e6f56"/>
+    </linearGradient>
+    <linearGradient id="kmka-boiler" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="50%" stop-color="#232321"/>
+      <stop offset="100%" stop-color="#141412"/>
+    </linearGradient>
+    <radialGradient id="kmka-smokebox" cx="35%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#45443f"/>
+      <stop offset="100%" stop-color="#161613"/>
+    </radialGradient>
+    <linearGradient id="kmka-wheel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c1503a"/>
+      <stop offset="100%" stop-color="#7c2c1e"/>
+    </linearGradient>
+    <linearGradient id="kmka-cab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3f3e3a"/>
+      <stop offset="100%" stop-color="#242320"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="480" height="150" fill="url(#kmka-sky)"/>
+
+  <!-- distant autumn treeline behind the old station -->
+  <path d="M0,96 L0,80 L26,68 L54,80 L82,60 L112,78 L142,58 L172,76 L200,62 L228,78 L256,64 L284,80 L312,66 L340,80 L368,62 L400,78 L430,64 L460,80 L480,72 L480,96 Z" fill="#8a7256"/>
+  <g opacity="0.9">
+    <ellipse cx="14" cy="90" rx="15" ry="9" fill="#5c7a3c"/>
+    <ellipse cx="46" cy="86" rx="14" ry="9" fill="#93862f"/>
+    <ellipse cx="78" cy="82" rx="15" ry="9" fill="#c4913a"/>
+    <ellipse cx="110" cy="86" rx="14" ry="9" fill="#b8542f"/>
+    <ellipse cx="142" cy="82" rx="15" ry="9" fill="#93862f"/>
+    <ellipse cx="174" cy="86" rx="14" ry="9" fill="#5c7a3c"/>
+    <ellipse cx="206" cy="83" rx="15" ry="9" fill="#c4913a"/>
+    <ellipse cx="238" cy="87" rx="14" ry="9" fill="#a4451f"/>
+  </g>
+
+  <!-- old wooden station building, left background -->
+  <rect x="14" y="96" width="86" height="60" fill="#6c4732"/>
+  <path d="M6,96 L58,68 L110,96 Z" fill="#3f2a1f"/>
+  <rect x="34" y="112" width="20" height="20" fill="#2e2015"/>
+  <rect x="66" y="112" width="16" height="18" fill="#2e2015"/>
+  <rect x="20" y="150" width="74" height="8" fill="#4a3222"/>
+
+  <!-- telegraph pole -->
+  <line x1="188" y1="70" x2="188" y2="150" stroke="#4a3728" stroke-width="4"/>
+  <line x1="172" y1="86" x2="204" y2="86" stroke="#4a3728" stroke-width="3"/>
+
+  <!-- platform / gravel ground -->
+  <rect x="0" y="150" width="480" height="150" fill="url(#kmka-ground)"/>
+  <path d="M0,150 L480,150 L480,166 L0,166 Z" fill="#000000" opacity="0.08"/>
+
+  <!-- decommissioned rail line under the locomotive -->
+  <line x1="0" y1="272" x2="480" y2="272" stroke="#5c5344" stroke-width="4" opacity="0.7"/>
+  <line x1="0" y1="286" x2="480" y2="286" stroke="#5c5344" stroke-width="4" opacity="0.7"/>
+  <rect x="30" y="266" width="14" height="26" fill="#4a3d2c" opacity="0.7"/>
+  <rect x="140" y="266" width="14" height="26" fill="#4a3d2c" opacity="0.7"/>
+  <rect x="420" y="266" width="14" height="26" fill="#4a3d2c" opacity="0.7"/>
+
+  <!-- shadows under the locomotive and cast -->
+  <ellipse cx="300" cy="278" rx="150" ry="14" fill="#000000" opacity="0.22"/>
+
+  <!-- ===== retired steam locomotive, close and side-on ===== -->
+
+  <!-- cowcatcher / pilot at the front -->
+  <path d="M158,222 L214,196 L214,220 L176,236 Z" fill="#2e2d2a" stroke="#141412" stroke-width="2"/>
+  <line x1="168" y1="222" x2="200" y2="204" stroke="#5a5850" stroke-width="2"/>
+  <line x1="178" y1="228" x2="206" y2="210" stroke="#5a5850" stroke-width="2"/>
+  <rect x="170" y="196" width="10" height="16" fill="#a8382a"/>
+
+  <!-- pilot wheel -->
+  <circle cx="203" cy="238" r="17" fill="url(#kmka-wheel)" stroke="#141412" stroke-width="2"/>
+  <circle cx="203" cy="238" r="6" fill="#2a2a26"/>
+
+  <!-- boiler barrel -->
+  <path d="M200,150 L400,150 Q412,150 412,163 L412,208 Q412,220 400,220 L206,220 Q194,220 194,206 L194,164 Q194,150 200,150 Z" fill="url(#kmka-boiler)" stroke="#0e0e0c" stroke-width="2"/>
+  <line x1="240" y1="150" x2="240" y2="220" stroke="#0e0e0c" stroke-width="3" opacity="0.6"/>
+  <line x1="330" y1="150" x2="330" y2="220" stroke="#0e0e0c" stroke-width="3" opacity="0.6"/>
+
+  <!-- smokebox front cap -->
+  <circle cx="210" cy="184" r="34" fill="url(#kmka-smokebox)" stroke="#0e0e0c" stroke-width="2"/>
+  <circle cx="210" cy="184" r="20" fill="none" stroke="#4a4a44" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="200" cy="176" r="2.4" fill="#5a5a52"/>
+  <circle cx="220" cy="176" r="2.4" fill="#5a5a52"/>
+  <circle cx="210" cy="196" r="2.4" fill="#5a5a52"/>
+
+  <!-- headlamp -->
+  <circle cx="212" cy="146" r="9" fill="#e8c25a" stroke="#8a6a20" stroke-width="2"/>
+  <circle cx="212" cy="146" r="4" fill="#fff2c8"/>
+
+  <!-- smokestack -->
+  <rect x="238" y="104" width="18" height="46" fill="#1c1c1a" stroke="#0e0e0c" stroke-width="1.5"/>
+  <path d="M232,104 Q247,92 262,104 L258,112 L236,112 Z" fill="#1c1c1a" stroke="#0e0e0c" stroke-width="1.5"/>
+
+  <!-- steam dome -->
+  <path d="M280,150 Q280,124 300,124 Q320,124 320,150 Z" fill="#232321" stroke="#0e0e0c" stroke-width="2"/>
+
+  <!-- little puffs of steam drifting up -->
+  <ellipse cx="248" cy="98" rx="12" ry="9" fill="#f4efe4" opacity="0.6"/>
+  <ellipse cx="258" cy="76" rx="15" ry="10" fill="#f4efe4" opacity="0.42"/>
+  <ellipse cx="250" cy="52" rx="19" ry="12" fill="#f4efe4" opacity="0.28"/>
+
+  <!-- running board -->
+  <rect x="194" y="220" width="218" height="7" fill="#4a4842"/>
+
+  <!-- driving wheels -->
+  <circle cx="256" cy="252" r="34" fill="url(#kmka-wheel)" stroke="#141412" stroke-width="2.5"/>
+  <circle cx="256" cy="252" r="12" fill="#2a2a26"/>
+  <line x1="256" y1="222" x2="256" y2="282" stroke="#3a1a12" stroke-width="4"/>
+  <line x1="226" y1="252" x2="286" y2="252" stroke="#3a1a12" stroke-width="4"/>
+
+  <circle cx="352" cy="252" r="34" fill="url(#kmka-wheel)" stroke="#141412" stroke-width="2.5"/>
+  <circle cx="352" cy="252" r="12" fill="#2a2a26"/>
+  <line x1="352" y1="222" x2="352" y2="282" stroke="#3a1a12" stroke-width="4"/>
+  <line x1="322" y1="252" x2="382" y2="252" stroke="#3a1a12" stroke-width="4"/>
+
+  <!-- connecting rod -->
+  <rect x="256" y="246" width="96" height="8" rx="3" fill="#5a5850" stroke="#141412" stroke-width="1.5"/>
+
+  <!-- cab, cropped at the edge of frame -->
+  <path d="M400,150 L462,150 L474,172 L474,232 L400,232 Z" fill="url(#kmka-cab)" stroke="#0e0e0c" stroke-width="2"/>
+  <path d="M392,150 L472,150 L480,166 L392,166 Z" fill="#1c1c1a" stroke="#0e0e0c" stroke-width="1.5"/>
+  <rect x="414" y="164" width="38" height="30" rx="3" fill="#bcd6d2" opacity="0.75" stroke="#0e0e0c" stroke-width="1.5"/>
+  <rect x="404" y="232" width="20" height="10" fill="#2a2a26"/>
+  <rect x="440" y="232" width="20" height="10" fill="#2a2a26"/>
+  <line x1="404" y1="196" x2="472" y2="196" stroke="#0e0e0c" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- handrail up to the footplate -->
+  <path d="M392,232 Q388,206 400,192" stroke="#8a8578" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Mon-chan, up on the footplate, thoroughly pleased with himself -->
+  <ellipse cx="424" cy="250" rx="26" ry="7" fill="#000000" opacity="0.22"/>
+  <g transform="translate(388 132) rotate(-5) scale(0.5)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+
+  <!-- the reversing lever he's gripping, right beside him -->
+  <path d="M462,232 L458,190" stroke="#c9a24a" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="457" cy="186" r="5.5" fill="#c9a24a"/>
+
+  <!-- Cinnamon, standing by the front wheel, admiring the engine -->
+  <ellipse cx="96" cy="272" rx="52" ry="12" fill="#000000" opacity="0.22"/>
+  <g transform="translate(20 108) scale(0.66)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+
+  <!-- fallen autumn leaves on the platform -->
+  <path d="M120,282 Q126,276 133,282 Q126,288 120,282 Z" fill="#c9552f" opacity="0.85"/>
+  <path d="M450,266 Q456,260 463,266 Q456,272 450,266 Z" fill="#d9ab3a" opacity="0.85"/>
+</svg>

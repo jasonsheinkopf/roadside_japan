@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmkb" data-title="Peering into a five-meter pothole, tail held well back from the edge">
+  <defs>
+    <linearGradient id="kmkb-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfe9ea"/>
+      <stop offset="100%" stop-color="#aac2c6"/>
+    </linearGradient>
+    <linearGradient id="kmkb-wallfar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6c7c5f"/>
+      <stop offset="100%" stop-color="#4a5a40"/>
+    </linearGradient>
+    <linearGradient id="kmkb-river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fb9bc"/>
+      <stop offset="100%" stop-color="#296066"/>
+    </linearGradient>
+    <linearGradient id="kmkb-shelf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8f9a80"/>
+      <stop offset="100%" stop-color="#5a6350"/>
+    </linearGradient>
+    <radialGradient id="kmkb-rim" cx="42%" cy="36%" r="65%">
+      <stop offset="0%" stop-color="#8b9578"/>
+      <stop offset="100%" stop-color="#525c46"/>
+    </radialGradient>
+    <radialGradient id="kmkb-pit" cx="42%" cy="34%" r="70%">
+      <stop offset="0%" stop-color="#495143"/>
+      <stop offset="55%" stop-color="#232a20"/>
+      <stop offset="100%" stop-color="#0e120d"/>
+    </radialGradient>
+    <radialGradient id="kmkb-pool" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#5c9498"/>
+      <stop offset="100%" stop-color="#1c4a4e"/>
+    </radialGradient>
+  </defs>
+
+  <!-- full-canvas safety net so no seam between the hand-fitted shapes can ever show through -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#kmkb-shelf)"/>
+
+  <!-- high, wide view: sky sliver, far gorge walls, and the river passing beyond the rock shelf -->
+  <rect x="0" y="0" width="480" height="52" fill="url(#kmkb-sky)"/>
+  <path d="M0,80 L0,32 L60,46 L120,18 L190,42 L240,14 L300,40 L360,20 L420,42 L480,22 L480,80 Z" fill="url(#kmkb-wallfar)"/>
+  <g opacity="0.85">
+    <ellipse cx="30" cy="42" rx="13" ry="7" fill="#93862f"/>
+    <ellipse cx="90" cy="34" rx="12" ry="7" fill="#b8542f"/>
+    <ellipse cx="150" cy="38" rx="13" ry="7" fill="#5c7a3c"/>
+    <ellipse cx="210" cy="32" rx="12" ry="7" fill="#c4913a"/>
+    <ellipse cx="270" cy="36" rx="13" ry="7" fill="#93862f"/>
+    <ellipse cx="330" cy="34" rx="12" ry="7" fill="#a4451f"/>
+    <ellipse cx="390" cy="38" rx="13" ry="7" fill="#5c7a3c"/>
+    <ellipse cx="440" cy="32" rx="12" ry="7" fill="#c4913a"/>
+  </g>
+
+  <!-- the Ishikari River sliding past below the far wall -->
+  <path d="M0,58 Q140,74 260,60 Q380,48 480,64 L480,108 Q360,88 240,100 Q120,112 0,96 Z" fill="url(#kmkb-river)"/>
+  <path d="M40,72 Q160,84 280,70" stroke="#eaf6f2" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M220,90 Q340,76 460,92" stroke="#eaf6f2" stroke-width="2" fill="none" opacity="0.35"/>
+
+  <!-- the great rock shelf, seen from above, filling the lower frame -->
+  <path d="M0,96 Q120,112 240,100 Q360,88 480,108 L480,300 L0,300 Z" fill="url(#kmkb-shelf)"/>
+  <path d="M20,132 Q160,112 300,124 Q400,132 480,118" stroke="#3a4232" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M0,190 Q120,172 220,182" stroke="#3a4232" stroke-width="2" fill="none" opacity="0.35"/>
+  <path d="M340,220 Q420,204 480,214" stroke="#3a4232" stroke-width="2" fill="none" opacity="0.35"/>
+
+  <!-- the pothole: a house-sized hollow drilled into the schist, foreshortened from above -->
+  <ellipse cx="196" cy="196" rx="140" ry="82" fill="url(#kmkb-rim)"/>
+  <ellipse cx="196" cy="198" rx="112" ry="66" fill="url(#kmkb-pit)"/>
+  <ellipse cx="196" cy="204" rx="78" ry="45" fill="#161c14" opacity="0.85"/>
+  <ellipse cx="182" cy="216" rx="38" ry="20" fill="url(#kmkb-pool)"/>
+  <ellipse cx="170" cy="210" rx="12" ry="6" fill="#bfe3e2" opacity="0.5"/>
+
+  <!-- smooth swirl-cut striations on the pothole wall, following the current's spiral -->
+  <path d="M104,178 Q160,140 236,150 Q292,158 288,196" stroke="#6b7660" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M118,224 Q160,246 224,240 Q272,236 284,208" stroke="#3d4636" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M96,196 Q90,160 122,140" stroke="#6b7660" stroke-width="2.5" fill="none" opacity="0.45"/>
+
+  <!-- pebbles and a few worn cobbles scattered on the shelf around the rim -->
+  <ellipse cx="70" cy="150" rx="9" ry="6" fill="#7a8368"/>
+  <ellipse cx="60" cy="230" rx="11" ry="7" fill="#6a7358"/>
+  <ellipse cx="360" cy="170" rx="10" ry="7" fill="#7a8368"/>
+  <ellipse cx="410" cy="230" rx="13" ry="8" fill="#6a7358"/>
+  <ellipse cx="330" cy="256" rx="9" ry="6" fill="#7a8368"/>
+
+  <!-- a hardy little pine rooted in a crack, for scale -->
+  <line x1="420" y1="150" x2="420" y2="126" stroke="#5c4a34" stroke-width="4"/>
+  <ellipse cx="420" cy="120" rx="16" ry="14" fill="#3f5934"/>
+  <ellipse cx="410" cy="128" rx="10" ry="9" fill="#4c6b3f"/>
+
+  <!-- fallen autumn leaves caught at the rim -->
+  <path d="M280,150 Q286,144 293,150 Q286,156 280,150 Z" fill="#c9552f" opacity="0.85"/>
+  <path d="M90,168 Q96,162 103,168 Q96,174 90,168 Z" fill="#d9ab3a" opacity="0.85"/>
+
+  <!-- Cinnamon's shadow, cast low and long across the shelf -->
+  <ellipse cx="316" cy="238" rx="58" ry="14" fill="#000000" opacity="0.22"/>
+
+  <!-- Cinnamon at the rim, leaning in to peer down, tail swept back on solid ground, well clear of the edge -->
+  <g transform="translate(254 92) rotate(-4) scale(0.66)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <path d="M382,198 Q400,208 396,226" stroke="#8a6c49" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.85"/>
+</svg>
