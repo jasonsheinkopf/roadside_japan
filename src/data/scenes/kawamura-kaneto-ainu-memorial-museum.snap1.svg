@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kwaa" data-title="Halfway into the cise doorway, stopped by a gentle hand">
+  <defs>
+    <linearGradient id="kwaa-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa9c4"/>
+      <stop offset="1" stop-color="#e9d9bd"/>
+    </linearGradient>
+    <linearGradient id="kwaa-thatch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbb26a"/>
+      <stop offset="1" stop-color="#8a7040"/>
+    </linearGradient>
+    <linearGradient id="kwaa-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b4a34"/>
+      <stop offset="1" stop-color="#382c1e"/>
+    </linearGradient>
+    <linearGradient id="kwaa-beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c6038"/>
+      <stop offset="1" stop-color="#43311d"/>
+    </linearGradient>
+    <radialGradient id="kwaa-glow" cx="0.5" cy="0.72" r="0.62">
+      <stop offset="0" stop-color="#ffe6ad" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#ff9d43" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ff9d43" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kwaa-sill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c703e"/>
+      <stop offset="1" stop-color="#5a4326"/>
+    </linearGradient>
+    <linearGradient id="kwaa-dirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a68a63"/>
+      <stop offset="1" stop-color="#7a6244"/>
+    </linearGradient>
+    <linearGradient id="kwaa-sleeve" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#26374a"/>
+      <stop offset="1" stop-color="#3d5266"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky sliver above the eave -->
+  <rect x="0" y="0" width="480" height="90" fill="url(#kwaa-sky)"/>
+
+  <!-- steep thatched eave, cropped close, edge cutting across the top of frame -->
+  <path d="M-10 -10 L490 -10 L490 58 Q360 96 240 78 Q120 62 30 92 L-10 84 Z" fill="url(#kwaa-thatch)" stroke="#5f4e29" stroke-width="1.5"/>
+  <path d="M20 46 Q140 24 240 40" stroke="#7a6537" stroke-width="1.6" opacity="0.55" fill="none"/>
+  <path d="M40 62 Q150 42 250 56" stroke="#7a6537" stroke-width="1.6" opacity="0.5" fill="none"/>
+  <path d="M300 30 Q400 18 470 34" stroke="#6e5a30" stroke-width="1.6" opacity="0.55" fill="none"/>
+  <path d="M290 52 Q390 40 470 54" stroke="#6e5a30" stroke-width="1.6" opacity="0.5" fill="none"/>
+
+  <!-- wall below the eave -->
+  <rect x="0" y="86" width="480" height="214" fill="url(#kwaa-wall)"/>
+  <path d="M20 96 L20 250" stroke="#443723" stroke-width="1.2" opacity="0.5"/>
+  <path d="M44 100 L44 250" stroke="#443723" stroke-width="1.2" opacity="0.5"/>
+  <path d="M400 100 L400 250" stroke="#443723" stroke-width="1.2" opacity="0.5"/>
+  <path d="M432 96 L432 250" stroke="#443723" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- doorway opening: low, dark up top, a spill of hearth light low near the threshold -->
+  <rect x="168" y="94" width="140" height="166" fill="#150d07"/>
+  <ellipse cx="234" cy="216" rx="72" ry="55" fill="url(#kwaa-glow)"/>
+
+  <!-- carved lintel pattern above the doorway -->
+  <rect x="160" y="80" width="156" height="16" fill="url(#kwaa-beam)"/>
+  <path d="M172 90 Q180 84 188 90 Q196 84 204 90 Q212 84 220 90 Q228 84 236 90 Q244 84 252 90 Q260 84 268 90 Q276 84 284 90 Q292 84 300 90" fill="none" stroke="#2e2210" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- door frame posts -->
+  <rect x="156" y="80" width="14" height="180" fill="url(#kwaa-beam)"/>
+  <rect x="306" y="80" width="14" height="180" fill="url(#kwaa-beam)"/>
+
+  <!-- low threshold sill Cinnamon is caught straddling -->
+  <rect x="150" y="244" width="180" height="20" fill="url(#kwaa-sill)" stroke="#3a2b18" stroke-width="1.2"/>
+  <path d="M158 250 L322 250" stroke="#3a2b18" stroke-width="1" opacity="0.6"/>
+
+  <!-- exterior packed-earth ground, right up against the lens -->
+  <rect x="0" y="264" width="480" height="36" fill="url(#kwaa-dirt)"/>
+  <circle cx="60" cy="284" r="4" fill="#5f4c34" opacity="0.6"/>
+  <circle cx="420" cy="288" r="5" fill="#5f4c34" opacity="0.6"/>
+  <path d="M90 298 q2 -12 6 0" stroke="#4c6636" stroke-width="2" fill="none"/>
+  <path d="M400 298 q2 -11 6 0" stroke="#4c6636" stroke-width="2" fill="none"/>
+
+  <!-- contact shadow on the sill -->
+  <ellipse cx="232" cy="226" rx="62" ry="9" fill="#100a05" opacity="0.4"/>
+
+  <!-- Cinnamon, standing his full height in a doorway too low for him: haunches and
+       tail still out at the sill, ears already grazing the dark under the lintel,
+       tail overlapping the right frame post and spilling out onto the wall -->
+  <g transform="translate(150 76) scale(0.72)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <!-- the unlit upper doorway swallowing his head and shoulders in shadow -->
+  <path d="M198 96 Q246 82 300 100 Q308 130 296 160 Q250 178 208 162 Q192 128 198 96Z" fill="#0d0805" opacity="0.62"/>
+
+  <!-- a plain staff sleeve and open hand, reaching in from the doorway's edge — a gentle "not yet" -->
+  <path d="M394 60 Q356 84 330 128 Q318 150 322 168 L338 162 Q338 142 350 122 Q368 92 400 74 Z" fill="url(#kwaa-sleeve)" stroke="#182432" stroke-width="1.2"/>
+  <path d="M336 92 L360 78" stroke="#e9d9bd" stroke-width="2" opacity="0.4"/>
+  <path d="M320 166 Q306 168 300 178 Q296 188 306 192 Q318 196 326 186 Q332 176 326 168 Q324 164 320 166Z" fill="#d8b596"/>
+  <path d="M312 170 Q302 172 298 180 M318 172 Q310 176 306 184 M324 176 Q318 182 316 190" stroke="#c49a78" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+</svg>
