@@ -23,7 +23,7 @@ Interactive triage publishes or skips. Automated triage has **three** buckets. D
 
 | Outcome | When | What you do |
 | --- | --- | --- |
-| **PUBLISH** (`approval: published`) | Verified through independent sources **and** clears every safety check below with no doubt at all. | Author the full entry (photo pipeline + Cinnamon scene) and publish. |
+| **PUBLISH** (`approval: published`) | Verified through independent sources **and** clears every safety check below with no doubt at all. | Author the full entry (photo pipeline + Scene Art hero if no photo + Cinnamon block) and publish. |
 | **HOLD** (`approval: pending`) | Genuinely interesting and probably fine, but touches *any* sensitive area below, or verification is thin/single-source, or you had to make a judgment call. | Author the entry but leave it `pending` so it stays **off** the public site. List it in the report as "held for review." |
 | **REJECT** (no entry) | Fails a safety check, is unverifiable, is spam/promotional, or is off-mission. | Create nothing. Record why in the triage comment and the report. |
 
@@ -79,8 +79,9 @@ A candidate that trips any of these is **REJECT**, unless a clearly legitimate f
 
 9. **Images.** Only Wikimedia Commons / clearly-licensed photos via the pipeline in
    `docs/PHOTO_ENRICHMENT.md`. The image must genuinely show the place and contain nothing
-   nudity/shock/graphic. Any doubt about an image → ship the entry with **no photo** (the
-   Cinnamon scene becomes the hero). Never hotlink or guess.
+   nudity/shock/graphic. Any doubt about an image → ship the entry with **no photo** — and in
+   that case, **drawing a Scene Art `hero` (required, see §3 below) is not optional.** Never
+   hotlink or guess an image.
 
 10. **General taste line.** The atlas can be quirky, macabre-lite, and not-for-toddlers. It must
     never be gross-out, cruel, demeaning, or something the maintainer would be embarrassed to
@@ -129,8 +130,22 @@ worth it below a few places.
    vector vignettes, no story arc required; new entries only). If the
    submitter's note contained a genuine recommendation, carry it as `visitorTip: { text, by }`.
    When a real hero photo exists, it's the page's main image — don't also copy it into
-   `photos[]` (the camera roll is for genuinely *additional* photos, not a second hero); when
-   there's no real photo, the hero is a place-representing vector scene, not Cinnamon himself.
+   `photos[]` (the camera roll is for genuinely *additional* photos, not a second hero).
+
+   **Required — no real photo → draw a Scene Art hero.** This is a required step, not a
+   nice-to-have — do not ship a photo-less entry with only the emoji `PlaceScene` fallback. Per
+   `docs/SCENE_ART.md` (§1–§4, §7): spawn a **Sonnet** subagent (or draw it yourself if you are
+   already Sonnet) to produce `src/data/scenes/<slug>.hero.svg` — a genuine illustration of the
+   place, no cast, viewBox `0 0 480 300`, a unique `data-prefix`, ≥20 shapes, grounded in the
+   entry's real facts (read the content file for subject matter). The agent must iterate:
+   `python3 scripts/validate-scenes.py <file>` to zero violations, then
+   `node scripts/preview-scene.mjs <file> /tmp/out.png` and actually look at the render,
+   fixing anything broken/floating/uncanny before calling it done — one shot with no visual
+   check is not acceptable. This runs **per photo-less entry**, same as the photo pipeline; it
+   is not optional busywork to skip under time pressure. After authoring, regenerate the ledger
+   (`python3 scripts/scene-status.py`) so `docs/SCENE_STATUS.md` stays accurate — the maintainer
+   uses it to track what's been upgraded.
+
    Set `createdAt`/`updatedAt` to the **full ISO timestamp** (e.g.
    `2026-07-17T05:32:00Z`), not a bare date — `/new` orders entries to the minute. Leave the
    structured triage comment on each issue **as a new comment, never as a body edit** — see
