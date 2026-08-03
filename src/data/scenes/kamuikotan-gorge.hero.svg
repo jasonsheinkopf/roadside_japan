@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmkg" data-title="Kamuikotan Gorge — schist canyon of the Ishikari River, autumn">
+  <defs>
+    <linearGradient id="kmkg-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="120">
+      <stop offset="0%" stop-color="#f6e2b3"/>
+      <stop offset="45%" stop-color="#e8c495"/>
+      <stop offset="100%" stop-color="#b7cfd6"/>
+    </linearGradient>
+    <radialGradient id="kmkg-sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff2ca" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#fff2ca" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kmkg-ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#96a4bd"/>
+      <stop offset="100%" stop-color="#6c7e97"/>
+    </linearGradient>
+    <linearGradient id="kmkg-wallL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#61705a"/>
+      <stop offset="55%" stop-color="#434f3e"/>
+      <stop offset="100%" stop-color="#2a3426"/>
+    </linearGradient>
+    <linearGradient id="kmkg-wallR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#687860"/>
+      <stop offset="55%" stop-color="#485542"/>
+      <stop offset="100%" stop-color="#2d3929"/>
+    </linearGradient>
+    <linearGradient id="kmkg-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#86c0c2"/>
+      <stop offset="45%" stop-color="#3e8f93"/>
+      <stop offset="100%" stop-color="#1a5b63"/>
+    </linearGradient>
+    <radialGradient id="kmkg-pothole" cx="42%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#4d5c53"/>
+      <stop offset="60%" stop-color="#232c25"/>
+      <stop offset="100%" stop-color="#10140f"/>
+    </radialGradient>
+    <linearGradient id="kmkg-rock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8f9480"/>
+      <stop offset="100%" stop-color="#565b48"/>
+    </linearGradient>
+    <linearGradient id="kmkg-wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8c4c3b"/>
+      <stop offset="100%" stop-color="#5c2f24"/>
+    </linearGradient>
+    <clipPath id="kmkg-wallLClip">
+      <path d="M0,28 L0,300 L206,300 L166,208 L134,150 L100,104 L64,64 L28,38 Z"/>
+    </clipPath>
+    <clipPath id="kmkg-wallRClip">
+      <path d="M480,24 L480,300 L284,300 L320,214 L350,154 L384,110 L414,70 L450,40 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- sky (full-canvas safety net so no gap can ever show through) -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#kmkg-sky)"/>
+  <circle cx="243" cy="66" r="66" fill="url(#kmkg-sun)"/>
+
+  <!-- distant ridge with autumn treeline: many small overlapping canopy clusters along a
+       continuous baseline (not a few giant color blobs), so it reads as a forested hillside -->
+  <path d="M0,102 L0,86 L34,72 L68,86 L98,62 L138,82 L172,58 L212,80 Q244,56 276,78 L314,60 L354,84 L392,64 L428,84 L480,68 L480,102 Z" fill="url(#kmkg-ridge)"/>
+  <g>
+    <ellipse cx="10" cy="99" rx="16" ry="10" fill="#3f5934"/>
+    <ellipse cx="32" cy="93" rx="15" ry="10" fill="#4c6b3f"/>
+    <ellipse cx="54" cy="97" rx="16" ry="11" fill="#587a4a"/>
+    <ellipse cx="77" cy="90" rx="15" ry="10" fill="#3f5934"/>
+    <ellipse cx="99" cy="95" rx="16" ry="10" fill="#5c8a3f"/>
+    <ellipse cx="121" cy="88" rx="15" ry="10" fill="#7fa347"/>
+    <ellipse cx="143" cy="93" rx="16" ry="11" fill="#9bb84a"/>
+    <ellipse cx="165" cy="86" rx="15" ry="10" fill="#c4a83a"/>
+    <ellipse cx="187" cy="91" rx="16" ry="10" fill="#d9ab3a"/>
+    <ellipse cx="209" cy="84" rx="15" ry="10" fill="#e3bb52"/>
+    <ellipse cx="231" cy="89" rx="16" ry="11" fill="#c49527"/>
+    <ellipse cx="253" cy="82" rx="15" ry="10" fill="#d68a3a"/>
+    <ellipse cx="275" cy="87" rx="16" ry="10" fill="#c8583f"/>
+    <ellipse cx="297" cy="80" rx="15" ry="10" fill="#b8432f"/>
+    <ellipse cx="319" cy="85" rx="16" ry="11" fill="#a43622"/>
+    <ellipse cx="341" cy="83" rx="15" ry="10" fill="#c8583f"/>
+    <ellipse cx="363" cy="88" rx="16" ry="10" fill="#d97a2c"/>
+    <ellipse cx="385" cy="86" rx="15" ry="10" fill="#e6923f"/>
+    <ellipse cx="407" cy="90" rx="16" ry="11" fill="#c1671e"/>
+    <ellipse cx="429" cy="87" rx="15" ry="10" fill="#d97a2c"/>
+    <ellipse cx="451" cy="92" rx="16" ry="10" fill="#a85c22"/>
+    <ellipse cx="470" cy="95" rx="14" ry="9" fill="#8a4a1c"/>
+  </g>
+
+  <!-- gorge walls -->
+  <path d="M0,28 L0,300 L206,300 L166,208 L134,150 L100,104 L64,64 L28,38 Z" fill="url(#kmkg-wallL)"/>
+  <path d="M480,24 L480,300 L284,300 L320,214 L350,154 L384,110 L414,70 L450,40 Z" fill="url(#kmkg-wallR)"/>
+
+  <!-- schist strata lines, clipped to the wall faces -->
+  <g clip-path="url(#kmkg-wallLClip)">
+    <path d="M14,44 Q68,110 148,232" stroke="#20291c" stroke-width="4" fill="none" opacity="0.45"/>
+    <path d="M34,40 Q88,114 168,252" stroke="#20291c" stroke-width="4" fill="none" opacity="0.4"/>
+    <path d="M54,47 Q108,120 184,268" stroke="#1b2318" stroke-width="3" fill="none" opacity="0.35"/>
+    <path d="M74,54 Q124,128 196,282" stroke="#1b2318" stroke-width="3" fill="none" opacity="0.3"/>
+  </g>
+  <g clip-path="url(#kmkg-wallRClip)">
+    <path d="M466,38 Q412,108 332,230" stroke="#1e2718" stroke-width="4" fill="none" opacity="0.45"/>
+    <path d="M446,36 Q392,112 312,250" stroke="#1e2718" stroke-width="4" fill="none" opacity="0.4"/>
+    <path d="M426,44 Q372,120 296,266" stroke="#192115" stroke-width="3" fill="none" opacity="0.35"/>
+    <path d="M406,52 Q352,130 284,280" stroke="#192115" stroke-width="3" fill="none" opacity="0.3"/>
+  </g>
+
+  <!-- river -->
+  <path d="M196,92 Q160,182 0,300 L480,300 Q320,182 284,92 Q240,78 196,92 Z" fill="url(#kmkg-water)"/>
+
+  <!-- rapids / foam -->
+  <path d="M238,106 Q232,158 206,218 Q188,258 152,296" stroke="#eaf6f2" stroke-width="3" fill="none" opacity="0.55" stroke-linecap="round"/>
+  <path d="M262,110 Q266,162 288,222 Q302,258 332,294" stroke="#eaf6f2" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M222,150 Q198,196 158,240" stroke="#f4faf8" stroke-width="2.5" fill="none" opacity="0.45" stroke-linecap="round"/>
+  <path d="M270,150 Q296,196 340,238" stroke="#f4faf8" stroke-width="2.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M244,190 Q240,222 224,254" stroke="#eaf6f2" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- midstream rocks -->
+  <ellipse cx="216" cy="178" rx="10" ry="6" fill="#2c352c"/>
+  <ellipse cx="260" cy="200" rx="8" ry="5" fill="#333d31"/>
+  <ellipse cx="230" cy="230" rx="9" ry="5" fill="#2c352c"/>
+
+  <!-- old rail line along right bank -->
+  <path d="M330,150 L480,110 L480,140 L344,176 Z" fill="#3a3a32"/>
+  <path d="M335,169 L478,120" stroke="#c9c9be" stroke-width="1.5" opacity="0.85" fill="none"/>
+  <path d="M341,174 L478,128" stroke="#c9c9be" stroke-width="1.5" opacity="0.85" fill="none"/>
+  <line x1="346" y1="163" x2="353" y2="177" stroke="#463527" stroke-width="2.5"/>
+  <line x1="373" y1="152" x2="380" y2="166" stroke="#463527" stroke-width="2.5"/>
+  <line x1="400" y1="140" x2="407" y2="154" stroke="#463527" stroke-width="2.5"/>
+  <line x1="427" y1="129" x2="434" y2="143" stroke="#463527" stroke-width="2.5"/>
+  <line x1="454" y1="117" x2="461" y2="131" stroke="#463527" stroke-width="2.5"/>
+
+  <!-- small shrine on a left-wall ledge -->
+  <ellipse cx="70" cy="236" rx="27" ry="8" fill="url(#kmkg-rock)"/>
+  <rect x="60" y="223" width="20" height="6" fill="#6c6c5f"/>
+  <rect x="63" y="206" width="14" height="17" fill="url(#kmkg-wood)"/>
+  <path d="M58,206 L70,192 L82,206 Z" fill="#472720"/>
+  <rect x="68" y="213" width="4" height="9" fill="#a83b2a"/>
+
+  <!-- foreground rock shelf, right, with house-sized potholes -->
+  <path d="M300,232 L480,180 L480,300 L300,300 Z" fill="url(#kmkg-rock)"/>
+  <ellipse cx="360" cy="248" rx="29" ry="16" fill="#7d8570"/>
+  <ellipse cx="360" cy="250" rx="21" ry="11" fill="url(#kmkg-pothole)"/>
+  <ellipse cx="424" cy="212" rx="23" ry="13" fill="#7d8570"/>
+  <ellipse cx="424" cy="214" rx="16" ry="9" fill="url(#kmkg-pothole)"/>
+  <ellipse cx="446" cy="264" rx="17" ry="9" fill="#7d8570"/>
+  <ellipse cx="446" cy="265" rx="11" ry="6" fill="url(#kmkg-pothole)"/>
+
+  <!-- foreground rock outcrop, left, with a smaller pothole -->
+  <path d="M0,262 L92,230 L122,300 L0,300 Z" fill="url(#kmkg-rock)"/>
+  <ellipse cx="52" cy="272" rx="15" ry="8" fill="#7d8570"/>
+  <ellipse cx="52" cy="273" rx="10" ry="5" fill="url(#kmkg-pothole)"/>
+
+  <!-- floating autumn leaves on the water -->
+  <path d="M150,268 Q156,262 163,268 Q156,274 150,268 Z" fill="#c9552f" opacity="0.85"/>
+  <path d="M300,272 Q306,266 313,272 Q306,278 300,272 Z" fill="#d9ab3a" opacity="0.85"/>
+  <path d="M210,286 Q216,280 223,286 Q216,292 210,286 Z" fill="#b8432f" opacity="0.8"/>
+</svg>
