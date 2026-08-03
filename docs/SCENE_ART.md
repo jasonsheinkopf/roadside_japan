@@ -133,7 +133,11 @@ For any entry, new submission or backfill:
 
 1. **If there is no verified photo, drawing a `hero` scene is the top priority** — it becomes
    the entry's main image instead of the emoji `PlaceScene`. Do this *before* snapshots.
-2. `snap1` (close-up) and `snap2` (different/high angle) come after, when there's budget.
+2. **`snap1` (close-up) and `snap2` (different/high angle) are required too, not optional** —
+   every new entry gets the drawn camera roll, not the auto-composed emoji `CinnamonSnapshot`
+   fallback. The entry's `cinnamon.snapshots` captions (already required per `docs/CINNAMON.md`
+   §7) are the creative brief: draw the actual moment each caption describes, with the cast
+   member(s) named in its `cast` field. Cheap to skip, easy to notice — don't skip it.
 3. On a **no-photo** entry the drawn `hero` is also shown as an extra tile in "Cinnamon's
    camera roll" (it's good art — worth showing twice). On a **photo** entry the hero slot is
    the photo, so only the drawn snapshots appear in the roll. `DetailLayout.astro` handles

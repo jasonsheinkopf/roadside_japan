@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="arma" data-title="Bowing to the Ramen Shrine — once for luck, once for manners">
+  <defs>
+    <linearGradient id="arma-back" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#40291a"/>
+      <stop offset="1" stop-color="#1c1109"/>
+    </linearGradient>
+    <radialGradient id="arma-glow" cx="0.5" cy="0.3" r="0.65">
+      <stop offset="0" stop-color="#ffd48a" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#ff9a4a" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ff9a4a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arma-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a6038"/>
+      <stop offset="1" stop-color="#2e1c0e"/>
+    </linearGradient>
+    <radialGradient id="arma-floorglow" cx="0.5" cy="0.05" r="0.85">
+      <stop offset="0" stop-color="#ffb968" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffb968" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arma-torii" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e05a3e"/>
+      <stop offset="1" stop-color="#8f2618"/>
+    </linearGradient>
+    <linearGradient id="arma-bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4ece0"/>
+      <stop offset="1" stop-color="#c9a875"/>
+    </linearGradient>
+    <radialGradient id="arma-broth" cx="0.5" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#e8a95a"/>
+      <stop offset="1" stop-color="#9a5620"/>
+    </radialGradient>
+    <radialGradient id="arma-lantern" cx="0.5" cy="0.4" r="0.75">
+      <stop offset="0" stop-color="#fff2c2"/>
+      <stop offset="0.55" stop-color="#ff9d3d"/>
+      <stop offset="1" stop-color="#c9531f"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ambient interior -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#arma-back)"/>
+  <ellipse cx="240" cy="95" rx="230" ry="150" fill="url(#arma-glow)"/>
+
+  <!-- soft out-of-focus lanterns, depth-of-field for a close shot -->
+  <ellipse cx="34" cy="52" rx="32" ry="32" fill="url(#arma-lantern)" opacity="0.32"/>
+  <ellipse cx="450" cy="66" rx="28" ry="28" fill="url(#arma-lantern)" opacity="0.28"/>
+  <ellipse cx="240" cy="14" rx="24" ry="16" fill="url(#arma-lantern)" opacity="0.26"/>
+
+  <!-- dark alcove framing the shrine -->
+  <rect x="118" y="26" width="244" height="200" fill="#211307" opacity="0.78"/>
+
+  <!-- floor rushing up close beneath the shrine -->
+  <polygon points="0,300 480,300 328,196 152,196" fill="url(#arma-floor)"/>
+  <ellipse cx="240" cy="252" rx="185" ry="55" fill="url(#arma-floorglow)"/>
+  <path d="M18 296 L168 200 M58 298 L182 202 M462 296 L312 200 M422 298 L298 202" stroke="#2a1808" stroke-width="1.6" opacity="0.4" fill="none"/>
+
+  <!-- the joke shrine's torii gate, close and large, matching the hero art -->
+  <polygon points="151.8,40 327.8,40 336.6,63 143,63" fill="url(#arma-torii)"/>
+  <rect x="160.6" y="63" width="17.6" height="127" fill="url(#arma-torii)"/>
+  <rect x="301.4" y="63" width="17.6" height="127" fill="url(#arma-torii)"/>
+  <rect x="156" y="82" width="168" height="15" fill="url(#arma-torii)"/>
+  <rect x="235.5" y="40" width="9" height="35" fill="#5c1810"/>
+  <path d="M178 95 Q240 112 302 95" stroke="#e8dcc0" stroke-width="4" fill="none" opacity="0.85"/>
+  <path d="M205 99 l-6 17 M240 103 l-6 20 M275 99 l-6 17" stroke="#e8dcc0" stroke-width="3.5" opacity="0.8" fill="none"/>
+  <ellipse cx="178" cy="22" rx="15" ry="19" fill="url(#arma-lantern)"/>
+  <ellipse cx="302" cy="22" rx="15" ry="19" fill="url(#arma-lantern)"/>
+
+  <!-- small offering bowl at the torii's base -->
+  <rect x="200" y="209" width="80" height="14" rx="3" fill="#4a2c14"/>
+  <ellipse cx="240" cy="204" rx="38" ry="15" fill="url(#arma-bowl)"/>
+  <ellipse cx="240" cy="201" rx="29" ry="11" fill="url(#arma-broth)"/>
+  <path d="M226 190 q3 -13 -1 -20 M240 187 q3 -14 -2 -22 M254 190 q3 -13 -1 -20" stroke="#f4ece0" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Cinnamon, mid-bow, hands together, right in front of the shrine -->
+  <ellipse cx="140" cy="270" rx="58" ry="12" fill="#000" opacity="0.24"/>
+  <g transform="translate(30 95) scale(0.78)">
+    <g transform="rotate(12 123 150)">
+      <use href="#advc-cinnamon" width="240" height="240"/>
+      <ellipse cx="108" cy="85" rx="7.5" ry="9" fill="#8f7454"/>
+      <ellipse cx="136" cy="85" rx="7.5" ry="9" fill="#8f7454"/>
+      <path d="M101 84 q7 5 14 0" stroke="#3a2c24" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M129 84 q7 5 14 0" stroke="#3a2c24" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <ellipse cx="121" cy="163" rx="15" ry="6.5" fill="#caa97e"/>
+      <ellipse cx="121" cy="161" rx="8" ry="3" fill="#e9d8bd" opacity="0.75"/>
+      <path d="M114 163 q7 4 14 0" stroke="#8a6c49" stroke-width="1.2" fill="none" opacity="0.55"/>
+      <path d="M96 34 q26 -10 52 0" stroke="#ffd48a" stroke-width="2" fill="none" opacity="0.45" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- photographic vignette, close crop feel -->
+  <ellipse cx="26" cy="292" rx="120" ry="70" fill="#000" opacity="0.26"/>
+  <ellipse cx="454" cy="296" rx="128" ry="74" fill="#000" opacity="0.24"/>
+  <ellipse cx="240" cy="-14" rx="270" ry="60" fill="#000" opacity="0.2"/>
+</svg>

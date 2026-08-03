@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="adsb" data-title="Ten minutes deep in a cabinet's joinery, forgetting to be scared">
+  <defs>
+    <linearGradient id="adsb-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f2e6"/>
+      <stop offset="1" stop-color="#ecdfc6"/>
+    </linearGradient>
+    <linearGradient id="adsb-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcbb8b"/>
+      <stop offset="1" stop-color="#ad7f4c"/>
+    </linearGradient>
+    <linearGradient id="adsb-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdf9ee"/>
+      <stop offset="0.55" stop-color="#eaf1ee"/>
+      <stop offset="1" stop-color="#cfe1e3"/>
+    </linearGradient>
+    <radialGradient id="adsb-glow" cx="0.5" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#fffaef" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fffaef" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="adsb-floorlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff6df" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#fff6df" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="adsb-wooddark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d4527"/>
+      <stop offset="1" stop-color="#432c19"/>
+    </linearGradient>
+    <linearGradient id="adsb-woodmed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ab7940"/>
+      <stop offset="1" stop-color="#7b5530"/>
+    </linearGradient>
+    <linearGradient id="adsb-woodlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcae72"/>
+      <stop offset="1" stop-color="#b98548"/>
+    </linearGradient>
+  </defs>
+
+  <!-- wide gallery room: wall, windows either side, floor -->
+  <rect x="0" y="0" width="480" height="168" fill="url(#adsb-wall)"/>
+  <rect x="0" y="0" width="480" height="12" fill="#e6d9bd"/>
+  <rect x="0" y="161" width="480" height="7" fill="#d9cbaf"/>
+  <rect x="0" y="168" width="480" height="132" fill="url(#adsb-floor)"/>
+  <path d="M240 168 L20 300" stroke="#5c3f22" stroke-width="0.7" opacity="0.16"/>
+  <path d="M240 168 L150 300" stroke="#5c3f22" stroke-width="0.7" opacity="0.16"/>
+  <path d="M240 168 L330 300" stroke="#5c3f22" stroke-width="0.7" opacity="0.16"/>
+  <path d="M240 168 L460 300" stroke="#5c3f22" stroke-width="0.7" opacity="0.16"/>
+
+  <!-- tall gallery windows bookending the room -->
+  <rect x="26" y="18" width="92" height="132" fill="#3a281a"/>
+  <rect x="30" y="22" width="84" height="124" fill="url(#adsb-glass)"/>
+  <ellipse cx="72" cy="60" rx="46" ry="40" fill="url(#adsb-glow)"/>
+  <line x1="72" y1="22" x2="72" y2="146" stroke="#3a281a" stroke-width="2"/>
+  <line x1="30" y1="84" x2="114" y2="84" stroke="#3a281a" stroke-width="2"/>
+
+  <rect x="378" y="18" width="88" height="128" fill="#3a281a"/>
+  <rect x="382" y="22" width="80" height="120" fill="url(#adsb-glass)"/>
+  <ellipse cx="420" cy="58" rx="44" ry="38" fill="url(#adsb-glow)"/>
+  <line x1="420" y1="22" x2="420" y2="142" stroke="#3a281a" stroke-width="2"/>
+  <line x1="382" y1="82" x2="462" y2="82" stroke="#3a281a" stroke-width="2"/>
+
+  <!-- daylight pooling on the floor beneath both windows -->
+  <polygon points="32,150 118,150 148,296 -6,296" fill="url(#adsb-floorlight)"/>
+  <polygon points="384,146 462,146 480,270 400,296" fill="url(#adsb-floorlight)"/>
+
+  <!-- ceiling track light -->
+  <line x1="90" y1="9" x2="390" y2="9" stroke="#2a221a" stroke-width="1.4"/>
+  <rect x="150" y="7" width="4" height="5" fill="#2a221a"/>
+  <rect x="235" y="7" width="4" height="5" fill="#2a221a"/>
+  <rect x="320" y="7" width="4" height="5" fill="#2a221a"/>
+
+  <!-- a potted plant, small and soft, further back in the room -->
+  <ellipse cx="401" cy="248" rx="17" ry="4" fill="#241708" opacity="0.16"/>
+  <polygon points="394,230 408,230 406,244 396,244" fill="#6b4a30"/>
+  <ellipse cx="401" cy="220" rx="10" ry="13" fill="#4f6f42"/>
+  <ellipse cx="394" cy="225" rx="7" ry="9" fill="#5c7f4d"/>
+  <ellipse cx="408" cy="225" rx="7" ry="9" fill="#466639"/>
+
+  <!-- THE CABINET: standing tall, splayed legs, a showroom placard beside it -->
+  <ellipse cx="196" cy="224" rx="62" ry="9" fill="#241708" opacity="0.2"/>
+  <polygon points="158,210 165,210 162,222 154,222" fill="url(#adsb-wooddark)"/>
+  <polygon points="228,210 235,210 238,222 230,222" fill="url(#adsb-wooddark)"/>
+  <rect x="150" y="110" width="90" height="100" fill="url(#adsb-wooddark)"/>
+  <rect x="144" y="104" width="102" height="8" fill="url(#adsb-woodmed)"/>
+  <line x1="195" y1="112" x2="195" y2="208" stroke="#241708" stroke-width="1" opacity="0.5"/>
+  <rect x="158" y="118" width="30" height="84" fill="none" stroke="#241708" stroke-width="1" opacity="0.3"/>
+  <rect x="202" y="118" width="30" height="84" fill="none" stroke="#241708" stroke-width="1" opacity="0.3"/>
+  <circle cx="188" cy="160" r="2" fill="#e3d2a3"/>
+  <circle cx="202" cy="160" r="2" fill="#e3d2a3"/>
+
+  <!-- the joinery: a finger-joint corner, drawn big because Socks won't stop looking at it -->
+  <rect x="144" y="138" width="16" height="54" fill="url(#adsb-woodmed)" stroke="#241708" stroke-width="0.6"/>
+  <rect x="146" y="140" width="12" height="9" fill="url(#adsb-woodlight)"/>
+  <rect x="146" y="150" width="12" height="9" fill="url(#adsb-wooddark)"/>
+  <rect x="146" y="160" width="12" height="9" fill="url(#adsb-woodlight)"/>
+  <rect x="146" y="170" width="12" height="9" fill="url(#adsb-wooddark)"/>
+  <rect x="146" y="180" width="12" height="9" fill="url(#adsb-woodlight)"/>
+
+  <!-- gallery placard beside the cabinet -->
+  <rect x="256" y="204" width="9" height="11" fill="#cfcabb" stroke="#8a8474" stroke-width="0.5"/>
+  <rect x="252" y="198" width="17" height="8" fill="#fbf7ee" stroke="#b7ae98" stroke-width="0.5"/>
+  <line x1="255" y1="201" x2="266" y2="201" stroke="#a39a82" stroke-width="0.6"/>
+  <line x1="255" y1="203" x2="262" y2="203" stroke="#a39a82" stroke-width="0.6"/>
+
+  <!-- Socks, whole body in frame, nose almost on the joint -->
+  <ellipse cx="145" cy="222" rx="34" ry="8" fill="#241708" opacity="0.18"/>
+  <g transform="translate(85 110) scale(0.6)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+
+  <!-- the magnifying glass, held right up to the wood -->
+  <line x1="132" y1="178" x2="146" y2="164" stroke="#4a3a26" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="151" cy="158" r="11" fill="#dff0ee" fill-opacity="0.35" stroke="#4a3a26" stroke-width="2.4"/>
+  <path d="M145 152 q4 -4 9 -3" stroke="#fdfdf8" stroke-width="1.6" fill="none" opacity="0.8"/>
+
+  <!-- little concentration marks -->
+  <path d="M168 150 q6 -2 8 4" stroke="#7a6c57" stroke-width="1.4" fill="none" opacity="0.6"/>
+  <path d="M168 168 q6 2 8 -3" stroke="#7a6c57" stroke-width="1.4" fill="none" opacity="0.6"/>
+</svg>

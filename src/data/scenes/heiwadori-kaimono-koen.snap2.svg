@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="hdsb" data-title="Socks lingers at the bronze saxophonist; Mon-chan is already ahead">
+  <defs>
+    <linearGradient id="hdsb-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3f7"/>
+      <stop offset="1" stop-color="#eef8fc"/>
+    </linearGradient>
+    <radialGradient id="hdsb-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8dd" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#fff8dd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hdsb-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdc2b0"/>
+      <stop offset="1" stop-color="#a68f74"/>
+    </linearGradient>
+    <linearGradient id="hdsb-bldga" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6ecd9"/>
+      <stop offset="1" stop-color="#dcc9a4"/>
+    </linearGradient>
+    <linearGradient id="hdsb-bldgb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7e2e7"/>
+      <stop offset="1" stop-color="#b3c4cc"/>
+    </linearGradient>
+    <radialGradient id="hdsb-canopy" cx="0.35" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#a8d17c"/>
+      <stop offset="1" stop-color="#4c7a3a"/>
+    </radialGradient>
+    <linearGradient id="hdsb-bronze" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8a86a"/>
+      <stop offset="1" stop-color="#8a5a30"/>
+    </linearGradient>
+  </defs>
+
+  <!-- a wider, further-down-the-street view -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#hdsb-sky)"/>
+  <circle cx="90" cy="45" r="70" fill="url(#hdsb-glow)"/>
+  <path d="M0,108 L60,92 L130,102 L200,88 L260,100 L340,90 L420,104 L480,95 L480,124 L0,124 Z" fill="#9fb2c9" opacity="0.5"/>
+  <path d="M0,116 L70,104 L150,112 L220,100 L290,110 L360,102 L440,114 L480,108 L480,126 L0,126 Z" fill="#8098af" opacity="0.55"/>
+
+  <!-- the mall recedes toward the far end of the street -->
+  <polygon points="0,300 480,300 300,118 150,118" fill="url(#hdsb-ground)"/>
+  <line x1="40" y1="300" x2="160" y2="122" stroke="#7a6650" stroke-width="1" opacity="0.35"/>
+  <line x1="150" y1="300" x2="190" y2="122" stroke="#7a6650" stroke-width="1" opacity="0.35"/>
+  <line x1="330" y1="300" x2="250" y2="122" stroke="#7a6650" stroke-width="1" opacity="0.35"/>
+  <line x1="440" y1="300" x2="280" y2="122" stroke="#7a6650" stroke-width="1" opacity="0.35"/>
+
+  <!-- storefronts framing the street, angled by the wider lens -->
+  <polygon points="-10,55 115,80 115,300 -10,300" fill="url(#hdsb-bldga)"/>
+  <rect x="-10" y="76" width="125" height="9" fill="#2f8f86"/>
+  <rect x="10" y="120" width="16" height="20" fill="#fdf6e3" opacity="0.85"/>
+  <rect x="55" y="130" width="16" height="20" fill="#fdf6e3" opacity="0.85"/>
+  <polygon points="490,55 365,80 365,300 490,300" fill="url(#hdsb-bldgb)"/>
+  <rect x="365" y="76" width="125" height="9" fill="#2f8f86"/>
+  <rect x="454" y="120" width="16" height="20" fill="#fdf6e3" opacity="0.85"/>
+  <rect x="410" y="130" width="16" height="20" fill="#fdf6e3" opacity="0.85"/>
+
+  <!-- street lamps and trees down the mall -->
+  <rect x="128" y="150" width="4" height="60" fill="#3a3a3a"/>
+  <circle cx="130" cy="146" r="6" fill="#fff3cf" stroke="#3a3a3a" stroke-width="1"/>
+  <rect x="352" y="150" width="4" height="60" fill="#3a3a3a"/>
+  <circle cx="354" cy="146" r="6" fill="#fff3cf" stroke="#3a3a3a" stroke-width="1"/>
+  <rect x="96" y="172" width="6" height="22" fill="#6b4a2f"/>
+  <circle cx="99" cy="164" r="15" fill="url(#hdsb-canopy)"/>
+  <rect x="378" y="172" width="6" height="22" fill="#6b4a2f"/>
+  <circle cx="381" cy="164" r="15" fill="url(#hdsb-canopy)"/>
+
+  <!-- three more sculptures further down, where Mon-chan is already headed -->
+  <rect x="296" y="146" width="12" height="3" fill="#9a9a9a"/>
+  <circle cx="302" cy="136" r="8" fill="none" stroke="#8fa2ac" stroke-width="3"/>
+  <rect x="336" y="152" width="10" height="3" fill="#9a9a9a"/>
+  <polygon points="335,150 345,150 340,138" fill="#b5533f" opacity="0.85"/>
+  <rect x="368" y="156" width="10" height="3" fill="#9a9a9a"/>
+  <circle cx="373" cy="146" r="6" fill="#d98a3d" opacity="0.85"/>
+
+  <!-- the small bronze saxophonist, watched by a bronze cat -->
+  <ellipse cx="258" cy="224" rx="46" ry="7" fill="#1a1710" opacity="0.2"/>
+  <rect x="212" y="211" width="92" height="11" rx="1" fill="#8d7a63" stroke="#5a4f3d" stroke-width="1"/>
+  <!-- torso, leaning slightly into the horn -->
+  <path d="M258,211 Q251,180 259,161 Q263,146 275,144 Q285,148 281,165 Q276,184 271,211 Z" fill="url(#hdsb-bronze)" stroke="#5c3a1a" stroke-width="1.3"/>
+  <ellipse cx="271" cy="135" rx="9" ry="10" fill="url(#hdsb-bronze)" stroke="#5c3a1a" stroke-width="1.2"/>
+  <!-- the saxophone, slung down and to the left, well clear of the cat -->
+  <path d="M267,142 Q258,152 250,164 Q240,178 231,188 Q222,196 225,203 Q231,208 237,201 Q247,190 256,177 Q265,163 271,150 Z" fill="url(#hdsb-bronze)" stroke="#5c3a1a" stroke-width="1.6"/>
+  <circle cx="228" cy="200" r="9" fill="url(#hdsb-bronze)" stroke="#5c3a1a" stroke-width="1.4"/>
+  <circle cx="228" cy="200" r="4" fill="#f0d9a8" opacity="0.5"/>
+  <circle cx="245" cy="171" r="2" fill="#5c3a1a" opacity="0.7"/>
+  <circle cx="253" cy="162" r="2" fill="#5c3a1a" opacity="0.7"/>
+  <circle cx="261" cy="153" r="2" fill="#5c3a1a" opacity="0.7"/>
+  <path d="M263,148 Q254,159 244,170" stroke="#f4e6c8" stroke-width="2" opacity="0.5" fill="none"/>
+  <!-- the cat, sitting to the right, looking up at him -->
+  <path d="M288,211 Q284,193 295,188 Q306,191 303,206 Q301,211 292,211 Z" fill="url(#hdsb-bronze)" stroke="#5c3a1a" stroke-width="1.1"/>
+  <circle cx="294" cy="182" r="8" fill="url(#hdsb-bronze)" stroke="#5c3a1a" stroke-width="1.1"/>
+  <path d="M287,178 L284,170 L291,176 Z M300,178 L303,170 L296,176 Z" fill="#8a5a30"/>
+  <path d="M305,190 Q312,196 306,204" stroke="#5c3a1a" stroke-width="2.2" fill="none" opacity="0.8"/>
+
+  <!-- Socks, foreground, transfixed -->
+  <ellipse cx="142" cy="252" rx="28" ry="7" fill="#1a1710" opacity="0.22"/>
+  <g transform="translate(116,188) scale(0.46)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+
+  <!-- Mon-chan, already several sculptures ahead, half out of frame -->
+  <ellipse cx="452" cy="176" rx="16" ry="5" fill="#1a1710" opacity="0.2"/>
+  <g transform="translate(432,120) scale(0.3)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+
+  <!-- a couple of dropped acorns on the paving -->
+  <circle cx="170" cy="268" r="3.5" fill="#9c6b34"/>
+  <circle cx="182" cy="264" r="2.2" fill="#7a5a36"/>
+</svg>

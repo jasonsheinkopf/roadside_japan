@@ -114,6 +114,13 @@ subagents (via the `Agent` tool) to cut cost without touching quality where it m
 Skip the delegation entirely for a single-place submission — the coordination overhead isn't
 worth it below a few places.
 
+**The Scene Art (hero + snap1 + snap2, step 3 below) is the single biggest cost driver per
+place** — each drawn-and-reviewed file is roughly a full Sonnet subagent run. This is
+intentional and required (the maintainer has explicitly prioritized art quality over
+per-run cost), not a place to cut corners under budget pressure. If a submission has enough
+candidate places that this becomes genuinely prohibitive, say so plainly in the report rather
+than silently shipping some entries with placeholder art.
+
 1. **Guard.** Make sure you're on the latest `main` and that *this file exists*. If it does not
    (e.g. the change hasn't merged yet), **do nothing and exit** — do not process with the old
    two-outcome rules unattended.
@@ -127,22 +134,29 @@ worth it below a few places.
    pipeline, **and the complete Cinnamon block per `docs/CINNAMON.md`**: `quote`, `emoji`,
    the **field report** (`cinnamon.report`, §3 there — his first-person story grounded in
    your research), **and two camera-roll snapshots** (`cinnamon.snapshots`, §7 — two candid
-   vector vignettes, no story arc required; new entries only). If the
+   vignettes, no story arc required; new entries only — write these captions first, they
+   become the creative brief for the drawn art below). If the
    submitter's note contained a genuine recommendation, carry it as `visitorTip: { text, by }`.
    When a real hero photo exists, it's the page's main image — don't also copy it into
    `photos[]` (the camera roll is for genuinely *additional* photos, not a second hero).
 
-   **Required — no real photo → draw a Scene Art hero.** This is a required step, not a
-   nice-to-have — do not ship a photo-less entry with only the emoji `PlaceScene` fallback. Per
-   `docs/SCENE_ART.md` (§1–§4, §7): spawn a **Sonnet** subagent (or draw it yourself if you are
-   already Sonnet) to produce `src/data/scenes/<slug>.hero.svg` — a genuine illustration of the
-   place, no cast, viewBox `0 0 480 300`, a unique `data-prefix`, ≥20 shapes, grounded in the
-   entry's real facts (read the content file for subject matter). The agent must iterate:
-   `python3 scripts/validate-scenes.py <file>` to zero violations, then
-   `node scripts/preview-scene.mjs <file> /tmp/out.png` and actually look at the render,
-   fixing anything broken/floating/uncanny before calling it done — one shot with no visual
-   check is not acceptable. This runs **per photo-less entry**, same as the photo pipeline; it
-   is not optional busywork to skip under time pressure. After authoring, regenerate the ledger
+   **Required — draw the Scene Art, don't ship on the emoji fallback.** Per `docs/SCENE_ART.md`
+   (§1–§4, §7), two things are required, not nice-to-haves — do not ship an entry that leans on
+   the emoji `PlaceScene`/`CinnamonSnapshot` placeholders when this is skippable:
+   - **No real photo → a `hero`** (`src/data/scenes/<slug>.hero.svg`) — a genuine illustration
+     of the place, no cast, viewBox `0 0 480 300`, a unique `data-prefix`, ≥20 shapes, grounded
+     in the entry's real facts (read the content file for subject matter).
+   - **Every entry → `snap1` + `snap2`** (`<slug>.snap1.svg` / `<slug>.snap2.svg`) — illustrate
+     the two moments you just wrote in `cinnamon.snapshots` (its `cast`/`prop`/`caption` are the
+     brief), cast reused via `<use href="#advc-cinnamon">` etc. from `AdventureCastDefs.astro`.
+     Different angle/distance between the two, not the same shot twice.
+
+   Spawn a **Sonnet** subagent per file-set (or draw it yourself if you are already Sonnet). The
+   agent must iterate: `python3 scripts/validate-scenes.py <file>` to zero violations, then
+   `node scripts/preview-scene.mjs <file> /tmp/out.png` and actually look at the render, fixing
+   anything broken/floating/disconnected/uncanny before calling it done — one shot with no
+   visual check is not acceptable. This runs **per entry**, same as the photo pipeline; it is
+   not optional busywork to skip under time pressure. After authoring, regenerate the ledger
    (`python3 scripts/scene-status.py`) so `docs/SCENE_STATUS.md` stays accurate — the maintainer
    uses it to track what's been upgraded.
 

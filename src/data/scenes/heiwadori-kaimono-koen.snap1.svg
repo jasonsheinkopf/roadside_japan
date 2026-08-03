@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="hdsa" data-title="Craning her neck at the foot of the 28-metre Zahyo">
+  <defs>
+    <linearGradient id="hdsa-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f88bb"/>
+      <stop offset="0.6" stop-color="#a9d3ec"/>
+      <stop offset="1" stop-color="#dff0f9"/>
+    </linearGradient>
+    <radialGradient id="hdsa-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8dd" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff8dd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hdsa-bldg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9dcc0"/>
+      <stop offset="1" stop-color="#c6b48c"/>
+    </linearGradient>
+    <linearGradient id="hdsa-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cabfa9"/>
+      <stop offset="1" stop-color="#a08a6c"/>
+    </linearGradient>
+    <linearGradient id="hdsa-metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4f8fa"/>
+      <stop offset="0.5" stop-color="#a9bcc6"/>
+      <stop offset="1" stop-color="#5c7079"/>
+    </linearGradient>
+    <linearGradient id="hdsa-pedestal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b7ada0"/>
+      <stop offset="1" stop-color="#867a68"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky, tipped back to look almost straight up -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#hdsa-sky)"/>
+  <circle cx="352" cy="30" r="95" fill="url(#hdsa-glow)"/>
+  <path d="M40,52 q10,-9 20,0 q10,-9 20,0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.55"/>
+  <path d="M400,120 q9,-8 18,0 q9,-8 18,0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- storefronts on either side lean inward, converging with the upward tilt -->
+  <polygon points="-10,300 74,300 56,0 -10,0" fill="url(#hdsa-bldg)"/>
+  <rect x="6" y="120" width="14" height="20" fill="#fdf6e3" opacity="0.8"/>
+  <rect x="34" y="90" width="12" height="18" fill="#fdf6e3" opacity="0.8"/>
+  <polygon points="490,300 406,300 424,0 490,0" fill="url(#hdsa-bldg)"/>
+  <rect x="460" y="120" width="14" height="20" fill="#fdf6e3" opacity="0.8"/>
+  <rect x="432" y="90" width="12" height="18" fill="#fdf6e3" opacity="0.8"/>
+
+  <!-- paving right underfoot -->
+  <polygon points="0,300 480,300 480,262 0,270" fill="url(#hdsa-ground)"/>
+  <line x1="40" y1="290" x2="90" y2="266" stroke="#7a6650" stroke-width="1" opacity="0.4"/>
+  <line x1="200" y1="298" x2="230" y2="264" stroke="#7a6650" stroke-width="1" opacity="0.4"/>
+  <line x1="390" y1="292" x2="360" y2="266" stroke="#7a6650" stroke-width="1" opacity="0.4"/>
+
+  <!-- wide steel pedestal, foreshortened close to the lens -->
+  <ellipse cx="280" cy="298" rx="80" ry="10" fill="#1a1710" opacity="0.22"/>
+  <polygon points="225,300 335,300 305,255 255,255" fill="url(#hdsa-pedestal)" stroke="#5a4f3d" stroke-width="1.5"/>
+  <rect x="258" y="266" width="44" height="8" rx="1" fill="#3a3222" opacity="0.45"/>
+
+  <!-- the mast tapering up and away -->
+  <polygon points="255,255 305,255 283,168 257,168" fill="url(#hdsa-metal)" stroke="#4a5960" stroke-width="1.5"/>
+  <line x1="266" y1="252" x2="272" y2="172" stroke="#ffffff" stroke-width="3" opacity="0.35"/>
+  <circle cx="280" cy="232" r="3" fill="#5c7079"/>
+  <circle cx="280" cy="204" r="2.6" fill="#5c7079"/>
+  <circle cx="280" cy="182" r="2.2" fill="#5c7079"/>
+
+  <!-- the dot of the question mark, looming overhead -->
+  <circle cx="270" cy="135" r="17" fill="url(#hdsa-metal)" stroke="#4a5960" stroke-width="1.5"/>
+  <circle cx="264" cy="128" r="4.5" fill="#ffffff" opacity="0.5"/>
+
+  <!-- short gap, then the great hook of Zahyo rearing up out of frame -->
+  <line x1="270" y1="100" x2="270" y2="118" stroke="url(#hdsa-metal)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M253.2,16 C253.2,-23.2 320.4,-23.2 320.4,23 C320.4,60.8 270,55.2 270,100" fill="none" stroke="url(#hdsa-metal)" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M253.2,16 C253.2,-23.2 320.4,-23.2 320.4,23 C320.4,60.8 270,55.2 270,100" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" transform="translate(-4,-4)"/>
+  <path d="M253.2,16 C253.2,-23.2 320.4,-23.2 320.4,23 C320.4,60.8 270,55.2 270,100" fill="none" stroke="#3a4750" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.35" transform="translate(4,4)"/>
+
+  <!-- Cinnamon at the very base, leaning back toward the sculpture to look up -->
+  <ellipse cx="168" cy="282" rx="32" ry="8" fill="#1a1710" opacity="0.25"/>
+  <g transform="translate(168,274) rotate(13) scale(0.46) translate(-118,-222)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+
+  <!-- a dropped acorn, unnoticed -->
+  <circle cx="206" cy="286" r="4" fill="#9c6b34"/>
+  <circle cx="215" cy="290" r="2.4" fill="#7a5a36"/>
+</svg>
