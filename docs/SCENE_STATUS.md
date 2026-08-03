@@ -8,63 +8,62 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 ## Summary
 
 - Entries (published): **260**  ·  with real photo: **193**  ·  no photo: **67**
-- Drawn hero present: **19**  ·  full set (hero+snap1+snap2): **6**
-- **Priority queue (no photo, no drawn hero): 50** — listed first below.
+- Drawn hero present: **20**  ·  full set (hero+snap1+snap2): **6**
+- **Priority queue (no photo, no drawn hero): 49** — listed first below.
 
 ## Priority queue — no photo, still needs a drawn hero (most-recent first)
 
 | # | created | entry | slug |
 | --- | --- | --- | --- |
-| 1 | 2026-08-03 | Otokoyama Sake Brewery Museum | `otokoyama-sake-brewery-museum` |
-| 2 | 2026-07-18 | Nissan Water Park | `nissan-water-park` |
-| 3 | 2026-07-18 | ROBO-ONE | `robo-one` |
-| 4 | 2026-07-18 | Ho Chi Minh City Museum of Fine Arts — the 99-Door Mansion | `hcmc-fine-arts-museum` |
-| 5 | 2026-07-17 | Chatsubomi Moss Park | `chatsubomi-moss-park` |
-| 6 | 2026-07-17 | Bogardus Plaza Clock | `bogardus-plaza-clock` |
-| 7 | 2026-07-17 | Yakult Ibaraki Factory | `yakult-ibaraki-factory` |
-| 8 | 2026-07-17 | Calpis \"Mirai\" Museum | `calpis-mirai-museum` |
-| 9 | 2026-07-16 | Unarius Academy of Science | `unarius-academy-el-cajon` |
-| 10 | 2026-07-16 | Pinball Hall of Fame | `pinball-hall-of-fame` |
-| 11 | 2026-07-16 | Kokoleka Lani Farms — Kona Cacao & Chocolate | `kokoleka-lani-chocolate-kona` |
-| 12 | 2026-07-16 | Star Toys Museum — 14,000 Star Wars Pieces | `star-toys-museum-linthicum` |
-| 13 | 2026-07-13 | Hill of the Buddha (Atama Daibutsu) | `hill-of-the-buddha` |
-| 14 | 2026-07-13 | Naitai Highland Farm | `naitai-highland-farm` |
-| 15 | 2026-07-13 | Unkai Terrace (Sea of Clouds), Tomamu | `unkai-terrace-tomamu` |
-| 16 | 2026-07-12 | Fukagawa Hachiman Matsuri (Mizukake Water-Splashing Festival) | `fukagawa-hachiman-matsuri` |
-| 17 | 2026-07-04 | Ekoin Temple | `ekoin-temple-ryogoku` |
-| 18 | 2026-07-04 | Yoshitoku Doll Shop | `yoshitoku-doll-shop` |
-| 19 | 2026-07-04 | Japanese Sword Museum | `japanese-sword-museum` |
-| 20 | 2026-07-04 | Kakimori | `kakimori-notebook-studio` |
-| 21 | 2026-06-19 | Jay Fai | `jay-fai` |
-| 22 | 2026-06-19 | Khao Ngu Stone Park | `khao-ngu-stone-park` |
-| 23 | 2026-06-19 | The Grotto (Cave Dining at Railay) | `the-grotto-railay` |
-| 24 | 2026-06-19 | Ayutthaya River Prawns (Kung Mae Nam) | `ayutthaya-river-prawns` |
-| 25 | 2026-06-19 | Or Tor Kor Market | `or-tor-kor-market` |
-| 26 | 2026-06-19 | Bangkok Snake Farm (Queen Saovabha Institute) | `bangkok-snake-farm` |
-| 27 | 2026-06-19 | Bubble in the Forest Café | `bubble-in-the-forest` |
-| 28 | 2026-06-19 | Ban Bat (The Monk's Bowl Village) | `ban-bat-monks-bowl-village` |
-| 29 | 2026-06-19 | Baan Silapin (The Artist's House) | `baan-silapin-artist-house` |
-| 30 | 2026-06-19 | Cabbages & Condoms | `cabbages-and-condoms` |
-| 31 | 2026-06-19 | Victory Monument Boat Noodles | `victory-boat-noodles` |
-| 32 | 2026-06-19 | Na Oh (Dining Inside a Grounded Airplane) | `na-oh-bangkok` |
-| 33 | 2026-06-19 | Talat Noi | `talat-noi` |
-| 34 | 2026-06-19 | Chang Chui (The Plane Night Market) | `chang-chui-market` |
-| 35 | 2026-06-19 | Jek Pui Curry Rice (The Tableless Curry) | `jek-pui-curry-rice` |
-| 36 | 2026-06-19 | Treepod Dining at Soneva Kiri | `treepod-dining` |
-| 37 | 2026-06-19 | Wat Pariwat (The David Beckham Temple) | `wat-pariwat` |
-| 38 | 2026-06-19 | Siriraj Medical Museum (The Death Museum) | `siriraj-medical-museum` |
-| 39 | 2026-06-19 | Khantoke Dinner (Lanna Banquet) | `khantoke-dinner` |
-| 40 | 2026-06-19 | Museum of Floral Culture | `museum-of-floral-culture` |
-| 41 | 2026-06-19 | Khao Bin Cave (Tham Khao Bin) | `khao-bin-cave` |
-| 42 | 2026-06-19 | The Giant Rain Tree (Chamchuri Giant Tree) | `giant-rain-tree` |
-| 43 | 2026-06-19 | Jodd Fairs Night Market | `jodd-fairs` |
-| 44 | 2026-06-19 | Lhong 1919 | `lhong-1919` |
-| 45 | 2026-06-19 | Unicorn Café | `unicorn-cafe` |
-| 46 | 2026-06-19 | Museum of Counterfeit Goods | `museum-of-counterfeit-goods` |
-| 47 | 2026-06-19 | Wat Khao Chong Phran (The Bat Cave Temple) | `wat-khao-chong-phran` |
-| 48 | 2026-06-19 | Museum of Illusions Bangkok | `museum-of-illusions-bangkok` |
-| 49 | 2026-06-19 | Patpong Museum | `patpong-museum` |
-| 50 | 2026-06-19 | River Kwai Floating Raft Restaurants | `river-kwai-raft-restaurants` |
+| 1 | 2026-07-18 | Nissan Water Park | `nissan-water-park` |
+| 2 | 2026-07-18 | ROBO-ONE | `robo-one` |
+| 3 | 2026-07-18 | Ho Chi Minh City Museum of Fine Arts — the 99-Door Mansion | `hcmc-fine-arts-museum` |
+| 4 | 2026-07-17 | Chatsubomi Moss Park | `chatsubomi-moss-park` |
+| 5 | 2026-07-17 | Bogardus Plaza Clock | `bogardus-plaza-clock` |
+| 6 | 2026-07-17 | Yakult Ibaraki Factory | `yakult-ibaraki-factory` |
+| 7 | 2026-07-17 | Calpis \"Mirai\" Museum | `calpis-mirai-museum` |
+| 8 | 2026-07-16 | Unarius Academy of Science | `unarius-academy-el-cajon` |
+| 9 | 2026-07-16 | Pinball Hall of Fame | `pinball-hall-of-fame` |
+| 10 | 2026-07-16 | Kokoleka Lani Farms — Kona Cacao & Chocolate | `kokoleka-lani-chocolate-kona` |
+| 11 | 2026-07-16 | Star Toys Museum — 14,000 Star Wars Pieces | `star-toys-museum-linthicum` |
+| 12 | 2026-07-13 | Hill of the Buddha (Atama Daibutsu) | `hill-of-the-buddha` |
+| 13 | 2026-07-13 | Naitai Highland Farm | `naitai-highland-farm` |
+| 14 | 2026-07-13 | Unkai Terrace (Sea of Clouds), Tomamu | `unkai-terrace-tomamu` |
+| 15 | 2026-07-12 | Fukagawa Hachiman Matsuri (Mizukake Water-Splashing Festival) | `fukagawa-hachiman-matsuri` |
+| 16 | 2026-07-04 | Ekoin Temple | `ekoin-temple-ryogoku` |
+| 17 | 2026-07-04 | Yoshitoku Doll Shop | `yoshitoku-doll-shop` |
+| 18 | 2026-07-04 | Japanese Sword Museum | `japanese-sword-museum` |
+| 19 | 2026-07-04 | Kakimori | `kakimori-notebook-studio` |
+| 20 | 2026-06-19 | Jay Fai | `jay-fai` |
+| 21 | 2026-06-19 | Khao Ngu Stone Park | `khao-ngu-stone-park` |
+| 22 | 2026-06-19 | The Grotto (Cave Dining at Railay) | `the-grotto-railay` |
+| 23 | 2026-06-19 | Ayutthaya River Prawns (Kung Mae Nam) | `ayutthaya-river-prawns` |
+| 24 | 2026-06-19 | Or Tor Kor Market | `or-tor-kor-market` |
+| 25 | 2026-06-19 | Bangkok Snake Farm (Queen Saovabha Institute) | `bangkok-snake-farm` |
+| 26 | 2026-06-19 | Bubble in the Forest Café | `bubble-in-the-forest` |
+| 27 | 2026-06-19 | Ban Bat (The Monk's Bowl Village) | `ban-bat-monks-bowl-village` |
+| 28 | 2026-06-19 | Baan Silapin (The Artist's House) | `baan-silapin-artist-house` |
+| 29 | 2026-06-19 | Cabbages & Condoms | `cabbages-and-condoms` |
+| 30 | 2026-06-19 | Victory Monument Boat Noodles | `victory-boat-noodles` |
+| 31 | 2026-06-19 | Na Oh (Dining Inside a Grounded Airplane) | `na-oh-bangkok` |
+| 32 | 2026-06-19 | Talat Noi | `talat-noi` |
+| 33 | 2026-06-19 | Chang Chui (The Plane Night Market) | `chang-chui-market` |
+| 34 | 2026-06-19 | Jek Pui Curry Rice (The Tableless Curry) | `jek-pui-curry-rice` |
+| 35 | 2026-06-19 | Treepod Dining at Soneva Kiri | `treepod-dining` |
+| 36 | 2026-06-19 | Wat Pariwat (The David Beckham Temple) | `wat-pariwat` |
+| 37 | 2026-06-19 | Siriraj Medical Museum (The Death Museum) | `siriraj-medical-museum` |
+| 38 | 2026-06-19 | Khantoke Dinner (Lanna Banquet) | `khantoke-dinner` |
+| 39 | 2026-06-19 | Museum of Floral Culture | `museum-of-floral-culture` |
+| 40 | 2026-06-19 | Khao Bin Cave (Tham Khao Bin) | `khao-bin-cave` |
+| 41 | 2026-06-19 | The Giant Rain Tree (Chamchuri Giant Tree) | `giant-rain-tree` |
+| 42 | 2026-06-19 | Jodd Fairs Night Market | `jodd-fairs` |
+| 43 | 2026-06-19 | Lhong 1919 | `lhong-1919` |
+| 44 | 2026-06-19 | Unicorn Café | `unicorn-cafe` |
+| 45 | 2026-06-19 | Museum of Counterfeit Goods | `museum-of-counterfeit-goods` |
+| 46 | 2026-06-19 | Wat Khao Chong Phran (The Bat Cave Temple) | `wat-khao-chong-phran` |
+| 47 | 2026-06-19 | Museum of Illusions Bangkok | `museum-of-illusions-bangkok` |
+| 48 | 2026-06-19 | Patpong Museum | `patpong-museum` |
+| 49 | 2026-06-19 | River Kwai Floating Raft Restaurants | `river-kwai-raft-restaurants` |
 
 ## Full ledger (most-recent first)
 
@@ -75,7 +74,7 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 | 2026-08-03 | Asahikawa Ramen Village | `asahikawa-ramen-village` | — | ✅ | — | — |
 | 2026-08-03 | Nakahara Teijiro Memorial Asahikawa City Sculpture Museum | `nakahara-teijiro-sculpture-museum` | ✅ | — | — | — |
 | 2026-08-03 | Asahikawa Design Center | `asahikawa-design-center` | — | ✅ | — | — |
-| 2026-08-03 | Otokoyama Sake Brewery Museum | `otokoyama-sake-brewery-museum` | — | — | — | — |
+| 2026-08-03 | Otokoyama Sake Brewery Museum | `otokoyama-sake-brewery-museum` | — | ✅ | — | — |
 | 2026-08-03 | Kamuikotan Gorge | `kamuikotan-gorge` | — | ✅ | — | — |
 | 2026-08-03 | Kawamura Kaneto Ainu Memorial Museum | `kawamura-kaneto-ainu-memorial-museum` | — | ✅ | — | — |
 | 2026-07-29 | Solardraisine Überwaldbahn | `solardraisine-ueberwaldbahn` | ✅ | — | — | — |
