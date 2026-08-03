@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="otya" data-title="Socks, nose an inch from a 300-year-old ukiyo-e print">
+<defs>
+  <linearGradient id="otya-wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4a3626"/>
+    <stop offset="1" stop-color="#211509"/>
+  </linearGradient>
+  <radialGradient id="otya-spot" cx="0.62" cy="0.35" r="0.75">
+    <stop offset="0" stop-color="#6b4a2c" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#6b4a2c" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="otya-bokeh" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#f6cf8e" stop-opacity="0.6"/>
+    <stop offset="1" stop-color="#f6cf8e" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="otya-blur" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+  <filter id="otya-softblur" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="2.2"/>
+  </filter>
+  <linearGradient id="otya-outerwood" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#3a2a1c"/>
+    <stop offset="1" stop-color="#1c130c"/>
+  </linearGradient>
+  <linearGradient id="otya-midwood" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#a9773f"/>
+    <stop offset="1" stop-color="#6b4a2a"/>
+  </linearGradient>
+  <linearGradient id="otya-paper" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#efe3c2"/>
+    <stop offset="1" stop-color="#d9c99c"/>
+  </linearGradient>
+  <linearGradient id="otya-wave" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3d6690"/>
+    <stop offset="1" stop-color="#16283f"/>
+  </linearGradient>
+  <radialGradient id="otya-sun" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#d9744a" stop-opacity="0.85"/>
+    <stop offset="1" stop-color="#d9744a" stop-opacity="0.1"/>
+  </radialGradient>
+  <linearGradient id="otya-floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7a5030"/>
+    <stop offset="1" stop-color="#432a16"/>
+  </linearGradient>
+  <radialGradient id="otya-fog" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- wall, dim museum room, out of focus behind the print -->
+<rect x="0" y="0" width="480" height="300" fill="url(#otya-wall)"/>
+<ellipse cx="300" cy="110" rx="260" ry="180" fill="url(#otya-spot)"/>
+
+<!-- soft wood-plank wall grain -->
+<line x1="20" y1="0" x2="20" y2="300" stroke="#1c130c" stroke-width="2" opacity="0.18"/>
+<line x1="52" y1="0" x2="52" y2="300" stroke="#1c130c" stroke-width="2" opacity="0.15"/>
+<line x1="90" y1="0" x2="90" y2="300" stroke="#1c130c" stroke-width="1.5" opacity="0.12"/>
+
+<!-- deep-background bokeh: a lantern glow and a blurred tank rim, well out of focus -->
+<circle cx="52" cy="66" r="42" fill="url(#otya-bokeh)" filter="url(#otya-blur)"/>
+<ellipse cx="38" cy="248" rx="98" ry="34" fill="#241811" opacity="0.5" filter="url(#otya-blur)"/>
+
+<!-- floor sliver, grounding the shot -->
+<rect x="0" y="286" width="480" height="14" fill="url(#otya-floor)"/>
+
+<!-- wire hanging the frame from the ceiling -->
+<rect x="342" y="1" width="12" height="6" fill="#1c130c"/>
+<line x1="348" y1="7" x2="348" y2="24" stroke="#1c130c" stroke-width="1.6"/>
+
+<!-- the framed ukiyo-e print: outer wood, bevel, paper -->
+<rect x="234" y="24" width="228" height="238" fill="url(#otya-outerwood)"/>
+<rect x="244" y="34" width="208" height="218" fill="url(#otya-midwood)"/>
+<rect x="260" y="50" width="182" height="186" fill="url(#otya-paper)"/>
+
+<!-- aged double ink border on the paper -->
+<rect x="268" y="58" width="166" height="170" fill="none" stroke="#3a2a1c" stroke-width="2" opacity="0.5"/>
+<rect x="272" y="62" width="158" height="162" fill="none" stroke="#3a2a1c" stroke-width="1" opacity="0.35"/>
+
+<!-- print motif: a rising sun and Daisetsuzan's snow-capped peak -->
+<circle cx="355" cy="100" r="20" fill="url(#otya-sun)"/>
+<polygon points="300,190 355,95 410,190" fill="#2e2a33"/>
+<polygon points="336,122 355,97 374,122" fill="#e9e2cf"/>
+<path d="M310 175 q20 -10 40 0 q20 -10 40 0" stroke="#1c130c" stroke-width="1.2" fill="none" opacity="0.4"/>
+
+<!-- print motif: a cresting wave along the foot of the paper -->
+<path d="M262 232 Q276 196 300 208 Q310 178 328 202 Q342 172 360 204 Q378 180 396 210 Q412 194 432 214 L432 232 Z" fill="url(#otya-wave)"/>
+<path d="M300 208 q10 -14 8 -22 q10 6 8 18" stroke="#eef2f0" stroke-width="1.6" fill="none" opacity="0.75"/>
+<path d="M360 204 q10 -12 9 -20 q9 5 6 16" stroke="#eef2f0" stroke-width="1.6" fill="none" opacity="0.75"/>
+<path d="M396 210 q8 -10 7 -17" stroke="#eef2f0" stroke-width="1.4" fill="none" opacity="0.6"/>
+
+<!-- artist's red hanko seal, lower right of the print -->
+<rect x="410" y="208" width="16" height="16" fill="#a8402c" opacity="0.9"/>
+<path d="M413 211 h10 M413 216 h10 M413 221 h10" stroke="#e9dcb8" stroke-width="1" opacity="0.7"/>
+
+<!-- small brass plaque under the frame -->
+<rect x="300" y="266" width="96" height="15" fill="#241811"/>
+<line x1="316" y1="273" x2="380" y2="273" stroke="#a9773f" stroke-width="1.4" opacity="0.7"/>
+<line x1="326" y1="277" x2="370" y2="277" stroke="#a9773f" stroke-width="1" opacity="0.5"/>
+
+<!-- Socks, nose pressed almost to the glass, utterly absorbed -->
+<ellipse cx="220" cy="278" rx="82" ry="15" fill="#000" opacity="0.22"/>
+<g transform="translate(84 33) scale(1.3)">
+  <use href="#advc-socks" width="200" height="200"/>
+</g>
+
+<!-- glass glare across the frame, sitting in front of everything -->
+<polygon points="300,50 344,50 292,236 260,236" fill="#ffffff" opacity="0.08"/>
+
+<!-- his fogged breath, right where his nose meets the glass -->
+<ellipse cx="253" cy="150" rx="13" ry="9" fill="url(#otya-fog)" filter="url(#otya-softblur)"/>
+
+<!-- dust drifting through the lantern light -->
+<circle cx="150" cy="60" r="2" fill="#f6cf8e" opacity="0.5"/>
+<circle cx="170" cy="95" r="1.6" fill="#f6cf8e" opacity="0.4"/>
+<circle cx="130" cy="130" r="1.8" fill="#f6cf8e" opacity="0.45"/>
+</svg>

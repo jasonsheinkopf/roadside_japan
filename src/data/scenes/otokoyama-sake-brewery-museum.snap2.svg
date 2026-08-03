@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="otyb" data-title="Cinnamon sniffs a tasting cup; Mon-chan sulks by the door">
+<defs>
+  <linearGradient id="otyb-wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4a3626"/>
+    <stop offset="1" stop-color="#2c1e13"/>
+  </linearGradient>
+  <linearGradient id="otyb-outside" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#241d47"/>
+    <stop offset="0.55" stop-color="#7a4a5c"/>
+    <stop offset="1" stop-color="#d98a52"/>
+  </linearGradient>
+  <linearGradient id="otyb-noren" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#31527a"/>
+    <stop offset="1" stop-color="#16283f"/>
+  </linearGradient>
+  <linearGradient id="otyb-shelfwood" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#6b4a30"/>
+    <stop offset="1" stop-color="#432c19"/>
+  </linearGradient>
+  <radialGradient id="otyb-bokeh" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#f6cf8e" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#f6cf8e" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="otyb-blur" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+  <linearGradient id="otyb-floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9c6b3f"/>
+    <stop offset="1" stop-color="#5c3a20"/>
+  </linearGradient>
+  <radialGradient id="otyb-floorlight" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffdca0" stop-opacity="0.45"/>
+    <stop offset="1" stop-color="#ffdca0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="otyb-countertop" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e6c58e"/>
+    <stop offset="1" stop-color="#ab7940"/>
+  </linearGradient>
+  <linearGradient id="otyb-counterfront" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9c6b3f"/>
+    <stop offset="1" stop-color="#4a2f18"/>
+  </linearGradient>
+</defs>
+
+<!-- back wall of the tasting room -->
+<rect x="0" y="0" width="480" height="158" fill="url(#otyb-wall)"/>
+<rect x="0" y="0" width="480" height="10" fill="#1c130c"/>
+
+<!-- doorway further back, dusk light beyond, curtain parted -->
+<rect x="18" y="16" width="108" height="136" fill="#1c130c"/>
+<rect x="26" y="24" width="92" height="116" fill="url(#otyb-outside)"/>
+<polygon points="26,24 118,24 108,34 36,34" fill="#120b06" opacity="0.5"/>
+<rect x="22" y="20" width="100" height="4" fill="#1c130c"/>
+<rect x="30" y="24" width="20" height="50" fill="url(#otyb-noren)"/>
+<rect x="98" y="24" width="20" height="46" fill="url(#otyb-noren)"/>
+
+<!-- shelf of tasting bottles on the far wall -->
+<rect x="330" y="46" width="140" height="8" fill="url(#otyb-shelfwood)"/>
+<rect x="334" y="54" width="6" height="38" fill="#2e2417"/>
+<rect x="458" y="54" width="6" height="38" fill="#2e2417"/>
+<rect x="354" y="30" width="8" height="12" fill="#8aab93"/>
+<ellipse cx="358" cy="44" rx="9" ry="11" fill="#8aab93"/>
+<rect x="381" y="27" width="8" height="13" fill="#5c4030"/>
+<ellipse cx="385" cy="42" rx="10" ry="12" fill="#5c4030"/>
+<rect x="408" y="30" width="8" height="12" fill="#a85c3c"/>
+<ellipse cx="412" cy="44" rx="9" ry="11" fill="#a85c3c"/>
+
+<!-- warm bokeh glow, out of focus at this wider distance -->
+<circle cx="76" cy="42" r="26" fill="url(#otyb-bokeh)" filter="url(#otyb-blur)"/>
+<circle cx="424" cy="30" r="22" fill="url(#otyb-bokeh)" filter="url(#otyb-blur)"/>
+
+<!-- floor, receding toward the doorway -->
+<rect x="0" y="158" width="480" height="142" fill="url(#otyb-floor)"/>
+<line x1="0" y1="300" x2="240" y2="158" stroke="#4a3016" stroke-width="0.8" opacity="0.16"/>
+<line x1="480" y1="300" x2="240" y2="158" stroke="#4a3016" stroke-width="0.8" opacity="0.16"/>
+<line x1="120" y1="300" x2="240" y2="158" stroke="#4a3016" stroke-width="0.8" opacity="0.13"/>
+<line x1="360" y1="300" x2="240" y2="158" stroke="#4a3016" stroke-width="0.8" opacity="0.13"/>
+<path d="M0 214 Q240 202 480 214" stroke="#4a3016" stroke-width="0.8" fill="none" opacity="0.14"/>
+<path d="M0 258 Q240 246 480 258" stroke="#4a3016" stroke-width="0.8" fill="none" opacity="0.14"/>
+
+<!-- Mon-chan, banned from the counter, sulking just past the curtain -->
+<ellipse cx="72" cy="140" rx="30" ry="7" fill="#000" opacity="0.2"/>
+<g transform="translate(27 49) scale(0.45)">
+  <use href="#advc-mon" width="200" height="200"/>
+</g>
+<ellipse cx="66" cy="36" rx="10" ry="6" fill="#8a8a92" opacity="0.35"/>
+<ellipse cx="78" cy="34" rx="8" ry="5" fill="#8a8a92" opacity="0.3"/>
+<line x1="68" y1="42" x2="66" y2="47" stroke="#8a8a92" stroke-width="1.2" opacity="0.4"/>
+<line x1="76" y1="42" x2="78" y2="48" stroke="#8a8a92" stroke-width="1.2" opacity="0.4"/>
+
+<!-- the velvet rope keeping her off the tasting counter, in the open floor gap -->
+<rect x="138" y="186" width="6" height="42" fill="#2e2417"/>
+<rect x="180" y="186" width="6" height="42" fill="#2e2417"/>
+<circle cx="141" cy="186" r="4" fill="#a9773f"/>
+<circle cx="183" cy="186" r="4" fill="#a9773f"/>
+<path d="M142 198 Q162 216 182 198" stroke="#a8402c" stroke-width="3" fill="none"/>
+<rect x="151" y="202" width="20" height="13" fill="#e9dcb8" stroke="#3a2a1c" stroke-width="1"/>
+<line x1="155" y1="205" x2="167" y2="212" stroke="#a8402c" stroke-width="1.4"/>
+<line x1="167" y1="205" x2="155" y2="212" stroke="#a8402c" stroke-width="1.4"/>
+
+<!-- warm light pooling on the floor near the counter -->
+<ellipse cx="330" cy="232" rx="110" ry="24" fill="url(#otyb-floorlight)"/>
+
+<!-- the tasting counter, starting past the rope -->
+<rect x="200" y="186" width="262" height="106" fill="url(#otyb-counterfront)"/>
+<rect x="200" y="176" width="262" height="12" fill="url(#otyb-countertop)"/>
+<line x1="200" y1="177" x2="462" y2="177" stroke="#f2dcac" stroke-width="1" opacity="0.5"/>
+<line x1="270" y1="188" x2="270" y2="290" stroke="#2e2417" stroke-width="1" opacity="0.3"/>
+<line x1="350" y1="188" x2="350" y2="290" stroke="#2e2417" stroke-width="1" opacity="0.3"/>
+<line x1="420" y1="188" x2="420" y2="290" stroke="#2e2417" stroke-width="1" opacity="0.3"/>
+
+<!-- Cinnamon, standing right at the counter, sniffing a tasting cup with great seriousness -->
+<ellipse cx="300" cy="270" rx="66" ry="13" fill="#000" opacity="0.22"/>
+<g transform="translate(204 47) scale(1.04)">
+  <use href="#advc-cinnamon" width="240" height="240"/>
+</g>
+
+<!-- the masu box and choko cups set out along the counter, in front of her -->
+<polygon points="215,160 230,160 226,168 211,168" fill="#caa25e"/>
+<rect x="211" y="168" width="15" height="8" fill="#a9773f"/>
+<rect x="238" y="164" width="14" height="12" fill="#e9dcb8"/>
+<ellipse cx="245" cy="164" rx="7" ry="3" fill="#f5eed8"/>
+<rect x="425" y="164" width="14" height="12" fill="#e9dcb8"/>
+<ellipse cx="432" cy="164" rx="7" ry="3" fill="#f5eed8"/>
+<rect x="258" y="149" width="8" height="12" fill="#cdb37a"/>
+<ellipse cx="262" cy="163" rx="9" ry="10" fill="#cdb37a"/>
+
+<!-- her own cup, right under her nose -->
+<rect x="322" y="158" width="18" height="15" fill="#efe6cf"/>
+<ellipse cx="331" cy="158" rx="9" ry="3.6" fill="#fff8e8"/>
+
+<!-- sniff lines rising from the cup -->
+<path d="M328 154 q-3 -8 2 -14" stroke="#cdd8c9" stroke-width="1.4" fill="none" opacity="0.6"/>
+<path d="M335 155 q3 -9 -1 -15" stroke="#cdd8c9" stroke-width="1.4" fill="none" opacity="0.5"/>
+</svg>
