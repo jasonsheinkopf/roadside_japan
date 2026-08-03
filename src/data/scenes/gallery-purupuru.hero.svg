@@ -94,7 +94,6 @@
   <circle cx="335" cy="128" r="1.8" fill="#1c140c"/>
   <circle cx="345" cy="128" r="1.8" fill="#1c140c"/>
   <polygon points="337,133 343,133 340,138" fill="#e0a53d"/>
-  <path d="M330,144 c4,3 16,3 20,0" stroke="#4a361f" stroke-width="1.3" fill="none"/>
 
   <!-- pendant lights -->
   <line x1="198" y1="98" x2="198" y2="104" stroke="#2a2018" stroke-width="1.4"/>

@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kwau" data-title="Reconstructed cise, thatched roof, hearth glowing in the doorway">
+  <defs>
+    <linearGradient id="kwau-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f5f86"/>
+      <stop offset="0.5" stop-color="#8aa9c4"/>
+      <stop offset="1" stop-color="#e9d9bd"/>
+    </linearGradient>
+    <radialGradient id="kwau-sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3d8" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#ffd98a" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kwau-ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f7863"/>
+      <stop offset="1" stop-color="#3c5142"/>
+    </linearGradient>
+    <linearGradient id="kwau-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7f9a5c"/>
+      <stop offset="1" stop-color="#4c6636"/>
+    </linearGradient>
+    <linearGradient id="kwau-path" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a68a63"/>
+      <stop offset="1" stop-color="#7a6244"/>
+    </linearGradient>
+    <linearGradient id="kwau-thatch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbb26a"/>
+      <stop offset="0.55" stop-color="#a4884a"/>
+      <stop offset="1" stop-color="#7a6232"/>
+    </linearGradient>
+    <linearGradient id="kwau-thatch2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b89e5c"/>
+      <stop offset="1" stop-color="#8a7040"/>
+    </linearGradient>
+    <linearGradient id="kwau-beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6e5334"/>
+      <stop offset="1" stop-color="#43311d"/>
+    </linearGradient>
+    <linearGradient id="kwau-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b4a34"/>
+      <stop offset="1" stop-color="#382c1e"/>
+    </linearGradient>
+    <radialGradient id="kwau-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe6ad"/>
+      <stop offset="0.5" stop-color="#ff9d43" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff9d43" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kwau-museum" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7dcc4"/>
+      <stop offset="1" stop-color="#c4b593"/>
+    </linearGradient>
+    <linearGradient id="kwau-museumroof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6b5f"/>
+      <stop offset="1" stop-color="#3a4a3f"/>
+    </linearGradient>
+    <linearGradient id="kwau-banner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c3a2c"/>
+      <stop offset="1" stop-color="#5f2419"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="480" height="168" fill="url(#kwau-sky)"/>
+  <circle cx="392" cy="52" r="42" fill="url(#kwau-sun)"/>
+  <path d="M60 42 Q84 32 108 40 Q128 33 148 41" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M300 30 Q318 23 336 30" stroke="#ffffff" stroke-width="4" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- distant Hokkaido ridge, hazy -->
+  <path d="M0 150 Q60 122 120 138 Q180 112 240 132 Q300 108 360 130 Q420 116 480 134 L480 168 L0 168 Z" fill="#7a9385" opacity="0.55"/>
+
+  <!-- dense conifer treeline behind everything -->
+  <path d="M0 168 L0 140 L14 152 L26 118 L40 146 L52 114 L66 144 L78 116 L92 146 L104 118 L118 148 L130 120
+           L150 148 L164 120 L178 150 L192 122
+           L330 122 L344 150 L358 120 L372 148 L386 116 L400 146 L412 118 L426 148 L440 118 L454 146 L468 120 L480 144
+           L480 168 L0 168 Z" fill="#2e4a37"/>
+  <rect x="0" y="160" width="480" height="60" fill="#2a4432"/>
+
+  <!-- foreground pines flanking the scene, tall and close -->
+  <path d="M12 258 L20 258 L20 148 L12 148 Z" fill="#392c1c"/>
+  <path d="M2 182 L16 150 L30 182 Z" fill="#1c3521"/>
+  <path d="M0 208 L16 172 L32 208 Z" fill="#234229"/>
+  <path d="M-4 236 L16 194 L36 236 Z" fill="#2a4d31"/>
+  <path d="M458 262 L466 262 L466 154 L458 154 Z" fill="#382a1a"/>
+  <path d="M448 188 L462 156 L476 188 Z" fill="#1a3220"/>
+  <path d="M444 212 L462 178 L480 212 Z" fill="#204028"/>
+  <path d="M440 240 L462 200 L480 240 Z" fill="#264a2f"/>
+
+  <!-- museum building, quiet modern silhouette set back to the right -->
+  <rect x="330" y="148" width="104" height="66" fill="url(#kwau-museum)" stroke="#a99a76" stroke-width="1"/>
+  <path d="M322 148 L382 116 L442 148 Z" fill="url(#kwau-museumroof)"/>
+  <rect x="352" y="168" width="20" height="46" fill="#8c7a58"/>
+  <rect x="392" y="168" width="16" height="20" fill="#7c6a4c" opacity="0.85"/>
+  <rect x="392" y="168" width="16" height="20" fill="none" stroke="#5c4c34" stroke-width="1"/>
+
+  <!-- ground -->
+  <rect x="0" y="212" width="480" height="88" fill="url(#kwau-ground)"/>
+  <path d="M0 212 L480 212" stroke="#3c5530" stroke-width="1.4" opacity="0.4"/>
+
+  <!-- packed-earth path leading to the cise doorway -->
+  <path d="M200 300 L280 300 L252 214 L228 214 Z" fill="url(#kwau-path)"/>
+  <path d="M214 296 Q222 258 234 216" stroke="#8a6f4c" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M266 296 Q258 258 246 216" stroke="#8a6f4c" stroke-width="1.2" fill="none" opacity="0.5"/>
+
+  <!-- reconstructed cise: wood post frame -->
+  <rect x="140" y="196" width="10" height="70" fill="url(#kwau-beam)"/>
+  <rect x="330" y="196" width="10" height="70" fill="url(#kwau-beam)"/>
+  <rect x="150" y="252" width="180" height="14" fill="url(#kwau-wall)"/>
+
+  <!-- steep thatched-reed roof, the cise's defining silhouette -->
+  <path d="M110 210 L235 100 L360 210 Z" fill="url(#kwau-thatch)" stroke="#5f4e29" stroke-width="1.5"/>
+  <path d="M124 206 L235 112 L346 206 Z" fill="url(#kwau-thatch2)" opacity="0.55"/>
+  <!-- thatch texture strokes, layered bundles of reed -->
+  <path d="M140 198 L232 126" stroke="#7a6537" stroke-width="1.4" opacity="0.5"/>
+  <path d="M156 202 L232 143" stroke="#7a6537" stroke-width="1.4" opacity="0.5"/>
+  <path d="M172 206 L232 160" stroke="#7a6537" stroke-width="1.4" opacity="0.5"/>
+  <path d="M330 198 L238 126" stroke="#6e5a30" stroke-width="1.4" opacity="0.5"/>
+  <path d="M314 202 L238 143" stroke="#6e5a30" stroke-width="1.4" opacity="0.5"/>
+  <path d="M298 206 L238 160" stroke="#6e5a30" stroke-width="1.4" opacity="0.5"/>
+  <!-- ridge cap bundle along the roof peak, crossed reed ties typical of a cise roof -->
+  <path d="M188 158 L235 112 L282 158" fill="none" stroke="#4a3c22" stroke-width="4" stroke-linecap="round"/>
+  <path d="M200 148 L212 138 M212 138 L224 148" stroke="#3a2f1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M248 148 L260 138 M260 138 L272 148" stroke="#3a2f1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- open doorway with warm hearth glow within -->
+  <rect x="212" y="206" width="46" height="60" fill="#1c1109"/>
+  <circle cx="235" cy="244" r="15" fill="url(#kwau-glow)"/>
+  <path d="M226 254 L230 240 L235 250 L240 238 L244 254 Z" fill="#3a2210" opacity="0.9"/>
+  <rect x="212" y="200" width="46" height="8" fill="url(#kwau-beam)"/>
+
+  <!-- carved wooden lintel above the doorway, simple repeating ayus-style pattern -->
+  <path d="M214 198 Q220 192 226 198 Q232 192 238 198 Q244 192 250 198 Q256 192 256 198" fill="none" stroke="#2e2210" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- side wall lattice visible beneath the eave, bundled reed cladding -->
+  <path d="M150 214 L150 252" stroke="#5f4e30" stroke-width="1.2" opacity="0.5"/>
+  <path d="M164 210 L164 252" stroke="#5f4e30" stroke-width="1.2" opacity="0.5"/>
+  <path d="M178 208 L178 252" stroke="#5f4e30" stroke-width="1.2" opacity="0.5"/>
+  <path d="M294 208 L294 252" stroke="#5f4e30" stroke-width="1.2" opacity="0.5"/>
+  <path d="M308 210 L308 252" stroke="#5f4e30" stroke-width="1.2" opacity="0.5"/>
+  <path d="M322 214 L322 252" stroke="#5f4e30" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- small secondary storage hut beside the cise, roofed the same way -->
+  <rect x="70" y="230" width="34" height="34" fill="url(#kwau-wall)"/>
+  <path d="M64 232 L87 200 L110 232 Z" fill="url(#kwau-thatch2)" stroke="#5f4e29" stroke-width="1"/>
+  <rect x="82" y="244" width="10" height="20" fill="#1c1109"/>
+
+  <!-- carved wooden post with ikupasuy-style incised pattern, near the path -->
+  <rect x="176" y="230" width="8" height="70" fill="url(#kwau-beam)"/>
+  <path d="M177 238 L183 244 M177 244 L183 238 M177 252 L183 258 M177 258 L183 252 M177 266 L183 272 M177 272 L183 266" stroke="#e6d6ac" stroke-width="1.2" opacity="0.8"/>
+
+  <!-- textile banner on a wooden frame, appliqué-style curling motif -->
+  <rect x="358" y="228" width="6" height="52" fill="url(#kwau-beam)"/>
+  <rect x="364" y="230" width="34" height="44" fill="url(#kwau-banner)" stroke="#3c1810" stroke-width="1"/>
+  <path d="M370 240 Q378 234 386 240 Q392 246 386 252 Q378 258 370 252 Q364 246 370 240 Z" fill="none" stroke="#e8d9ad" stroke-width="1.6"/>
+  <path d="M372 262 Q381 258 390 262" stroke="#e8d9ad" stroke-width="1.4" fill="none"/>
+
+  <!-- grass tufts, close to camera -->
+  <path d="M40 298 q2 -12 6 0" stroke="#3c5726" stroke-width="2" fill="none"/>
+  <path d="M120 298 q2 -10 6 0" stroke="#3c5726" stroke-width="2" fill="none"/>
+  <path d="M340 298 q2 -11 6 0" stroke="#3c5726" stroke-width="2" fill="none"/>
+  <path d="M420 298 q2 -13 6 0" stroke="#3c5726" stroke-width="2" fill="none"/>
+</svg>
