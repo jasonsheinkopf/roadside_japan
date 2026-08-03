@@ -7,124 +7,81 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 
 ## Summary
 
-- Entries (published): **260**  ·  with real photo: **157**  ·  no photo: **103**
-- Drawn hero present: **13**  ·  full set (hero+snap1+snap2): **6**
-- **Priority queue (no photo, no drawn hero): 92** — listed first below.
+- Entries (published): **260**  ·  with real photo: **193**  ·  no photo: **67**
+- Drawn hero present: **20**  ·  full set (hero+snap1+snap2): **6**
+- **Priority queue (no photo, no drawn hero): 49** — listed first below.
 
 ## Priority queue — no photo, still needs a drawn hero (most-recent first)
 
 | # | created | entry | slug |
 | --- | --- | --- | --- |
-| 1 | 2026-08-03 | Heiwa-dōri Kaimono Kōen (Peace Street Sculpture Walk) | `heiwadori-kaimono-koen` |
-| 2 | 2026-08-03 | Gallery PuruPuru | `gallery-purupuru` |
-| 3 | 2026-08-03 | Asahikawa Ramen Village | `asahikawa-ramen-village` |
-| 4 | 2026-08-03 | Asahikawa Design Center | `asahikawa-design-center` |
-| 5 | 2026-08-03 | Otokoyama Sake Brewery Museum | `otokoyama-sake-brewery-museum` |
-| 6 | 2026-08-03 | Kamuikotan Gorge | `kamuikotan-gorge` |
-| 7 | 2026-08-03 | Kawamura Kaneto Ainu Memorial Museum | `kawamura-kaneto-ainu-memorial-museum` |
-| 8 | 2026-07-25 | Cat Museum Lucky Field | `cat-museum-lucky-field` |
-| 9 | 2026-07-18 | Nissan Water Park | `nissan-water-park` |
-| 10 | 2026-07-18 | ROBO-ONE | `robo-one` |
-| 11 | 2026-07-18 | Ho Chi Minh City Museum of Fine Arts — the 99-Door Mansion | `hcmc-fine-arts-museum` |
-| 12 | 2026-07-17 | Chatsubomi Moss Park | `chatsubomi-moss-park` |
-| 13 | 2026-07-17 | Bogardus Plaza Clock | `bogardus-plaza-clock` |
-| 14 | 2026-07-17 | Yakult Ibaraki Factory | `yakult-ibaraki-factory` |
-| 15 | 2026-07-17 | Calpis \"Mirai\" Museum | `calpis-mirai-museum` |
-| 16 | 2026-07-16 | Unarius Academy of Science | `unarius-academy-el-cajon` |
-| 17 | 2026-07-16 | Pinball Hall of Fame | `pinball-hall-of-fame` |
-| 18 | 2026-07-16 | Kokoleka Lani Farms — Kona Cacao & Chocolate | `kokoleka-lani-chocolate-kona` |
-| 19 | 2026-07-16 | Star Toys Museum — 14,000 Star Wars Pieces | `star-toys-museum-linthicum` |
-| 20 | 2026-07-13 | Hill of the Buddha (Atama Daibutsu) | `hill-of-the-buddha` |
-| 21 | 2026-07-13 | Naitai Highland Farm | `naitai-highland-farm` |
-| 22 | 2026-07-13 | Unkai Terrace (Sea of Clouds), Tomamu | `unkai-terrace-tomamu` |
-| 23 | 2026-07-12 | Fukagawa Hachiman Matsuri (Mizukake Water-Splashing Festival) | `fukagawa-hachiman-matsuri` |
-| 24 | 2026-07-04 | Ekoin Temple | `ekoin-temple-ryogoku` |
-| 25 | 2026-07-04 | Yoshitoku Doll Shop | `yoshitoku-doll-shop` |
-| 26 | 2026-07-04 | Japanese Sword Museum | `japanese-sword-museum` |
-| 27 | 2026-07-04 | Kakimori | `kakimori-notebook-studio` |
-| 28 | 2026-06-19 | Jay Fai | `jay-fai` |
-| 29 | 2026-06-19 | Khao Ngu Stone Park | `khao-ngu-stone-park` |
-| 30 | 2026-06-19 | The Grotto (Cave Dining at Railay) | `the-grotto-railay` |
-| 31 | 2026-06-19 | Ayutthaya River Prawns (Kung Mae Nam) | `ayutthaya-river-prawns` |
-| 32 | 2026-06-19 | Or Tor Kor Market | `or-tor-kor-market` |
-| 33 | 2026-06-19 | Bangkok Snake Farm (Queen Saovabha Institute) | `bangkok-snake-farm` |
-| 34 | 2026-06-19 | Bubble in the Forest Café | `bubble-in-the-forest` |
-| 35 | 2026-06-19 | Ban Bat (The Monk's Bowl Village) | `ban-bat-monks-bowl-village` |
-| 36 | 2026-06-19 | Baan Silapin (The Artist's House) | `baan-silapin-artist-house` |
-| 37 | 2026-06-19 | Cabbages & Condoms | `cabbages-and-condoms` |
-| 38 | 2026-06-19 | Victory Monument Boat Noodles | `victory-boat-noodles` |
-| 39 | 2026-06-19 | Na Oh (Dining Inside a Grounded Airplane) | `na-oh-bangkok` |
-| 40 | 2026-06-19 | Talat Noi | `talat-noi` |
-| 41 | 2026-06-19 | Chang Chui (The Plane Night Market) | `chang-chui-market` |
-| 42 | 2026-06-19 | Jek Pui Curry Rice (The Tableless Curry) | `jek-pui-curry-rice` |
-| 43 | 2026-06-19 | Treepod Dining at Soneva Kiri | `treepod-dining` |
-| 44 | 2026-06-19 | Wat Pariwat (The David Beckham Temple) | `wat-pariwat` |
-| 45 | 2026-06-19 | Siriraj Medical Museum (The Death Museum) | `siriraj-medical-museum` |
-| 46 | 2026-06-19 | Khantoke Dinner (Lanna Banquet) | `khantoke-dinner` |
-| 47 | 2026-06-19 | Museum of Floral Culture | `museum-of-floral-culture` |
-| 48 | 2026-06-19 | Khao Bin Cave (Tham Khao Bin) | `khao-bin-cave` |
-| 49 | 2026-06-19 | The Giant Rain Tree (Chamchuri Giant Tree) | `giant-rain-tree` |
-| 50 | 2026-06-19 | Jodd Fairs Night Market | `jodd-fairs` |
-| 51 | 2026-06-19 | Lhong 1919 | `lhong-1919` |
-| 52 | 2026-06-19 | Unicorn Café | `unicorn-cafe` |
-| 53 | 2026-06-19 | Museum of Counterfeit Goods | `museum-of-counterfeit-goods` |
-| 54 | 2026-06-19 | Wat Khao Chong Phran (The Bat Cave Temple) | `wat-khao-chong-phran` |
-| 55 | 2026-06-19 | Museum of Illusions Bangkok | `museum-of-illusions-bangkok` |
-| 56 | 2026-06-19 | Patpong Museum | `patpong-museum` |
-| 57 | 2026-06-19 | River Kwai Floating Raft Restaurants | `river-kwai-raft-restaurants` |
-| 58 | 2026-06-16 | Cherryland Sagae | `cherryland-sagae` |
-| 59 | 2026-06-16 | N's YARD — Yoshitomo Nara's Museum | `ns-yard` |
-| 60 | 2026-06-16 | Tendo, the Shogi-Piece Town | `tendo-shogi-town` |
-| 61 | 2026-06-16 | Nasu Teddy Bear Museum | `nasu-teddy-bear-museum` |
-| 62 | 2026-06-16 | Kamo Aquarium (Jellyfish Dream) | `kamo-aquarium` |
-| 63 | 2026-06-16 | Tateyama Snow Wall (Yuki-no-Otani) | `tateyama-yuki-no-otani` |
-| 64 | 2026-06-16 | Sawara — Chiba's Little Edo | `sawara-little-edo` |
-| 65 | 2026-06-16 | Mashiko Pottery Town | `mashiko-pottery` |
-| 66 | 2026-06-16 | Shika-no-yu, Nasu's Oldest Hot Spring | `shika-no-yu-onsen` |
-| 67 | 2026-06-16 | Nasu Highland Park | `nasu-highland-park` |
-| 68 | 2026-06-16 | Uesugi Shrine & Yonezawa Beef | `uesugi-shrine-yonezawa` |
-| 69 | 2026-06-16 | Mother Farm | `mother-farm` |
-| 70 | 2026-06-16 | Nasu Trick Art Museum | `nasu-trick-art-museum` |
-| 71 | 2026-06-16 | Takasaki Byakue Daikannon | `takasaki-byakue-daikannon` |
-| 72 | 2026-06-16 | Yamadera (Risshaku-ji) | `yamadera` |
-| 73 | 2026-06-16 | Nasu Stained Glass Museum | `nasu-stained-glass-museum` |
-| 74 | 2026-06-16 | Yunohama Beach | `yunohama-beach` |
-| 75 | 2026-06-16 | Japan Snake Center | `japan-snake-center` |
-| 76 | 2026-06-16 | Lina World | `lina-world` |
-| 77 | 2026-06-16 | Tokyo German Village | `tokyo-german-village` |
-| 78 | 2026-06-16 | Oya-ji Temple & the Heiwa Kannon | `oyaji-temple-heiwa-kannon` |
-| 79 | 2026-06-16 | Naoshima's Yellow Pumpkin | `naoshima-yellow-pumpkin` |
-| 80 | 2026-06-16 | Nasu Heisei-no-Mori & Komadome Falls | `nasu-heisei-no-mori` |
-| 81 | 2026-06-16 | Sankyo Soko Rice Warehouses | `sankyo-soko-warehouses` |
-| 82 | 2026-06-16 | Nasu Safari Park | `nasu-safari-park` |
-| 83 | 2026-06-16 | Fujishiro Seiji Museum | `fujishiro-seiji-museum` |
-| 84 | 2026-06-16 | DIC Kawamura Memorial Museum of Art | `dic-kawamura-museum` |
-| 85 | 2026-06-16 | Nasu Animal Kingdom | `nasu-animal-kingdom` |
-| 86 | 2026-06-16 | Nasu Flower World | `nasu-flower-world` |
-| 87 | 2026-06-16 | Akagawa Fireworks Festival | `akagawa-fireworks` |
-| 88 | 2026-06-16 | Yamagata Hanagasa Festival | `yamagata-hanagasa-festival` |
-| 89 | 2026-06-16 | Yamagata Imoni Festival | `yamagata-imoni-festival` |
-| 90 | 2026-06-13 | Fussa Firefly Festival | `fussa-firefly-festival` |
-| 91 | 2025-09-02 | Nagoro Scarecrow Village | `nagoro-scarecrow-village` |
-| 92 | 2025-08-01 | Oya History Museum (Underground Quarry) | `oya-history-museum` |
+| 1 | 2026-07-18 | Nissan Water Park | `nissan-water-park` |
+| 2 | 2026-07-18 | ROBO-ONE | `robo-one` |
+| 3 | 2026-07-18 | Ho Chi Minh City Museum of Fine Arts — the 99-Door Mansion | `hcmc-fine-arts-museum` |
+| 4 | 2026-07-17 | Chatsubomi Moss Park | `chatsubomi-moss-park` |
+| 5 | 2026-07-17 | Bogardus Plaza Clock | `bogardus-plaza-clock` |
+| 6 | 2026-07-17 | Yakult Ibaraki Factory | `yakult-ibaraki-factory` |
+| 7 | 2026-07-17 | Calpis \"Mirai\" Museum | `calpis-mirai-museum` |
+| 8 | 2026-07-16 | Unarius Academy of Science | `unarius-academy-el-cajon` |
+| 9 | 2026-07-16 | Pinball Hall of Fame | `pinball-hall-of-fame` |
+| 10 | 2026-07-16 | Kokoleka Lani Farms — Kona Cacao & Chocolate | `kokoleka-lani-chocolate-kona` |
+| 11 | 2026-07-16 | Star Toys Museum — 14,000 Star Wars Pieces | `star-toys-museum-linthicum` |
+| 12 | 2026-07-13 | Hill of the Buddha (Atama Daibutsu) | `hill-of-the-buddha` |
+| 13 | 2026-07-13 | Naitai Highland Farm | `naitai-highland-farm` |
+| 14 | 2026-07-13 | Unkai Terrace (Sea of Clouds), Tomamu | `unkai-terrace-tomamu` |
+| 15 | 2026-07-12 | Fukagawa Hachiman Matsuri (Mizukake Water-Splashing Festival) | `fukagawa-hachiman-matsuri` |
+| 16 | 2026-07-04 | Ekoin Temple | `ekoin-temple-ryogoku` |
+| 17 | 2026-07-04 | Yoshitoku Doll Shop | `yoshitoku-doll-shop` |
+| 18 | 2026-07-04 | Japanese Sword Museum | `japanese-sword-museum` |
+| 19 | 2026-07-04 | Kakimori | `kakimori-notebook-studio` |
+| 20 | 2026-06-19 | Jay Fai | `jay-fai` |
+| 21 | 2026-06-19 | Khao Ngu Stone Park | `khao-ngu-stone-park` |
+| 22 | 2026-06-19 | The Grotto (Cave Dining at Railay) | `the-grotto-railay` |
+| 23 | 2026-06-19 | Ayutthaya River Prawns (Kung Mae Nam) | `ayutthaya-river-prawns` |
+| 24 | 2026-06-19 | Or Tor Kor Market | `or-tor-kor-market` |
+| 25 | 2026-06-19 | Bangkok Snake Farm (Queen Saovabha Institute) | `bangkok-snake-farm` |
+| 26 | 2026-06-19 | Bubble in the Forest Café | `bubble-in-the-forest` |
+| 27 | 2026-06-19 | Ban Bat (The Monk's Bowl Village) | `ban-bat-monks-bowl-village` |
+| 28 | 2026-06-19 | Baan Silapin (The Artist's House) | `baan-silapin-artist-house` |
+| 29 | 2026-06-19 | Cabbages & Condoms | `cabbages-and-condoms` |
+| 30 | 2026-06-19 | Victory Monument Boat Noodles | `victory-boat-noodles` |
+| 31 | 2026-06-19 | Na Oh (Dining Inside a Grounded Airplane) | `na-oh-bangkok` |
+| 32 | 2026-06-19 | Talat Noi | `talat-noi` |
+| 33 | 2026-06-19 | Chang Chui (The Plane Night Market) | `chang-chui-market` |
+| 34 | 2026-06-19 | Jek Pui Curry Rice (The Tableless Curry) | `jek-pui-curry-rice` |
+| 35 | 2026-06-19 | Treepod Dining at Soneva Kiri | `treepod-dining` |
+| 36 | 2026-06-19 | Wat Pariwat (The David Beckham Temple) | `wat-pariwat` |
+| 37 | 2026-06-19 | Siriraj Medical Museum (The Death Museum) | `siriraj-medical-museum` |
+| 38 | 2026-06-19 | Khantoke Dinner (Lanna Banquet) | `khantoke-dinner` |
+| 39 | 2026-06-19 | Museum of Floral Culture | `museum-of-floral-culture` |
+| 40 | 2026-06-19 | Khao Bin Cave (Tham Khao Bin) | `khao-bin-cave` |
+| 41 | 2026-06-19 | The Giant Rain Tree (Chamchuri Giant Tree) | `giant-rain-tree` |
+| 42 | 2026-06-19 | Jodd Fairs Night Market | `jodd-fairs` |
+| 43 | 2026-06-19 | Lhong 1919 | `lhong-1919` |
+| 44 | 2026-06-19 | Unicorn Café | `unicorn-cafe` |
+| 45 | 2026-06-19 | Museum of Counterfeit Goods | `museum-of-counterfeit-goods` |
+| 46 | 2026-06-19 | Wat Khao Chong Phran (The Bat Cave Temple) | `wat-khao-chong-phran` |
+| 47 | 2026-06-19 | Museum of Illusions Bangkok | `museum-of-illusions-bangkok` |
+| 48 | 2026-06-19 | Patpong Museum | `patpong-museum` |
+| 49 | 2026-06-19 | River Kwai Floating Raft Restaurants | `river-kwai-raft-restaurants` |
 
 ## Full ledger (most-recent first)
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
-| 2026-08-03 | Heiwa-dōri Kaimono Kōen (Peace Street Sculpture Walk) | `heiwadori-kaimono-koen` | — | — | — | — |
-| 2026-08-03 | Gallery PuruPuru | `gallery-purupuru` | — | — | — | — |
-| 2026-08-03 | Asahikawa Ramen Village | `asahikawa-ramen-village` | — | — | — | — |
+| 2026-08-03 | Heiwa-dōri Kaimono Kōen (Peace Street Sculpture Walk) | `heiwadori-kaimono-koen` | — | ✅ | — | — |
+| 2026-08-03 | Gallery PuruPuru | `gallery-purupuru` | — | ✅ | — | — |
+| 2026-08-03 | Asahikawa Ramen Village | `asahikawa-ramen-village` | — | ✅ | — | — |
 | 2026-08-03 | Nakahara Teijiro Memorial Asahikawa City Sculpture Museum | `nakahara-teijiro-sculpture-museum` | ✅ | — | — | — |
-| 2026-08-03 | Asahikawa Design Center | `asahikawa-design-center` | — | — | — | — |
-| 2026-08-03 | Otokoyama Sake Brewery Museum | `otokoyama-sake-brewery-museum` | — | — | — | — |
-| 2026-08-03 | Kamuikotan Gorge | `kamuikotan-gorge` | — | — | — | — |
-| 2026-08-03 | Kawamura Kaneto Ainu Memorial Museum | `kawamura-kaneto-ainu-memorial-museum` | — | — | — | — |
+| 2026-08-03 | Asahikawa Design Center | `asahikawa-design-center` | — | ✅ | — | — |
+| 2026-08-03 | Otokoyama Sake Brewery Museum | `otokoyama-sake-brewery-museum` | — | ✅ | — | — |
+| 2026-08-03 | Kamuikotan Gorge | `kamuikotan-gorge` | — | ✅ | — | — |
+| 2026-08-03 | Kawamura Kaneto Ainu Memorial Museum | `kawamura-kaneto-ainu-memorial-museum` | — | ✅ | — | — |
 | 2026-07-29 | Solardraisine Überwaldbahn | `solardraisine-ueberwaldbahn` | ✅ | — | — | — |
 | 2026-07-29 | Deutsches Elfenbeinmuseum (German Ivory Museum) | `deutsches-elfenbeinmuseum-erbach` | ✅ | — | — | — |
 | 2026-07-28 | The Rällinge of Abstatt | `raellinge-abstatt` | — | ✅ | — | — |
 | 2026-07-28 | Burg Wildeck | `burg-wildeck-abstatt` | ✅ | — | — | — |
-| 2026-07-25 | Cat Museum Lucky Field | `cat-museum-lucky-field` | — | — | ✅ | ✅ |
+| 2026-07-25 | Cat Museum Lucky Field | `cat-museum-lucky-field` | ✅ | — | ✅ | ✅ |
 | 2026-07-22 | Fort Cascades National Historic Site | `fort-cascades-national-historic-site` | — | ✅ | — | — |
 | 2026-07-22 | Fort Vancouver National Historic Site | `fort-vancouver-national-historic-site` | — | ✅ | — | — |
 | 2026-07-22 | Columbia Gorge Museum | `columbia-gorge-museum-stevenson` | — | ✅ | — | — |
@@ -270,7 +227,7 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 | 2026-06-19 | Lopburi Monkey Buffet Festival | `lopburi-monkey-buffet` | ✅ | — | — | — |
 | 2026-06-19 | Songkran (Thai New Year) | `songkran` | ✅ | — | — | — |
 | 2026-06-19 | Yi Peng & Loi Krathong | `yi-peng-loi-krathong` | ✅ | — | — | — |
-| 2026-06-16 | Cherryland Sagae | `cherryland-sagae` | — | — | — | — |
+| 2026-06-16 | Cherryland Sagae | `cherryland-sagae` | ✅ | — | — | — |
 | 2026-06-16 | Lake Akan Marimo | `lake-akan-marimo` | ✅ | — | — | — |
 | 2026-06-16 | Ashikaga Flower Park | `ashikaga-flower-park` | ✅ | — | — | — |
 | 2026-06-16 | Kawasaki Daishi | `kawasaki-daishi` | ✅ | — | — | — |
@@ -278,51 +235,51 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 | 2026-06-16 | Okunoin Cemetery, Koyasan | `okunoin-koyasan` | ✅ | — | — | — |
 | 2026-06-16 | Umihotaru | `umihotaru` | ✅ | — | — | — |
 | 2026-06-16 | Fujiko F. Fujio Museum | `fujiko-f-fujio-museum` | ✅ | — | — | — |
-| 2026-06-16 | N's YARD — Yoshitomo Nara's Museum | `ns-yard` | — | — | — | — |
+| 2026-06-16 | N's YARD — Yoshitomo Nara's Museum | `ns-yard` | ✅ | — | — | — |
 | 2026-06-16 | Cape Sōya — Japan's Northernmost Point | `cape-soya` | ✅ | — | — | — |
 | 2026-06-16 | Otaru Canal | `otaru-canal` | ✅ | — | — | — |
-| 2026-06-16 | Tendo, the Shogi-Piece Town | `tendo-shogi-town` | — | — | — | — |
+| 2026-06-16 | Tendo, the Shogi-Piece Town | `tendo-shogi-town` | ✅ | — | — | — |
 | 2026-06-16 | Hijiori Onsen | `hijiori-onsen` | ✅ | — | — | — |
-| 2026-06-16 | Nasu Teddy Bear Museum | `nasu-teddy-bear-museum` | — | — | — | — |
+| 2026-06-16 | Nasu Teddy Bear Museum | `nasu-teddy-bear-museum` | ✅ | — | — | — |
 | 2026-06-16 | The Hells of Beppu (Jigoku Meguri) | `beppu-jigoku-meguri` | ✅ | — | — | — |
 | 2026-06-16 | Zao Fox Village | `zao-fox-village` | ✅ | — | — | — |
-| 2026-06-16 | Kamo Aquarium (Jellyfish Dream) | `kamo-aquarium` | — | — | — | — |
+| 2026-06-16 | Kamo Aquarium (Jellyfish Dream) | `kamo-aquarium` | ✅ | — | — | — |
 | 2026-06-16 | Tobishima Island | `tobishima-island` | ✅ | — | — | — |
 | 2026-06-16 | Asahiyama Zoo Penguin Walk | `asahiyama-zoo-penguin-walk` | ✅ | — | — | — |
 | 2026-06-16 | Kaminoyama Castle & Onsen | `kaminoyama-castle` | ✅ | — | — | — |
 | 2026-06-16 | Mogami River Boat Ride | `mogami-river-boat` | ✅ | — | — | — |
 | 2026-06-16 | Mount Chokai (Dewa Fuji) | `mount-chokai` | ✅ | — | — | — |
-| 2026-06-16 | Tateyama Snow Wall (Yuki-no-Otani) | `tateyama-yuki-no-otani` | — | — | — | — |
-| 2026-06-16 | Sawara — Chiba's Little Edo | `sawara-little-edo` | — | — | — | — |
+| 2026-06-16 | Tateyama Snow Wall (Yuki-no-Otani) | `tateyama-yuki-no-otani` | ✅ | — | — | — |
+| 2026-06-16 | Sawara — Chiba's Little Edo | `sawara-little-edo` | ✅ | — | — | — |
 | 2026-06-16 | Ginzan Onsen | `ginzan-onsen` | ✅ | — | — | — |
-| 2026-06-16 | Mashiko Pottery Town | `mashiko-pottery` | — | — | — | — |
+| 2026-06-16 | Mashiko Pottery Town | `mashiko-pottery` | ✅ | — | — | — |
 | 2026-06-16 | Oyama Senmaida Rice Terraces | `oyama-senmaida` | ✅ | — | — | — |
-| 2026-06-16 | Shika-no-yu, Nasu's Oldest Hot Spring | `shika-no-yu-onsen` | — | — | — | — |
-| 2026-06-16 | Nasu Highland Park | `nasu-highland-park` | — | — | — | — |
-| 2026-06-16 | Uesugi Shrine & Yonezawa Beef | `uesugi-shrine-yonezawa` | — | — | — | — |
+| 2026-06-16 | Shika-no-yu, Nasu's Oldest Hot Spring | `shika-no-yu-onsen` | ✅ | — | — | — |
+| 2026-06-16 | Nasu Highland Park | `nasu-highland-park` | ✅ | — | — | — |
+| 2026-06-16 | Uesugi Shrine & Yonezawa Beef | `uesugi-shrine-yonezawa` | ✅ | — | — | — |
 | 2026-06-16 | Aogashima — the Island Inside a Volcano | `aogashima-island` | ✅ | — | — | — |
 | 2026-06-16 | Omiya Bonsai Village | `omiya-bonsai-village` | ✅ | — | — | — |
-| 2026-06-16 | Mother Farm | `mother-farm` | — | — | — | — |
+| 2026-06-16 | Mother Farm | `mother-farm` | ✅ | — | — | — |
 | 2026-06-16 | Nasu Onsen Shrine | `nasu-onsen-shrine` | ✅ | — | — | — |
 | 2026-06-16 | Abashiri Drift Ice Icebreaker | `abashiri-drift-ice` | ✅ | — | — | — |
 | 2026-06-16 | Edo Wonderland Nikko Edomura | `edo-wonderland-nikko` | ✅ | — | — | — |
-| 2026-06-16 | Nasu Trick Art Museum | `nasu-trick-art-museum` | — | — | — | — |
-| 2026-06-16 | Takasaki Byakue Daikannon | `takasaki-byakue-daikannon` | — | — | — | — |
-| 2026-06-16 | Yamadera (Risshaku-ji) | `yamadera` | — | — | — | — |
+| 2026-06-16 | Nasu Trick Art Museum | `nasu-trick-art-museum` | ✅ | — | — | — |
+| 2026-06-16 | Takasaki Byakue Daikannon | `takasaki-byakue-daikannon` | ✅ | — | — | — |
+| 2026-06-16 | Yamadera (Risshaku-ji) | `yamadera` | ✅ | — | — | — |
 | 2026-06-16 | Bunshokan (Former Yamagata Prefectural Office) | `bunshokan` | ✅ | — | — | — |
 | 2026-06-16 | Nasu Senbonmatsu Farm | `nasu-senbonmatsu-farm` | ✅ | — | — | — |
 | 2026-06-16 | Sessho-seki, the Killing Stone | `sessho-seki-killing-stone` | ✅ | — | — | — |
 | 2026-06-16 | Utsunomiya, the Gyoza Capital | `utsunomiya-gyoza` | ✅ | — | — | — |
-| 2026-06-16 | Nasu Stained Glass Museum | `nasu-stained-glass-museum` | — | — | — | — |
+| 2026-06-16 | Nasu Stained Glass Museum | `nasu-stained-glass-museum` | ✅ | — | — | — |
 | 2026-06-16 | Mount Haguro Five-Story Pagoda | `haguro-five-story-pagoda` | ✅ | — | — | — |
 | 2026-06-16 | Cup Noodles Museum, Ikeda | `cup-noodles-museum-ikeda` | ✅ | — | — | — |
 | 2026-06-16 | Noboribetsu Hell Valley (Jigokudani) | `noboribetsu-jigokudani` | ✅ | — | — | — |
 | 2026-06-16 | Inubosaki Lighthouse | `inubosaki-lighthouse` | ✅ | — | — | — |
 | 2026-06-16 | Mount Osore (Osorezan) | `osorezan-bodaiji` | ✅ | — | — | — |
-| 2026-06-16 | Yunohama Beach | `yunohama-beach` | — | — | — | — |
-| 2026-06-16 | Japan Snake Center | `japan-snake-center` | — | — | — | — |
-| 2026-06-16 | Lina World | `lina-world` | — | — | — | — |
-| 2026-06-16 | Tokyo German Village | `tokyo-german-village` | — | — | — | — |
+| 2026-06-16 | Yunohama Beach | `yunohama-beach` | ✅ | — | — | — |
+| 2026-06-16 | Japan Snake Center | `japan-snake-center` | ✅ | — | — | — |
+| 2026-06-16 | Lina World | `lina-world` | ✅ | — | — | — |
+| 2026-06-16 | Tokyo German Village | `tokyo-german-village` | ✅ | — | — | — |
 | 2026-06-16 | Zao Onsen & the Okama Crater | `zao-onsen-okama` | ✅ | — | — | — |
 | 2026-06-16 | Farm Tomita Lavender Fields | `furano-lavender-fields` | ✅ | — | — | — |
 | 2026-06-16 | Choshi Electric Railway | `choshi-electric-railway` | ✅ | — | — | — |
@@ -330,34 +287,34 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 | 2026-06-16 | Tobu World Square | `tobu-world-square` | ✅ | — | — | — |
 | 2026-06-16 | Mount Nasu Ropeway (Chausu-dake) | `mount-nasu-ropeway` | ✅ | — | — | — |
 | 2026-06-16 | Nihon Minka-en Open-Air Folk House Museum | `nihon-minkaen` | ✅ | — | — | — |
-| 2026-06-16 | Oya-ji Temple & the Heiwa Kannon | `oyaji-temple-heiwa-kannon` | — | — | — | — |
-| 2026-06-16 | Naoshima's Yellow Pumpkin | `naoshima-yellow-pumpkin` | — | — | — | — |
+| 2026-06-16 | Oya-ji Temple & the Heiwa Kannon | `oyaji-temple-heiwa-kannon` | ✅ | — | — | — |
+| 2026-06-16 | Naoshima's Yellow Pumpkin | `naoshima-yellow-pumpkin` | ✅ | — | — | — |
 | 2026-06-16 | Bato Hiroshige Museum of Art | `bato-hiroshige-museum` | ✅ | — | — | — |
 | 2026-06-16 | The Railway Museum, Omiya | `railway-museum-omiya` | ✅ | — | — | — |
-| 2026-06-16 | Nasu Heisei-no-Mori & Komadome Falls | `nasu-heisei-no-mori` | — | — | — | — |
-| 2026-06-16 | Sankyo Soko Rice Warehouses | `sankyo-soko-warehouses` | — | — | — | — |
+| 2026-06-16 | Nasu Heisei-no-Mori & Komadome Falls | `nasu-heisei-no-mori` | ✅ | — | — | — |
+| 2026-06-16 | Sankyo Soko Rice Warehouses | `sankyo-soko-warehouses` | ✅ | — | — | — |
 | 2026-06-16 | Kawagoe — Little Edo | `kawagoe-little-edo` | ✅ | — | — | — |
-| 2026-06-16 | Nasu Safari Park | `nasu-safari-park` | — | — | — | — |
-| 2026-06-16 | Fujishiro Seiji Museum | `fujishiro-seiji-museum` | — | — | — | — |
+| 2026-06-16 | Nasu Safari Park | `nasu-safari-park` | ✅ | — | — | — |
+| 2026-06-16 | Fujishiro Seiji Museum | `fujishiro-seiji-museum` | ✅ | — | — | — |
 | 2026-06-16 | Moerenuma Park | `moerenuma-park` | ✅ | — | — | — |
 | 2026-06-16 | Tsurui Red-Crowned Cranes | `tsurui-red-crowned-cranes` | ✅ | — | — | — |
 | 2026-06-16 | Kamogawa Sea World | `kamogawa-sea-world` | ✅ | — | — | — |
 | 2026-06-16 | Goryōkaku Star Fort | `goryokaku-star-fort` | ✅ | — | — | — |
 | 2026-06-16 | Gunkanjima (Battleship Island) | `gunkanjima-hashima` | ✅ | — | — | — |
 | 2026-06-16 | Showa Shinzan | `showa-shinzan` | ✅ | — | — | — |
-| 2026-06-16 | DIC Kawamura Memorial Museum of Art | `dic-kawamura-museum` | — | — | — | — |
-| 2026-06-16 | Nasu Animal Kingdom | `nasu-animal-kingdom` | — | — | — | — |
-| 2026-06-16 | Nasu Flower World | `nasu-flower-world` | — | — | — | — |
+| 2026-06-16 | DIC Kawamura Memorial Museum of Art | `dic-kawamura-museum` | ✅ | — | — | — |
+| 2026-06-16 | Nasu Animal Kingdom | `nasu-animal-kingdom` | ✅ | — | — | — |
+| 2026-06-16 | Nasu Flower World | `nasu-flower-world` | ✅ | — | — | — |
 | 2026-06-16 | Kanmangafuchi Abyss | `kanmangafuchi-abyss` | ✅ | — | — | — |
-| 2026-06-16 | Akagawa Fireworks Festival | `akagawa-fireworks` | — | — | — | — |
-| 2026-06-16 | Yamagata Hanagasa Festival | `yamagata-hanagasa-festival` | — | — | — | — |
-| 2026-06-16 | Yamagata Imoni Festival | `yamagata-imoni-festival` | — | — | — | — |
+| 2026-06-16 | Akagawa Fireworks Festival | `akagawa-fireworks` | ✅ | — | — | — |
+| 2026-06-16 | Yamagata Hanagasa Festival | `yamagata-hanagasa-festival` | ✅ | — | — | — |
+| 2026-06-16 | Yamagata Imoni Festival | `yamagata-imoni-festival` | ✅ | — | — | — |
 | 2026-06-13 | Jigokudani Snow Monkey Park | `jigokudani-monkey-park` | ✅ | — | — | — |
 | 2026-06-13 | Tottori Sand Dunes | `tottori-sand-dunes` | ✅ | — | — | — |
 | 2026-06-13 | Takeda Castle Ruins — Castle in the Sky | `takeda-castle-ruins` | ✅ | — | — | — |
 | 2026-06-13 | Kawachi Fuji Garden Wisteria Tunnel | `kawachi-fuji-garden` | ✅ | — | — | — |
 | 2026-06-13 | Aoshima Cat Island | `aoshima-cat-island` | ✅ | — | — | — |
-| 2026-06-13 | Fussa Firefly Festival | `fussa-firefly-festival` | — | — | — | — |
+| 2026-06-13 | Fussa Firefly Festival | `fussa-firefly-festival` | ✅ | — | — | — |
 | 2026-02-20 | Akita Kanto Festival | `akita-kanto-festival` | ✅ | — | — | — |
 | 2026-01-15 | Fuji Shibazakura Festival | `fuji-shibazakura-festival` | ✅ | — | — | — |
 | 2025-11-10 | Zao Snow Monsters (Juhyo) | `zao-snow-monsters` | ✅ | — | — | — |
@@ -365,9 +322,9 @@ main image is real art, not the emoji placeholder. Snapshots (`snap1`/`snap2`) c
 | 2025-10-05 | Meguro Parasitological Museum | `meguro-parasitological-museum` | ✅ | — | — | — |
 | 2025-10-01 | Nabana no Sato Winter Illumination | `nabana-no-sato-illumination` | ✅ | — | — | — |
 | 2025-09-25 | Hitachi Seaside Park | `hitachi-seaside-park` | ✅ | — | — | — |
-| 2025-09-02 | Nagoro Scarecrow Village | `nagoro-scarecrow-village` | — | — | — | — |
+| 2025-09-02 | Nagoro Scarecrow Village | `nagoro-scarecrow-village` | ✅ | — | — | — |
 | 2025-08-15 | Ushiku Daibutsu | `ushiku-daibutsu` | ✅ | — | — | — |
-| 2025-08-01 | Oya History Museum (Underground Quarry) | `oya-history-museum` | — | — | — | — |
+| 2025-08-01 | Oya History Museum (Underground Quarry) | `oya-history-museum` | ✅ | — | — | — |
 | 2025-07-22 | Okunoshima (Rabbit Island) | `okunoshima-rabbit-island` | ✅ | — | — | — |
 | 2025-07-08 | The Blue Pond of Biei | `blue-pond-biei` | ✅ | — | — | — |
 | 2025-06-30 | Nokogiriyama & the Hell Peek | `nokogiriyama-jigoku-nozoki` | ✅ | — | — | — |

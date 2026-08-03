@@ -47,7 +47,10 @@ def scan():
                     "coll": coll,
                     "title": field(fm, "title") or slug,
                     "created": field(fm, "createdAt"),
-                    "photo": hero.startswith("http"),
+                    # heroImage may be a remote Commons URL or a locally-hosted path
+                    # (e.g. a submitted illustration under /images/...) — either counts as
+                    # a real hero image, not just http(s) URLs.
+                    "photo": bool(hero),
                     "hero": os.path.exists(os.path.join(SCENES, f"{slug}.hero.svg")),
                     "snap1": os.path.exists(os.path.join(SCENES, f"{slug}.snap1.svg")),
                     "snap2": os.path.exists(os.path.join(SCENES, f"{slug}.snap2.svg")),
