@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="saufb" data-title="Counting capsule doors — trying to confirm all 368 are real">
+  <defs>
+    <linearGradient id="saufb-ceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a4753"/>
+      <stop offset="100%" stop-color="#232d36"/>
+    </linearGradient>
+    <linearGradient id="saufb-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7a5c"/>
+      <stop offset="100%" stop-color="#6a5c42"/>
+    </linearGradient>
+    <linearGradient id="saufb-cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6edf0"/>
+      <stop offset="100%" stop-color="#b9c8ce"/>
+    </linearGradient>
+    <radialGradient id="saufb-vpglow" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#fff2c8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fff2c8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- high, wide angle down the capsule corridor: ceiling, converging floor, receding walls -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#saufb-ceil)"/>
+  <path d="M0,0 L480,0 L300,84 L180,84 Z" fill="url(#saufb-ceil)"/>
+  <path d="M0,300 L480,300 L300,150 L180,150 Z" fill="url(#saufb-floor)"/>
+  <ellipse cx="240" cy="108" rx="120" ry="46" fill="url(#saufb-vpglow)"/>
+
+  <!-- ceiling light strip down the vanishing point -->
+  <path d="M228,4 L252,4 L246,86 L234,86 Z" fill="#fff2c8" opacity="0.55"/>
+
+  <!-- LEFT wall of capsules, in perspective, receding toward center -->
+  <path d="M0,20 L180,86 L180,150 L0,280 Z" fill="#2c3944"/>
+  <g>
+    <path d="M8,40 L96,72 L96,104 L8,116 Z" fill="url(#saufb-cap)"/>
+    <path d="M8,124 L94,132 L94,164 L8,180 Z" fill="url(#saufb-cap)"/>
+    <path d="M8,188 L92,192 L92,222 L8,240 Z" fill="url(#saufb-cap)"/>
+    <path d="M104,74 L172,90 L172,112 L104,106 Z" fill="url(#saufb-cap)"/>
+    <path d="M102,134 L170,140 L170,160 L102,166 Z" fill="url(#saufb-cap)"/>
+  </g>
+  <circle cx="30" cy="70" r="2.4" fill="#8fd6e0"/>
+  <circle cx="30" cy="145" r="2.4" fill="#8fd6e0"/>
+  <circle cx="118" cy="86" r="2" fill="#8fd6e0"/>
+
+  <!-- RIGHT wall of capsules, mirrored -->
+  <path d="M480,20 L300,86 L300,150 L480,280 Z" fill="#2c3944"/>
+  <g>
+    <path d="M472,40 L384,72 L384,104 L472,116 Z" fill="url(#saufb-cap)"/>
+    <path d="M472,124 L386,132 L386,164 L472,180 Z" fill="url(#saufb-cap)"/>
+    <path d="M472,188 L388,192 L388,222 L472,240 Z" fill="url(#saufb-cap)"/>
+    <path d="M376,74 L308,90 L308,112 L376,106 Z" fill="url(#saufb-cap)"/>
+    <path d="M378,134 L310,140 L310,160 L378,166 Z" fill="url(#saufb-cap)"/>
+  </g>
+  <circle cx="450" cy="70" r="2.4" fill="#8fd6e0"/>
+  <circle cx="450" cy="145" r="2.4" fill="#8fd6e0"/>
+  <circle cx="362" cy="86" r="2" fill="#8fd6e0"/>
+
+  <!-- floor seams converging to the vanishing point, selling the corridor depth -->
+  <line x1="20" y1="300" x2="200" y2="152" stroke="#4a3e2a" stroke-width="2" opacity="0.5"/>
+  <line x1="460" y1="300" x2="280" y2="152" stroke="#4a3e2a" stroke-width="2" opacity="0.5"/>
+  <line x1="150" y1="300" x2="230" y2="160" stroke="#4a3e2a" stroke-width="1.5" opacity="0.35"/>
+  <line x1="330" y1="300" x2="250" y2="160" stroke="#4a3e2a" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- shadows for the foreground cast -->
+  <ellipse cx="196" cy="286" rx="60" ry="12" fill="#000000" opacity="0.22"/>
+  <ellipse cx="332" cy="278" rx="50" ry="11" fill="#000000" opacity="0.2"/>
+
+  <!-- Socks, sitting cross-legged in the foreground, counting capsule doors on his paws -->
+  <g transform="translate(70 90) scale(0.72)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+  <!-- his little notepad, tallying the count -->
+  <rect x="148" y="212" width="34" height="24" rx="2" fill="#f4ead0" stroke="#8a6c49" stroke-width="1.5"/>
+  <line x1="153" y1="219" x2="177" y2="219" stroke="#8a6c49" stroke-width="1.5"/>
+  <line x1="153" y1="225" x2="177" y2="225" stroke="#8a6c49" stroke-width="1.5"/>
+  <line x1="153" y1="231" x2="170" y2="231" stroke="#8a6c49" stroke-width="1.5"/>
+
+  <!-- Mon-chan, sitting beside him, unimpressed -->
+  <g transform="translate(292 108) scale(0.68)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+
+  <!-- a little cloud of grumpy squiggles over Mon-chan -->
+  <path d="M350,96 Q356,90 362,96 Q368,90 374,96" stroke="#e8973f" stroke-width="2.5" fill="none" opacity="0.7" stroke-linecap="round"/>
+</svg>

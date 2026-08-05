@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="saufa" data-title="One toe into the 20-meter cold pool — four seconds of glory">
+  <defs>
+    <linearGradient id="saufa-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bdeef0"/>
+      <stop offset="45%" stop-color="#5cc0cb"/>
+      <stop offset="100%" stop-color="#1c6f7e"/>
+    </linearGradient>
+    <linearGradient id="saufa-tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eee3cd"/>
+      <stop offset="100%" stop-color="#d6c8a8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- tiled pool edge, top band -->
+  <rect x="0" y="0" width="480" height="72" fill="url(#saufa-tile)"/>
+  <g stroke="#b7a983" stroke-width="1" opacity="0.6">
+    <line x1="0" y1="24" x2="480" y2="24"/>
+    <line x1="0" y1="48" x2="480" y2="48"/>
+    <line x1="60" y1="0" x2="60" y2="72"/>
+    <line x1="140" y1="0" x2="140" y2="72"/>
+    <line x1="220" y1="0" x2="220" y2="72"/>
+    <line x1="300" y1="0" x2="300" y2="72"/>
+    <line x1="380" y1="0" x2="380" y2="72"/>
+    <line x1="460" y1="0" x2="460" y2="72"/>
+  </g>
+  <rect x="0" y="66" width="480" height="10" fill="#a89060" opacity="0.6"/>
+
+  <!-- the water filling the rest of the frame -->
+  <rect x="0" y="76" width="480" height="224" fill="url(#saufa-water)"/>
+
+  <!-- background ripple lines further down the pool, selling depth/length -->
+  <path d="M0,150 Q60,142 120,150 T240,150 T360,150 T480,150" stroke="#dff9fb" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M0,200 Q60,192 120,200 T240,200 T360,200 T480,200" stroke="#dff9fb" stroke-width="2" fill="none" opacity="0.35"/>
+  <path d="M0,250 Q60,242 120,250 T240,250 T360,250 T480,250" stroke="#cdeef2" stroke-width="2" fill="none" opacity="0.3"/>
+
+  <!-- concentric cold-shock ripple rings, centered right where his feet meet the water -->
+  <ellipse cx="196" cy="90" rx="30" ry="8" fill="none" stroke="#f2ffff" stroke-width="2.5" opacity="0.85"/>
+  <ellipse cx="196" cy="92" rx="58" ry="14" fill="none" stroke="#e4fbfd" stroke-width="2" opacity="0.55"/>
+  <ellipse cx="196" cy="94" rx="90" ry="20" fill="none" stroke="#d3f4f7" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- shadow under Cinnamon on the tile edge -->
+  <ellipse cx="196" cy="70" rx="54" ry="9" fill="#000000" opacity="0.18"/>
+
+  <!-- Cinnamon, perched right at the pool's edge with his feet just touching the water — big, close-up -->
+  <g transform="translate(76 -44) scale(1.0)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+
+  <!-- a couple of ice-blue sparkle glints for the "cold" punch -->
+  <path d="M330,120 L336,114 L342,120 L336,126 Z" fill="#eafeff" opacity="0.85"/>
+  <path d="M96,140 L100,136 L104,140 L100,144 Z" fill="#eafeff" opacity="0.75"/>
+  <path d="M280,180 L284,176 L288,180 L284,184 Z" fill="#eafeff" opacity="0.6"/>
+</svg>
