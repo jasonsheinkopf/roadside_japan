@@ -9,8 +9,8 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 ## Summary
 
-- Entries (published): **261**  ·  with real photo: **193**  ·  no photo: **68**
-- Drawn hero present: **21**  ·  full set (hero+snap1+snap2): **14**
+- Entries (published): **262**  ·  with real photo: **193**  ·  no photo: **69**
+- Drawn hero present: **22**  ·  full set (hero+snap1+snap2): **15**
 - **Priority queue (no photo, no drawn hero): 49** — listed first below.
 - **Snapshot queue (missing snap1 and/or snap2): 246**.
 
@@ -323,6 +323,7 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
+| 2026-08-08 | Kita Kouboh Coffee Roastery | `kita-kouboh-biei` | — | ✅ | ✅ | ✅ |
 | 2026-08-05 | Sauna Fuji — Sakae's Retro Capsule-and-Cold-Pool Sauna | `sauna-fuji-nagoya` | — | ✅ | ✅ | ✅ |
 | 2026-08-03 | Heiwa-dōri Kaimono Kōen (Peace Street Sculpture Walk) | `heiwadori-kaimono-koen` | — | ✅ | ✅ | ✅ |
 | 2026-08-03 | Gallery PuruPuru | `gallery-purupuru` | — | ✅ | ✅ | ✅ |
