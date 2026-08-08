@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kits2" data-title="Socks counts five pairs of shoes lined up by the door">
+<defs>
+  <linearGradient id="kits2-wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3a2818"/>
+    <stop offset="1" stop-color="#4d3624"/>
+  </linearGradient>
+  <linearGradient id="kits2-glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#bfe1ea"/>
+    <stop offset="1" stop-color="#e6ecc6"/>
+  </linearGradient>
+  <linearGradient id="kits2-genkan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a89e8c"/>
+    <stop offset="1" stop-color="#8a7d68"/>
+  </linearGradient>
+  <linearGradient id="kits2-rack" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7a5530"/>
+    <stop offset="1" stop-color="#4e3520"/>
+  </linearGradient>
+  <linearGradient id="kits2-floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7a5530"/>
+    <stop offset="1" stop-color="#4a3018"/>
+  </linearGradient>
+  <radialGradient id="kits2-doorglow" cx="0.5" cy="0.4" r="0.7">
+    <stop offset="0" stop-color="#fff3d0" stop-opacity="0.6"/>
+    <stop offset="1" stop-color="#fff3d0" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- back wall and the glass entrance door, street glimpsed beyond -->
+<rect x="0" y="0" width="480" height="92" fill="url(#kits2-wall)"/>
+<rect x="150" y="8" width="188" height="78" fill="#241a10"/>
+<rect x="158" y="14" width="172" height="66" fill="url(#kits2-glass)"/>
+<ellipse cx="244" cy="30" rx="90" ry="34" fill="url(#kits2-doorglow)"/>
+<path d="M158 76 Q190 54 220 66 Q250 50 280 64 Q305 54 330 66 L330 80 L158 80 Z" fill="#8a9a6c" opacity="0.4"/>
+<path d="M158 78 Q185 66 214 74 Q245 64 275 74 Q302 66 330 76 L330 80 L158 80 Z" fill="#c7b45a" opacity="0.35"/>
+<line x1="244" y1="14" x2="244" y2="80" stroke="#241a10" stroke-width="2.4"/>
+<line x1="158" y1="47" x2="330" y2="47" stroke="#241a10" stroke-width="2.4"/>
+<rect x="150" y="86" width="188" height="8" fill="#2f2214"/>
+<rect x="196" y="0" width="6" height="10" fill="#241a10"/>
+<rect x="286" y="0" width="6" height="10" fill="#241a10"/>
+
+<!-- geta-bako shoe rack against the side wall -->
+<rect x="0" y="18" width="66" height="150" fill="url(#kits2-rack)"/>
+<rect x="4" y="60" width="58" height="3" fill="#2a1c10" opacity="0.6"/>
+<rect x="4" y="104" width="58" height="3" fill="#2a1c10" opacity="0.6"/>
+<rect x="20" y="30" width="26" height="14" rx="2" fill="#3a281a"/>
+<circle cx="33" cy="37" r="1.8" fill="#c9a86a"/>
+<rect x="21" y="15" width="24" height="6" rx="2" fill="#4e3520"/>
+<ellipse cx="33" cy="10" rx="13" ry="7" fill="#5c7a44"/>
+<path d="M23 10 Q33 -2 43 10" fill="none" stroke="#3c5228" stroke-width="2"/>
+
+<!-- side walls flanking the genkan, in shadow -->
+<rect x="0" y="92" width="480" height="104" fill="#2c2014"/>
+
+<!-- genkan floor, tiled, where the shoes wait -->
+<polygon points="58,92 400,92 452,196 16,196" fill="url(#kits2-genkan)"/>
+<path d="M96 92 L64 196" stroke="#726650" stroke-width="1" opacity="0.35"/>
+<path d="M180 92 L166 196" stroke="#726650" stroke-width="1" opacity="0.3"/>
+<path d="M270 92 L280 196" stroke="#726650" stroke-width="1" opacity="0.3"/>
+<path d="M356 92 L392 196" stroke="#726650" stroke-width="1" opacity="0.35"/>
+<path d="M40 140 L432 140" stroke="#726650" stroke-width="1" opacity="0.25"/>
+<path d="M420 92 Q430 100 452 196" fill="none" stroke="#5c5140" stroke-width="1" opacity="0.2"/>
+
+<!-- a small woven doormat near the threshold, tucked behind the shoe row -->
+<rect x="196" y="96" width="80" height="16" rx="6" fill="#8a6b3c" opacity="0.6"/>
+<line x1="206" y1="100" x2="206" y2="108" stroke="#6b5024" stroke-width="1.2" opacity="0.5"/>
+<line x1="222" y1="100" x2="222" y2="108" stroke="#6b5024" stroke-width="1.2" opacity="0.5"/>
+<line x1="238" y1="100" x2="238" y2="108" stroke="#6b5024" stroke-width="1.2" opacity="0.5"/>
+<line x1="254" y1="100" x2="254" y2="108" stroke="#6b5024" stroke-width="1.2" opacity="0.5"/>
+
+<!-- five pairs of shoes, counted and lined up in the gap between Cinnamon and Socks -->
+<g transform="translate(206 116) rotate(-6)">
+  <ellipse cx="-13" cy="0" rx="10" ry="6.4" fill="#f2ece0"/>
+  <ellipse cx="13" cy="1" rx="10" ry="6.4" fill="#f2ece0"/>
+  <path d="M-21 1 h14" stroke="#2c4a7a" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M5 2 h14" stroke="#2c4a7a" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+<g transform="translate(252 130) rotate(4)">
+  <ellipse cx="-12" cy="0" rx="9.5" ry="6" fill="#8a5a34"/>
+  <ellipse cx="12" cy="-1" rx="9.5" ry="6" fill="#8a5a34"/>
+  <ellipse cx="-12" cy="1" rx="5" ry="3" fill="#c99a66"/>
+  <ellipse cx="12" cy="0" rx="5" ry="3" fill="#c99a66"/>
+</g>
+<g transform="translate(296 146) rotate(-3)">
+  <ellipse cx="-13" cy="0" rx="11" ry="7" fill="#241c18"/>
+  <ellipse cx="13" cy="1" rx="11" ry="7" fill="#241c18"/>
+  <path d="M-22 2 h16" stroke="#3a322c" stroke-width="2"/>
+  <path d="M6 3 h16" stroke="#3a322c" stroke-width="2"/>
+</g>
+<g transform="translate(224 158) rotate(5)">
+  <ellipse cx="-12" cy="0" rx="9.5" ry="5.8" fill="#c99a5e"/>
+  <ellipse cx="12" cy="-1" rx="9.5" ry="5.8" fill="#c99a5e"/>
+  <path d="M-19 -2 q7 -5 13 0" stroke="#8a6a3a" stroke-width="1.6" fill="none"/>
+  <path d="M-1 -3 q7 -5 13 0" stroke="#8a6a3a" stroke-width="1.6" fill="none"/>
+</g>
+<g transform="translate(270 172) rotate(-8)">
+  <ellipse cx="-11" cy="0" rx="9" ry="5.4" fill="#e8e4dc"/>
+  <ellipse cx="11" cy="-1" rx="9" ry="5.4" fill="#e8e4dc"/>
+  <path d="M-18 0 h12" stroke="#c25a4a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M2 -1 h12" stroke="#c25a4a" stroke-width="1.8" stroke-linecap="round"/>
+</g>
+
+<!-- the step up into the shop, in shadow -->
+<rect x="0" y="196" width="480" height="18" fill="#2a1c10"/>
+<rect x="0" y="210" width="480" height="6" fill="#1c1108"/>
+
+<!-- the raised wooden floor, foreground, where Cinnamon has already stepped up -->
+<rect x="0" y="216" width="480" height="84" fill="url(#kits2-floor)"/>
+<line x1="0" y1="248" x2="480" y2="244" stroke="#3a2412" stroke-width="1" opacity="0.3"/>
+<line x1="0" y1="276" x2="480" y2="270" stroke="#3a2412" stroke-width="1" opacity="0.3"/>
+
+<!-- Socks, crouched at the edge, counting the shoes -->
+<ellipse cx="380" cy="222" rx="26" ry="7" fill="#000" opacity="0.22"/>
+<g transform="translate(332 132) scale(0.58) rotate(4)">
+  <use href="#advc-socks" width="200" height="200"/>
+</g>
+
+<!-- Cinnamon, already up on the raised floor, looking back -->
+<ellipse cx="98" cy="286" rx="40" ry="10" fill="#000" opacity="0.2"/>
+<g transform="translate(14 140) scale(0.72)">
+  <use href="#advc-cinnamon" width="240" height="240"/>
+</g>
+</svg>
