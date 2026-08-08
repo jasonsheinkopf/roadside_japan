@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kitk" data-title="Kita Kouboh — roaster by the door, the long bar counter, Biei">
+<defs>
+  <linearGradient id="kitk-wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4d3826"/>
+    <stop offset="1" stop-color="#6d4f33"/>
+  </linearGradient>
+  <linearGradient id="kitk-floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8a6238"/>
+    <stop offset="1" stop-color="#54371e"/>
+  </linearGradient>
+  <linearGradient id="kitk-sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#bfe1ea"/>
+    <stop offset="0.55" stop-color="#dcecc9"/>
+    <stop offset="1" stop-color="#eef2c2"/>
+  </linearGradient>
+  <linearGradient id="kitk-ctop" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#e0bd88"/>
+    <stop offset="1" stop-color="#b5875a"/>
+  </linearGradient>
+  <linearGradient id="kitk-cfront" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8f6540"/>
+    <stop offset="1" stop-color="#573a20"/>
+  </linearGradient>
+  <linearGradient id="kitk-roaster" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8b96a0"/>
+    <stop offset="1" stop-color="#454e58"/>
+  </linearGradient>
+  <radialGradient id="kitk-glow" cx="0.5" cy="0.45" r="0.6">
+    <stop offset="0" stop-color="#ffc267" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="#ffc267" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="kitk-warmpool" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ffdca0" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#ffdca0" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="kitk-smoke" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#eef1ea" stop-opacity="0.7"/>
+    <stop offset="1" stop-color="#eef1ea" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="kitk-lampshade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#caa670"/>
+    <stop offset="1" stop-color="#8a6438"/>
+  </linearGradient>
+  <filter id="kitk-blur" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="3.2"/>
+  </filter>
+</defs>
+
+<!-- back wall -->
+<rect x="0" y="0" width="480" height="168" fill="url(#kitk-wall)"/>
+<g stroke="#241a10" stroke-width="1" opacity="0.22">
+  <line x1="130" y1="10" x2="130" y2="168"/>
+  <line x1="170" y1="10" x2="170" y2="168"/>
+  <line x1="440" y1="10" x2="440" y2="168"/>
+</g>
+<rect x="0" y="0" width="480" height="9" fill="#251a10"/>
+<rect x="0" y="9" width="480" height="3" fill="#180f08"/>
+
+<!-- entrance edge at far left, indigo noren hanging in the doorway -->
+<rect x="0" y="0" width="20" height="230" fill="#2c2015"/>
+<line x1="4" y1="18" x2="16" y2="18" stroke="#1c130c" stroke-width="2"/>
+<rect x="4" y="20" width="5" height="42" fill="#2c4a63"/>
+<rect x="11" y="20" width="5" height="42" fill="#2c4a63"/>
+<circle cx="6.5" cy="34" r="2.6" fill="#e8dcc0" opacity="0.85"/>
+<circle cx="13.5" cy="34" r="2.6" fill="#e8dcc0" opacity="0.85"/>
+
+<!-- window on the back wall: pale Hokkaido sky over Biei's patchwork hill farmland -->
+<rect x="296" y="22" width="132" height="98" fill="#2a1c12"/>
+<rect x="304" y="30" width="116" height="82" fill="url(#kitk-sky)"/>
+<path d="M304 96 Q345 76 362 88 Q384 70 420 84 L420 112 L304 112 Z" fill="#7fa35a"/>
+<path d="M304 100 Q330 92 352 100 Q378 88 402 98 L420 96 L420 112 L304 112 Z" fill="#c7b45a" opacity="0.85"/>
+<path d="M304 104 Q322 100 340 105 L360 98 Q388 106 420 100 L420 112 L304 112 Z" fill="#5c7a3c"/>
+<ellipse cx="330" cy="96" rx="10" ry="3" fill="#8a5a34" opacity="0.55"/>
+<ellipse cx="390" cy="92" rx="9" ry="2.6" fill="#8a5a34" opacity="0.5"/>
+<circle cx="401" cy="42" r="9" fill="#fff3d2" opacity="0.8"/>
+<line x1="362" y1="30" x2="362" y2="112" stroke="#2a1c12" stroke-width="3"/>
+<line x1="304" y1="70" x2="420" y2="70" stroke="#2a1c12" stroke-width="3"/>
+<rect x="292" y="118" width="140" height="9" fill="#3a2718"/>
+
+<!-- wall shelf of roasted-bean jars, above the roaster -->
+<rect x="30" y="76" width="96" height="7" fill="#3a2718"/>
+<rect x="34" y="83" width="7" height="30" fill="#241a10"/>
+<rect x="115" y="83" width="7" height="30" fill="#241a10"/>
+<rect x="46" y="52" width="18" height="30" rx="2" fill="#5c3d22" opacity="0.9"/>
+<ellipse cx="55" cy="52" rx="9" ry="3" fill="#caa570"/>
+<circle cx="50" cy="66" r="1.6" fill="#2a1c10"/><circle cx="56" cy="70" r="1.6" fill="#2a1c10"/><circle cx="61" cy="64" r="1.6" fill="#2a1c10"/>
+<rect x="70" y="56" width="16" height="26" rx="2" fill="#4a331e" opacity="0.9"/>
+<ellipse cx="78" cy="56" rx="8" ry="2.6" fill="#caa570"/>
+<rect x="92" y="58" width="16" height="24" rx="2" fill="#6b4a2a" opacity="0.9"/>
+<ellipse cx="100" cy="58" rx="8" ry="2.6" fill="#caa570"/>
+
+<!-- floor -->
+<rect x="0" y="168" width="480" height="132" fill="url(#kitk-floor)"/>
+<path d="M310 168 L20 300" stroke="#3a2512" stroke-width="0.8" opacity="0.2"/>
+<path d="M310 168 L200 300" stroke="#3a2512" stroke-width="0.8" opacity="0.2"/>
+<path d="M310 168 L420 300" stroke="#3a2512" stroke-width="0.8" opacity="0.2"/>
+<path d="M0 214 Q240 202 480 212" stroke="#3a2512" stroke-width="0.8" fill="none" opacity="0.16"/>
+<path d="M0 256 Q240 244 480 256" stroke="#3a2512" stroke-width="0.8" fill="none" opacity="0.16"/>
+
+<!-- warm daylight pooling on the floor beneath the window -->
+<ellipse cx="360" cy="210" rx="90" ry="24" fill="url(#kitk-warmpool)"/>
+
+<!-- coffee roaster, right by the entrance -->
+<rect x="46" y="216" width="8" height="16" fill="#2e343a"/>
+<rect x="96" y="216" width="8" height="16" fill="#2e343a"/>
+<rect x="38" y="132" width="70" height="86" rx="8" fill="url(#kitk-roaster)"/>
+<polygon points="52,132 94,132 88,106 58,106" fill="#5f6970"/>
+<rect x="70" y="96" width="6" height="12" fill="#3a4148"/>
+<circle cx="73" cy="176" r="22" fill="#2b3136"/>
+<circle cx="73" cy="176" r="15" fill="url(#kitk-glow)"/>
+<circle cx="73" cy="176" r="22" fill="none" stroke="#1c2226" stroke-width="2"/>
+<circle cx="45" cy="145" r="2" fill="#20262a"/><circle cx="101" cy="145" r="2" fill="#20262a"/>
+<circle cx="45" cy="205" r="2" fill="#20262a"/><circle cx="101" cy="205" r="2" fill="#20262a"/>
+<rect x="108" y="150" width="13" height="46" rx="2" fill="#39414a"/>
+<circle cx="114.5" cy="160" r="3.4" fill="#c8703a"/>
+<circle cx="114.5" cy="175" r="3.4" fill="#3fa0a0"/>
+<rect x="110" y="184" width="9" height="8" fill="#22282e"/>
+
+<!-- chimney pipe rising from the roaster, curling smoke above -->
+<path d="M76 106 L76 62 Q76 44 96 44 L96 12" fill="none" stroke="#39414a" stroke-width="9" stroke-linecap="round"/>
+<ellipse cx="96" cy="6" rx="14" ry="8" fill="url(#kitk-smoke)"/>
+<ellipse cx="106" cy="-6" rx="18" ry="10" fill="url(#kitk-smoke)"/>
+<path d="M96 8 Q104 -4 92 -14" stroke="#eef1ea" stroke-width="4" fill="none" opacity="0.4" stroke-linecap="round"/>
+
+<!-- green-bean crate and a burlap sack beside the roaster -->
+<rect x="34" y="234" width="46" height="26" rx="2" fill="#6b4a2a"/>
+<rect x="38" y="238" width="38" height="10" fill="#2f2013"/>
+<circle cx="45" cy="242" r="2.6" fill="#a7c17a"/><circle cx="52" cy="243" r="2.6" fill="#a7c17a"/><circle cx="59" cy="242" r="2.6" fill="#a7c17a"/><circle cx="66" cy="243" r="2.6" fill="#a7c17a"/>
+<path d="M92 260 Q86 234 108 232 Q130 234 124 260 Q108 268 92 260 Z" fill="#9c7c50"/>
+<path d="M96 234 Q108 228 120 234" stroke="#6b5230" stroke-width="2" fill="none"/>
+
+<!-- the long bar counter, running back from the entrance toward the window -->
+<polygon points="118,160 462,142 462,158 118,178" fill="url(#kitk-ctop)"/>
+<polygon points="118,178 462,158 462,250 118,272" fill="url(#kitk-cfront)"/>
+<g stroke="#3a2614" stroke-width="1" opacity="0.35">
+  <line x1="170" y1="175" x2="221" y2="165"/>
+  <line x1="221" y1="172" x2="273" y2="162"/>
+  <line x1="273" y1="169" x2="324" y2="159"/>
+  <line x1="324" y1="166" x2="376" y2="156"/>
+  <line x1="376" y1="163" x2="428" y2="153"/>
+</g>
+<rect x="118" y="266" width="344" height="8" fill="#241708"/>
+
+<!-- items along the counter: cup, scale, roasted-bean jar, soybean sack -->
+<ellipse cx="152" cy="172" rx="11" ry="3.5" fill="#e8ddc8"/>
+<path d="M144 172 q0 8 8 8 q8 0 8 -8z" fill="#f4ede0"/>
+<path d="M160 170 q6 -2 5 4 q-1 4 -5 3" fill="none" stroke="#3a2614" stroke-width="1.4"/>
+<path d="M148 166 q2 -6 -1 -10" stroke="#eef1ea" stroke-width="1.6" fill="none" opacity="0.55"/>
+<path d="M153 164 q2 -6 -1 -10" stroke="#eef1ea" stroke-width="1.6" fill="none" opacity="0.5"/>
+
+<rect x="222" y="160" width="30" height="7" rx="1.5" fill="#2e2419"/>
+<rect x="233" y="150" width="8" height="10" fill="#e0d8c4"/>
+<circle cx="237" cy="148" r="3" fill="none" stroke="#2e2419" stroke-width="1.4"/>
+
+<rect x="292" y="146" width="20" height="26" rx="3" fill="#3a2716" opacity="0.9"/>
+<ellipse cx="302" cy="146" rx="10" ry="3" fill="#caa570"/>
+<circle cx="297" cy="156" r="1.6" fill="#1c1208"/><circle cx="303" cy="160" r="1.6" fill="#1c1208"/><circle cx="308" cy="154" r="1.6" fill="#1c1208"/>
+
+<path d="M348 168 Q344 150 362 149 Q380 150 376 168 Q362 174 348 168 Z" fill="#c9b98c"/>
+<path d="M352 150 Q362 145 372 150" stroke="#7a6a44" stroke-width="1.6" fill="none"/>
+<circle cx="358" cy="160" r="1.6" fill="#8a7a52"/><circle cx="364" cy="163" r="1.6" fill="#8a7a52"/><circle cx="368" cy="158" r="1.6" fill="#8a7a52"/>
+
+<!-- three empty bar stools facing the counter -->
+<g stroke="#2e2016" stroke-width="2" fill="none">
+  <path d="M186 254 L180 280 M198 254 L204 280 M192 254 L192 280"/>
+</g>
+<ellipse cx="192" cy="252" rx="16" ry="6" fill="#6b4a2a"/>
+<g stroke="#2e2016" stroke-width="1.8" fill="none">
+  <path d="M296 246 L291 268 M306 246 L311 268 M301 246 L301 268"/>
+</g>
+<ellipse cx="301" cy="244" rx="13" ry="5" fill="#6b4a2a"/>
+<g stroke="#2e2016" stroke-width="1.6" fill="none">
+  <path d="M394 240 L390 258 M402 240 L406 258 M398 240 L398 258"/>
+</g>
+<ellipse cx="398" cy="238" rx="11" ry="4.2" fill="#6b4a2a"/>
+
+<!-- pendant lamps over the counter -->
+<line x1="220" y1="0" x2="220" y2="96" stroke="#241a10" stroke-width="1.6"/>
+<ellipse cx="220" cy="120" rx="34" ry="30" fill="url(#kitk-glow)" filter="url(#kitk-blur)"/>
+<path d="M206 96 L234 96 L228 116 L212 116 Z" fill="url(#kitk-lampshade)"/>
+<ellipse cx="220" cy="116" rx="8" ry="3" fill="#ffdca0"/>
+
+<line x1="370" y1="0" x2="370" y2="82" stroke="#241a10" stroke-width="1.4"/>
+<ellipse cx="370" cy="102" rx="28" ry="24" fill="url(#kitk-glow)" filter="url(#kitk-blur)"/>
+<path d="M359 82 L381 82 L376 100 L364 100 Z" fill="url(#kitk-lampshade)"/>
+<ellipse cx="370" cy="100" rx="6.5" ry="2.4" fill="#ffdca0"/>
+
+<ellipse cx="220" cy="228" rx="46" ry="10" fill="url(#kitk-warmpool)"/>
+<ellipse cx="370" cy="216" rx="34" ry="8" fill="url(#kitk-warmpool)"/>
+</svg>
