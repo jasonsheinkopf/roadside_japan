@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="shno1" data-title="Perched on a fence post, tracking clouds across the Tokachidake range">
+  <defs>
+    <linearGradient id="shno1-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fb8e0"/>
+      <stop offset="0.5" stop-color="#bfe0ea"/>
+      <stop offset="1" stop-color="#eaf3e0"/>
+    </linearGradient>
+    <radialGradient id="shno1-sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8dc" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff8dc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shno1-farmtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a7b4d6"/>
+      <stop offset="1" stop-color="#8894b8"/>
+    </linearGradient>
+    <linearGradient id="shno1-neartn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c7266"/>
+      <stop offset="1" stop-color="#4f463c"/>
+    </linearGradient>
+    <linearGradient id="shno1-hills" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9cb85a"/>
+      <stop offset="1" stop-color="#728f3e"/>
+    </linearGradient>
+    <linearGradient id="shno1-hills2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b7c96e"/>
+      <stop offset="1" stop-color="#8ba84c"/>
+    </linearGradient>
+    <linearGradient id="shno1-post" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a6a48"/>
+      <stop offset="0.5" stop-color="#a6835a"/>
+      <stop offset="1" stop-color="#6d5136"/>
+    </linearGradient>
+  </defs>
+
+  <!-- big open sky -->
+  <rect x="0" y="0" width="480" height="185" fill="url(#shno1-sky)"/>
+  <circle cx="400" cy="42" r="80" fill="url(#shno1-sun)"/>
+
+  <!-- clouds crawling across the sky, layered for depth -->
+  <ellipse cx="90" cy="38" rx="46" ry="14" fill="#ffffff" opacity="0.75"/>
+  <ellipse cx="130" cy="46" rx="34" ry="11" fill="#ffffff" opacity="0.65"/>
+  <ellipse cx="230" cy="26" rx="56" ry="15" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="278" cy="34" rx="30" ry="10" fill="#ffffff" opacity="0.6"/>
+  <ellipse cx="360" cy="70" rx="48" ry="13" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="405" cy="78" rx="28" ry="9" fill="#ffffff" opacity="0.55"/>
+  <ellipse cx="30" cy="90" rx="34" ry="9" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="440" cy="20" rx="30" ry="8" fill="#ffffff" opacity="0.5"/>
+
+  <!-- Tokachidake range, far hazy ridge behind the jagged near ridge -->
+  <path d="M0 150 L40 128 L80 140 L130 108 L175 132 L220 118 L260 138 L300 122 L340 142 L380 116 L420 136 L460 120 L480 132 L480 165 L0 165 Z" fill="url(#shno1-farmtn)" opacity="0.55"/>
+
+  <!-- near jagged Tokachidake peaks -->
+  <path d="M-10 168 L20 132 L48 152 L78 100 L104 140 L138 92 L168 146 L200 112 L232 150 L268 96 L300 144 L336 118 L368 150 L402 104 L436 148 L470 126 L490 156 L490 180 L-10 180 Z" fill="url(#shno1-neartn)"/>
+  <!-- snow streaks in the couloirs -->
+  <path d="M78 100 L88 118 L70 122 Z" fill="#f4f2ec" opacity="0.85"/>
+  <path d="M138 92 L146 108 L130 112 Z" fill="#f4f2ec" opacity="0.8"/>
+  <path d="M268 96 L276 112 L260 116 Z" fill="#f4f2ec" opacity="0.85"/>
+  <path d="M402 104 L410 120 L394 122 Z" fill="#f4f2ec" opacity="0.75"/>
+  <path d="M20 132 L26 144 L14 144 Z" fill="#f4f2ec" opacity="0.6"/>
+
+  <!-- rolling hills below the range, farmland patchwork -->
+  <path d="M-10 182 Q100 160 220 178 Q340 196 490 172 L490 236 L-10 236 Z" fill="url(#shno1-hills)"/>
+  <path d="M-10 200 Q120 184 260 202 Q380 218 490 196 L490 236 L-10 236 Z" fill="url(#shno1-hills2)" opacity="0.7"/>
+
+  <!-- tiny red-roofed farmhouses scattered on the hills -->
+  <g opacity="0.92">
+    <rect x="56" y="196" width="12" height="8" fill="#e8e2d0"/>
+    <path d="M53 196 L62 188 L71 196 Z" fill="#a8352a"/>
+    <rect x="150" y="208" width="10" height="7" fill="#eee8d8"/>
+    <path d="M147 208 L155 201 L163 208 Z" fill="#b0392c"/>
+    <rect x="330" y="202" width="11" height="8" fill="#e8e2d0"/>
+    <path d="M327 202 L335 194 L344 202 Z" fill="#a8352a"/>
+    <rect x="400" y="212" width="9" height="6" fill="#eee8d8"/>
+    <path d="M397 212 L404 206 L412 212 Z" fill="#a8352a"/>
+    <rect x="250" y="214" width="8" height="6" fill="#e8e2d0"/>
+    <path d="M247 214 L253 208 L260 214 Z" fill="#963428"/>
+  </g>
+  <!-- tree lines between fields -->
+  <path d="M0 214 Q40 208 90 214" stroke="#4f6b30" stroke-width="4" fill="none" opacity="0.5"/>
+  <path d="M180 224 Q230 218 285 224" stroke="#4f6b30" stroke-width="4" fill="none" opacity="0.45"/>
+  <path d="M360 220 Q410 214 460 220" stroke="#4f6b30" stroke-width="4" fill="none" opacity="0.45"/>
+
+  <!-- foreground grass slope where the viewer/fence stand -->
+  <path d="M-10 226 Q240 210 490 228 L490 300 L-10 300 Z" fill="#5f7c3c"/>
+  <path d="M-10 250 Q240 236 490 254 L490 300 L-10 300 Z" fill="#4e6832" opacity="0.7"/>
+
+  <!-- the fence line running along the ridge edge, receding to the left -->
+  <line x1="0" y1="238" x2="150" y2="230" stroke="#7a5e40" stroke-width="3" opacity="0.85"/>
+  <line x1="0" y1="248" x2="150" y2="240" stroke="#7a5e40" stroke-width="3" opacity="0.85"/>
+  <rect x="8" y="220" width="7" height="34" fill="url(#shno1-post)" opacity="0.75"/>
+  <rect x="60" y="216" width="7" height="34" fill="url(#shno1-post)" opacity="0.8"/>
+  <rect x="118" y="212" width="7" height="34" fill="url(#shno1-post)" opacity="0.85"/>
+
+  <!-- close fence rail leading into the near post -->
+  <line x1="150" y1="228" x2="310" y2="222" stroke="#7a5e40" stroke-width="4"/>
+  <line x1="150" y1="240" x2="310" y2="234" stroke="#7a5e40" stroke-width="4"/>
+
+  <!-- the near fence post Cinnamon sits on, big in frame -->
+  <ellipse cx="300" cy="288" rx="46" ry="10" fill="#1a1710" opacity="0.25"/>
+  <rect x="278" y="196" width="30" height="96" rx="2" fill="url(#shno1-post)" stroke="#5a4530" stroke-width="2"/>
+  <ellipse cx="293" cy="196" rx="16" ry="6" fill="#b6976c" stroke="#5a4530" stroke-width="2"/>
+  <path d="M280 210 L306 206" stroke="#5a4530" stroke-width="1.2" opacity="0.4"/>
+  <path d="M280 230 L306 226" stroke="#5a4530" stroke-width="1.2" opacity="0.4"/>
+  <path d="M280 254 L306 250" stroke="#5a4530" stroke-width="1.2" opacity="0.4"/>
+  <path d="M282 200 Q286 240 282 288" stroke="#5a4530" stroke-width="1" opacity="0.3" fill="none"/>
+
+  <!-- Cinnamon perched on top of the post, watching the range -->
+  <ellipse cx="293" cy="201" rx="34" ry="9" fill="#1a1710" opacity="0.22"/>
+  <g transform="translate(216 69) scale(0.62)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+
+  <!-- a small brass spotting scope resting on the post cap beside her -->
+  <g transform="translate(300 188) rotate(12)">
+    <rect x="0" y="0" width="20" height="6" rx="3" fill="#c9a24a" stroke="#8a6a2e" stroke-width="1"/>
+    <circle cx="20" cy="3" r="4" fill="#e6c878" stroke="#8a6a2e" stroke-width="1"/>
+  </g>
+
+  <!-- foreground grass tufts and a hint of salvia at the very edge -->
+  <path d="M20 296 Q24 284 28 296" stroke="#3c5424" stroke-width="2" fill="none"/>
+  <path d="M40 298 Q44 288 48 298" stroke="#3c5424" stroke-width="2" fill="none"/>
+  <path d="M400 296 Q404 286 408 296" stroke="#3c5424" stroke-width="2" fill="none"/>
+  <path d="M430 298 Q434 288 438 298" stroke="#3c5424" stroke-width="2" fill="none"/>
+  <circle cx="60" cy="292" r="3" fill="#c0345a"/>
+  <circle cx="452" cy="290" r="3" fill="#c0345a"/>
+</svg>

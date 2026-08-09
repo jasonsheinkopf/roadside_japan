@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="svs1" data-title="Halfway up the lower branches, working out why this tree got famous">
+<defs>
+  <linearGradient id="svs1-sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9d6ea"/>
+    <stop offset="1" stop-color="#dcecc4"/>
+  </linearGradient>
+  <linearGradient id="svs1-field" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d3ba5a"/>
+    <stop offset="1" stop-color="#93b859"/>
+  </linearGradient>
+  <linearGradient id="svs1-bark" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7a5834"/>
+    <stop offset="1" stop-color="#4a3420"/>
+  </linearGradient>
+  <linearGradient id="svs1-barklo" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#5c4128"/>
+    <stop offset="1" stop-color="#382613"/>
+  </linearGradient>
+  <radialGradient id="svs1-glow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#fff6d8" stop-opacity="0.7"/>
+    <stop offset="1" stop-color="#fff6d8" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="svs1-leaf" cx="0.35" cy="0.3" r="0.75">
+    <stop offset="0" stop-color="#7fa34a"/>
+    <stop offset="1" stop-color="#48682a"/>
+  </radialGradient>
+  <filter id="svs1-blur" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="4.5"/>
+  </filter>
+</defs>
+
+<!-- soft blurred sky and a sliver of the patchwork far below, out of focus -->
+<rect x="0" y="0" width="480" height="300" fill="url(#svs1-sky)"/>
+<rect x="0" y="234" width="480" height="66" fill="url(#svs1-field)" opacity="0.85" filter="url(#svs1-blur)"/>
+<circle cx="404" cy="46" r="34" fill="url(#svs1-glow)" filter="url(#svs1-blur)"/>
+<ellipse cx="70" cy="40" rx="40" ry="12" fill="#ffffff" opacity="0.7" filter="url(#svs1-blur)"/>
+
+<!-- distant, blurred leaf canopy filling the background -->
+<circle cx="60" cy="130" r="48" fill="url(#svs1-leaf)" opacity="0.5" filter="url(#svs1-blur)"/>
+<circle cx="420" cy="150" r="60" fill="url(#svs1-leaf)" opacity="0.55" filter="url(#svs1-blur)"/>
+<circle cx="240" cy="70" r="50" fill="url(#svs1-leaf)" opacity="0.4" filter="url(#svs1-blur)"/>
+
+<!-- the main branch, running low-left to upper-right, close and thick -->
+<path d="M-20 250 Q120 210 240 176 Q340 150 480 118 L480 152 Q340 184 240 210 Q120 240 -20 280 Z" fill="url(#svs1-bark)"/>
+<path d="M-20 262 Q120 224 240 194 Q340 168 480 138" fill="none" stroke="#8a684a" stroke-width="2" opacity="0.5"/>
+<path d="M-20 270 Q120 234 240 204 Q340 178 480 148" fill="none" stroke="#8a684a" stroke-width="1.6" opacity="0.4"/>
+<path d="M10 258 Q30 250 50 254" stroke="#2e2010" stroke-width="2" fill="none" opacity="0.5"/>
+<path d="M90 232 Q110 224 130 228" stroke="#2e2010" stroke-width="2" fill="none" opacity="0.45"/>
+<path d="M310 168 Q330 160 350 162" stroke="#2e2010" stroke-width="1.8" fill="none" opacity="0.4"/>
+<ellipse cx="170" cy="216" rx="7" ry="4" fill="#2e2010" opacity="0.35"/>
+<ellipse cx="380" cy="150" rx="6" ry="3.4" fill="#2e2010" opacity="0.3"/>
+
+<!-- a smaller branch forking upward behind Cinnamon -->
+<path d="M300 190 Q330 150 350 96 L360 98 Q342 152 314 194 Z" fill="url(#svs1-barklo)"/>
+
+<!-- Cinnamon, mid-climb, gripping the branch with the whole tree's puzzle on her face -->
+<g transform="translate(120 26) scale(0.98)">
+  <use href="#advc-cinnamon" width="240" height="240"/>
+</g>
+
+<!-- her paw braced on the bark just ahead -->
+<ellipse cx="238" cy="200" rx="12" ry="7" fill="#caa574" opacity="0.9"/>
+<ellipse cx="234" cy="203" rx="4" ry="2.6" fill="#8a6438"/>
+<ellipse cx="244" cy="204" rx="4" ry="2.6" fill="#8a6438"/>
+
+<!-- sharp foreground leaves close to camera, top and bottom corners -->
+<ellipse cx="52" cy="60" rx="34" ry="20" fill="url(#svs1-leaf)" transform="rotate(-18 52 60)"/>
+<ellipse cx="30" cy="90" rx="26" ry="15" fill="#5f8438" transform="rotate(10 30 90)"/>
+<path d="M30 60 Q52 40 74 60" stroke="#3a5622" stroke-width="1.4" fill="none" opacity="0.6"/>
+<ellipse cx="430" cy="230" rx="40" ry="24" fill="url(#svs1-leaf)" transform="rotate(20 430 230)"/>
+<ellipse cx="450" cy="200" rx="28" ry="17" fill="#5f8438" transform="rotate(-8 450 200)"/>
+<path d="M406 226 Q430 206 456 222" stroke="#3a5622" stroke-width="1.4" fill="none" opacity="0.55"/>
+<ellipse cx="20" cy="270" rx="30" ry="16" fill="#4c6e2c" transform="rotate(-12 20 270)"/>
+</svg>
