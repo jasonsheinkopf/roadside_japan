@@ -37,9 +37,6 @@
   <path d="M60,0 L112,0 L42,300 L-8,300 Z" fill="#fff6da" opacity="0.10"/>
   <path d="M332,0 L392,0 L472,300 L412,300 Z" fill="#fff6da" opacity="0.08"/>
 
-  <!-- distant terrace shelf grounding the far statues -->
-  <path d="M100,72 Q240,52 400,70 L400,98 Q240,80 100,100 Z" fill="#3d5730" opacity="0.4"/>
-
   <!-- distant, out-of-focus statues higher up the slope, each with a hint of shoulder -->
   <path d="M140,86 Q140,72 150,72 Q160,72 160,86 Z" fill="url(#otg1-stone)" opacity="0.5"/>
   <ellipse cx="150" cy="66" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.55"/>
