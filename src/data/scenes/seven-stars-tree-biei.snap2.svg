@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="svs2" data-title="Socks counting tripods from the free lot — eleven before 10am">
+<defs>
+  <linearGradient id="svs2-sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#bcdcec"/>
+    <stop offset="0.6" stop-color="#eadfb8"/>
+    <stop offset="1" stop-color="#f6e3a8"/>
+  </linearGradient>
+  <radialGradient id="svs2-sun" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#fff6d0" stop-opacity="0.85"/>
+    <stop offset="1" stop-color="#fff6d0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="svs2-farhill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b6cdd6"/>
+    <stop offset="1" stop-color="#9cbf9e"/>
+  </linearGradient>
+  <linearGradient id="svs2-fields" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dccb7a"/>
+    <stop offset="1" stop-color="#8fae57"/>
+  </linearGradient>
+  <linearGradient id="svs2-ridge" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9c67e"/>
+    <stop offset="1" stop-color="#7c9c52"/>
+  </linearGradient>
+  <linearGradient id="svs2-lot" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8f8d84"/>
+    <stop offset="1" stop-color="#615f57"/>
+  </linearGradient>
+  <radialGradient id="svs2-canopy" cx="0.4" cy="0.35" r="0.75">
+    <stop offset="0" stop-color="#6f9640"/>
+    <stop offset="1" stop-color="#3f5c26"/>
+  </radialGradient>
+</defs>
+
+<!-- early sky, sun still low -->
+<rect x="0" y="0" width="480" height="108" fill="url(#svs2-sky)"/>
+<circle cx="118" cy="70" r="42" fill="url(#svs2-sun)"/>
+<ellipse cx="360" cy="34" rx="30" ry="8" fill="#ffffff" opacity="0.6"/>
+
+<!-- hazy far hills, edge of the Patchwork Road basin -->
+<path d="M0 96 Q120 82 240 92 Q360 78 480 90 L480 108 L0 108 Z" fill="url(#svs2-farhill)"/>
+
+<!-- distant patchwork, small-scale bands receding to the horizon -->
+<path d="M0 108 Q240 100 480 106 L480 150 Q240 142 0 150 Z" fill="url(#svs2-fields)"/>
+<path d="M0 116 L96 112 L92 144 L0 146 Z" fill="#a9773f" opacity="0.7"/>
+<path d="M118 112 L214 114 L210 146 L112 146 Z" fill="#7fa34a" opacity="0.7"/>
+<path d="M300 110 L392 108 L390 140 L296 142 Z" fill="#c3aa4c" opacity="0.6"/>
+<path d="M410 108 L480 107 L480 138 L406 140 Z" fill="#7fa34a" opacity="0.6"/>
+
+<!-- the tree itself, small and alone, far off on its own low rise -->
+<ellipse cx="252" cy="146" rx="30" ry="7" fill="#93b859"/>
+<rect x="250" y="128" width="3" height="16" fill="#4a3420"/>
+<circle cx="251" cy="118" r="11" fill="url(#svs2-canopy)"/>
+<circle cx="244" cy="122" r="7" fill="url(#svs2-canopy)"/>
+<circle cx="259" cy="121" r="7.5" fill="url(#svs2-canopy)"/>
+<ellipse cx="252" cy="147" rx="16" ry="3" fill="#5c7a34" opacity="0.4"/>
+
+<!-- the ridge of open field where every visiting photographer sets up, backlit by the low sun -->
+<path d="M0 150 Q160 138 240 148 Q340 136 480 148 L480 212 Q340 200 240 210 Q160 202 0 212 Z" fill="url(#svs2-ridge)"/>
+<path d="M0 156 Q160 146 240 154 Q340 144 480 154" fill="none" stroke="#c8dd94" stroke-width="1.2" opacity="0.45"/>
+
+<!-- eleven tripods lined up along the ridge, all pointed the same way, toward the tree -->
+<g stroke="#241a10" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.85">
+  <path d="M40 200 L32 178 M40 200 L48 178 M40 200 L40 182"/>
+  <path d="M66 197 L58 173 M66 197 L74 173 M66 197 L66 177"/>
+  <path d="M96 202 L88 180 M96 202 L104 180 M96 202 L96 184"/>
+  <path d="M132 194 L122 166 M132 194 L142 166 M132 194 L132 170"/>
+  <path d="M170 198 L161 173 M170 198 L179 173 M170 198 L170 177"/>
+  <path d="M206 190 L195 160 M206 190 L217 160 M206 190 L206 164"/>
+  <path d="M244 196 L235 171 M244 196 L253 171 M244 196 L244 175"/>
+  <path d="M282 200 L273 176 M282 200 L291 176 M282 200 L282 180"/>
+  <path d="M318 192 L308 165 M318 192 L328 165 M318 192 L318 169"/>
+  <path d="M356 199 L347 174 M356 199 L365 174 M356 199 L356 178"/>
+  <path d="M398 202 L389 178 M398 202 L407 178 M398 202 L398 182"/>
+</g>
+<g fill="#241a10" opacity="0.9">
+  <rect x="26" y="182" width="9" height="6" rx="1" transform="rotate(-4 30 185)"/>
+  <rect x="61" y="171" width="9" height="6" rx="1"/>
+  <rect x="91" y="178" width="9" height="6" rx="1"/>
+  <rect x="127" y="163" width="10" height="6.5" rx="1"/>
+  <rect x="165" y="171" width="9" height="6" rx="1"/>
+  <rect x="200" y="157" width="11" height="7" rx="1.2"/>
+  <rect x="239" y="169" width="9" height="6" rx="1"/>
+  <rect x="277" y="174" width="9" height="6" rx="1"/>
+  <rect x="312" y="161" width="10" height="6.5" rx="1"/>
+  <rect x="351" y="171" width="9" height="6" rx="1"/>
+  <rect x="393" y="176" width="9" height="6" rx="1"/>
+</g>
+
+<!-- the free parking lot, close in the foreground, where Cinnamon and Socks are standing -->
+<path d="M0 212 Q160 202 240 210 Q340 200 480 212 L480 300 L0 300 Z" fill="url(#svs2-lot)"/>
+<path d="M40 222 L20 300" stroke="#d8d6c8" stroke-width="3" opacity="0.6"/>
+<path d="M110 218 L98 300" stroke="#d8d6c8" stroke-width="3" opacity="0.6"/>
+<path d="M188 216 L182 300" stroke="#d8d6c8" stroke-width="3" opacity="0.6"/>
+<path d="M300 216 L306 300" stroke="#d8d6c8" stroke-width="3" opacity="0.6"/>
+<path d="M378 218 L392 300" stroke="#d8d6c8" stroke-width="3" opacity="0.6"/>
+<path d="M446 222 L470 300" stroke="#d8d6c8" stroke-width="3" opacity="0.6"/>
+
+<!-- a couple of visitor cars parked at the lot's edge -->
+<rect x="380" y="228" width="58" height="26" rx="5" fill="#3f5c78"/>
+<rect x="388" y="224" width="38" height="12" rx="4" fill="#4d6c8a"/>
+<circle cx="392" cy="254" r="5" fill="#1c1a16"/>
+<circle cx="426" cy="254" r="5" fill="#1c1a16"/>
+<rect x="10" y="236" width="46" height="22" rx="5" fill="#7a3a34"/>
+<rect x="16" y="232" width="30" height="10" rx="3" fill="#8a4a40"/>
+<circle cx="18" cy="258" r="4.4" fill="#1c1a16"/>
+<circle cx="48" cy="258" r="4.4" fill="#1c1a16"/>
+
+<!-- long morning shadows on the pavement -->
+<ellipse cx="190" cy="253" rx="34" ry="6" fill="#000" opacity="0.16"/>
+
+<!-- Cinnamon and Socks, small in the wide scene, looking out at the ridge of tripods -->
+<g transform="translate(150 197) scale(0.3)">
+  <use href="#advc-cinnamon" width="240" height="240"/>
+</g>
+<g transform="translate(216 202) scale(0.26)">
+  <use href="#advc-socks" width="200" height="200"/>
+</g>
+</svg>

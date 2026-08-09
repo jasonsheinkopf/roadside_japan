@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmts1" data-title="One-third up the trunk — thirty meters is a lot of tree, squirrel">
+<defs>
+  <linearGradient id="kmts1-sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#bfe0f0"/>
+    <stop offset="1" stop-color="#eaf5e6"/>
+  </linearGradient>
+  <linearGradient id="kmts1-bark" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#241a0f"/>
+    <stop offset="0.28" stop-color="#5c4026"/>
+    <stop offset="0.5" stop-color="#8a6438"/>
+    <stop offset="0.72" stop-color="#4a3420"/>
+    <stop offset="1" stop-color="#20160c"/>
+  </linearGradient>
+  <radialGradient id="kmts1-sun" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#fff6d8" stop-opacity="0.85"/>
+    <stop offset="1" stop-color="#fff6d8" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- sky, only glimpsed in the corners past the trunk -->
+<rect x="0" y="0" width="480" height="300" fill="url(#kmts1-sky)"/>
+<circle cx="360" cy="30" r="55" fill="url(#kmts1-sun)"/>
+
+<!-- distant birds, tiny and high, to sell the altitude -->
+<path d="M58 38 q6 -6 12 0 q6 -6 12 0" stroke="#5a6a72" stroke-width="1.6" fill="none" opacity="0.55" stroke-linecap="round"/>
+<path d="M398 68 q5 -5 10 0 q5 -5 10 0" stroke="#5a6a72" stroke-width="1.4" fill="none" opacity="0.45" stroke-linecap="round"/>
+
+<!-- soft clouds in the narrow sky slivers -->
+<ellipse cx="88" cy="55" rx="30" ry="10" fill="#ffffff" opacity="0.55"/>
+<ellipse cx="422" cy="112" rx="24" ry="8" fill="#ffffff" opacity="0.4"/>
+
+<!-- the trunk fills the frame, tapering upward and out of view — there is a lot more above -->
+<polygon points="10,300 470,300 315,0 165,0" fill="url(#kmts1-bark)"/>
+
+<!-- bark ridges, converging toward the vanishing point overhead -->
+<path d="M30 300 Q109 150 172 0" stroke="#20160c" stroke-width="4" fill="none" opacity="0.4"/>
+<path d="M80 300 Q126 150 188 0" stroke="#a97f4a" stroke-width="2.5" fill="none" opacity="0.35"/>
+<path d="M125 300 Q172 150 203 0" stroke="#20160c" stroke-width="3.5" fill="none" opacity="0.35"/>
+<path d="M170 300 Q186 150 218 0" stroke="#a97f4a" stroke-width="2" fill="none" opacity="0.3"/>
+<path d="M215 300 Q232 150 233 0" stroke="#20160c" stroke-width="3" fill="none" opacity="0.3"/>
+<path d="M263 300 Q247 150 248 0" stroke="#a97f4a" stroke-width="2.2" fill="none" opacity="0.3"/>
+<path d="M308 300 Q294 150 263 0" stroke="#20160c" stroke-width="3.5" fill="none" opacity="0.35"/>
+<path d="M355 300 Q308 150 278 0" stroke="#a97f4a" stroke-width="2.5" fill="none" opacity="0.35"/>
+<path d="M400 300 Q355 150 293 0" stroke="#20160c" stroke-width="4" fill="none" opacity="0.4"/>
+<path d="M447 300 Q370 150 308 0" stroke="#a97f4a" stroke-width="2" fill="none" opacity="0.3"/>
+
+<!-- short horizontal bark cracks for texture -->
+<path d="M160 38 q18 5 40 -2" stroke="#1a1108" stroke-width="2" fill="none" opacity="0.35"/>
+<path d="M130 90 q22 6 46 -3" stroke="#1a1108" stroke-width="2" fill="none" opacity="0.3"/>
+<path d="M340 100 q-20 5 -42 -2" stroke="#1a1108" stroke-width="2" fill="none" opacity="0.3"/>
+<path d="M90 175 q22 6 44 -2" stroke="#1a1108" stroke-width="2.2" fill="none" opacity="0.3"/>
+<path d="M75 240 q22 5 40 -3" stroke="#1a1108" stroke-width="2.2" fill="none" opacity="0.28"/>
+<path d="M395 220 q-20 5 -38 -2" stroke="#1a1108" stroke-width="2" fill="none" opacity="0.28"/>
+
+<!-- knots in the bark -->
+<ellipse cx="200" cy="35" rx="10" ry="13" fill="#20160c"/>
+<ellipse cx="200" cy="36" rx="4" ry="6" fill="#120c06"/>
+<ellipse cx="130" cy="105" rx="9" ry="12" fill="#20160c"/>
+<ellipse cx="130" cy="106" rx="3.6" ry="5.6" fill="#120c06"/>
+<ellipse cx="372" cy="170" rx="9" ry="11" fill="#20160c"/>
+<ellipse cx="372" cy="171" rx="3.4" ry="5" fill="#120c06"/>
+
+<!-- moss patches near the base -->
+<path d="M40 258 q-6 -14 10 -18 q16 -4 18 12 q2 14 -12 16 q-14 2 -16 -10 Z" fill="#4a6b2e" opacity="0.7"/>
+<path d="M75 282 q-4 -10 8 -13 q12 -3 13 9 q1 10 -9 12 q-10 2 -12 -8 Z" fill="#3c5624" opacity="0.65"/>
+<path d="M435 262 q6 -12 -8 -17 q-14 -4 -16 10 q-2 13 11 15 q13 2 13 -8 Z" fill="#4a6b2e" opacity="0.7"/>
+<path d="M452 284 q4 -9 -7 -12 q-11 -3 -12 8 q-1 9 8 11 q9 2 11 -7 Z" fill="#3c5624" opacity="0.6"/>
+
+<!-- a broken branch stub for Cinnamon's route, with a few leaves -->
+<path d="M412 195 Q440 186 458 172 L462 178 Q444 194 416 203 Z" fill="#3a2818"/>
+<ellipse cx="460" cy="168" rx="12" ry="7" fill="#5c8a3c" transform="rotate(-18 460 168)"/>
+<ellipse cx="472" cy="176" rx="10" ry="6" fill="#4a7530" transform="rotate(-10 472 176)"/>
+<ellipse cx="455" cy="180" rx="9" ry="5.5" fill="#6a9a48" transform="rotate(8 455 180)"/>
+<ellipse cx="468" cy="160" rx="8" ry="5" fill="#4a7530" transform="rotate(-24 468 160)"/>
+
+<!-- a little foliage at the very bottom corners -->
+<path d="M0 300 L4 282 L9 300 Z" fill="#5c8a3c" opacity="0.8"/>
+<path d="M6 300 L11 278 L16 300 Z" fill="#4a7530" opacity="0.8"/>
+<path d="M472 300 L477 280 L480 300 Z" fill="#5c8a3c" opacity="0.8"/>
+
+<!-- shadow anchoring Cinnamon to the bark -->
+<ellipse cx="230" cy="292" rx="58" ry="13" fill="#000000" opacity="0.22"/>
+
+<!-- claw marks near his grip -->
+<path d="M182 262 q4 8 1 16" stroke="#e8dcc4" stroke-width="1.6" fill="none" opacity="0.4" stroke-linecap="round"/>
+<path d="M196 268 q3 8 0 15" stroke="#e8dcc4" stroke-width="1.6" fill="none" opacity="0.4" stroke-linecap="round"/>
+<path d="M300 258 q-3 8 0 15" stroke="#e8dcc4" stroke-width="1.6" fill="none" opacity="0.35" stroke-linecap="round"/>
+
+<!-- Cinnamon, clinging partway up, looking straight up the trunk -->
+<g transform="translate(150 128) scale(0.68)">
+  <use href="#advc-cinnamon" width="240" height="240"/>
+</g>
+
+<!-- a dizzy sweat drop and a couple of wobble lines right by his head -->
+<path d="M290 146 q6 8 0 14 q-6 -1 -6 -7 q0 -6 6 -7 Z" fill="#dff0f7" stroke="#7fa8bd" stroke-width="1.2"/>
+<path d="M188 132 q10 -4 18 2" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.55" stroke-linecap="round"/>
+<path d="M198 146 q9 -5 16 0" stroke="#ffffff" stroke-width="1.8" fill="none" opacity="0.45" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="svst" data-title="Seven Stars Tree — one oak alone on Biei's patchwork farmland">
+<defs>
+  <linearGradient id="svst-sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8bc4e8"/>
+    <stop offset="0.55" stop-color="#c9e6ee"/>
+    <stop offset="1" stop-color="#f1f3d8"/>
+  </linearGradient>
+  <radialGradient id="svst-sun" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#fff8dc" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#fff8dc" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="svst-farhill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9c7d6"/>
+    <stop offset="1" stop-color="#8fb3a6"/>
+  </linearGradient>
+  <linearGradient id="svst-rowa" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d8c264"/>
+    <stop offset="1" stop-color="#c3aa4c"/>
+  </linearGradient>
+  <linearGradient id="svst-rowb" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8fae57"/>
+    <stop offset="1" stop-color="#71903f"/>
+  </linearGradient>
+  <linearGradient id="svst-rowc" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9773f"/>
+    <stop offset="1" stop-color="#8a5e30"/>
+  </linearGradient>
+  <linearGradient id="svst-hill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#bcd684"/>
+    <stop offset="1" stop-color="#93b859"/>
+  </linearGradient>
+  <linearGradient id="svst-trunk" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5c4128"/>
+    <stop offset="1" stop-color="#3a2a18"/>
+  </linearGradient>
+  <radialGradient id="svst-canopyhi" cx="0.35" cy="0.3" r="0.75">
+    <stop offset="0" stop-color="#7fa34a"/>
+    <stop offset="1" stop-color="#4c6e2c"/>
+  </radialGradient>
+  <radialGradient id="svst-canopylo" cx="0.4" cy="0.35" r="0.8">
+    <stop offset="0" stop-color="#5f8438"/>
+    <stop offset="1" stop-color="#3a5622"/>
+  </radialGradient>
+  <radialGradient id="svst-shadow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#2a3a1a" stop-opacity="0.4"/>
+    <stop offset="1" stop-color="#2a3a1a" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- sky -->
+<rect x="0" y="0" width="480" height="140" fill="url(#svst-sky)"/>
+<circle cx="392" cy="46" r="46" fill="url(#svst-sun)"/>
+<ellipse cx="90" cy="38" rx="34" ry="9" fill="#ffffff" opacity="0.75"/>
+<ellipse cx="118" cy="44" rx="24" ry="7" fill="#ffffff" opacity="0.65"/>
+<ellipse cx="210" cy="24" rx="26" ry="6.5" fill="#ffffff" opacity="0.6"/>
+<path d="M40 92 q6 -6 12 0" stroke="#3a4a55" stroke-width="1.4" fill="none" opacity="0.5"/>
+<path d="M56 86 q6 -6 12 0" stroke="#3a4a55" stroke-width="1.4" fill="none" opacity="0.5"/>
+<path d="M420 110 q6 -6 12 0" stroke="#3a4a55" stroke-width="1.2" fill="none" opacity="0.4"/>
+
+<!-- distant hazy hills, the edge of the patchwork region -->
+<path d="M0 122 Q80 100 170 114 Q260 96 360 112 Q430 100 480 110 L480 140 L0 140 Z" fill="url(#svst-farhill)"/>
+<path d="M0 128 Q100 116 200 126 Q300 112 400 124 Q450 118 480 122 L480 140 L0 140 Z" fill="#9fc2a8" opacity="0.7"/>
+
+<!-- row A: wheat-gold band, nearest the horizon -->
+<path d="M0 140 Q120 128 240 138 Q360 126 480 136 L480 182 Q360 170 240 180 Q120 168 0 178 Z" fill="url(#svst-rowa)"/>
+<path d="M0 150 L128 146 L118 176 L0 178 Z" fill="#8fae57"/>
+<path d="M155 144 L262 140 L256 172 L146 176 Z" fill="#a9773f"/>
+<path d="M292 138 L392 134 L388 168 L282 172 Z" fill="#7fa34a"/>
+<path d="M410 132 L480 130 L480 166 L400 168 Z" fill="#c9a94e"/>
+
+<!-- row B: green + soil patches, mid distance -->
+<path d="M0 178 Q120 168 240 180 Q360 168 480 178 L480 226 Q360 212 240 224 Q120 212 0 224 Z" fill="url(#svst-rowb)"/>
+<path d="M0 186 L110 182 L102 216 L0 220 Z" fill="#a9773f"/>
+<path d="M136 180 L232 182 L226 216 L128 218 Z" fill="#d8c264"/>
+<path d="M258 182 L344 178 L340 212 L252 216 Z" fill="#607a34"/>
+<path d="M368 178 L480 176 L480 216 L362 212 Z" fill="#c3aa4c"/>
+
+<!-- row C: plowed soil + crop rows, closest farmland -->
+<path d="M0 224 Q120 212 240 224 Q360 212 480 222 L480 300 L0 300 Z" fill="url(#svst-rowc)"/>
+<path d="M0 232 L96 228 L88 300 L0 300 Z" fill="#71903f"/>
+<path d="M118 226 L214 230 L206 300 L110 300 Z" fill="#c3aa4c"/>
+<g stroke="#8a5e30" stroke-width="1.1" opacity="0.4">
+  <path d="M126 238 L120 296"/>
+  <path d="M142 238 L138 296"/>
+  <path d="M158 238 L156 296"/>
+  <path d="M174 238 L174 296"/>
+  <path d="M190 238 L192 296"/>
+</g>
+<path d="M340 224 L480 220 L480 268 L336 262 Z" fill="#8fae57"/>
+<path d="M320 262 L480 268 L480 300 L306 300 Z" fill="#a9773f"/>
+
+<!-- dirt path curving from the free lot up toward the hillock -->
+<path d="M16 300 Q54 252 100 226 Q128 210 152 216" fill="none" stroke="#c3aa4c" stroke-width="10" opacity="0.55" stroke-linecap="round"/>
+<path d="M16 300 Q54 252 100 226 Q128 210 152 216" fill="none" stroke="#a9773f" stroke-width="5" opacity="0.6" stroke-linecap="round"/>
+
+<!-- free parking lot corner, bottom-left -->
+<path d="M0 300 L0 262 Q30 254 66 262 L70 300 Z" fill="#6b6a62"/>
+<line x1="14" y1="272" x2="14" y2="298" stroke="#e8e6d8" stroke-width="2" opacity="0.7"/>
+<line x1="34" y1="270" x2="34" y2="298" stroke="#e8e6d8" stroke-width="2" opacity="0.7"/>
+<line x1="54" y1="270" x2="54" y2="298" stroke="#e8e6d8" stroke-width="2" opacity="0.7"/>
+<rect x="18" y="280" width="14" height="8" rx="2" fill="#8a3a34"/>
+<rect x="40" y="284" width="13" height="8" rx="2" fill="#3a5c7a"/>
+
+<!-- the grassy hillock, its base fused to the field seam so it rises out of the ground, not floats on it -->
+<path d="M150 218.4 Q195 172 240 163 Q285 172 330 218.1 Q300 224 240 224 Q195 222 150 218.4 Z" fill="url(#svst-hill)"/>
+<path d="M164 210 Q240 216 316 210" fill="none" stroke="#c8e29a" stroke-width="1.2" opacity="0.4"/>
+
+<!-- long shadow the tree casts across the hillock -->
+<ellipse cx="268" cy="205" rx="36" ry="7" fill="url(#svst-shadow)"/>
+
+<!-- the oak itself: trunk, branch structure, and a full layered canopy -->
+<path d="M227 185 Q225 158 228 132 L240 132 Q239 158 241 185 Z" fill="url(#svst-trunk)"/>
+<path d="M228 168 Q206 156 188 140" stroke="#4a3420" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M236 154 Q258 140 278 130" stroke="#4a3420" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M232 134 Q222 112 214 92" stroke="#4a3420" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M236 132 Q248 108 258 86" stroke="#4a3420" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M234 128 Q234 100 234 76" stroke="#4a3420" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+<ellipse cx="234" cy="96" rx="72" ry="56" fill="url(#svst-canopylo)"/>
+<ellipse cx="196" cy="110" rx="46" ry="38" fill="url(#svst-canopyhi)"/>
+<ellipse cx="270" cy="106" rx="48" ry="40" fill="url(#svst-canopyhi)"/>
+<ellipse cx="234" cy="66" rx="50" ry="36" fill="url(#svst-canopyhi)"/>
+<ellipse cx="234" cy="98" rx="60" ry="46" fill="#6f9640" opacity="0.55"/>
+<ellipse cx="212" cy="82" rx="22" ry="16" fill="#8fbb56" opacity="0.6"/>
+<ellipse cx="256" cy="90" rx="18" ry="13" fill="#8fbb56" opacity="0.5"/>
+<ellipse cx="234" cy="60" rx="16" ry="11" fill="#a2cf66" opacity="0.55"/>
+
+<!-- a few birds crossing the open sky above the tree -->
+<path d="M300 44 q5 -6 10 0 q5 -6 10 0" stroke="#3a4a55" stroke-width="1.3" fill="none" opacity="0.55"/>
+<path d="M320 58 q4 -5 8 0 q4 -5 8 0" stroke="#3a4a55" stroke-width="1.2" fill="none" opacity="0.5"/>
+</svg>

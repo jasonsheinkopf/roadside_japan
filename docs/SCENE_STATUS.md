@@ -9,8 +9,8 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 ## Summary
 
-- Entries (published): **265**  ·  with real photo: **195**  ·  no photo: **70**
-- Drawn hero present: **23**  ·  full set (hero+snap1+snap2): **16**
+- Entries (published): **268**  ·  with real photo: **197**  ·  no photo: **71**
+- Drawn hero present: **24**  ·  full set (hero+snap1+snap2): **17**
 - **Priority queue (no photo, no drawn hero): 49** — listed first below.
 - **Snapshot queue (missing snap1 and/or snap2): 246**.
 
@@ -323,6 +323,9 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
+| 2026-08-09 | Shinei-no-Oka View Park | `shinei-no-oka-biei` | ✅ | — | ✅ | ✅ |
+| 2026-08-09 | Ken and Mary Tree | `ken-and-mary-tree-biei` | ✅ | — | ✅ | ✅ |
+| 2026-08-09 | Seven Stars Tree | `seven-stars-tree-biei` | — | ✅ | ✅ | ✅ |
 | 2026-08-09 | Otagi Nenbutsu-ji — 1,200 Stone Monks, Each Carved by a Different Amateur | `otagi-nenbutsuji-kyoto` | ✅ | — | ✅ | ✅ |
 | 2026-08-09 | Antarctic Observation Ship Fuji — a Real Icebreaker Parked in Nagoya Port | `antarctic-ship-fuji-nagoya-port` | ✅ | — | ✅ | ✅ |
 | 2026-08-09 | Chōjiya — 430-Year-Old Grated-Yam-Soup Inn on the Old Tōkaidō | `chojiya-tororojiru-mariko` | — | ✅ | ✅ | ✅ |
