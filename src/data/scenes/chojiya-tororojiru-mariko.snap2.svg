@@ -36,7 +36,6 @@
 
 <!-- the roof eave crossing the top of frame, viewed from further back and higher -->
 <polygon points="-20,66 500,50 500,84 -20,100" fill="url(#chs2-roof)"/>
-<rect x="150" y="46" width="60" height="10" rx="3" fill="#241a10"/>
 
 <!-- the timber wall of the building, full width, below the eave -->
 <rect x="-20" y="100" width="520" height="150" fill="url(#chs2-wall)"/>
@@ -63,7 +62,6 @@
 <!-- the wooden plaque mounted on the wall, aged, carved with the founding year -->
 <rect x="176" y="118" width="140" height="66" rx="4" fill="url(#chs2-plaquewood)" stroke="#5c4327" stroke-width="2.5"/>
 <rect x="184" y="126" width="124" height="50" fill="none" stroke="#5c4327" stroke-width="1" opacity="0.5"/>
-<line x1="246" y1="46" x2="246" y2="118" stroke="#241a10" stroke-width="1.4"/>
 
 <!-- "1596" carved into the plaque, blocky engraved digits -->
 <g stroke="#4a3826" stroke-width="3.4" stroke-linecap="round" fill="none">
@@ -88,13 +86,13 @@
 </g>
 
 <!-- Mon-chan, a few steps back on the forecourt, looking away, unimpressed -->
-<ellipse cx="368" cy="270" rx="52" ry="13" fill="#000" opacity="0.22"/>
-<g transform="translate(280 128) scale(0.98) rotate(6 100 100)">
+<ellipse cx="378" cy="286" rx="48" ry="12" fill="#000" opacity="0.22"/>
+<g transform="translate(296 122) scale(0.82) rotate(6 100 100)">
   <use href="#advc-mon" width="200" height="200"/>
 </g>
 
 <!-- a small skeptical squiggle over Mon-chan's head, her one visible reaction -->
-<path d="M348 138 q6 -6 12 0 q6 -6 12 0" stroke="#5c4327" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.55"/>
+<path d="M354 140 q6 -6 12 0 q6 -6 12 0" stroke="#5c4327" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.55"/>
 
 <!-- a stray pebble and a paving seam in the foreground for grounding -->
 <circle cx="60" cy="286" r="4" fill="#4a3826" opacity="0.5"/>
