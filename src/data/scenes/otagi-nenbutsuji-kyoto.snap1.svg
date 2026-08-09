@@ -37,15 +37,23 @@
   <path d="M60,0 L112,0 L42,300 L-8,300 Z" fill="#fff6da" opacity="0.10"/>
   <path d="M332,0 L392,0 L472,300 L412,300 Z" fill="#fff6da" opacity="0.08"/>
 
-  <!-- distant, out-of-focus statues higher up the slope -->
+  <!-- distant terrace shelf grounding the far statues -->
+  <path d="M100,72 Q240,52 400,70 L400,98 Q240,80 100,100 Z" fill="#3d5730" opacity="0.4"/>
+
+  <!-- distant, out-of-focus statues higher up the slope, each with a hint of shoulder -->
+  <path d="M140,86 Q140,72 150,72 Q160,72 160,86 Z" fill="url(#otg1-stone)" opacity="0.5"/>
   <ellipse cx="150" cy="66" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.55"/>
   <path d="M145,70 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M190,78 Q190,64 200,64 Q210,64 210,78 Z" fill="url(#otg1-stone)" opacity="0.5"/>
   <ellipse cx="200" cy="58" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.55"/>
   <path d="M195,62 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M242,88 Q242,74 252,74 Q262,74 262,88 Z" fill="url(#otg1-stone)" opacity="0.45"/>
   <ellipse cx="252" cy="68" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.5"/>
   <path d="M247,72 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.45"/>
+  <path d="M294,76 Q294,62 304,62 Q314,62 314,76 Z" fill="url(#otg1-stone)" opacity="0.5"/>
   <ellipse cx="304" cy="56" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.55"/>
   <path d="M299,60 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M352,86 Q352,72 362,72 Q372,72 372,86 Z" fill="url(#otg1-stone)" opacity="0.45"/>
   <ellipse cx="362" cy="66" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.5"/>
   <path d="M357,70 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.45"/>
 
