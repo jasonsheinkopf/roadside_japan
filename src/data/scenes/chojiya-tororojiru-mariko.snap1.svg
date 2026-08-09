@@ -4,7 +4,7 @@
     <stop offset="0" stop-color="#5c4530"/>
     <stop offset="1" stop-color="#332419"/>
   </linearGradient>
-  <radialGradient id="chs1-spot" cx="0.4" cy="0.28" r="0.7">
+  <radialGradient id="chs1-spot" cx="0.35" cy="0.3" r="0.7">
     <stop offset="0" stop-color="#f2d290" stop-opacity="0.5"/>
     <stop offset="1" stop-color="#f2d290" stop-opacity="0"/>
   </radialGradient>
@@ -13,7 +13,7 @@
   </filter>
   <linearGradient id="chs1-table" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#a9773f"/>
-    <stop offset="1" stop-color="#6b4a2a"/>
+    <stop offset="1" stop-color="#8a6335"/>
   </linearGradient>
   <linearGradient id="chs1-tableedge" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#6b4a2a"/>
@@ -37,74 +37,65 @@
   </linearGradient>
 </defs>
 
-<!-- dim tatami-room wall, out of focus -->
-<rect x="0" y="0" width="480" height="130" fill="url(#chs1-wall)"/>
-<ellipse cx="190" cy="40" rx="220" ry="90" fill="url(#chs1-spot)"/>
+<!-- dim tatami-room wall, out of focus, above the table -->
+<rect x="0" y="0" width="480" height="80" fill="url(#chs1-wall)"/>
+<ellipse cx="170" cy="10" rx="220" ry="70" fill="url(#chs1-spot)"/>
+<rect x="4" y="0" width="70" height="60" fill="#8a7048" opacity="0.5" filter="url(#chs1-blur)"/>
+<circle cx="360" cy="18" r="24" fill="#f6cf8e" opacity="0.55" filter="url(#chs1-blur)"/>
 
-<!-- blurred shoji screen and hanging lamp far behind -->
-<rect x="4" y="10" width="70" height="90" fill="#8a7048" opacity="0.5" filter="url(#chs1-blur)"/>
-<circle cx="360" cy="34" r="26" fill="#f6cf8e" opacity="0.55" filter="url(#chs1-blur)"/>
-<ellipse cx="120" cy="112" rx="200" ry="20" fill="#241a10" opacity="0.4" filter="url(#chs1-blur)"/>
+<!-- the low tabletop, seen close and from slightly above: one broad surface plane -->
+<polygon points="-20,68 500,58 500,240 -20,250" fill="url(#chs1-table)"/>
+<path d="M-20 68 L500 58" stroke="#e6c58e" stroke-width="1.6" opacity="0.45" fill="none"/>
+<path d="M-20 130 Q240 118 500 128" stroke="#5c4327" stroke-width="1" opacity="0.15" fill="none"/>
+<path d="M-20 190 Q240 178 500 188" stroke="#5c4327" stroke-width="1" opacity="0.15" fill="none"/>
 
-<!-- tatami floor sliver at the very top edge -->
-<rect x="0" y="112" width="480" height="18" fill="#4a6b4a" opacity="0.5" filter="url(#chs1-blur)"/>
+<!-- the table's front apron / near edge, below the surface -->
+<rect x="-20" y="240" width="520" height="60" fill="url(#chs1-tableedge)"/>
+<path d="M-20 244 Q240 232 500 242" stroke="#e6c58e" stroke-width="1" opacity="0.2" fill="none"/>
 
-<!-- the low table, filling most of the frame, seen close and slightly from above -->
-<path d="M-20 118 L500 100 L500 300 L-20 300 Z" fill="url(#chs1-tableedge)"/>
-<path d="M-20 118 L500 100 L500 130 L-20 148 Z" fill="url(#chs1-table)"/>
-<path d="M-20 118 L500 100" stroke="#e6c58e" stroke-width="1.5" opacity="0.4" fill="none"/>
-<line x1="-20" y1="140" x2="500" y2="122" stroke="#3a2818" stroke-width="1" opacity="0.25"/>
-<line x1="-20" y1="200" x2="500" y2="182" stroke="#3a2818" stroke-width="1" opacity="0.15"/>
+<!-- a bowl of barley rice, further back on the left of the table -->
+<ellipse cx="92" cy="122" rx="42" ry="13" fill="#241a10" opacity="0.2"/>
+<path d="M52 116 q40 -17 80 0 q-4 15 -40 15 q-36 0 -40 -15z" fill="#e9dcc0"/>
+<ellipse cx="92" cy="115" rx="38" ry="11" fill="#f2ecd0"/>
+<ellipse cx="92" cy="115" rx="38" ry="11" fill="none" stroke="#2c4a68" stroke-width="1.3" opacity="0.6"/>
+<circle cx="78" cy="113" r="2.1" fill="#c9a866"/>
+<circle cx="93" cy="110" r="2" fill="#c9a866"/>
+<circle cx="106" cy="114" r="2.1" fill="#c9a866"/>
 
-<!-- a bowl of barley rice, off to the left, waiting -->
-<ellipse cx="88" cy="176" rx="46" ry="16" fill="#241a10" opacity="0.25"/>
-<path d="M46 172 q42 -20 84 0 q-4 18 -42 18 q-38 0 -42 -18z" fill="#e9dcc0"/>
-<ellipse cx="88" cy="171" rx="42" ry="13" fill="#f2ecd0"/>
-<ellipse cx="88" cy="171" rx="42" ry="13" fill="none" stroke="#2c4a68" stroke-width="1.5" opacity="0.6"/>
-<circle cx="72" cy="168" r="2.4" fill="#c9a866"/>
-<circle cx="90" cy="165" r="2.2" fill="#c9a866"/>
-<circle cx="104" cy="169" r="2.4" fill="#c9a866"/>
-<circle cx="80" cy="173" r="2" fill="#c9a866"/>
+<!-- small pickle side dishes, right on the table surface -->
+<ellipse cx="408" cy="150" rx="24" ry="8" fill="#e9dcc0"/>
+<ellipse cx="408" cy="150" rx="24" ry="8" fill="none" stroke="#2c4a68" stroke-width="1" opacity="0.5"/>
+<ellipse cx="401" cy="148" rx="5" ry="2.4" fill="#8a3a2c"/>
+<ellipse cx="414" cy="150" rx="4.5" ry="2.2" fill="#a85c3c"/>
 
-<!-- the tororo bowl, center, mid-pour -->
-<ellipse cx="286" cy="216" rx="70" ry="22" fill="#241a10" opacity="0.3"/>
-<path d="M226 202 q60 -26 120 0 q-6 26 -60 26 q-54 0 -60 -26z" fill="url(#chs1-bowl)"/>
-<ellipse cx="286" cy="200" rx="60" ry="18" fill="url(#chs1-tororo)"/>
-<path d="M240 197 q46 14 92 0" stroke="#d9c890" stroke-width="1.2" fill="none" opacity="0.5"/>
-<ellipse cx="286" cy="200" rx="60" ry="18" fill="none" stroke="#f2c76b" stroke-width="1.5" opacity="0.4"/>
+<!-- chopsticks resting near the front edge of the table -->
+<rect x="380" y="216" width="28" height="7" rx="3" fill="#3a2818"/>
+<line x1="386" y1="192" x2="388" y2="219" stroke="#c9a866" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="395" y1="190" x2="397" y2="219" stroke="#c9a866" stroke-width="2.4" stroke-linecap="round"/>
 
-<!-- the pale glossy stream, poured from just off-frame above -->
-<path d="M300 60 q6 60 -6 128" stroke="url(#chs1-stream)" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.95"/>
-<path d="M300 60 q6 60 -6 128" stroke="#fffef4" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
-<ellipse cx="292" cy="192" rx="18" ry="7" fill="#fdf8e8" opacity="0.85"/>
-
-<!-- the pouring pot, tipped, top edge of frame -->
-<path d="M280 30 q4 -22 34 -20 q30 2 26 26 l-10 20 q-4 8 -14 6 l-30 -8 q-8 -4 -6 -14z" fill="url(#chs1-pot)" stroke="#8a7a52" stroke-width="1.5"/>
-<ellipse cx="316" cy="28" rx="20" ry="9" fill="#d9caa0"/>
-<path d="M292 44 q4 10 8 16" stroke="#8a7a52" stroke-width="1.2" fill="none" opacity="0.5"/>
-
-<!-- chopsticks resting on a small rest, foreground right -->
-<rect x="386" y="240" width="26" height="7" rx="3" fill="#3a2818"/>
-<line x1="392" y1="212" x2="394" y2="243" stroke="#c9a866" stroke-width="2.4" stroke-linecap="round"/>
-<line x1="400" y1="210" x2="402" y2="243" stroke="#c9a866" stroke-width="2.4" stroke-linecap="round"/>
-
-<!-- small pickle side dish, foreground left -->
-<ellipse cx="40" cy="258" rx="26" ry="10" fill="#e9dcc0"/>
-<ellipse cx="40" cy="258" rx="26" ry="10" fill="none" stroke="#2c4a68" stroke-width="1.2" opacity="0.5"/>
-<ellipse cx="32" cy="255" rx="6" ry="3" fill="#8a3a2c"/>
-<ellipse cx="46" cy="257" rx="5" ry="2.6" fill="#a85c3c"/>
-
-<!-- Cinnamon, up on hind legs, front paws hooked over the table's near edge, nose toward the pour -->
-<ellipse cx="175" cy="268" rx="58" ry="14" fill="#000" opacity="0.22"/>
-<g transform="translate(112 40) scale(0.98) rotate(-3 120 120)">
+<!-- Cinnamon, climbed up onto the table, front and center, watching the pour -->
+<ellipse cx="150" cy="222" rx="58" ry="14" fill="#000" opacity="0.22"/>
+<g transform="translate(56 26) scale(0.82) rotate(4 120 120)">
   <use href="#advc-cinnamon" width="240" height="240"/>
 </g>
 
-<!-- her paws gripping the table edge, drawn over the tabletop so she reads as climbing -->
-<ellipse cx="196" cy="196" rx="10" ry="7" fill="#b9966c"/>
-<ellipse cx="222" cy="192" rx="10" ry="7" fill="#b9966c"/>
+<!-- the tororo bowl, right of Cinnamon, mid-pour, unobstructed -->
+<ellipse cx="316" cy="196" rx="66" ry="20" fill="#241a10" opacity="0.28"/>
+<path d="M252 182 q64 -24 128 0 q-6 24 -64 24 q-58 0 -64 -24z" fill="url(#chs1-bowl)"/>
+<ellipse cx="316" cy="180" rx="56" ry="16" fill="url(#chs1-tororo)"/>
+<path d="M270 177 q46 12 92 0" stroke="#d9c890" stroke-width="1.1" fill="none" opacity="0.5"/>
+<ellipse cx="316" cy="180" rx="56" ry="16" fill="none" stroke="#f2c76b" stroke-width="1.4" opacity="0.4"/>
 
-<!-- a little steam drifting off the fresh pour -->
-<path d="M320 176 q-4 -10 2 -18" stroke="#fdf6e3" stroke-width="1.6" fill="none" opacity="0.55"/>
-<path d="M330 180 q4 -9 -1 -17" stroke="#fdf6e3" stroke-width="1.6" fill="none" opacity="0.45"/>
+<!-- the pale glossy stream, poured from just off the top of the frame -->
+<path d="M322 4 q10 90 -8 168" stroke="url(#chs1-stream)" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.95"/>
+<path d="M322 4 q10 90 -8 168" stroke="#fffef4" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+<ellipse cx="314" cy="172" rx="17" ry="6" fill="#fdf8e8" opacity="0.85"/>
+
+<!-- the pouring pot, tipped, cropped at the very top of the frame -->
+<path d="M300 -20 q4 -14 34 -12 q30 2 26 24 l-8 18 q-4 8 -14 6 l-30 -6 q-8 -4 -8 -14z" fill="url(#chs1-pot)" stroke="#8a7a52" stroke-width="1.5"/>
+<ellipse cx="336" cy="0" rx="20" ry="8" fill="#d9caa0"/>
+
+<!-- a little steam drifting off the fresh pour, right beside Cinnamon's nose -->
+<path d="M270 150 q-4 -10 2 -18" stroke="#fdf6e3" stroke-width="1.6" fill="none" opacity="0.55"/>
+<path d="M280 154 q4 -9 -1 -17" stroke="#fdf6e3" stroke-width="1.6" fill="none" opacity="0.45"/>
 </svg>
