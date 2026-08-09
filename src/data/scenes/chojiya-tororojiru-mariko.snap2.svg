@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="chs2" data-title="Socks studies the 1596 date plaque; Mon-chan is unimpressed">
+<defs>
+  <linearGradient id="chs2-sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#bcd6e2"/>
+    <stop offset="1" stop-color="#e6d4ac"/>
+  </linearGradient>
+  <linearGradient id="chs2-roof" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#5c4a3a"/>
+    <stop offset="1" stop-color="#332619"/>
+  </linearGradient>
+  <linearGradient id="chs2-wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7a5c3e"/>
+    <stop offset="1" stop-color="#4a3826"/>
+  </linearGradient>
+  <linearGradient id="chs2-ground" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9c8360"/>
+    <stop offset="1" stop-color="#5c4a32"/>
+  </linearGradient>
+  <linearGradient id="chs2-plaquewood" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c9a866"/>
+    <stop offset="1" stop-color="#9c7a44"/>
+  </linearGradient>
+  <radialGradient id="chs2-glow" cx="0.5" cy="0.2" r="0.6">
+    <stop offset="0" stop-color="#fff3d0" stop-opacity="0.5"/>
+    <stop offset="1" stop-color="#fff3d0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="chs2-pine" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4a6b4a"/>
+    <stop offset="1" stop-color="#2c4530"/>
+  </linearGradient>
+</defs>
+
+<!-- sky sliver, upper right, high vantage looking down at the entrance corner -->
+<rect x="0" y="0" width="480" height="66" fill="url(#chs2-sky)"/>
+<ellipse cx="360" cy="18" rx="140" ry="40" fill="url(#chs2-glow)"/>
+
+<!-- the roof eave crossing the top of frame, viewed from further back and higher -->
+<polygon points="-20,66 500,50 500,84 -20,100" fill="url(#chs2-roof)"/>
+<rect x="150" y="46" width="60" height="10" rx="3" fill="#241a10"/>
+
+<!-- the timber wall of the building, full width, below the eave -->
+<rect x="-20" y="100" width="520" height="150" fill="url(#chs2-wall)"/>
+<line x1="-20" y1="140" x2="500" y2="136" stroke="#3a2c1c" stroke-width="1.5" opacity="0.3"/>
+<line x1="-20" y1="200" x2="500" y2="196" stroke="#3a2c1c" stroke-width="1.5" opacity="0.25"/>
+
+<!-- small window at the far left of the wall, for depth -->
+<rect x="8" y="150" width="46" height="66" fill="#241a10"/>
+<rect x="14" y="156" width="34" height="54" fill="#e9dcc0" opacity="0.8"/>
+<line x1="31" y1="156" x2="31" y2="210" stroke="#7a5c38" stroke-width="1.2"/>
+<line x1="14" y1="182" x2="48" y2="182" stroke="#7a5c38" stroke-width="1.2"/>
+
+<!-- ground / stone forecourt, receding, taking up the lower third -->
+<rect x="-20" y="250" width="520" height="60" fill="url(#chs2-ground)"/>
+<path d="M-20 250 Q240 240 500 250" stroke="#3a2c1c" stroke-width="1.2" opacity="0.3" fill="none"/>
+<path d="M-20 274 Q240 266 500 274" stroke="#3a2c1c" stroke-width="1" opacity="0.2" fill="none"/>
+<path d="M-20 292 Q240 286 500 292" stroke="#3a2c1c" stroke-width="1" opacity="0.16" fill="none"/>
+
+<!-- potted pine, far right for balance and depth -->
+<rect x="428" y="222" width="9" height="26" fill="#5c4530"/>
+<ellipse cx="432" cy="212" rx="18" ry="16" fill="url(#chs2-pine)"/>
+<ellipse cx="424" cy="220" rx="11" ry="9" fill="#4a7048"/>
+
+<!-- the wooden plaque mounted on the wall, aged, carved with the founding year -->
+<rect x="176" y="118" width="140" height="66" rx="4" fill="url(#chs2-plaquewood)" stroke="#5c4327" stroke-width="2.5"/>
+<rect x="184" y="126" width="124" height="50" fill="none" stroke="#5c4327" stroke-width="1" opacity="0.5"/>
+<line x1="246" y1="46" x2="246" y2="118" stroke="#241a10" stroke-width="1.4"/>
+
+<!-- "1596" carved into the plaque, blocky engraved digits -->
+<g stroke="#4a3826" stroke-width="3.4" stroke-linecap="round" fill="none">
+  <!-- 1 -->
+  <path d="M203 138 L211 134 L211 172"/>
+  <!-- 5 -->
+  <path d="M223 134 L237 134 M223 134 L223 150 M223 150 L237 150 M237 150 L237 172 M223 172 L237 172"/>
+  <!-- 9 -->
+  <path d="M249 134 L263 134 M249 134 L249 150 M263 134 L263 172 M249 150 L263 150"/>
+  <!-- 6 -->
+  <path d="M275 134 L289 134 M275 134 L275 172 M275 150 L289 150 M289 150 L289 172 M275 172 L289 172"/>
+</g>
+
+<!-- small brass hanger tabs holding the plaque -->
+<circle cx="184" cy="122" r="3" fill="#8a7a52"/>
+<circle cx="308" cy="122" r="3" fill="#8a7a52"/>
+
+<!-- Socks, up on his back legs, nose almost to the carved numbers -->
+<ellipse cx="176" cy="248" rx="46" ry="12" fill="#000" opacity="0.22"/>
+<g transform="translate(94 108) scale(0.86) rotate(-2 100 100)">
+  <use href="#advc-socks" width="200" height="200"/>
+</g>
+
+<!-- Mon-chan, a few steps back on the forecourt, looking away, unimpressed -->
+<ellipse cx="368" cy="270" rx="52" ry="13" fill="#000" opacity="0.22"/>
+<g transform="translate(280 128) scale(0.98) rotate(6 100 100)">
+  <use href="#advc-mon" width="200" height="200"/>
+</g>
+
+<!-- a small skeptical squiggle over Mon-chan's head, her one visible reaction -->
+<path d="M348 138 q6 -6 12 0 q6 -6 12 0" stroke="#5c4327" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.55"/>
+
+<!-- a stray pebble and a paving seam in the foreground for grounding -->
+<circle cx="60" cy="286" r="4" fill="#4a3826" opacity="0.5"/>
+<circle cx="440" cy="292" r="3" fill="#4a3826" opacity="0.4"/>
+<line x1="220" y1="252" x2="216" y2="300" stroke="#3a2c1c" stroke-width="1" opacity="0.2"/>
+</svg>
