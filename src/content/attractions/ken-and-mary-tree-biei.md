@@ -8,6 +8,9 @@ lat: 43.608783
 lng: 142.463839
 category: scenic
 tags: [nature, scenic, photography, roadside]
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tree_of_Ken_and_Mary_-_Biei_-_Hokkaido_-_Japan_(48023422047).jpg/960px-Tree_of_Ken_and_Mary_-_Biei_-_Hokkaido_-_Japan_(48023422047).jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:Tree_of_Ken_and_Mary_-_Biei_-_Hokkaido_-_Japan_(48023422047).jpg"
 seasons: []
 months: []
 difficulty: easy

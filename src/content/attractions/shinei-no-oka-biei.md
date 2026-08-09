@@ -8,6 +8,9 @@ lat: 43.55763
 lng: 142.45906
 category: viewpoint
 tags: [scenic, viewpoint, photography, flowers]
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%E6%96%B0%E6%A0%84%E3%81%AE%E4%B8%98%E5%B1%95%E6%9C%9B%E5%85%AC%E5%9C%92%EF%BC%88The_Hill_of_Shinei_Outlook_park%EF%BC%89_-_panoramio.jpg/960px-%E6%96%B0%E6%A0%84%E3%81%AE%E4%B8%98%E5%B1%95%E6%9C%9B%E5%85%AC%E5%9C%92%EF%BC%88The_Hill_of_Shinei_Outlook_park%EF%BC%89_-_panoramio.jpg"
+heroCredit: "Photo via Wikimedia Commons"
+heroCreditUrl: "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E6%A0%84%E3%81%AE%E4%B8%98%E5%B1%95%E6%9C%9B%E5%85%AC%E5%9C%92%EF%BC%88The_Hill_of_Shinei_Outlook_park%EF%BC%89_-_panoramio.jpg"
 seasons: [summer, autumn]
 months: [7, 8, 9]
 seasonNote: "Salvia and sunflowers fill the park roughly July–September; the view itself is open year-round."
