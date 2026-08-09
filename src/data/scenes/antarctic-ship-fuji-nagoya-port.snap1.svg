@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="antf1" data-title="Cinnamon under the helicopter hangar, trying to look unimpressed">
+  <defs>
+    <linearGradient id="antf1-back" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5560"/>
+      <stop offset="0.55" stop-color="#39424c"/>
+      <stop offset="1" stop-color="#242b32"/>
+    </linearGradient>
+    <linearGradient id="antf1-arch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9edf0"/>
+      <stop offset="1" stop-color="#aab4bb"/>
+    </linearGradient>
+    <linearGradient id="antf1-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c6570"/>
+      <stop offset="1" stop-color="#2c343a"/>
+    </linearGradient>
+    <radialGradient id="antf1-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6df" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff6df" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="antf1-doorlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe4ef"/>
+      <stop offset="1" stop-color="#8ea6b3"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" fill="url(#antf1-back)"/>
+
+  <!-- huge hangar mouth: nested steel arches receding, giving the sense of scale -->
+  <path d="M-30 300 Q240 -40 510 300 Z" fill="url(#antf1-arch)"/>
+  <path d="M8 300 Q240 6 472 300 Z" fill="url(#antf1-back)"/>
+  <path d="M40 300 Q240 46 440 300 Z" fill="url(#antf1-arch)" opacity="0.9"/>
+  <path d="M70 300 Q240 82 410 300 Z" fill="url(#antf1-back)"/>
+  <path d="M98 300 Q240 116 382 300 Z" fill="url(#antf1-arch)" opacity="0.85"/>
+  <path d="M124 300 Q240 148 356 300 Z" fill="#333c44"/>
+
+  <!-- open hangar doorway at the far back, daylight glow beyond -->
+  <path d="M168 300 Q240 190 312 300 Z" fill="url(#antf1-doorlight)"/>
+  <circle cx="240" cy="248" r="70" fill="url(#antf1-glow)"/>
+
+  <!-- rivet lines tracking the arches -->
+  <g fill="#7c8790">
+    <circle cx="52" cy="255" r="2"/><circle cx="90" cy="200" r="2"/><circle cx="150" cy="150" r="2"/>
+    <circle cx="428" cy="255" r="2"/><circle cx="390" cy="200" r="2"/><circle cx="330" cy="150" r="2"/>
+    <circle cx="240" cy="90" r="2"/><circle cx="200" cy="98" r="2"/><circle cx="280" cy="98" r="2"/>
+  </g>
+
+  <!-- overhead steel truss / crane rail crossing the hangar ceiling -->
+  <path d="M0 100 Q240 60 480 100" fill="none" stroke="#212830" stroke-width="6"/>
+  <path d="M0 100 Q240 60 480 100" fill="none" stroke="#565f68" stroke-width="1.5" opacity="0.7"/>
+  <line x1="60" y1="94" x2="60" y2="118" stroke="#212830" stroke-width="4"/>
+  <line x1="180" y1="66" x2="180" y2="92" stroke="#212830" stroke-width="4"/>
+  <line x1="300" y1="66" x2="300" y2="92" stroke="#212830" stroke-width="4"/>
+  <line x1="420" y1="94" x2="420" y2="118" stroke="#212830" stroke-width="4"/>
+  <rect x="222" y="80" width="36" height="10" rx="2" fill="#1a1f24"/>
+
+  <!-- hatch / access panels riveted onto the near hull walls, close foreground detail -->
+  <rect x="4" y="196" width="34" height="46" rx="3" fill="#333c44" stroke="#171c20" stroke-width="1.5"/>
+  <circle cx="21" cy="219" r="6" fill="none" stroke="#7c8790" stroke-width="1.5"/>
+  <circle cx="10" cy="202" r="1.8" fill="#8b959d"/><circle cx="32" cy="202" r="1.8" fill="#8b959d"/>
+  <circle cx="10" cy="238" r="1.8" fill="#8b959d"/><circle cx="32" cy="238" r="1.8" fill="#8b959d"/>
+  <rect x="442" y="196" width="34" height="46" rx="3" fill="#333c44" stroke="#171c20" stroke-width="1.5"/>
+  <circle cx="459" cy="219" r="6" fill="none" stroke="#7c8790" stroke-width="1.5"/>
+  <circle cx="448" cy="202" r="1.8" fill="#8b959d"/><circle cx="470" cy="202" r="1.8" fill="#8b959d"/>
+  <circle cx="448" cy="238" r="1.8" fill="#8b959d"/><circle cx="470" cy="238" r="1.8" fill="#8b959d"/>
+
+  <!-- yellow safety stripe along the hangar floor edge -->
+  <path d="M0 268 Q240 232 480 268 L480 276 Q240 240 0 276 Z" fill="#c9a531" opacity="0.85"/>
+  <path d="M20 271 l12 -4 M60 265 l12 -4 M100 260 l12 -3 M380 260 l12 3 M420 265 l12 4 M460 271 l12 4" stroke="#3a3220" stroke-width="3" opacity="0.6"/>
+
+  <!-- hangar floor -->
+  <path d="M0 300 L480 300 L480 276 Q240 240 0 276 Z" fill="url(#antf1-floor)"/>
+  <path d="M40 300 Q240 268 440 300" fill="none" stroke="#1c2226" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- coiled hose and a folded winch cable, small ship-deck details near the edge -->
+  <path d="M420 288 q-14 -4 -12 -14 q2 -10 14 -8 q10 2 6 12 q-3 8 -12 6" fill="none" stroke="#8a5a2c" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="30" cy="284" r="3" fill="#9aa4ab"/>
+  <path d="M20 288 q10 -10 22 -2" fill="none" stroke="#9aa4ab" stroke-width="2"/>
+
+  <!-- Cinnamon, small and dwarfed in the middle of the vast hangar floor -->
+  <ellipse cx="230" cy="272" rx="30" ry="7" fill="#000" opacity="0.35"/>
+  <g transform="translate(150 158) scale(0.5)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+
+  <!-- soft vignette at the extreme foreground corners for depth -->
+  <path d="M0 300 L0 250 Q40 300 0 300 Z" fill="#10151a" opacity="0.5"/>
+  <path d="M480 300 L480 250 Q440 300 480 300 Z" fill="#10151a" opacity="0.5"/>
+</svg>

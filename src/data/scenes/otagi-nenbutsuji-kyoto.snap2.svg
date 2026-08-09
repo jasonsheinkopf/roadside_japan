@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="otg2" data-title="Socks loses count at four hundred; Mon-chan glares at fluffier moss">
+  <defs>
+    <linearGradient id="otg2-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef0c8"/>
+      <stop offset="1" stop-color="#a9c184"/>
+    </linearGradient>
+    <radialGradient id="otg2-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d0" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fff6d0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="otg2-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7f9860"/>
+      <stop offset="1" stop-color="#3f532c"/>
+    </linearGradient>
+    <linearGradient id="otg2-stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d3d4c8"/>
+      <stop offset="1" stop-color="#8d9083"/>
+    </linearGradient>
+    <radialGradient id="otg2-moss" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#b9d874"/>
+      <stop offset="1" stop-color="#526c30"/>
+    </radialGradient>
+    <linearGradient id="otg2-path" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a89572"/>
+      <stop offset="1" stop-color="#7c6a4c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- elevated view down the wooded hillside -->
+  <rect x="0" y="0" width="480" height="70" fill="url(#otg2-sky)"/>
+  <path d="M0,58 Q40,30 90,48 Q140,20 190,44 Q240,18 290,46 Q340,22 390,48 Q440,26 480,50 L480,70 L0,70 Z" fill="#3c5a2a" opacity="0.85"/>
+  <ellipse cx="20" cy="20" rx="30" ry="18" fill="#33501f" opacity="0.6"/>
+  <ellipse cx="460" cy="16" rx="28" ry="17" fill="#33501f" opacity="0.6"/>
+  <ellipse cx="150" cy="10" rx="20" ry="12" fill="#3c5a2a" opacity="0.5"/>
+  <ellipse cx="340" cy="8" rx="22" ry="12" fill="#3c5a2a" opacity="0.5"/>
+  <circle cx="240" cy="46" r="70" fill="url(#otg2-glow)"/>
+
+  <!-- hillside ground, statues packed row after row up the slope -->
+  <rect x="0" y="60" width="480" height="240" fill="url(#otg2-ground)"/>
+
+  <!-- stone stairway climbing through the hillside -->
+  <path d="M-20,300 L120,300 L300,86 L242,76 Z" fill="url(#otg2-path)" opacity="0.85"/>
+  <path d="M30,270 L92,262" stroke="#5c4c32" stroke-width="3" opacity="0.5"/>
+  <path d="M120,210 L170,200" stroke="#5c4c32" stroke-width="2.5" opacity="0.4"/>
+
+  <!-- row 5: farthest, near the treeline -->
+  <circle cx="30" cy="134" r="3.5" fill="url(#otg2-stone)" opacity="0.6"/>
+  <circle cx="80" cy="136" r="3.5" fill="url(#otg2-stone)" opacity="0.6"/>
+  <circle cx="130" cy="132" r="3.5" fill="url(#otg2-stone)" opacity="0.6"/>
+  <circle cx="220" cy="134" r="3.5" fill="url(#otg2-stone)" opacity="0.6"/>
+  <circle cx="260" cy="132" r="3.5" fill="url(#otg2-stone)" opacity="0.6"/>
+  <circle cx="340" cy="134" r="3.5" fill="url(#otg2-stone)" opacity="0.6"/>
+  <circle cx="400" cy="136" r="3.5" fill="url(#otg2-stone)" opacity="0.6"/>
+  <circle cx="450" cy="132" r="3.5" fill="url(#otg2-stone)" opacity="0.6"/>
+
+  <!-- row 4 -->
+  <circle cx="10" cy="160" r="5" fill="url(#otg2-stone)" opacity="0.72"/>
+  <circle cx="45" cy="162" r="5" fill="url(#otg2-stone)" opacity="0.72"/>
+  <circle cx="85" cy="158" r="5" fill="url(#otg2-stone)" opacity="0.72"/>
+  <circle cx="125" cy="160" r="5" fill="url(#otg2-stone)" opacity="0.72"/>
+  <circle cx="200" cy="158" r="5" fill="url(#otg2-stone)" opacity="0.72"/>
+  <circle cx="280" cy="160" r="5" fill="url(#otg2-stone)" opacity="0.72"/>
+  <circle cx="320" cy="158" r="5" fill="url(#otg2-stone)" opacity="0.72"/>
+  <circle cx="360" cy="160" r="5" fill="url(#otg2-stone)" opacity="0.72"/>
+  <circle cx="440" cy="162" r="5" fill="url(#otg2-stone)" opacity="0.72"/>
+
+  <!-- row 3, heads getting readable -->
+  <circle cx="15" cy="190" r="7" fill="url(#otg2-stone)" opacity="0.85"/>
+  <circle cx="55" cy="192" r="7" fill="url(#otg2-stone)" opacity="0.85"/>
+  <circle cx="95" cy="188" r="7" fill="url(#otg2-stone)" opacity="0.85"/>
+  <circle cx="300" cy="188" r="7" fill="url(#otg2-stone)" opacity="0.85"/>
+  <circle cx="340" cy="190" r="7" fill="url(#otg2-stone)" opacity="0.85"/>
+  <circle cx="380" cy="188" r="7" fill="url(#otg2-stone)" opacity="0.85"/>
+  <circle cx="420" cy="192" r="7" fill="url(#otg2-stone)" opacity="0.85"/>
+  <circle cx="460" cy="190" r="7" fill="url(#otg2-stone)" opacity="0.85"/>
+
+  <!-- row 2: robe + head, more distinct -->
+  <ellipse cx="25" cy="228" rx="12" ry="16" fill="url(#otg2-stone)"/>
+  <circle cx="25" cy="212" r="9" fill="url(#otg2-stone)"/>
+  <ellipse cx="70" cy="231" rx="12" ry="16" fill="url(#otg2-stone)"/>
+  <circle cx="70" cy="215" r="9" fill="url(#otg2-stone)"/>
+  <ellipse cx="150" cy="226" rx="12" ry="16" fill="url(#otg2-stone)"/>
+  <circle cx="150" cy="210" r="9" fill="url(#otg2-stone)"/>
+  <ellipse cx="330" cy="228" rx="12" ry="16" fill="url(#otg2-stone)"/>
+  <circle cx="330" cy="212" r="9" fill="url(#otg2-stone)"/>
+  <ellipse cx="400" cy="231" rx="12" ry="16" fill="url(#otg2-stone)"/>
+  <circle cx="400" cy="215" r="9" fill="url(#otg2-stone)"/>
+  <ellipse cx="450" cy="226" rx="12" ry="16" fill="url(#otg2-stone)"/>
+  <circle cx="450" cy="210" r="9" fill="url(#otg2-stone)"/>
+
+  <!-- row 1: foreground, closest and most detailed, flanking the cast -->
+  <ellipse cx="50" cy="264" rx="17" ry="22" fill="url(#otg2-stone)"/>
+  <circle cx="50" cy="242" r="14" fill="url(#otg2-stone)"/>
+  <path d="M40,244 q10,8 20,0" stroke="#5b5e52" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <ellipse cx="97" cy="268" rx="17" ry="22" fill="url(#otg2-stone)"/>
+  <circle cx="97" cy="246" r="14" fill="url(#otg2-stone)"/>
+  <path d="M87,248 q10,8 20,0" stroke="#5b5e52" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <ellipse cx="386" cy="264" rx="17" ry="22" fill="url(#otg2-stone)"/>
+  <circle cx="386" cy="242" r="14" fill="url(#otg2-stone)"/>
+  <path d="M376,244 q10,8 20,0" stroke="#5b5e52" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <ellipse cx="432" cy="268" rx="17" ry="22" fill="url(#otg2-stone)"/>
+  <circle cx="432" cy="246" r="14" fill="url(#otg2-stone)"/>
+  <path d="M422,248 q10,8 20,0" stroke="#5b5e52" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- moss accents scattered across the hillside -->
+  <ellipse cx="42" cy="232" rx="9" ry="6" fill="url(#otg2-moss)"/>
+  <ellipse cx="146" cy="200" rx="8" ry="5" fill="url(#otg2-moss)"/>
+  <ellipse cx="378" cy="234" rx="9" ry="6" fill="url(#otg2-moss)"/>
+
+  <!-- Socks, counting statues row by row and losing the thread -->
+  <ellipse cx="172" cy="272" rx="34" ry="8" fill="#1c2414" opacity="0.3"/>
+  <g transform="translate(120 178) rotate(-3) scale(0.44)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+  <path d="M196,146 l0,14 M204,144 l0,16 M212,146 l0,14 M220,150 l6,10" stroke="#f4efe0" stroke-width="2" fill="none" opacity="0.75"/>
+  <path d="M232,132 q8,-10 2,-18 q-6,-6 -12,0" stroke="#f4efe0" stroke-width="2" fill="none" opacity="0.7" stroke-linecap="round"/>
+
+  <!-- Mon-chan, perched on a statue's shoulder, unimpressed by the moss -->
+  <ellipse cx="302" cy="196" rx="24" ry="6" fill="#1c2414" opacity="0.28"/>
+  <ellipse cx="322" cy="180" rx="14" ry="9" fill="url(#otg2-moss)"/>
+  <path d="M315,175 q4,-6 10,-4 q6,2 4,8 q-6,4 -12,0 q-4,-2 -2,-4z" fill="#c8e488" opacity="0.9"/>
+  <g transform="translate(272 156) rotate(6) scale(0.36)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+  <path d="M282,140 q6,-8 0,-14 q-6,-6 2,-12" stroke="#e8973f" stroke-width="2" fill="none" opacity="0.75" stroke-linecap="round"/>
+</svg>

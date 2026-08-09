@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="choh" data-title="Chōjiya — the 430-year-old tororo-jiru teahouse of Mariko-juku">
+<defs>
+  <linearGradient id="choh-sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a9c9d8"/>
+    <stop offset="0.55" stop-color="#e2cfa8"/>
+    <stop offset="1" stop-color="#f0dcae"/>
+  </linearGradient>
+  <linearGradient id="choh-roof" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#5c4a3a"/>
+    <stop offset="1" stop-color="#332619"/>
+  </linearGradient>
+  <linearGradient id="choh-roof2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#6b5644"/>
+    <stop offset="1" stop-color="#3a2c1e"/>
+  </linearGradient>
+  <linearGradient id="choh-wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8a6b4a"/>
+    <stop offset="1" stop-color="#5c4530"/>
+  </linearGradient>
+  <linearGradient id="choh-shoji" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f5ecd4"/>
+    <stop offset="1" stop-color="#d9caa0"/>
+  </linearGradient>
+  <radialGradient id="choh-lantern" cx="0.4" cy="0.32" r="0.75">
+    <stop offset="0" stop-color="#fff2c9"/>
+    <stop offset="0.55" stop-color="#f2a63f"/>
+    <stop offset="1" stop-color="#c9601f"/>
+  </radialGradient>
+  <linearGradient id="choh-ground" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9c8360"/>
+    <stop offset="1" stop-color="#5c4a32"/>
+  </linearGradient>
+  <radialGradient id="choh-sunglow" cx="0.75" cy="0.12" r="0.5">
+    <stop offset="0" stop-color="#fff3d0" stop-opacity="0.85"/>
+    <stop offset="1" stop-color="#fff3d0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="choh-pine" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4a6b4a"/>
+    <stop offset="1" stop-color="#2c4530"/>
+  </linearGradient>
+</defs>
+
+<!-- sky, soft late-afternoon along the old highway -->
+<rect x="0" y="0" width="480" height="300" fill="url(#choh-sky)"/>
+<circle cx="392" cy="46" r="60" fill="url(#choh-sunglow)"/>
+
+<!-- distant tree line behind the building, framing the post-town setting -->
+<path d="M-10 128 q30 -34 60 -6 q26 -30 52 -4 q24 -26 48 -2 q22 -24 44 0 q20 -22 40 2 q18 -20 36 -2 q16 -18 32 0 q14 -16 26 2 q12 -14 22 2 v40 h-360 z" fill="url(#choh-pine)" opacity="0.85"/>
+
+<!-- distant low hill silhouette -->
+<path d="M-10 122 Q120 90 260 116 Q360 96 490 118 V150 H-10 Z" fill="#7a8a6c" opacity="0.55"/>
+
+<!-- ground: the old Tōkaidō roadway out front -->
+<rect x="0" y="252" width="480" height="48" fill="url(#choh-ground)"/>
+<path d="M0 252 Q240 244 480 252" stroke="#3a2c1c" stroke-width="1.2" fill="none" opacity="0.35"/>
+<path d="M0 268 Q240 260 480 268" stroke="#3a2c1c" stroke-width="1" fill="none" opacity="0.25"/>
+<path d="M0 284 Q240 278 480 284" stroke="#3a2c1c" stroke-width="1" fill="none" opacity="0.2"/>
+
+<!-- flanking wing of the building, low, receding left -->
+<polygon points="0,146 62,110 132,110 132,150 0,150" fill="url(#choh-roof2)"/>
+<rect x="8" y="150" width="118" height="102" fill="#6b5238"/>
+<rect x="18" y="168" width="30" height="60" fill="url(#choh-shoji)"/>
+<line x1="33" y1="168" x2="33" y2="228" stroke="#7a5c38" stroke-width="1.5"/>
+<line x1="18" y1="198" x2="48" y2="198" stroke="#7a5c38" stroke-width="1.5"/>
+<rect x="58" y="176" width="26" height="52" fill="url(#choh-shoji)"/>
+<line x1="71" y1="176" x2="71" y2="228" stroke="#7a5c38" stroke-width="1.5"/>
+<line x1="58" y1="202" x2="84" y2="202" stroke="#7a5c38" stroke-width="1.5"/>
+
+<!-- main hall: large tiled roof over the dark timber facade, two solid slopes to a ridge -->
+<polygon points="70,128 240,58 240,128" fill="url(#choh-roof)"/>
+<polygon points="240,58 410,128 240,128" fill="url(#choh-roof)"/>
+<polygon points="92,128 388,128 400,150 80,150" fill="url(#choh-roof2)"/>
+<line x1="240" y1="58" x2="240" y2="128" stroke="#241a10" stroke-width="1.4" opacity="0.35"/>
+<line x1="130" y1="106" x2="122" y2="124" stroke="#241a10" stroke-width="1" opacity="0.3"/>
+<line x1="180" y1="88" x2="175" y2="124" stroke="#241a10" stroke-width="1" opacity="0.3"/>
+<line x1="300" y1="88" x2="305" y2="124" stroke="#241a10" stroke-width="1" opacity="0.3"/>
+<line x1="350" y1="106" x2="358" y2="124" stroke="#241a10" stroke-width="1" opacity="0.3"/>
+
+<!-- ridge cap -->
+<rect x="220" y="58" width="40" height="9" rx="3" fill="#241a10"/>
+
+<!-- timber facade of the main hall -->
+<rect x="92" y="150" width="296" height="102" fill="url(#choh-wall)"/>
+<line x1="92" y1="176" x2="388" y2="176" stroke="#3a2c1c" stroke-width="2" opacity="0.35"/>
+<line x1="92" y1="210" x2="388" y2="210" stroke="#3a2c1c" stroke-width="2" opacity="0.3"/>
+<rect x="92" y="150" width="8" height="102" fill="#3a2c1c" opacity="0.4"/>
+<rect x="380" y="150" width="8" height="102" fill="#3a2c1c" opacity="0.4"/>
+<rect x="236" y="150" width="8" height="102" fill="#3a2c1c" opacity="0.35"/>
+
+<!-- wide entrance opening, shoji screens slid partway, noren hanging in the gap -->
+<rect x="152" y="168" width="176" height="84" fill="#241a10"/>
+<rect x="160" y="176" width="70" height="72" fill="url(#choh-shoji)"/>
+<line x1="177" y1="176" x2="177" y2="248" stroke="#7a5c38" stroke-width="1.4"/>
+<line x1="212" y1="176" x2="212" y2="248" stroke="#7a5c38" stroke-width="1.4"/>
+<line x1="160" y1="208" x2="230" y2="208" stroke="#7a5c38" stroke-width="1.4"/>
+<rect x="252" y="176" width="70" height="72" fill="url(#choh-shoji)"/>
+<line x1="269" y1="176" x2="269" y2="248" stroke="#7a5c38" stroke-width="1.4"/>
+<line x1="304" y1="176" x2="304" y2="248" stroke="#7a5c38" stroke-width="1.4"/>
+<line x1="252" y1="208" x2="322" y2="208" stroke="#7a5c38" stroke-width="1.4"/>
+
+<!-- dark blue noren curtain in the central gap, split down the middle -->
+<rect x="228" y="180" width="26" height="52" fill="#2c4a68"/>
+<rect x="228" y="180" width="26" height="14" fill="#e9dcb8"/>
+<path d="M232 194 q3 4 0 8 q3 4 0 8" stroke="#1c3450" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M248 194 q-3 4 0 8 q-3 4 0 8" stroke="#1c3450" stroke-width="1" fill="none" opacity="0.5"/>
+<rect x="228" y="180" width="4" height="52" fill="#1c3450" opacity="0.5"/>
+
+<!-- wide dark wood sign board over the entrance -->
+<rect x="176" y="150" width="128" height="16" fill="#241a10"/>
+<rect x="182" y="153" width="116" height="10" fill="none" stroke="#c9a866" stroke-width="1" opacity="0.6"/>
+
+<!-- signature hanging lantern by the door -->
+<line x1="150" y1="150" x2="150" y2="164" stroke="#241a10" stroke-width="2"/>
+<ellipse cx="150" cy="182" rx="15" ry="19" fill="url(#choh-lantern)"/>
+<ellipse cx="150" cy="182" rx="15" ry="19" fill="none" stroke="#7a3a14" stroke-width="1.2"/>
+<line x1="138" y1="182" x2="162" y2="182" stroke="#7a3a14" stroke-width="1"/>
+<rect x="146" y="199" width="8" height="4" fill="#3a2416"/>
+
+<!-- second small lantern further along the eave -->
+<line x1="345" y1="150" x2="345" y2="160" stroke="#241a10" stroke-width="1.5"/>
+<ellipse cx="345" cy="172" rx="10" ry="13" fill="url(#choh-lantern)" opacity="0.9"/>
+
+<!-- low stone step and genkan threshold at the entrance -->
+<rect x="150" y="248" width="180" height="10" fill="#8a8272"/>
+<rect x="150" y="252" width="180" height="6" fill="#5c5648"/>
+
+<!-- potted pine / low shrubs flanking the entrance, a wayside-inn touch -->
+<rect x="98" y="230" width="10" height="22" fill="#5c4530"/>
+<ellipse cx="103" cy="222" rx="18" ry="16" fill="#3a5c3c"/>
+<ellipse cx="94" cy="230" rx="12" ry="10" fill="#4a7048"/>
+<ellipse cx="114" cy="228" rx="12" ry="10" fill="#3a5c3c"/>
+<rect x="366" y="228" width="9" height="24" fill="#5c4530"/>
+<ellipse cx="370" cy="220" rx="16" ry="14" fill="#3a5c3c"/>
+<ellipse cx="362" cy="228" rx="10" ry="9" fill="#4a7048"/>
+
+<!-- wooden signpost near the road naming the old post-town route -->
+<rect x="418" y="196" width="7" height="56" fill="#4a3826"/>
+<rect x="408" y="180" width="27" height="18" fill="#5c4530"/>
+<line x1="412" y1="185" x2="431" y2="185" stroke="#e9dcb8" stroke-width="1" opacity="0.6"/>
+<line x1="412" y1="191" x2="431" y2="191" stroke="#e9dcb8" stroke-width="1" opacity="0.6"/>
+
+<!-- foreground: a low wicker basket of the mountain yam roots by the entrance step -->
+<ellipse cx="200" cy="258" rx="17" ry="6" fill="#4a3220" opacity="0.4"/>
+<path d="M184 258 q0 -13 16 -13 q16 0 16 13 z" fill="#8a6a40"/>
+<path d="M184 258 q16 5 32 0" stroke="#5c4327" stroke-width="1" fill="none" opacity="0.6"/>
+<path d="M187 251 q13 4 26 0" stroke="#5c4327" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M191 243 q6 -6 10 0" stroke="#c9b878" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path d="M200 243 q6 -8 10 -1" stroke="#d9c890" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path d="M197 245 q3 -4 5 -1" stroke="#e6d8a8" stroke-width="1.4" fill="none" opacity="0.7"/>
+
+<!-- power lines suggesting the modern Route 1 just past the old post town -->
+<path d="M0 96 Q240 70 480 100" stroke="#2c2418" stroke-width="0.8" opacity="0.25" fill="none"/>
+</svg>

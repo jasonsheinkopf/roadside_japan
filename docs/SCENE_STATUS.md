@@ -9,8 +9,8 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 ## Summary
 
-- Entries (published): **262**  ·  with real photo: **193**  ·  no photo: **69**
-- Drawn hero present: **22**  ·  full set (hero+snap1+snap2): **15**
+- Entries (published): **265**  ·  with real photo: **195**  ·  no photo: **70**
+- Drawn hero present: **23**  ·  full set (hero+snap1+snap2): **16**
 - **Priority queue (no photo, no drawn hero): 49** — listed first below.
 - **Snapshot queue (missing snap1 and/or snap2): 246**.
 
@@ -323,6 +323,9 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
+| 2026-08-09 | Otagi Nenbutsu-ji — 1,200 Stone Monks, Each Carved by a Different Amateur | `otagi-nenbutsuji-kyoto` | ✅ | — | ✅ | ✅ |
+| 2026-08-09 | Antarctic Observation Ship Fuji — a Real Icebreaker Parked in Nagoya Port | `antarctic-ship-fuji-nagoya-port` | ✅ | — | ✅ | ✅ |
+| 2026-08-09 | Chōjiya — 430-Year-Old Grated-Yam-Soup Inn on the Old Tōkaidō | `chojiya-tororojiru-mariko` | — | ✅ | ✅ | ✅ |
 | 2026-08-08 | Kita Kouboh Coffee Roastery | `kita-kouboh-biei` | — | ✅ | ✅ | ✅ |
 | 2026-08-05 | Sauna Fuji — Sakae's Retro Capsule-and-Cold-Pool Sauna | `sauna-fuji-nagoya` | — | ✅ | ✅ | ✅ |
 | 2026-08-03 | Heiwa-dōri Kaimono Kōen (Peace Street Sculpture Walk) | `heiwadori-kaimono-koen` | — | ✅ | ✅ | ✅ |

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="otg1" data-title="The rakan in stone sunglasses, found in four minutes flat">
+  <defs>
+    <linearGradient id="otg1-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe8b6"/>
+      <stop offset="0.45" stop-color="#8fae6a"/>
+      <stop offset="1" stop-color="#44602f"/>
+    </linearGradient>
+    <radialGradient id="otg1-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff6d0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="otg1-stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d3d4c8"/>
+      <stop offset="1" stop-color="#8d9083"/>
+    </linearGradient>
+    <radialGradient id="otg1-moss" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#b9d874"/>
+      <stop offset="1" stop-color="#526c30"/>
+    </radialGradient>
+    <linearGradient id="otg1-lens" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#43483f"/>
+      <stop offset="1" stop-color="#141610"/>
+    </linearGradient>
+  </defs>
+
+  <!-- dappled forest-light backdrop -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#otg1-bg)"/>
+  <circle cx="120" cy="72" r="92" fill="url(#otg1-glow)"/>
+
+  <!-- overhanging canopy, top corners -->
+  <path d="M-10,-10 Q40,-22 72,10 Q42,42 -10,52 Z" fill="#2f4322" opacity="0.85"/>
+  <path d="M492,-10 Q440,-22 408,15 Q450,46 492,56 Z" fill="#2c4020" opacity="0.85"/>
+  <ellipse cx="30" cy="8" rx="26" ry="16" fill="#3c5a2a" opacity="0.7"/>
+  <ellipse cx="452" cy="14" rx="24" ry="15" fill="#39562a" opacity="0.7"/>
+
+  <!-- soft shafts of light through the trees -->
+  <path d="M60,0 L112,0 L42,300 L-8,300 Z" fill="#fff6da" opacity="0.10"/>
+  <path d="M332,0 L392,0 L472,300 L412,300 Z" fill="#fff6da" opacity="0.08"/>
+
+  <!-- distant, out-of-focus statues higher up the slope, each with a hint of shoulder -->
+  <path d="M140,86 Q140,72 150,72 Q160,72 160,86 Z" fill="url(#otg1-stone)" opacity="0.5"/>
+  <ellipse cx="150" cy="66" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.55"/>
+  <path d="M145,70 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M190,78 Q190,64 200,64 Q210,64 210,78 Z" fill="url(#otg1-stone)" opacity="0.5"/>
+  <ellipse cx="200" cy="58" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.55"/>
+  <path d="M195,62 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M242,88 Q242,74 252,74 Q262,74 262,88 Z" fill="url(#otg1-stone)" opacity="0.45"/>
+  <ellipse cx="252" cy="68" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.5"/>
+  <path d="M247,72 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.45"/>
+  <path d="M294,76 Q294,62 304,62 Q314,62 314,76 Z" fill="url(#otg1-stone)" opacity="0.5"/>
+  <ellipse cx="304" cy="56" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.55"/>
+  <path d="M299,60 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M352,86 Q352,72 362,72 Q372,72 372,86 Z" fill="url(#otg1-stone)" opacity="0.45"/>
+  <ellipse cx="362" cy="66" rx="10" ry="11" fill="url(#otg1-stone)" opacity="0.5"/>
+  <path d="M357,70 q5,4 10,0" stroke="#5b5e52" stroke-width="1" fill="none" opacity="0.45"/>
+
+  <!-- cropped neighbor statues at the frame edges -->
+  <path d="M-10,230 Q-6,150 34,150 Q56,150 54,196 Q52,230 20,232 Z" fill="url(#otg1-stone)" opacity="0.9"/>
+  <circle cx="20" cy="140" r="22" fill="url(#otg1-stone)" opacity="0.9"/>
+  <ellipse cx="8" cy="128" rx="10" ry="7" fill="url(#otg1-moss)"/>
+  <path d="M10,146 q10,8 20,0" stroke="#5b5e52" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <path d="M490,236 Q494,158 452,158 Q430,158 432,202 Q434,236 466,238 Z" fill="url(#otg1-stone)" opacity="0.88"/>
+  <circle cx="462" cy="148" r="20" fill="url(#otg1-stone)" opacity="0.88"/>
+  <ellipse cx="474" cy="138" rx="9" ry="6" fill="url(#otg1-moss)"/>
+  <path d="M452,154 q10,6 18,-2" stroke="#5b5e52" stroke-width="1.5" fill="none" opacity="0.55"/>
+
+  <!-- the star of the hillside: the rakan wearing carved stone sunglasses -->
+  <ellipse cx="178" cy="276" rx="70" ry="12" fill="#1c2414" opacity="0.35"/>
+  <path d="M110,270 Q100,170 175,168 Q250,168 244,240 Q240,272 175,274 Z" fill="url(#otg1-stone)"/>
+  <path d="M140,220 q10,20 4,44" stroke="#6b6e60" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M210,210 q-6,24 4,50" stroke="#6b6e60" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <circle cx="182" cy="150" r="46" fill="url(#otg1-stone)"/>
+  <ellipse cx="138" cy="152" rx="8" ry="12" fill="url(#otg1-stone)"/>
+  <ellipse cx="226" cy="152" rx="8" ry="12" fill="url(#otg1-stone)"/>
+  <ellipse cx="182" cy="172" rx="5" ry="7" fill="#a9ac9e" opacity="0.7"/>
+  <path d="M158,190 Q182,212 206,190" stroke="#5b5e52" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <ellipse cx="164" cy="146" rx="20" ry="14" fill="url(#otg1-lens)" transform="rotate(-6 164 146)"/>
+  <ellipse cx="204" cy="144" rx="20" ry="14" fill="url(#otg1-lens)" transform="rotate(4 204 144)"/>
+  <path d="M182,146 q4,-4 8,0" stroke="#22251f" stroke-width="4" fill="none"/>
+  <path d="M150,140 q14,-6 26,-2 M188,138 q14,-6 26,-2" stroke="#e8ecdc" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <ellipse cx="182" cy="108" rx="22" ry="10" fill="url(#otg1-moss)"/>
+  <ellipse cx="128" cy="220" rx="18" ry="12" fill="url(#otg1-moss)" opacity="0.9"/>
+  <ellipse cx="238" cy="205" rx="14" ry="10" fill="url(#otg1-moss)" opacity="0.9"/>
+
+  <!-- Cinnamon, leaning in delighted at the find -->
+  <ellipse cx="368" cy="272" rx="46" ry="10" fill="#1c2414" opacity="0.3"/>
+  <g transform="translate(296 36) rotate(4) scale(0.62)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <circle cx="320" cy="96" r="2.4" fill="#fff3c4"/>
+  <circle cx="340" cy="82" r="2" fill="#fff3c4"/>
+  <circle cx="348" cy="104" r="2.2" fill="#fff3c4"/>
+
+  <!-- mossy foreground framing the shot -->
+  <path d="M0,300 Q30,270 70,290 Q40,300 0,300 Z" fill="url(#otg1-moss)" opacity="0.9"/>
+  <path d="M480,300 Q450,278 410,292 Q450,300 480,300 Z" fill="url(#otg1-moss)" opacity="0.85"/>
+  <ellipse cx="250" cy="296" rx="30" ry="8" fill="url(#otg1-moss)" opacity="0.6"/>
+</svg>
