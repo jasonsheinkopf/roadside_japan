@@ -55,9 +55,10 @@
   <rect x="410" y="127" width="8" height="15" rx="2" fill="#3f7a5c"/>
   <rect x="426" y="129" width="7" height="12" fill="#c9a531"/>
 
-  <!-- coat hooks with a spare barber's smock, small period detail -->
-  <circle cx="60" cy="60" r="3" fill="#20140a"/>
-  <path d="M60 60 q-2 26 -20 40 q26 4 22 -34 Z" fill="#8fa3ad" opacity="0.85"/>
+  <!-- coat hook with a spare barber's smock draped from it, small period detail -->
+  <circle cx="60" cy="58" r="3" fill="#20140a"/>
+  <path d="M50 60 Q60 54 70 60 L74 106 Q60 116 46 106 Z" fill="#c9d4da" opacity="0.9"/>
+  <path d="M50 60 Q60 54 70 60" fill="none" stroke="#8fa3ad" stroke-width="1.5"/>
 
   <!-- the old barbershop chair, center, seen from the raised angle -->
   <ellipse cx="220" cy="252" rx="60" ry="14" fill="#000" opacity="0.35"/>
@@ -65,8 +66,8 @@
   <rect x="176" y="150" width="88" height="30" rx="10" fill="url(#antf2-chair)"/>
   <rect x="182" y="156" width="76" height="16" rx="7" fill="#8f2a24"/>
   <path d="M182 236 L258 236 L250 254 L190 254 Z" fill="#5c1a16"/>
-  <rect x="150" y="176" width="20" height="10" rx="4" fill="#7c211c"/>
-  <rect x="270" y="176" width="20" height="10" rx="4" fill="#7c211c"/>
+  <rect x="150" y="172" width="30" height="12" rx="4" fill="#7c211c"/>
+  <rect x="258" y="172" width="30" height="12" rx="4" fill="#7c211c"/>
   <path d="M198 254 L182 300 M242 254 L258 300" stroke="#2a2a2c" stroke-width="8" stroke-linecap="round"/>
   <ellipse cx="220" cy="252" rx="34" ry="8" fill="#8f2a24"/>
   <circle cx="220" cy="196" r="5" fill="#2a2a2c"/>

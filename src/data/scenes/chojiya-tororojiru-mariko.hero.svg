@@ -66,14 +66,15 @@
 <line x1="71" y1="176" x2="71" y2="228" stroke="#7a5c38" stroke-width="1.5"/>
 <line x1="58" y1="202" x2="84" y2="202" stroke="#7a5c38" stroke-width="1.5"/>
 
-<!-- main hall: large tiled roof over the dark timber facade -->
-<polygon points="70,128 240,58 410,128 388,128 240,72 92,128" fill="url(#choh-roof)"/>
+<!-- main hall: large tiled roof over the dark timber facade, two solid slopes to a ridge -->
+<polygon points="70,128 240,58 240,128" fill="url(#choh-roof)"/>
+<polygon points="240,58 410,128 240,128" fill="url(#choh-roof)"/>
 <polygon points="92,128 388,128 400,150 80,150" fill="url(#choh-roof2)"/>
-<line x1="130" y1="112" x2="118" y2="132" stroke="#241a10" stroke-width="1" opacity="0.4"/>
-<line x1="180" y1="94" x2="172" y2="132" stroke="#241a10" stroke-width="1" opacity="0.4"/>
-<line x1="240" y1="72" x2="240" y2="132" stroke="#241a10" stroke-width="1" opacity="0.4"/>
-<line x1="300" y1="94" x2="308" y2="132" stroke="#241a10" stroke-width="1" opacity="0.4"/>
-<line x1="350" y1="112" x2="360" y2="132" stroke="#241a10" stroke-width="1" opacity="0.4"/>
+<line x1="240" y1="58" x2="240" y2="128" stroke="#241a10" stroke-width="1.4" opacity="0.35"/>
+<line x1="130" y1="106" x2="122" y2="124" stroke="#241a10" stroke-width="1" opacity="0.3"/>
+<line x1="180" y1="88" x2="175" y2="124" stroke="#241a10" stroke-width="1" opacity="0.3"/>
+<line x1="300" y1="88" x2="305" y2="124" stroke="#241a10" stroke-width="1" opacity="0.3"/>
+<line x1="350" y1="106" x2="358" y2="124" stroke="#241a10" stroke-width="1" opacity="0.3"/>
 
 <!-- ridge cap -->
 <rect x="220" y="58" width="40" height="9" rx="3" fill="#241a10"/>
@@ -139,11 +140,13 @@
 <line x1="412" y1="191" x2="431" y2="191" stroke="#e9dcb8" stroke-width="1" opacity="0.6"/>
 
 <!-- foreground: a low wicker basket of the mountain yam roots by the entrance step -->
-<ellipse cx="200" cy="256" rx="16" ry="7" fill="#6b4a2a"/>
-<path d="M188 250 q12 -8 24 0 q-2 6 -12 6 q-10 0 -12 -6z" fill="#c9b878"/>
-<line x1="192" y1="248" x2="196" y2="240" stroke="#a99860" stroke-width="2" stroke-linecap="round"/>
-<line x1="200" y1="246" x2="203" y2="236" stroke="#a99860" stroke-width="2" stroke-linecap="round"/>
-<line x1="208" y1="248" x2="212" y2="240" stroke="#a99860" stroke-width="2" stroke-linecap="round"/>
+<ellipse cx="200" cy="258" rx="17" ry="6" fill="#4a3220" opacity="0.4"/>
+<path d="M184 258 q0 -13 16 -13 q16 0 16 13 z" fill="#8a6a40"/>
+<path d="M184 258 q16 5 32 0" stroke="#5c4327" stroke-width="1" fill="none" opacity="0.6"/>
+<path d="M187 251 q13 4 26 0" stroke="#5c4327" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M191 243 q6 -6 10 0" stroke="#c9b878" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path d="M200 243 q6 -8 10 -1" stroke="#d9c890" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path d="M197 245 q3 -4 5 -1" stroke="#e6d8a8" stroke-width="1.4" fill="none" opacity="0.7"/>
 
 <!-- power lines suggesting the modern Route 1 just past the old post town -->
 <path d="M0 96 Q240 70 480 100" stroke="#2c2418" stroke-width="0.8" opacity="0.25" fill="none"/>
