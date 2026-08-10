@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="akks1" data-title="Nose against the glass, thirty shops deep, watching the carver work">
+  <defs>
+    <linearGradient id="akks1-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c5c38"/>
+      <stop offset="1" stop-color="#4a3420"/>
+    </linearGradient>
+    <linearGradient id="akks1-shelf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a1794c"/>
+      <stop offset="1" stop-color="#6e4f30"/>
+    </linearGradient>
+    <linearGradient id="akks1-bench" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a7448"/>
+      <stop offset="1" stop-color="#5f4429"/>
+    </linearGradient>
+    <radialGradient id="akks1-lamp" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#ffe6ad" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#ffb75c" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffb75c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="akks1-owl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcc39a"/>
+      <stop offset="1" stop-color="#a9824f"/>
+    </linearGradient>
+    <linearGradient id="akks1-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c6a41"/>
+      <stop offset="1" stop-color="#573e24"/>
+    </linearGradient>
+    <linearGradient id="akks1-robe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2c3e52"/>
+      <stop offset="1" stop-color="#1a2733"/>
+    </linearGradient>
+    <linearGradient id="akks1-skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6bd93"/>
+      <stop offset="1" stop-color="#c99968"/>
+    </linearGradient>
+    <linearGradient id="akks1-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfe3ea" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#9fb9c4" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="akks1-glare" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="akks1-street" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2e46"/>
+      <stop offset="1" stop-color="#241b30"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shop interior, seen through the window: back wall of shelves -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#akks1-wall)"/>
+
+  <!-- reflected sliver of the street across the top of the pane, hinting at the row of shopfronts behind Cinnamon -->
+  <rect x="0" y="0" width="480" height="34" fill="url(#akks1-street)" opacity="0.55"/>
+  <path d="M0 30 L60 22 L60 30 Z M70 30 L120 20 L120 30Z M170 30 L214 21 L214 30Z M300 30 L342 22 L342 30Z M360 30 L410 20 L410 30Z M420 30 L470 22 L470 30Z" fill="#170f22" opacity="0.5"/>
+  <circle cx="30" cy="24" r="2.6" fill="#ffcf82" opacity="0.85"/>
+  <circle cx="96" cy="22" r="2.2" fill="#ffcf82" opacity="0.75"/>
+  <circle cx="192" cy="23" r="2.4" fill="#ffcf82" opacity="0.8"/>
+  <circle cx="388" cy="22" r="2.2" fill="#ffcf82" opacity="0.75"/>
+  <circle cx="448" cy="23" r="2.4" fill="#ffcf82" opacity="0.8"/>
+
+  <!-- shelving, deep in the shop -->
+  <rect x="20" y="40" width="440" height="10" fill="url(#akks1-shelf)"/>
+  <rect x="20" y="86" width="440" height="10" fill="url(#akks1-shelf)"/>
+
+  <!-- carved shimafukurou owls, wing-tips spread, iconic Ainu carving stock -->
+  <g>
+    <ellipse cx="70" cy="70" rx="18" ry="26" fill="url(#akks1-owl)" stroke="#6d5230" stroke-width="1.4"/>
+    <path d="M56 60 Q70 40 84 60" fill="none" stroke="#6d5230" stroke-width="2"/>
+    <path d="M56 66 Q42 80 52 92" fill="none" stroke="#8a6a3f" stroke-width="3" stroke-linecap="round"/>
+    <path d="M84 66 Q98 80 88 92" fill="none" stroke="#8a6a3f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="64" cy="62" r="3" fill="#2c2015"/><circle cx="76" cy="62" r="3" fill="#2c2015"/>
+    <path d="M68 68 l4 5 l4 -5z" fill="#7a5a34"/>
+  </g>
+  <g>
+    <ellipse cx="122" cy="72" rx="15" ry="22" fill="url(#akks1-owl)" stroke="#6d5230" stroke-width="1.2" opacity="0.92"/>
+    <path d="M112 64 Q122 50 132 64" fill="none" stroke="#6d5230" stroke-width="1.8"/>
+    <path d="M110 68 Q100 78 106 88" fill="none" stroke="#8a6a3f" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M134 68 Q144 78 138 88" fill="none" stroke="#8a6a3f" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="118" cy="66" r="2.4" fill="#2c2015"/><circle cx="127" cy="66" r="2.4" fill="#2c2015"/>
+    <path d="M120 70 l3 4 l3 -4z" fill="#7a5a34"/>
+  </g>
+
+  <!-- carved bear with salmon, the other classic Ainu figure -->
+  <g>
+    <path d="M400 92 Q384 76 396 60 Q412 46 428 60 Q440 74 428 92 Q414 100 400 92Z" fill="url(#akks1-bear)" stroke="#3e2c18" stroke-width="1.4"/>
+    <ellipse cx="404" cy="63" rx="4" ry="5" fill="#3e2c18"/>
+    <path d="M414 74 Q424 70 430 78 Q422 82 414 78Z" fill="#c99968"/>
+    <circle cx="393" cy="55" r="4" fill="url(#akks1-bear)" stroke="#3e2c18" stroke-width="1"/>
+    <circle cx="418" cy="50" r="4" fill="url(#akks1-bear)" stroke="#3e2c18" stroke-width="1"/>
+  </g>
+
+  <!-- folded embroidered textile on the shelf, geometric morew border -->
+  <rect x="150" y="52" width="52" height="30" rx="2" fill="#22384a" stroke="#101e28" stroke-width="1.2"/>
+  <path d="M156 66 q6 -8 12 0 q6 -8 12 0 q6 -8 12 0" fill="none" stroke="#d9c79a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M156 74 q6 6 12 0 q6 6 12 0 q6 6 12 0" fill="none" stroke="#c8402e" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- warm work lamp over the bench, off to the side so it doesn't halo Cinnamon's head -->
+  <circle cx="336" cy="104" r="60" fill="url(#akks1-lamp)"/>
+  <rect x="332" y="84" width="8" height="14" fill="#2c2015"/>
+  <ellipse cx="336" cy="82" rx="16" ry="6" fill="#3e2c18"/>
+
+  <!-- workbench with the piece taking shape -->
+  <path d="M186 170 h220 l8 40 h-236z" fill="url(#akks1-bench)" stroke="#3e2c18" stroke-width="1.4"/>
+  <path d="M198 176 h190" stroke="#3e2c18" stroke-width="1" opacity="0.4"/>
+
+  <!-- wood shavings scattered across the bench -->
+  <path d="M212 186 q8 -6 4 -12" stroke="#e2c79a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M240 190 q10 -4 8 -12" stroke="#e2c79a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M330 188 q-8 -8 -2 -14" stroke="#e2c79a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M362 184 q9 -3 6 -11" stroke="#e2c79a" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- carving-in-progress: an owl still half in the log -->
+  <path d="M250 148 q4 -30 30 -30 q28 0 26 30 q-2 22 -28 24 q-26 -2 -28 -24z" fill="url(#akks1-owl)" stroke="#5c4326" stroke-width="1.6"/>
+  <path d="M262 128 Q280 112 296 128" fill="none" stroke="#5c4326" stroke-width="2"/>
+  <circle cx="270" cy="132" r="3" fill="#241a10"/><circle cx="288" cy="132" r="3" fill="#241a10"/>
+  <path d="M256 150 q-4 12 4 20" stroke="#5c4326" stroke-width="1.4" fill="none" opacity="0.6"/>
+
+  <!-- the carver, seated at the bench, mid-cut -->
+  <path d="M300 96 q-14 6 -18 26 q-2 20 6 38 l64 0 q6 -20 2 -40 q-6 -22 -22 -26 q-16 -4 -32 2z" fill="url(#akks1-robe)"/>
+  <path d="M306 100 q-2 30 2 58 M332 98 q2 30 -2 58" stroke="#4a5f75" stroke-width="2" opacity="0.5" fill="none"/>
+  <path d="M304 130 q4 -14 20 -12 q4 8 -2 14 q-10 4 -18 -2z" fill="#c8402e" opacity="0.85"/>
+  <circle cx="318" cy="88" r="17" fill="url(#akks1-skin)"/>
+  <path d="M304 78 q0 -14 14 -14 q16 0 16 16" fill="#241a10"/>
+  <circle cx="313" cy="88" r="1.8" fill="#241a10"/><circle cx="323" cy="88" r="1.8" fill="#241a10"/>
+  <path d="M310 96 q8 5 16 0" stroke="#5c4326" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <!-- forearm and carving knife, mid-stroke into the wood -->
+  <path d="M300 134 Q276 138 262 146" stroke="url(#akks1-skin)" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M262 146 l14 -8 l6 4 l-12 8z" fill="#d8dde0" stroke="#8b939a" stroke-width="1"/>
+  <path d="M338 132 Q356 140 356 158" stroke="url(#akks1-skin)" stroke-width="11" fill="none" stroke-linecap="round"/>
+
+  <!-- glass pane over the whole scene, cool and faintly reflective -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#akks1-glass)"/>
+  <path d="M-20 0 L120 0 L40 300 L-100 300 Z" fill="url(#akks1-glare)"/>
+  <path d="M300 0 L420 0 L300 300 L200 300 Z" fill="url(#akks1-glare)" opacity="0.5"/>
+  <!-- a single thin wooden window mullion crossing the pane -->
+  <rect x="336" y="0" width="6" height="300" fill="#2c2015" opacity="0.32"/>
+
+  <!-- carved feather charm hanging in the window display on a thread, prop 🪶 -->
+  <path d="M400 40 L400 78" stroke="#caa" stroke-width="1" opacity="0.5"/>
+  <path d="M400 78 Q392 96 400 116 Q408 96 400 78Z" fill="#e6d3ac" stroke="#9c7c4d" stroke-width="1.4"/>
+  <path d="M400 82 L400 112" stroke="#9c7c4d" stroke-width="1"/>
+  <path d="M400 88 l-5 6 M400 96 l-6 7 M400 104 l-5 6" stroke="#9c7c4d" stroke-width="1" opacity="0.7"/>
+
+  <!-- fogged breath on the outside of the glass, right where Cinnamon's nose meets it -->
+  <ellipse cx="240" cy="178" rx="60" ry="42" fill="#fefefe" opacity="0.14"/>
+
+  <!-- Cinnamon, close and large, nose pressed flat to the window -->
+  <ellipse cx="238" cy="288" rx="118" ry="14" fill="#000" opacity="0.22"/>
+  <g transform="translate(96 66) scale(1.18)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+
+  <!-- windowsill right at the bottom edge, close to the lens -->
+  <rect x="0" y="280" width="480" height="20" fill="#3e2c18"/>
+  <rect x="0" y="280" width="480" height="4" fill="#5c4326"/>
+</svg>

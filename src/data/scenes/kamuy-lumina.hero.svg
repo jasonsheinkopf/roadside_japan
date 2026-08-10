@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmlh" data-title="Kamuy Lumina — a glowing night trail beneath a projected owl">
+  <defs>
+    <linearGradient id="kmlh-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060717"/>
+      <stop offset="0.55" stop-color="#0b0f28"/>
+      <stop offset="1" stop-color="#040309"/>
+    </linearGradient>
+    <radialGradient id="kmlh-owlglow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#e2fdff" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#5fd8ec" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#5fd8ec" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kmlh-canopy1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f261f"/>
+      <stop offset="1" stop-color="#071411"/>
+    </linearGradient>
+    <linearGradient id="kmlh-canopy2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1c1a"/>
+      <stop offset="1" stop-color="#050d0c"/>
+    </linearGradient>
+    <linearGradient id="kmlh-trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#241d2e"/>
+      <stop offset="1" stop-color="#0c0a13"/>
+    </linearGradient>
+    <radialGradient id="kmlh-teal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#93f7e8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#1aa695" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmlh-amber" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe3a4" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#d38b2c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmlh-magenta" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffbfe4" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#c94f8f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kmlh-path" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#302c2c"/>
+      <stop offset="1" stop-color="#0a0908"/>
+    </linearGradient>
+    <linearGradient id="kmlh-pathlite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9bd" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#c28a4a" stop-opacity="0.04"/>
+    </linearGradient>
+    <radialGradient id="kmlh-stoneglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e4ffff" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#7fe0e6" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#7fe0e6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmlh-fog" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#cfe9ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#cfe9ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmlh-mossglow" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#a6e6c8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#3c8f6e" stop-opacity="0.15"/>
+    </radialGradient>
+    <radialGradient id="kmlh-floor" cx="0.5" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#1c2416" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#050604" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmlh-vanish" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3d6" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#ffcf85" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ffcf85" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmlh-eyeglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6da" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffcf6a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- night sky -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#kmlh-sky)"/>
+
+  <!-- stars -->
+  <circle cx="40" cy="18" r="1" fill="#dfe9ff" opacity="0.7"/>
+  <circle cx="95" cy="10" r="1.2" fill="#dfe9ff" opacity="0.5"/>
+  <circle cx="150" cy="24" r="0.9" fill="#dfe9ff" opacity="0.75"/>
+  <circle cx="330" cy="14" r="1.1" fill="#dfe9ff" opacity="0.6"/>
+  <circle cx="405" cy="28" r="0.9" fill="#dfe9ff" opacity="0.5"/>
+  <circle cx="445" cy="12" r="1.3" fill="#dfe9ff" opacity="0.7"/>
+
+  <!-- distant mountain ridge (Mt. Oakan) -->
+  <path d="M0,178 L60,142 L120,162 L190,120 L260,150 L330,128 L400,155 L480,138 L480,195 L0,195 Z" fill="#101528" opacity="0.85"/>
+
+  <!-- distant pine treeline, funneling toward the trail -->
+  <path d="M0,192 L18,168 L36,192 L54,164 L72,192 L90,170 L108,192 L150,192 L150,178 L172,150 L194,178 L194,192 L286,192 L286,178 L308,150 L330,178 L330,192 L372,192 L390,170 L408,192 L426,164 L444,192 L462,168 L480,192 L480,205 L0,205 Z" fill="#0a0f1c"/>
+
+  <!-- soft projected glow behind the canopy, the light source for the owl motif -->
+  <ellipse cx="240" cy="98" rx="150" ry="92" fill="url(#kmlh-owlglow)"/>
+
+  <!-- canopy silhouette arching across the top -->
+  <path d="M-20,20 Q40,-12 92,14 Q142,-16 192,10 Q240,-20 288,10 Q338,-16 388,14 Q440,-12 500,20 L500,108 Q440,80 388,100 Q338,74 288,98 Q240,68 192,98 Q142,74 92,100 Q40,80 -20,108 Z" fill="url(#kmlh-canopy1)"/>
+  <path d="M-20,52 Q60,26 130,50 Q200,20 260,48 Q330,20 400,50 Q450,30 500,54 L500,120 Q440,98 380,116 Q310,92 250,114 Q190,90 130,114 Q70,94 -20,120 Z" fill="url(#kmlh-canopy2)" opacity="0.9"/>
+
+  <!-- owl-spirit, projected in light across the canopy -->
+  <g opacity="0.55">
+    <path d="M234,48 Q162,26 112,62 Q166,66 208,86 Q222,64 234,48 Z" fill="#bdf3ff"/>
+    <path d="M234,48 Q306,26 356,62 Q302,66 260,86 Q246,64 234,48 Z" fill="#bdf3ff"/>
+    <path d="M234,52 Q188,42 154,60 Q192,60 220,76 Z" fill="#dffcff" opacity="0.7"/>
+    <path d="M234,52 Q280,42 314,60 Q276,60 248,76 Z" fill="#dffcff" opacity="0.7"/>
+    <ellipse cx="234" cy="76" rx="26" ry="32" fill="#e6fdff"/>
+    <path d="M217,44 Q213,28 225,34 Q221,40 221,48 Z" fill="#e6fdff"/>
+    <path d="M251,44 Q255,28 243,34 Q247,40 247,48 Z" fill="#e6fdff"/>
+    <path d="M230,84 L234,90 L238,84 Z" fill="#7fb8c4" opacity="0.7"/>
+  </g>
+  <circle cx="222" cy="72" r="9" fill="url(#kmlh-eyeglow)"/>
+  <circle cx="246" cy="72" r="9" fill="url(#kmlh-eyeglow)"/>
+  <circle cx="222" cy="72" r="3.4" fill="#3a2a12"/>
+  <circle cx="246" cy="72" r="3.4" fill="#3a2a12"/>
+
+  <!-- midground trees, each rigged with a colored glow at its base -->
+  <ellipse cx="45" cy="272" rx="34" ry="18" fill="url(#kmlh-teal)"/>
+  <path d="M37,280 Q35,190 41,90 L49,90 Q55,190 53,280 Z" fill="url(#kmlh-trunk)"/>
+
+  <ellipse cx="107" cy="284" rx="28" ry="15" fill="url(#kmlh-amber)"/>
+  <path d="M101,290 Q99,220 104,140 L110,140 Q115,220 113,290 Z" fill="url(#kmlh-trunk)"/>
+
+  <ellipse cx="176" cy="246" rx="18" ry="10" fill="url(#kmlh-magenta)" opacity="0.75"/>
+  <path d="M172,252 Q171,200 174,130 L178,130 Q181,200 180,252 Z" fill="url(#kmlh-trunk)" opacity="0.85"/>
+
+  <ellipse cx="306" cy="246" rx="18" ry="10" fill="url(#kmlh-teal)" opacity="0.7"/>
+  <path d="M302,252 Q301,198 304,125 L308,125 Q311,198 310,252 Z" fill="url(#kmlh-trunk)" opacity="0.85"/>
+
+  <ellipse cx="376" cy="284" rx="28" ry="15" fill="url(#kmlh-amber)"/>
+  <path d="M370,290 Q369,218 374,135 L380,135 Q385,218 382,290 Z" fill="url(#kmlh-trunk)"/>
+
+  <ellipse cx="437" cy="272" rx="34" ry="18" fill="url(#kmlh-magenta)"/>
+  <path d="M429,280 Q427,188 433,85 L441,85 Q447,188 445,280 Z" fill="url(#kmlh-trunk)"/>
+
+  <!-- forest floor clearing the trail sits in, grounding it against the treeline -->
+  <ellipse cx="240" cy="288" rx="200" ry="42" fill="url(#kmlh-floor)"/>
+
+  <!-- warm light pooling where the trail vanishes into the trees -->
+  <ellipse cx="240" cy="197" rx="66" ry="36" fill="url(#kmlh-vanish)"/>
+
+  <!-- the lit trail, curving away and vanishing into the warm glow -->
+  <path d="M150,300 Q162,238 210,190 Q240,180 270,190 Q318,238 330,300 Z" fill="url(#kmlh-path)"/>
+  <path d="M192,300 Q200,246 222,208 Q240,200 258,208 Q280,246 288,300 Z" fill="url(#kmlh-pathlite)"/>
+  <path d="M150,300 Q162,238 210,190" fill="none" stroke="#d9c7a0" stroke-width="1.4" opacity="0.35"/>
+  <path d="M330,300 Q318,238 270,190" fill="none" stroke="#d9c7a0" stroke-width="1.4" opacity="0.35"/>
+  <ellipse cx="197" cy="268" rx="5" ry="2.4" fill="#0a0908" opacity="0.4"/>
+  <ellipse cx="270" cy="256" rx="6" ry="2.6" fill="#0a0908" opacity="0.35"/>
+  <ellipse cx="215" cy="236" rx="4" ry="2" fill="#0a0908" opacity="0.35"/>
+  <ellipse cx="250" cy="228" rx="4" ry="1.8" fill="#0a0908" opacity="0.3"/>
+
+  <!-- stones lining the trail edges -->
+  <ellipse cx="158" cy="290" rx="6" ry="3.4" fill="#4a4640"/>
+  <ellipse cx="176" cy="252" rx="5" ry="2.8" fill="#403c38"/>
+  <ellipse cx="198" cy="220" rx="4" ry="2.2" fill="#38342f"/>
+  <ellipse cx="322" cy="290" rx="6" ry="3.4" fill="#4a4640"/>
+  <ellipse cx="304" cy="252" rx="5" ry="2.8" fill="#403c38"/>
+  <ellipse cx="282" cy="220" rx="4" ry="2.2" fill="#38342f"/>
+
+  <!-- glowing marker stones, the interaction points along the walk -->
+  <ellipse cx="206" cy="256" rx="15" ry="9" fill="url(#kmlh-stoneglow)"/>
+  <ellipse cx="206" cy="258" rx="6.5" ry="3.6" fill="#dffdff"/>
+  <ellipse cx="264" cy="212" rx="12" ry="7" fill="url(#kmlh-stoneglow)"/>
+  <ellipse cx="264" cy="213" rx="5" ry="2.8" fill="#dffdff"/>
+
+  <!-- foreground framing trunks, close and dark at the very edges -->
+  <path d="M-14,300 Q-18,150 -6,-10 L26,-10 Q34,150 30,300 Z" fill="#0a0810"/>
+  <path d="M26,300 Q22,160 30,-6" fill="none" stroke="#2c4a44" stroke-width="1.6" opacity="0.5"/>
+  <path d="M454,300 Q450,150 462,-10 L494,-10 Q502,150 494,300 Z" fill="#0a0810"/>
+  <path d="M458,300 Q454,160 462,-6" fill="none" stroke="#4a3a2c" stroke-width="1.6" opacity="0.5"/>
+
+  <!-- ferns at the trail edge -->
+  <path d="M126,286 Q118,266 128,250 Q124,270 134,282 Z" fill="#0c1810"/>
+  <path d="M138,288 Q136,262 150,248 Q140,268 146,284 Z" fill="#0c1810"/>
+  <path d="M150,290 Q152,268 166,256 Q154,272 158,286 Z" fill="#0d1912" stroke="#2f6a52" stroke-width="0.6" opacity="0.9"/>
+  <path d="M330,286 Q336,264 324,250 Q330,268 322,282 Z" fill="#0c1810"/>
+  <path d="M318,288 Q318,262 304,250 Q316,266 312,284 Z" fill="#0c1810"/>
+  <path d="M306,290 Q302,268 288,258 Q300,272 296,286 Z" fill="#0d1912" stroke="#8a6a2e" stroke-width="0.6" opacity="0.9"/>
+
+  <!-- floating light motes drifting through the trees -->
+  <circle cx="205" cy="128" r="1.8" fill="#cdf7ff" opacity="0.85"/>
+  <circle cx="266" cy="112" r="1.4" fill="#ffe3a4" opacity="0.75"/>
+  <circle cx="150" cy="176" r="1.6" fill="#ffbfe4" opacity="0.7"/>
+  <circle cx="336" cy="160" r="1.4" fill="#cdf7ff" opacity="0.7"/>
+  <circle cx="222" cy="200" r="1.2" fill="#ffe3a4" opacity="0.65"/>
+  <circle cx="298" cy="188" r="1.6" fill="#cdf7ff" opacity="0.8"/>
+  <circle cx="182" cy="92" r="1.2" fill="#ffbfe4" opacity="0.6"/>
+  <circle cx="356" cy="84" r="1.4" fill="#cdf7ff" opacity="0.65"/>
+
+  <!-- glowing mossy stone in the foreground, half-lit, half in shadow -->
+  <ellipse cx="404" cy="266" rx="30" ry="16" fill="url(#kmlh-mossglow)" opacity="0.55"/>
+  <ellipse cx="404" cy="270" rx="19" ry="10" fill="#2e3b34"/>
+  <ellipse cx="399" cy="267" rx="10" ry="5.5" fill="#5c9c7c" opacity="0.8"/>
+  <path d="M392,270 Q400,264 410,268" stroke="#1d2620" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <circle cx="396" cy="265" r="2.2" fill="#eafff2" opacity="0.9"/>
+
+  <!-- ground fog pooling along the trail -->
+  <ellipse cx="240" cy="296" rx="220" ry="16" fill="url(#kmlh-fog)"/>
+</svg>
