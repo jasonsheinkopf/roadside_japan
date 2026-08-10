@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmls2" data-title="Socks, three trees back, still not convinced the forest is safe">
+  <defs>
+    <linearGradient id="kmls2-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070819"/>
+      <stop offset="0.6" stop-color="#0c0f28"/>
+      <stop offset="1" stop-color="#050510"/>
+    </linearGradient>
+    <linearGradient id="kmls2-canopy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d221c"/>
+      <stop offset="1" stop-color="#061410"/>
+    </linearGradient>
+    <radialGradient id="kmls2-floor" cx="0.4" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#1a2216" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#050604" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kmls2-path" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2c2926"/>
+      <stop offset="1" stop-color="#0a0908"/>
+    </linearGradient>
+    <linearGradient id="kmls2-pathlite" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffe9bd" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#c28a4a" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="kmls2-trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#241d2e"/>
+      <stop offset="1" stop-color="#0c0a13"/>
+    </linearGradient>
+    <radialGradient id="kmls2-teal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#93f7e8" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#1aa695" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmls2-amber" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe3a4" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#d38b2c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmls2-magenta" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffbfe4" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#c94f8f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmls2-owlglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9b0" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#d38b2c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmls2-stoneglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e4ffff" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#7fe0e6" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#7fe0e6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmls2-fog" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#cfe9ff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#cfe9ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- night sky -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#kmls2-sky)"/>
+  <circle cx="60" cy="16" r="1" fill="#dfe9ff" opacity="0.6"/>
+  <circle cx="140" cy="10" r="1.2" fill="#dfe9ff" opacity="0.5"/>
+  <circle cx="420" cy="20" r="1" fill="#dfe9ff" opacity="0.55"/>
+  <circle cx="460" cy="45" r="0.9" fill="#dfe9ff" opacity="0.45"/>
+
+  <!-- distant treeline -->
+  <path d="M0,110 L20,88 L40,110 L60,84 L80,110 L110,110 L110,95 L140,70 L170,95 L170,110 L260,110 L260,90 L290,64 L320,90 L320,110 L400,110 L420,86 L440,110 L460,80 L480,105 L480,130 L0,130 Z" fill="#0a0f1c"/>
+
+  <!-- canopy arching across the upper corners -->
+  <path d="M-20,10 Q40,-14 100,8 Q150,-16 200,10 L200,72 Q140,50 90,66 Q40,52 -20,72 Z" fill="url(#kmls2-canopy)"/>
+  <path d="M320,10 Q380,-14 440,6 Q470,-6 500,10 L500,66 Q450,48 400,64 Q360,50 320,64 Z" fill="url(#kmls2-canopy)"/>
+
+  <!-- forest floor -->
+  <ellipse cx="220" cy="250" rx="260" ry="70" fill="url(#kmls2-floor)"/>
+
+  <!-- the trail, seen from an elevated angle sweeping off toward the far trees -->
+  <path d="M6,300 Q120,214 258,148 Q336,112 400,93 L428,100 Q368,124 296,162 Q188,222 178,300 Z" fill="url(#kmls2-path)"/>
+  <path d="M40,300 Q140,220 262,160 Q330,128 392,105 L406,109 Q346,132 282,168 Q170,222 150,300 Z" fill="url(#kmls2-pathlite)"/>
+
+  <!-- stones marking the trail -->
+  <ellipse cx="70" cy="286" rx="6" ry="3" fill="#4a4640"/>
+  <ellipse cx="150" cy="240" rx="5" ry="2.6" fill="#403c38"/>
+  <ellipse cx="245" cy="188" rx="4" ry="2" fill="#38342f"/>
+  <ellipse cx="118" cy="252" rx="14" ry="8" fill="url(#kmls2-stoneglow)"/>
+  <ellipse cx="118" cy="253" rx="6" ry="3.2" fill="#dffdff"/>
+
+  <!-- tree 1: closest to camera, tall, foreground left -->
+  <ellipse cx="26" cy="284" rx="30" ry="16" fill="url(#kmls2-teal)"/>
+  <path d="M17,296 Q14,190 24,36 L34,36 Q40,190 37,296 Z" fill="url(#kmls2-trunk)"/>
+
+  <!-- tree 2: between Cinnamon and Socks -->
+  <ellipse cx="228" cy="240" rx="17" ry="9" fill="url(#kmls2-amber)"/>
+  <path d="M223,246 Q221,196 227,140 L233,140 Q238,196 236,246 Z" fill="url(#kmls2-trunk)"/>
+
+  <!-- owl lantern on a post beside the trail, glowing amber -->
+  <ellipse cx="196" cy="150" rx="20" ry="14" fill="url(#kmls2-owlglow)"/>
+  <line x1="196" y1="212" x2="196" y2="158" stroke="#241d2e" stroke-width="4"/>
+  <ellipse cx="196" cy="152" rx="14" ry="15" fill="#2a2118"/>
+  <path d="M196,140 Q176,124 164,140 Q180,140 190,150 Z" fill="#2a2118"/>
+  <path d="M196,140 Q216,124 228,140 Q212,140 202,150 Z" fill="#2a2118"/>
+  <path d="M186,132 Q183,122 191,124 Z" fill="#2a2118"/>
+  <path d="M206,132 Q209,122 201,124 Z" fill="#2a2118"/>
+  <circle cx="190" cy="150" r="3.4" fill="#ffe9b0"/>
+  <circle cx="202" cy="150" r="3.4" fill="#ffe9b0"/>
+  <path d="M193,158 L196,163 L199,158 Z" fill="#ffcf85"/>
+
+  <!-- tree 3: near Socks, partly hiding him -->
+  <ellipse cx="311" cy="212" rx="13" ry="7" fill="url(#kmls2-magenta)"/>
+  <path d="M307,218 Q305,178 310,148 L315,148 Q319,178 317,218 Z" fill="url(#kmls2-trunk)"/>
+
+  <!-- tree 4: near the vanishing point, background -->
+  <ellipse cx="392" cy="182" rx="11" ry="6" fill="url(#kmls2-teal)" opacity="0.7"/>
+  <path d="M388,188 Q386,158 391,132 L396,132 Q400,158 398,188 Z" fill="url(#kmls2-trunk)" opacity="0.85"/>
+
+  <!-- floating light motes -->
+  <circle cx="180" cy="160" r="1.6" fill="#cdf7ff" opacity="0.8"/>
+  <circle cx="230" cy="130" r="1.3" fill="#ffe3a4" opacity="0.7"/>
+  <circle cx="330" cy="150" r="1.4" fill="#cdf7ff" opacity="0.7"/>
+  <circle cx="140" cy="200" r="1.5" fill="#ffbfe4" opacity="0.65"/>
+  <circle cx="360" cy="120" r="1.2" fill="#cdf7ff" opacity="0.6"/>
+
+  <!-- Cinnamon, mid-stride on the trail -->
+  <ellipse cx="150" cy="272" rx="46" ry="11" fill="#000000" opacity="0.22"/>
+  <g transform="translate(38 111) scale(0.75)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <!-- the rhythm staff, held out to his side, glowing -->
+  <path d="M85,105 Q88,190 96,272" stroke="#7fe8c8" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M85,105 Q88,190 96,272" stroke="#eafff5" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="85" cy="101" r="6.5" fill="#dff9e8"/>
+  <ellipse cx="97" cy="274" rx="10" ry="5" fill="url(#kmls2-stoneglow)"/>
+
+  <!-- Socks, three trees back, not convinced -->
+  <ellipse cx="330" cy="228" rx="22" ry="6" fill="#000000" opacity="0.2"/>
+  <g transform="translate(283 151) scale(0.42)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+
+  <!-- foreground ferns framing the bottom edge -->
+  <path d="M0,300 Q6,262 30,244 Q16,272 22,296 Z" fill="#0a1810"/>
+  <path d="M60,300 Q66,270 84,256 Q72,278 76,298 Z" fill="#0a1810"/>
+  <path d="M430,300 Q436,268 458,252 Q444,276 450,298 Z" fill="#0a1810"/>
+
+  <!-- ground fog -->
+  <ellipse cx="220" cy="296" rx="240" ry="14" fill="url(#kmls2-fog)"/>
+</svg>
