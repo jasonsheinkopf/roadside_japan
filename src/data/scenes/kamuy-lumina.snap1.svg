@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kmls1" data-title="Tapped the rhythm staff against a mossy stone, lit from within">
+  <defs>
+    <linearGradient id="kmls1-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080a12"/>
+      <stop offset="0.6" stop-color="#0a1614"/>
+      <stop offset="1" stop-color="#050807"/>
+    </linearGradient>
+    <radialGradient id="kmls1-stoneglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f2fff5" stop-opacity="0.98"/>
+      <stop offset="0.35" stop-color="#8ff2d6" stop-opacity="0.75"/>
+      <stop offset="0.7" stop-color="#2ea88f" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#2ea88f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kmls1-stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c7264"/>
+      <stop offset="0.5" stop-color="#374a3f"/>
+      <stop offset="1" stop-color="#161e19"/>
+    </linearGradient>
+    <linearGradient id="kmls1-staff" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff9e8"/>
+      <stop offset="0.5" stop-color="#7fe8c8"/>
+      <stop offset="1" stop-color="#eafff5"/>
+    </linearGradient>
+    <radialGradient id="kmls1-facewash" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#bdf5e2" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#bdf5e2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kmls1-orb" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#7fe8c8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="kmls1-blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="kmls1-softblur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+
+  <!-- dark blurred forest backdrop -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#kmls1-bg)"/>
+
+  <!-- soft out-of-focus background lights, deep in the trees -->
+  <circle cx="60" cy="70" r="20" fill="#7fe8c8" opacity="0.18" filter="url(#kmls1-blur)"/>
+  <circle cx="420" cy="60" r="24" fill="#e8c27a" opacity="0.16" filter="url(#kmls1-blur)"/>
+  <circle cx="440" cy="200" r="18" fill="#7fe8c8" opacity="0.14" filter="url(#kmls1-blur)"/>
+  <circle cx="30" cy="220" r="16" fill="#e8c27a" opacity="0.12" filter="url(#kmls1-blur)"/>
+
+  <!-- blurred distant trunks -->
+  <path d="M400,300 L392,40 L412,40 L426,300 Z" fill="#0c1512" opacity="0.7" filter="url(#kmls1-blur)"/>
+  <path d="M20,300 L14,20 L34,20 L44,300 Z" fill="#0c1512" opacity="0.6" filter="url(#kmls1-blur)"/>
+
+  <!-- the glowing stone, lighting the whole scene from below -->
+  <ellipse cx="150" cy="238" rx="92" ry="62" fill="url(#kmls1-stoneglow)"/>
+  <path d="M84,246 Q78,196 132,186 Q192,180 206,222 Q212,258 168,270 Q104,282 84,246 Z" fill="url(#kmls1-stone)"/>
+  <path d="M100,214 Q140,198 184,212" stroke="#0e1712" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M108,236 Q150,224 190,236" stroke="#0e1712" stroke-width="1.6" fill="none" opacity="0.4"/>
+  <ellipse cx="132" cy="204" rx="14" ry="7" fill="#5f8a5c" opacity="0.7"/>
+  <ellipse cx="176" cy="228" rx="10" ry="5" fill="#5f8a5c" opacity="0.6"/>
+  <ellipse cx="150" cy="222" rx="26" ry="15" fill="#eafff5" opacity="0.85"/>
+  <ellipse cx="150" cy="222" rx="12" ry="7" fill="#ffffff"/>
+  <path d="M150,204 L138,222 L150,222 L142,240 M150,204 L160,220 L150,222 L158,236" stroke="#ffffff" stroke-width="1.6" fill="none" opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- the rhythm staff, gripped and pressed down against the stone -->
+  <ellipse cx="318" cy="116" rx="13" ry="13" fill="url(#kmls1-orb)"/>
+  <path d="M317,118 Q304,152 298,180 Q232,206 172,224" stroke="url(#kmls1-staff)" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M317,118 Q304,152 298,180 Q232,206 172,224" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="318" cy="116" r="5" fill="#ffffff"/>
+
+  <!-- sparks lifting off the stone -->
+  <circle cx="120" cy="180" r="2" fill="#dffff2" opacity="0.85"/>
+  <circle cx="176" cy="164" r="1.6" fill="#dffff2" opacity="0.75"/>
+  <circle cx="90" cy="200" r="1.4" fill="#dffff2" opacity="0.6"/>
+  <circle cx="200" cy="190" r="1.8" fill="#dffff2" opacity="0.7"/>
+  <circle cx="150" cy="150" r="1.2" fill="#dffff2" opacity="0.55"/>
+
+  <!-- Cinnamon, leaning in close, caught mid-tap -->
+  <ellipse cx="300" cy="252" rx="70" ry="16" fill="#000000" opacity="0.25"/>
+  <g transform="translate(159 15) scale(1.1)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="292" cy="200" rx="80" ry="90" fill="url(#kmls1-facewash)"/>
+
+  <!-- close foreground ferns, soft-focus, framing the bottom corners -->
+  <path d="M-10,300 Q-4,246 24,222 Q10,262 20,296 Z" fill="#050b08" opacity="0.85" filter="url(#kmls1-softblur)"/>
+  <path d="M490,300 Q484,240 452,214 Q470,258 462,296 Z" fill="#050b08" opacity="0.8" filter="url(#kmls1-softblur)"/>
+</svg>

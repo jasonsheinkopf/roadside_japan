@@ -9,8 +9,8 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 ## Summary
 
-- Entries (published): **268**  ·  with real photo: **197**  ·  no photo: **71**
-- Drawn hero present: **24**  ·  full set (hero+snap1+snap2): **17**
+- Entries (published): **270**  ·  with real photo: **198**  ·  no photo: **72**
+- Drawn hero present: **25**  ·  full set (hero+snap1+snap2): **18**
 - **Priority queue (no photo, no drawn hero): 49** — listed first below.
 - **Snapshot queue (missing snap1 and/or snap2): 246**.
 
@@ -323,6 +323,8 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
+| 2026-08-10 | Kamuy Lumina | `kamuy-lumina` | — | ✅ | ✅ | ✅ |
+| 2026-08-10 | Akan Ainu Kotan | `akan-ainu-kotan` | ✅ | — | ✅ | ✅ |
 | 2026-08-09 | Shinei-no-Oka View Park | `shinei-no-oka-biei` | ✅ | — | ✅ | ✅ |
 | 2026-08-09 | Ken and Mary Tree | `ken-and-mary-tree-biei` | ✅ | — | ✅ | ✅ |
 | 2026-08-09 | Seven Stars Tree | `seven-stars-tree-biei` | — | ✅ | ✅ | ✅ |

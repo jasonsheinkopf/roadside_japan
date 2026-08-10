@@ -55,8 +55,10 @@ aiSummary: "A caldera lake in Akan-Mashu National Park, Hokkaido, famous for mar
 aiKeywords: [lake akan, marimo, algae balls, kushiro, hokkaido, akanko]
 related:
   - blue-pond-biei
+  - akan-ainu-kotan
+  - kamuy-lumina
 createdAt: 2026-06-16
-updatedAt: 2026-07-13
+updatedAt: 2026-08-10T04:25:00Z
 cinnamon:
   quote: "Perfectly round algae balls! Nature said 'what if moss, but bouncy.' Genius."
   emoji: "🟢"
