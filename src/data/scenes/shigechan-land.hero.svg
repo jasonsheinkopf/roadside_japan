@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="shgh" data-title="Shigechan Land pasture: ticket hut, body-part houses, driftwood beast">
+  <defs>
+    <linearGradient id="shgh-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a7fab"/>
+      <stop offset="0.55" stop-color="#8fb9d8"/>
+      <stop offset="1" stop-color="#f2e2c3"/>
+    </linearGradient>
+    <radialGradient id="shgh-sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff6d8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shgh-hillg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a68c53"/>
+      <stop offset="1" stop-color="#7c6a3c"/>
+    </linearGradient>
+    <linearGradient id="shgh-meadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8bd6e"/>
+      <stop offset="0.4" stop-color="#a6ab55"/>
+      <stop offset="1" stop-color="#71844a"/>
+    </linearGradient>
+    <linearGradient id="shgh-roofred" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d24f38"/>
+      <stop offset="1" stop-color="#9c3222"/>
+    </linearGradient>
+    <linearGradient id="shgh-roofbrn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a3c"/>
+      <stop offset="1" stop-color="#5c3924"/>
+    </linearGradient>
+    <linearGradient id="shgh-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5efdd"/>
+      <stop offset="1" stop-color="#d8cfae"/>
+    </linearGradient>
+    <linearGradient id="shgh-wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b5a486"/>
+      <stop offset="0.5" stop-color="#93805f"/>
+      <stop offset="1" stop-color="#6f5d41"/>
+    </linearGradient>
+    <linearGradient id="shgh-bone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6dfc9"/>
+      <stop offset="1" stop-color="#c3b899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- big Hokkaido sky -->
+  <rect x="0" y="0" width="480" height="148" fill="url(#shgh-sky)"/>
+  <circle cx="392" cy="52" r="66" fill="url(#shgh-sun)"/>
+  <ellipse cx="96" cy="44" rx="36" ry="11" fill="#ffffff" opacity="0.55"/>
+  <ellipse cx="150" cy="58" rx="28" ry="9" fill="#ffffff" opacity="0.42"/>
+  <ellipse cx="252" cy="34" rx="42" ry="12" fill="#ffffff" opacity="0.48"/>
+  <path d="M40 72 Q46 64 52 72 Q58 64 64 72" stroke="#2c2a24" stroke-width="1.6" fill="none" opacity="0.5"/>
+  <path d="M100 52 Q105 46 110 52 Q115 46 120 52" stroke="#2c2a24" stroke-width="1.3" fill="none" opacity="0.4"/>
+
+  <!-- far treeline, autumn colour along the pasture's edge toward Route 240 -->
+  <path d="M0 145 Q60 116 130 128 Q200 108 262 122 Q332 100 402 118 L480 108 L480 150 L0 150 Z" fill="url(#shgh-hillg)"/>
+  <circle cx="66" cy="120" r="10" fill="#c0492f"/>
+  <circle cx="118" cy="112" r="12" fill="#d98a34"/>
+  <circle cx="176" cy="118" r="9" fill="#d4b23c"/>
+  <path d="M296 118 L308 96 L320 118 Z" fill="#4b6b3a"/>
+  <circle cx="352" cy="106" r="13" fill="#c0492f"/>
+  <circle cx="418" cy="112" r="10" fill="#d98a34"/>
+  <circle cx="446" cy="104" r="9" fill="#d4b23c"/>
+
+  <!-- open pasture -->
+  <rect x="0" y="146" width="480" height="154" fill="url(#shgh-meadow)"/>
+  <path d="M0 172 Q120 164 240 172 Q360 180 480 170" stroke="#5c6e38" stroke-width="2" fill="none" opacity="0.28"/>
+  <path d="M0 205 Q130 196 260 206 Q370 214 480 202" stroke="#5c6e38" stroke-width="2" fill="none" opacity="0.26"/>
+  <path d="M0 240 Q140 230 280 240 Q380 248 480 236" stroke="#4a5a2e" stroke-width="2" fill="none" opacity="0.24"/>
+
+  <!-- gravel path from the entrance hut to the little houses -->
+  <path d="M95 240 Q150 246 195 250 Q225 253 248 258" stroke="#d8c9a0" stroke-width="15" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <path d="M95 240 Q150 246 195 250 Q225 253 248 258" stroke="#c3b184" stroke-width="3" fill="none" opacity="0.5"/>
+
+  <!-- low pasture fence, foreground -->
+  <rect x="0" y="278" width="4" height="20" fill="#6b5c46"/>
+  <rect x="40" y="276" width="4" height="20" fill="#6b5c46"/>
+  <rect x="0" y="282" width="44" height="4" fill="#7c6c52"/>
+  <rect x="330" y="278" width="4" height="20" fill="#6b5c46"/>
+  <rect x="376" y="276" width="4" height="20" fill="#6b5c46"/>
+  <rect x="424" y="278" width="4" height="20" fill="#6b5c46"/>
+  <rect x="472" y="276" width="4" height="20" fill="#6b5c46"/>
+  <rect x="330" y="282" width="146" height="4" fill="#7c6c52"/>
+
+  <!-- the little red ticket hut at the entrance -->
+  <ellipse cx="88" cy="248" rx="30" ry="6" fill="#241f14" opacity="0.25"/>
+  <rect x="60" y="212" width="4" height="38" fill="#5a4a34"/>
+  <rect x="55" y="203" width="14" height="9" fill="#f0e6c8" stroke="#8a7a58" stroke-width="1"/>
+  <rect x="65" y="212" width="46" height="34" fill="url(#shgh-wall)" stroke="#c9bd9c" stroke-width="1"/>
+  <path d="M58 212 L88 189 L118 212 Z" fill="url(#shgh-roofred)" stroke="#7a2418" stroke-width="1.2"/>
+  <rect x="70" y="221" width="13" height="12" fill="#ffdca0" stroke="#8a7a58" stroke-width="1"/>
+  <rect x="94" y="228" width="13" height="18" fill="#8f3221" stroke="#5e2116" stroke-width="1"/>
+
+  <!-- Nose house, centred on the grounds -->
+  <ellipse cx="238" cy="248" rx="42" ry="7" fill="#241f14" opacity="0.25"/>
+  <rect x="200" y="207" width="76" height="38" fill="url(#shgh-wall)" stroke="#c9bd9c" stroke-width="1"/>
+  <path d="M195 207 L238 176 L281 207 Z" fill="url(#shgh-roofbrn)" stroke="#3c2818" stroke-width="1.2"/>
+  <path d="M225 207 Q222 186 238 179 Q254 186 251 207 Q238 216 225 207Z" fill="#d9b699" stroke="#a9805f" stroke-width="1.4"/>
+  <ellipse cx="231" cy="200" rx="3" ry="4" fill="#5c3924"/>
+  <ellipse cx="245" cy="200" rx="3" ry="4" fill="#5c3924"/>
+  <rect x="230" y="226" width="17" height="19" fill="#5c3924" stroke="#3c2818" stroke-width="1"/>
+  <circle cx="212" cy="222" r="6" fill="#ffdca0" stroke="#8a7a58" stroke-width="1"/>
+
+  <!-- Mouth house, just behind and beside it -->
+  <ellipse cx="345" cy="243" rx="40" ry="6" fill="#241f14" opacity="0.22"/>
+  <rect x="308" y="211" width="72" height="32" fill="url(#shgh-wall)" stroke="#c9bd9c" stroke-width="1"/>
+  <path d="M303 211 L344 184 L385 211 Z" fill="url(#shgh-roofbrn)" stroke="#3c2818" stroke-width="1.2"/>
+  <path d="M320 222 Q344 214 368 222 Q356 234 344 235 Q332 234 320 222Z" fill="#8f3221" stroke="#5e2116" stroke-width="1.3"/>
+  <rect x="330" y="220" width="28" height="4" fill="#f0e6c8" opacity="0.8"/>
+  <circle cx="315" cy="228" r="4.5" fill="#ffdca0" stroke="#8a7a58" stroke-width="1"/>
+  <circle cx="373" cy="228" r="4.5" fill="#ffdca0" stroke="#8a7a58" stroke-width="1"/>
+
+  <!-- the driftwood-and-bone creature, taller than the houses -->
+  <ellipse cx="404" cy="284" rx="42" ry="8" fill="#241f14" opacity="0.3"/>
+  <path d="M392 210 Q382 246 388 282" stroke="url(#shgh-wood)" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M418 210 Q430 246 422 282" stroke="url(#shgh-wood)" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse cx="387" cy="283" rx="8" ry="4" fill="#7a6a4c"/>
+  <ellipse cx="423" cy="283" rx="8" ry="4" fill="#7a6a4c"/>
+  <path d="M388 210 Q382 158 398 128 Q414 158 410 210 Z" fill="url(#shgh-wood)" stroke="#4a3c28" stroke-width="1.6"/>
+  <path d="M392 165 Q399 172 406 165" stroke="#4a3c28" stroke-width="1.3" fill="none" opacity="0.55"/>
+  <path d="M390 188 Q399 195 408 188" stroke="#4a3c28" stroke-width="1.3" fill="none" opacity="0.55"/>
+  <path d="M395 145 Q399 152 403 145" stroke="#4a3c28" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M390 150 Q362 140 344 108" stroke="url(#shgh-wood)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M408 155 Q436 168 452 198" stroke="url(#shgh-wood)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="344" cy="108" r="4.5" fill="#7a6a4c"/>
+  <circle cx="452" cy="198" r="4.5" fill="#7a6a4c"/>
+  <path d="M388 128 Q392 100 402 96 Q414 100 410 128 Q400 138 388 128Z" fill="url(#shgh-bone)" stroke="#8a7a5c" stroke-width="1.6"/>
+  <ellipse cx="395" cy="114" rx="3" ry="4.5" fill="#2c241a"/>
+  <ellipse cx="405" cy="114" rx="3" ry="4.5" fill="#2c241a"/>
+  <path d="M393 97 L389 84 M403 96 L407 82" stroke="#8a7a5c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="390" cy="150" r="4" fill="#7a6a4c"/>
+  <circle cx="408" cy="153" r="4" fill="#7a6a4c"/>
+  <circle cx="392" cy="210" r="4" fill="#7a6a4c"/>
+  <circle cx="418" cy="210" r="4" fill="#7a6a4c"/>
+
+  <!-- scattered bone and driftwood on the grass, foreground -->
+  <path d="M150 288 Q158 282 168 288 Q160 291 150 288Z" fill="url(#shgh-bone)" stroke="#8a7a5c" stroke-width="1"/>
+  <path d="M440 260 L452 252 L456 258 L444 266Z" fill="url(#shgh-wood)" stroke="#4a3c28" stroke-width="1"/>
+
+  <!-- grass tufts close to camera -->
+  <path d="M20 300 q3 -14 7 0" stroke="#3f5127" stroke-width="2.2" fill="none"/>
+  <path d="M130 300 q3 -12 7 0" stroke="#3f5127" stroke-width="2.2" fill="none"/>
+  <path d="M290 300 q3 -14 7 0" stroke="#3f5127" stroke-width="2.2" fill="none"/>
+  <path d="M460 300 q3 -12 7 0" stroke="#3f5127" stroke-width="2.2" fill="none"/>
+</svg>
