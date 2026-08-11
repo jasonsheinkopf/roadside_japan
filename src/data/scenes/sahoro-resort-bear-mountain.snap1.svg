@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="sbm1" data-title="Nose pressed to the safari bus bars, counting the bears">
+  <defs>
+    <linearGradient id="sbm1-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe6c2"/>
+      <stop offset="1" stop-color="#9bc27c"/>
+    </linearGradient>
+    <linearGradient id="sbm1-canopy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f8a4a"/>
+      <stop offset="0.6" stop-color="#3c6234"/>
+      <stop offset="1" stop-color="#294a28"/>
+    </linearGradient>
+    <linearGradient id="sbm1-bear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a5c3a"/>
+      <stop offset="1" stop-color="#4f3420"/>
+    </linearGradient>
+    <linearGradient id="sbm1-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a3530"/>
+      <stop offset="0.45" stop-color="#8a827a"/>
+      <stop offset="0.55" stop-color="#8a827a"/>
+      <stop offset="1" stop-color="#221f1c"/>
+    </linearGradient>
+    <linearGradient id="sbm1-sill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4632"/>
+      <stop offset="1" stop-color="#332619"/>
+    </linearGradient>
+    <radialGradient id="sbm1-glow" cx="0.5" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#fff6d8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff6d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sbm1-vig" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0a0805" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+
+  <!-- forest seen through the window: sky gap, canopy, and a bear ambling past -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#sbm1-canopy)"/>
+  <rect x="0" y="0" width="480" height="60" fill="url(#sbm1-sky)" opacity="0.8"/>
+  <circle cx="392" cy="42" r="70" fill="url(#sbm1-glow)"/>
+  <ellipse cx="60" cy="56" rx="70" ry="30" fill="#4a7238" opacity="0.7"/>
+  <ellipse cx="420" cy="66" rx="80" ry="34" fill="#436b32" opacity="0.65"/>
+  <path d="M40 300 L54 150 L66 300 Z" fill="#22401f" opacity="0.75"/>
+  <path d="M110 300 L128 120 L146 300 Z" fill="#2a4d26" opacity="0.7"/>
+  <path d="M330 300 L350 128 L370 300 Z" fill="#274525" opacity="0.7"/>
+  <path d="M400 300 L414 160 L430 300 Z" fill="#2f5329" opacity="0.65"/>
+  <ellipse cx="54" cy="146" rx="30" ry="16" fill="#5a8542"/>
+  <ellipse cx="128" cy="116" rx="34" ry="18" fill="#628f48"/>
+  <ellipse cx="350" cy="124" rx="32" ry="17" fill="#517b3d"/>
+  <ellipse cx="414" cy="156" rx="28" ry="15" fill="#5a8542"/>
+
+  <!-- the bear, close outside the glass, head turned back toward the bus -->
+  <ellipse cx="352" cy="258" rx="52" ry="13" fill="#12200f" opacity="0.4"/>
+  <path d="M312 258 Q300 214 340 202 Q384 194 402 224 Q414 246 392 262 Q352 276 320 266 Q312 262 312 258Z" fill="url(#sbm1-bear)" stroke="#2e1f12" stroke-width="2"/>
+  <path d="M348 236 Q332 254 340 274" stroke="#3a2716" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M384 238 Q380 258 392 274" stroke="#3a2716" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <ellipse cx="300" cy="212" rx="30" ry="26" fill="url(#sbm1-bear)" stroke="#2e1f12" stroke-width="2"/>
+  <circle cx="282" cy="190" r="10" fill="url(#sbm1-bear)" stroke="#2e1f12" stroke-width="1.6"/>
+  <circle cx="316" cy="188" r="10" fill="url(#sbm1-bear)" stroke="#2e1f12" stroke-width="1.6"/>
+  <circle cx="282" cy="191" r="4.5" fill="#6b4a30"/>
+  <circle cx="316" cy="189" r="4.5" fill="#6b4a30"/>
+  <ellipse cx="280" cy="222" rx="16" ry="11" fill="#a9855f"/>
+  <ellipse cx="270" cy="222" rx="4" ry="3.4" fill="#1a120a"/>
+  <ellipse cx="304" cy="204" rx="3.6" ry="4" fill="#160f0a"/>
+  <circle cx="303" cy="203" r="1.1" fill="#e8d8c0"/>
+
+  <!-- dark bus wall framing the window opening -->
+  <path d="M0 0 L96 0 L74 300 L0 300 Z" fill="#20180f" opacity="0.94"/>
+  <path d="M480 0 L396 0 L420 300 L480 300 Z" fill="#171008" opacity="0.94"/>
+  <rect x="0" y="0" width="480" height="26" fill="#241a10" opacity="0.9"/>
+  <rect x="0" y="266" width="480" height="34" fill="url(#sbm1-sill)"/>
+  <rect x="0" y="264" width="480" height="6" fill="#241c12" opacity="0.7"/>
+
+  <!-- the heavy iron bars of the safari bus, welded thick across the window -->
+  <rect x="118" y="20" width="14" height="250" fill="url(#sbm1-bar)"/>
+  <rect x="182" y="14" width="15" height="256" fill="url(#sbm1-bar)"/>
+  <rect x="252" y="14" width="15" height="256" fill="url(#sbm1-bar)"/>
+  <rect x="322" y="18" width="14" height="252" fill="url(#sbm1-bar)"/>
+  <rect x="80" y="120" width="330" height="12" fill="url(#sbm1-bar)" opacity="0.92"/>
+  <rect x="80" y="120" width="330" height="3" fill="#c8c0b4" opacity="0.35"/>
+  <circle cx="125" cy="126" r="7" fill="#2a2620" stroke="#88817a" stroke-width="1.4"/>
+  <circle cx="259" cy="126" r="7" fill="#2a2620" stroke="#88817a" stroke-width="1.4"/>
+  <circle cx="329" cy="126" r="7" fill="#2a2620" stroke="#88817a" stroke-width="1.4"/>
+
+  <!-- Cinnamon, nose to the bars, ears up, watching back -->
+  <ellipse cx="216" cy="264" rx="56" ry="13" fill="#0e0a06" opacity="0.4"/>
+  <g transform="translate(122 60) scale(0.82)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="215" cy="188" rx="7" ry="10" fill="#3a2c1c" opacity="0.5"/>
+
+  <!-- vignette + a stray dust mote in the light -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#sbm1-vig)"/>
+  <circle cx="300" cy="90" r="2.2" fill="#fff6d8" opacity="0.6"/>
+  <circle cx="270" cy="70" r="1.6" fill="#fff6d8" opacity="0.5"/>
+</svg>

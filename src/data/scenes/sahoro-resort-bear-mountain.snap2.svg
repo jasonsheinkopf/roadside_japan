@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="sbm2" data-title="Looking straight down from the walkway into the forest">
+  <defs>
+    <linearGradient id="sbm2-deck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a876"/>
+      <stop offset="1" stop-color="#9c7c50"/>
+    </linearGradient>
+    <radialGradient id="sbm2-void" cx="0.5" cy="0.42" r="0.72">
+      <stop offset="0" stop-color="#6f9a52"/>
+      <stop offset="0.55" stop-color="#3e6b3a"/>
+      <stop offset="1" stop-color="#173318"/>
+    </radialGradient>
+    <linearGradient id="sbm2-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff0ee" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#dff0ee" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="sbm2-post" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a5a36"/>
+      <stop offset="1" stop-color="#4c3620"/>
+    </linearGradient>
+    <linearGradient id="sbm2-bear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a4f30"/>
+      <stop offset="1" stop-color="#4a3018"/>
+    </linearGradient>
+    <radialGradient id="sbm2-mist" cx="0.5" cy="1" r="0.75">
+      <stop offset="0" stop-color="#eaf3d8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#eaf3d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- the forest floor, straight down through the canopy -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#sbm2-void)"/>
+  <ellipse cx="90" cy="130" rx="70" ry="38" fill="#557f3e"/>
+  <ellipse cx="200" cy="180" rx="86" ry="46" fill="#4a7238"/>
+  <ellipse cx="340" cy="140" rx="78" ry="40" fill="#5c8a44"/>
+  <ellipse cx="420" cy="210" rx="66" ry="36" fill="#3f6a34"/>
+  <ellipse cx="140" cy="240" rx="80" ry="40" fill="#33582c"/>
+  <ellipse cx="300" cy="250" rx="90" ry="42" fill="#3a6030"/>
+  <ellipse cx="60" cy="220" rx="50" ry="28" fill="#2c4d27"/>
+  <ellipse cx="420" cy="90" rx="54" ry="28" fill="#618f48"/>
+  <path d="M110 150 L118 92" stroke="#d9dbc4" stroke-width="3" opacity="0.35"/>
+  <path d="M370 170 L378 118" stroke="#d9dbc4" stroke-width="3" opacity="0.3"/>
+  <path d="M250 236 L256 190" stroke="#d9dbc4" stroke-width="3" opacity="0.3"/>
+  <circle cx="150" cy="120" r="3" fill="#f2f0c8" opacity="0.5"/>
+  <circle cx="330" cy="200" r="2.4" fill="#f2f0c8" opacity="0.45"/>
+  <circle cx="230" cy="150" r="2.6" fill="#f2f0c8" opacity="0.45"/>
+
+  <!-- a bear far below, asleep in a hollow -->
+  <ellipse cx="248" cy="228" rx="34" ry="14" fill="#12200f" opacity="0.35"/>
+  <ellipse cx="248" cy="220" rx="30" ry="17" fill="url(#sbm2-bear)"/>
+  <circle cx="222" cy="212" r="11" fill="url(#sbm2-bear)"/>
+  <circle cx="216" cy="204" r="4" fill="#4a3018"/>
+  <circle cx="230" cy="203" r="4" fill="#4a3018"/>
+  <ellipse cx="216" cy="214" rx="6" ry="4" fill="#8a6640"/>
+
+  <!-- rising haze between the canopy and the boardwalk -->
+  <rect x="0" y="0" width="480" height="140" fill="url(#sbm2-mist)"/>
+
+  <!-- the elevated boardwalk deck, cutting across the top of the frame -->
+  <path d="M0 0 L480 0 L480 92 Q240 74 0 92 Z" fill="url(#sbm2-deck)" stroke="#6b5230" stroke-width="1"/>
+  <path d="M0 20 Q240 4 480 20" stroke="#8a6c42" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M0 46 Q240 30 480 46" stroke="#8a6c42" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M0 70 Q240 54 480 70" stroke="#8a6c42" stroke-width="1.5" fill="none" opacity="0.55"/>
+  <path d="M60 4 L54 88" stroke="#7a5f38" stroke-width="1.4" opacity="0.5"/>
+  <path d="M180 2 L176 82" stroke="#7a5f38" stroke-width="1.4" opacity="0.5"/>
+  <path d="M300 2 L304 82" stroke="#7a5f38" stroke-width="1.4" opacity="0.5"/>
+  <path d="M420 4 L426 88" stroke="#7a5f38" stroke-width="1.4" opacity="0.5"/>
+
+  <!-- reinforced glass viewing gap set into the rail -->
+  <rect x="150" y="92" width="180" height="46" fill="url(#sbm2-glass)" stroke="#bcd8d2" stroke-width="1.5"/>
+  <path d="M158 96 L172 134 M186 94 L198 136 M300 94 L312 134" stroke="#ffffff" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- the rail posts and top rail along the boardwalk edge -->
+  <rect x="18" y="92" width="10" height="52" fill="url(#sbm2-post)"/>
+  <rect x="94" y="92" width="10" height="52" fill="url(#sbm2-post)"/>
+  <rect x="336" y="92" width="10" height="52" fill="url(#sbm2-post)"/>
+  <rect x="412" y="92" width="10" height="52" fill="url(#sbm2-post)"/>
+  <rect x="452" y="92" width="10" height="52" fill="url(#sbm2-post)"/>
+  <rect x="0" y="86" width="480" height="10" fill="url(#sbm2-post)"/>
+  <rect x="0" y="88" width="480" height="3" fill="#c9ad7c" opacity="0.5"/>
+
+  <!-- Mon-chan hugging the near post, turned away, not looking down -->
+  <ellipse cx="88" cy="83" rx="20" ry="6" fill="#4c3620" opacity="0.4"/>
+  <g transform="translate(128 8) scale(-0.4 0.4)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+  <ellipse cx="98" cy="56" rx="7" ry="9" fill="#e8973f" stroke="#c67a2c" stroke-width="1.2"/>
+
+  <!-- Cinnamon leaning out over the top rail, looking straight down -->
+  <ellipse cx="240" cy="90" rx="30" ry="7" fill="#4c3620" opacity="0.35"/>
+  <g transform="translate(189 8) rotate(9 240 55) scale(0.42)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="220" cy="88" rx="8" ry="5" fill="#caa97e" stroke="#7d6242" stroke-width="1"/>
+  <ellipse cx="256" cy="90" rx="8" ry="5" fill="#caa97e" stroke="#7d6242" stroke-width="1"/>
+</svg>
