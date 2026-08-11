@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="shg2" data-title="Mon-chan sizing up a driftwood creature twice his height">
+  <defs>
+    <linearGradient id="shg2-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a7fab"/>
+      <stop offset="0.6" stop-color="#9ac0dc"/>
+      <stop offset="1" stop-color="#eee0c2"/>
+    </linearGradient>
+    <linearGradient id="shg2-hillg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a68c53"/>
+      <stop offset="1" stop-color="#7c6a3c"/>
+    </linearGradient>
+    <linearGradient id="shg2-meadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3b969"/>
+      <stop offset="0.45" stop-color="#a0a750"/>
+      <stop offset="1" stop-color="#697c44"/>
+    </linearGradient>
+    <linearGradient id="shg2-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5efdd"/>
+      <stop offset="1" stop-color="#d8cfae"/>
+    </linearGradient>
+    <linearGradient id="shg2-roofbrn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5a3c"/>
+      <stop offset="1" stop-color="#5c3924"/>
+    </linearGradient>
+    <linearGradient id="shg2-wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b5a486"/>
+      <stop offset="0.5" stop-color="#93805f"/>
+      <stop offset="1" stop-color="#6f5d41"/>
+    </linearGradient>
+    <linearGradient id="shg2-bone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6dfc9"/>
+      <stop offset="1" stop-color="#c3b899"/>
+    </linearGradient>
+    <radialGradient id="shg2-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff6d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- wide shot, low horizon, the meadow opening up around the towering sculpture -->
+  <rect x="0" y="0" width="480" height="96" fill="url(#shg2-sky)"/>
+  <circle cx="80" cy="36" r="42" fill="url(#shg2-glow)"/>
+  <ellipse cx="330" cy="30" rx="34" ry="10" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="380" cy="46" rx="26" ry="8" fill="#ffffff" opacity="0.4"/>
+  <path d="M170 40 Q176 33 182 40 Q188 33 194 40" stroke="#2c2a24" stroke-width="1.4" fill="none" opacity="0.5"/>
+
+  <!-- distant treeline along Route 240 -->
+  <path d="M0 92 Q80 74 160 84 Q240 68 320 80 Q400 66 480 78 L480 100 L0 100 Z" fill="url(#shg2-hillg)"/>
+  <circle cx="60" cy="82" r="7" fill="#c0492f"/>
+  <circle cx="100" cy="78" r="8" fill="#d98a34"/>
+  <circle cx="410" cy="76" r="8" fill="#c0492f"/>
+  <circle cx="440" cy="80" r="6" fill="#d4b23c"/>
+
+  <!-- the open pasture, high vantage looking down its slope -->
+  <path d="M0 96 L480 78 L480 300 L0 300 Z" fill="url(#shg2-meadow)"/>
+  <path d="M0 130 Q120 116 240 126 Q360 136 480 118" stroke="#57692f" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M0 175 Q140 160 280 172 Q380 180 480 162" stroke="#4a5a2a" stroke-width="2" fill="none" opacity="0.28"/>
+  <path d="M0 225 Q150 210 300 222 Q400 230 480 212" stroke="#3d4c22" stroke-width="2" fill="none" opacity="0.26"/>
+
+  <!-- the little houses, small and distant beyond the sculpture -->
+  <ellipse cx="70" cy="152" rx="20" ry="4" fill="#241f14" opacity="0.2"/>
+  <rect x="55" y="136" width="30" height="16" fill="url(#shg2-wall)" stroke="#c9bd9c" stroke-width="0.8"/>
+  <path d="M52 136 L70 122 L88 136 Z" fill="url(#shg2-roofbrn)" stroke="#3c2818" stroke-width="0.8"/>
+  <ellipse cx="130" cy="148" rx="18" ry="3.5" fill="#241f14" opacity="0.18"/>
+  <rect x="118" y="134" width="26" height="14" fill="url(#shg2-wall)" stroke="#c9bd9c" stroke-width="0.8"/>
+  <path d="M115 134 L131 121 L147 134 Z" fill="url(#shg2-roofbrn)" stroke="#3c2818" stroke-width="0.8"/>
+
+  <!-- gravel path curving past the sculpture toward the houses -->
+  <path d="M0 210 Q90 198 180 196 Q260 194 340 178 Q400 168 480 150" stroke="#d3c496" stroke-width="10" fill="none" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- low fence marking the pasture edge -->
+  <rect x="0" y="286" width="3" height="14" fill="#6b5c46"/>
+  <rect x="34" y="284" width="3" height="14" fill="#6b5c46"/>
+  <rect x="0" y="289" width="37" height="3" fill="#7c6c52"/>
+  <rect x="420" y="292" width="3" height="14" fill="#6b5c46"/>
+  <rect x="460" y="290" width="3" height="14" fill="#6b5c46"/>
+  <rect x="420" y="295" width="43" height="3" fill="#7c6c52"/>
+
+  <!-- the huge driftwood-and-bone creature, looming at the centre of the frame -->
+  <g transform="translate(0 15)">
+    <ellipse cx="248" cy="272" rx="58" ry="10" fill="#201a10" opacity="0.32"/>
+    <path d="M226 176 Q210 226 220 268" stroke="url(#shg2-wood)" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M270 176 Q288 226 278 268" stroke="url(#shg2-wood)" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <ellipse cx="217" cy="270" rx="11" ry="5" fill="#7a6a4c"/>
+    <ellipse cx="281" cy="270" rx="11" ry="5" fill="#7a6a4c"/>
+    <path d="M222 176 Q212 104 248 62 Q284 104 274 176 Z" fill="url(#shg2-wood)" stroke="#4a3c28" stroke-width="2"/>
+    <path d="M228 130 Q248 140 268 130" stroke="#4a3c28" stroke-width="1.6" fill="none" opacity="0.55"/>
+    <path d="M224 152 Q248 162 272 152" stroke="#4a3c28" stroke-width="1.6" fill="none" opacity="0.5"/>
+    <path d="M232 100 Q248 108 264 100" stroke="#4a3c28" stroke-width="1.4" fill="none" opacity="0.5"/>
+    <path d="M222 108 Q182 92 158 44" stroke="url(#shg2-wood)" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M274 116 Q318 132 342 178" stroke="url(#shg2-wood)" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <circle cx="158" cy="44" r="6.5" fill="#7a6a4c"/>
+    <circle cx="342" cy="178" r="6.5" fill="#7a6a4c"/>
+    <circle cx="224" cy="112" r="5.5" fill="#7a6a4c"/>
+    <circle cx="272" cy="120" r="5.5" fill="#7a6a4c"/>
+    <path d="M218 62 Q224 22 248 15 Q272 22 278 62 Q262 78 248 76 Q234 78 218 62Z" fill="url(#shg2-bone)" stroke="#8a7a5c" stroke-width="2"/>
+    <ellipse cx="234" cy="42" rx="5" ry="7" fill="#241d14"/>
+    <ellipse cx="262" cy="42" rx="5" ry="7" fill="#241d14"/>
+    <path d="M232 17 L226 2 M264 16 L270 2" stroke="#8a7a5c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="248" cy="64" rx="9" ry="4" fill="#241d14" opacity="0.65"/>
+    <circle cx="226" cy="176" r="5.5" fill="#7a6a4c"/>
+    <circle cx="270" cy="176" r="5.5" fill="#7a6a4c"/>
+  </g>
+
+  <!-- Cinnamon and Mon-chan in the foreground, looking up at it -->
+  <ellipse cx="118" cy="278" rx="42" ry="10" fill="#100b06" opacity="0.3"/>
+  <g transform="translate(52 148) scale(0.62)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="360" cy="280" rx="30" ry="7" fill="#100b06" opacity="0.3"/>
+  <g transform="translate(330 216) scale(0.42)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+
+  <!-- foreground grass close to the lens -->
+  <path d="M10 300 q3 -13 7 0" stroke="#3f5127" stroke-width="2" fill="none"/>
+  <path d="M470 300 q3 -13 7 0" stroke="#3f5127" stroke-width="2" fill="none"/>
+</svg>
