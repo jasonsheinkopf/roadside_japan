@@ -43,7 +43,7 @@
 
   <!-- big Hokkaido sky -->
   <rect x="0" y="0" width="480" height="148" fill="url(#shgh-sky)"/>
-  <circle cx="392" cy="52" r="66" fill="url(#shgh-sun)"/>
+  <circle cx="300" cy="42" r="50" fill="url(#shgh-sun)"/>
   <ellipse cx="96" cy="44" rx="36" ry="11" fill="#ffffff" opacity="0.55"/>
   <ellipse cx="150" cy="58" rx="28" ry="9" fill="#ffffff" opacity="0.42"/>
   <ellipse cx="252" cy="34" rx="42" ry="12" fill="#ffffff" opacity="0.48"/>
@@ -56,9 +56,8 @@
   <circle cx="118" cy="112" r="12" fill="#d98a34"/>
   <circle cx="176" cy="118" r="9" fill="#d4b23c"/>
   <path d="M296 118 L308 96 L320 118 Z" fill="#4b6b3a"/>
-  <circle cx="352" cy="106" r="13" fill="#c0492f"/>
-  <circle cx="418" cy="112" r="10" fill="#d98a34"/>
-  <circle cx="446" cy="104" r="9" fill="#d4b23c"/>
+  <circle cx="440" cy="118" r="10" fill="#c0492f"/>
+  <circle cx="464" cy="110" r="9" fill="#d98a34"/>
 
   <!-- open pasture -->
   <rect x="0" y="146" width="480" height="154" fill="url(#shgh-meadow)"/>
@@ -118,9 +117,9 @@
   <path d="M392 165 Q399 172 406 165" stroke="#4a3c28" stroke-width="1.3" fill="none" opacity="0.55"/>
   <path d="M390 188 Q399 195 408 188" stroke="#4a3c28" stroke-width="1.3" fill="none" opacity="0.55"/>
   <path d="M395 145 Q399 152 403 145" stroke="#4a3c28" stroke-width="1.2" fill="none" opacity="0.5"/>
-  <path d="M390 150 Q362 140 344 108" stroke="url(#shgh-wood)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M390 150 Q368 132 362 100" stroke="url(#shgh-wood)" stroke-width="6" fill="none" stroke-linecap="round"/>
   <path d="M408 155 Q436 168 452 198" stroke="url(#shgh-wood)" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <circle cx="344" cy="108" r="4.5" fill="#7a6a4c"/>
+  <circle cx="362" cy="100" r="4.5" fill="#7a6a4c"/>
   <circle cx="452" cy="198" r="4.5" fill="#7a6a4c"/>
   <path d="M388 128 Q392 100 402 96 Q414 100 410 128 Q400 138 388 128Z" fill="url(#shgh-bone)" stroke="#8a7a5c" stroke-width="1.6"/>
   <ellipse cx="395" cy="114" rx="3" ry="4.5" fill="#2c241a"/>
