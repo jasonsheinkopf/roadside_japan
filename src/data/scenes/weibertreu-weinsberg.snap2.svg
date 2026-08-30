@@ -36,7 +36,7 @@
   </defs>
 
   <!-- warm afternoon sky, wide establishing shot -->
-  <rect x="0" y="0" width="480" height="112" fill="url(#webs2-sky)"/>
+  <rect x="0" y="0" width="480" height="122" fill="url(#webs2-sky)"/>
   <circle cx="346" cy="46" r="70" fill="url(#webs2-sun)"/>
   <path d="M30 34 Q56 26 82 34 Q108 28 130 36" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.55"/>
   <path d="M420 30 Q440 24 460 30" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.45"/>
