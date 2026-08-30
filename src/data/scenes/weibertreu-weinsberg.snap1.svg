@@ -33,7 +33,8 @@
   <circle cx="394" cy="34" r="78" fill="url(#webs1-sun)"/>
   <path d="M40 30 Q64 22 88 30 Q112 24 134 32" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.55"/>
   <path d="M120 54 q10 8 22 4" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.4"/>
-  <path d="M300 20 l10 6 l-10 3 l-3 -6z M320 30 l9 5 l-9 3 l-3 -6z" fill="#4a4a4a" opacity="0.45"/>
+  <path d="M296 24 q6 -6 12 0 q6 -6 12 0" stroke="#5a5248" stroke-width="1.6" fill="none" opacity="0.55"/>
+  <path d="M322 36 q5 -5 10 0 q5 -5 10 0" stroke="#5a5248" stroke-width="1.4" fill="none" opacity="0.5"/>
 
   <!-- far ridge -->
   <path d="M0 96 Q90 78 190 88 Q300 76 480 92 L480 108 L0 108 Z" fill="#7fa08f" opacity="0.55"/>
