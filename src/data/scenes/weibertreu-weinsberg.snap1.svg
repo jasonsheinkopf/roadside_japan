@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="webs1" data-title="Cinnamon at the tower's edge, counting vine rows down the valley">
+  <defs>
+    <linearGradient id="webs1-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f9fd6"/>
+      <stop offset="0.55" stop-color="#a9d3e6"/>
+      <stop offset="1" stop-color="#eee2bf"/>
+    </linearGradient>
+    <radialGradient id="webs1-sun" cx="0.82" cy="0.22" r="0.45">
+      <stop offset="0" stop-color="#fff6d4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff6d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="webs1-haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8dfb8"/>
+      <stop offset="1" stop-color="#cfd9a8"/>
+    </linearGradient>
+    <linearGradient id="webs1-vine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fac53"/>
+      <stop offset="0.5" stop-color="#6f9142"/>
+      <stop offset="1" stop-color="#4d6c2c"/>
+    </linearGradient>
+    <linearGradient id="webs1-stone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9bd9e"/>
+      <stop offset="1" stop-color="#9a8c6c"/>
+    </linearGradient>
+    <linearGradient id="webs1-ledge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2d6b4"/>
+      <stop offset="1" stop-color="#b7a982"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky, high horizon since we're looking down from the tower -->
+  <rect x="0" y="0" width="480" height="96" fill="url(#webs1-sky)"/>
+  <circle cx="394" cy="34" r="78" fill="url(#webs1-sun)"/>
+  <path d="M40 30 Q64 22 88 30 Q112 24 134 32" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.55"/>
+  <path d="M120 54 q10 8 22 4" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.4"/>
+  <path d="M300 20 l10 6 l-10 3 l-3 -6z M320 30 l9 5 l-9 3 l-3 -6z" fill="#4a4a4a" opacity="0.45"/>
+
+  <!-- far ridge -->
+  <path d="M0 96 Q90 78 190 88 Q300 76 480 92 L480 108 L0 108 Z" fill="#7fa08f" opacity="0.55"/>
+
+  <!-- valley floor haze with the town of Weinsberg glimpsed below -->
+  <rect x="0" y="96" width="480" height="34" fill="url(#webs1-haze)"/>
+  <path d="M0 118 Q120 108 240 116 Q360 106 480 118" stroke="#c9e0e6" stroke-width="3" fill="none" opacity="0.6"/>
+  <g opacity="0.85">
+    <rect x="96" y="106" width="14" height="10" fill="#d8c9a4"/>
+    <path d="M94 106 L103 98 L112 106 Z" fill="#a8544a"/>
+    <rect x="114" y="109" width="10" height="7" fill="#e0d3b0"/>
+    <path d="M112 109 L119 103 L126 109 Z" fill="#93463d"/>
+    <rect x="132" y="107" width="11" height="9" fill="#d8c9a4"/>
+    <path d="M130 107 L137 100 L144 107 Z" fill="#a8544a"/>
+  </g>
+
+  <!-- vineyard slope filling the lower frame, rows fanning down toward the viewer -->
+  <path d="M0 118 Q160 106 260 116 Q380 108 480 122 L480 300 L0 300 Z" fill="url(#webs1-vine)"/>
+  <g stroke="#3e5a22" stroke-width="2" opacity="0.55" fill="none">
+    <path d="M258 118 L-40 300"/>
+    <path d="M262 118 L40 300"/>
+    <path d="M266 118 L120 300"/>
+    <path d="M270 118 L200 300"/>
+    <path d="M274 118 L280 300"/>
+    <path d="M278 118 L360 300"/>
+    <path d="M282 118 L440 300"/>
+    <path d="M286 118 L520 300"/>
+  </g>
+  <g stroke="#c8dba0" stroke-width="1.6" opacity="0.5" fill="none">
+    <path d="M0 165 Q160 150 260 158 Q380 150 480 168"/>
+    <path d="M0 220 Q160 202 260 212 Q380 202 480 222"/>
+    <path d="M0 268 Q160 250 260 260 Q380 250 480 270"/>
+  </g>
+
+  <!-- stone corner of the tower, foreground left, the edge Cinnamon is leaning on -->
+  <path d="M0 300 L0 96 Q40 88 66 100 Q92 108 96 300 Z" fill="url(#webs1-stone)" stroke="#6f624a" stroke-width="2"/>
+  <g stroke="#6f624a" stroke-width="1.4" opacity="0.6" fill="none">
+    <path d="M2 130 Q48 122 94 132"/>
+    <path d="M2 165 Q48 157 94 167"/>
+    <path d="M2 200 Q48 192 94 202"/>
+    <path d="M2 240 Q48 232 94 242"/>
+    <path d="M30 100 L26 300"/>
+    <path d="M62 98 L60 300"/>
+  </g>
+  <!-- crenellation merlons along the top of the corner, cropped by the frame -->
+  <rect x="6" y="72" width="18" height="30" fill="url(#webs1-stone)" stroke="#6f624a" stroke-width="1.6"/>
+  <rect x="34" y="68" width="18" height="34" fill="url(#webs1-stone)" stroke="#6f624a" stroke-width="1.6"/>
+  <rect x="62" y="74" width="18" height="28" fill="url(#webs1-stone)" stroke="#6f624a" stroke-width="1.6"/>
+  <!-- small pennant on the tower corner, partly cropped by the top edge -->
+  <line x1="16" y1="72" x2="16" y2="40" stroke="#4a4030" stroke-width="2.5"/>
+  <path d="M16 40 L38 47 L16 54 Z" fill="#a8544a"/>
+  <!-- ivy climbing the stone -->
+  <path d="M6 300 Q0 250 14 210 Q22 180 10 150" stroke="#4a6b2c" stroke-width="4" fill="none" opacity="0.75"/>
+  <ellipse cx="10" cy="230" rx="6" ry="4" fill="#5c8236" opacity="0.85"/>
+  <ellipse cx="16" cy="190" rx="5" ry="4" fill="#5c8236" opacity="0.85"/>
+  <ellipse cx="8" cy="160" rx="5" ry="4" fill="#5c8236" opacity="0.85"/>
+
+  <!-- the parapet ledge running right from the tower corner, in perspective -->
+  <path d="M96 176 Q220 160 340 182 L340 196 Q220 174 96 190 Z" fill="url(#webs1-ledge)" stroke="#8a7c5c" stroke-width="1.6"/>
+  <path d="M96 176 Q220 160 340 182" stroke="#f4ecd2" stroke-width="1.4" fill="none" opacity="0.7"/>
+
+  <!-- Cinnamon leaning at the edge, gazing down over the rows -->
+  <g transform="translate(160 46) scale(0.62)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+
+  <!-- the parapet's front lip, drawn last so Cinnamon reads as leaning behind it -->
+  <path d="M96 190 Q220 174 340 196 L340 214 Q220 194 96 210 Z" fill="url(#webs1-ledge)" stroke="#8a7c5c" stroke-width="2"/>
+  <path d="M110 202 Q220 188 326 206" stroke="#8a7c5c" stroke-width="1.2" fill="none" opacity="0.5"/>
+
+  <!-- foreground vine leaves framing the very bottom corners -->
+  <path d="M0 300 Q30 270 20 240 Q-4 254 0 300 Z" fill="#2f4a1c" opacity="0.6"/>
+  <path d="M480 300 Q450 264 462 230 Q480 244 480 300 Z" fill="#2f4a1c" opacity="0.55"/>
+</svg>

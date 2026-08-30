@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="webs2" data-title="Socks refuses the last switchback until cake is confirmed to exist">
+  <defs>
+    <linearGradient id="webs2-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8b979"/>
+      <stop offset="0.5" stop-color="#f3d9a8"/>
+      <stop offset="1" stop-color="#f7ecce"/>
+    </linearGradient>
+    <radialGradient id="webs2-sun" cx="0.72" cy="0.28" r="0.4">
+      <stop offset="0" stop-color="#fff3d0" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff3d0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="webs2-terrace1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9db85e"/>
+      <stop offset="1" stop-color="#7d9c47"/>
+    </linearGradient>
+    <linearGradient id="webs2-terrace2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#87a850"/>
+      <stop offset="1" stop-color="#688638"/>
+    </linearGradient>
+    <linearGradient id="webs2-terrace3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#72923e"/>
+      <stop offset="1" stop-color="#556e2c"/>
+    </linearGradient>
+    <linearGradient id="webs2-path" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2cfa2"/>
+      <stop offset="1" stop-color="#c1a878"/>
+    </linearGradient>
+    <linearGradient id="webs2-roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c1614a"/>
+      <stop offset="1" stop-color="#8f4534"/>
+    </linearGradient>
+    <linearGradient id="webs2-stone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b6a988"/>
+      <stop offset="1" stop-color="#93876a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- warm afternoon sky, wide establishing shot -->
+  <rect x="0" y="0" width="480" height="112" fill="url(#webs2-sky)"/>
+  <circle cx="346" cy="46" r="70" fill="url(#webs2-sun)"/>
+  <path d="M30 34 Q56 26 82 34 Q108 28 130 36" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.55"/>
+  <path d="M420 30 Q440 24 460 30" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.45"/>
+  <path d="M60 64 l7 4 l-7 3 l-2 -4z" fill="#5a5248" opacity="0.4"/>
+
+  <!-- Burgruine Weibertreu's tower on the hilltop, distant -->
+  <g opacity="0.92">
+    <rect x="352" y="52" width="20" height="52" fill="url(#webs2-stone)" stroke="#6f624a" stroke-width="1.2"/>
+    <rect x="349" y="44" width="7" height="10" fill="url(#webs2-stone)"/>
+    <rect x="360" y="44" width="7" height="10" fill="url(#webs2-stone)"/>
+    <rect x="371" y="44" width="7" height="10" fill="url(#webs2-stone)"/>
+    <path d="M340 104 Q356 92 392 100 L392 112 Q356 104 340 112 Z" fill="url(#webs2-stone)" stroke="#6f624a" stroke-width="1"/>
+  </g>
+
+  <!-- 's Rickele cafe just below the tower -->
+  <g>
+    <rect x="272" y="88" width="58" height="26" fill="#e8dab8" stroke="#a98f5e" stroke-width="1"/>
+    <path d="M268 88 L301 68 L334 88 Z" fill="url(#webs2-roof)"/>
+    <path d="M270 92 h56 l-4 8 h-48 z" fill="#c1614a" opacity="0.85"/>
+    <path d="M270 92 l0 8 M280 92 l0 8 M290 92 l0 8 M300 92 l0 8 M310 92 l0 8 M320 92 l0 8 M330 92 l0 8" stroke="#f7ecce" stroke-width="1.4" opacity="0.7"/>
+    <rect x="290" y="98" width="12" height="16" fill="#5a4326"/>
+  </g>
+  <!-- the outdoor cafe table with the cake that decided the argument -->
+  <g transform="translate(300 122)">
+    <ellipse cx="0" cy="9" rx="16" ry="4" fill="#4a3320" opacity="0.3"/>
+    <rect x="-1.5" y="-4" width="3" height="13" fill="#7a5a35"/>
+    <ellipse cx="0" cy="-4" rx="15" ry="5" fill="#e8dab8" stroke="#a98f5e" stroke-width="1"/>
+    <path d="M-6 -6 Q0 -12 6 -6 L5 -2 Q0 -5 -5 -2 Z" fill="#d9a45c"/>
+    <path d="M-3 -6 L3 -6 L2 -1 L-2 -1 Z" fill="#f0c98a"/>
+    <circle cx="0" cy="-7" r="1.3" fill="#c9564f"/>
+  </g>
+
+  <!-- vineyard hillside, terraced bands stepping down toward the viewer -->
+  <path d="M0 112 Q160 100 480 118 L480 118 L480 172 Q240 150 0 168 L0 112 Z" fill="url(#webs2-terrace1)"/>
+  <path d="M0 168 Q240 150 480 172 L480 232 Q240 210 0 228 L0 168 Z" fill="url(#webs2-terrace2)"/>
+  <path d="M0 228 Q240 210 480 232 L480 300 L0 300 Z" fill="url(#webs2-terrace3)"/>
+  <g stroke="#3e5a22" stroke-width="1.4" opacity="0.5" fill="none">
+    <path d="M20 130 Q160 118 300 130 Q400 138 470 132"/>
+    <path d="M20 148 Q160 136 300 148 Q400 156 470 150"/>
+    <path d="M20 188 Q220 168 460 190"/>
+    <path d="M20 206 Q220 186 460 208"/>
+    <path d="M20 250 Q220 230 460 254"/>
+    <path d="M20 272 Q220 252 460 276"/>
+  </g>
+  <!-- low stone retaining walls between terraces -->
+  <path d="M0 168 Q240 150 480 172" stroke="#a99a78" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M0 228 Q240 210 480 232" stroke="#a99a78" stroke-width="4" fill="none" opacity="0.7"/>
+
+  <!-- the switchback footpath climbing from the base to the cafe -->
+  <path d="M-10 300 Q60 268 150 262 Q90 240 40 216 Q120 200 210 196 Q140 176 96 150 Q190 132 268 118"
+        stroke="#c1a878" stroke-width="22" fill="none" opacity="0.95"/>
+  <path d="M-10 300 Q60 268 150 262 Q90 240 40 216 Q120 200 210 196 Q140 176 96 150 Q190 132 268 118"
+        stroke="url(#webs2-path)" stroke-width="16" fill="none"/>
+
+  <!-- a wooden trail marker at the switchback turn -->
+  <g transform="translate(112 206)">
+    <rect x="-2" y="-30" width="4" height="30" fill="#6b4a2c"/>
+    <rect x="-16" y="-34" width="30" height="8" rx="1.5" fill="#8a6a45" stroke="#5c4429" stroke-width="1"/>
+  </g>
+
+  <!-- a small tree beside the upper switchback -->
+  <g transform="translate(230 168)">
+    <rect x="-3" y="0" width="6" height="20" fill="#5b4327"/>
+    <ellipse cx="0" cy="-16" rx="18" ry="19" fill="#5c8b43"/>
+    <ellipse cx="-8" cy="-22" rx="10" ry="10" fill="#6a9a4c"/>
+  </g>
+
+  <!-- Socks, planted on the path and refusing to move another step -->
+  <g transform="translate(20 190) scale(0.5) rotate(-3)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+
+  <!-- Cinnamon, further up the switchback, holding out proof that cake exists -->
+  <g transform="translate(150 88) scale(0.46)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <g transform="translate(228 152)">
+    <path d="M-7 4 L7 4 L2 -6 L-2 -6 Z" fill="#d9a45c" stroke="#8a5a2c" stroke-width="1"/>
+    <path d="M-4 4 L4 4 L1.5 0 L-1.5 0 Z" fill="#f0c98a"/>
+  </g>
+
+  <!-- a couple of birds over the valley for depth -->
+  <path d="M400 40 q6 -6 12 0 q6 -6 12 0" stroke="#6b5a44" stroke-width="1.6" fill="none" opacity="0.6"/>
+  <path d="M60 24 q5 -5 10 0 q5 -5 10 0" stroke="#6b5a44" stroke-width="1.4" fill="none" opacity="0.5"/>
+</svg>
