@@ -9,7 +9,7 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 ## Summary
 
-- Entries (published): **273**  ·  with real photo: **200**  ·  no photo: **73**
+- Entries (published): **274**  ·  with real photo: **201**  ·  no photo: **73**
 - Drawn hero present: **26**  ·  full set (hero+snap1+snap2): **19**
 - **Priority queue (no photo, no drawn hero): 49** — listed first below.
 - **Snapshot queue (missing snap1 and/or snap2): 246**.
@@ -323,6 +323,7 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
+| 2026-09-03 | Torinuma Park | `torinuma-park` | ✅ | — | ✅ | ✅ |
 | 2026-08-30 | Burgruine Weibertreu | `weibertreu-weinsberg` | ✅ | — | ✅ | ✅ |
 | 2026-08-11 | Sahoro Resort Bear Mountain | `sahoro-resort-bear-mountain` | ✅ | — | ✅ | ✅ |
 | 2026-08-11 | Shigechan Land | `shigechan-land` | — | ✅ | ✅ | ✅ |
