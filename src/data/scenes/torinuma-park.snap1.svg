@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="torn1" data-title="Dead-still water doubling the whole forest on top of itself">
+  <defs>
+    <linearGradient id="torn1-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff0e4"/>
+      <stop offset="1" stop-color="#bfe0d2"/>
+    </linearGradient>
+    <linearGradient id="torn1-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe9de"/>
+      <stop offset="0.5" stop-color="#8fc8bd"/>
+      <stop offset="1" stop-color="#4f9a95"/>
+    </linearGradient>
+    <linearGradient id="torn1-rock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8f8478"/>
+      <stop offset="1" stop-color="#655c52"/>
+    </linearGradient>
+    <radialGradient id="torn1-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff6d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="300" fill="url(#torn1-sky)"/>
+  <circle cx="400" cy="42" r="46" fill="url(#torn1-glow)"/>
+
+  <!-- real forest, upper half, mixed conifer + oak silhouettes -->
+  <path d="M0 150 L0 92 Q30 60 55 92 L60 150 Z" fill="#3c6b52"/>
+  <path d="M40 150 L40 70 Q70 34 100 70 L104 150 Z" fill="#356050"/>
+  <path d="M90 150 L90 100 Q118 76 146 100 L150 150 Z" fill="#4a7d5c"/>
+  <circle cx="180" cy="108" r="46" fill="#4a7d5c"/>
+  <circle cx="220" cy="96" r="40" fill="#548763"/>
+  <circle cx="255" cy="112" r="36" fill="#3c6b52"/>
+  <path d="M280 150 L280 78 Q308 44 336 78 L340 150 Z" fill="#356050"/>
+  <path d="M320 150 L320 96 Q346 68 372 96 L376 150 Z" fill="#4a7d5c"/>
+  <circle cx="400" cy="118" r="42" fill="#548763"/>
+  <path d="M430 150 L430 84 Q456 52 480 84 L480 150 Z" fill="#3c6b52"/>
+  <path d="M0 150 L0 118 Q20 100 40 118 L40 150 Z" fill="#2c4f3d"/>
+  <rect x="0" y="140" width="480" height="14" fill="#2c4f3d" opacity="0.5"/>
+
+  <!-- waterline -->
+  <rect x="0" y="150" width="480" height="1.5" fill="#e8f7ee" opacity="0.8"/>
+
+  <!-- water body -->
+  <rect x="0" y="150" width="480" height="150" fill="url(#torn1-water)"/>
+
+  <!-- mirrored reflection of the forest, flipped and softened -->
+  <g transform="translate(0 300) scale(1 -1)" opacity="0.55">
+    <path d="M0 150 L0 92 Q30 60 55 92 L60 150 Z" fill="#3c6b52"/>
+    <path d="M40 150 L40 70 Q70 34 100 70 L104 150 Z" fill="#356050"/>
+    <path d="M90 150 L90 100 Q118 76 146 100 L150 150 Z" fill="#4a7d5c"/>
+    <circle cx="180" cy="108" r="46" fill="#4a7d5c"/>
+    <circle cx="220" cy="96" r="40" fill="#548763"/>
+    <circle cx="255" cy="112" r="36" fill="#3c6b52"/>
+    <path d="M280 150 L280 78 Q308 44 336 78 L340 150 Z" fill="#356050"/>
+    <path d="M320 150 L320 96 Q346 68 372 96 L376 150 Z" fill="#4a7d5c"/>
+    <circle cx="400" cy="118" r="42" fill="#548763"/>
+    <path d="M430 150 L430 84 Q456 52 480 84 L480 150 Z" fill="#3c6b52"/>
+  </g>
+  <rect x="0" y="150" width="480" height="150" fill="url(#torn1-water)" opacity="0.28"/>
+
+  <!-- faint ripple lines breaking the mirror, kept thin so the reflection still reads -->
+  <path d="M40 190 q40 6 80 0 t80 0 t80 0 t80 0 t80 0" stroke="#eaf9f2" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M10 230 q50 8 100 0 t100 0 t100 0 t100 0" stroke="#eaf9f2" stroke-width="1.2" fill="none" opacity="0.35"/>
+  <path d="M60 265 q45 6 90 0 t90 0 t90 0 t90 0" stroke="#eaf9f2" stroke-width="1" fill="none" opacity="0.3"/>
+
+  <!-- foreground rock at the water's edge, close and cropped -->
+  <path d="M-20 300 L-20 224 Q40 188 130 206 Q150 214 150 236 L150 300 Z" fill="url(#torn1-rock)"/>
+  <path d="M-20 224 Q40 188 130 206" fill="none" stroke="#4c443b" stroke-width="3"/>
+  <ellipse cx="20" cy="222" rx="14" ry="5" fill="#4c443b" opacity="0.4"/>
+  <ellipse cx="80" cy="212" rx="10" ry="4" fill="#4c443b" opacity="0.35"/>
+
+  <!-- Cinnamon perched very still on the rock, tail up, watching the mirror -->
+  <g transform="translate(6 78) scale(0.62)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="70" cy="222" rx="34" ry="7" fill="#2c4f3d" opacity="0.25"/>
+
+  <!-- a single leaf drifting on the still surface -->
+  <ellipse cx="250" cy="196" rx="6" ry="3.5" fill="#c99a4a" opacity="0.85" transform="rotate(20 250 196)"/>
+  <ellipse cx="340" cy="240" rx="5" ry="3" fill="#c99a4a" opacity="0.7" transform="rotate(-15 340 240)"/>
+</svg>

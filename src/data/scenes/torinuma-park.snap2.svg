@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="torn2" data-title="Socks on bird-count duty; Mon-chan jealous of a squirrel's tail">
+  <defs>
+    <linearGradient id="torn2-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf6ea"/>
+      <stop offset="1" stop-color="#d7ecdd"/>
+    </linearGradient>
+    <linearGradient id="torn2-ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdeed9"/>
+      <stop offset="1" stop-color="#a8d9bb"/>
+    </linearGradient>
+    <linearGradient id="torn2-pond" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe4da"/>
+      <stop offset="1" stop-color="#7fbdae"/>
+    </linearGradient>
+    <linearGradient id="torn2-path" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e2d3ac"/>
+      <stop offset="1" stop-color="#c7b384"/>
+    </linearGradient>
+    <linearGradient id="torn2-trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a5c3d"/>
+      <stop offset="1" stop-color="#5b4128"/>
+    </linearGradient>
+  </defs>
+
+  <!-- high overlook angle down onto the loop path, pond, and clearing -->
+  <rect x="0" y="0" width="480" height="300" fill="url(#torn2-sky)"/>
+
+  <!-- distant tree canopy band along the top -->
+  <circle cx="10" cy="28" r="34" fill="#3c6b4e"/>
+  <circle cx="66" cy="18" r="30" fill="#4a7d5c"/>
+  <circle cx="116" cy="30" r="32" fill="#3c6b4e"/>
+  <circle cx="176" cy="18" r="28" fill="#548763"/>
+  <circle cx="236" cy="30" r="34" fill="#4a7d5c"/>
+  <circle cx="296" cy="16" r="30" fill="#3c6b4e"/>
+  <circle cx="356" cy="30" r="32" fill="#548763"/>
+
+  <!-- clearing / ground -->
+  <rect x="0" y="60" width="480" height="240" fill="url(#torn2-ground)"/>
+
+  <!-- pond, upper right, seen at an angle -->
+  <ellipse cx="360" cy="88" rx="118" ry="44" fill="url(#torn2-pond)"/>
+  <ellipse cx="360" cy="88" rx="118" ry="44" fill="none" stroke="#5fa596" stroke-width="2" opacity="0.4"/>
+  <path d="M255 84 q60 -12 120 0 t95 4" stroke="#eaf9f2" stroke-width="1.2" fill="none" opacity="0.5"/>
+
+  <!-- gravel loop path curving from mid-frame down to the bottom, out of the way of the cast -->
+  <path d="M250 110 Q170 150 150 200 Q135 240 90 300 L150 300 Q185 246 205 210 Q225 172 290 138 Z" fill="url(#torn2-path)"/>
+  <path d="M250 110 Q170 150 150 200 Q135 240 90 300" fill="none" stroke="#a8925f" stroke-width="2" opacity="0.5"/>
+  <path d="M290 138 Q225 172 205 210 Q185 246 150 300" fill="none" stroke="#a8925f" stroke-width="2" opacity="0.5"/>
+
+  <!-- tree trunk on the right edge, cropped by the frame -->
+  <path d="M460 300 L460 40 Q480 26 500 40 L500 300 Z" fill="url(#torn2-trunk)"/>
+  <path d="M470 300 L470 140" stroke="#4a3520" stroke-width="3" opacity="0.5"/>
+
+  <!-- Ezo squirrel clinging to the trunk, big fluffy curled tail reading clearly against the canopy -->
+  <g transform="translate(414 172) scale(1.15)">
+    <path d="M40 30 Q78 6 76 -34 Q74 -66 44 -60 Q72 -50 68 -20 Q64 12 38 24 Z" fill="#c99a5f"/>
+    <path d="M40 30 Q78 6 76 -34" fill="none" stroke="#a87a45" stroke-width="1.5" opacity="0.6"/>
+    <ellipse cx="24" cy="34" rx="15" ry="19" fill="#b98a55"/>
+    <circle cx="18" cy="4" r="11" fill="#b98a55"/>
+    <circle cx="13" cy="1" r="2.6" fill="#3a2a18"/>
+    <circle cx="23" cy="1" r="2.6" fill="#3a2a18"/>
+    <path d="M8 -6 L10 -15 L14 -6 Z" fill="#b98a55"/>
+    <path d="M26 -6 L30 -15 L32 -6 Z" fill="#b98a55"/>
+    <ellipse cx="24" cy="52" rx="9" ry="5" fill="#a87a45" opacity="0.5"/>
+  </g>
+
+  <!-- bench in the mid-ground, clear of the path and the tree -->
+  <g transform="translate(210 168)">
+    <rect x="-36" y="8" width="72" height="8" rx="2" fill="#7a5a3a"/>
+    <rect x="-36" y="-10" width="72" height="8" rx="2" fill="#8a6844"/>
+    <rect x="-30" y="16" width="6" height="18" fill="#5c4530"/>
+    <rect x="26" y="16" width="6" height="18" fill="#5c4530"/>
+  </g>
+
+  <!-- Socks sitting on the bench, small at this distance, binoculars held up -->
+  <g transform="translate(184 118) scale(0.46)">
+    <use href="#advc-socks" width="200" height="200"/>
+  </g>
+  <ellipse cx="210" cy="184" rx="30" ry="6" fill="#2c4f3d" opacity="0.18"/>
+
+  <!-- Mon-chan in the close foreground, turned to sulk at the squirrel's tail -->
+  <g transform="translate(78 148) scale(0.88)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+  <ellipse cx="178" cy="322" rx="52" ry="10" fill="#2c4f3d" opacity="0.22"/>
+
+  <!-- a couple of sparkle motes near Mon-chan -->
+  <circle cx="230" cy="220" r="2.4" fill="#fff6d8" opacity="0.85"/>
+  <circle cx="252" cy="240" r="2" fill="#fff6d8" opacity="0.7"/>
+</svg>
