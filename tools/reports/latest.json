@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-30",
-  "ran_at": "2026-08-30T10:55:36Z",
+  "date": "2026-09-04",
+  "ran_at": "2026-09-03T16:50:00Z",
   "completed": true,
   "changed": true,
   "added_count": 1,
@@ -8,6 +8,6 @@
   "skipped_count": 0,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "approx_tokens": 55000,
+  "approx_tokens": 70000,
   "sms_body": "(kept for audit continuity — the actual message was already sent via line-notify.yml in step 9, see §5)"
 }
