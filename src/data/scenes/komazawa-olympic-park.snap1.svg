@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kop1" data-title="Nose-up at the fifty-meter tower, from the edge of its reflecting pool">
+  <defs>
+    <linearGradient id="kop1-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd9ef"/>
+      <stop offset="0.6" stop-color="#e3ecdc"/>
+      <stop offset="1" stop-color="#eef2e4"/>
+    </linearGradient>
+    <linearGradient id="kop1-tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f2f1ea"/>
+      <stop offset="0.5" stop-color="#dcdad0"/>
+      <stop offset="1" stop-color="#b9b6a9"/>
+    </linearGradient>
+    <linearGradient id="kop1-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fb0c4"/>
+      <stop offset="1" stop-color="#3f7086"/>
+    </linearGradient>
+    <radialGradient id="kop1-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffdf2" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#fffdf2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="480" height="190" fill="url(#kop1-sky)"/>
+  <circle cx="410" cy="46" r="70" fill="url(#kop1-glow)"/>
+  <ellipse cx="70" cy="40" rx="46" ry="14" fill="#ffffff" opacity="0.55"/>
+  <ellipse cx="110" cy="48" rx="34" ry="11" fill="#ffffff" opacity="0.5"/>
+
+  <!-- stone plaza ground, filling from the treeline down to the pool's kerb -->
+  <rect x="0" y="150" width="480" height="96" fill="#cdc6b2"/>
+  <rect x="0" y="150" width="480" height="96" fill="#000000" opacity="0.04"/>
+
+  <!-- park treeline behind the plaza -->
+  <path d="M0 150 Q60 128 130 142 Q80 150 40 158 Q10 160 0 158 Z" fill="#4c7846"/>
+  <path d="M480 150 Q420 126 350 142 Q400 150 440 158 Q470 160 480 158 Z" fill="#436a3d"/>
+  <ellipse cx="35" cy="140" rx="18" ry="9" fill="#5c8c52"/>
+  <ellipse cx="445" cy="138" rx="18" ry="9" fill="#557f4c"/>
+
+  <!-- the tower, tapering tiers like a folded pagoda, close and looming -->
+  <path d="M212 300 L212 96 L222 60 L258 60 L268 96 L268 300 Z" fill="url(#kop1-tower)" stroke="#8f8b7c" stroke-width="2"/>
+  <path d="M196 118 L284 118 L272 96 L208 96 Z" fill="#e5e3d8" stroke="#8f8b7c" stroke-width="1.6"/>
+  <path d="M204 150 L276 150" stroke="#a6a294" stroke-width="1.4" opacity="0.7"/>
+  <path d="M204 190 L276 190" stroke="#a6a294" stroke-width="1.4" opacity="0.7"/>
+  <path d="M204 230 L276 230" stroke="#a6a294" stroke-width="1.4" opacity="0.7"/>
+  <path d="M204 270 L276 270" stroke="#a6a294" stroke-width="1.4" opacity="0.7"/>
+  <rect x="234" y="62" width="12" height="24" fill="#dedbd0"/>
+  <circle cx="240" cy="56" r="6" fill="#eceade"/>
+
+  <!-- reflecting pool in the foreground, tower mirrored -->
+  <rect x="0" y="240" width="480" height="60" fill="url(#kop1-water)"/>
+  <path d="M212 300 L212 250 L222 244 L258 244 L268 250 L268 300 Z" fill="#9cc4d2" opacity="0.4"/>
+  <path d="M40 254 Q240 246 440 254" stroke="#dff0f2" stroke-width="1.6" fill="none" opacity="0.45"/>
+  <path d="M20 270 Q240 262 460 270" stroke="#dff0f2" stroke-width="1.4" fill="none" opacity="0.35"/>
+  <path d="M60 286 Q240 280 420 286" stroke="#dff0f2" stroke-width="1.2" fill="none" opacity="0.3"/>
+
+  <!-- low stone kerb at the pool's edge, right against the lens -->
+  <rect x="-10" y="236" width="500" height="10" fill="#cdc6b2" stroke="#9b937c" stroke-width="1.2"/>
+
+  <!-- Cinnamon at the kerb, tipped back to look all the way up -->
+  <ellipse cx="126" cy="258" rx="30" ry="8" fill="#1a1710" opacity="0.25"/>
+  <g transform="translate(64 154) rotate(-6) scale(0.62)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+</svg>
