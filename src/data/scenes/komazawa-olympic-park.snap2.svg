@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="kop2" data-title="Wide view across the old 1964 football pitch, tower small behind">
+  <defs>
+    <linearGradient id="kop2-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#89b8dc"/>
+      <stop offset="1" stop-color="#d7e6d0"/>
+    </linearGradient>
+    <linearGradient id="kop2-grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fb15c"/>
+      <stop offset="1" stop-color="#5c8138"/>
+    </linearGradient>
+    <linearGradient id="kop2-track" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c46a3f"/>
+      <stop offset="1" stop-color="#9c4f2c"/>
+    </linearGradient>
+    <linearGradient id="kop2-dome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7e4d8"/>
+      <stop offset="1" stop-color="#b7b3a2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky and distant treeline, seen from a raised angle -->
+  <rect x="0" y="0" width="480" height="70" fill="url(#kop2-sky)"/>
+  <path d="M0 74 Q120 58 240 70 Q360 58 480 74 L480 96 L0 96 Z" fill="#4c7846"/>
+  <ellipse cx="90" cy="70" rx="20" ry="9" fill="#5c8c52"/>
+  <ellipse cx="330" cy="68" rx="22" ry="9" fill="#557f4c"/>
+
+  <!-- the Olympic Memorial Tower, small, far off past the far end of the field -->
+  <path d="M222 92 L222 66 L226 58 L238 58 L242 66 L242 92 Z" fill="#e9e7dc" stroke="#8f8b7c" stroke-width="1.2"/>
+  <path d="M218 74 L246 74" stroke="#a6a294" stroke-width="0.8" opacity="0.7"/>
+  <circle cx="232" cy="55" r="2.2" fill="#f2f0e6"/>
+
+  <!-- Komazawa Gymnasium's curved roof, low and wide beside the field -->
+  <path d="M330 96 Q330 64 395 64 Q460 64 460 96 Z" fill="url(#kop2-dome)" stroke="#8f8b7c" stroke-width="1.6"/>
+  <path d="M340 96 Q395 76 450 96" stroke="#9b9787" stroke-width="1.2" fill="none" opacity="0.6"/>
+
+  <!-- the running track ring around the old football pitch, seen from above -->
+  <rect x="0" y="96" width="480" height="204" fill="url(#kop2-track)"/>
+  <path d="M40 110 Q240 92 440 110 Q460 200 440 288 Q240 304 40 288 Q20 200 40 110 Z" fill="url(#kop2-grass)" stroke="#3d5c26" stroke-width="2"/>
+  <path d="M240 92 L240 304" stroke="#e9f0da" stroke-width="1.4" opacity="0.4"/>
+  <path d="M40 110 Q240 92 440 110" stroke="#e9e2d0" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M40 288 Q240 304 440 288" stroke="#e9e2d0" stroke-width="3" fill="none" opacity="0.4"/>
+  <circle cx="240" cy="198" r="34" fill="none" stroke="#e9f0da" stroke-width="1.6" opacity="0.5"/>
+
+  <!-- goal posts at the near end, foreshortened from the high angle -->
+  <path d="M170 262 L170 236 L226 234 L226 260" fill="none" stroke="#f4f2e6" stroke-width="3"/>
+
+  <!-- Cinnamon sprinting ahead, Mon-chan a stride behind, both mid-run across the pitch -->
+  <ellipse cx="252" cy="214" rx="18" ry="6" fill="#1a1710" opacity="0.25"/>
+  <g transform="translate(222 168) rotate(4) scale(0.4)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <ellipse cx="200" cy="238" rx="18" ry="6" fill="#1a1710" opacity="0.25"/>
+  <g transform="translate(168 194) rotate(6) scale(0.38)">
+    <use href="#advc-mon" width="200" height="200"/>
+  </g>
+
+  <!-- a stray ball and a scattered acorn on the grass -->
+  <circle cx="300" cy="230" r="6" fill="#f4f2e6" stroke="#3d5c26" stroke-width="1"/>
+  <path d="M296 226 L304 234 M304 226 L296 234" stroke="#3d5c26" stroke-width="0.8"/>
+  <circle cx="150" cy="200" r="3" fill="#7a5a36"/>
+</svg>

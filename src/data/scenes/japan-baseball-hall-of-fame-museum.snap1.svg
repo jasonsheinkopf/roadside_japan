@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="bbh1" data-title="Squaring up to the virtual pitch in the kids' batting corner">
+  <defs>
+    <linearGradient id="bbh1-wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#274a72"/>
+      <stop offset="1" stop-color="#16304f"/>
+    </linearGradient>
+    <linearGradient id="bbh1-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c7a5c"/>
+      <stop offset="1" stop-color="#6a5a41"/>
+    </linearGradient>
+    <radialGradient id="bbh1-screen" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#dff2ff"/>
+      <stop offset="1" stop-color="#8fc3e6"/>
+    </radialGradient>
+    <radialGradient id="bbh1-spot" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d8" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#fff6d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- gallery wall behind the batting cage, dim museum lighting -->
+  <rect x="0" y="0" width="480" height="220" fill="url(#bbh1-wall)"/>
+  <circle cx="120" cy="40" r="110" fill="url(#bbh1-spot)"/>
+  <circle cx="380" cy="30" r="90" fill="url(#bbh1-spot)" opacity="0.7"/>
+
+  <!-- a row of framed plaques on the wall, soft and blurred -->
+  <rect x="30" y="40" width="34" height="44" rx="2" fill="#3a5a80" stroke="#8fa8c4" stroke-width="1.2" opacity="0.6"/>
+  <rect x="76" y="40" width="34" height="44" rx="2" fill="#3a5a80" stroke="#8fa8c4" stroke-width="1.2" opacity="0.6"/>
+  <rect x="122" y="40" width="34" height="44" rx="2" fill="#3a5a80" stroke="#8fa8c4" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="47" cy="58" r="9" fill="#c8b98a" opacity="0.5"/>
+  <circle cx="93" cy="58" r="9" fill="#c8b98a" opacity="0.5"/>
+  <circle cx="139" cy="58" r="9" fill="#c8b98a" opacity="0.5"/>
+
+  <!-- the batting cage netting, close, framing the shot -->
+  <path d="M-10 0 L-10 300" stroke="#0c1a2c" stroke-width="10" opacity="0.5"/>
+  <path d="M490 0 L490 300" stroke="#0c1a2c" stroke-width="10" opacity="0.5"/>
+  <path d="M0 0 L480 0" stroke="#0c1a2c" stroke-width="8" opacity="0.4"/>
+
+  <!-- the projection screen showing the pitcher mid-windup, big and close -->
+  <rect x="150" y="20" width="220" height="150" rx="6" fill="url(#bbh1-screen)" stroke="#123255" stroke-width="4"/>
+  <ellipse cx="260" cy="150" rx="70" ry="10" fill="#3f6b48" opacity="0.5"/>
+  <ellipse cx="260" cy="112" rx="20" ry="26" fill="#2c4560"/>
+  <rect x="248" y="128" width="24" height="40" rx="8" fill="#2c4560"/>
+  <path d="M270 108 Q300 96 312 76" stroke="#2c4560" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="312" cy="76" r="6" fill="#f4f2e6"/>
+  <path d="M312 76 Q296 96 266 114" stroke="#f4f2e6" stroke-width="2" fill="none" opacity="0.7" stroke-dasharray="3 5"/>
+
+  <!-- polished floor -->
+  <rect x="0" y="220" width="480" height="80" fill="url(#bbh1-floor)"/>
+  <path d="M0 236 L480 236" stroke="#5a4c34" stroke-width="1" opacity="0.3"/>
+  <path d="M0 264 L480 264" stroke="#5a4c34" stroke-width="1" opacity="0.25"/>
+
+  <!-- Cinnamon at the plate, bat cocked way back, dwarfed by the screen -->
+  <ellipse cx="160" cy="270" rx="26" ry="8" fill="#0c1a2c" opacity="0.35"/>
+  <g transform="translate(96 146) rotate(-8) scale(0.56)">
+    <use href="#advc-cinnamon" width="240" height="240"/>
+  </g>
+  <path d="M116 208 L84 176" stroke="#8a562a" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="82" cy="174" r="5" fill="#c8a06a"/>
+</svg>
