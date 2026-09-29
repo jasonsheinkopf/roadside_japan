@@ -8,53 +8,64 @@ and the safety rules are non-negotiable.
 
 Interactive triage (maintainer sitting there saying "process the inbox") still follows
 [`docs/INBOX.md`](./INBOX.md). This file is the *delta* for when nobody is watching: the same
-verification work, plus a hard safety gate and a three-way outcome that keeps anything risky
-out of public view until a human looks at it.
+verification work, plus a hard safety gate and a two-way outcome that keeps anything risky
+from ever going live.
 
 > **The one rule that makes autonomy safe:** when unattended, *publish only what is clearly
-> safe and clearly verified.* Everything else is either held as `pending` (for the maintainer's
-> eyes) or rejected. Automation must never be the thing that puts borderline content live.
+> safe and clearly verified.* Everything else is rejected — nothing is left sitting as
+> `pending` for a human to look at later, because no one will. **The maintainer has explicitly
+> said: never hold something back waiting for their review; verify it properly, then either
+> publish it or don't.** That raises the bar on verification, not lowers it — since there's no
+> safety net downstream, do the extra research now (one more source, confirm the coordinates,
+> resolve the photo) rather than parking an under-verified entry in limbo forever.
 
 ---
 
-## 1. Three outcomes, not two
+## 1. Two outcomes, not three
 
-Interactive triage publishes or skips. Automated triage has **three** buckets. Decide per place:
+Interactive triage publishes or skips. Automated triage has **two** buckets — there is no
+"hold for the maintainer to look at" option; nothing waits on a review that isn't coming.
+Decide per place:
 
 | Outcome | When | What you do |
 | --- | --- | --- |
 | **PUBLISH** (`approval: published`) | Verified through independent sources **and** clears every safety check below with no doubt at all. | Author the full entry (photo pipeline + Scene Art hero if no photo + Cinnamon block) and publish. |
-| **HOLD** (`approval: pending`) | Genuinely interesting and probably fine, but touches *any* sensitive area below, or verification is thin/single-source, or you had to make a judgment call. | Author the entry but leave it `pending` so it stays **off** the public site. List it in the report as "held for review." |
-| **REJECT** (no entry) | Fails a safety check, is unverifiable, is spam/promotional, or is off-mission. | Create nothing. Record why in the triage comment and the report. |
+| **REJECT** (no entry) | Fails a safety check, is unverifiable, is spam/promotional, is off-mission, **or** is genuinely sensitive/borderline per §2 and you're not confident enough to publish it outright. | Create nothing. Record why in the triage comment and the report. |
 
-**When in doubt, HOLD — never PUBLISH.** Holding costs the maintainer a glance; wrongly
-publishing costs them their reputation. The tie always breaks toward HOLD.
+**When in doubt, verify harder, not softer.** You get one shot at this — there's no human
+downstream to catch a thin call. If after real effort (another source, a second search, a
+closer read of the submission) you still can't clear the safety-and-verification bar,
+REJECT. Never publish on a shrug, and never leave something half-authored and unpublished
+"for later" — decide now.
 
 ---
 
 ## 2. Safety gate (apply to every candidate, before anything is published)
 
 A candidate that trips any of these is **REJECT**, unless a clearly legitimate framing applies
-(noted per item) in which case it is **HOLD** for a human, never an automatic PUBLISH.
+(noted per item) and you are confident enough in that framing to PUBLISH outright — there is
+no longer a "hold it and let a human decide" middle ground, so if you're not sure, REJECT.
 
 1. **Hate / discrimination.** Nothing that promotes, celebrates, or is primarily a symbol of
    racism, antisemitism, ethnic/religious hatred, sexism, homophobia/transphobia, or any hate
    ideology. → REJECT.
    *Legitimate framing:* a memorial, museum, or historic site that **solemnly documents** an
-   atrocity or a painful history (e.g. a peace memorial) is valuable — but because the subject
-   is sensitive, **HOLD** it for human review rather than auto-publishing. Never publish content
-   that valorizes the perpetrators or the ideology.
+   atrocity or a painful history (e.g. a peace memorial) is valuable and can be published —
+   but write it soberly and factually, and if anything about the framing feels uncertain,
+   REJECT rather than guess. Never publish content that valorizes the perpetrators or the
+   ideology.
 
 2. **Sexual / adult content.** No entries whose primary draw is pornographic, explicit, or
    sexual services. → REJECT.
    *Legitimate framing:* a culturally/historically significant site with a sexual dimension
-   (a fertility shrine, a folk festival, a serious museum) can belong in the atlas, but written
-   factually and non-titillating — **HOLD** for human review.
+   (a fertility shrine, a folk festival, a serious museum) can belong in the atlas, published,
+   written factually and non-titillating — but if the framing is at all ambiguous, REJECT.
 
 3. **Gore / shock / death spectacle.** Nothing whose appeal is gore, real human remains as
    spectacle, torture, self-harm, or shock value. → REJECT.
    *Legitimate framing:* catacombs, war history, and respectfully presented memento-mori sites
-   can be legitimate — **HOLD** for review, and keep the writing sober.
+   can be published — keep the writing sober, and REJECT instead if you're not confident it
+   reads that way.
 
 4. **Danger / illegality as the draw.** No trespassing spots, "sneak into the abandoned X,"
    drug tourism, or anywhere whose main appeal is doing something illegal or physically
@@ -66,7 +77,7 @@ A candidate that trips any of these is **REJECT**, unless a clearly legitimate f
 6. **Defamation / unverified claims about real named people or businesses.** Never publish a
    negative or sensational claim about a named person or business that you cannot back with a
    credible, citable source. Stick to verifiable, neutral facts. If the "story" is the
-   allegation, → REJECT (or HOLD if there's a genuinely sourced, newsworthy angle).
+   allegation and you can't source it credibly, → REJECT.
 
 7. **Extremist / propaganda purpose.** Content whose main purpose is partisan political or
    religious-extremist propaganda. → REJECT. (Ordinary temples, shrines, churches, and mosques
@@ -85,8 +96,8 @@ A candidate that trips any of these is **REJECT**, unless a clearly legitimate f
 
 10. **General taste line.** The atlas can be quirky, macabre-lite, and not-for-toddlers. It must
     never be gross-out, cruel, demeaning, or something the maintainer would be embarrassed to
-    have their name on. If you can imagine it causing a "why is this on your site?" email —
-    HOLD or REJECT.
+    have their name on. If you can imagine it causing a "why is this on your site?" email →
+    REJECT.
 
 Everything else from `docs/INBOX.md` still applies: independent existence check, accuracy,
 the "mildly interesting" bar, duplicate check.
@@ -107,7 +118,7 @@ subagents (via the `Agent` tool) to cut cost without touching quality where it m
   transit — structured extraction, not judgment), writing the two camera-roll `snapshots`
   captions (§7 of CINNAMON.md — lower creative bar than the field report), and drafting the
   LINE report's data lines (§5 below).
-- **Keep on Sonnet** (the coordinator, never delegate): the PUBLISH/HOLD/REJECT safety-gate
+- **Keep on Sonnet** (the coordinator, never delegate): the PUBLISH/REJECT safety-gate
   decision, the entry body prose ("Why It's Interesting" etc.), the Cinnamon field report
   (`cinnamon.report` — needs his voice), and the submitter thank-you email. These are exactly
   the parts where a mistake is either public-facing or represents you to a real person.
@@ -122,15 +133,15 @@ candidate places that this becomes genuinely prohibitive, say so plainly in the 
 than silently shipping some entries with placeholder art.
 
 1. **Guard.** Make sure you're on the latest `main` and that *this file exists*. If it does not
-   (e.g. the change hasn't merged yet), **do nothing and exit** — do not process with the old
-   two-outcome rules unattended.
+   (e.g. the change hasn't merged yet), **do nothing and exit** — do not process unattended
+   without this file's safety gate in effect.
 2. **Read the queue.** Open GitHub issues labeled `inbox`, oldest first — normally this is just
    the one issue that triggered this run, but process any others still open too (e.g. leftovers
    from a prior run that didn't finish). Zero open (shouldn't normally happen on a trigger fire,
    but possible on a manual/backstop run) → send a short "nothing to do" LINE message (§5) and
    stop; don't write a whole report for nothing.
 3. **Process each** per `docs/INBOX.md` §1–§4 **and** the safety gate above, choosing
-   PUBLISH / HOLD / REJECT. Author full entries for PUBLISH and HOLD — frontmatter, photo
+   PUBLISH / REJECT. Author full entries for PUBLISH — frontmatter, photo
    pipeline, **and the complete Cinnamon block per `docs/CINNAMON.md`**: `quote`, `emoji`,
    the **field report** (`cinnamon.report`, §3 there — his first-person story grounded in
    your research), **and two camera-roll snapshots** (`cinnamon.snapshots`, §7 — two candid
@@ -169,32 +180,35 @@ than silently shipping some entries with placeholder art.
    **email if given**, and **the issue's `created_at` timestamp** — you'll need these for the
    report and the thank-you email.
 4. **New country?** If a submission warrants a country not yet in the atlas and it clearly
-   passes, follow AGENTS.md "Add a country." If it's borderline, HOLD the places and note it.
+   passes, follow AGENTS.md "Add a country." If it's borderline, REJECT the places and note it
+   in the report — a submitter is welcome to try again with tighter details.
 5. **Verify the build.** `npm run data:validate && npm run build`. If the build fails, **do not
-   push broken content** — revert the entries to `pending` or drop them, and report the failure.
+   push broken content** — drop the entries that don't build clean, and report the failure.
 6. **Commit & push, then land it on `main` yourself.** Use a clear commit message, e.g.
-   `Automated inbox triage: +2 published, 1 held, 1 skipped`.
+   `Automated inbox triage: +2 published, 1 rejected`.
    - If your session can push straight to `main`, do that.
    - If your session is scoped to a working branch (e.g. a Claude Code Remote session bound
      to a designated branch, with a "never push to a different branch without explicit
      permission" rule) — push there, open a PR into `main`, and **merge it yourself
-     immediately**, the same run. **The maintainer has pre-authorized this**: once
-     `data:validate`/`check`/`build` are green on that branch and the safety gate above is
-     clear (i.e. you're in PUBLISH/HOLD/REJECT territory, not stuck on an ambiguous call),
-     merging your own inbox-triage PR is in scope — don't leave it sitting open waiting for
-     manual review. Check the PR's status (`pull_request_read` → `get_check_runs`) before
-     merging so you're not merging over a red CI check.
-   - Only skip the merge, leave the PR open, and clearly flag it in the report + LINE
-     message (§5) when something is genuinely uncertain — the build failed, a safety-gate
-     call was borderline, or the merge itself errors (branch protection, permissions). That's
-     the "needs a human" case; routine successful runs are not.
+     immediately**, the same run. **The maintainer has pre-authorized this and explicitly does
+     not want to be asked**: once `data:validate`/`check`/`build` are green on that branch and
+     every candidate has already been decided PUBLISH or REJECT (never left ambiguous —
+     see §1), merging your own inbox-triage PR is required, not optional — don't leave it
+     sitting open waiting for review that will not come. Check the PR's status
+     (`pull_request_read` → `get_check_runs`) before merging so you're not merging over a red
+     CI check.
+   - Only skip the merge and clearly flag it in the report + LINE message (§5) when something
+     is mechanically broken — the build fails, or the merge itself errors (branch protection,
+     permissions, conflicts). That's the "needs a human to unstick the pipeline" case; a
+     content or safety judgment call is never a reason to leave a PR open — decide it
+     (PUBLISH or REJECT) and land it.
 7. **Notify submitters — always, whatever the outcome.** For each processed issue that
    contained an email (dedicated "Submitter email:" line or anywhere in the note), **author
    a personalized email in Cinnamon's voice** per `docs/CINNAMON.md` §5 and trigger
    `notify-submitter.yml` (`actions_run_trigger`, `run_workflow`) with
-   `inputs: { issue_number, body, subject }`. Added → the thank-you with links. Held,
-   unverifiable, or plain confusing → still send: warm, honest, what he tried, why it
-   didn't land, invitation to try again. Only obvious spam/abuse gets silence. (The
+   `inputs: { issue_number, body, subject }`. Published → the thank-you with live links.
+   Rejected, unverifiable, or plain confusing → still send: warm, honest, what he tried, why
+   it didn't land, invitation to try again. Only obvious spam/abuse gets silence. (The
    workflow self-skips if mail secrets aren't set.)
    **Before writing the LINE message's email-status line (§5), check whether it actually
    sent:** the workflow posts `📧 Submitter thanked by email…` as a comment on the issue when
@@ -231,7 +245,6 @@ Write exactly this shape, overwriting the file each run:
   "completed": true,
   "changed": true,
   "added_count": 2,
-  "pending_count": 1,
   "skipped_count": 1,
   "new_countries": [],
   "open_inbox_remaining": 0,
@@ -288,9 +301,6 @@ lines.
    - `✅ Added (N):` — for each: name + region, then **a real clickable link to its live page**:
      `https://roadside-japan.pages.dev/attractions/<slug>/` (or `/events/<slug>/`). Never the
      github.io URL — it does not resolve for the maintainer.
-   - `⏸ Held for your review (N):` — for each: name/description + **why** (one clause) + a link
-     to **the GitHub issue** (held items aren't public yet):
-     `https://github.com/jasonsheinkopf/roadside_japan/issues/<n>`
    - `❌ Skipped (N):` — for each: a short reason. No link needed.
    - `🆕 New country:` — name it if one was added.
 5. **Cost line** — one line reporting this run's own token usage, so the maintainer can compare
@@ -320,7 +330,7 @@ lines.
   unlike the public `submittedBy:` field (which must never contain an email, per
   `docs/INBOX.md`).
 
-**Example** (single submission, two places, one held):
+**Example** (single submission, two places, one rejected):
 
 ```
 🐈‍⬛ socks here. new mail came in, we handled it. report below (i typed it myself)
@@ -335,9 +345,8 @@ lines.
 • Wall Drug, USA — roadside jackalope stop
   https://roadside-japan.pages.dev/attractions/wall-drug/
 
-⏸ Held for your review (1):
-• "the Osaka love hotel with the UFO room" — sexual-content adjacent, needs your call
-  https://github.com/jasonsheinkopf/roadside_japan/issues/31
+❌ Skipped (1):
+• "the Osaka love hotel with the UFO room" — sexual-content adjacent, didn't clear the safety gate
 
 No new countries.
 
@@ -347,4 +356,5 @@ No new countries.
 ```
 
 The goal: the maintainer reads one message and knows exactly what happened with that submission
-— what went live, what needs their eyes, and where to click. Fun frame, exact data.
+— what went live and what didn't, with a click-through for anything that's public. Fun frame,
+exact data.

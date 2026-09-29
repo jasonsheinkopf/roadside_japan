@@ -31,10 +31,10 @@ guess. These queries stay cheap at any scale.
 **Interactive rule: never process the inbox autonomously — only when the maintainer asks.**
 The one exception is the **event-driven automated job**, which fires the instant a new `inbox`
 issue is opened and runs unattended under a *stricter* set of rules: it publishes only
-clearly-safe, clearly-verified places, **holds** anything borderline as `pending` for the
-maintainer, and rejects the rest. That job follows
-[`docs/AUTONOMOUS_TRIAGE.md`](./AUTONOMOUS_TRIAGE.md) (the safety gate + LINE report) **on top
-of** everything below. If you are that automated job, read it first.
+clearly-safe, clearly-verified places, and rejects the rest — nothing is left `pending` for
+the maintainer to review, because the maintainer has explicitly asked not to be. That job
+follows [`docs/AUTONOMOUS_TRIAGE.md`](./AUTONOMOUS_TRIAGE.md) (the safety gate + LINE report)
+**on top of** everything below. If you are that automated job, read it first.
 
 For interactive processing, and as the base procedure the scheduled job extends, for each
 open `inbox` issue, oldest first:
@@ -98,8 +98,11 @@ Standard authoring rules (AGENTS.md, docs/DATA_MODEL.md), plus:
 - `source: community`
 - `submittedBy:` the name/handle from the note (verbatim, lightly cleaned); if none was
   given use `"a fellow traveler"` — never put their email here, it renders publicly.
-- `approval: published` when verification is solid; `pending` when it's borderline and
-  worth the maintainer's eyeball (mention any `pending` ones in your session summary).
+- `approval: published` once verification is solid. **The maintainer has explicitly said
+  never to leave something `pending` for their review — verify it properly (one more source,
+  confirm the address/coordinates, resolve the photo), then publish it. If after real effort
+  it's still not solid enough to publish, don't create the entry at all** rather than parking
+  it as `pending` (see `docs/AUTONOMOUS_TRIAGE.md` §1, which applies here too).
 - The submitter's name will then appear as "found by …" on `/new` and the detail page —
   that's the reward loop; site-originated entries show as Cinnamon.
 
@@ -117,8 +120,8 @@ Leave ONE structured triage comment (greppable format — keep the field names e
 ```
 **Triage** · 2026-07-16
 - Items: 3 candidate places
-- Added: `wat-x` (published), `silkworm-udon-ueno` (pending)
-- Skipped: "the cool bridge" — could not identify/verify
+- Added: `wat-x` (published)
+- Skipped: "silkworm udon place near Ueno" — could not independently verify; "the cool bridge" — could not identify/verify
 - Country: thailand, japan
 - Credit: "Maya"
 - Email: maya@example.com — sent / none found

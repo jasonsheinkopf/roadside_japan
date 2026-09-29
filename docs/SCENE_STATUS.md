@@ -9,10 +9,10 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 ## Summary
 
-- Entries (published): **276**  ·  with real photo: **203**  ·  no photo: **73**
-- Drawn hero present: **26**  ·  full set (hero+snap1+snap2): **19**
+- Entries (published): **280**  ·  with real photo: **204**  ·  no photo: **76**
+- Drawn hero present: **29**  ·  full set (hero+snap1+snap2): **22**
 - **Priority queue (no photo, no drawn hero): 49** — listed first below.
-- **Snapshot queue (missing snap1 and/or snap2): 246**.
+- **Snapshot queue (missing snap1 and/or snap2): 247**.
 
 ## Priority queue — no photo, still needs a drawn hero (most-recent first)
 
@@ -305,24 +305,28 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 | 231 | 2026-06-13 | Aoshima Cat Island | `aoshima-cat-island` | — | — |
 | 232 | 2026-06-13 | Fussa Firefly Festival | `fussa-firefly-festival` | — | — |
 | 233 | 2026-02-20 | Akita Kanto Festival | `akita-kanto-festival` | — | — |
-| 234 | 2026-01-15 | Fuji Shibazakura Festival | `fuji-shibazakura-festival` | — | — |
-| 235 | 2025-11-10 | Zao Snow Monsters (Juhyo) | `zao-snow-monsters` | — | — |
-| 236 | 2025-10-18 | Ibusuki Natural Sand Baths | `ibusuki-sand-bath` | — | — |
-| 237 | 2025-10-05 | Meguro Parasitological Museum | `meguro-parasitological-museum` | — | — |
-| 238 | 2025-10-01 | Nabana no Sato Winter Illumination | `nabana-no-sato-illumination` | — | — |
-| 239 | 2025-09-25 | Hitachi Seaside Park | `hitachi-seaside-park` | — | — |
-| 240 | 2025-09-02 | Nagoro Scarecrow Village | `nagoro-scarecrow-village` | — | — |
-| 241 | 2025-08-15 | Ushiku Daibutsu | `ushiku-daibutsu` | — | — |
-| 242 | 2025-08-01 | Oya History Museum (Underground Quarry) | `oya-history-museum` | — | — |
-| 243 | 2025-07-22 | Okunoshima (Rabbit Island) | `okunoshima-rabbit-island` | — | — |
-| 244 | 2025-07-08 | The Blue Pond of Biei | `blue-pond-biei` | — | — |
-| 245 | 2025-06-30 | Nokogiriyama & the Hell Peek | `nokogiriyama-jigoku-nozoki` | — | — |
-| 246 | 2025-05-12 | Takachiho Gorge | `takachiho-gorge` | — | — |
+| 234 | 2026-01-28 | Sun Messe Nichinan (The Moai of Kyushu) | `sun-messe-nichinan-moai` | — | — |
+| 235 | 2026-01-15 | Fuji Shibazakura Festival | `fuji-shibazakura-festival` | — | — |
+| 236 | 2025-11-10 | Zao Snow Monsters (Juhyo) | `zao-snow-monsters` | — | — |
+| 237 | 2025-10-18 | Ibusuki Natural Sand Baths | `ibusuki-sand-bath` | — | — |
+| 238 | 2025-10-05 | Meguro Parasitological Museum | `meguro-parasitological-museum` | — | — |
+| 239 | 2025-10-01 | Nabana no Sato Winter Illumination | `nabana-no-sato-illumination` | — | — |
+| 240 | 2025-09-25 | Hitachi Seaside Park | `hitachi-seaside-park` | — | — |
+| 241 | 2025-09-02 | Nagoro Scarecrow Village | `nagoro-scarecrow-village` | — | — |
+| 242 | 2025-08-15 | Ushiku Daibutsu | `ushiku-daibutsu` | — | — |
+| 243 | 2025-08-01 | Oya History Museum (Underground Quarry) | `oya-history-museum` | — | — |
+| 244 | 2025-07-22 | Okunoshima (Rabbit Island) | `okunoshima-rabbit-island` | — | — |
+| 245 | 2025-07-08 | The Blue Pond of Biei | `blue-pond-biei` | — | — |
+| 246 | 2025-06-30 | Nokogiriyama & the Hell Peek | `nokogiriyama-jigoku-nozoki` | — | — |
+| 247 | 2025-05-12 | Takachiho Gorge | `takachiho-gorge` | — | — |
 
 ## Full ledger (most-recent first)
 
 | created | entry | slug | photo | hero | snap1 | snap2 |
 | --- | --- | --- | :-: | :-: | :-: | :-: |
+| 2026-09-29 | Götzenturm | `goetzenturm-heilbronn` | — | ✅ | ✅ | ✅ |
+| 2026-09-29 | Hammering Man | `hammering-man-frankfurt` | — | ✅ | ✅ | ✅ |
+| 2026-09-29 | Waldspirale | `waldspirale-darmstadt` | — | ✅ | ✅ | ✅ |
 | 2026-09-25 | The Baseball Hall of Fame and Museum | `japan-baseball-hall-of-fame-museum` | ✅ | — | ✅ | ✅ |
 | 2026-09-25 | Komazawa Olympic Park | `komazawa-olympic-park` | ✅ | — | ✅ | ✅ |
 | 2026-09-03 | Torinuma Park | `torinuma-park` | ✅ | — | ✅ | ✅ |
@@ -586,6 +590,7 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 | 2026-06-13 | Aoshima Cat Island | `aoshima-cat-island` | ✅ | — | — | — |
 | 2026-06-13 | Fussa Firefly Festival | `fussa-firefly-festival` | ✅ | — | — | — |
 | 2026-02-20 | Akita Kanto Festival | `akita-kanto-festival` | ✅ | — | — | — |
+| 2026-01-28 | Sun Messe Nichinan (The Moai of Kyushu) | `sun-messe-nichinan-moai` | ✅ | — | — | — |
 | 2026-01-15 | Fuji Shibazakura Festival | `fuji-shibazakura-festival` | ✅ | — | — | — |
 | 2025-11-10 | Zao Snow Monsters (Juhyo) | `zao-snow-monsters` | ✅ | — | — | — |
 | 2025-10-18 | Ibusuki Natural Sand Baths | `ibusuki-sand-bath` | ✅ | — | — | — |

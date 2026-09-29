@@ -29,7 +29,7 @@ tips:
   - "It is people's homes — admire from the street and keep voices down."
   - "Walk the full outside curve of the U-shape; the windows and rooflines change constantly."
 status: open
-approval: pending
+approval: published
 source: community
 submittedBy: "a fellow traveler"
 sources:
