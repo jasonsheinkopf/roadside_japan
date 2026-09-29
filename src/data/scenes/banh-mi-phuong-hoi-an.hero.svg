@@ -116,7 +116,6 @@
 <!-- counter staff, mid-assembly behind the case -->
 <ellipse cx="240" cy="184" rx="9" ry="10" fill="#2c2018"/>
 <path d="M228 196 q12 -8 24 0 l-2 20 q-10 6 -20 0z" fill="#e9e2d4"/>
-<path d="M250 196 q10 -4 16 2" stroke="#e9e2d4" stroke-width="5" stroke-linecap="round" fill="none"/>
 <ellipse cx="360" cy="184" rx="9" ry="10" fill="#2c2018"/>
 <path d="M348 196 q12 -8 24 0 l-2 20 q-10 6 -20 0z" fill="#e9e2d4"/>
 
