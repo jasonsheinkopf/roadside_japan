@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="wsps2" data-title="Socks counts windows; Mon-chan says it copies his wobble">
+<defs>
+<linearGradient id="wsps2-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ab7ee"/><stop offset="1" stop-color="#d9f0fb"/></linearGradient>
+<linearGradient id="wsps2-gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2a0"/><stop offset="0.5" stop-color="#f2b820"/><stop offset="1" stop-color="#b77a10"/></linearGradient>
+<linearGradient id="wsps2-water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fc8e8"/><stop offset="1" stop-color="#3f8fb8"/></linearGradient>
+<linearGradient id="wsps2-lawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc95a"/><stop offset="1" stop-color="#3f9a3c"/></linearGradient>
+</defs><rect id="wsps2-sky" width="480" height="300" fill="url(#wsps2-sky)"/>
+<path id="wsps2-far" d="M0 90 Q120 70 240 90 T480 85 L480 300 L0 300Z" fill="#5fae6a"/>
+<path id="wsps2-back" d="M40 130 Q70 70 140 80 Q240 60 340 80 Q410 70 440 130 L440 170 L40 170Z" fill="#e8956b" stroke="#5a3a2a" stroke-width="2"/>
+<path id="wsps2-roof" d="M34 132 Q70 62 140 72 Q240 52 340 72 Q410 62 446 132 Q410 100 340 96 Q240 82 140 96 Q70 100 34 132Z" fill="url(#wsps2-lawn)" stroke="#2c6b2f" stroke-width="1.5"/>
+<path id="wsps2-stripe" d="M40 150 Q240 132 440 150 L440 160 Q240 144 40 160Z" fill="#c9d66b"/>
+<g id="wsps2-dome" transform="translate(240 72) scale(0.9)"><rect x="-14" y="0" width="28" height="40" rx="6" fill="#f08a5d" stroke="#5a3a2a" stroke-width="1.5"/><path d="M-20 2 Q-24 -26 0 -44 Q24 -26 20 2Z" fill="url(#wsps2-gold)" stroke="#8a5a10" stroke-width="1.5"/><path d="M0 -44 L0 -60" stroke="#8a5a10" stroke-width="2"/><circle cx="0" cy="-62" r="4" fill="url(#wsps2-gold)"/><path d="M-5 30 Q0 10 5 30Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1"/></g>
+<path id="wsps2-w0" d="M60 136 Q57.6 123.4 66.0 118 Q74.4 123.4 72 136 Q66.0 137.44 60 136Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps2-w1" d="M90 134 Q88.0 118.6 95.0 112 Q102.0 118.6 100 134 Q95.0 135.76 90 134Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps2-w2" d="M120 134 Q117.6 121.4 126.0 116 Q134.4 121.4 132 134 Q126.0 135.44 120 134Z" fill="#f7b6c8" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps2-w3" d="M160 132 Q158.0 116.6 165.0 110 Q172.0 116.6 170 132 Q165.0 133.76 160 132Z" fill="#c8f0b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps2-w4" d="M200 130 Q197.6 117.4 206.0 112 Q214.4 117.4 212 130 Q206.0 131.44 200 130Z" fill="#ffd08a" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps2-w5" d="M280 130 Q277.6 117.4 286.0 112 Q294.4 117.4 292 130 Q286.0 131.44 280 130Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps2-w6" d="M320 132 Q318.0 116.6 325.0 110 Q332.0 116.6 330 132 Q325.0 133.76 320 132Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps2-w7" d="M360 134 Q357.6 121.4 366.0 116 Q374.4 121.4 372 134 Q366.0 135.44 360 134Z" fill="#f7b6c8" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps2-w8" d="M390 134 Q388.0 118.6 395.0 112 Q402.0 118.6 400 134 Q395.0 135.76 390 134Z" fill="#c8f0b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps2-w9" d="M420 136 Q417.6 123.4 426.0 118 Q434.4 123.4 432 136 Q426.0 137.44 420 136Z" fill="#ffd08a" stroke="#5a3a2a" stroke-width="1.5"/>
+<g id="wsps2-tree1" transform="translate(110 128) scale(0.55)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g><g id="wsps2-tree2" transform="translate(370 128) scale(0.55)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g><g id="wsps2-tree3" transform="translate(240 130) scale(0.5)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g>
+<path id="wsps2-lawn" d="M0 165 L480 165 L480 300 L0 300Z" fill="url(#wsps2-lawn)"/>
+<path id="wsps2-pond" d="M110 210 Q90 180 190 176 Q300 168 380 190 Q420 220 330 240 Q200 258 110 210Z" fill="url(#wsps2-water)" stroke="#2f6f8f" stroke-width="2"/>
+<path id="wsps2-r1" d="M180 196 Q240 188 300 198" stroke="#fff" stroke-width="2" fill="none" opacity=".7"/>
+<path id="wsps2-r2" d="M160 212 Q230 222 320 214" stroke="#fff" stroke-width="2" fill="none" opacity=".5"/>
+<ellipse id="wsps2-pad1" cx="300" cy="222" rx="10" ry="3.5" fill="#3f9a3c"/><ellipse id="wsps2-pad2" cx="150" cy="200" rx="8" ry="3" fill="#3f9a3c"/>
+<path id="wsps2-path" d="M20 300 Q60 250 110 240 L130 250 Q90 265 80 300Z" fill="#e6d3a6"/>
+<g id="wsps2-tree4" transform="translate(440 262) scale(1.1)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g><g id="wsps2-tree5" transform="translate(30 215) scale(0.8)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g>
+<g id="wsps2-socks" transform="translate(70 170) scale(0.55)"><use href="#advc-socks" width="200" height="200"/></g>
+<g id="wsps2-mon" transform="translate(340 190) scale(0.5)"><use href="#advc-mon" width="200" height="200"/></g>
+<path id="wsps2-wob" d="M330 200 q6 -8 12 0 t12 0 t12 0" stroke="#5a3a2a" stroke-width="2" fill="none"/>
+<path id="wsps2-cnt" d="M118 190 L150 150" stroke="#fff" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity=".8"/>
+</svg>

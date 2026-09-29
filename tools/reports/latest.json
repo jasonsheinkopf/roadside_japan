@@ -1,13 +1,13 @@
 {
   "date": "2026-09-29",
-  "ran_at": "2026-09-28T18:50:00Z",
+  "ran_at": "2026-09-29T05:05:00Z",
   "completed": true,
-  "changed": false,
+  "changed": true,
   "added_count": 0,
-  "pending_count": 0,
-  "skipped_count": 1,
+  "pending_count": 3,
+  "skipped_count": 0,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "approx_tokens": 40000,
-  "sms_body": "Issue #131 (Bali trip request, new country Indonesia) held for maintainer review; no entries created; submitter emailed."
+  "approx_tokens": 60000,
+  "sms_body": "Issue #132 (Abstatt-Frankfurt road trip): 3 places authored and held as pending (Waldspirale Darmstadt, Goetzenturm Heilbronn, Hammering Man Frankfurt) - coordinates/photos unverified from primary sources."
 }

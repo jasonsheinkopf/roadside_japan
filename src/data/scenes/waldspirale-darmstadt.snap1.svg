@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="wsps1" data-title="Cinnamon peering up at a balcony tree: a very tall nest?">
+<defs>
+<linearGradient id="wsps1-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ab7ee"/><stop offset="1" stop-color="#d9f0fb"/></linearGradient>
+<linearGradient id="wsps1-gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2a0"/><stop offset="0.5" stop-color="#f2b820"/><stop offset="1" stop-color="#b77a10"/></linearGradient>
+<linearGradient id="wsps1-water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fc8e8"/><stop offset="1" stop-color="#3f8fb8"/></linearGradient>
+<linearGradient id="wsps1-lawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc95a"/><stop offset="1" stop-color="#3f9a3c"/></linearGradient>
+</defs><rect id="wsps1-sky" width="480" height="300" fill="url(#wsps1-sky)"/>
+<path id="wsps1-wall" d="M0 0 L480 0 L480 300 L0 300Z" fill="#f0a878"/>
+<path id="wsps1-wallB" d="M0 150 Q120 130 240 150 T480 140 L480 300 L0 300Z" fill="#e2c05a"/>
+<path id="wsps1-wallC" d="M270 0 Q300 80 280 170 Q330 230 300 300 L480 300 L480 0Z" fill="#8fc3e6"/>
+<path id="wsps1-mos1" d="M0 250 Q60 235 120 250 T240 250 L240 300 L0 300Z" fill="#c9d66b"/>
+<path id="wsps1-col" d="M40 300 Q26 180 46 40 Q60 10 40 -10" stroke="#7a5aa0" stroke-width="18" fill="none" stroke-linecap="round"/>
+<path id="wsps1-colb" d="M440 300 Q456 180 436 40" stroke="#3aa0a0" stroke-width="16" fill="none" stroke-linecap="round"/>
+<path id="wsps1-w0" d="M90 90 Q81.2 48.0 112.0 30 Q142.8 48.0 134 90 Q112.0 94.80000000000001 90 90Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps1-w1" d="M160 108 Q153.2 74.4 177.0 60 Q200.8 74.4 194 108 Q177.0 111.84 160 108Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps1-w2" d="M330 76 Q322.0 36.8 350.0 20 Q378.0 36.8 370 76 Q350.0 80.48 330 76Z" fill="#f7b6c8" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps1-w3" d="M395 114 Q388.2 83.2 412.0 70 Q435.8 83.2 429 114 Q412.0 117.52000000000001 395 114Z" fill="#c8f0b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps1-w4" d="M100 200 Q92.4 165.0 119.0 150 Q145.6 165.0 138 200 Q119.0 204.0 100 200Z" fill="#ffd08a" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsps1-balc" d="M170 120 Q240 100 320 122 L316 140 Q240 124 174 142Z" fill="#c9764a" stroke="#5a3a2a" stroke-width="2"/>
+<path id="wsps1-rail" d="M176 122 Q178 104 190 100 M240 112 Q244 96 254 92 M312 122 Q310 104 300 100" stroke="#5a3a2a" stroke-width="3" fill="none"/>
+<path id="wsps1-trunk" d="M236 118 Q226 70 244 30 L252 30 Q244 70 256 116Z" fill="#6b4226"/>
+<circle id="wsps1-f1" cx="240" cy="18" r="36" fill="#2f8f3f"/><circle id="wsps1-f2" cx="200" cy="34" r="26" fill="#3aa64a"/><circle id="wsps1-f3" cx="282" cy="34" r="26" fill="#256f34"/><circle id="wsps1-f4" cx="240" cy="52" r="22" fill="#4dbb5c"/>
+<circle id="wsps1-nest" cx="262" cy="70" r="6" fill="#8a5a2a"/><path id="wsps1-twig" d="M254 74 L270 74" stroke="#5a3a2a" stroke-width="2"/>
+<circle id="wsps1-leaf1" cx="180" cy="180" r="4" fill="#3aa64a"/><circle id="wsps1-leaf2" cx="330" cy="200" r="4" fill="#3aa64a"/>
+<path id="wsps1-grass" d="M0 270 Q60 255 120 272 T240 270 T360 272 T480 268 L480 300 L0 300Z" fill="url(#wsps1-lawn)"/>
+<g id="wsps1-cin" transform="translate(150 150) scale(0.6)"><use href="#advc-cinnamon" width="240" height="240"/></g>
+<path id="wsps1-gaze" d="M262 150 Q250 130 246 96" stroke="#fff" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity=".8"/>
+<path id="wsps1-bub" d="M300 200 Q300 178 326 178 Q352 178 352 200 Q352 222 326 222 L310 232 L314 220 Q300 214 300 200Z" fill="#fff" stroke="#5a3a2a" stroke-width="2"/>
+<text id="wsps1-q" x="326" y="207" font-size="20" text-anchor="middle" font-weight="700" fill="#5a3a2a">?</text>
+</svg>

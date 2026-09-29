@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="wsphero" data-title="Waldspirale, Darmstadt — Hundertwasser's forest spiral">
+<defs>
+<linearGradient id="wsphero-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ab7ee"/><stop offset="1" stop-color="#d9f0fb"/></linearGradient>
+<linearGradient id="wsphero-gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2a0"/><stop offset="0.5" stop-color="#f2b820"/><stop offset="1" stop-color="#b77a10"/></linearGradient>
+<linearGradient id="wsphero-water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fc8e8"/><stop offset="1" stop-color="#3f8fb8"/></linearGradient>
+<linearGradient id="wsphero-lawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc95a"/><stop offset="1" stop-color="#3f9a3c"/></linearGradient>
+</defs><rect id="wsphero-sky" width="480" height="300" fill="url(#wsphero-sky)"/>
+<ellipse id="wsphero-c1" cx="90" cy="40" rx="42" ry="13" fill="#fff" opacity=".85"/><ellipse id="wsphero-c2" cx="380" cy="55" rx="50" ry="14" fill="#fff" opacity=".8"/>
+<path id="wsphero-hills" d="M0 170 Q80 140 170 165 T340 160 T480 165 L480 300 L0 300Z" fill="#5fae6a"/>
+<path id="wsphero-wingL" d="M20 240 L24 120 Q60 95 110 110 Q150 100 190 125 L195 240Z" fill="#e8956b" stroke="#5a3a2a" stroke-width="2"/>
+<path id="wsphero-bandL" d="M22 200 Q100 185 194 205 L195 240 L20 240Z" fill="#c9d66b"/>
+<path id="wsphero-roofL" d="M14 122 Q60 84 110 100 Q155 90 200 122 Q150 108 110 116 Q60 104 14 122Z" fill="url(#wsphero-lawn)" stroke="#2c6b2f" stroke-width="1.5"/>
+<path id="wsphero-wingR" d="M285 240 L290 125 Q330 100 375 112 Q425 96 462 120 L458 240Z" fill="#8fc3e6" stroke="#5a3a2a" stroke-width="2"/>
+<path id="wsphero-bandR" d="M285 205 Q380 190 458 208 L458 240 L285 240Z" fill="#f4a3b8"/>
+<path id="wsphero-roofR" d="M282 126 Q330 88 375 104 Q425 88 470 122 Q425 108 375 118 Q330 106 282 126Z" fill="url(#wsphero-lawn)" stroke="#2c6b2f" stroke-width="1.5"/>
+<path id="wsphero-wingC" d="M180 240 L182 140 Q240 120 296 140 L298 240Z" fill="#f2d16b" stroke="#5a3a2a" stroke-width="2"/>
+<path id="wsphero-stripe" d="M182 190 Q240 178 298 192 L298 205 Q240 192 182 205Z" fill="#e0703f"/>
+<g id="wsphero-dome" transform="translate(240 102) scale(1.3)"><rect x="-14" y="0" width="28" height="40" rx="6" fill="#f08a5d" stroke="#5a3a2a" stroke-width="1.5"/><path d="M-20 2 Q-24 -26 0 -44 Q24 -26 20 2Z" fill="url(#wsphero-gold)" stroke="#8a5a10" stroke-width="1.5"/><path d="M0 -44 L0 -60" stroke="#8a5a10" stroke-width="2"/><circle cx="0" cy="-62" r="4" fill="url(#wsphero-gold)"/><path d="M-5 30 Q0 10 5 30Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1"/></g>
+<path id="wsphero-colL" d="M186 240 Q182 180 190 130" stroke="#7a5aa0" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path id="wsphero-colR" d="M292 240 Q298 180 290 132" stroke="#3aa0a0" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path id="wsphero-w0" d="M38 155 Q35.2 141.0 45.0 135 Q54.8 141.0 52 155 Q45.0 156.6 38 155Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w1" d="M64 152 Q61.6 135.2 70.0 128 Q78.4 135.2 76 152 Q70.0 153.92000000000002 64 152Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w2" d="M88 158 Q84.8 145.4 96.0 140 Q107.2 145.4 104 158 Q96.0 159.44 88 158Z" fill="#f7b6c8" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w3" d="M118 150 Q115.6 134.6 124.0 128 Q132.4 134.6 130 150 Q124.0 151.76 118 150Z" fill="#c8f0b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w4" d="M146 160 Q143.2 144.6 153.0 138 Q162.8 144.6 160 160 Q153.0 161.76 146 160Z" fill="#ffd08a" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w5" d="M170 152 Q167.6 138.0 176.0 132 Q184.4 138.0 182 152 Q176.0 153.6 170 152Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w6" d="M44 190 Q40.8 176.0 52.0 170 Q63.2 176.0 60 190 Q52.0 191.6 44 190Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w7" d="M78 190 Q75.6 173.2 84.0 166 Q92.4 173.2 90 190 Q84.0 191.92000000000002 78 190Z" fill="#f7b6c8" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w8" d="M110 190 Q107.2 177.4 117.0 172 Q126.8 177.4 124 190 Q117.0 191.44 110 190Z" fill="#c8f0b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w9" d="M140 190 Q136.8 174.6 148.0 168 Q159.2 174.6 156 190 Q148.0 191.76 140 190Z" fill="#ffd08a" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w10" d="M40 230 Q37.2 217.4 47.0 212 Q56.8 217.4 54 230 Q47.0 231.44 40 230Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w11" d="M90 230 Q86.8 218.8 98.0 214 Q109.2 218.8 106 230 Q98.0 231.28 90 230Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w12" d="M150 230 Q147.6 216.0 156.0 210 Q164.4 216.0 162 230 Q156.0 231.6 150 230Z" fill="#f7b6c8" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w13" d="M302 160 Q299.2 146.0 309.0 140 Q318.8 146.0 316 160 Q309.0 161.6 302 160Z" fill="#c8f0b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w14" d="M330 156 Q327.6 139.2 336.0 132 Q344.4 139.2 342 156 Q336.0 157.92000000000002 330 156Z" fill="#ffd08a" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w15" d="M356 160 Q352.8 147.4 364.0 142 Q375.2 147.4 372 160 Q364.0 161.44 356 160Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w16" d="M388 152 Q385.6 136.6 394.0 130 Q402.4 136.6 400 152 Q394.0 153.76 388 152Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w17" d="M416 160 Q413.2 146.0 423.0 140 Q432.8 146.0 430 160 Q423.0 161.6 416 160Z" fill="#f7b6c8" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w18" d="M440 158 Q437.6 142.6 446.0 136 Q454.4 142.6 452 158 Q446.0 159.76 440 158Z" fill="#c8f0b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w19" d="M306 192 Q302.8 178.0 314.0 172 Q325.2 178.0 322 192 Q314.0 193.6 306 192Z" fill="#ffd08a" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w20" d="M340 192 Q337.6 175.2 346.0 168 Q354.4 175.2 352 192 Q346.0 193.92000000000002 340 192Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w21" d="M374 194 Q371.2 181.4 381.0 176 Q390.8 181.4 388 194 Q381.0 195.44 374 194Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w22" d="M410 192 Q406.8 176.6 418.0 170 Q429.2 176.6 426 192 Q418.0 193.76 410 192Z" fill="#f7b6c8" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w23" d="M310 232 Q307.2 219.4 317.0 214 Q326.8 219.4 324 232 Q317.0 233.44 310 232Z" fill="#c8f0b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w24" d="M370 230 Q366.8 218.8 378.0 214 Q389.2 218.8 386 230 Q378.0 231.28 370 230Z" fill="#ffd08a" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w25" d="M430 232 Q427.6 218.0 436.0 212 Q444.4 218.0 442 232 Q436.0 233.6 430 232Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w26" d="M200 172 Q197.2 156.6 207.0 150 Q216.8 156.6 214 172 Q207.0 173.76 200 172Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w27" d="M225 176 Q222.6 163.4 231.0 158 Q239.4 163.4 237 176 Q231.0 177.44 225 176Z" fill="#f7b6c8" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w28" d="M252 172 Q248.8 158.0 260.0 152 Q271.2 158.0 268 172 Q260.0 173.6 252 172Z" fill="#c8f0b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w29" d="M276 178 Q273.6 164.0 282.0 158 Q290.4 164.0 288 178 Q282.0 179.6 276 178Z" fill="#ffd08a" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w30" d="M210 230 Q207.2 216.0 217.0 210 Q226.8 216.0 224 230 Q217.0 231.6 210 230Z" fill="#fff3b0" stroke="#5a3a2a" stroke-width="1.5"/>
+<path id="wsphero-w31" d="M255 230 Q251.8 218.8 263.0 214 Q274.2 218.8 271 230 Q263.0 231.28 255 230Z" fill="#9fd8f0" stroke="#5a3a2a" stroke-width="1.5"/>
+<g id="wsphero-tree1" transform="translate(60 168) scale(0.7)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g><g id="wsphero-tree2" transform="translate(126 166) scale(0.7)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g><g id="wsphero-tree3" transform="translate(352 168) scale(0.7)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g><g id="wsphero-tree4" transform="translate(428 168) scale(0.7)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g><g id="wsphero-tree5" transform="translate(242 158) scale(0.6)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g>
+<path id="wsphero-court" d="M0 240 L480 240 L480 300 L0 300Z" fill="url(#wsphero-lawn)"/>
+<path id="wsphero-path" d="M215 240 Q230 265 170 300 L310 300 Q250 265 265 240Z" fill="#e6d3a6"/>
+<ellipse id="wsphero-pond" cx="240" cy="272" rx="78" ry="17" fill="url(#wsphero-water)" stroke="#2f6f8f" stroke-width="2"/>
+<path id="wsphero-refl" d="M200 268 Q240 262 280 268" stroke="#fff" stroke-width="2" fill="none" opacity=".7"/>
+<ellipse id="wsphero-pad1" cx="215" cy="278" rx="9" ry="3" fill="#3f9a3c"/><ellipse id="wsphero-pad2" cx="268" cy="270" rx="8" ry="3" fill="#3f9a3c"/>
+<g id="wsphero-tree6" transform="translate(30 262) scale(1.1)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g><g id="wsphero-tree7" transform="translate(450 262) scale(1.1)"><path d="M-2 0 Q0 -14 -1 -22 L3 -22 Q2 -12 4 0Z" fill="#6b4226"/><circle cx="0" cy="-30" r="13" fill="#2f8f3f"/><circle cx="-9" cy="-24" r="9" fill="#3aa64a"/><circle cx="9" cy="-25" r="9" fill="#256f34"/></g>
+<circle id="wsphero-fl1" cx="120" cy="280" r="3" fill="#ff6b8b"/><circle id="wsphero-fl2" cx="150" cy="290" r="3" fill="#ffd23f"/><circle id="wsphero-fl3" cx="350" cy="284" r="3" fill="#ff6b8b"/><circle id="wsphero-fl4" cx="380" cy="292" r="3" fill="#fff"/>
+</svg>

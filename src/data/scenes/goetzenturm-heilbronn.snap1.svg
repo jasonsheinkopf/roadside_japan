@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="gtzs1" data-title="Cinnamon dragging the enormous tower key back from the tourist office">
+<defs>
+<linearGradient id="gtzs1-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fbfe6"/><stop offset="1" stop-color="#f3e8cc"/></linearGradient>
+<linearGradient id="gtzs1-stone" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9a36a"/><stop offset="1" stop-color="#8f5b36"/></linearGradient>
+<linearGradient id="gtzs1-road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b2aba2"/><stop offset="1" stop-color="#77716a"/></linearGradient>
+</defs>
+<rect id="gtzs1-bg" width="480" height="300" fill="url(#gtzs1-sky)"/>
+<ellipse id="gtzs1-cl1" cx="90" cy="45" rx="45" ry="11" fill="#fff" opacity="0.85"/>
+<ellipse id="gtzs1-cl2" cx="130" cy="38" rx="28" ry="9" fill="#fff" opacity="0.85"/>
+<rect id="gtzs1-tower" x="290" y="0" width="150" height="230" fill="url(#gtzs1-stone)"/>
+<rect id="gtzs1-shade" x="405" y="0" width="35" height="230" fill="#5a3520" opacity="0.28"/>
+<path id="gtzs1-courses" d="M290 30H440M290 75H440M290 120H440M290 165H440M290 210H440" stroke="#7d4e2c" stroke-width="1.5" opacity="0.5" fill="none"/>
+<path id="gtzs1-blocks" d="M330 0v30M390 0v30M310 30v45M365 30v45M420 30v45M335 75v45M395 75v45M312 120v45M372 120v45M425 120v45M340 165v45M400 165v45" stroke="#7d4e2c" stroke-width="1.2" opacity="0.4" fill="none"/>
+<rect id="gtzs1-slit" x="355" y="45" width="10" height="30" rx="5" fill="#2b1c14"/>
+<rect id="gtzs1-door" x="330" y="150" width="50" height="80" rx="25" fill="#4a3020"/>
+<circle id="gtzs1-knob" cx="365" cy="195" r="3" fill="#d6b04a"/>
+<rect id="gtzs1-keyhole" x="352" y="178" width="6" height="10" rx="3" fill="#111"/>
+<path id="gtzs1-doorbars" d="M355 150V230M330 190H380" stroke="#2a1a10" stroke-width="2"/>
+<path id="gtzs1-bg-house" d="M0 150 h150 v90 h-150z" fill="#eadbbb"/>
+<path id="gtzs1-bg-roof" d="M-10 152 L75 100 L160 152Z" fill="#b5533c"/>
+<rect id="gtzs1-bgw1" x="25" y="172" width="22" height="28" fill="#5a6f84"/>
+<rect id="gtzs1-bgw2" x="100" y="172" width="22" height="28" fill="#5a6f84"/>
+<rect id="gtzs1-street" y="228" width="480" height="72" fill="url(#gtzs1-road)"/>
+<path id="gtzs1-cobs" d="M0 246H480M0 268H480M0 290H480M60 228V246M150 246V268M240 228V246M330 246V268M420 228V246M100 268V290M280 268V290M400 268V290" stroke="#5a5550" stroke-width="1.2" opacity="0.5" fill="none"/>
+<ellipse id="gtzs1-shadow" cx="190" cy="262" rx="90" ry="9" fill="#000" opacity="0.22"/>
+<g id="gtzs1-key">
+<rect id="gtzs1-keyshaft" x="90" y="240" width="150" height="10" rx="3" fill="#3a3a40" transform="rotate(-3 90 240)"/>
+<circle id="gtzs1-keybow" cx="80" cy="243" r="20" fill="none" stroke="#3a3a40" stroke-width="9"/>
+<path id="gtzs1-keybit" d="M215 236 h8 v-10 h10 v10 h8 v16 h-26z" fill="#3a3a40"/>
+<path id="gtzs1-keyshine" d="M100 238 L230 235" stroke="#8a8a93" stroke-width="2"/>
+</g>
+<g id="gtzs1-cast" transform="translate(115 90) scale(0.85)">
+<use href="#advc-cinnamon" width="240" height="240"/>
+</g>
+<path id="gtzs1-sweat" d="M125 115 q-4 8 0 12 q4 -4 0 -12z" fill="#7cc4ec"/>
+<path id="gtzs1-dust" d="M60 262 q8 -8 16 0 q8 -8 16 0" stroke="#fff" stroke-width="3" fill="none" opacity="0.7"/>
+<circle id="gtzs1-pot1" cx="30" cy="222" r="10" fill="#c76b4c"/>
+<rect id="gtzs1-pot2" x="20" y="228" width="20" height="14" fill="#a8523a"/>
+<path id="gtzs1-leaf" d="M22 210 q8 -14 16 0 q-8 6 -16 0z" fill="#5c9a52"/>
+</svg>

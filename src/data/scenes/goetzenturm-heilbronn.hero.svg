@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="gtzhero" data-title="Götzenturm, Heilbronn — tower with a black figure on the roof">
+<defs>
+<linearGradient id="gtzhero-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5f9bd6"/><stop offset="0.7" stop-color="#bcdcf0"/><stop offset="1" stop-color="#f6ecd2"/></linearGradient>
+<linearGradient id="gtzhero-stone" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9a36a"/><stop offset="0.55" stop-color="#c98d55"/><stop offset="1" stop-color="#96623a"/></linearGradient>
+<linearGradient id="gtzhero-road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a9a29a"/><stop offset="1" stop-color="#6f6963"/></linearGradient>
+</defs>
+<rect id="gtzhero-bg" width="480" height="300" fill="url(#gtzhero-sky)"/>
+<circle id="gtzhero-sun" cx="80" cy="60" r="26" fill="#fff6c8" opacity="0.8"/>
+<ellipse id="gtzhero-cl1" cx="360" cy="50" rx="50" ry="12" fill="#fff" opacity="0.85"/>
+<ellipse id="gtzhero-cl2" cx="395" cy="42" rx="30" ry="10" fill="#fff" opacity="0.85"/>
+<ellipse id="gtzhero-cl3" cx="150" cy="95" rx="40" ry="9" fill="#fff" opacity="0.7"/>
+<path id="gtzhero-hill" d="M0 175 Q80 130 170 160 T340 150 T480 165 V220 H0Z" fill="#8fb08a"/>
+<path id="gtzhero-vine" d="M0 190 Q100 160 200 185 T400 175 T480 185 V230 H0Z" fill="#76a06f"/>
+<g id="gtzhero-lefthouses">
+<rect id="gtzhero-h1" x="0" y="150" width="90" height="100" fill="#efe1c4"/>
+<path id="gtzhero-h1r" d="M-5 152 L45 112 L95 152Z" fill="#b5533c"/>
+<rect id="gtzhero-h1w1" x="14" y="170" width="16" height="22" fill="#5a6f84"/>
+<rect id="gtzhero-h1w2" x="56" y="170" width="16" height="22" fill="#5a6f84"/>
+<rect id="gtzhero-h2" x="90" y="170" width="70" height="80" fill="#e5c7a0"/>
+<path id="gtzhero-h2r" d="M85 172 L125 140 L165 172Z" fill="#9c4735"/>
+<rect id="gtzhero-h2w" x="112" y="190" width="14" height="20" fill="#5a6f84"/>
+</g>
+<g id="gtzhero-righthouses">
+<rect id="gtzhero-h3" x="350" y="160" width="80" height="90" fill="#e9d3a8"/>
+<path id="gtzhero-h3r" d="M345 162 L390 122 L435 162Z" fill="#a84c38"/>
+<rect id="gtzhero-h3w" x="372" y="182" width="16" height="22" fill="#5a6f84"/>
+<rect id="gtzhero-h4" x="430" y="145" width="60" height="105" fill="#d8b98f"/>
+<path id="gtzhero-h4r" d="M425 147 L460 110 L495 147Z" fill="#b5533c"/>
+<rect id="gtzhero-h4w" x="448" y="170" width="14" height="20" fill="#5a6f84"/>
+</g>
+<rect id="gtzhero-wall" x="150" y="205" width="200" height="45" fill="#b98a5c"/>
+<rect id="gtzhero-walltop" x="150" y="200" width="200" height="7" fill="#cfa274"/>
+<g id="gtzhero-tower">
+<rect id="gtzhero-body" x="205" y="72" width="70" height="178" fill="url(#gtzhero-stone)"/>
+<rect id="gtzhero-shade" x="258" y="72" width="17" height="178" fill="#6b4126" opacity="0.28"/>
+<rect id="gtzhero-band" x="200" y="66" width="80" height="12" fill="#d9a870"/>
+<path id="gtzhero-cr1" d="M200 66 h12 v-12 h-12z M219 66 h12 v-12 h-12z M238 66 h12 v-12 h-12z M257 66 h12 v-12 h-12z M268 66 h12 v-12 h-12z" fill="#cf9a62"/>
+<rect id="gtzhero-slit1" x="236" y="100" width="6" height="22" rx="3" fill="#2b1c14"/>
+<rect id="gtzhero-slit2" x="236" y="150" width="6" height="22" rx="3" fill="#2b1c14"/>
+<rect id="gtzhero-win" x="228" y="188" width="22" height="22" rx="11" fill="#3a2a20"/>
+<path id="gtzhero-courses" d="M205 92H275M205 135H275M205 178H275M205 222H275" stroke="#8a5a34" stroke-width="1.2" opacity="0.5" fill="none"/>
+<path id="gtzhero-blocks" d="M220 78v14M250 78v14M215 92v43M245 92v43M225 135v43M262 135v43M218 178v44M256 178v44" stroke="#8a5a34" stroke-width="1" opacity="0.4" fill="none"/>
+<rect id="gtzhero-door" x="228" y="225" width="24" height="25" rx="12" fill="#4a3020"/>
+</g>
+<g id="gtzhero-figure" transform="translate(0 -12)">
+<circle id="gtzhero-fh" cx="203" cy="28" r="6" fill="#111"/>
+<path id="gtzhero-fb" d="M198 34 L208 34 L210 52 L206 66 L200 66 L196 52Z" fill="#111"/>
+<path id="gtzhero-farm1" d="M198 38 L184 30 L183 33 L197 43Z" fill="#111"/>
+<path id="gtzhero-farm2" d="M208 38 L222 30 L223 33 L209 43Z" fill="#111"/>
+<path id="gtzhero-fleg" d="M199 60 L194 68 L201 68 L203 60Z" fill="#111"/>
+</g>
+<rect id="gtzhero-street" y="248" width="480" height="52" fill="url(#gtzhero-road)"/>
+<path id="gtzhero-cobs" d="M0 262H480M0 278H480M40 248V262M120 262V278M200 248V262M280 262V278M360 248V262M440 262V278M80 278V300M240 278V300M400 278V300" stroke="#585350" stroke-width="1" opacity="0.5" fill="none"/>
+<rect id="gtzhero-walkway" y="248" width="480" height="4" fill="#c9c0b4"/>
+<ellipse id="gtzhero-shadow" cx="250" cy="256" rx="45" ry="5" fill="#000" opacity="0.2"/>
+<rect id="gtzhero-lampp" x="320" y="215" width="4" height="40" fill="#2f2f33"/>
+<rect id="gtzhero-lamp" x="316" y="207" width="12" height="10" rx="2" fill="#f5d77a"/>
+<rect id="gtzhero-trunk" x="60" y="222" width="6" height="30" fill="#6b4a2e"/>
+<circle id="gtzhero-crown1" cx="63" cy="212" r="20" fill="#4f8a47"/>
+<circle id="gtzhero-crown2" cx="50" cy="222" r="13" fill="#5c9a52"/>
+<path id="gtzhero-bird1" d="M120 70 q5 -5 10 0 q5 -5 10 0" stroke="#333" stroke-width="1.5" fill="none"/>
+<path id="gtzhero-bird2" d="M320 90 q4 -4 8 0 q4 -4 8 0" stroke="#333" stroke-width="1.5" fill="none"/>
+<rect id="gtzhero-bench" x="380" y="238" width="30" height="5" fill="#6b4a2e"/>
+</svg>
