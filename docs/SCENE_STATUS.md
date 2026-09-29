@@ -9,8 +9,8 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 
 ## Summary
 
-- Entries (published): **280**  ·  with real photo: **204**  ·  no photo: **76**
-- Drawn hero present: **29**  ·  full set (hero+snap1+snap2): **22**
+- Entries (published): **281**  ·  with real photo: **204**  ·  no photo: **77**
+- Drawn hero present: **30**  ·  full set (hero+snap1+snap2): **23**
 - **Priority queue (no photo, no drawn hero): 49** — listed first below.
 - **Snapshot queue (missing snap1 and/or snap2): 247**.
 
@@ -372,6 +372,7 @@ auto-composed emoji `CinnamonSnapshot` fallback.
 | 2026-07-18 | Nissan Water Park | `nissan-water-park` | — | — | — | — |
 | 2026-07-18 | ROBO-ONE | `robo-one` | — | — | — | — |
 | 2026-07-18 | Starbucks Reserve Roastery Tokyo | `starbucks-reserve-roastery-tokyo` | ✅ | — | — | — |
+| 2026-07-18 | Bánh Mì Phượng | `banh-mi-phuong-hoi-an` | — | ✅ | ✅ | ✅ |
 | 2026-07-18 | Bún Chả Hương Liên (Bún Chả Obama) | `bun-cha-huong-lien` | ✅ | — | — | — |
 | 2026-07-18 | Ho Chi Minh City Museum of Fine Arts — the 99-Door Mansion | `hcmc-fine-arts-museum` | — | — | — | — |
 | 2026-07-18 | Vietnamese Women's Museum | `vietnamese-womens-museum` | ✅ | — | — | — |

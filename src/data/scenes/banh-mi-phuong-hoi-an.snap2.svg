@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="bmpb" data-title="Mon-chan's count: twenty humans deep, nobody regretting a minute">
+<defs>
+  <linearGradient id="bmpb-street" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a08a68"/>
+    <stop offset="1" stop-color="#5c4d36"/>
+  </linearGradient>
+  <linearGradient id="bmpb-roofA" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b5502f"/>
+    <stop offset="1" stop-color="#7a2e18"/>
+  </linearGradient>
+  <linearGradient id="bmpb-roofB" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3f7a6e"/>
+    <stop offset="1" stop-color="#20443c"/>
+  </linearGradient>
+  <linearGradient id="bmpb-roofC" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e0a83f"/>
+    <stop offset="1" stop-color="#a97c2a"/>
+  </linearGradient>
+  <radialGradient id="bmpb-sun" cx="0.5" cy="0" r="0.9">
+    <stop offset="0" stop-color="#ffcf8e" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#ffcf8e" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bmpb-lantern" cx="0.4" cy="0.32" r="0.75">
+    <stop offset="0" stop-color="#fff2c9"/>
+    <stop offset="0.55" stop-color="#f2a63f"/>
+    <stop offset="1" stop-color="#c9601f"/>
+  </radialGradient>
+  <linearGradient id="bmpb-bread" x1="0" y1="0" x2="1" y2="0.2">
+    <stop offset="0" stop-color="#f2deab"/>
+    <stop offset="1" stop-color="#caa057"/>
+  </linearGradient>
+  <linearGradient id="bmpb-pork" x1="0" y1="0" x2="1" y2="0.3">
+    <stop offset="0" stop-color="#d97a3e"/>
+    <stop offset="1" stop-color="#8a3c1a"/>
+  </linearGradient>
+</defs>
+
+<!-- night falling over Phan Châu Trinh street, seen from a high corner window -->
+<rect x="0" y="0" width="480" height="300" fill="#241c14"/>
+<ellipse cx="240" cy="18" rx="230" ry="80" fill="url(#bmpb-sun)"/>
+
+<!-- the lane itself, running away from the counter up toward the old town -->
+<polygon points="150,0 330,0 460,300 20,300" fill="url(#bmpb-street)"/>
+<path d="M240 0 v300" stroke="#8a7c5e" stroke-width="1" opacity="0.3" stroke-dasharray="3 6"/>
+
+<!-- shophouse roofs checkerboarding both sides of the lane, smaller toward the vanishing point -->
+<rect x="6" y="4" width="66" height="22" rx="3" fill="url(#bmpb-roofA)"/>
+<rect x="406" y="4" width="68" height="22" rx="3" fill="url(#bmpb-roofB)"/>
+<rect x="2" y="30" width="76" height="24" rx="3" fill="url(#bmpb-roofC)"/>
+<rect x="400" y="30" width="78" height="24" rx="3" fill="url(#bmpb-roofA)"/>
+<rect x="-4" y="58" width="88" height="28" rx="3" fill="url(#bmpb-roofB)"/>
+<rect x="394" y="58" width="90" height="28" rx="3" fill="url(#bmpb-roofC)"/>
+<rect x="-8" y="90" width="100" height="32" rx="3" fill="url(#bmpb-roofC)"/>
+<rect x="386" y="90" width="102" height="32" rx="3" fill="url(#bmpb-roofB)"/>
+<rect x="-12" y="126" width="114" height="36" rx="3" fill="url(#bmpb-roofA)"/>
+<rect x="376" y="126" width="116" height="36" rx="3" fill="url(#bmpb-roofC)"/>
+<line x1="38" y1="4" x2="38" y2="26" stroke="#241a10" stroke-width="1" opacity="0.4"/>
+<line x1="440" y1="30" x2="438" y2="54" stroke="#241a10" stroke-width="1" opacity="0.4"/>
+<line x1="40" y1="90" x2="42" y2="120" stroke="#241a10" stroke-width="1" opacity="0.35"/>
+
+<!-- the lantern string, hung well above the queue, strung pole to pole -->
+<path d="M168 22 Q240 8 312 22" stroke="#241a10" stroke-width="1" fill="none" opacity="0.5"/>
+<ellipse cx="196" cy="27" rx="5" ry="6.4" fill="url(#bmpb-lantern)"/>
+<ellipse cx="240" cy="16" rx="4.4" ry="5.6" fill="url(#bmpb-lantern)"/>
+<ellipse cx="284" cy="27" rx="5" ry="6.4" fill="url(#bmpb-lantern)"/>
+
+<!-- the queue: many small heads, twenty humans deep, marching toward the counter -->
+<circle cx="232" cy="64" r="2.8" fill="#1c1712"/>
+<circle cx="268" cy="72" r="3" fill="#241a12"/>
+<circle cx="208" cy="84" r="3.3" fill="#1c1712"/>
+<circle cx="276" cy="92" r="3.6" fill="#241a12"/>
+<circle cx="220" cy="106" r="4" fill="#1c1712"/>
+<circle cx="284" cy="116" r="4.4" fill="#241a12"/>
+<circle cx="200" cy="132" r="4.9" fill="#1c1712"/>
+<circle cx="292" cy="146" r="5.4" fill="#241a12"/>
+<circle cx="212" cy="164" r="6" fill="#1c1712"/>
+<ellipse cx="232" cy="69" rx="4.6" ry="2.6" fill="#2e241a" opacity="0.85"/>
+<ellipse cx="268" cy="78" rx="5" ry="2.8" fill="#3a2a1a" opacity="0.85"/>
+<ellipse cx="208" cy="90" rx="5.4" ry="3" fill="#2e241a" opacity="0.85"/>
+<ellipse cx="276" cy="99" rx="5.8" ry="3.2" fill="#3a2a1a" opacity="0.85"/>
+<ellipse cx="220" cy="113" rx="6.6" ry="3.6" fill="#2e241a" opacity="0.85"/>
+<ellipse cx="284" cy="123" rx="7" ry="3.8" fill="#3a2a1a" opacity="0.85"/>
+<ellipse cx="200" cy="140" rx="7.6" ry="4" fill="#2e241a" opacity="0.85"/>
+<ellipse cx="292" cy="154" rx="8.2" ry="4.4" fill="#3a2a1a" opacity="0.85"/>
+<ellipse cx="212" cy="173" rx="9" ry="4.8" fill="#2e241a" opacity="0.85"/>
+
+<!-- Mon-chan, twenty humans deep, taking the count -->
+<ellipse cx="322" cy="132" rx="17" ry="6" fill="#000" opacity="0.25"/>
+<g transform="translate(300 92) scale(0.27)">
+  <use href="#advc-mon" width="200" height="200"/>
+</g>
+
+<!-- Cinnamon down front, both paws needed for the mixed bánh mì -->
+<ellipse cx="176" cy="286" rx="86" ry="15" fill="#000" opacity="0.28"/>
+<g transform="translate(58 132) scale(0.62)">
+  <use href="#advc-cinnamon" width="240" height="240"/>
+</g>
+
+<!-- the enormous mixed bánh mì, wider than her arms can quite manage -->
+<path d="M96 236 q40 -30 150 -18 q34 4 44 22 q-6 20 -46 26 q-104 14 -156 -8 q-4 -12 8 -22z" fill="url(#bmpb-bread)"/>
+<path d="M104 234 q42 -22 140 -12" stroke="#8a6a3a" stroke-width="1.6" fill="none" opacity="0.5"/>
+<path d="M120 252 q60 14 130 2" stroke="#8a6a3a" stroke-width="1.4" fill="none" opacity="0.4"/>
+<path d="M150 236 q16 -8 30 -2 l-4 16 q-15 6 -28 -3z" fill="url(#bmpb-pork)"/>
+<path d="M188 234 q16 -6 30 2 l-4 15 q-15 5 -28 -4z" fill="url(#bmpb-pork)"/>
+<path d="M226 236 q8 -10 16 -3 q8 -7 13 3 q-5 10 -15 7 q-9 4 -14 -7z" fill="#6d8f45"/>
+<path d="M142 250 q7 -9 14 -3 q7 -6 12 3 q-4 9 -13 6 q-8 4 -13 -6z" fill="#5f8039"/>
+
+<!-- both paws, gripping either end so the sandwich does not get away -->
+<ellipse cx="110" cy="240" rx="15" ry="12" fill="#b9966c" stroke="#8a6c49" stroke-width="1.5"/>
+<ellipse cx="298" cy="238" rx="15" ry="12" fill="#b9966c" stroke="#8a6c49" stroke-width="1.5"/>
+<path d="M100 236 q4 -6 8 0 M108 234 q4 -7 8 0 M116 236 q4 -6 7 -1" stroke="#8a6c49" stroke-width="1.4" fill="none" opacity="0.6"/>
+<path d="M288 234 q4 -6 8 0 M296 232 q4 -7 8 0 M304 234 q4 -6 7 -1" stroke="#8a6c49" stroke-width="1.4" fill="none" opacity="0.6"/>
+</svg>
