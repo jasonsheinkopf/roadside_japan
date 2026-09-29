@@ -40,7 +40,7 @@ tips:
   - "Touching specific Moai is said to grant luck in love, money, or study — signs explain which."
   - "Combine with the nearby Udo Shrine, set inside a seaside cave."
 status: open
-approval: pending
+approval: published
 source: community
 submittedBy: "community:roadtripper"
 sources:
@@ -72,8 +72,6 @@ High on a coastal hillside in southern Miyazaki, seven stone giants gaze inland 
 ## Why It's Interesting
 
 These aren't just any replicas. After Japanese engineers helped restore toppled Moai on Rapa Nui, the island's elders granted rare permission to build the only authorized full-size copies in the world. The result is a gloriously unexpected roadside spectacle: ancient-looking monoliths on a manicured Kyushu lawn, with the ocean as a backdrop and a theme-park cheer that is pure Cinnamon Land.
-
-> This entry was submitted by a visitor and is awaiting review. Details may change before publication.
 
 ## Getting There
 

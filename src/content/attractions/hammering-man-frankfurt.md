@@ -27,7 +27,7 @@ dogFriendly: "yes"
 tips:
   - "Stand back on the pavement to watch the arm complete a full swing."
 status: open
-approval: pending
+approval: published
 source: community
 submittedBy: "a fellow traveler"
 sources:

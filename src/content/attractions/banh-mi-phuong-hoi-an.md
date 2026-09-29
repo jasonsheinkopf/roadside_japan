@@ -8,7 +8,7 @@ city: Hội An
 address: "2B Phan Châu Trinh, Hội An"
 lat: 15.8776
 lng: 108.3348
-approval: pending
+approval: published
 source: community
 submittedBy: "a fellow traveler"
 createdAt: 2026-07-18T02:20:00Z

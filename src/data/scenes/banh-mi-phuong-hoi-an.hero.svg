@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" data-prefix="bmph" data-title="Bánh Mì Phượng — the lantern-lit counter and its evening queue, Hội An">
+<defs>
+  <linearGradient id="bmph-sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#233350"/>
+    <stop offset="0.45" stop-color="#6d4c5e"/>
+    <stop offset="0.78" stop-color="#dd8a54"/>
+    <stop offset="1" stop-color="#f2b877"/>
+  </linearGradient>
+  <radialGradient id="bmph-sun" cx="0.62" cy="0.55" r="0.6">
+    <stop offset="0" stop-color="#fff0c8" stop-opacity="0.85"/>
+    <stop offset="1" stop-color="#fff0c8" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bmph-roof" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b5502f"/>
+    <stop offset="1" stop-color="#7a2e18"/>
+  </linearGradient>
+  <linearGradient id="bmph-roof2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#5c2414"/>
+    <stop offset="1" stop-color="#3a160c"/>
+  </linearGradient>
+  <linearGradient id="bmph-wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e0a83f"/>
+    <stop offset="1" stop-color="#b1802a"/>
+  </linearGradient>
+  <linearGradient id="bmph-wallfar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#93a9ae"/>
+    <stop offset="1" stop-color="#6c8286"/>
+  </linearGradient>
+  <linearGradient id="bmph-shutter" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3f7a6e"/>
+    <stop offset="1" stop-color="#295048"/>
+  </linearGradient>
+  <linearGradient id="bmph-glass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#eaf6fa"/>
+    <stop offset="1" stop-color="#a9d0da"/>
+  </linearGradient>
+  <radialGradient id="bmph-lanternA" cx="0.4" cy="0.32" r="0.75">
+    <stop offset="0" stop-color="#fff2c9"/>
+    <stop offset="0.55" stop-color="#f2a63f"/>
+    <stop offset="1" stop-color="#c9601f"/>
+  </radialGradient>
+  <radialGradient id="bmph-lanternR" cx="0.4" cy="0.32" r="0.75">
+    <stop offset="0" stop-color="#ffe1c9"/>
+    <stop offset="0.55" stop-color="#e0503f"/>
+    <stop offset="1" stop-color="#8a1f16"/>
+  </radialGradient>
+  <linearGradient id="bmph-street" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9c8360"/>
+    <stop offset="1" stop-color="#544731"/>
+  </linearGradient>
+  <radialGradient id="bmph-oven" cx="0.5" cy="0.5" r="0.6">
+    <stop offset="0" stop-color="#fff0b0"/>
+    <stop offset="0.6" stop-color="#f2822f"/>
+    <stop offset="1" stop-color="#8a2a12"/>
+  </radialGradient>
+  <linearGradient id="bmph-bread" x1="0" y1="0" x2="1" y2="0.3">
+    <stop offset="0" stop-color="#f0d9a0"/>
+    <stop offset="1" stop-color="#c9974f"/>
+  </linearGradient>
+</defs>
+
+<!-- evening sky over Hội An old town -->
+<rect x="0" y="0" width="480" height="300" fill="url(#bmph-sky)"/>
+<ellipse cx="300" cy="118" rx="150" ry="80" fill="url(#bmph-sun)"/>
+
+<!-- hazy far rooftops, the old town continuing into the dusk -->
+<path d="M-10 108 q40 -18 80 -4 q36 -16 72 -2 q34 -14 68 0 q30 -14 60 -2 q26 -12 52 0 q22 -10 44 2 v30 h-376 z" fill="url(#bmph-wallfar)" opacity="0.45"/>
+
+<!-- receding street on the left: two smaller shophouses leading the eye to the counter -->
+<polygon points="8,118 52,90 96,118" fill="url(#bmph-roof2)"/>
+<rect x="14" y="118" width="76" height="62" fill="url(#bmph-wallfar)"/>
+<rect x="26" y="132" width="20" height="26" fill="url(#bmph-shutter)" opacity="0.9"/>
+<rect x="58" y="132" width="20" height="26" fill="url(#bmph-shutter)" opacity="0.9"/>
+
+<polygon points="96,128 130,106 164,128" fill="url(#bmph-roof2)" opacity="0.9"/>
+<rect x="102" y="128" width="56" height="52" fill="url(#bmph-wallfar)" opacity="0.85"/>
+<rect x="112" y="140" width="16" height="22" fill="url(#bmph-shutter)" opacity="0.8"/>
+
+<!-- the counter itself: two roof slopes to a ridge -->
+<polygon points="176,118 300,54 300,118" fill="url(#bmph-roof)"/>
+<polygon points="300,54 458,118 300,118" fill="url(#bmph-roof)"/>
+<polygon points="166,118 468,118 478,140 158,140" fill="url(#bmph-roof2)"/>
+<rect x="284" y="54" width="32" height="8" rx="2" fill="#2c1409"/>
+<line x1="220" y1="98" x2="214" y2="116" stroke="#2c1409" stroke-width="1" opacity="0.3"/>
+<line x1="380" y1="98" x2="386" y2="116" stroke="#2c1409" stroke-width="1" opacity="0.3"/>
+
+<!-- mustard-ochre facade, upper floor with teal shutters -->
+<rect x="186" y="140" width="272" height="76" fill="url(#bmph-wall)"/>
+<rect x="212" y="150" width="34" height="46" fill="url(#bmph-shutter)"/>
+<line x1="229" y1="150" x2="229" y2="196" stroke="#183a34" stroke-width="1.4"/>
+<line x1="212" y1="172" x2="246" y2="172" stroke="#183a34" stroke-width="1.4"/>
+<rect x="394" y="150" width="34" height="46" fill="url(#bmph-shutter)"/>
+<line x1="411" y1="150" x2="411" y2="196" stroke="#183a34" stroke-width="1.4"/>
+<line x1="394" y1="172" x2="428" y2="172" stroke="#183a34" stroke-width="1.4"/>
+
+<!-- signboard over the entrance -->
+<rect x="256" y="140" width="120" height="17" fill="#241a10"/>
+<rect x="262" y="143.5" width="108" height="10" fill="none" stroke="#e2c078" stroke-width="1" opacity="0.7"/>
+
+<!-- lantern string across the counter's eave, warm and strung low over the street -->
+<path d="M170 122 Q300 152 462 122" stroke="#241a10" stroke-width="1.4" fill="none" opacity="0.6"/>
+<ellipse cx="205" cy="140" rx="10" ry="13" fill="url(#bmph-lanternR)"/>
+<ellipse cx="262" cy="150" rx="11" ry="14" fill="url(#bmph-lanternA)"/>
+<ellipse cx="330" cy="150" rx="11" ry="14" fill="url(#bmph-lanternR)"/>
+<ellipse cx="392" cy="140" rx="10" ry="13" fill="url(#bmph-lanternA)"/>
+
+<!-- the open shopfront: dark interior behind the glass case -->
+<rect x="204" y="176" width="252" height="42" fill="#20140c"/>
+<!-- shelf of wood-fired baguettes just inside -->
+<ellipse cx="222" cy="188" rx="15" ry="5" fill="url(#bmph-bread)"/>
+<ellipse cx="248" cy="188" rx="15" ry="5" fill="url(#bmph-bread)"/>
+<ellipse cx="274" cy="188" rx="15" ry="5" fill="url(#bmph-bread)"/>
+<ellipse cx="300" cy="188" rx="15" ry="5" fill="url(#bmph-bread)"/>
+<ellipse cx="326" cy="188" rx="15" ry="5" fill="url(#bmph-bread)"/>
+
+<!-- counter staff, mid-assembly behind the case -->
+<ellipse cx="240" cy="184" rx="9" ry="10" fill="#2c2018"/>
+<path d="M228 196 q12 -8 24 0 l-2 20 q-10 6 -20 0z" fill="#e9e2d4"/>
+<path d="M250 196 q10 -4 16 2" stroke="#e9e2d4" stroke-width="5" stroke-linecap="round" fill="none"/>
+<ellipse cx="360" cy="184" rx="9" ry="10" fill="#2c2018"/>
+<path d="M348 196 q12 -8 24 0 l-2 20 q-10 6 -20 0z" fill="#e9e2d4"/>
+
+<!-- the glass display case of fillings, front and center -->
+<rect x="204" y="218" width="252" height="30" fill="url(#bmph-glass)" opacity="0.92"/>
+<line x1="204" y1="222" x2="456" y2="222" stroke="#fff" stroke-width="1.4" opacity="0.6"/>
+<rect x="210" y="248" width="10" height="10" fill="#7a6a54"/>
+<rect x="440" y="248" width="10" height="10" fill="#7a6a54"/>
+<!-- rows of fillings visible through the glass -->
+<ellipse cx="222" cy="238" rx="9" ry="5" fill="#d99a86"/>
+<ellipse cx="240" cy="238" rx="9" ry="5" fill="#d99a86"/>
+<ellipse cx="258" cy="238" rx="9" ry="5" fill="#c9713e"/>
+<ellipse cx="276" cy="238" rx="9" ry="5" fill="#c9713e"/>
+<ellipse cx="294" cy="238" rx="9" ry="5" fill="#6d8f45"/>
+<ellipse cx="312" cy="238" rx="9" ry="5" fill="#6d8f45"/>
+<ellipse cx="330" cy="238" rx="9" ry="5" fill="#e0b25a"/>
+<ellipse cx="348" cy="238" rx="9" ry="5" fill="#c9713e"/>
+<ellipse cx="366" cy="238" rx="9" ry="5" fill="#6d8f45"/>
+<ellipse cx="384" cy="238" rx="9" ry="5" fill="#d99a86"/>
+
+<!-- wood-fired oven mouth at the end of the counter, embers glowing -->
+<path d="M456 160 q22 -6 22 20 q0 26 -22 30 v-50z" fill="#4a3324"/>
+<ellipse cx="463" cy="188" rx="9" ry="14" fill="url(#bmph-oven)"/>
+<path d="M462 176 q4 -8 0 -14" stroke="#ffe6b0" stroke-width="1.6" fill="none" opacity="0.7"/>
+<path d="M470 96 q-4 20 2 40 q4 16 -2 24" stroke="#e9e2d4" stroke-width="2" fill="none" opacity="0.35"/>
+
+<!-- stone step / threshold -->
+<rect x="176" y="248" width="286" height="9" fill="#8a8272"/>
+
+<!-- the street out front -->
+<rect x="0" y="257" width="480" height="43" fill="url(#bmph-street)"/>
+<path d="M0 268 Q240 262 480 268" stroke="#3a2c1c" stroke-width="1" fill="none" opacity="0.3"/>
+<path d="M0 282 Q240 277 480 282" stroke="#3a2c1c" stroke-width="1" fill="none" opacity="0.22"/>
+
+<!-- the queue: generic silhouettes lining up down the street toward the counter -->
+<ellipse cx="60" cy="253" rx="9" ry="3" fill="#000" opacity="0.2"/>
+<ellipse cx="58" cy="238" rx="5.5" ry="6.5" fill="#241c16"/>
+<path d="M50 260 q8 -12 16 0 l-1 14 h-14z" fill="#3a2c22"/>
+
+<ellipse cx="88" cy="256" rx="10" ry="3.2" fill="#000" opacity="0.2"/>
+<ellipse cx="86" cy="240" rx="6" ry="7" fill="#2c221a"/>
+<path d="M77 264 q9 -13 18 0 l-1 15 h-16z" fill="#463424"/>
+
+<ellipse cx="120" cy="259" rx="11" ry="3.4" fill="#000" opacity="0.2"/>
+<ellipse cx="118" cy="242" rx="6.5" ry="7.5" fill="#241c16"/>
+<path d="M108 268 q10 -14 20 0 l-1 16 h-18z" fill="#39271c"/>
+
+<ellipse cx="156" cy="262" rx="12" ry="3.6" fill="#000" opacity="0.2"/>
+<ellipse cx="154" cy="244" rx="7" ry="8" fill="#2c221a"/>
+<path d="M143 272 q11 -15 22 0 l-1 17 h-20z" fill="#4a3728"/>
+
+<ellipse cx="196" cy="266" rx="13" ry="3.8" fill="#000" opacity="0.22"/>
+<ellipse cx="194" cy="247" rx="7.5" ry="8.5" fill="#241c16"/>
+<path d="M182 277 q12 -16 24 0 l-1 18 h-22z" fill="#3a2c22"/>
+
+<!-- parked bicycle by the entrance, a Hội An touch -->
+<circle cx="426" cy="272" r="16" fill="none" stroke="#241a10" stroke-width="2.4"/>
+<circle cx="464" cy="272" r="16" fill="none" stroke="#241a10" stroke-width="2.4"/>
+<path d="M426 272 L448 240 L464 272 M448 240 L440 258 M426 272 L464 272" stroke="#241a10" stroke-width="2.4" fill="none"/>
+<path d="M448 240 q-8 -6 -16 -2" stroke="#241a10" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+
+<!-- woven basket of baguettes waiting by the step -->
+<path d="M172 258 q0 -13 15 -13 q15 0 15 13 z" fill="#8a6a40"/>
+<path d="M172 258 q15 5 30 0" stroke="#5c4327" stroke-width="1" fill="none" opacity="0.6"/>
+<path d="M178 246 q6 -9 9 0" stroke="#d9c090" stroke-width="4" stroke-linecap="round" fill="none"/>
+<path d="M188 246 q6 -10 9 -1" stroke="#e6d0a0" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>

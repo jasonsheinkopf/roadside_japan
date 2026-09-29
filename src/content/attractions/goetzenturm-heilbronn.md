@@ -29,7 +29,7 @@ tips:
   - "Tourist-Information Heilbronn holds the tower key (roughly Mon–Fri 10–18, Sat 10–16, per city listings) — confirm before you go."
   - "Look up from the base for the black cut-out figure balancing on the roof."
 status: open
-approval: pending
+approval: published
 source: community
 submittedBy: "a fellow traveler"
 sources:
