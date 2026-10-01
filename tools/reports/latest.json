@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-29",
-  "ran_at": "2026-09-29T05:05:00Z",
+  "date": "2026-10-01",
+  "ran_at": "2026-10-01T06:10:00Z",
   "completed": true,
-  "changed": true,
+  "changed": false,
   "added_count": 0,
-  "pending_count": 3,
-  "skipped_count": 0,
+  "pending_count": 0,
+  "skipped_count": 1,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "approx_tokens": 60000,
-  "sms_body": "Issue #132 (Abstatt-Frankfurt road trip): 3 places authored and held as pending (Waldspirale Darmstadt, Goetzenturm Heilbronn, Hammering Man Frankfurt) - coordinates/photos unverified from primary sources."
+  "approx_tokens": 30000,
+  "sms_body": "Issue #135 (same-day Frankfurt afternoon itinerary question): no place submitted, nothing published. Pointed to existing entry hammering-man-frankfurt. No email given."
 }
