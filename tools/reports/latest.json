@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-01",
-  "ran_at": "2026-10-01T06:10:00Z",
+  "date": "2026-11-01",
+  "ran_at": "2026-10-31T21:00:00Z",
   "completed": true,
   "changed": false,
   "added_count": 0,
@@ -8,6 +8,6 @@
   "skipped_count": 1,
   "new_countries": [],
   "open_inbox_remaining": 0,
-  "approx_tokens": 30000,
-  "sms_body": "Issue #135 (same-day Frankfurt afternoon itinerary question): no place submitted, nothing published. Pointed to existing entry hammering-man-frankfurt. No email given."
+  "approx_tokens": 25000,
+  "sms_body": "Issue #136 (open-ended 'recommend things in Brisbane' question): no specific place submitted, Australia not in atlas, nothing published. No email given."
 }
